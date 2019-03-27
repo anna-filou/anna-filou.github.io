@@ -4,7 +4,7 @@ Currently looking into building a new site using:
 - a statsic site generator (Jekyll or Middleman)
 - a static CMS (Netlify CMS or Forestry)
 
-To do that I plan to:
+To-do:
 - [ ] design the site with all the pages in Webflow
 - [ ] export the HTML, CSS and JS files
 - [ ] paste it into a Jekyll build
