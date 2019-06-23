@@ -8,7 +8,7 @@ To-do for new website/portfolio:
 - [x] design the site with all the pages in Webflow
 - [x] export the HTML, CSS and JS files
 - [x] paste it into a Jekyll build
-- [x] create the folder structure needed to it to work
+- [x] create the folder structure needed for it to work
 - [ ] add Liquid and frontmatter to the pages
 - [ ] Translate into GR and DE
 - [ ] Separate the text from the HTML so that I can adit MD files to make changes
