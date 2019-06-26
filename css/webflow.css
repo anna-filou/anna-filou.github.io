@@ -73,6 +73,10 @@ html.w-mod-touch * {
 .w-clearfix:after {
   content: " ";
   display: table;
+  grid-column-start: 1;
+  grid-row-start: 1;
+  grid-column-end: 2;
+  grid-row-end: 2;
 }
 .w-clearfix:after {
   clear: both;
@@ -184,6 +188,7 @@ html[data-w-dynpage] [data-w-cloak] {
   overflow: visible !important;
   white-space: nowrap;
   box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.1), 0px 1px 3px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
 }
 .w-webflow-badge > img {
   display: inline-block !important;
@@ -263,6 +268,10 @@ ol {
 .w-embed:after {
   content: " ";
   display: table;
+  grid-column-start: 1;
+  grid-row-start: 1;
+  grid-column-end: 2;
+  grid-row-end: 2;
 }
 .w-embed:after {
   clear: both;
@@ -363,8 +372,7 @@ textarea.w-select {
   height: auto;
 }
 .w-select {
-  background-image: -webkit-linear-gradient(white 0%, #f3f3f3 100%);
-  background-image: linear-gradient(white 0%, #f3f3f3 100%);
+  background-color: #f3f3f3;
 }
 .w-select[multiple] {
   height: auto;
@@ -375,24 +383,23 @@ textarea.w-select {
   font-weight: normal;
   margin-bottom: 0px;
 }
-.w-checkbox,
 .w-radio {
   display: block;
   margin-bottom: 5px;
   padding-left: 20px;
 }
-.w-checkbox:before,
 .w-radio:before,
-.w-checkbox:after,
 .w-radio:after {
   content: " ";
   display: table;
+  grid-column-start: 1;
+  grid-row-start: 1;
+  grid-column-end: 2;
+  grid-row-end: 2;
 }
-.w-checkbox:after,
 .w-radio:after {
   clear: both;
 }
-.w-checkbox-input,
 .w-radio-input {
   margin: 4px 0 0;
   margin-top: 1px \9;
@@ -506,6 +513,10 @@ textarea.w-select {
 .w-container:after {
   content: " ";
   display: table;
+  grid-column-start: 1;
+  grid-row-start: 1;
+  grid-column-end: 2;
+  grid-row-end: 2;
 }
 .w-container:after {
   clear: both;
@@ -518,6 +529,10 @@ textarea.w-select {
 .w-row:after {
   content: " ";
   display: table;
+  grid-column-start: 1;
+  grid-row-start: 1;
+  grid-column-end: 2;
+  grid-row-end: 2;
 }
 .w-row:after {
   clear: both;
@@ -757,16 +772,10 @@ textarea.w-select {
   max-width: inherit;
 }
 .w-widget-map .gm-style-iw {
-  width: 90% !important;
-  height: auto !important;
-  top: 7px !important;
-  left: 6% !important;
-  display: inline;
   text-align: center;
-  overflow: hidden;
 }
-.w-widget-map .gm-style-iw + div {
-  display: none;
+.w-widget-map .gm-style-iw > button {
+  display: none !important;
 }
 .w-widget-twitter {
   overflow: hidden;
@@ -1455,6 +1464,10 @@ textarea.w-select {
 .w-richtext:after {
   content: " ";
   display: table;
+  grid-column-start: 1;
+  grid-row-start: 1;
+  grid-column-end: 2;
+  grid-row-end: 2;
 }
 .w-richtext:after {
   clear: both;
@@ -1584,6 +1597,10 @@ textarea.w-select {
 .w-nav:after {
   content: " ";
   display: table;
+  grid-column-start: 1;
+  grid-row-start: 1;
+  grid-column-end: 2;
+  grid-row-end: 2;
 }
 .w-nav:after {
   clear: both;
@@ -1715,6 +1732,10 @@ textarea.w-select {
 .w-tabs:after {
   content: " ";
   display: table;
+  grid-column-start: 1;
+  grid-row-start: 1;
+  grid-column-end: 2;
+  grid-row-end: 2;
 }
 .w-tabs:after {
   clear: both;

@@ -1,0 +1,214 @@
+<body class="body" data-ix="new-interaction">
+  <div id="hero-section" class="hero-section">
+    <div class="w-container">
+      <div class="w-layout-grid header-grid"><img src="/images/header-girl.jpg" width="409" srcset="/images/header-girl-p-500.jpeg 500w, /images/header-girl-p-800.jpeg 800w, /images/header-girl.jpg 1698w" sizes="(max-width: 479px) 92vw, (max-width: 767px) 332.9375px, (max-width: 991px) 728px, 940px" id="w-node-a52dec8a5de7-3c225a2b" alt="" class="header-image">
+        <div id="w-node-df0d275e337f-3c225a2b" class="header-social">
+          <div class="cta-text">
+            {% if page.lang == 'en' %}
+            Find me on
+            {% elsif page.lang == 'de' %}
+            Finden Sie mich auf
+            {% elsif page.lang == 'gr' %}
+            Θα με βρείτε στο
+            {% endif %}
+          </div>
+          <div id="social-container" class="social-container">
+            <div class="w-layout-grid soci-grid"><a id="w-node-3001fa8f50cf-c8876ae2" href="https://instagram.com/brechdaslicht" target="_blank" class="icon-link w-inline-block"><img src="/images/instagram-color.svg" alt="" class="socicon"></a><a id="w-node-f353cdf8a649-c8876ae2" href="https://twitter.com/that__anna" target="_blank" class="icon-link w-inline-block"><img src="/images/twitter-color.svg" alt="" class="socicon"></a><a id="w-node-1708ed4bb46c-c8876ae2" href="https://medium.com/@anna.filou" target="_blank" class="icon-link w-inline-block"><img src="/images/medium-gray.svg" alt="" class="socicon"></a><a id="w-node-fc4ce8456fa7-c8876ae2" href="https://dribbble.com/annafilou" target="_blank" class="icon-link w-inline-block"><img src="/images/dribbble-color.svg" alt="" class="socicon"></a><a id="w-node-29a9c72d3e66-c8876ae2" href="https://www.linkedin.com/in/annafilou" target="_blank" class="icon-link w-inline-block"><img src="/images/linkedin.svg" alt="" class="socicon"></a></div>
+          </div>
+        </div>
+        <div id="w-node-6588403b8052-3c225a2b" class="hero-text-container">
+          <div> {{ page.intro }}</div>
+          <div class="_30-20px"></div>
+          <!-- contact button -->
+          <a href="#contact" class="link-block w-inline-block">
+            <div class="button">
+              <div class="button-text">
+                {% if page.lang == 'en' %}
+                Get in Touch
+                {% elsif page.lang == 'de' %}
+                Nehmen Sie Kontakt auf
+                {% elsif page.lang == 'gr' %}
+                Ελάτε σε επαφή
+                {% endif %}
+              </div>
+              <div class="fa-icon fa-right"></div>
+            </div>
+          </a>
+          <!-- contact button -->
+         </div>
+        <h1 id="w-node-3fa3f2d8b24c-3c225a2b" class="hero-h1">{{ page.heading }}</h1>
+      </div>
+    </div>
+  </div>
+  <div id="SECTION-types-of-work" class="section">
+    <div class="work-types-container w-container"><img src="/images/brush-1.png" alt="" class="brush-1">
+      <h2 class="center">
+      {% if page.lang == 'en' %}
+      What would you like to see?
+      {% elsif page.lang == 'de' %}
+      Was möchten Sie gerne sehen?
+      {% elsif page.lang == 'gr' %}
+      Τι θα θέλατε να δείτε;
+      {% endif %}
+      </h2>
+      <div class="div-block-flex">
+        <a href="/{{ page.lang }}/work/websites" class="link-block w-inline-block">
+          <div class="product-card">
+            <div class="product-card-image"><img src="/images/typing.jpg" srcset="/images/typing-p-500.jpeg 500w, /images/typing-p-800.jpeg 800w, /images/typing.jpg 885w" sizes="(max-width: 479px) 80vw, (max-width: 991px) 300px, 360px" alt="" class="image"></div>
+            <div class="product-card-description">
+              <div>
+                {% if page.lang == 'en' %}
+                <h3 class="product-name-title">Websites</h3>
+                <div class="tagline">Landing pages ● Blogs ● Restaurant Websites ● Online Stores ● etc</div>
+
+                {% elsif page.lang == 'de' %}
+                <h3 class="product-name-title">Webseiten</h3>
+                 <div class="tagline">Landing Pages ● Blogs ● Restaurant Websites ● Online Shops ● usw</div>
+
+                {% elsif page.lang == 'gr' %}
+               
+                <h3 class="product-name-title"> Ιστοσελίδες</h3>
+                <div class="tagline">Landing Pages ● Blogs ● Σελιδες Εστιατοριων ● Ιντερνετικα Καταστηματα ● κ.λπ.</div>
+                {% endif %}
+              </div>
+            </div>
+          </div>
+        </a>
+        <a href="/{{ page.lang }}/work/graphics" class="w-inline-block">
+          <div class="product-card">
+            <div class="product-card-image"><img src="/images/drawing.jpg" srcset="/images/drawing-p-500.jpeg 500w, /images/drawing-p-800.jpeg 800w, /images/drawing.jpg 885w" sizes="(max-width: 479px) 80vw, (max-width: 991px) 300px, 360px" alt="" class="image"></div>
+            <div class="product-card-description">
+              <div>
+                {% if page.lang == 'en' %}
+                <h3 class="product-name-title">Graphics</h3>
+                <div class="tagline">Illustrations ● Logos ● Comics ● Game Cards ● etc</div>
+                {% elsif page.lang == 'de' %}
+                <h3 class="product-name-title">Grafiken</h3>
+                <div class="tagline">Illustrationen ● Logos ● Comics ● Spielkarten ● usw</div>
+                {% elsif page.lang == 'gr' %}
+                <h3 class="product-name-title">Σχέδια</h3>
+                <div class="tagline">Εικονογραφησεις ● Λογοτυπα ● Κομικς ● Καρτες Παιχνιδιων ● κ.λπ.</div>
+                {% endif %}
+              </div>
+            </div>
+          </div>
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <!-- ABOUT SECTION -->
+  <div id="about" class="section">
+    <div class="w-container">
+      <div class="div-block-flex center-vertical">
+
+        <!-- MINI BIO START -->
+        <div class="div-container-mini"><img src="/images/Anna-Avatar.jpg" alt="" class="avatar-img">
+          <div class="bio-col-2">
+            <div class="mini-bio-text">
+              {% if page.lang == 'en' %}
+              I&#x27;m Anna, a designer and illustrator, living and working in Europe.
+              {% elsif page.lang == 'de' %}
+              Ich bin Anna, eine Designerin und Illustratorin, die in Europa lebt und arbeitet.
+              {% elsif page.lang == 'gr' %}
+              Με λένε Άννα, κάνω εικονογραφίσεις και ιστοσελίδες, μένω και δουλεύω στην Ευρώπη.
+              {% endif %}
+            </div>
+            <a href="/{{ page.lang }}/about">
+            <div class="button">
+              <div class="fa-icon fa-left"></div>
+                <div class="button-text">
+                 {% if page.lang == 'en' %}
+                  Read more
+                  {% elsif page.lang == 'de' %}
+                  Mehr lesen
+                  {% elsif page.lang == 'gr' %}
+                  Διαβάστε περισσότερα
+                  {% endif %}
+                </div>
+              </div>
+            </a>
+          </div>
+        </div>
+        <!-- MINI BIO END -->
+
+        <!-- COLORED BUTTONS START -->
+        <div class="div-button-container">
+          <a href="/now" class="w-inline-block">
+            <div class="button button-outline outline-blue">
+              <div class="fa-icon fa-left"></div>
+              <div class="button-text">
+              {% if page.lang == 'en' %}
+              What I&#x27;m doing now
+              {% elsif page.lang == 'de' %}
+              Was ich jetzt mache (🇺🇸)
+              {% elsif page.lang == 'gr' %}
+              Τι κάνω αυτήν την περίοδο (🇺🇸)
+              {% endif %}
+
+              </div>
+            </div>
+          </a>
+
+          <a href="https://medium.com/@anna.filou" target="_blank" class="w-inline-block">
+            <div class="button button-outline outline-peach">
+              <div class="fa-icon fa-left"></div>
+              <div class="button-text">
+              {% if page.lang == 'en' %}
+              Articles (on Medium)
+              {% elsif page.lang == 'de' %}
+              Artikel (auf Medium)
+              {% elsif page.lang == 'gr' %}
+              Άρθρα (στο Medium)
+              {% endif %}
+
+              </div>
+            </div>
+          </a>
+        </div>
+        <!-- COLORED BUTTONS END -->
+      </div>
+    </div>
+  </div>
+
+<!-- ABOUT SECTION END -->
+  <div id="contact" class="section">
+    <div class="center w-container"><img src="/images/watercolor-stain-1.png" srcset="/images/watercolor-stain-1-p-500.png 500w, /images/watercolor-stain-1.png 1136w" sizes="(max-width: 767px) 100vw, 700px" alt="" class="stain-2"><img src="/images/chat-bubbles.png" srcset="/images/chat-bubbles-p-500.png 500w, /images/chat-bubbles.png 827w" sizes="(max-width: 479px) 120px, 150px" alt="" class="chat-bubble">
+      {% if page.lang == 'en' %}
+      <h3 class="heading-11">Wanna get in touch?</h3>
+      <h4>Answer a few questions and I&#x27;ll get right back to you.</h4>
+      {% include components/typeform.html %}
+      <div class="disclaimer center">No commitments, just an ice breaker 🥶<br>You can also email me at:</div>
+      {% elsif page.lang == 'de' %}
+      <h3 class="heading-11">Möchten Sie mich kontaktieren?</h3>
+      <h4>Beantworten Sie ein paar Fragen und ich melde mich gleich zurück.</h4>
+      {% include components/typeform-de.html %}
+      <div class="disclaimer center">Keine Verpflichtungen, nur ein Eisbrecher 🥶<br>Sie können mir auch eine E-Mail schreiben:</div>
+      {% elsif page.lang == 'gr' %}
+      <h3 class="heading-11"> Θέλετε να έρθετε σε επικοινωνία;</h3>
+      <h4>Aπαντήστε μερικές ερωτήσεις και θα ακούσετε από μένα άμεσα.</h4>
+      {% include components/typeform-gr.html %}
+      <div class="disclaimer center"> Δεν υπάρχει καμία δέσμευση, απλά για να σπάσουμε τον πάγο 🥶<br> Μπορείτε να μου στείλετε και e-mail στην παρακάτω διεύθυνση:</div>
+      {% endif %}
+      
+      {% include components/email-button.html %}
+    </div>
+  </div>
+
+    <!--  Typeform Popup  -->
+  <script> (function() {
+  var qs, js, q, s, d = document,
+    gi = d.getElementById,
+    ce = d.createElement,
+    gt = d.getElementsByTagName,
+    id = "typef_orm_share",
+    b = "https://embed.typeform.com/";
+  if (!gi.call(d, id)) {
+    js = ce.call(d, "script");
+    js.id = id;
+    js.src = b + "embed.js";
+    q = gt.call(d, "script")[0];
+    q.parentNode.insertBefore(js, q)
+  }
+})() </script>
+</body>

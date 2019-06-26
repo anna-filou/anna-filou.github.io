@@ -1,0 +1,46 @@
+  <div class="section">
+    <div class="w-container">
+      {% capture about %}
+        {% include text/about.md %}
+      {% endcapture %}
+      {{ about | markdownify }}
+
+      <!-- SKILLS -->
+      <h2>Skills &amp; Tools</h2>
+      <div class="skills-wrapper">
+        {% for skill in site.skills %}
+        <div class="skill-block">
+          <div>{{ skill }}</div>
+        </div>
+        {% endfor %}
+      </div>
+
+      <!-- LANGUAGES -->
+      <h2> Languages 👄</h2>
+        <div class="skills-wrapper">
+          {% for language in site.languages %}
+          <div class="skill-block">
+            <div> {{ language.name }}</div>
+            <div class="badge {{ language.color }}">{{ language.level }}</div>
+          </div>
+          {% endfor %}
+        </div>
+
+
+      <h2>Links</h2>
+      <div class="skills-wrapper vertical">
+        <a href="/now" class="w-inline-block">
+          <div class="button button-outline outline-blue">
+            <div class="fa-icon fa-left"></div>
+            <div class="button-text">What I&#x27;m doing now</div>
+          </div>
+        </a>
+        <a href="https://medium.com/@anna.filou" target="_blank" class="w-inline-block">
+          <div class="button button-outline outline-peach">
+            <div class="fa-icon fa-left"></div>
+            <div class="button-text">Articles (on Medium)</div>
+          </div>
+        </a>
+      </div>
+    </div>
+  </div>

@@ -1,0 +1,111 @@
+  <div class="section-header websites-header">
+    <div class="container w-container">
+      <h1>Websites</h1>
+    </div>
+  </div>
+  <div class="section">
+    <div class="w-container">
+      <div class="grid-h">
+        <div class="cell grid--cell-70-60-100-100">
+          <h2>
+            {% if page.lang == 'en' %}
+            {{ site.web-heading-en }}
+            {% elsif page.lang == 'de' %}
+            {{ site.web-heading-de }}
+            {% elsif page.lang == 'gr' %}
+            {{ site.web-heading-gr }}
+            {% endif %}
+          </h2>
+        </div>
+        <div class="cell grid-cell--30-40-100-100 vertical">
+          <p class="body-text--18 margin-16px">
+            {% if page.lang == 'en' %}
+            {{ site.web-subtitle-en }}
+            {% elsif page.lang == 'de' %}
+            {{ site.web-subtitle-de }}
+            {% elsif page.lang == 'gr' %}
+            {{ site.web-subtitle-gr }}
+            {% endif %}
+        </p>
+        </div>
+      </div>
+      <a href="https://jamstack.org/" target="_blank" class="link-block w-inline-block">
+        <div class="button">
+          <div class="fa-icon fa-left"></div>
+          <div class="button-text">
+          {% if page.lang == 'en' %}
+          {{ site.jam-en }}
+          {% elsif page.lang == 'de' %}
+          {{ site.jam-de }}
+          {% elsif page.lang == 'gr' %}
+          {{ site.jam-gr }}
+          {% endif %}
+          </div>
+        </div>
+      </a>
+    </div>
+  </div>
+  <div class="section">
+    <div class="w-container">
+      <div class="text-block w-richtext">
+        
+        {% capture websites %}
+          {% include text/websites.md %}
+        {% endcapture %}
+        {{ websites | markdownify }}
+
+      </div>
+    </div>
+  </div>
+  <div class="section">
+    <div class="w-container">
+      <h1 class="center">Works</h1>
+    </div>
+  </div>
+
+
+  <div class="section">
+    <div class="w-container">
+      <!-- WORK EXAMPLE START -->
+      {% for item in site.data.websites %}
+      <div>
+        <div class="center">
+        <!-- FANCYBOX START -->
+          <a href="/images/{{ item.full }}" data-fancybox data-caption="{{ item.caption }}">
+            <img src="/images/{{ item.thumb }}" class="product-big" alt="{{ item.alt }}" />
+          </a>
+          
+        <!-- FANCYBOX END -->
+        </div>
+        <div class="cell vertical">
+          <h4>{{ item.title }}</h4>
+          <p>{{ item.description }}</p>
+          <div class="grid-h-2">
+            <div class="cell grid-cell--50-100-100-100 vertical no-padding">
+              <h6 class="heading-h6">{{ item.1-title }}</h6>
+              <p class="body-text-14">{{ item.1-text }}</p>
+            </div>
+            <div class="cell grid-cell--50-100-100-100 vertical no-padding">
+              <h6 class="heading-h6">{{ item.2-title }}</h6>
+              <p class="body-text-14">{{ item.2-text }}</p>
+            </div>
+          </div>
+          <a href="{{ item.link }}" target="_blank" class="link-block w-inline-block">
+            <div class="button button-blue">
+              <div class="button-text">Visit Website</div>
+              <div class="fa-icon fa-right"></div>
+            </div>
+          </a>
+        </div>
+      </div>
+      <div class="_30-20px"></div>
+      <hr>
+      <div class="_30-20px"></div>
+      {% endfor %}
+      <!-- WORK EXAMPLE END -->
+    </div>
+  </div>
+
+
+{% include components/cta.html %}
+{% include components/videoask-text.html %}

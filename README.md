@@ -1,16 +1,16 @@
-# This is my Personal Site
-It's a constant work in progress. Designed and built in Webflow.
-Currently looking into building a new site using:
-- a statsic site generator (Jekyll or Middleman)
-- a static CMS (Netlify CMS or Forestry)
+# Personal Portfolio
+## Work in Progress
 
-To-do for new website/portfolio:
-- [x] design the site with all the pages in Webflow
-- [x] export the HTML, CSS and JS files
-- [x] paste it into a Jekyll build
-- [x] create the folder structure needed for it to work
-- [x] add Liquid and frontmatter to the pages
-- [x] Translate into GR and DE
-- [x] Separate the text from the HTML so that I can adit MD files to make changes
-- [ ] Connect with a static CMS to edit frontmatter and MD files
-- [ ] Upload new site
+Here is where I test and "debug" my new portfolio before I copy everything to my main repo.
+
+[Temporary Netlify Link](https://new-portfolio-test.netlify.com/)
+
+- Built with: Jekyll
+- Design/Frontend: Webflow
+
+### To-do:
+- [x] fix flag images
+- [x] update text (MD files)
+- [x] research lightboxes (Webflow's default is bad)
+  - [x] implement different lightbox (Fancybox)
+- [ ] template the code for the website examples so that I can edit them through MD files (own folder)
