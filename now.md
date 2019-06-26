@@ -36,7 +36,7 @@ While I'm here I do my best not to eat a lot of junk (🍰🍫🍪) and hope to 
 ---
 
 ## ✅ Doing
-Here are my most recent [Makerlog](https://getmakerlog.com/about) achievements. Sometimes I forget to log tasks for weeks or even months though 😅 Trying to fix that.
+Here are my most recent [Makerlog](https://getmakerlog.com/about) achievements. Aiming to log more often without skipping days.
 
 <iframe title="Makerlog Embed" height="300" style="width:100%" scrolling="no" frameborder="0" allowtransparency="true" src="https://api.getmakerlog.com/users/1293/embed"></iframe>
 
