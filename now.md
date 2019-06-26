@@ -42,4 +42,4 @@ Here are my most recent [Makerlog](https://getmakerlog.com/about) achievements. 
 
 That's it for now! I try to keep this updated as much as I can.
 
-Latest Update: June 23, 2019
+Latest Update: June 27, 2019
