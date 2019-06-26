@@ -11,7 +11,8 @@ In this page you can find out what is going on in my life at the moment.
 Inspired by the [Now Now Now Project](https://nownownow.com/about).
 
 ## 🌍 Current Location
-Vienna, Austria 🇦🇹
+- Vienna, Austria 🇦🇹
+- Moving to a new apartment in the city center! 🛋️📦🚚
 
 ---
 
