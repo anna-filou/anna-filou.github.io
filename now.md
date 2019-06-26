@@ -15,6 +15,7 @@ Inspired by the [Now Now Now Project](https://nownownow.com/about).
 - Moving to a new apartment in the city center! 🛋️📦🚚
 
 While I'm here I do my best not to eat a lot of junk (🍰🍫🍪) and hope to keep it up regardless of my location.
+
 ---
 
 ## 🎯 Focusing on (current obsessions)
