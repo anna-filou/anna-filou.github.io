@@ -1,5 +1,4 @@
 # Personal Portfolio
-## Work in Progress
 
 My new trilingual website/illustration portfolio!
 
@@ -10,4 +9,3 @@ My new trilingual website/illustration portfolio!
 
 - Built with: Jekyll
 - Design/Frontend: Webflow
-
