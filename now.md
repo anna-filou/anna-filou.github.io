@@ -10,11 +10,15 @@ lang: en
 In this page you can find out what is going on in my life at the moment.
 Inspired by the [Now Now Now Project](https://nownownow.com/about).
 
+---
+
 ## 🌍 Current Location
 - Vienna, Austria 🇦🇹
-- Moving to a new apartment in the city center! 🛋️📦🚚
+- Just moved into a new apartment in the city center! 🛋️📦🚚
 
 While I'm here I do my best not to eat a lot of junk (🍰🍫🍪) and hope to keep it up regardless of my location.
+
+It's get harder though, with all the cool shops in the center.
 
 ---
 
