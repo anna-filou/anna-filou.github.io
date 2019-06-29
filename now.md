@@ -18,7 +18,7 @@ Inspired by the [Now Now Now Project](https://nownownow.com/about).
 
 While I'm here I do my best not to eat a lot of junk (🍰🍫🍪) and hope to keep it up regardless of my location.
 
-It's get harder though, with all the cool shops in the center.
+It's getting harder though, with all the cool shops in the center.
 
 ---
 
