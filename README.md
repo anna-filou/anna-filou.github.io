@@ -3,8 +3,8 @@
 
 My new trilingual website/illustration portfolio!
 
-[Home](https://annafilou.com/)
-[Now Page](https://annafilou.com/now/)
+- [Home](https://annafilou.com/)
+- [Now Page](https://annafilou.com/now/)
 
 ---
 
