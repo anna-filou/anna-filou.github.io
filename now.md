@@ -13,22 +13,19 @@ Inspired by the [Now Now Now Project](https://nownownow.com/about).
 ---
 
 ## 🌍 Current Location
-- Vienna, Austria 🇦🇹
-- Just moved into a new apartment in the city center! 🛋️📦🚚
-
-While I'm here I do my best not to eat a lot of junk (🍰🍫🍪) and hope to keep it up regardless of my location.
-
-It's getting harder though, with all the cool shops in the center.
+- Athens, Greece 🇬🇷
+- Adjusting to living here again and getting back into good habits
 
 ---
 
-## 🎯 Focusing on (current obsessions)
-- Jekyll (the static site generator powering this website)
-
+## 🎯 Focusing on
+- Getting some personal/legal/tax issues I've been avoiding sorted
+- Organizing personal documents
 ---
 
 ## 🤓 Learning
 - Webflow
+- Jekyll (the static site generator powering this website)
 - Liquid templating language (for Jekyll)
 - Airtable - advanced integrations
 
@@ -48,4 +45,4 @@ Here are my most recent [Makerlog](https://getmakerlog.com/about) achievements. 
 
 That's it for now! I try to keep this updated as much as I can.
 
-Latest Update: June 29, 2019
+Latest Update: July 17, 2019
