@@ -21,6 +21,7 @@ Inspired by the [Now Now Now Project](https://nownownow.com/about).
 ## 🎯 Focusing on
 - Getting some personal/legal/tax issues I've been avoiding sorted
 - Organizing personal documents
+
 ---
 
 ## 🤓 Learning
