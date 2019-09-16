@@ -14,13 +14,12 @@ Inspired by the [Now Now Now Project](https://nownownow.com/about).
 
 ## 🌍 Current Location
 - Athens, Greece 🇬🇷
-- Adjusting to living here again and getting back into good habits
 
 ---
 
 ## 🎯 Focusing on
-- Getting some personal/legal/tax issues I've been avoiding sorted
-- Organizing personal documents
+- Setting better business procedures in place + automations
+- A web design & development project
 
 ---
 
@@ -33,7 +32,7 @@ Inspired by the [Now Now Now Project](https://nownownow.com/about).
 ---
 
 ## 📚 Reading
-- Lots of articles on Instapaper (let's me speed read and has built-in Wiktionary support, so I prefer it over Pocket)
+- It by Stephen King on my Kindle
 
 ---
 
@@ -46,4 +45,4 @@ Here are my most recent [Makerlog](https://getmakerlog.com/about) achievements. 
 
 That's it for now! I try to keep this updated as much as I can.
 
-Latest Update: July 17, 2019
+Latest Update: September 16, 2019
