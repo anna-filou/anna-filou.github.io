@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+
+<svg width="500" height="500" viewBox="0 0 500 500" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" baseProfile="full">
+    <g transform="scale(1,-1) translate(0,-500)">
+        <path d="M 2.145695 243.802421 L 97.192228 243.802421 L 97.192228 2.716341 L 2.145695 2.716341 Z" transform="scale(0.480000,0.480000) translate(364.583319,274.999989)" opacity="1.000000"></path>
+        <path d="M 1.058684 213.131220 L 63.226166 285.027308 L 306.568929 74.612429 L 244.401447 2.716341 Z" transform="scale(0.480000,0.480000) translate(556.249978,274.999989)" opacity="1.000000"></path>
+        <path d="M 2.734790 488.950307 L 105.974378 488.950307 L 105.974378 2.716341 L 2.734790 2.716341 Z" transform="scale(0.480000,0.480000) translate(797.916635,274.999989)" opacity="1.000000"></path>
+        <path d="M 2.083333 488.950307 L 105.322918 488.950307 L 105.322918 2.716350 L 2.083333 2.716350 Z" transform="scale(0.480000,0.480000) translate(518.749979,274.999989)" opacity="1.000000"></path>
+        <path d="M 520.854980 555.616854 L 389.143318 555.616854 L 3.934167 69.382914 L 135.645828 69.382914 Z" transform="scale(0.480000,0.480000) translate(99.999996,208.333325)" opacity="1.000000"></path>
+    </g>
+</svg>
