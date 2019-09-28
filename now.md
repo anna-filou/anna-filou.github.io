@@ -13,7 +13,7 @@ Inspired by the [Now Now Now Project](https://nownownow.com/about).
 ---
 
 ## 🌍 Current Location
-- Athens, Greece 🇬🇷
+- Vienna, Austria
 
 ---
 
@@ -34,10 +34,15 @@ Inspired by the [Now Now Now Project](https://nownownow.com/about).
 ## 📚 Reading
 - It by Stephen King on my Kindle
 
+--
+
+## 漏 Random
+- I recently tried meal replacement drinks 拏 for the first time and they are so awesome! It saves so much time and brain power to not have to think about what you're going to eat each day for breakfast or lunch.
+
 ---
 
 ## ✅ Doing
-Here are my most recent [Makerlog](https://getmakerlog.com/about) achievements. Aiming to log more often without skipping days.
+Here are my most recent [Makerlog](https://getmakerlog.com/about) achievements. It's mainly for tech stuff so it's empty when I'm busy with different things.
 
 <iframe title="Makerlog Embed" height="300" style="width:100%" scrolling="no" frameborder="0" allowtransparency="true" src="https://api.getmakerlog.com/users/1293/embed"></iframe>
 
@@ -45,4 +50,4 @@ Here are my most recent [Makerlog](https://getmakerlog.com/about) achievements. 
 
 That's it for now! I try to keep this updated as much as I can.
 
-Latest Update: September 16, 2019
+Latest Update: September 28, 2019
