@@ -23,21 +23,13 @@ Inspired by the [Now Now Now Project](https://nownownow.com/about).
 
 ---
 
-## 🤓 Learning
-- Webflow
-- Jekyll (the static site generator powering this website)
-- Liquid templating language (for Jekyll)
-- Airtable - advanced integrations
-
----
-
 ## 📚 Reading
 - It by Stephen King on my Kindle
 
---
+---
 
-## 漏 Random
-- I recently tried meal replacement drinks 拏 for the first time and they are so awesome! It saves so much time and brain power to not have to think about what you're going to eat each day for breakfast or lunch.
+## 🎎 Random
+- I recently tried meal replacement drinks 🥛 for the first time and they are so awesome! 🤩 It saves so much time and brain power to not have to think about what you're going to eat each day for breakfast or lunch.
 
 ---
 
