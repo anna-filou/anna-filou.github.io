@@ -25,7 +25,7 @@ Technically I guess I'm "wasting" time that could otherwise be productive, but t
 ---
 
 ## 🌍 Current Location
-- Athens, Greece
+- 🇬🇷🏛️ Athens, Greece
 
 ---
 
@@ -39,12 +39,12 @@ Technically I guess I'm "wasting" time that could otherwise be productive, but t
 ## 📚 Reading
 - **Lifespan: Why We Age and Why We Don't Have To** by David A. Sinclair PhD, Matthew D. LaPlant
 
-Note: I'm young but I don't want want to die 🙃
+    Note: I'm young but I don't want to die 🙃
 
 ### ✅ Recently Finished
 - **It** by Stephen King
 
-Opinion: very nice story + I feel like I got some insights into humanity's nature, BUT there a lot of unnecessary details, the book could have been 400 pages long instead of 1000.
+    Opinion: very nice story + I feel like I got some insights into humanity's nature, BUT there a lot of unnecessary details, the book could have been 400 pages long instead of 1000.
 
 ---
 
