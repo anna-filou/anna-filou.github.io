@@ -37,12 +37,12 @@ Technically I guess I'm "wasting" time that could otherwise be productive, but t
 
 ---
 
-## 📚 Reading
+## 📖 Reading
 - **Lifespan: Why We Age and Why We Don't Have To** by David A. Sinclair PhD, Matthew D. LaPlant
 
     **Note:** I'm young but I don't want to die 🙃
 
-### ✅ Recently Finished
+## 📚 Recently Finished
 - **It** by Stephen King
 
     **Opinion:** very nice story + I feel like I got some insights into humanity's nature, BUT there are a LOT of unnecessary details, the book could have been 400 pages long instead of 1000.
