@@ -19,6 +19,7 @@ Inspired by the [Now Now Now Project](https://nownownow.com/about).
 
 After experiencing a moderate mental health crisis, I feel I understand myself better. 
 I'm currently spending a lot of time educating myself on my particular issue and mental health in general. 
+
 Technically I guess I'm "wasting" time that could otherwise be productive, but the goal of life IMO is to be happy and healthy for as long as possible. 
 
 ---
@@ -37,10 +38,12 @@ Technically I guess I'm "wasting" time that could otherwise be productive, but t
 
 ## 📚 Reading
 - **Lifespan: Why We Age and Why We Don't Have To** by David A. Sinclair PhD, Matthew D. LaPlant
+
 Note: I'm young but I don't want want to die 🙃
 
 ### ✅ Recently Finished
 - **It** by Stephen King
+
 Opinion: very nice story + I feel like I got some insights into humanity's nature, BUT there a lot of unnecessary details, the book could have been 400 pages long instead of 1000.
 
 ---
