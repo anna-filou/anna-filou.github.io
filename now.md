@@ -29,7 +29,7 @@ Technically I guess I'm "wasting" time that could otherwise be productive, but t
 
 ---
 
-## 🎯 Doing
+## 🎯 Focus
 - Setting better business procedures in place + automations
 - A web design & development project (PAUSED)
 - Looking into e-commerce solutions (tell me your favorite, I'd appreciate it!)
@@ -38,13 +38,12 @@ Technically I guess I'm "wasting" time that could otherwise be productive, but t
 
 ## 📚 Reading
 - **Lifespan: Why We Age and Why We Don't Have To** by David A. Sinclair PhD, Matthew D. LaPlant
-
-    Note: I'm young but I don't want to die 🙃
+    **Note:** I'm young but I don't want to die 🙃
 
 ### ✅ Recently Finished
 - **It** by Stephen King
 
-    Opinion: very nice story + I feel like I got some insights into humanity's nature, BUT there a lot of unnecessary details, the book could have been 400 pages long instead of 1000.
+    **Opinion:** very nice story + I feel like I got some insights into humanity's nature, BUT there are a LOT of unnecessary details, the book could have been 400 pages long instead of 1000.
 
 ---
 
