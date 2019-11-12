@@ -33,11 +33,12 @@ Technically I guess I'm "wasting" time that could otherwise be productive, but t
 - Setting better business procedures in place + automations
 - A web design & development project (PAUSED)
 - Looking into e-commerce solutions (tell me your favorite, I'd appreciate it!)
-
+- Watching all the movies in the Marvel Cinematic Universe—yes, really!
 ---
 
 ## 📚 Reading
 - **Lifespan: Why We Age and Why We Don't Have To** by David A. Sinclair PhD, Matthew D. LaPlant
+
     **Note:** I'm young but I don't want to die 🙃
 
 ### ✅ Recently Finished
