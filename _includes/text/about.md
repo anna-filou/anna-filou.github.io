@@ -27,7 +27,7 @@ And something more **personal**:
 
 # Über mich
 
-### Ich bin Anna und so würde ich mich selbst schlagen: 
+### Ich bin Anna und so würde ich mich vorstellen: 
 
 > Ich begeisterte mich dafür, Dinge online zu bauen und Konzepte durch Illustration zum Leben zu erwecken.
 > 
