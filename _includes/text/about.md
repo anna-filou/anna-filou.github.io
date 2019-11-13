@@ -4,6 +4,7 @@
 
 ### I'm Anna and here's how I'd pitch myself:
 > I'm passionate about building stuff online and bringing concepts to life through illustration.
+> 
 > I come up with faster and easier ways of completing repetitive processes, because time and effort are wasted when humans do things that can be automated.
 
 It's true, but a little *corporate-sounding*. So here's something **warmer**:
@@ -20,7 +21,8 @@ And something more **personal**:
 - I'm a **night** owl forced to wake up early on weekdays, which results in chronic sleep deprivation🦉🌌
 - Bullet points and spreadsheets ROCK! 🤘🏾
 
-Wanna know more? I'm happy to chat and exchange opinions.
+**Wanna know more? I'm happy to chat and exchange opinions.**
+
 {% elsif page.lang == 'de' %}
 
 # Über mich
