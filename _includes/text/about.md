@@ -18,7 +18,7 @@ And something more **personal**:
 - I taught myself English so I could play **video games**. 
     - The Nintendo DS is still my favorite console.
 - Socializing isn't my strong suit but I love **interacting with people** nevertheless. 
-- I'm a **night** owl forced to wake up early on weekdays, which results in chronic sleep deprivation🦉🌌
+- I'm a **night owl** forced to wake up early on weekdays, which results in chronic sleep deprivation🦉🌌
 - Bullet points and spreadsheets ROCK! 🤘🏾
 
 **Wanna know more? I'm happy to chat and exchange opinions.**
