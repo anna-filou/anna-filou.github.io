@@ -8,7 +8,7 @@
 > I come up with faster and easier ways of completing repetitive processes, because time and effort are wasted when humans do things that can be automated.
 
 It's true, but a little *corporate-sounding*. So here's something **warmer**:
-- I'm a tech geek with a thing for design and drawing. It might be the other way around, but that's hardly important. 
+- I'm **a tech geek with a thing for design and drawing**. It might be the other way around, but that's hardly important. 
 - Inefficiency and neglect bother me. If we're gonna do something, let's do it well.
 - I spend a lot of time online, so I notice the small things that make websites hard or unpleasant to use, then make sure to make my sites better.
 - Problem solving is the best kind of puzzle game.
@@ -27,13 +27,28 @@ And something more **personal**:
 
 # Über mich
 
-### Mein Name ist Anna und ich bin ein Technik-Freak, der sich dafür begeistert, Dinge online zu bauen und Konzepte durch Illustration zum Leben zu erwecken. 
+### Ich bin Anna und so würde ich mich selbst schlagen: 
 
-Ich denke mir schnellere und einfachere Wege aus, um sich wiederholende Prozesse durchzuführen, denn ich denke, dass Zeit und Mühe verschwendet werden, wenn Menschen Dinge tun, die automatisiert werden können.
+> Ich begeisterte mich dafür, Dinge online zu bauen und Konzepte durch Illustration zum Leben zu erwecken.
+> 
+> Ich denke mir schnellere und einfachere Wege aus, um sich wiederholende Prozesse durchzuführen, denn ich denke, dass Zeit und Mühe verschwendet werden, wenn Menschen Dinge tun, die automatisiert werden können.
 
-Das Web war schon immer ein großer Teil meines Lebens. Ich verbringe viel Zeit online und aus diesem Grund bemerke ich die kleinen Dinge, die Webseiten schwer oder unangenehm zu bedienen machen.
+Es ist wahr, aber ein wenig *korporativ klingend*. Also hier ist etwas **Wärmeres**: 
 
-Ich zeichne seit dem Kindergarten und bin ständig bestrebt, mich zu verbessern.
+- Ich bin **ein Technikfreak mit einem Faible für Design und Zeichnen**. Es könnte umgekehrt sein, aber das ist kaum wichtig. 
+- Ineffizienz und Vernachlässigung stören mich. Wenn wir etwas tun wollen, dann lass es uns gut machen. 
+- Ich verbringe viel Zeit online, also bemerke ich die kleinen Dinge, die Websites schwer oder unangenehm zu bedienen machen, und stelle dann sicher, dass meine Websites besser gebaut werden. 
+- Problemlösung ist die beste Art von Puzzle-Spiel. 
+- Neue Technologien zu entdecken und herauszufinden, wie man sie nutzt, könnte mein Lieblingsbeschäftigung sein. 
+
+Und etwas mehr **persönliches**: 
+- Ich habe mir Englisch beigebracht, um **Videospiele** spielen zu können. 
+    - Die Nintendo DS ist immer noch meine Lieblingskonsole. 
+- Sozialisieren ist nicht meine Stärke, aber ich liebe **Interaktionen mit Menschen** trotzdem. 
+- Ich bin eine **Nacht-Eule**, die gezwungen ist, werktags früh aufzuwachen, was zu chronischem Schlafentzug führt 🦉🌌 
+- Bullet Points und Spreadsheets sind TOLL! 🤘🏾 
+
+**Reicht nicht? Ich freue mich über Gespräche und Meinungsaustausch.**
 
 {% elsif page.lang == 'gr' %}
 
