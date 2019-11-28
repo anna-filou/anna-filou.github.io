@@ -63,10 +63,11 @@ ill-heading-gr: Πρόσωπα. Τα βρίσκω συναρπαστικά. Δε
 # About
 # Skills
 skills:
+  - 👩🏻‍💻 HTML
   - 💻 Webflow
   - 🔷 Netlify CMS
-  - 📊 Airtable Databases
   - 🔬 Jekyll & Liquid
+  - 📊 Airtable Databases
   - 🎨 Watercolor Illustration
   - 🖋️ Digital Illustration
   - ⭐ Logo Design
