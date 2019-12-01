@@ -64,8 +64,7 @@ Many wholesalers that sell mostly electronics choose a dark background for their
 
 > When creating any sort of website it’s important to ensure the readability of the content.
 
-`IMAGE !\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\[\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\]()`
-`IMAGE !\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\[\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\]()`
+![](/media/tm_contrast.jpg "media/tm_contrast.jpg")
 
 Thus, all color combinations on the website are accessible as per the [WCAG 2.0 guidelines for contrast accessibility](https://www.w3.org/TR/UNDERSTANDING-WCAG20/visual-audio-contrast-contrast.html), even on the pages where the background is darker (to avoid the whole thing being too monotonous.)
 
@@ -73,7 +72,7 @@ Thus, all color combinations on the website are accessible as per the [WCAG 2.0
 
 ### Content
 
-`IMAGE !\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\[\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\]()`
+![](/media/tm_mockup_info_page.min.png "media/tm_mockup_info_page.min.png")
 
 Business people all want to know some or all of the following (in addition to more specific questions that may arise down the road) when they come across a new perspective partner.
 
@@ -84,8 +83,6 @@ Business people all want to know some or all of the following (in addition to mo
 * Do they work with other companies that I already know?
 
 The first question, *what does this company do*, is answered right on the homepage and the links in the navigation bar (namely **tech** and **edibles**.)
-
-`IMAGE !\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\[\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\]()`
 
 The first link in the navigation bar is marked **info**, as that is what the visitor is most likely looking for. On the info page, all possible general questions that a new visitor might have are answered.
 
@@ -98,8 +95,6 @@ More specifically, it lets the visitor know
 * The basic details of the company, such as the registration number and VAT number which the visitor can check
 
 * Bank account information
-
-![](/media/tm_mockup_info_page.min.png "media/tm_mockup_info_page.min.png")
 
 Answers to more specific questions that may arise down the road are given in the FAQ page, linked in the footer of the website and embedded in the contact page. Since visitors tended to reach out only to get an answer to one of those questions, it might serve them better to just read the answer right there.
 
