@@ -8,11 +8,11 @@ thumb: website-techomax.jpg
 caption: Screenshots of the working website showing the home screen and part for the products screens (embedded Airtable widget showing the current stock)
 alt: three screenshots of a tech wholesale website
 description: >-
-	Bilingual corporate website complete with forms and embedded widgets that are integrated with 
-	the Airtable database used to keep track of clients, orders and everything else relating to the business
-	(e.g. customer application form, products page that shows the current inventory).<br>
-	Everything is set-up in such a way, that no server is required for hosting (static website,
-	built with Jekyll, hosted on Netlify.)
+  Bilingual corporate website complete with forms and embedded widgets that are integrated with 
+  the Airtable database used to keep track of clients, orders and everything else relating to the business
+  (e.g. customer application form, products page that shows the current inventory).<br>
+  Everything is set-up in such a way, that no server is required for hosting (static website,
+  built with Jekyll, hosted on Netlify.)
 1-title: What
 1-text: Website Design & Development, complex back-end database for business administration, incl. customer application form on website
 2-title: How
