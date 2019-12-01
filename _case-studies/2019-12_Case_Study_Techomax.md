@@ -21,9 +21,6 @@ link: https://techomax.at/en
 
 ---
 
-
-# Case Study: Techomax
-
 ## Project Overview
 
 A new company is founded in the crowded sector of general wholesale. Their main business is reselling consumer electronics and they are also working on establishing themselves in the edibles wholesale sector.

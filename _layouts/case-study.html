@@ -7,10 +7,9 @@
 <main>
   <div class="section">
     <div class="w-container">
-	<h1>Case Study</h1>
-	<h2>{{ page.title }}</h2>
+	<h1>Case Study: {{ page.title }}</h1>
 
-	{% include read_time.html %}
+	<p><strong>Read time:</strong> {% include read_time.html %}</p>
 	<hr>
 	{{ content }}
     </div>
