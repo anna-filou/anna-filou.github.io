@@ -5,16 +5,16 @@
 {% include components/navbar.html %}
 
 <main>
+  <div class="section">
+    <div class="w-container">
+	<h1>Case Study</h1>
+	<h2>{{ page.title }}</h2>
 
-<h1>Case Study</h1>
-<h2>{{ page.title }}</h2>
-
-{% include read_time.html %}
-
----
-
-{{ content }}
-
+	{% include read_time.html %}
+	<hr>
+	{{ content }}
+    </div>
+  </div>
 </main>
 {% include components/cta.html %}
 
