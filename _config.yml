@@ -58,17 +58,21 @@ jam-de: Lesen Sie mehr über den JAMstack
 jam-gr: Διαβάστε σχετικά με το JAMstack
 
 # Illustrations Page Text in all langs
-ill-heading-en: Illustrations have the power to convey meaning with a speed and intensity that text cannot match
-ill-heading-de: Illustrationen haben die Fähigkeit, Bedeutung mit einer Geschwindigkeit und Intensität zu vermitteln, die der Text nicht erreichen kann
-ill-heading-gr: Οι εικόνες έχουν την δύναμη να μεταδίδουν νοήματα με ταχύτητα και ένταση που δεν μπορεί να φτάσει το κείμενο
+ill-heading-en: Faces. They are fascinating. I can't stop observing them. When it's time to draw, guess what could possibly be the first thing that comes to mind? Faces.
+# Illustrations have the power to convey meaning with a speed and intensity that text cannot match
+ill-heading-de: Gesichter. Sie sind faszinierend. Ich kann nicht aufhören, sie zu beobachten. Wenn es Zeit zum Zeichnen ist, was könnten die ersten Bilder sein, die mir in den Sinn kommen? Gesichter.
+# Illustrationen haben die Fähigkeit, Bedeutung mit einer Geschwindigkeit und Intensität zu vermitteln, die der Text nicht erreichen kann
+ill-heading-gr: Πρόσωπα. Τα βρίσκω συναρπαστικά. Δεν μπορώ να σταματήσω να τα παρατηρώ. Όταν έρχεται ώρα για ζωγραφική, τι εικόνες να έρχονται άραγε πρώτα στο μυαλό μου? Πρόσωπα.
+# Οι εικόνες έχουν την δύναμη να μεταδίδουν νοήματα με ταχύτητα και ένταση που δεν μπορεί να φτάσει το κείμενο
 
 # About
 # Skills
 skills:
+  - 👩🏻‍💻 HTML
   - 💻 Webflow
   - 🔷 Netlify CMS
-  - 📊 Airtable Databases
   - 🔬 Jekyll & Liquid
+  - 📊 Airtable Databases
   - 🎨 Watercolor Illustration
   - 🖋️ Digital Illustration
   - ⭐ Logo Design
