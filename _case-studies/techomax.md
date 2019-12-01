@@ -84,6 +84,8 @@ Business people all want to know some or all of the following (in addition to mo
 
 The first question, *what does this company do*, is answered right on the homepage and the links in the navigation bar (namely **tech** and **edibles**.)
 
+![](/media/tm_mockup_cheese_window.min.png "media/tm_mockup_cheese_window.min.png")
+
 The first link in the navigation bar is marked **info**, as that is what the visitor is most likely looking for. On the info page, all possible general questions that a new visitor might have are answered.
 
 More specifically, it lets the visitor know
