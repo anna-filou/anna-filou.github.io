@@ -60,12 +60,12 @@ Many wholesalers that sell mostly electronics choose a dark background for their
 
 > Not wanting the website to appear too corporate, icons and illustrations not usually present in such websites were added to create a sense of friendliness and approachability.
 
-`IMAGE !\\\[\\\]()`
+`IMAGE !\\\\\\\[\\\\\\\]()`
 
 > When creating any sort of website it’s important to ensure the readability of the content.
 
-`IMAGE !\\\[\\\]()`
-`IMAGE !\\\[\\\]()`
+`IMAGE !\\\\\\\[\\\\\\\]()`
+`IMAGE !\\\\\\\[\\\\\\\]()`
 
 Thus, all color combinations on the website are accessible as per the [WCAG 2.0 guidelines for contrast accessibility](https://www.w3.org/TR/UNDERSTANDING-WCAG20/visual-audio-contrast-contrast.html), even on the pages where the background is darker (to avoid the whole thing being too monotonous.)
 
@@ -73,7 +73,7 @@ Thus, all color combinations on the website are accessible as per the [WCAG 2.0
 
 ### Content
 
-`IMAGE !\\\[\\\]()`
+`IMAGE !\\\\\\\[\\\\\\\]()`
 
 Business people all want to know some or all of the following (in addition to more specific questions that may arise down the road) when they come across a new perspective partner.
 
@@ -85,7 +85,7 @@ Business people all want to know some or all of the following (in addition to mo
 
 The first question, *what does this company do*, is answered right on the homepage and the links in the navigation bar (namely **tech** and **edibles**.)
 
-`IMAGE !\\\[\\\]()`
+`IMAGE !\\\\\\\[\\\\\\\]()`
 
 The first link in the navigation bar is marked **info**, as that is what the visitor is most likely looking for. On the info page, all possible general questions that a new visitor might have are answered.
 
@@ -99,17 +99,15 @@ More specifically, it lets the visitor know
 
 * Bank account information
 
-`IMAGE !\\\[\\\]()`
-
-`IMAGE !\\\[\\\]()`
+![](/media/tm_mockup_info_page.min.png "media/tm_mockup_info_page.min.png")
 
 Answers to more specific questions that may arise down the road are given in the FAQ page, linked in the footer of the website and embedded in the contact page. Since visitors tended to reach out only to get an answer to one of those questions, it might serve them better to just read the answer right there.
 
-`IMAGE !\\\[\\\]()`
+`IMAGE !\\\\\\\[\\\\\\\]()`
 
 There are also two pages that describe the business activities of the company more detail, as they are broken down into sections, tech and edibles. A prospective customer in one of those sectors is unlikely to be interested about the details of the other.
 
-`IMAGE !\\\[\\\]()`
+`IMAGE !\\\\\\\[\\\\\\\]()`
 
 ---
 
