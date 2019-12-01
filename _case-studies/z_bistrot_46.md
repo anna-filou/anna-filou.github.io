@@ -1,4 +1,7 @@
 ---
+layout: case-study
+lang: en
+ref: bistrot_46
 title: Bistrot 46 | Café Restaurant
 full: website-bistrot46.jpg
 thumb: website-bistrot46.jpg
