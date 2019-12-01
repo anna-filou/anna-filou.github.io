@@ -16,6 +16,11 @@ plugins:
 
 permalink: pretty
 
+# COLLECTIONS
+collections:
+  case-studies:
+    output: true
+
 # Navbar -- NOT YET IN USE
 navlinks:
   - en: Sites 
