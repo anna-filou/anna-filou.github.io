@@ -11,3 +11,5 @@ description: The owners wanted to promote their bistrot's fun, live music nights
 2-text: Static website with a menu widget embedded from Airtable (owners can update the menu themselves)
 link: https://bistrot46.gr/en.html
 ---
+
+<h1>Full case study coming soon!</h1>
