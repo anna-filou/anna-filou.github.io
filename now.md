@@ -16,27 +16,24 @@ Inspired by the [Now Now Now Project](https://nownownow.com/about).
 ---
 
 ## 📜 Summary
-Taking it easy for now, listening to music, reading comics.
-At the same time I try to make small improvements in my life, i.e. better habits, more efficient tools, improved social presence.
+Looking into new tools and workflows. Mainly focused on organizing business, efficiency, ease of use.
+Want to make my life simpler, cut down on the tools I use every day and enjoy more quality time without frustrations.
 
 ---
 
 ## 🌍 Current Location
-- 🇦🇹 Vienna, Austria
+- 🇬🇷 Athens, Greece
 
 ---
 
 ## 🎯 Focus
-- A web design & development project (PAUSED)
-- Looking into e-commerce solutions (tell me your favorite, I'd appreciate it!)
-- [✅ RECENTLY ACHIEVED] Watching all the movies in the Marvel Cinematic Universe—yes, really!
+- A web design & development project
 
 ---
 
 ## 📖 Reading
-- **Lifespan: Why We Age and Why We Don't Have To** by David A. Sinclair PhD, Matthew D. LaPlant
-
-    **Note:** I'm young but I don't want to die 🙃
+- Lots of articles on mental health
+- **[PAUSED] Lifespan: Why We Age and Why We Don't Have To** by David A. Sinclair PhD, Matthew D. LaPlant
 
 ---
 
