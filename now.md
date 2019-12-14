@@ -11,12 +11,12 @@ In this page you can find out what is going on in my life at the moment.
 Inspired by the [Now Now Now Project](https://nownownow.com/about).
 
 
-**Latest Update: November 28, 2019**
+**Latest Update: December 14, 2019**
 
 ---
 
 ## 📜 Summary
-Looking into new tools and workflows. Mainly focused on organizing business, efficiency, ease of use.
+Looking into new **tools and workflows**. Mainly focused on organizing business, efficiency, ease of use.
 Want to make my life simpler, cut down on the tools I use every day and enjoy more quality time without frustrations.
 
 ---
