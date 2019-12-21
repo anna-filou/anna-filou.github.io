@@ -15,4 +15,5 @@ description: The owners wanted to promote their bistrot's fun, live music nights
 link: https://bistrot46.gr/en.html
 ---
 
-<h1>Full case study coming soon!</h1>
+## Full case study coming soon!
+In the meantime, [visit the live website](https://bistrot46.gr)!
