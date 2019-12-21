@@ -16,4 +16,4 @@ link: https://bistrot46.gr/en.html
 ---
 
 ## Full case study coming soon!
-In the meantime, [visit the live website](https://bistrot46.gr)!
+In the meantime, [visit the live website](https://bistrot46.gr/en)!
