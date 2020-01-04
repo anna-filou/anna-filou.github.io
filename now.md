@@ -11,13 +11,15 @@ In this page you can find out what is going on in my life at the moment.
 Inspired by the [Now Now Now Project](https://nownownow.com/about).
 
 
-**Latest Update: December 14, 2019**
+**Latest Update: January 4, 2020**
 
 ---
 
 ## 📜 Summary
-Looking into new **tools and workflows**. Mainly focused on organizing business, efficiency, ease of use.
-Want to make my life simpler, cut down on the tools I use every day and enjoy more quality time without frustrations.
+- Getting back into **exercise**. I realized quite some time ago that I've lost muscle mass. I'm still a relatively fit, but it's as they say: *«use it or lose it»*. If I don't use my muscles regularly and extensively, one day I won't be *able* to use them, despite wanting to. For that reason I'm prioritizing my health now.
+- I recently learned how to use **Figma**! It's great and I'm sad I didn't try it out sooner!
+- Thinking about **writing** (or rather, posting the things that I write) more often (as in, more than once a year 😆). I'm a bit scared they're not good enough but how would I improve otherwise?
+On that note, I might add a blog section (perhaps titled «thoughts») to this website, but I need to restructure the navigation bar 🤔
 
 ---
 
@@ -26,13 +28,7 @@ Want to make my life simpler, cut down on the tools I use every day and enjoy mo
 
 ---
 
-## 🎯 Focus
-- A web design & development project
-
----
-
 ## 📖 Reading
-- Lots of articles on mental health
 - **[PAUSED] Lifespan: Why We Age and Why We Don't Have To** by David A. Sinclair PhD, Matthew D. LaPlant
 
 ---
