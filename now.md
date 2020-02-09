@@ -10,21 +10,18 @@ lang: en
 In this page you can find out what is going on in my life at the moment.
 Inspired by the [Now Now Now Project](https://nownownow.com/about).
 
-
-**Latest Update: January 4, 2020**
+**Latest Update: February 9, 2020**
 
 ---
 
 ## 📜 Summary
-- Getting back into **exercise**. I realized quite some time ago that I've lost muscle mass. I'm still a relatively fit, but it's as they say: *«use it or lose it»*. If I don't use my muscles regularly and extensively, one day I won't be *able* to use them, despite wanting to. For that reason I'm prioritizing my health now.
-- I recently learned how to use **Figma**! It's great and I'm sad I didn't try it out sooner!
-- Thinking about **writing** (or rather, posting the things that I write) more often (as in, more than once a year 😆). I'm a bit scared they're not good enough but how would I improve otherwise?
-On that note, I might add a blog section (perhaps titled «thoughts») to this website, but I need to restructure the navigation bar 🤔
+- Currently undergoing some life changes. 
+- 🇯🇵 Decided to get serious about learning **Japanese**. Discovered a very helpful YouTube chanel that teaches grammar and watching a few videos every couple of days. Meanwhile, I'm replaying my favorite game of all time *in Japanese* and looking up every word. I managed to learn English that way, so why not Japanese too?
 
 ---
 
 ## 🌍 Current Location
-- 🇬🇷 Athens, Greece
+- 🇦🇹 Vienna, Austria
 
 ---
 
