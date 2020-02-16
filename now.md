@@ -21,7 +21,7 @@ Inspired by the [Now Now Now Project](https://nownownow.com/about).
 ---
 
 ## 🌍 Current Location
--  Athens, Greece
+- 🇬🇷 Athens, Greece
 
 ---
 
