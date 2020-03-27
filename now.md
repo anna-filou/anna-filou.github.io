@@ -23,7 +23,7 @@ Inspired by the [Now Now Now Project](https://nownownow.com/about).
 ---
 
 ## 🌍 Current Location
-- 🇬🇷 Athens, Greece ( at home)
+- 🇬🇷 Athens, Greece (🏡 at home)
 
 ---
 
