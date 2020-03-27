@@ -10,18 +10,20 @@ lang: en
 In this page you can find out what is going on in my life at the moment.
 Inspired by the [Now Now Now Project](https://nownownow.com/about).
 
-**Latest Update: February 16, 2020**
+**Latest Update: March 27, 2020**
 
 ---
 
 ## 📜 Summary
-- Currently undergoing some life changes. 
-- 🇯🇵 Decided to get serious about learning **Japanese**. Discovered a very helpful YouTube chanel that teaches grammar and watching a few videos every couple of days. Meanwhile, I'm replaying my favorite game of all time *in Japanese* and looking up every word. I managed to learn English that way, so why not Japanese too?
+- 🇯🇵💬 Learning Japanese by studying grammar 📕 and playing Japanese video games 🎮
+- 🖍 Thinking about redesigning my website... slightly. To make it more straight-to-the point and easier to update.
+- 🦠 Projects are running slower because of the pandemic. That’s a good opportunity to learn more things! 🤓
+- 🏃🏻‍♀️Starting to get back into fitness and physical health.
 
 ---
 
 ## 🌍 Current Location
-- 🇬🇷 Athens, Greece
+- 🇬🇷 Athens, Greece ( at home)
 
 ---
 
