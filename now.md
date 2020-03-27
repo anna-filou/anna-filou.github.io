@@ -18,7 +18,7 @@ Inspired by the [Now Now Now Project](https://nownownow.com/about).
 - 🇯🇵💬 Learning Japanese by studying grammar 📕 and playing Japanese video games 🎮
 - 🖍 Thinking about redesigning my website... slightly. To make it more straight-to-the point and easier to update.
 - 🦠 Projects are running slower because of the pandemic. That’s a good opportunity to learn more things! 🤓
-- 🏃🏻‍♀️Starting to get back into fitness and physical health.
+- 🏃🏻‍♀️ Starting to get back into fitness and physical health.
 
 ---
 
