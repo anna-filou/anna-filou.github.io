@@ -1,0 +1,20 @@
+---
+label: Color Illustration
+hide_body: true
+fields:
+- type: field_group_list
+  name: Color
+  label: Color
+  fields:
+  - type: file
+    name: full
+    label: full
+  - type: file
+    name: thumb
+    label: thumb
+  - type: textarea
+    name: caption
+    label: caption
+  - type: text
+    name: alt
+    label: alt
