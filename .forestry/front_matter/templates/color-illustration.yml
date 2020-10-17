@@ -8,13 +8,13 @@ fields:
   fields:
   - type: file
     name: full
-    label: full
+    label: Hi-Res Image
   - type: file
     name: thumb
-    label: thumb
+    label: Low-Res Image Thumbnail
   - type: textarea
     name: caption
-    label: caption
+    label: Lightbox Caption
   - type: text
     name: alt
-    label: alt
+    label: Image Alt text
