@@ -3,40 +3,38 @@ layout: base
 title: Now - Anna Filou | Web Designer, Illustrator
 description: This is up what I'm currently up to
 lang: en
----
 
+---
 # Now Page
 
 In this page you can find out what is going on in my life at the moment.
 Inspired by the [Now Now Now Project](https://nownownow.com/about).
 
-**Latest Update: March 27, 2020**
+**Latest Update: October 17, 2020**
 
----
+***
 
-## 📜 Summary
-- 🇯🇵💬 Learning Japanese by studying grammar 📕 and playing Japanese video games 🎮
-- 🖍 Thinking about redesigning my website... slightly. To make it more straight-to-the point and easier to update.
-- 🦠 Projects are running slower because of the pandemic. That’s a good opportunity to learn more things! 🤓
-- 🏃🏻‍♀️ Starting to get back into fitness and physical health.
+## 📜 General
 
----
+* 👩🏻‍💻 Lots of work, everything else is kind of paused.
+* 💪🏻 Still finding time to workout.
+* 👩🏻‍🎨 I want to redesign my own portfolio because it's not a reflection of my current skills but 1) I can't decide what kind of impression I want visitors to get and 2) it's not as important as my current projects.
 
-## 🌍 Current Location
-- 🇬🇷 Athens, Greece (🏡 at home)
+***
 
----
+## 📖 Learning
 
-## 📖 Reading
-- **[PAUSED] Lifespan: Why We Age and Why We Don't Have To** by David A. Sinclair PhD, Matthew D. LaPlant
+* [Forestry CMS](forestry.io) (in fact, I used that to update this very post!) because I need to give clients an easy way to edit the websites I make, but I don't want to involve rented servers and create dependencies (if you remove Forestry from a website, nothing will change because it's Git-based).
+* The next SSG I want to learn to use is [11ty](https://github.com/vwochnik/jekyll-email-protect). Seems like everyone's raving about it. I found an interesting looking course and wanna give it a go but I'm not very familiar with JavaScript… Seems I'll be learning that as well.
 
----
+***
 
-## ✅ Doing
-Here are my most recent [Makerlog](https://getmakerlog.com/about) achievements. It's mainly for tech stuff so it's empty when I'm busy with different things.
+## 💭 Thoughts
 
-<iframe title="Makerlog Embed" height="300" style="width:100%" scrolling="no" frameborder="0" allowtransparency="true" src="https://api.getmakerlog.com/users/1293/embed"></iframe>
+I constantly learn all sorts of different things but don't take the necessary time to get **really good** at any single thing… I mean, I've certainly learned a lot by doing this over many years, but perhaps I need to take some time off of learning random stuff and “specialize” for a while. Then I can go back to learning other things. Easy in theory, hard in practice.
 
----
+***
 
-That's it for now! I try to keep this updated as much as I can.
+## 🌍 Location
+
+* 🇬🇷 Athens, Greece
