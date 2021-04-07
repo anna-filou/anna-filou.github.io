@@ -27,3 +27,6 @@ Despite the obvious struggles, there's a lot I'm thankful for.
 * 👫👭 I spend quality time with my friends every week
 * ⛸️ I started roller skating (coming from a background of ice skating)!
 * 👨‍💻 I got a full-time job I enjoy
+* 🇯🇵 My Japanese has improved to the point where I can play Japanese games and roughly understand what's going on 😅
+
+Life can be really bad. And really good. It'll always be like that.
