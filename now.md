@@ -1,44 +1,29 @@
 ---
 layout: base
 title: Now - Anna Filou | Web Designer, Illustrator
-description: This is up what I'm currently up to
+description: This is what I'm currently doing
 lang: en
-date: October 17, 2020
+date: April 8, 2021
 
 ---
 # Now Page
 
 ## What is this page?
-It’s more or less the answer to “what are you up to lately?”
-Learn more about the [Now Now Now project](https://nownownow.com/about).
 
-## Here’s what I’m up to
+It’s more or less the answer to “what are you up to lately?” Learn more about the [Now Now Now project](https://nownownow.com/about).
+
+## Me right now
 
 **Latest Update: {{ page.date }}**
 
 ***
 
-### 📜 General
+The last time I updated this page was a few days before my dad died. Almost 6 months ago. Crazy how much my life has changed in such a short amount of time.
 
-* 👩🏻‍💻 Lots of work, everything else is kind of paused.
-* 💪🏻 Still finding time to workout.
-* 👩🏻‍🎨 I want to redesign my own portfolio because it's not a reflection of my current skills but 1) I can't decide what kind of impression I want visitors to get and 2) it's not as important as my current projects.
+Despite the obvious struggles, there's a lot I'm thankful for.
 
-***
-
-### 📖 Learning
-
-* [Forestry CMS](forestry.io) (in fact, I used that to update this very post!) because I need to give clients an easy way to edit the websites I make, but I don't want to involve rented servers and create dependencies (if you remove Forestry from a website, nothing will change because it's Git-based).
-* The next SSG I want to learn to use is [11ty](https://github.com/vwochnik/jekyll-email-protect). Seems like everyone's raving about it. I found an interesting looking course and wanna give it a go but I'm not very familiar with JavaScript… Seems I'll be learning that as well.
-
-***
-
-### 💭 Thoughts
-
-I constantly learn all sorts of different things but don't take the necessary time to get **really good** at any single thing… I mean, I've certainly learned a lot by doing this over many years, but perhaps I need to take some time off of learning random stuff and “specialize” for a while. Then I can go back to learning other things. Easy in theory, hard in practice.
-
-***
-
-### 🌍 Location
-
-* 🇬🇷 Athens, Greece
+* 💚 I'm healthy and fit
+* ❤️ The people I love are healthy and fit
+* 👫👭 I spend quality time with my friends every week
+* ⛸️ I started roller skating (coming from a background of ice skating)!
+* 👨‍💻 I got a full-time job I enjoy
