@@ -12,8 +12,6 @@ date: April 8, 2021
 
 It’s more or less the answer to “what are you up to lately?” Learn more about the [Now Now Now project](https://nownownow.com/about).
 
-## Me right now
-
 **Latest Update: {{ page.date }}**
 
 ***
