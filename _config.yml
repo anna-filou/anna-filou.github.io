@@ -90,6 +90,9 @@ languages:
   - name: 🇬🇷 Greek
     level: Native
     color: green
+  - name: 🇯🇵 Japanese
+    level: Beginner
+    color:
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
