@@ -1,40 +1,16 @@
-<!-- FOOTER START -->
-  <div id="footercon" class="section footer-section">
-    <div class="w-container">
-      <div class="div-block-flex">
-        
-        <div class="footer-links-container">
-          {% if page.lang == 'en' %}
-          <a href="/{{ page.lang }}/work/websites" class="footer-link">Websites</a><a href="/{{ page.lang }}/work/graphics" class="footer-link">Illustrations</a><a href="/{{ page.lang }}/about" class="footer-link">About</a><a data-w-id="a20e520e-0e13-b1a0-8e2b-9d00e50d73bf" href="/#contact" class="footer-link">Contact</a><a data-w-id="1efe5f13-e21d-470c-10ca-7b1cb5c4a8fb" href="/now.html" class="footer-link">Now Page</a>
-          {% elsif page.lang == 'de' %}
-          <a href="/{{ page.lang }}/work/websites" class="footer-link">Websites</a><a href="/{{ page.lang }}/work/graphics" class="footer-link">Illustrationen</a><a href="/{{ page.lang }}/about" class="footer-link">Über mich</a><a data-w-id="a20e520e-0e13-b1a0-8e2b-9d00e50d73bf" href="/#contact" class="footer-link">Kontakt</a><a data-w-id="1efe5f13-e21d-470c-10ca-7b1cb5c4a8fb" href="/now.html" class="footer-link">Im Moment ("Now Page")</a>
-          {% elsif page.lang == 'gr' %}
-          <a href="/{{ page.lang }}/work/websites" class="footer-link"> Ιστοσελιδες</a><a href="/{{ page.lang }}/work/graphics" class="footer-link">Ζωγραφιες</a><a href="/{{ page.lang }}/about" class="footer-link">Σχετικα με μενα</a><a data-w-id="a20e520e-0e13-b1a0-8e2b-9d00e50d73bf" href="/#contact" class="footer-link">Επικοινωνια</a><a data-w-id="1efe5f13-e21d-470c-10ca-7b1cb5c4a8fb" href="/now.html" class="footer-link">Τωρα (Now Page)</a>
-          {% endif %}
-          
-        </div>
-
-        <div class="inline-div social-footer-div">
-          <div id="social-container" class="social-container footer-social">
-            <div class="w-layout-grid soci-grid"><a id="w-node-9d00e50d73c4-e50d73b3" href="https://instagram.com/brechdaslicht" target="_blank" class="icon-link w-inline-block"><img src="/images/inst-glyph.svg" alt="" class="socicon footer-socicon"></a><a id="w-node-9d00e50d73c6-e50d73b3" href="https://twitter.com/that__anna" target="_blank" class="icon-link w-inline-block"><img src="/images/twi-logo.svg" alt="" class="socicon footer-socicon"></a><a id="w-node-9d00e50d73c8-e50d73b3" href="https://medium.com/@anna.filou" target="_blank" class="icon-link w-inline-block"><img src="/images/medium-square.svg" alt="" class="socicon footer-socicon"></a><a id="w-node-9d00e50d73ca-e50d73b3" href="https://dribbble.com/annafilou" target="_blank" class="icon-link w-inline-block"><img src="/images/drib-icon.svg" alt="" class="socicon footer-socicon"></a><a href="https://www.linkedin.com/in/annafilou" target="_blank" class="w-inline-block"><img src="/images/linkedin.svg" alt="" class="socicon footer-socicon"></a></div>
-          </div>
-        </div>
+<footer class="container mv5 bt b--gray">
+    <div class="cf mt4">
+      <div class="fl w-100 w-50-ns pa3 pl0-ns br2 ba1 b--gray">
+        <p class="secondary f6 b mt0">Copyright Anna Filou 2021</p>
+        <p class="secondary f6"> This website was designed and developed by me, built using Jekyll and relies heavily on the Tachyons CSS framework.
+          <br><strong>Fun fact</strong>: Switch your device to ☀️/🌛 mode and this website will switch too.
+        </p>
+        <p class="secondary f6">I use Google Analytics to satisfy my curiosity regarding visitor numbers. It’s supposedly anonymous but you can opt-out of tracking here.
+        </p>
       </div>
-      
-      {% if page.lang == 'en' %}
-      <div class="footer-text">© {{ site.time | date: '%Y' }}, Anna Filou — Kindly link back to annafilou.com when sharing.</div>
-      <div class="footer-text">GISA-Zahl (Austrian company register number): 31404150</div>
-      <div class="footer-text">This website uses anonymized Google and Hotjar Analytics. Country flag &amp; contact form icons by <a href="https://icons8.com" target="_blank" class="footer-text">icons8.</a></div>
-      {% elsif page.lang == 'de' %}
-      <div class="footer-text">© {{ site.time | date: '%Y' }}, Anna Filou - Bitte verlinken Sie zurück zu annafilou.com, wenn Sie die Bilder teilen.</div>
-      <div class="footer-text">GISA-Zahl (österreichische Handelsregisternummer): 31404150</div>
-      <div class="footer-text">Diese Website verwendet anonymisierte Google und Hotjar Analytics. Länderflagge &amp; Kontaktformular-Icons von <a href="https://icons8.com" target="_blank" class="footer-text">icons8.</a></div>
-      {% elsif page.lang == 'gr' %}
-      <div class="footer-text">© {{ site.time | date: '%Y' }}, Άννα Φίλου — Παρακάλω κάντε αναφορά στο annafilou.com αν ανεβάσετε τις εικόνες κάπου αλλού.</div>
-      <div class="footer-text">GISA-Zahl (Αυστριακός εταιρικός αριθμός): 31404150</div>
-      <div class="footer-text"> Αυτό το site χρησιμοποιεί Analytics από Google και Hotjar. Η επίσκεψή σας παραμένει ανώνυμη. Σημαίες χωρών &amp; εικονίδια στην φόρμα επικοινωνίας από <a href="https://icons8.com" target="_blank" class="footer-text">icons8.</a></div>
-      {% endif %}
-
+      <dl class="fl lh-title w-100 w-50-ns pa3 br2 bg-white-10 mw7">
+        <dt class="f6 b mb1">Author’s Note</dt>
+        <dd class="secondary f6 ml0">My website isn’t as good as I’d like it to be. Not because I don’t have enough free time to make it great. But because I’d rather spend it with my partner and friends. Even so, I’ll get to it.</dd>
+      </dl>
     </div>
-  </div>
-  <!-- FOOTER END -->
+  </footer>

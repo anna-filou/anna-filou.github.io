@@ -1,95 +1,15 @@
-<!-- NAVBAR START -->
-  <div class="global-nav-wrapper">
-    <div class="w-container">
-      <div class="w-layout-grid grid"><a href="/{{ page.lang }}/" id="w-node-51a7aa7c3756-aa7c3753" class="logo-link w-inline-block"><img src="/images/AN-logo.svg" alt="AN Logo" class="logo-img"></a>
-        <div id="w-node-51a7aa7c3758-aa7c3753" class="nav-buttons-wrapper">
-          <a href="/{{ page.lang }}/work/websites" data-w-id="e42f4f50-d445-d1fa-8c94-51a7aa7c3759" class="global-nav-button w-inline-block">
-            <div class="fa-icon fa-left"></div>
-            <div class="nav-text">
-            {% if page.lang == 'en' %}
-            Sites
-            {% elsif page.lang == 'de' %}
-            Seiten
-            {% elsif page.lang == 'gr' %}
-            Site
-            {% endif %}
-            </div>
-            <div data-w-id="e42f4f50-d445-d1fa-8c94-51a7aa7c375c" class="left-line"></div>
-            <div data-w-id="e42f4f50-d445-d1fa-8c94-51a7aa7c375d" class="right-line"></div>
-            <div data-w-id="e42f4f50-d445-d1fa-8c94-51a7aa7c375e" class="bottom-line"></div>
-            <div data-w-id="e42f4f50-d445-d1fa-8c94-51a7aa7c375f" class="top-line"></div>
-          </a>
-          <a href="/{{ page.lang }}/work/graphics" data-w-id="e42f4f50-d445-d1fa-8c94-51a7aa7c3760" class="global-nav-button w-inline-block">
-            <div class="fa-icon fa-left"></div>
-            <div class="nav-text">
-            {% if page.lang == 'en' %}
-            Art
-            {% elsif page.lang == 'de' %}
-            Kunst
-            {% elsif page.lang == 'gr' %}
-            Art
-            {% endif %}
-            </div>
-            <div class="left-line"></div>
-            <div class="right-line"></div>
-            <div class="bottom-line"></div>
-            <div class="top-line"></div>
-          </a>
-          <a href="/{{ page.lang }}/about" data-w-id="e42f4f50-d445-d1fa-8c94-51a7aa7c3767" class="global-nav-button w-inline-block">
-            <div class="nav-text">
-            {% if page.lang == 'en' %}
-            About
-            {% elsif page.lang == 'de' %}
-            Info
-            {% elsif page.lang == 'gr' %}
-            Info
-            {% endif %}
-            </div>
-            <div class="left-line"></div>
-            <div class="right-line"></div>
-            <div class="bottom-line"></div>
-            <div class="top-line"></div>
-          </a>
-          <a href="/{{ page.lang }}/#contact" data-w-id="e42f4f50-d445-d1fa-8c94-51a7aa7c376e" class="global-nav-button w-inline-block">
-            <div class="nav-text">
-            {% if page.lang == 'en' %}
-            Contact
-            {% elsif page.lang == 'de' %}
-            Kontakt
-            {% elsif page.lang == 'gr' %}
-            Contact
-            {% endif %}
-            </div>
-            <div class="left-line"></div>
-            <div class="right-line"></div>
-            <div class="bottom-line"></div>
-            <div class="top-line"></div>
-          </a>
-        </div>
-
-        <!-- FLAGS START -->
-        <div id="w-node-51a7aa7c3775-aa7c3753" class="nav-buttons-wrapper lang-wrapper">
-
-          <a href="/{% if page.lang == 'gr' %}en{% else %}gr{% endif %}/{{ page.ref }}" data-w-id="e42f4f50-d445-d1fa-8c94-51a7aa7c3776" class="global-nav-button flag-nav w-inline-block">
-            <img src="/images/flag-{% if page.lang == 'gr' %}usa{% else %}gr{% endif %}.png" alt="" class="flag-2">
-              <div class="left-line"></div>
-              <div class="right-line"></div>
-              <div class="bottom-line"></div>
-              <div class="top-line"></div>
-          </a>
-          
-          <a href="/{% if page.lang == 'de' %}en{% else %}de{% endif %}/{{ page.ref }}" data-w-id="e42f4f50-d445-d1fa-8c94-51a7aa7c377c" class="global-nav-button flag-nav w-inline-block">
-            <img src="/images/flag-{% if page.lang == 'de' %}usa{% else %}de{% endif %}.png" alt="" class="flag-2">
-              <div class="left-line"></div>
-              <div class="right-line"></div>
-              <div class="bottom-line"></div>
-              <div class="top-line"></div>
-          </a>
-
-        </div>
-        <!-- FLAGS END -->
-
-      </div>
-    </div>
-  </div>
-<!-- NAVBAR END -->
+	<header class="pa2 pt3 bt bw3-l b--dark-green">
+		<nav class="nowrap overflow-x-auto flex items-center">
+		<a class="link dim dib mr4" href="/{{page.lang}}/">
+			<svg width="50px" viewBox="0 0 201 123" xmlns="http://www.w3.org/2000/svg">
+			<path fill-rule="evenodd" clip-rule="evenodd" d="M104.423 32.4863V122.486H130.234V84.3129L174.381 122.486H200.193V0.921158H174.381V91.0717L130.234 52.8984V0.921158H104.423L96.5 0.921188L0.192505 122.486H33.1222L65.8948 81.1187V122.486H89.6577V62.2114H80.8737L104.423 32.4863Z"/>
+			</svg>
+		</a>
+		<a class="link dib mr3 underline-hover" href="/{{page.lang}}/contact">Contact</a>
+		<a class="link dib mr3 underline-hover" href="/{{page.lang}}/graphics">Drawing</a>
+		<!-- <a class="link dib mr3" href="writing">Writing</a> -->
+		<a class="link dib mr3 fw4 secondary underline-hover" href="/now">Now</a>
+		<!-- <a class="link dib mr3 fw4 secondary" href="">Offline</a> -->
+		<!-- <a class="link dib mr3" href="typography">Typography</a> -->
+		</nav>
+	</header>

@@ -1,0 +1,83 @@
+en: 
+  - title: MONSTER ENERGY HOMEPAGE CONCEPT
+    desc: Not commissioned by Monster Energy.
+    img: /assets/monster-behance-cover.jpg
+    tags: 
+      - name: Just for fun
+        classes: bg-light-yellow orange
+      - name: Web design
+        classes: bg-lightest-blue dark-blue
+  - title: SDA Manufacturer Website
+    desc: Custom code, Jekyll
+    img: /assets/sda-manufacturer-screens.png
+    tags: 
+      - name: Client work
+        classes: bg-dark-gray yellow
+      - name: Web design
+        classes: bg-lightest-blue dark-blue
+  - title: Jewelry Store - Aevum
+    desc: Webflow, custom code, Ecwid for e-commerce
+    img: /assets/aevum-demo.gif
+    tags: 
+      - name: Client work
+        classes: bg-dark-gray yellow
+      - name: Web design
+        classes: bg-lightest-blue dark-blue
+  - title: Restaurant Website — Bistrot&nbsp;46
+    desc: Included design, Webflow development, photography and the Airtable-powered menu.
+    img: /assets/website-bistrot46.jpg
+    tags: 
+      - name: Client work
+        classes: bg-dark-gray yellow
+      - name: Photography
+        classes: bg-light-green dark-green
+      - name: Web design & development
+        classes: bg-light-purple navy
+  - title: MegaMan-inspired Launcher setup
+    desc: Custom illustration animated with Motion Portrait.
+    img: /assets/megaman-launcher-mockup.gif
+    tags: 
+      - name: Just for fun
+        classes: bg-light-yellow orange
+      - name: Illustration
+        classes: bg-light-pink dark-red
+  # - title: Website sketches
+  #   desc: Most of my work begins its life as a sketch in my digital sketchbook.
+  #   img: /assets/website-sketches-paper.gif
+  #   tags: 
+  #     - name: Client work
+  #       classes: bg-dark-gray yellow
+  #     - name: Just for fun
+  #       classes: bg-light-yellow orange
+  - title: Wholesaler Website — Techomax
+    desc: Functional website with Airtable embeds for dynamic information.
+    img: /assets/website-techomax.jpg
+    tags: 
+      - name: Client work
+        classes: bg-dark-gray yellow
+      - name: Web design & development
+        classes: bg-light-purple navy
+  - title: Werewolf Game Cards
+    desc: For personal use, made with watercolor and ink.
+    img: /assets/warewolf-cards.jpg
+    tags: 
+      - name: Just for fun
+        classes: bg-light-yellow orange
+      - name: Illustration
+        classes: bg-light-pink dark-red
+  - title: Amazon Signup Page Concept
+    desc: Not commissioned by Amazon.
+    img: /assets/Dribbble-Amazon-Redesign-20200711.png
+    tags: 
+      - name: Just for fun
+        classes: bg-light-yellow orange
+      - name: Web design
+        classes: bg-lightest-blue dark-blue
+  # - title: Transportation Company Website
+  #   desc: VIP Global Service. Developed using Webflow and Jekyll.
+  #   img: /assets/vipglobal-hero.jpeg
+  #   tags: 
+  #     - name: Client work
+  #       classes: bg-dark-gray yellow
+  #     - name: Web design & development
+  #       classes: bg-light-purple navy

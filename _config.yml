@@ -1,110 +1,57 @@
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely edit after that. If you find
+# yourself editing this file very often, consider using Jekyll's data files
+# feature for the data you need to update frequently.
+#
 # For technical reasons, this file is *NOT* reloaded automatically when you use
-# 'bundle exec jekyll serve'. If you change this file, restart the server process.
-
+# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
+#
+# If you need help with YAML syntax, here are some quick references for you: 
+# https://learn-the-web.algonquindesign.ca/topics/markdown-yaml-cheat-sheet/#yaml
+# https://learnxinyminutes.com/docs/yaml/
+#
 # Site settings
-# If you look in the HTML files, you will see them accessed via
-# {{ site.title }}, {{ site.email }}, and so on.
-title: Anna Filou | Web Designer, Illustrator
-description: >- # this means to ignore newlines until the next point
+# These are used to personalize your new site. If you look in the HTML files,
+# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
+# You can create any custom variable you would like, and they will be accessible
+# in the templates via {{ site.myvariable }}.
 
+title: Anna Filou
+email: hello@annafilou.com
+description: >- # this means to ignore newlines until "baseurl:"
+  Designer / illustrator based in Athens, working internationally.
+baseurl: "" # the subpath of your site, e.g. /blog
+# url: "https://annafilou.com" # the base hostname & protocol for your site, e.g. http://example.com
 
-# Build settings
-markdown: kramdown
-
-plugins:
-  - jekyll-feed
 
 permalink: pretty
 
-# COLLECTIONS
-collections:
-  case-studies:
-    output: true
+twitter_username: that__anna
+github_username:  jekyll
 
-# Navbar -- NOT YET IN USE
-navlinks:
-  - en: Sites 
-    de: Sit
-    gr: Sites
-    link: /{{ page.lang }}/work/websites
-    icon: 
-  - en: Art
-    de: Kunst
-    gr: Art
-    link: /{{ page.lang }}/work/graphics
-    icon: 
-  - en: About 
-    de: Info
-    gr: Info
-    link: /{{ page.lang }}/about
-    icon: 
-  - en: Contact
-    de: Kontakt
-    gr: Contact
-    link: /#contact
-    icon:
-
-# Website Section Text in all langs
-web-heading-en: I'm a fan of lightweight websites that don't make use of heavy databases. # {{ site.web-heading-en }}
-web-heading-de: Ich stehe auf kompakte Websites, die keine großen Datenbanken verwenden. # {{ site.web-heading-de }}
-web-heading-gr: Μ' αρέσουν ελαφριά site που δε χρειάζονται πολύπλοκες βάσεις δεδομένων για να δουλέψουν. # {{ site.web-heading-gr }}
-
-web-subtitle-en: Instead, I build static sites that are much faster and more flexible, then make them work with a static CMS for content creation and on-the-go editing.
-web-subtitle-de: Stattdessen erstelle ich statische Websites, die viel schneller und flexibler sind, und mache sie dann mit einem statischen CMS für die Inhaltserstellung und die Bearbeitung unterwegs nutzbar.
-web-subtitle-gr: Φτιάχνω "στατικές" ιστοσελίδες που είναι πολύ πιο γρήγορες και ευέλικτες. Μετά τις συνδέω με ένα στατικό CMS για να είναι εύκολα επεξεργάσιμες μέσω απλών αρχείων κειμένου.
-
-jam-en: Read more about the JAMstack
-jam-de: Lesen Sie mehr über den JAMstack
-jam-gr: Διαβάστε σχετικά με το JAMstack
-
-# Illustrations Page Text in all langs
-ill-heading-en: I specialize in drawing black-and-white portraits.
-# Illustrations have the power to convey meaning with a speed and intensity that text cannot match
-ill-heading-de: Schwarzweiße Porträte zu zeichnen ist meine Spezialität.
-# Illustrationen haben die Fähigkeit, Bedeutung mit einer Geschwindigkeit und Intensität zu vermitteln, die der Text nicht erreichen kann
-ill-heading-gr: Ιδιόκτητά μου τα ασπρόμαυρα πορτρέτα.
-# Οι εικόνες έχουν την δύναμη να μεταδίδουν νοήματα με ταχύτητα και ένταση που δεν μπορεί να φτάσει το κείμενο
-
-# About
-# Skills
-skills:
-  - ✨ Digital Design
-  - 👩🏻‍💻 HTML & CSS
-  - 💻 Webflow
-  - 🖌 Figma
-  - 🔷 Netlify CMS
-  - 🔬 Jekyll & Liquid
-  - 🌲 Forestry CMS
-  - 📊 Airtable Databases
-  - 🎨 Watercolor Illustration
-  - 🖋️ Digital Illustration
-  - 📓 Comics, Graphic Novels
-  - ⭐ Logo Design
-
-# Languages 👄
-# colors: dark blue (default, don't write), light-blue, green
-languages:
-  - name: 🇺🇸 English
-    level: Fluent
-    color: light-blue
-  - name: 🇩🇪 German
-    level: Proficient
-    color:
-  - name: 🇬🇷 Greek
-    level: Native
-    color: green
-  - name: 🇯🇵 Japanese
-    level: Beginner
-    color:
+# Build settings
+# theme: minima
+plugins:
+  - jekyll-feed
 
 # Exclude from processing.
-# The following items will not be processed, by default. Create a custom list
-# to override the default setting.
-# exclude:
-#   - Gemfile
-#   - Gemfile.lock
-#   - node_modules
-#   - vendor/bundle/
-#   - vendor/cache/
-#   - vendor/gems/
-#   - vendor/ruby/
+# The following items will not be processed, by default.
+# Any item listed under the `exclude:` key here will be automatically added to
+# the internal "default list".
+#
+# Excluded items can be processed by explicitly listing the directories or
+# their entries' file path in the `include:` list.
+#
+exclude:
+  - .sass-cache/
+  - .jekyll-cache/
+  - gemfiles/
+  - Gemfile
+  - Gemfile.lock
+  - node_modules/
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
