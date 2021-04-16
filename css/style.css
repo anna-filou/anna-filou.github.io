@@ -1,5 +1,38 @@
 @import url('https://fonts.googleapis.com/css?family=Rubik:500,500italic,600,600italic,700,700italic,300,300italic,800,800italic,900,900italic,regular,italic');
 
+/* DEFAULT LIGHT  */
+
+body {
+  background-color: #F4F4F4;
+}
+
+body, nav a, .main {
+  color: #171717;
+}
+a {
+  color: #3e4497;
+}
+a:hover {
+  color: #000000;
+}
+
+::selection {
+  background: #82c5bc;
+}
+
+header {
+  background-color: #F4F4F4;
+  box-shadow: 0px 2px 40px rgba(0, 0, 0, 0.178);
+}
+
+svg {
+  fill: #171717;
+}
+
+.secondary {
+  color: #535353;
+}
+
 @media (prefers-color-scheme: dark) {
   body {
     background-color: #171717;
