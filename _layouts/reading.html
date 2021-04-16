@@ -31,7 +31,7 @@ AND adds the following code in the {{content}} area of default.html -->
                 <div class="mb1">
                     <img src="{{book.cover}}" class="" alt="">
                 </div>
-                <h3 class="mt2 mb0 f5">{{book.title}}</h3>
+                <h3 class="mt2 mb1 f5">{{book.title}}</h3>
                 <div class="o-70">by {{book.author}}</div>
             </div>
         {%- endfor -%}  
@@ -45,18 +45,17 @@ AND adds the following code in the {{content}} area of default.html -->
 
 <div class="container mt4">
     <h2 class="f2 mb5">Books read in 2021</h2>
-        {%- for book in page.books-2021 -%}
-            <div class="flex flex-column flex-row-ns items-start items-start-ns mb5">
-                <div class="mw5 mr5">
-                    <img src="{{book.cover}}" class="ba bw2 b--black" alt="">
-                </div>
-                <div class="mt3">
-                    <h3 class="f3 mb1">{{book.title}}</h3>
-                    <div class="dib f4">by {{book.author}}</div>
-                    <div class="dib f4 ml3 secondary o-70">{{book.pages}} pages</div>
-                    <div class="mt3 mt4-ns measure lh-copy">{{book.my-notes | markdownify}}</div>
-                </div>
-            </div>
-        {%- endfor -%}  
-
+    {%- for book in page.books-2021 -%}
+    <div class="flex flex-column flex-row-ns items-start items-start-ns mb5">
+        <div class="mw5 mr5">
+            <img src="{{book.cover}}" class="ba bw2 b--black" alt="">
+        </div>
+        <div class="mt3">
+            <h3 class="f3 mb1">{{book.title}}</h3>
+            <div class="dib f4">by {{book.author}}</div>
+            <div class="dib f4 ml3 secondary o-70">{{book.pages}} pages</div>
+            <div class="mt3 mt4-ns measure lh-copy">{{book.my-notes | markdownify}}</div>
+        </div>
+    </div>
+    {%- endfor -%}  
 </div>

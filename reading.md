@@ -14,7 +14,12 @@ books-2021:
     pages: 256
     my-notes: | 
         It feels like this book is full of truths and advice that one would otherwise have to spend a lifetime collecting. And it’s all here, condensed and ready to process.
+
+        ♥️
 books-reading:
+  - title: "When Breath Becomes Air (NOTE: Read this!)"
+    cover: /assets/books/when-breath-becomes-air.jpg
+    author: Paul Kalanithi
   - title: The Design of Everyday Things
     cover: /assets/books/the-design-of-everyday-things.png
     author: Don Norman
@@ -24,8 +29,8 @@ books-reading:
   - title: Learn To Code Now
     cover: /assets/books/learn-to-code-now-superhi.jpg
     author: Rik Lomas
-  - title: Average Is Over
-    cover: /assets/books/average-is-over.jpg
-    author: Tyler Cowen
+#   - title: Average Is Over
+#     cover: /assets/books/average-is-over.jpg
+#     author: Tyler Cowen
 
 ---
