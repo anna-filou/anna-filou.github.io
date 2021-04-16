@@ -13,7 +13,7 @@ books-2021:
     author: André Aciman
     pages: 256
     my-notes: | 
-        It feels like this book is full of truths and advice that one would otherwise have to spend a lifetime collecting. And it’s all here, condensed and ready to process.
+        Despite being a quick read, this book is full of insights on human psychology and advice that one would have to spend years collecting. My feelings are a bit mixed but overall I think it’s shifted my perspective and that I’ve gained something valuable.
 
         ♥️
 books-reading:
