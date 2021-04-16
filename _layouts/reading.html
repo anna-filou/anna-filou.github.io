@@ -1,0 +1,16 @@
+---
+layout: default
+---
+<!-- layout: default means that this layout INCLUDES everything in default.html 
+AND adds the following code in the {{content}} area of default.html -->
+<div class="mt4">
+    <div class="nowrap overflow-x-auto flex items-center" style="width: 100vw;">
+        {%- for book in page.books -%}
+            <div class="ml3 pl5">
+                <img src="{{book.cover}}" class="" alt="">
+                <h3>{{book.title}}</h3>
+                <div>{{book.author}}</div>
+            </div>
+        {%- endfor -%}  
+    </div>
+</div>
