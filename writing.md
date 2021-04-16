@@ -4,4 +4,6 @@
 
 layout: blog
 title: Writing
+lang: en
+ref: writing
 ---
