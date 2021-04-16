@@ -18,5 +18,3 @@ fields:
   - type: text
     name: alt
     label: Image Alt text
-pages:
-- _data/color.yml
