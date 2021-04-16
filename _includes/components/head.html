@@ -3,11 +3,11 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>{{ site.title }} | {{ page.title }}</title>
 
-<meta content="{{ page.description }}" name="description">
+<meta content="{% if page.description %}{{page.description}}{%else%}{{site.description}}{% endif %}" name="description">
 <meta content="{{ site.title }} | {{ page.title }}" property="og:title">
-<meta content="{{ page.description }}" property="og:description">
+<meta content="{% if page.description %}{{page.description}}{%else%}{{site.description}}{% endif %}" property="og:description">
 <meta content="{{ site.title }} | {{ page.title }}" property="twitter:title">
-<meta content="{{ page.description }}" property="twitter:description">
+<meta content="{% if page.description %}{{page.description}}{%else%}{{site.description}}{% endif %}" property="twitter:description">
 <meta property="og:type" content="website">
 <meta property="og:image" content="assets/meta/an-og.png">
 <meta content="summary_large_image" name="twitter:card">
@@ -17,6 +17,8 @@
 
 <link rel="stylesheet" href="/css/tachyons.css">
 <link rel="stylesheet" href="/css/style.css">
+
+{% include components/google-analytics.html %}
 
 <script>
     /* to prevent Firefox FOUC */
