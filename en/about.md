@@ -20,13 +20,13 @@ In my free time I love sketching out concepts for apps I'd want to use. That's t
 
 In the offline world I'm into inline/ice skating, reading fiction and non-fiction books, playing board games with friends, and learning languages among a myriad of other activities. 
 
-![](/assets/skate-circle-2.gif)
+![Me doing a simple but cool looking trick on inline skates](/assets/skate-circle-2.gif)
 
 I used to think that liking and doing many competently different things is a disadvantage; but it turns out it's called being a polymath and is kinda cool.
 
 Also, I have a *ridiculously* annoying but super cute cat.
 
-![](/assets/hioni.jpg)
+![My fluffy white cat laying on her back looking at the camera](/assets/hioni.jpg)
 
 ### Any parting thoughts?
 
