@@ -13,7 +13,6 @@ sections:
 - type: document
   path: en/about.md
   label: "\U0001F464 About"
-  match: "**/*"
 - type: document
   path: reading.md
   label: "\U0001F4DA Reading"
