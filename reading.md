@@ -13,7 +13,7 @@ books-2021:
 
     ♥️
 books-reading:
-- title: 'When Breath Becomes Air (NOTE: Read this!)'
+- title: When Breath Becomes Air
   cover: "/assets/books/when-breath-becomes-air.jpg"
   author: Paul Kalanithi
 - title: The Design of Everyday Things
