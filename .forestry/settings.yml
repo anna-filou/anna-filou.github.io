@@ -7,7 +7,6 @@ sections:
 - type: document
   path: reading.md
   label: "\U0001F4DA Reading"
-  match: "**/*"
 - type: document
   path: writing.md
   label: Writing
