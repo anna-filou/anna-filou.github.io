@@ -5,44 +5,46 @@ fields:
 - type: text
   name: layout
   label: layout
+  hidden: true
 - type: text
   name: lang
   label: lang
+  hidden: true
 - type: text
   name: ref
   label: ref
 - type: text
   name: title
-  label: title
+  label: Page Title
 - type: field_group_list
   name: books-2021
-  label: books-2021
+  label: Books read in 2021
   fields:
   - type: text
     name: title
-    label: title
+    label: Book Title
   - type: file
     name: cover
-    label: cover
+    label: Book Cover
   - type: text
     name: author
-    label: author
+    label: Author
   - type: number
     name: pages
-    label: pages
+    label: "# of pages"
   - type: textarea
     name: my-notes
-    label: my-notes
+    label: My Notes
 - type: field_group_list
   name: books-reading
-  label: books-reading
+  label: Reading Now
   fields:
   - type: text
     name: title
-    label: title
+    label: Book Title
   - type: file
     name: cover
-    label: cover
+    label: Book Cover
   - type: text
     name: author
-    label: author
+    label: Author
