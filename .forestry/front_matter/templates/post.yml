@@ -25,3 +25,4 @@ fields:
   hidden: false
 pages:
 - _posts/2021-04-14-welcome-to-jekyll.md
+- _posts/draft-post.md
