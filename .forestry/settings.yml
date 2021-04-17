@@ -6,7 +6,7 @@ webhook_url:
 sections:
 - type: document
   path: now.md
-  label: Now
+  label: "⏰ Now"
 - type: jekyll-posts
   label: "\U0001F4C4 Posts"
   create: all
