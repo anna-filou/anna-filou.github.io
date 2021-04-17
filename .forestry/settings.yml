@@ -7,7 +7,6 @@ sections:
 - type: document
   path: writing.md
   label: Writing
-  match: "**/*"
 - type: jekyll-posts
   label: Posts
   create: all
