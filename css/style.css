@@ -33,6 +33,21 @@ svg {
   color: #535353;
 }
 
+.smooth-shadow {
+  box-shadow:
+  0 1.5px 54.5px -71px rgba(0, 0, 0, 0.74),
+  0 3.5px 46.5px -71px rgba(0, 0, 0, 1.023),
+  0 6.7px 33.5px -71px rgba(0, 0, 0, 1.056),
+  0 13.2px 25.5px -71px rgba(0, 0, 0, 0.969),
+  0 49px 80px -71px rgba(0, 0, 0, 1);
+}
+
+.outline {
+  outline: 1px solid rgba(22, 19, 63, 0.1);
+  outline-offset: -1px;
+}
+
+
 @media (prefers-color-scheme: dark) {
   body {
     background-color: #171717;
