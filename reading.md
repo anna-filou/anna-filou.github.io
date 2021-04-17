@@ -3,10 +3,6 @@ layout: reading
 lang: en
 ref: writing
 title: Reading
-intro: |
-    I intend to use this page as a way to keep track of the books I read, in a way that makes sense to me. If it helps you discover a book you’d like to read too, that’d be awesome.
-
-    Probably won’t add books I finished before 2021.
 books-2021:
   - title: Call Me by Your Name
     cover: /assets/books/call-me-by-your-name.jpg
@@ -34,3 +30,6 @@ books-reading:
 #     author: Tyler Cowen
 
 ---
+I intend to use this page as a way to keep track of the books I read, in a way that makes sense to me. If it helps you discover a book you’d like to read too, that’d be awesome.
+
+Probably won’t add books I finished before 2021.
