@@ -1,13 +1,10 @@
 ---
-# Feel free to add content and custom Front Matter to this file.
-# To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
-
 layout: blog
-title: Writing
+title: Writing Page
 lang: en
 ref: writing
----
 
+---
 [→ RSS feed](/feed.xml)
 
 I don't consider myself a writer. I was hesitant about posting my thoughts online because the Internet is already over-saturated with content. What more could I add?
