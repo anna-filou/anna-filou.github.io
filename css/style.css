@@ -47,6 +47,13 @@ svg {
   outline-offset: -1px;
 }
 
+.bg-faint {
+  background-color: #e9e6e1;
+}
+
+.b--faint {
+  border-color: #e9e6e1;
+}
 
 @media (prefers-color-scheme: dark) {
   body {
@@ -91,6 +98,15 @@ svg {
   .secondary {
     color: #d1d1d1;
   }
+
+  .bg-faint {
+    background-color: #292525;
+  }
+
+  .b--faint {
+    border-color: #332e2e;
+  }
+
 }
 @media (prefers-color-scheme: light) {
   body {
@@ -127,6 +143,14 @@ svg {
 
   .secondary {
     color: #535353;
+  }
+
+  .bg-faint {
+    background-color: #e9e6e1;
+  }
+
+  .b--faint {
+    border-color: #e9e6e1;
   }
 }
 
@@ -227,27 +251,27 @@ h1 {
 h2 {
   font-size: 1.8em;
   line-height: 1.2;
-  margin: 1em 0;
+  margin: 1.5em 0 0.8em 0;
   text-transform: uppercase;
 }
 
 h3 {
   font-size: 1.4em;
   line-height: 1.2;
-  margin: 0.5em 0;
+  margin: 1.5em 0 0.5em 0;
   text-transform: uppercase;
 }
 
 h4 {
   font-size: 1.1em;
-  margin: 1em 0;
+  margin: 1.5em 0 0.5em 0;
   text-transform: uppercase;
 }
 
 h5,
 h6 {
   font-size: 1em;
-  margin: 1em 0;
+  margin: 1.5em 0 0.5em 0;
   text-transform: uppercase;
 }
 

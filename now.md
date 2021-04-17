@@ -41,5 +41,3 @@ Despite the obvious struggles, there's a lot I'm thankful for.
 Life can be really bad.
 
 And really good.
-
-***

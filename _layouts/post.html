@@ -4,7 +4,7 @@ layout: default
 
 <article class="">
     <h1 class="mb0">{{page.title}}</h1>
-    <p class="secondary ttu mb5">{{page.date | date: "%-d %B %Y"}} — {{content | number_of_words}} words, <span class="white">{% include read_time.html %}</span> read</p>
+    <p class="secondary ttu mb5">{{page.date | date: "%-d %B %Y"}} — {{content | number_of_words}} words, {% include read_time.html %} to read</p>
     
     <div class="">
         {{content}}
