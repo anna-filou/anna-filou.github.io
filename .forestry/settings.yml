@@ -15,7 +15,7 @@ sections:
   create: all
 - type: directory
   path: _data
-  label: Data
+  label: Data Files
   create: all
   match: "*.yml"
   new_doc_ext: yml
