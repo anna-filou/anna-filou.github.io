@@ -28,6 +28,7 @@ baseurl: "" # the subpath of your site, e.g. /blog
 analytics: 
 
 permalink: pretty
+highlighter: rouge
 
 twitter_username: that__anna
 github_username:  jekyll
