@@ -382,6 +382,12 @@ article figure, div.highlight {
     left: -24px;
     padding: 1em 21px;
   }
+  article figure, div.highlight {
+    padding: 10px 20px;
+    border-radius: 6px;
+    margin: 2em 0;
+    border: 2px solid rgb(99, 99, 99);
+  }
 }
 
 @media (prefers-color-scheme: light) {

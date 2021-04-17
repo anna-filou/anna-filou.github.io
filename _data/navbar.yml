@@ -1,0 +1,18 @@
+en:
+  main: 
+    - title: Contact
+      url: contact
+      langs: yes
+    - title: Drawing
+      url: graphics
+      langs: yes
+    - title: Writing
+      url: writing
+      langs: no
+  secondary: 
+    - title: Reading
+      url: 
+      langs: no
+    - title: Now
+      url: 
+      langs: no

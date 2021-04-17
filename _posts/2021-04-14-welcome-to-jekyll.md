@@ -2,6 +2,7 @@
 layout: post
 title:  "DEMO - Tech Giant Invests Huge Money to Build a Computer Out of Science Fiction"
 date:   2021-04-14 01:35:41 +0300
+main-image: /assets/drawings/2019-11-Amplify-light.png
 categories: jekyll update
 lang: en
 ---
