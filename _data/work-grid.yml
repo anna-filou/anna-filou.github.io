@@ -10,7 +10,7 @@ en:
     classes: bg-lightest-blue dark-blue
 - title: SDA Manufacturer Website
   desc: Custom code, Jekyll
-  img: "/assets/sda-manufacturer-screens.png"
+  img: "/assets/sda-manufacturer-screens.jpg"
   tags:
   - name: Client work
     classes: bg-dark-gray yellow

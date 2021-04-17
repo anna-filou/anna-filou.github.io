@@ -51,7 +51,7 @@ svg {
   background-color: #e9e6e1;
 }
 
-.b--faint {
+.b--faint, hr {
   border-color: #e9e6e1;
 }
 
@@ -103,7 +103,7 @@ svg {
     background-color: #292525;
   }
 
-  .b--faint {
+  .b--faint, hr {
     border-color: #332e2e;
   }
 
@@ -149,7 +149,7 @@ svg {
     background-color: #e9e6e1;
   }
 
-  .b--faint {
+  .b--faint, hr {
     border-color: #e9e6e1;
   }
 }
@@ -169,7 +169,8 @@ nav {
 }
 
 hr {
-  border: 2px double gray;
+  border-width: 1px;
+  border-style: solid;
   margin: 5em 0 4em;
 }
 
