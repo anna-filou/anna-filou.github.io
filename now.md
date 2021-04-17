@@ -17,9 +17,9 @@ It’s more or less the answer to “what are you up to lately?” Learn more ab
 
 I **completely redesigned this website** today. It’s 1 A.M. now and I’m finishing up the Jekyll configuration. I think it’s worth sacrificing sleep on rare occassions to get something done. I know I wouldn’t get it done this month if I stopped earlier today.
 
-The site is not perfect by *any* means but it’s mine. It was mine before, sure, but I’d made it using Webflow and customizing the exported code. This time it’s all mine — unless you count using [Tachyons CSS](tachyons.io) as cheating? I think it’s more of a very convenient shortcut.
+The site is not perfect by _any_ means but it’s mine. It was mine before, sure, but I’d made it using Webflow and customizing the exported code. This time it’s all mine — unless you count using [Tachyons CSS](tachyons.io) as cheating? I think it’s more of a very convenient shortcut.
 
-Anyway, it’s still a WIP and I’ll keep adding pages and info, but the groundwork has been laid. My ambition is to have a flexible website that I can easily customize as time goes on and upload new works — which was time consuming before because I hadn’t baked it into the site from the beginning. 
+Anyway, it’s still a WIP and I’ll keep adding pages and info, but the groundwork has been laid. My ambition is to have a flexible website that I can easily customize as time goes on and upload new works — which was time consuming before because I hadn’t baked it into the site from the beginning.
 
 I finally know what I’m doing!
 
@@ -38,8 +38,8 @@ Despite the obvious struggles, there's a lot I'm thankful for.
 * 👨‍💻 I got a full-time job I enjoy
 * 🇯🇵 My Japanese has improved to the point where I can play Japanese games and roughly understand what's going on 😅
 
-Life can be really bad. And really good. 
+Life can be really bad.
 
-**And it'll always be like that.**
+And really good.
 
 ***
