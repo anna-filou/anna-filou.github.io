@@ -1,12 +1,12 @@
 ---
 layout: post
-title:  "DEMO - Tech Giant Invests Huge Money to Build a Computer Out of Science Fiction"
-date:   2021-04-14 01:35:41 +0300
-main-image: /assets/drawings/2019-11-Amplify-light.png
+title: DEMO - Tech Giant Invests Huge Money to Build a Computer Out of Science Fiction
+date: 2021-04-14T01:35:41.000+03:00
+main-image: "/assets/drawings/2019-11-Amplify-light.png"
 categories: jekyll update
 lang: en
----
 
+---
 You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
 
 # [Writing page](/writing)

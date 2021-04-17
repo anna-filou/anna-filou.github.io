@@ -23,3 +23,5 @@ fields:
   name: lang
   label: Language
   hidden: false
+pages:
+- _posts/2021-04-14-welcome-to-jekyll.md
