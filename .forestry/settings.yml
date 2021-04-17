@@ -9,7 +9,7 @@ sections:
   label: "\U0001F4DA Reading"
 - type: document
   path: writing.md
-  label: "✍ Writing"
+  label: "✏️ Writing"
 - type: jekyll-posts
   label: "\U0001F4C4 Posts"
   create: all
