@@ -7,7 +7,6 @@ sections:
 - type: document
   path: now.md
   label: Now
-  match: "**/*"
 - type: document
   path: reading.md
   label: "\U0001F4DA Reading"
