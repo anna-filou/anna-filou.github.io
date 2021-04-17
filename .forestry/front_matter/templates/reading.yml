@@ -1,0 +1,48 @@
+---
+label: reading
+hide_body: false
+fields:
+- type: text
+  name: layout
+  label: layout
+- type: text
+  name: lang
+  label: lang
+- type: text
+  name: ref
+  label: ref
+- type: text
+  name: title
+  label: title
+- type: field_group_list
+  name: books-2021
+  label: books-2021
+  fields:
+  - type: text
+    name: title
+    label: title
+  - type: file
+    name: cover
+    label: cover
+  - type: text
+    name: author
+    label: author
+  - type: number
+    name: pages
+    label: pages
+  - type: textarea
+    name: my-notes
+    label: my-notes
+- type: field_group_list
+  name: books-reading
+  label: books-reading
+  fields:
+  - type: text
+    name: title
+    label: title
+  - type: file
+    name: cover
+    label: cover
+  - type: text
+    name: author
+    label: author
