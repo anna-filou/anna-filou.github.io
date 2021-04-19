@@ -1,6 +1,6 @@
 ---
 layout: blog
-title: Writing Page
+title: Writing
 lang: en
 ref: writing
 
