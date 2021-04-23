@@ -13,7 +13,7 @@ en:
   img: "/assets/sda-manufacturer-screens.jpg"
   tags:
   - name: Client work
-    classes: bg-dark-gray yellow
+    classes: bg-moon-gray navy
   - name: Web design
     classes: bg-lightest-blue dark-blue
 - title: Jewelry Store - Aevum
@@ -21,7 +21,7 @@ en:
   img: "/assets/aevum-demo.gif"
   tags:
   - name: Client work
-    classes: bg-dark-gray yellow
+    classes: bg-moon-gray navy
   - name: Web design
     classes: bg-lightest-blue dark-blue
 - title: Restaurant Website — Bistrot&nbsp;46
@@ -29,11 +29,11 @@ en:
   img: "/assets/website-bistrot46.jpg"
   tags:
   - name: Client work
-    classes: bg-dark-gray yellow
+    classes: bg-moon-gray navy
   - name: Photography
-    classes: bg-light-green dark-green
+    classes: bg-washed-green dark-green
   - name: Web design & development
-    classes: bg-light-purple navy
+    classes: bg-lightest-blue purple
 - title: MegaMan-inspired Launcher setup
   desc: Custom illustration animated with Motion Portrait. “The Grid” icon pack.
   img: "/assets/megaman-launcher-mockup.gif"
@@ -41,15 +41,15 @@ en:
   - name: Just for fun
     classes: bg-light-yellow orange
   - name: Illustration
-    classes: bg-light-pink dark-red
+    classes: bg-washed-red dark-red
 - title: Wholesaler Website — Techomax
   desc: Functional website with Airtable embeds for dynamic information.
   img: "/assets/website-techomax.jpg"
   tags:
   - name: Client work
-    classes: bg-dark-gray yellow
+    classes: bg-moon-gray navy
   - name: Web design & development
-    classes: bg-light-purple navy
+    classes: bg-lightest-blue purple
 - title: Werewolf Game Cards
   desc: For personal use, made with watercolor and ink.
   img: "/assets/warewolf-cards.jpg"
@@ -57,7 +57,7 @@ en:
   - name: Just for fun
     classes: bg-light-yellow orange
   - name: Illustration
-    classes: bg-light-pink dark-red
+    classes: bg-washed-red dark-red
 - title: Amazon Signup Page Concept
   desc: Not commissioned by Amazon.
   img: "/assets/Dribbble-Amazon-Redesign-20200711.png"
