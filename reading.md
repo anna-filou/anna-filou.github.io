@@ -25,6 +25,9 @@ books-reading:
 - title: Learn To Code Now
   cover: "/assets/books/learn-to-code-now-superhi.jpg"
   author: Rik Lomas
+- title: Typography Referenced
+  cover: "/assets/books/typography-referenced.jpg"
+  author: Multiple Authors
 
 ---
 I intend to use this page as a way to keep track of the books I read, in a way that makes sense to me. If it helps you discover a book you’d like to read too, that’d be awesome.
