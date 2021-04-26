@@ -23,6 +23,21 @@ fields:
   - type: text
     name: title
     label: Book Title
+  - name: read
+    type: select
+    default: []
+    config:
+      required: false
+      options:
+      - now
+      - '2021'
+      - '2020'
+      source:
+        type: simple
+        section: 
+        file: 
+        path: 
+    label: Read
   - type: file
     name: cover
     label: Book Cover
