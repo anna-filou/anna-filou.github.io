@@ -17,8 +17,8 @@ fields:
   name: title
   label: Page Title
 - type: field_group_list
-  name: books-2021
-  label: Books read in 2021
+  name: books
+  label: Books
   fields:
   - type: text
     name: title
@@ -48,12 +48,5 @@ fields:
   - type: text
     name: author
     label: Author
-- name: books
-  type: list
-  config:
-    use_select: false
-    min: 
-    max: 
-  label: Books
 pages:
 - reading.md
