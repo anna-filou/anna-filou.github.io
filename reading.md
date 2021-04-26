@@ -8,7 +8,7 @@ books:
   cover: "/assets/books/call-me-by-your-name.jpg"
   author: André Aciman
   pages: 256
-  read: 2021
+  read: ''
   my-notes: |
     Despite being a quick read, this book is full of insights on human psychology and advice that one would have to spend years collecting. My feelings are a bit mixed but overall I think it’s shifted my perspective and that I’ve gained something valuable.
 
@@ -17,22 +17,32 @@ books:
   cover: "/assets/books/when-breath-becomes-air.jpg"
   author: Paul Kalanithi
   read: now
+  pages: 
+  my-notes: ''
 - title: The Design of Everyday Things
   cover: "/assets/books/the-design-of-everyday-things.png"
   author: Don Norman
   read: now
+  pages: 
+  my-notes: ''
 - title: The Demon-Haunted World
   cover: "/assets/books/the-demon-haunted-world.jpg"
   author: Carl Sagan, Ann Druyan
   read: now
+  pages: 
+  my-notes: ''
 - title: Learn To Code Now
   cover: "/assets/books/learn-to-code-now-superhi.jpg"
   author: Rik Lomas
   read: now
+  pages: 
+  my-notes: ''
 - title: Typography Referenced
   cover: "/assets/books/typography-referenced.jpg"
   author: Multiple Authors
   read: now
+  pages: 
+  my-notes: ''
 
 ---
 I intend to use this page as a way to keep track of the books I read, in a way that makes sense to me. If it helps you discover a book you’d like to read too, that’d be awesome.
