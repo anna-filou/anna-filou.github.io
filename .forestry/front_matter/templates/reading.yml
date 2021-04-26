@@ -50,18 +50,5 @@ fields:
   - type: textarea
     name: my-notes
     label: My Notes
-- type: field_group_list
-  name: books-reading
-  label: Reading Now
-  fields:
-  - type: text
-    name: title
-    label: Book Title
-  - type: file
-    name: cover
-    label: Book Cover
-  - type: text
-    name: author
-    label: Author
 pages:
 - reading.md
