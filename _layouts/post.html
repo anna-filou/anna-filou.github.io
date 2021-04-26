@@ -2,11 +2,27 @@
 layout: default
 ---
 
-<article class="">
-    <h1 class="mb0">{{page.title}}</h1>
-    <p class="secondary ttu mb5">{{page.date | date: "%-d %B %Y"}} — {{content | number_of_words}} words, {% include read_time.html %} to read</p>
-    
+<article class="mt4">
+    <h1 class="">{{page.title}}</h1>
+    <p class="secondary ttu mb0">{% include read_time.html %} to read</p>
+    <p class="secondary ttu mb5 mt1 f7">{{content | number_of_words}} words</p>
+
     <div class="">
         {{content}}
     </div>
 </article>
+
+<hr>
+<div class="pt5 flex flex-column items-center f7 tc ttu secondary">
+    <a href="/{{page.lang}}/about">
+    <img
+        src="/assets/anna-avatar.jpg"
+        class="br-100 h3 w3 dib grow-large" alt="avatar">
+    </a>
+    <div class="mt1 measure-narrow">
+        <p>This post was written by Anna, a designer by trade.</p>
+        <p>Published on {{page.date | date: "%-d %B %Y"}}</p>
+        <p><a href="/writing">→ All Posts</a></p>
+        <p><a href="/feed.xml">→ RSS feed</a></p>
+    </div>
+</div>

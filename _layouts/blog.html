@@ -9,7 +9,7 @@ layout: default
     <h1>{{ page.title }}</h1>
     {%- endif -%}
 
-    <div class="measure-wide secondary">
+    <div class="measure-wide">
       {{ content }}
     </div>
 
@@ -31,19 +31,36 @@ layout: default
 
       {%- for post in posts -%}
 
-        <a class="db no-underline dim main" href="{{ post.url | relative_url }}">
+        <a class="db no-underline grow main" href="{{ post.url | relative_url }}">
           <div class="flex flex-column flex-row-ns">
-            <div class="w-100 w-40-ns mr0 mr4-ns">
-              <div class="db aspect-ratio aspect-ratio--6x4 ">
-                <span role="img" style="background-image:url({{post.main-image}});" class="bg-center cover aspect-ratio--object"></span>
+            {%- if post.main-image == empty -%}
+             <div class="w-100 w-60-ns bl bw5 b--dark-green pl4">
+            {% else %}          
+              <div class="w-100 w-40-ns mr0 mr4-ns">
+                <div class="db aspect-ratio aspect-ratio--6x4 ">
+                  <span role="img" style="background-image:url({{post.main-image}});" class="bg-center cover aspect-ratio--object"></span>
+                </div>
               </div>
-            </div>
-            <div class="w-100 w-60-ns">
-              <h3 class="mb2">{{ post.title | escape }}</h3>
-              <p class="fw4 db secondary">
-                {{ post.content | strip_html | truncate: 300, "...... [CLICK TO READ]"  }}
+              <div class="w-100 w-60-ns">
+            {%- endif -%}
+
+              <h3 class="mt3 mb1">{{ post.title | escape }}</h3>
+              
+              <p class="fw4 ttu mv0 secondary">
+                <span class="reading-time" title="Estimated read time">
+                  {% assign words = post.content | number_of_words %}
+                  {% if words < 500 %}
+                     less than 1 min
+                  {% else %}
+                      {{ words | divided_by:280 }} min
+                  {% endif %}
+                  to read
+               </span>
+               </p>
+              <p class="fw4 db">
+                <span class="ttu b mr2">Excerpt:</span> {{ post.content | strip_html | truncate: 300, "…"  }}
               </p>
-              <p class="fw4 ttu mv0">{{ post.date | date: date_format }} | 6 min read</p>
+              
             </div>
           </div>
         </a>

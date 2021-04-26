@@ -1,18 +1,22 @@
-en:
-  main: 
-    - title: Contact
-      url: contact
-      langs: yes
-    - title: Drawing
-      url: graphics
-      langs: yes
-    - title: Writing
-      url: writing
-      langs: no
-  secondary: 
-    - title: Reading
-      url: 
-      langs: no
-    - title: Now
-      url: 
-      langs: no
+main: 
+  - en: Contact
+    el: Επικοινωνία
+    url: contact
+    langs: yes
+  - en: Drawing
+    el: Ζωγραφική
+    url: graphics
+    langs: yes
+  - en: Writing
+    el: Γράψιμο 🇺🇸
+    url: writing
+    langs: no
+secondary: 
+  - en: Reading
+    el: Διάβασμα 🇺🇸
+    url: 
+    langs: no
+  - en: Now
+    el: Τώρα 🇺🇸
+    url: 
+    langs: no

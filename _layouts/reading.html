@@ -26,7 +26,8 @@ AND adds the following code in the {{content}} area of default.html -->
 <div class="container">
     <h2 class="f2">Books I’m reading now</h2>
     <div class="nowrap  overflow-x-auto flex items-end w-100">
-        {%- for book in page.books-reading -%}
+        {%- for book in page.books-%}
+            {%- if book.read == "now" -%}
             <div class="w-20-ns mr4 mv2 overflow-auto ws-normal" style="min-width: 200px;">
                 <div class="mb1">
                     <img src="{{book.cover}}" class="smooth-shadow outline" alt="">
@@ -34,9 +35,13 @@ AND adds the following code in the {{content}} area of default.html -->
                 <h3 class="mt2 mb1 f5">{{book.title}}</h3>
                 <div class="o-70">by {{book.author}}</div>
             </div>
+            {%- endif -%}
         {%- endfor -%}  
+
     </div>
 </div>
+
+
     
     
 <div class="container">
@@ -45,17 +50,19 @@ AND adds the following code in the {{content}} area of default.html -->
 
 <div class="container mt4">
     <h2 class="f2 mb5">Books read in 2021</h2>
-    {%- for book in page.books-2021 -%}
-    <div class="flex flex-column flex-row-ns items-start items-start-ns mb5">
-        <div class="mw5 mr5">
-            <img src="{{book.cover}}" class="ba br3 b--black-05 smooth-shadow" alt="">
+    {%- for book in page.books -%}
+        {%- if book.read == 2021 -%}
+        <div class="flex flex-column flex-row-ns items-start items-start-ns mb5">
+            <div class="mw5 mr5">
+                <img src="{{book.cover}}" class="ba br3 b--black-05 smooth-shadow" alt="">
+            </div>
+            <div class="mt3">
+                <h3 class="f3 mb1">{{book.title}}</h3>
+                <div class="dib f4">by {{book.author}}</div>
+                <div class="dib f4 ml3 secondary o-70">{{book.pages}} pages</div>
+                <div class="mt3 mt4-ns measure lh-copy">{{book.my-notes | markdownify}}</div>
+            </div>
         </div>
-        <div class="mt3">
-            <h3 class="f3 mb1">{{book.title}}</h3>
-            <div class="dib f4">by {{book.author}}</div>
-            <div class="dib f4 ml3 secondary o-70">{{book.pages}} pages</div>
-            <div class="mt3 mt4-ns measure lh-copy">{{book.my-notes | markdownify}}</div>
-        </div>
-    </div>
+        {%- endif -%}
     {%- endfor -%}  
 </div>

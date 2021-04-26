@@ -1,6 +1,6 @@
 ---
 layout: post
-title: DEMO - Tech Giant Invests Huge Money to Build a Computer Out of Science Fiction
+title: DEMO - This title is very long because I wanna see what long titles look like
 date: 2021-04-14T01:35:41.000+03:00
 main-image: "/assets/drawings/2019-11-Amplify-light.png"
 categories: jekyll update
