@@ -51,7 +51,7 @@ AND adds the following code in the {{content}} area of default.html -->
 <div class="container mt4">
     <h2 class="f2 mb5">Books read in 2021</h2>
     {%- for book in page.books -%}
-        {%- if book.read == 2021 -%}
+        {%- if book.read == "2021" -%}
         <div class="flex flex-column flex-row-ns items-start items-start-ns mb5">
             <div class="mw5 mr5">
                 <img src="{{book.cover}}" class="ba br3 b--black-05 smooth-shadow" alt="">
