@@ -48,5 +48,12 @@ fields:
   - type: text
     name: author
     label: Author
+- name: books
+  type: list
+  config:
+    use_select: false
+    min: 
+    max: 
+  label: Books
 pages:
 - reading.md
