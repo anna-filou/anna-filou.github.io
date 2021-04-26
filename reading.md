@@ -8,7 +8,7 @@ books:
   cover: "/assets/books/call-me-by-your-name.jpg"
   author: André Aciman
   pages: 256
-  read: ''
+  read: '2021'
   my-notes: |
     Despite being a quick read, this book is full of insights on human psychology and advice that one would have to spend years collecting. My feelings are a bit mixed but overall I think it’s shifted my perspective and that I’ve gained something valuable.
 
