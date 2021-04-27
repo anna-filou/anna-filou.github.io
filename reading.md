@@ -1,7 +1,7 @@
 ---
 layout: reading
 lang: en
-ref: writing
+ref: 
 title: Reading
 books:
 - title: Call Me by Your Name

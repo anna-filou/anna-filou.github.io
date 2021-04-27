@@ -2,9 +2,7 @@
 layout: blog
 title: Writing
 lang: en
-ref: writing
-bio: 
-
+ref: 
 ---
 I don't consider myself a writer. I was hesitant about posting my thoughts online because the Internet is already over-saturated with content. What more could I add?
 

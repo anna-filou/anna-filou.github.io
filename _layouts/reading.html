@@ -25,7 +25,10 @@ AND adds the following code in the {{content}} area of default.html -->
 
 <div class="container">
     <h2 class="f2">Books I’m reading now</h2>
-    <div class="nowrap  overflow-x-auto flex items-end w-100">
+</div>
+
+<section class="container-ns">
+    <div class="pl3 pl0-ns nowrap overflow-x-auto flex items-end w-100">
         {%- for book in page.books-%}
             {%- if book.read == "now" -%}
             <div class="w-20-ns mr4 mv2 overflow-auto ws-normal" style="min-width: 200px;">
@@ -37,9 +40,8 @@ AND adds the following code in the {{content}} area of default.html -->
             </div>
             {%- endif -%}
         {%- endfor -%}  
-
     </div>
-</div>
+</section>
 
 
     

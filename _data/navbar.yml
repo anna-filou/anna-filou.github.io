@@ -12,15 +12,15 @@ main:
     url: about
     langs: 'yes'
   # - en: Writing
-  #   el: Γράψιμο 🇺🇸
+  #   el: Γράψιμο <img src="/assets/flag-usa.png" class="w1 mr3" alt="μόνο στα Αγγλικά">
   #   url: writing
   #   langs: 'no'
 secondary: 
   - en: Reading
-    el: Διάβασμα 🇺🇸
+    el: Διάβασμα <img src="/assets/flag-usa.png" class="w1 pl2" alt="μόνο στα Αγγλικά">
     url: reading
     langs: 'no'
   - en: Now
-    el: Τώρα 🇺🇸
+    el: Τώρα <img src="/assets/flag-usa.png" class="w1" alt="μόνο στα Αγγλικά">
     url: now
     langs: 'no'

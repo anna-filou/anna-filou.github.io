@@ -17,6 +17,14 @@
       "oAP" : "\/_config.yml",
       "oF" : 0
     },
+    "\/_data\/home.yml" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/_data\/home.yml",
+      "oF" : 0
+    },
     "\/_data\/navbar.yml" : {
       "cB" : 0,
       "ft" : 8192,
@@ -84,14 +92,6 @@
       "oAP" : "\/_includes\/components\/head.html",
       "oF" : 0
     },
-    "\/_includes\/components\/index.html" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/_includes\/components\/index.html",
-      "oF" : 0
-    },
     "\/_includes\/components\/navbar.html" : {
       "cB" : 0,
       "ft" : 8192,
@@ -130,6 +130,14 @@
       "hM" : 0,
       "oA" : 0,
       "oAP" : "\/_layouts\/default.html",
+      "oF" : 0
+    },
+    "\/_layouts\/home.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/_layouts\/home.html",
       "oF" : 0
     },
     "\/_layouts\/measure.html" : {
@@ -336,6 +344,19 @@
       "q" : 100,
       "rq" : 75
     },
+    "\/_site\/assets\/drawings\/2019-06-sad-SIGN.jpg" : {
+      "ft" : 16384,
+      "iS" : 103496,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/_site\/assets\/drawings\/2019-06-sad-SIGN.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
     "\/_site\/assets\/drawings\/2019-07-girl.jpg" : {
       "ft" : 16384,
       "iS" : 124293,
@@ -412,30 +433,6 @@
       "opt" : 0,
       "ou" : "lpckwebp-none",
       "q" : 100,
-      "rq" : 75
-    },
-    "\/_site\/assets\/drawings\/170321-picture-perfect-min.png" : {
-      "ft" : 32768,
-      "iS" : 109483,
-      "oA" : 0,
-      "oAP" : "\/_site\/assets\/drawings\/170321-picture-perfect-min.png",
-      "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
-      "oT" : 1,
-      "ou" : "lpckwebp-none",
-      "q" : 100,
-      "rq" : 75
-    },
-    "\/_site\/assets\/drawings\/170321-picture-perfect-min.webp" : {
-      "ft" : 8388608,
-      "iS" : 138248,
-      "oA" : 0,
-      "oAP" : "\/_site\/assets\/drawings\/170321-picture-perfect-min.webp",
-      "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
-      "ou" : "lpckwebp-default",
       "rq" : 75
     },
     "\/_site\/assets\/drawings\/170321-picture-perfect.png" : {
@@ -567,6 +564,181 @@
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
+    },
+    "\/_site\/assets\/flag-de.png" : {
+      "ft" : 32768,
+      "iS" : 252,
+      "oA" : 0,
+      "oAP" : "\/_site\/assets\/flag-de.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/_site\/assets\/flag-gr.png" : {
+      "ft" : 32768,
+      "iS" : 212,
+      "oA" : 0,
+      "oAP" : "\/_site\/assets\/flag-gr.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/_site\/assets\/flag-usa.png" : {
+      "ft" : 32768,
+      "iS" : 352,
+      "oA" : 0,
+      "oAP" : "\/_site\/assets\/flag-usa.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/_site\/assets\/fonts\/Inter-Bold.ttf" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/_site\/assets\/fonts\/Inter-Bold.ttf",
+      "oF" : 0
+    },
+    "\/_site\/assets\/fonts\/Inter-Bold.woff" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/_site\/assets\/fonts\/Inter-Bold.woff",
+      "oF" : 0
+    },
+    "\/_site\/assets\/fonts\/Inter-Bold.woff2" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/_site\/assets\/fonts\/Inter-Bold.woff2",
+      "oF" : 0
+    },
+    "\/_site\/assets\/fonts\/Inter-Italic.ttf" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/_site\/assets\/fonts\/Inter-Italic.ttf",
+      "oF" : 0
+    },
+    "\/_site\/assets\/fonts\/Inter-Italic.woff" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/_site\/assets\/fonts\/Inter-Italic.woff",
+      "oF" : 0
+    },
+    "\/_site\/assets\/fonts\/Inter-Italic.woff2" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/_site\/assets\/fonts\/Inter-Italic.woff2",
+      "oF" : 0
+    },
+    "\/_site\/assets\/fonts\/Inter-Medium.ttf" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/_site\/assets\/fonts\/Inter-Medium.ttf",
+      "oF" : 0
+    },
+    "\/_site\/assets\/fonts\/Inter-Medium.woff" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/_site\/assets\/fonts\/Inter-Medium.woff",
+      "oF" : 0
+    },
+    "\/_site\/assets\/fonts\/Inter-Medium.woff2" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/_site\/assets\/fonts\/Inter-Medium.woff2",
+      "oF" : 0
+    },
+    "\/_site\/assets\/fonts\/Inter-Regular.ttf" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/_site\/assets\/fonts\/Inter-Regular.ttf",
+      "oF" : 0
+    },
+    "\/_site\/assets\/fonts\/Inter-Regular.woff" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/_site\/assets\/fonts\/Inter-Regular.woff",
+      "oF" : 0
+    },
+    "\/_site\/assets\/fonts\/Inter-Regular.woff2" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/_site\/assets\/fonts\/Inter-Regular.woff2",
+      "oF" : 0
+    },
+    "\/_site\/assets\/fonts\/Inter-SemiBold.ttf" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/_site\/assets\/fonts\/Inter-SemiBold.ttf",
+      "oF" : 0
+    },
+    "\/_site\/assets\/fonts\/Inter-SemiBold.woff" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/_site\/assets\/fonts\/Inter-SemiBold.woff",
+      "oF" : 0
+    },
+    "\/_site\/assets\/fonts\/Inter-SemiBold.woff2" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/_site\/assets\/fonts\/Inter-SemiBold.woff2",
+      "oF" : 0
+    },
+    "\/_site\/assets\/fonts\/MarkerFelt-Wide.ttf" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/_site\/assets\/fonts\/MarkerFelt-Wide.ttf",
+      "oF" : 0
+    },
+    "\/_site\/assets\/fonts\/MarkerFelt-Wide.woff" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/_site\/assets\/fonts\/MarkerFelt-Wide.woff",
+      "oF" : 0
     },
     "\/_site\/assets\/hero-grid\/1-bnw-thoughts.jpg" : {
       "ft" : 16384,
@@ -923,6 +1095,14 @@
       "oF" : 0,
       "pg" : 0
     },
+    "\/_site\/el\/index.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/_site\/el\/index.html",
+      "oF" : 0
+    },
     "\/_site\/en\/about\/index.html" : {
       "cB" : 0,
       "ft" : 8192,
@@ -987,12 +1167,28 @@
       "oAP" : "\/_site\/now\/index.html",
       "oF" : 0
     },
+    "\/_site\/reading.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/_site\/reading.html",
+      "oF" : 0
+    },
     "\/_site\/reading\/index.html" : {
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
       "oA" : 0,
       "oAP" : "\/_site\/reading\/index.html",
+      "oF" : 0
+    },
+    "\/_site\/writing.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/_site\/writing.html",
       "oF" : 0
     },
     "\/_site\/writing\/index.html" : {
@@ -1293,30 +1489,6 @@
       "q" : 73,
       "rq" : 75
     },
-    "\/assets\/drawings\/170321-picture-perfect-min.png" : {
-      "ft" : 32768,
-      "iS" : 109483,
-      "oA" : 0,
-      "oAP" : "\/assets\/drawings\/170321-picture-perfect-min.png",
-      "oF" : 1,
-      "oIPL" : 1,
-      "opt" : 1,
-      "oT" : 1,
-      "ou" : "lpckwebp-drawing",
-      "q" : 34,
-      "rq" : 26
-    },
-    "\/assets\/drawings\/170321-picture-perfect-min.webp" : {
-      "ft" : 8388608,
-      "iS" : 138248,
-      "oA" : 0,
-      "oAP" : "\/assets\/drawings\/170321-picture-perfect-min.webp",
-      "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
-      "ou" : "lpckwebp-default",
-      "rq" : 75
-    },
     "\/assets\/drawings\/170321-picture-perfect.png" : {
       "ft" : 32768,
       "iS" : 109483,
@@ -1446,6 +1618,181 @@
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
+    },
+    "\/assets\/flag-de.png" : {
+      "ft" : 32768,
+      "iS" : 252,
+      "oA" : 0,
+      "oAP" : "\/assets\/flag-de.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/assets\/flag-gr.png" : {
+      "ft" : 32768,
+      "iS" : 212,
+      "oA" : 0,
+      "oAP" : "\/assets\/flag-gr.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/assets\/flag-usa.png" : {
+      "ft" : 32768,
+      "iS" : 352,
+      "oA" : 0,
+      "oAP" : "\/assets\/flag-usa.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/assets\/fonts\/Inter-Bold.ttf" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/assets\/fonts\/Inter-Bold.ttf",
+      "oF" : 0
+    },
+    "\/assets\/fonts\/Inter-Bold.woff" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/assets\/fonts\/Inter-Bold.woff",
+      "oF" : 0
+    },
+    "\/assets\/fonts\/Inter-Bold.woff2" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/assets\/fonts\/Inter-Bold.woff2",
+      "oF" : 0
+    },
+    "\/assets\/fonts\/Inter-Italic.ttf" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/assets\/fonts\/Inter-Italic.ttf",
+      "oF" : 0
+    },
+    "\/assets\/fonts\/Inter-Italic.woff" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/assets\/fonts\/Inter-Italic.woff",
+      "oF" : 0
+    },
+    "\/assets\/fonts\/Inter-Italic.woff2" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/assets\/fonts\/Inter-Italic.woff2",
+      "oF" : 0
+    },
+    "\/assets\/fonts\/Inter-Medium.ttf" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/assets\/fonts\/Inter-Medium.ttf",
+      "oF" : 0
+    },
+    "\/assets\/fonts\/Inter-Medium.woff" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/assets\/fonts\/Inter-Medium.woff",
+      "oF" : 0
+    },
+    "\/assets\/fonts\/Inter-Medium.woff2" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/assets\/fonts\/Inter-Medium.woff2",
+      "oF" : 0
+    },
+    "\/assets\/fonts\/Inter-Regular.ttf" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/assets\/fonts\/Inter-Regular.ttf",
+      "oF" : 0
+    },
+    "\/assets\/fonts\/Inter-Regular.woff" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/assets\/fonts\/Inter-Regular.woff",
+      "oF" : 0
+    },
+    "\/assets\/fonts\/Inter-Regular.woff2" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/assets\/fonts\/Inter-Regular.woff2",
+      "oF" : 0
+    },
+    "\/assets\/fonts\/Inter-SemiBold.ttf" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/assets\/fonts\/Inter-SemiBold.ttf",
+      "oF" : 0
+    },
+    "\/assets\/fonts\/Inter-SemiBold.woff" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/assets\/fonts\/Inter-SemiBold.woff",
+      "oF" : 0
+    },
+    "\/assets\/fonts\/Inter-SemiBold.woff2" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/assets\/fonts\/Inter-SemiBold.woff2",
+      "oF" : 0
+    },
+    "\/assets\/fonts\/MarkerFelt-Wide.ttf" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/assets\/fonts\/MarkerFelt-Wide.ttf",
+      "oF" : 0
+    },
+    "\/assets\/fonts\/MarkerFelt-Wide.woff" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/assets\/fonts\/MarkerFelt-Wide.woff",
+      "oF" : 0
     },
     "\/assets\/hero-grid\/1-bnw-thoughts.jpg" : {
       "ft" : 16384,
@@ -1802,6 +2149,14 @@
       "oF" : 0,
       "pg" : 2
     },
+    "\/el\/index.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/el\/index.html",
+      "oF" : 0
+    },
     "\/en\/about.md" : {
       "cB" : 0,
       "cS" : 0,
@@ -1887,6 +2242,14 @@
       "pME" : 1,
       "rFN" : 0,
       "uCM" : 0
+    },
+    "\/reading.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/reading.html",
+      "oF" : 0
     },
     "\/reading.md" : {
       "cB" : 0,
@@ -27872,6 +28235,14 @@
       "oAP" : "\/vendor\/bundle\/ruby\/2.6.0\/specifications\/unicode-display_width-1.7.0.gemspec",
       "oF" : 0
     },
+    "\/writing.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/writing.html",
+      "oF" : 0
+    },
     "\/writing.md" : {
       "cB" : 0,
       "cS" : 0,
@@ -28197,7 +28568,7 @@
     "bowerUseExactVersion" : 0,
     "browserRefreshDelay" : 0,
     "browserslistString" : ">0.2%, last 2 versions, Firefox ESR, not dead",
-    "buildEnvironment" : 0,
+    "buildEnvironment" : 1,
     "buildFolderActive" : 0,
     "buildFolderName" : "build",
     "cleanBuild" : 1,
@@ -28342,7 +28713,7 @@
     "cssoForceMediaMerge" : 0,
     "cssoRestructure" : 1,
     "environmentVariableEntries" : [
-      "NODE_ENV:::production"
+      "NODE_ENV:::development"
     ],
     "esLintConfigFileHandlingType" : 0,
     "esLintECMAVersion" : 7,

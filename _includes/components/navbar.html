@@ -1,11 +1,18 @@
 <header class="pa0 pa2-ns pt3-ns bt bw2 bw3-l b--dark-green">
 	<nav class="pa3 pa0-ns nowrap overflow-x-auto flex items-center">
-		<a class="link dim dib mr4" href="/{{page.lang}}/" title="Go to the homepage">
+		<a class="link dim dib mr3" href="/{{page.lang}}/" title="Go to the homepage">
 			<svg width="50px" viewBox="0 0 201 123" xmlns="http://www.w3.org/2000/svg">
 			<path fill-rule="evenodd" clip-rule="evenodd" d="M104.423 32.4863V122.486H130.234V84.3129L174.381 122.486H200.193V0.921158H174.381V91.0717L130.234 52.8984V0.921158H104.423L96.5 0.921188L0.192505 122.486H33.1222L65.8948 81.1187V122.486H89.6577V62.2114H80.8737L104.423 32.4863Z"/>
 			</svg>
 		</a>
 		
+		<!-- <a class="grow w2 lh0 mr3" style="min-width: 30px;" href="/{% if page.lang == 'en' %}el/{{page.ref}}">
+		<img src="/assets/flag-gr.png" class="" alt="Switch to Greek, Ελληνικά">
+		{% else %}en/{{page.ref}}">
+		<img src="/assets/flag-usa.png" class="" alt="Switch to English">
+		{% endif %}
+		</a> -->
+
 		{% assign data = site.data.navbar %}
 		{%- for navlink in data.main -%}
 		<a class="link dib mr3 underline-hover" href="/
@@ -16,7 +23,7 @@
 		{%- endfor -%}
 
 		{%- for navlink in data.secondary -%}
-		<a class="link dib mr3 fw4 secondary underline-hover" href="/
+		<a class="link flex items-center dib mr3 fw4 secondary underline-hover" href="/
 		{%- if navlink.langs == "yes" -%}
 		{{page.lang}}/
 		{%- endif -%}
