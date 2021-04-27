@@ -17,10 +17,10 @@ main:
   #   langs: 'no'
 secondary: 
   - en: Reading
-    el: Διάβασμα <img src="/assets/flag-usa.png" class="w1 pl2" alt="μόνο στα Αγγλικά">
+    el: Reading
     url: reading
     langs: 'no'
   - en: Now
-    el: Τώρα <img src="/assets/flag-usa.png" class="w1" alt="μόνο στα Αγγλικά">
+    el: Now
     url: now
     langs: 'no'
