@@ -18,9 +18,9 @@ main:
 secondary: 
   - en: Reading
     el: Διάβασμα 🇺🇸
-    url: 
+    url: reading
     langs: 'no'
   - en: Now
     el: Τώρα 🇺🇸
-    url: /now
+    url: now
     langs: 'no'
