@@ -2,21 +2,25 @@ main:
   - en: Contact
     el: Επικοινωνία
     url: contact
-    langs: yes
+    langs: 'yes'
   - en: Drawing
     el: Ζωγραφική
     url: graphics
-    langs: yes
-  - en: Writing
-    el: Γράψιμο 🇺🇸
-    url: writing
-    langs: no
+    langs: 'yes'
+  - en: About
+    el: Σχετικά
+    url: about
+    langs: 'yes'
+  # - en: Writing
+  #   el: Γράψιμο 🇺🇸
+  #   url: writing
+  #   langs: 'no'
 secondary: 
   - en: Reading
     el: Διάβασμα 🇺🇸
     url: 
-    langs: no
+    langs: 'no'
   - en: Now
     el: Τώρα 🇺🇸
-    url: 
-    langs: no
+    url: /now
+    langs: 'no'
