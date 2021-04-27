@@ -424,11 +424,11 @@ article figure, div.highlight {
     padding: 0;
   }
 
-  .container {
-    /* padding-left: 20px;
-    padding-right: 20px; */
+  /* .container {
+    padding-left: 20px;
+    padding-right: 20px;
     max-width: 95vw;
-  }
+  } */
 
   .container-ns {
     max-width: 100vw;
