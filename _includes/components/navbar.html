@@ -12,10 +12,11 @@
 		<img src="/assets/flag-usa.png" class="" alt="Switch to English">
 		{% endif %}
 		</a> -->
+		
 
 		{% assign data = site.data.navbar %}
 		{%- for navlink in data.main -%}
-		<a class="link dib mr3 underline-hover" href="/
+		<a class="{%- if page.url contains navlink.url -%}strike o-50 fw4 link dib mr3{%- else -%}link dib mr3{%- endif -%}" href="/
 		{%- if navlink.langs == "yes" -%}
 		{{page.lang}}/
 		{%- endif -%}
@@ -23,7 +24,7 @@
 		{%- endfor -%}
 
 		{%- for navlink in data.secondary -%}
-		<a class="link flex items-center dib mr3 fw4 secondary underline-hover" href="/
+		<a class="{%- if page.url contains navlink.url -%}strike o-50 link pr3 fw4 secondary{%- else -%}link pr3 fw4 secondary{%- endif -%}" href="/
 		{%- if navlink.langs == "yes" -%}
 		{{page.lang}}/
 		{%- endif -%}

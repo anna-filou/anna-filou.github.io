@@ -367,7 +367,7 @@ blockquote p {
 article {
   max-width: 940px;
   margin: 0 auto;
-  padding: 24px;
+  padding: 12px;
 }
 
 article img, p img {
@@ -463,13 +463,13 @@ article figure, div.highlight {
   article img {
     min-width: 100vw;
     position: relative;
-    left: -24px;
+    left: -12px;
   }
   blockquote,
   q {
     min-width: 100vw;
     position: relative;
-    left: -24px;
+    left: -12px;
     padding: 1em 21px;
   }
   article figure, div.highlight {
@@ -489,6 +489,9 @@ article figure, div.highlight {
 
 }
 
+.code, code {
+  overflow-wrap: break-word;
+}
 
 .highlight .hll { background-color: #49483e }
 .highlight  { background: #272822; color: #f8f8f2 }

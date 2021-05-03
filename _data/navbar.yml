@@ -1,26 +1,26 @@
 main: 
-  - en: Contact
+  - en: ✉️ Contact
     el: Επικοινωνία
     url: contact
     langs: 'yes'
-  - en: Drawing
+  - en: ✏️ Drawing
     el: Ζωγραφική
     url: graphics
     langs: 'yes'
-  - en: About
+  - en: 👤 About
     el: Σχετικά
     url: about
     langs: 'yes'
   # - en: Writing
-  #   el: Γράψιμο <img src="/assets/flag-usa.png" class="w1 mr3" alt="μόνο στα Αγγλικά">
+  #   el: Writing
   #   url: writing
   #   langs: 'no'
 secondary: 
-  - en: Reading
+  - en: 📚 Reading
     el: Reading
     url: reading
     langs: 'no'
-  - en: Now
+  - en: ⏰ Now
     el: Now
     url: now
     langs: 'no'

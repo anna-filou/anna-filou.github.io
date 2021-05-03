@@ -32,3 +32,9 @@ Also, I have a _ridiculously_ annoying but super cute cat.
 ### Any parting thoughts?
 
 Wish I could describe myself in a page but that'd be impossible. Do [contact me](/{{page.lang}}/contact) if you want us to get to know each other.
+
+---
+
+PS: Product recommendations on [my 🥞 ‘YourStack’ profile](https://yourstack.com/@that__anna). 
+
+Oh, and did I mention I practically live on [😻 Product Hunt](https://www.producthunt.com/@anna_0x)?
