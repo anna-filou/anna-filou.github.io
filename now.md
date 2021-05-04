@@ -20,7 +20,7 @@ I got a Nintendo Switch a couple of weeks ago and love it. As expected, I don’
 The past couple of weeks I’ve been making small improvements to this websites on a regular basis. It’s so much better than stressing over big redesigns! I’ve made peace with the fact it’s gonna be a constant WIP, and that’s freeing. Whenever I get an idea, I start building it. Right now I’m working on adding:
 
 * a space for writing/sharing my thoughts
-* a “tools” page with software recommendations | **UPDATE: Done →** [**Tools page**](/tools)
+* a “tools” page with software recommendations / **UPDATE: Done →** [**Tools page**](/tools)
 * a “favorite books” section to my [reading page](/reading)
 * multilingual support (English + Greek, my native language)
 * custom icons to the navbar (I made due with emoji for now, but they look different on each platform)

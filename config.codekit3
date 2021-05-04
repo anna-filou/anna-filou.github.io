@@ -1231,15 +1231,28 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/_site\/uploads\/3346f203-f01d-4fa8-95a0-e5019ae56812.jpg.webp" : {
+    "\/_site\/uploads\/jekyll-logo.webp" : {
       "ft" : 8388608,
       "iS" : 3162,
       "oA" : 0,
-      "oAP" : "\/_site\/uploads\/3346f203-f01d-4fa8-95a0-e5019ae56812.jpg.webp",
+      "oAP" : "\/_site\/uploads\/jekyll-logo.webp",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
       "ou" : "lpckwebp-default",
+      "rq" : 75
+    },
+    "\/_site\/uploads\/Screenshot 2021-05-04 at 4.11.59 PM.png" : {
+      "ft" : 32768,
+      "iS" : 71414,
+      "oA" : 0,
+      "oAP" : "\/_site\/uploads\/Screenshot 2021-05-04 at 4.11.59 PM.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
       "rq" : 75
     },
     "\/_site\/uploads\/tempo-logo.png" : {
@@ -2377,15 +2390,28 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/uploads\/3346f203-f01d-4fa8-95a0-e5019ae56812.jpg.webp" : {
+    "\/uploads\/jekyll-logo.webp" : {
       "ft" : 8388608,
       "iS" : 3162,
       "oA" : 0,
-      "oAP" : "\/uploads\/3346f203-f01d-4fa8-95a0-e5019ae56812.jpg.webp",
+      "oAP" : "\/uploads\/jekyll-logo.webp",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
       "ou" : "lpckwebp-default",
+      "rq" : 75
+    },
+    "\/uploads\/Screenshot 2021-05-04 at 4.11.59 PM.png" : {
+      "ft" : 32768,
+      "iS" : 71414,
+      "oA" : 0,
+      "oAP" : "\/uploads\/Screenshot 2021-05-04 at 4.11.59 PM.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
       "rq" : 75
     },
     "\/uploads\/tempo-logo.png" : {
