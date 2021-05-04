@@ -1,0 +1,34 @@
+---
+label: tools
+hide_body: true
+fields:
+- type: field_group
+  name: intro
+  label: intro
+  fields:
+  - type: textarea
+    name: en
+    label: en
+  - type: textarea
+    name: el
+    label: el
+- type: field_group_list
+  name: tools
+  label: tools
+  fields:
+  - type: text
+    name: name
+    label: name
+  - type: text
+    name: url
+    label: url
+  - type: field_group
+    name: desc
+    label: desc
+    fields:
+    - type: textarea
+      name: en
+      label: en
+  - type: text
+    name: img
+    label: img

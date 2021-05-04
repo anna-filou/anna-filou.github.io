@@ -9,6 +9,12 @@ intro:
     (που δεν σχετίζονται απαραίτητα με τη δουλειά μου) στο <a target=\"_blank\" href=\"https://yourstack.com/@that__anna\">προφίλ
     μου στο \U0001F95E 'YourStack'</a>.\n"
 tools:
+- name: Jekyll
+  url: https://jekyllrb.com/
+  desc:
+    en: Instead of bulky CMS that you need to install on your serve—like Wordpress—I
+      use Jekyll to make super fast, perfectly secure websites that never go down.
+  img: ''
 - name: TEMPO
   url: https://www.yourtempo.co
   desc:
