@@ -1,26 +1,30 @@
 main: 
   - en: ✉️ Contact
-    el: Επικοινωνία
+    el: ✉️ Επικοινωνία
     url: contact
     langs: 'yes'
   - en: ✏️ Drawing
-    el: Ζωγραφική
+    el: ✏️ Ζωγραφική
     url: graphics
     langs: 'yes'
   - en: 👤 About
-    el: Σχετικά
+    el: 👤 Σχετικά
     url: about
     langs: 'yes'
-  # - en: Writing
-  #   el: Writing
+  # - en: 📝 Writing
+  #   el: 📝 Writing
   #   url: writing
   #   langs: 'no'
 secondary: 
   - en: 📚 Reading
-    el: Reading
+    el: 📚 Reading
     url: reading
     langs: 'no'
   - en: ⏰ Now
-    el: Now
+    el: ⏰ Now
     url: now
+    langs: 'no'
+  - en: 🛠 Tools
+    el: 🛠 Tools
+    url: tools
     langs: 'no'

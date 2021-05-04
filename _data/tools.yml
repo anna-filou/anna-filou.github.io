@@ -1,0 +1,32 @@
+intro: 
+  en: | 
+    Some of the services I love to use—and often rely on.
+
+    These are all personal recommendations. Nobody has paid me to (or even asked me to) advertise them.
+    
+    More product recommendations (not necessarily related to my work) on <a target="_blank" href="https://yourstack.com/@that__anna">my 🥞 ‘YourStack’ profile</a>.
+  el: | 
+    Κανείς δεν με έχει πληρώσει (ούτε καν μου έχει ζητήσει) να διαφημίσω τα παρακάτω προϊόντα. Μου αρέσουν αρκετά για να τα συνιστώ!
+    
+    Περισσότερες συστάσεις προϊόντων (που δεν σχετίζονται απαραίτητα με τη δουλειά μου) στο <a target="_blank" href="https://yourstack.com/@that__anna">προφίλ μου στο 🥞 'YourStack'</a>.
+tools: 
+  - name: TEMPO
+    url: 'https://www.yourtempo.co'
+    desc:
+      en: | 
+        Tempo is a macOS/iOS Gmail client. It creates a workspace that won't get filled with new emails automatically; you have to manually add them. Perfect for those overwhelmed by too many emails.
+        
+        DISCLAIMER: I do customer support for Tempo, but my opinion is my own.
+      el: |
+        Το Tempo είναι ένας Gmail client για macOS κ’ iOS. Φτιάχνει έναν χώρο εργασίας που δεν γεμίζει αυτόματα με νέα email — πρέπει να τα προσθέσετε χειροκίνητα. Ιδανικό για όσους πνίγονται από τα πολλά emails.
+        
+        ΣΗΜΕΙΩΣΗ: Κάνω υποστήριξη πελατών για το Tempo, αλλά η γνώμη μου είναι δική μου.
+    img: "/uploads/tempo-logo.png"
+  - name: 1Feed
+    url: 'https://1feed.app/'
+    desc:
+      en: | 
+        Not just an RSS reader; it’s the central hub for all the websites you want to check on a regular basis. Instead of overwhelming you with an infinite feed of updates, each site takes up just one line.
+      el: |
+        
+    img: "/uploads/1feed-logo.png"

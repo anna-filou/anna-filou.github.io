@@ -3,16 +3,6 @@
 
 /* FONTS */
 
-/* MARKER FELT - headings */
-@font-face {
-  font-family: 'Marker Felt';
-  src: url('/assets/fonts/MarkerFelt-Wide.woff') format('woff'),
-      url('/assets/fonts/MarkerFelt-Wide.ttf') format('truetype');
-  font-weight: bold;
-  font-style: normal;
-  font-display: swap;
-}
-
 /* Inter - body */
 
 @font-face {
@@ -120,6 +110,8 @@ svg {
   border-color: #e9e6e1;
 }
 
+.hover-bg-faint:hover { background-color: #e9e6e1; }
+
 @media (prefers-color-scheme: dark) {
   body {
     background-color: #171717;
@@ -172,6 +164,8 @@ svg {
     border-color: #332e2e;
   }
 
+  .hover-bg-faint:hover { background-color: #292525; }
+
 }
 @media (prefers-color-scheme: light) {
   body {
@@ -217,6 +211,8 @@ svg {
   .b--faint, hr {
     border-color: #e9e6e1;
   }
+
+  .hover-bg-faint:hover { background-color: #e9e6e1; }
 }
 
 body {

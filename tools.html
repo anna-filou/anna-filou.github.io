@@ -1,0 +1,36 @@
+--- 
+layout: default 
+title: Tools - WIP
+description: 
+lang: en
+ref: 
+---
+
+<section class="container">
+    <div class="mv5">
+        {%- if page.title -%}
+        <h1>{{ page.title }}</h1>
+        {%- endif -%}
+    
+        <div class="measure-wide">
+            {{site.data.tools.intro[page.lang] | markdownify}}
+        </div>
+    </div>
+</section>
+
+
+<section class="container-ns">
+    <div class="mw7-ns">
+        {% for tool in site.data.tools.tools %}
+            <a target="_blank" href="{{tool.url}}" class="hover-bg-faint fw4 flex flex-column flex-row-ns pa3 ma2 ml0-ns br3 mt2 mb4" href="#0">
+                <img src="{{tool.img}}" class="db br2 w3 w4-ns h3 h4-ns"/>
+                <div class="pt3 pt0-ns pl0 pl4-ns">
+                    <h2 class="f4 f3-ns lh-title mb2 mt0 main">{{tool.name}}</h2>
+                    <div class="mv0 secondary">
+                        {{tool.desc[page.lang] | markdownify}}
+                    </div>
+                </div>
+            </a>
+        {% endfor %}
+    </div>
+</section>
