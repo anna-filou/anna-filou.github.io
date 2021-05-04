@@ -1047,26 +1047,6 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/_site\/css\/style-min.css" : {
-      "aP" : 1,
-      "bl" : 0,
-      "ci" : 0,
-      "co" : 0,
-      "ft" : 16,
-      "ma" : 0,
-      "oA" : 0,
-      "oAP" : "\/_site\/css\/style-min-min.css",
-      "oF" : 0,
-      "pg" : 0
-    },
-    "\/_site\/css\/style-min.css.map" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 1,
-      "oAP" : "\/_site\/css\/style-min.css.map",
-      "oF" : 1
-    },
     "\/_site\/css\/style.css" : {
       "aP" : 1,
       "bl" : 0,
@@ -1078,26 +1058,6 @@
       "oAP" : "\/_site\/css\/style-min.css",
       "oF" : 0,
       "pg" : 0
-    },
-    "\/_site\/css\/tachyons-min.css" : {
-      "aP" : 1,
-      "bl" : 0,
-      "ci" : 0,
-      "co" : 0,
-      "ft" : 16,
-      "ma" : 0,
-      "oA" : 0,
-      "oAP" : "\/_site\/css\/tachyons-min-min.css",
-      "oF" : 0,
-      "pg" : 0
-    },
-    "\/_site\/css\/tachyons-min.css.map" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/_site\/css\/tachyons-min.css.map",
-      "oF" : 0
     },
     "\/_site\/css\/tachyons.css" : {
       "aP" : 1,
@@ -28717,7 +28677,7 @@
     "bowerUseExactVersion" : 0,
     "browserRefreshDelay" : 0,
     "browserslistString" : ">0.2%, last 2 versions, Firefox ESR, not dead",
-    "buildEnvironment" : 1,
+    "buildEnvironment" : 0,
     "buildFolderActive" : 0,
     "buildFolderName" : "build",
     "cleanBuild" : 1,
@@ -28862,7 +28822,7 @@
     "cssoForceMediaMerge" : 0,
     "cssoRestructure" : 1,
     "environmentVariableEntries" : [
-      "NODE_ENV:::development"
+      "NODE_ENV:::production"
     ],
     "esLintConfigFileHandlingType" : 0,
     "esLintECMAVersion" : 7,
