@@ -14,7 +14,9 @@ tools:
   desc:
     en: Instead of bulky CMS that you need to install on your serve—like Wordpress—I
       use Jekyll to make super fast, perfectly secure websites that never go down.
+    el: ''
   img: ''
+  image: "/uploads/jekyll-logo.webp"
 - name: TEMPO
   url: https://www.yourtempo.co
   desc:
@@ -27,6 +29,7 @@ tools:
 
       ΣΗΜΕΙΩΣΗ: Κάνω υποστήριξη πελατών για το Tempo, αλλά η γνώμη μου είναι δική μου.
   img: "/uploads/tempo-logo.png"
+  image: ''
 - name: 1Feed
   url: https://1feed.app/
   desc:
@@ -37,3 +40,4 @@ tools:
 '
     el: ''
   img: "/uploads/1feed-logo.png"
+  image: ''

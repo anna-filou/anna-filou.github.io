@@ -4,31 +4,44 @@ hide_body: true
 fields:
 - type: field_group
   name: intro
-  label: intro
+  label: Page intro
   fields:
   - type: textarea
     name: en
-    label: en
+    label: "\U0001F1FA\U0001F1F8 English"
   - type: textarea
     name: el
-    label: el
+    label: "\U0001F1EC\U0001F1F7 Greek"
 - type: field_group_list
   name: tools
-  label: tools
+  label: Tools
   fields:
   - type: text
     name: name
-    label: name
+    label: Tool Name
   - type: text
     name: url
-    label: url
+    label: Website URL
   - type: field_group
     name: desc
-    label: desc
+    label: Description
     fields:
     - type: textarea
       name: en
-      label: en
-  - type: text
-    name: img
-    label: img
+      label: "\U0001F1FA\U0001F1F8 English"
+    - name: el
+      type: textarea
+      default: ''
+      config:
+        required: false
+        wysiwyg: false
+        schema:
+          format: markdown
+      label: "\U0001F1EC\U0001F1F7 Greek"
+  - name: image
+    type: file
+    config:
+      maxSize: 1
+    label: Image/Logo
+pages:
+- _data/tools.yml
