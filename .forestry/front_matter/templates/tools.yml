@@ -38,7 +38,7 @@ fields:
         schema:
           format: markdown
       label: "\U0001F1EC\U0001F1F7 Greek"
-  - name: image
+  - name: img
     type: file
     config:
       maxSize: 1
