@@ -9,6 +9,21 @@ intro:
     (που δεν σχετίζονται απαραίτητα με τη δουλειά μου) στο <a target=\"_blank\" href=\"https://yourstack.com/@that__anna\">προφίλ
     μου στο \U0001F95E 'YourStack'</a>.\n"
 tools:
+- name: Figma
+  url: https://www.figma.com
+  desc:
+    en: Best design tool for solo and collaborative use. Easy to create interactive
+      prototypes. Speeds up development by providing CSS snippets.
+    el: ''
+  img: "/uploads/figma-logo.png"
+- name: Loom
+  url: https://www.loom.com
+  desc:
+    en: Loom makes sharing instructional videos so quick and easy that there's no
+      reason not to. As soon as you're done shooting, Loom has a shareable link ready
+      for anyone to watch.
+    el: ''
+  img: "/uploads/loom-logo.png"
 - name: Jekyll
   url: https://jekyllrb.com/
   desc:
@@ -17,6 +32,21 @@ tools:
     el: ''
   img: "/uploads/jekyll.png"
   image: "/uploads/jekyll-logo.webp"
+- name: Forestry.io CMS
+  url: https://forestry.io
+  desc:
+    en: Easy to use for developers and end-users/clients alike. My headless CMS of
+      choice. Generous free tier.
+    el: ''
+  img: "/uploads/forestry-logo.png"
+- name: Webflow
+  url: https://webflow.com/cms#editors
+  desc:
+    en: Webflow is an amazing tool that empowers editors/clients to edit content by
+      themselves. I mostly use custom code + Jekyll + Forestry CMS nowadays, because
+      they offer more freedom and are way more affordable.
+    el: ''
+  img: "/uploads/webflow-logo.png"
 - name: TEMPO
   url: https://www.yourtempo.co
   desc:
@@ -41,3 +71,19 @@ tools:
     el: ''
   img: "/uploads/1feed-logo.png"
   image: ''
+- name: Dropbox Paper
+  url: https://www.dropbox.com/paper
+  desc:
+    en: Easy to collaborate on a flexible, live, shared document. Good for creating
+      a timeline and communicating with clients, without losing track of messages
+      and emails. Keeps everyone on the same page.
+    el: ''
+  img: "/uploads/dropbox-paper-logo.png"
+- name: iwantmyname
+  url: https://iwantmyname.com
+  desc:
+    en: I buy most domains from iwantmyname. Their service is so easy to use and saves
+      you so much time when connecting your domain to other services, like email providers
+      and hosting servers.
+    el: ''
+  img: "/uploads/iwantmyname-logo.png"
