@@ -15,7 +15,7 @@ tools:
     en: Instead of bulky CMS that you need to install on your serve—like Wordpress—I
       use Jekyll to make super fast, perfectly secure websites that never go down.
     el: ''
-  img: "/uploads/jekyll-logo.webp"
+  img: "/uploads/jekyll.png"
   image: "/uploads/jekyll-logo.webp"
 - name: TEMPO
   url: https://www.yourtempo.co
