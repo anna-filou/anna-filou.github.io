@@ -35,4 +35,11 @@ Wish I could describe myself in a page but that'd be impossible. Do [contact me]
 
 ***
 
-Did I mention I practically live on [😻 Product Hunt](https://www.producthunt.com/@anna_0x)?
+- [Get in touch](/{{page.lang}}/contact)
+- [Check out some of my work](/{{page.lang}}/graphics)
+- [View my illustrations](/{{page.lang}}/graphics)
+- [See the books I’ve read or am reading now](/reading)
+- [Find out which tools/software I use and recommend](/tools)
+- [Read what I’m currently up to](/now)
+
+Oh, did I mention I practically live on [😻 Product Hunt](https://www.producthunt.com/@anna_0x)?
