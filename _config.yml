@@ -23,9 +23,9 @@ title: Anna Filou
 description: >- # this means to ignore newlines until "baseurl:"
   Designer / illustrator based in Athens, working internationally.
 baseurl: "" # the subpath of your site, e.g. /blog
-# url: "https://annafilou.com" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://annafilou.com" # the base hostname & protocol for your site, e.g. http://example.com
 
-analytics: 
+# analytics: 
 
 permalink: pretty
 highlighter: rouge
