@@ -36,7 +36,7 @@ Wish I could describe myself in a page but that'd be impossible. Do [contact me]
 ***
 
 - [Get in touch](/{{page.lang}}/contact)
-- [Check out some of my work](/{{page.lang}}/graphics)
+- [Check out some of my work](/{{page.lang}})
 - [View my illustrations](/{{page.lang}}/graphics)
 - [See the books I’ve read or am reading now](/reading)
 - [Find out which tools/software I use and recommend](/tools)
