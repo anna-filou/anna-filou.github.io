@@ -27,7 +27,7 @@ tools:
 - name: Jekyll
   url: https://jekyllrb.com/
   desc:
-    en: Instead of bulky CMS that you need to install on your serve—like Wordpress—I
+    en: Instead of bulky CMS that you need to install on your server—like Wordpress—I
       use Jekyll to make super fast, perfectly secure websites that never go down.
     el: ''
   img: "/uploads/jekyll.png"
