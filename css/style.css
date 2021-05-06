@@ -601,7 +601,7 @@ article figure, div.highlight {
     }
 }
 
-@media (max-width: 375px) {
+@media (max-width: 370px) {
   h1 {
     font-size: 1.5em;
   }
