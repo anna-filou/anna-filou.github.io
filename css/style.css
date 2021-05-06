@@ -360,6 +360,12 @@ blockquote p {
   min-width: 100%;
 }
 
+.hyphens {
+  -webkit-hyphens: auto;
+  -moz-hyphens: auto;
+  hyphens: auto;
+}
+
 article {
   max-width: 940px;
   margin: 0 auto;
@@ -593,4 +599,10 @@ article figure, div.highlight {
     {
         display: none !important;
     }
+}
+
+@media (max-width: 375px) {
+  h1 {
+    font-size: 1.5em;
+  }
 }
