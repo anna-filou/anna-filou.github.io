@@ -47,6 +47,15 @@ tools:
       they offer more freedom and are way more affordable.
     el: ''
   img: "/uploads/webflow-logo.png"
+- name: Tweek
+  url: https://tweek.so
+  desc:
+    en: "Tweek literally changed my life. \U0001F499 I'm a sucker for complicated
+      digital tools but nothing could beat the clarity of using a simple paper planner.
+      Tweek is just like that but with all the advantages of being a digital product.
+      I can't recommend it highly enough!"
+    el: ''
+  img: "/uploads/tweek-logo.png"
 - name: TEMPO
   url: https://www.yourtempo.co
   desc:
