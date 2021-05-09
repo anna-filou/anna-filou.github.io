@@ -88,6 +88,10 @@ svg {
   color: #535353;
 }
 
+.tertiary {
+  color: #777777;
+}
+
 .smooth-shadow {
   box-shadow:
   0 1.5px 54.5px -71px rgba(0, 0, 0, 0.74),
@@ -156,6 +160,10 @@ svg {
     color: #d1d1d1;
   }
 
+  .tertiary {
+    color: #8b8b8b;
+  }
+
   .bg-faint {
     background-color: #292525;
   }
@@ -202,6 +210,10 @@ svg {
 
   .secondary {
     color: #535353;
+  }
+
+  .tertiary {
+    color: #777777;
   }
 
   .bg-faint {
@@ -292,7 +304,7 @@ ol {
 }
 
 li {
-  margin: 0.6em 0;
+  margin: 0.2em 0;
 }
 
 h1,
