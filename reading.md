@@ -1,9 +1,15 @@
 ---
 layout: reading
 lang: en
-ref: 
+ref: ''
 title: Reading
 books:
+- title: Shape Up
+  read: now
+  cover: "/uploads/book-shape-up.jpg"
+  author: Ryan Singer (Basecamp)
+  pages: 172
+  my-notes: ''
 - title: Call Me by Your Name
   cover: "/assets/books/call-me-by-your-name.jpg"
   author: André Aciman
