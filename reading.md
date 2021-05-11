@@ -10,18 +10,9 @@ books:
   author: Ryan Singer (Basecamp)
   pages: 172
   my-notes: ''
-- title: Call Me by Your Name
-  cover: "/assets/books/call-me-by-your-name.jpg"
-  author: André Aciman
-  pages: 256
-  read: '2021'
-  my-notes: |
-    Despite being a quick read, this book is full of insights on human psychology and advice that one would have to spend years collecting. My feelings are a bit mixed but overall I think it’s shifted my perspective and that I’ve gained something valuable.
-
-    ♥️
-- title: When Breath Becomes Air
-  cover: "/assets/books/when-breath-becomes-air.jpg"
-  author: Paul Kalanithi
+- title: Learn To Code Now
+  cover: "/assets/books/learn-to-code-now-superhi.jpg"
+  author: Rik Lomas
   read: now
   pages: 
   my-notes: ''
@@ -31,15 +22,15 @@ books:
   read: now
   pages: 
   my-notes: ''
-- title: The Demon-Haunted World
-  cover: "/assets/books/the-demon-haunted-world.jpg"
-  author: Carl Sagan, Ann Druyan
+- title: When Breath Becomes Air
+  cover: "/assets/books/when-breath-becomes-air.jpg"
+  author: Paul Kalanithi
   read: now
   pages: 
   my-notes: ''
-- title: Learn To Code Now
-  cover: "/assets/books/learn-to-code-now-superhi.jpg"
-  author: Rik Lomas
+- title: The Demon-Haunted World
+  cover: "/assets/books/the-demon-haunted-world.jpg"
+  author: Carl Sagan, Ann Druyan
   read: now
   pages: 
   my-notes: ''
@@ -49,6 +40,15 @@ books:
   read: now
   pages: 
   my-notes: ''
+- title: Call Me by Your Name
+  cover: "/assets/books/call-me-by-your-name.jpg"
+  author: André Aciman
+  pages: 256
+  read: '2021'
+  my-notes: |
+    Despite being a quick read, this book is full of insights on human psychology and advice that one would have to spend years collecting. My feelings are a bit mixed but overall I think it’s shifted my perspective and that I’ve gained something valuable.
+
+    ♥️
 
 ---
 I intend to use this page as a way to keep track of the books I read, in a way that makes sense to me. If it helps you discover a book you’d like to read too, that’d be awesome.
