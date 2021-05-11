@@ -5,11 +5,14 @@ ref: ''
 title: Reading
 books:
 - title: Shape Up
-  read: now
+  read: '2021'
   cover: "/uploads/book-shape-up.jpg"
   author: Ryan Singer (Basecamp)
   pages: 172
-  my-notes: ''
+  my-notes: Enlightening, even though I was already familiar with the concepts. The
+    book presents a set of mental tools and explains their benefits. Armed with those,
+    I feel much more confident in defining and bringing projects to life. This approach
+    makes a lot of sense in theory—I aim to try it for myself in the near future.
 - title: Learn To Code Now
   cover: "/assets/books/learn-to-code-now-superhi.jpg"
   author: Rik Lomas
