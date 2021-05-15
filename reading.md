@@ -48,10 +48,9 @@ books:
   author: André Aciman
   pages: 256
   read: '2021'
-  my-notes: |
-    Despite being a quick read, this book is full of insights on human psychology and advice that one would have to spend years collecting. My feelings are a bit mixed but overall I think it’s shifted my perspective and that I’ve gained something valuable.
-
-    ♥️
+  my-notes: "Despite being a quick read, this book is full of insights on human psychology
+    and advice that one would have to spend years collecting. My feelings are a bit
+    mixed but overall I think I’ve gained something valuable. \U0001F499\n"
 
 ---
 I intend to use this page as a way to keep track of the books I read, in a way that makes sense to me. If it helps you discover a book you’d like to read too, that’d be awesome.
