@@ -9,7 +9,7 @@ date: May 4th, 2021
 
 ### What is this page?
 
-It’s more or less the answer to “what are you up to lately?” Learn more about the [Now Now Now project](https://nownownow.com/about).
+It’s the answer to “what are you up to lately?” Learn more about the [Now Now Now project](https://nownownow.com/about).
 
 **Latest Update: {{ page.date }}**
 
