@@ -53,6 +53,6 @@ books:
     mixed but overall I think I’ve gained something valuable. \U0001F499\n"
 
 ---
-I intend to use this page as a way to keep track of the books I read, in a way that makes sense to me. If it helps you discover a book you’d like to read too, that’d be awesome.
+I use this page as a way to keep track of the books I read, in a way that makes sense to me. If it helps you discover a book you’d like to read, that’d be awesome!
 
-Probably won’t add books I finished before 2021.
+I probably won’t add books I finished before 2021.
