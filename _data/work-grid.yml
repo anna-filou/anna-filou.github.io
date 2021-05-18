@@ -1,20 +1,22 @@
 ---
-- title: 
+- title:
     en: MONSTER ENERGY HOMEPAGE CONCEPT
     el: MONSTER ENERGY HOMEPAGE CONCEPT
   desc:
-    en: Not commissioned by Monster Energy.
-    el: Δεν έγινε κατά παραγγελία της Monster Energy.
+    en: "[See the case study on Behance](https://www.behance.net/gallery/105157851/Monster-Energy-Website-Redesign-CONCEPT).
+      Not commissioned by Monster Energy."
+    el: "[Δείτε το case study στο Behance](https://www.behance.net/gallery/105157851/Monster-Energy-Website-Redesign-CONCEPT).
+      Δεν έγινε κατά παραγγελία της Monster Energy."
   img: "/assets/monster-behance-cover.jpg"
   tags:
   - name: Just for&nbsp;fun
     classes: bg-light-yellow orange
   - name: Web design
     classes: bg-lightest-blue dark-blue
-- title: 
+- title:
     en: SDA Manufacturer Website
     el: Ιστοσελιδα κατασκευαστη μικρων οικιακων συσκευων
-  desc: 
+  desc:
     en: Custom code, Jekyll
     el: Custom code, Jekyll
   img: "/assets/sda-manufacturer-screens.jpg"
@@ -23,10 +25,10 @@
     classes: bg-moon-gray navy
   - name: Web design
     classes: bg-lightest-blue dark-blue
-- title: 
+- title:
     en: Jewelry Store - Aevum
     el: Online Κοσμηματοπωλειο - Aevum
-  desc: 
+  desc:
     en: Webflow, custom code, Ecwid for e-commerce
     el: Webflow, custom code, Ecwid για λειτουργία e-commerce
   img: "/assets/aevum-demo.gif"
@@ -35,12 +37,13 @@
     classes: bg-moon-gray navy
   - name: Web design
     classes: bg-lightest-blue dark-blue
-- title: 
+- title:
     en: Restaurant Website — Bistrot&nbsp;46
     el: Ιστοσελιδα εστιατοριου — Bistrot&nbsp;46
-  desc: 
+  desc:
     en: Design, Webflow development, photography and the Airtable-powered menu.
-    el: Σχεδιασμός, development με Webflow, φωτογράφιση και μενού που τροφοδοτείται από το Airtable.
+    el: Σχεδιασμός, development με Webflow, φωτογράφιση και μενού που τροφοδοτείται
+      από το Airtable.
   img: "/assets/website-bistrot46.jpg"
   tags:
   - name: Client work
@@ -49,10 +52,10 @@
     classes: bg-washed-green dark-green
   - name: Web design & development
     classes: bg-lightest-blue purple
-- title: 
+- title:
     en: MegaMan-inspired Launcher setup
     el: MegaMan-inspired Launcher setup
-  desc: 
+  desc:
     en: Animated with Motion Portrait. Using “The Grid” icon pack.
     el: Animated with Motion Portrait. Using “The Grid” icon pack.
   img: "/assets/megaman-launcher-mockup.gif"
@@ -61,10 +64,10 @@
     classes: bg-light-yellow orange
   - name: Illustration
     classes: bg-washed-red dark-red
-- title: 
+- title:
     en: Wholesaler Website — Techomax
     el: Ιστοσελιδα εταιρειας χονδρικης — Techomax
-  desc: 
+  desc:
     en: Functional website with Airtable embeds for dynamic information.
     el: Λειτουργική ιστοσελίδα με ενσωμάτωση Airtable για δυναμικές πληροφορίες.
   img: "/assets/website-techomax.jpg"
@@ -73,10 +76,10 @@
     classes: bg-moon-gray navy
   - name: Web design & development
     classes: bg-lightest-blue purple
-- title: 
+- title:
     en: Werewolf Game Cards
     el: Καρτες παιχνιδιου «Παλερμο»
-  desc: 
+  desc:
     en: For personal use, made with watercolor and ink.
     el: Για προσωπική χρήση, νερομπογιά και μελάνι.
   img: "/assets/warewolf-cards.jpg"
@@ -85,10 +88,10 @@
     classes: bg-light-yellow orange
   - name: Illustration
     classes: bg-washed-red dark-red
-- title: 
+- title:
     en: Amazon Signup Page Concept
     el: Ιδεα για σελιδας εγγραφης Amazon
-  desc: 
+  desc:
     en: Not commissioned by Amazon.
     el: Δεν έγινε κατά παραγγελία της Amazon.
   img: "/assets/Dribbble-Amazon-Redesign-20200711.png"
