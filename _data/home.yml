@@ -1,27 +1,30 @@
-hero: 
+---
+hero:
   intro:
-    tag: 
+    tag:
       en: I'm Anna and I do
       el: Ειμαι η Αννα και κανω
-    big-text: 
+    big-text:
       en: design, illustration &&nbsp;development.
       el: design, illustration &&nbsp;development.
-    text: 
+    text:
       en: I combine design & illustration to make memorable, usable&nbsp;websites.
-      el: Συνδυάζω design και εικονογράφηση για εύχρηστες ιστοσελίδες που κάνουν&nbsp;εντύπωση. 
-  note: 
-    en: Currently at [The Smiling Hippo](https://www.thesmilinghippo.com/) in Athens 🇬🇷
-    el: Αυτή τη στιγμή στην εταιρεία [The Smiling Hippo](https://www.thesmilinghippo.com/) στην Αθήνα 🇬🇷
-work: 
-  title: 
+      el: Συνδυάζω design και εικονογράφηση για εύχρηστες ιστοσελίδες που κάνουν&nbsp;εντύπωση.
+  note:
+    en: "Currently at [Theeta B.V.](https://theeta.nl/). Previously at [The Smiling
+      Hippo](https://www.thesmilinghippo.com/) in Athens \U0001F1EC\U0001F1F7"
+    el: "Αυτή τη στιγμή στην εταιρεία [Theeta B.V.](https://theeta.nl/). Προηγουμένως
+      στην [The Smiling Hippo](https://www.thesmilinghippo.com/) στην Αθήνα \U0001F1EC\U0001F1F7"
+work:
+  title:
     en: Select work
     el: Μερικα εργα
-  text: 
-    en: | 
+  text:
+    en: |
       These are snippets from some of my projects that I really like; whether for clients or for fun.
-      
+
       Eventually there'll be case studies here but for now, if you want more info on one of them, just get in touch.
-    el: | 
+    el: |-
       Αυτά είναι αποσπάσματα από μερικά από τα έργα μου που μου αρέσουν πολύ, είτε για πελάτες είτε προσωπικά.
-      
+
       Κάποια στιγμή θα προσθέσω case studies, αλλά προς το παρόν, αν θέλετε περισσότερες πληροφορίες για κάποιο από αυτά, απλά επικοινωνήστε μαζί μου.
