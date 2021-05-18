@@ -57,7 +57,7 @@ layout: default
             </div>
             <div class="ph0 pt2 pb3 db">
             <h3 class="f3 f4-ns mv2">{{grid-item.title[page.lang]}}</h3>
-            <p class="secondary mt1">{{grid-item.desc[page.lang]}}</p>
+            <p class="secondary mt1">{{grid-item.desc[page.lang] | markdownify}}</p>
 
             {% for tag in grid-item.tags %}
             <div class="pv1 ph2 f6 fw6 dib br2 ttu mr1 mb1 {{tag.classes}}">{{tag.name}}</div>
