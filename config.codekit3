@@ -207,6 +207,914 @@
       "oAP" : "\/_site\/404.html",
       "oF" : 1
     },
+    "\/_site\/assets\/aevum-demo.gif" : {
+      "ft" : 4194304,
+      "iS" : 3421634,
+      "oA" : 0,
+      "oAP" : "\/_site\/assets\/aevum-demo.gif",
+      "oF" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "rq" : 75
+    },
+    "\/_site\/assets\/anna-avatar.jpg" : {
+      "ft" : 16384,
+      "iS" : 6148,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/_site\/assets\/anna-avatar.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/_site\/assets\/books\/average-is-over.jpg" : {
+      "ft" : 16384,
+      "iS" : 28165,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/_site\/assets\/books\/average-is-over.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/_site\/assets\/books\/call-me-by-your-name.jpg" : {
+      "ft" : 16384,
+      "iS" : 23369,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/_site\/assets\/books\/call-me-by-your-name.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/_site\/assets\/books\/learn-to-code-now-superhi.jpg" : {
+      "ft" : 16384,
+      "iS" : 14390,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/_site\/assets\/books\/learn-to-code-now-superhi.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/_site\/assets\/books\/the-demon-haunted-world.jpg" : {
+      "ft" : 16384,
+      "iS" : 32778,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/_site\/assets\/books\/the-demon-haunted-world.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/_site\/assets\/books\/the-design-of-everyday-things.png" : {
+      "ft" : 32768,
+      "iS" : 113052,
+      "oA" : 0,
+      "oAP" : "\/_site\/assets\/books\/the-design-of-everyday-things.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/_site\/assets\/books\/typography-referenced.jpg" : {
+      "ft" : 16384,
+      "iS" : 12163,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/_site\/assets\/books\/typography-referenced.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/_site\/assets\/books\/when-breath-becomes-air.jpg" : {
+      "ft" : 16384,
+      "iS" : 14307,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/_site\/assets\/books\/when-breath-becomes-air.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/_site\/assets\/commissions-open-da.gif" : {
+      "ft" : 4194304,
+      "iS" : 125614,
+      "oA" : 0,
+      "oAP" : "\/_site\/assets\/commissions-open-da.gif",
+      "oF" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "rq" : 75
+    },
+    "\/_site\/assets\/drawings\/1bnw-thoughts.jpg" : {
+      "ft" : 16384,
+      "iS" : 323666,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/_site\/assets\/drawings\/1bnw-thoughts.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/_site\/assets\/drawings\/2-header-girl.jpg" : {
+      "ft" : 16384,
+      "iS" : 311723,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/_site\/assets\/drawings\/2-header-girl.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/_site\/assets\/drawings\/2018-12-big-eyed-girl-signed.png" : {
+      "ft" : 32768,
+      "iS" : 62742,
+      "oA" : 0,
+      "oAP" : "\/_site\/assets\/drawings\/2018-12-big-eyed-girl-signed.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/_site\/assets\/drawings\/2019-06-sad-SIGN.jpg" : {
+      "ft" : 16384,
+      "iS" : 103496,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/_site\/assets\/drawings\/2019-06-sad-SIGN.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/_site\/assets\/drawings\/2019-07-girl.jpg" : {
+      "ft" : 16384,
+      "iS" : 124293,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/_site\/assets\/drawings\/2019-07-girl.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/_site\/assets\/drawings\/2019-07-hurt.png" : {
+      "ft" : 32768,
+      "iS" : 187289,
+      "oA" : 0,
+      "oAP" : "\/_site\/assets\/drawings\/2019-07-hurt.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/_site\/assets\/drawings\/2019-10-Inktober-2-Gentle.JPG" : {
+      "ft" : 16384,
+      "iS" : 278650,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/_site\/assets\/drawings\/2019-10-Inktober-2-Gentle.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/_site\/assets\/drawings\/2019-11-Amplify-light.png" : {
+      "ft" : 32768,
+      "iS" : 286035,
+      "oA" : 0,
+      "oAP" : "\/_site\/assets\/drawings\/2019-11-Amplify-light.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/_site\/assets\/drawings\/2020-04-MM-App-icon-contrast.JPG" : {
+      "ft" : 16384,
+      "iS" : 194995,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/_site\/assets\/drawings\/2020-04-MM-App-icon-contrast.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/_site\/assets\/drawings\/2020-05-Petros-looking-down-dark.jpg" : {
+      "ft" : 16384,
+      "iS" : 377606,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/_site\/assets\/drawings\/2020-05-Petros-looking-down-dark.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/_site\/assets\/drawings\/170321-picture-perfect.png" : {
+      "ft" : 32768,
+      "iS" : 109483,
+      "oA" : 0,
+      "oAP" : "\/_site\/assets\/drawings\/170321-picture-perfect.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/_site\/assets\/drawings\/20210527_purple-hair.jpg" : {
+      "ft" : 16384,
+      "iS" : 215180,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/_site\/assets\/drawings\/20210527_purple-hair.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/_site\/assets\/drawings\/20210531_merman.jpg" : {
+      "ft" : 16384,
+      "iS" : 231085,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/_site\/assets\/drawings\/20210531_merman.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/_site\/assets\/drawings\/bnw-icarus.jpg" : {
+      "ft" : 16384,
+      "iS" : 709965,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/_site\/assets\/drawings\/bnw-icarus.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/_site\/assets\/drawings\/color-forced_kiss.jpg" : {
+      "ft" : 16384,
+      "iS" : 102093,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/_site\/assets\/drawings\/color-forced_kiss.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/_site\/assets\/drawings\/color-kiss.jpg" : {
+      "ft" : 16384,
+      "iS" : 181031,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/_site\/assets\/drawings\/color-kiss.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/_site\/assets\/drawings\/girl-looking-down-2.png" : {
+      "ft" : 32768,
+      "iS" : 31349,
+      "oA" : 0,
+      "oAP" : "\/_site\/assets\/drawings\/girl-looking-down-2.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/_site\/assets\/drawings\/neck-2.png" : {
+      "ft" : 32768,
+      "iS" : 65204,
+      "oA" : 0,
+      "oAP" : "\/_site\/assets\/drawings\/neck-2.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/_site\/assets\/drawings\/watercolor-journal.jpg" : {
+      "ft" : 16384,
+      "iS" : 48914,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/_site\/assets\/drawings\/watercolor-journal.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/_site\/assets\/drawings\/watercolor-kiss.jpg" : {
+      "ft" : 16384,
+      "iS" : 53366,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/_site\/assets\/drawings\/watercolor-kiss.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/_site\/assets\/drawings\/watercolor-thoughts.jpg" : {
+      "ft" : 16384,
+      "iS" : 86603,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/_site\/assets\/drawings\/watercolor-thoughts.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/_site\/assets\/Dribbble-Amazon-Redesign-20200711.png" : {
+      "ft" : 32768,
+      "iS" : 115735,
+      "oA" : 0,
+      "oAP" : "\/_site\/assets\/Dribbble-Amazon-Redesign-20200711.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/_site\/assets\/flag-de.png" : {
+      "ft" : 32768,
+      "iS" : 252,
+      "oA" : 0,
+      "oAP" : "\/_site\/assets\/flag-de.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/_site\/assets\/flag-gr.png" : {
+      "ft" : 32768,
+      "iS" : 212,
+      "oA" : 0,
+      "oAP" : "\/_site\/assets\/flag-gr.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/_site\/assets\/flag-usa.png" : {
+      "ft" : 32768,
+      "iS" : 352,
+      "oA" : 0,
+      "oAP" : "\/_site\/assets\/flag-usa.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/_site\/assets\/fonts\/Inter-Bold.ttf" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/_site\/assets\/fonts\/Inter-Bold.ttf",
+      "oF" : 0
+    },
+    "\/_site\/assets\/fonts\/Inter-Bold.woff" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/_site\/assets\/fonts\/Inter-Bold.woff",
+      "oF" : 0
+    },
+    "\/_site\/assets\/fonts\/Inter-Bold.woff2" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/_site\/assets\/fonts\/Inter-Bold.woff2",
+      "oF" : 0
+    },
+    "\/_site\/assets\/fonts\/Inter-Italic.ttf" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/_site\/assets\/fonts\/Inter-Italic.ttf",
+      "oF" : 0
+    },
+    "\/_site\/assets\/fonts\/Inter-Italic.woff" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/_site\/assets\/fonts\/Inter-Italic.woff",
+      "oF" : 0
+    },
+    "\/_site\/assets\/fonts\/Inter-Italic.woff2" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/_site\/assets\/fonts\/Inter-Italic.woff2",
+      "oF" : 0
+    },
+    "\/_site\/assets\/fonts\/Inter-Medium.ttf" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/_site\/assets\/fonts\/Inter-Medium.ttf",
+      "oF" : 0
+    },
+    "\/_site\/assets\/fonts\/Inter-Medium.woff" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/_site\/assets\/fonts\/Inter-Medium.woff",
+      "oF" : 0
+    },
+    "\/_site\/assets\/fonts\/Inter-Medium.woff2" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/_site\/assets\/fonts\/Inter-Medium.woff2",
+      "oF" : 0
+    },
+    "\/_site\/assets\/fonts\/Inter-Regular.ttf" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/_site\/assets\/fonts\/Inter-Regular.ttf",
+      "oF" : 0
+    },
+    "\/_site\/assets\/fonts\/Inter-Regular.woff" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/_site\/assets\/fonts\/Inter-Regular.woff",
+      "oF" : 0
+    },
+    "\/_site\/assets\/fonts\/Inter-Regular.woff2" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/_site\/assets\/fonts\/Inter-Regular.woff2",
+      "oF" : 0
+    },
+    "\/_site\/assets\/fonts\/Inter-SemiBold.ttf" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/_site\/assets\/fonts\/Inter-SemiBold.ttf",
+      "oF" : 0
+    },
+    "\/_site\/assets\/fonts\/Inter-SemiBold.woff" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/_site\/assets\/fonts\/Inter-SemiBold.woff",
+      "oF" : 0
+    },
+    "\/_site\/assets\/fonts\/Inter-SemiBold.woff2" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/_site\/assets\/fonts\/Inter-SemiBold.woff2",
+      "oF" : 0
+    },
+    "\/_site\/assets\/fonts\/MarkerFelt-Wide.ttf" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/_site\/assets\/fonts\/MarkerFelt-Wide.ttf",
+      "oF" : 0
+    },
+    "\/_site\/assets\/fonts\/MarkerFelt-Wide.woff" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/_site\/assets\/fonts\/MarkerFelt-Wide.woff",
+      "oF" : 0
+    },
+    "\/_site\/assets\/hero-grid\/1-bnw-thoughts.jpg" : {
+      "ft" : 16384,
+      "iS" : 77767,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/_site\/assets\/hero-grid\/1-bnw-thoughts.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/_site\/assets\/hero-grid\/2-monster-behance-cover.jpg" : {
+      "ft" : 16384,
+      "iS" : 45547,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/_site\/assets\/hero-grid\/2-monster-behance-cover.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/_site\/assets\/hero-grid\/3-sda-manufacturer-screens.jpg" : {
+      "ft" : 16384,
+      "iS" : 60454,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/_site\/assets\/hero-grid\/3-sda-manufacturer-screens.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/_site\/assets\/hero-grid\/4-color-forced-kiss.jpg" : {
+      "ft" : 16384,
+      "iS" : 22732,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/_site\/assets\/hero-grid\/4-color-forced-kiss.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/_site\/assets\/hi-on-skates-anna.gif" : {
+      "ft" : 4194304,
+      "iS" : 1352981,
+      "oA" : 0,
+      "oAP" : "\/_site\/assets\/hi-on-skates-anna.gif",
+      "oF" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "rq" : 75
+    },
+    "\/_site\/assets\/hioni.jpg" : {
+      "ft" : 16384,
+      "iS" : 125568,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/_site\/assets\/hioni.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/_site\/assets\/luxray-s-sprite.gif" : {
+      "ft" : 4194304,
+      "iS" : 1072,
+      "oA" : 0,
+      "oAP" : "\/_site\/assets\/luxray-s-sprite.gif",
+      "oF" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "rq" : 75
+    },
+    "\/_site\/assets\/luxray-sleep.gif" : {
+      "ft" : 4194304,
+      "iS" : 3074,
+      "oA" : 0,
+      "oAP" : "\/_site\/assets\/luxray-sleep.gif",
+      "oF" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "rq" : 75
+    },
+    "\/_site\/assets\/megabuster.gif" : {
+      "ft" : 4194304,
+      "iS" : 1855,
+      "oA" : 0,
+      "oAP" : "\/_site\/assets\/megabuster.gif",
+      "oF" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "rq" : 75
+    },
+    "\/_site\/assets\/megaman-launcher-mockup.gif" : {
+      "ft" : 4194304,
+      "iS" : 1148445,
+      "oA" : 0,
+      "oAP" : "\/_site\/assets\/megaman-launcher-mockup.gif",
+      "oF" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "rq" : 75
+    },
+    "\/_site\/assets\/meta\/an-favicon-32.png" : {
+      "ft" : 32768,
+      "iS" : 944,
+      "oA" : 0,
+      "oAP" : "\/_site\/assets\/meta\/an-favicon-32.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/_site\/assets\/meta\/an-favicon-256.png" : {
+      "ft" : 32768,
+      "iS" : 2965,
+      "oA" : 0,
+      "oAP" : "\/_site\/assets\/meta\/an-favicon-256.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/_site\/assets\/meta\/an-og.png" : {
+      "ft" : 32768,
+      "iS" : 339016,
+      "oA" : 0,
+      "oAP" : "\/_site\/assets\/meta\/an-og.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/_site\/assets\/monster-behance-cover.jpg" : {
+      "ft" : 16384,
+      "iS" : 59554,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/_site\/assets\/monster-behance-cover.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/_site\/assets\/placeholder.png" : {
+      "ft" : 32768,
+      "iS" : 9230,
+      "oA" : 0,
+      "oAP" : "\/_site\/assets\/placeholder.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/_site\/assets\/safe-triangle.png" : {
+      "ft" : 32768,
+      "iS" : 1902,
+      "oA" : 0,
+      "oAP" : "\/_site\/assets\/safe-triangle.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/_site\/assets\/sda-manufacturer-screens.jpg" : {
+      "ft" : 16384,
+      "iS" : 55392,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/_site\/assets\/sda-manufacturer-screens.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/_site\/assets\/skate-circle-2.gif" : {
+      "ft" : 4194304,
+      "iS" : 1539224,
+      "oA" : 0,
+      "oAP" : "\/_site\/assets\/skate-circle-2.gif",
+      "oF" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "rq" : 75
+    },
+    "\/_site\/assets\/tamagotchi.gif" : {
+      "ft" : 4194304,
+      "iS" : 12515,
+      "oA" : 0,
+      "oAP" : "\/_site\/assets\/tamagotchi.gif",
+      "oF" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "rq" : 75
+    },
+    "\/_site\/assets\/vipglobal-hero.jpeg" : {
+      "ft" : 16384,
+      "iS" : 138463,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/_site\/assets\/vipglobal-hero.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/_site\/assets\/vipglobal-hero.jpg" : {
+      "ft" : 16384,
+      "iS" : 67033,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/_site\/assets\/vipglobal-hero.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/_site\/assets\/warewolf-cards.jpg" : {
+      "ft" : 16384,
+      "iS" : 102419,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/_site\/assets\/warewolf-cards.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/_site\/assets\/website-bistrot46.jpg" : {
+      "ft" : 16384,
+      "iS" : 73820,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/_site\/assets\/website-bistrot46.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/_site\/assets\/website-techomax.jpg" : {
+      "ft" : 16384,
+      "iS" : 106219,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/_site\/assets\/website-techomax.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/_site\/css\/tachyons-min.css" : {
+      "aP" : 1,
+      "bl" : 0,
+      "ci" : 0,
+      "co" : 0,
+      "ft" : 16,
+      "ma" : 0,
+      "oA" : 0,
+      "oAP" : "\/_site\/css\/tachyons-min-min.css",
+      "oF" : 0,
+      "pg" : 0
+    },
+    "\/_site\/css\/tachyons-min.css.map" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/_site\/css\/tachyons-min.css.map",
+      "oF" : 0
+    },
+    "\/_site\/css\/tachyons.css" : {
+      "aP" : 1,
+      "bl" : 0,
+      "ci" : 0,
+      "co" : 0,
+      "ft" : 16,
+      "ma" : 0,
+      "oA" : 0,
+      "oAP" : "\/_site\/css\/tachyons-min.css",
+      "oF" : 0,
+      "pg" : 0
+    },
     "\/_site\/el\/index.html" : {
       "cB" : 0,
       "ft" : 8192,
@@ -245,14 +1153,6 @@
       "hM" : 0,
       "oA" : 1,
       "oAP" : "\/_site\/en\/index.html",
-      "oF" : 1
-    },
-    "\/_site\/en\/resume\/index.html" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 1,
-      "oAP" : "\/_site\/en\/resume\/index.html",
       "oF" : 1
     },
     "\/_site\/feed.xml" : {
@@ -295,6 +1195,107 @@
       "oAP" : "\/_site\/reading\/index.html",
       "oF" : 1
     },
+    "\/_site\/README.md" : {
+      "cB" : 0,
+      "cS" : 0,
+      "eF" : 1,
+      "eL" : 1,
+      "ema" : 1,
+      "eSQ" : 1,
+      "ft" : 4096,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/_site\/README.html",
+      "oF" : 0,
+      "oFM" : 0,
+      "oS" : 0,
+      "pHT" : 0,
+      "pME" : 1,
+      "rFN" : 0,
+      "uCM" : 0
+    },
+    "\/_site\/remixicon\/remixicon.css" : {
+      "aP" : 1,
+      "bl" : 0,
+      "ci" : 0,
+      "co" : 0,
+      "ft" : 16,
+      "ma" : 0,
+      "oA" : 0,
+      "oAP" : "\/_site\/remixicon\/remixicon-min.css",
+      "oF" : 0,
+      "pg" : 0
+    },
+    "\/_site\/remixicon\/remixicon.eot" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/_site\/remixicon\/remixicon.eot",
+      "oF" : 0
+    },
+    "\/_site\/remixicon\/remixicon.less" : {
+      "aP" : 0,
+      "bl" : 0,
+      "co" : 0,
+      "eJ" : 0,
+      "ft" : 1,
+      "iI" : 0,
+      "ma" : 1,
+      "mS" : 0,
+      "oA" : 0,
+      "oAP" : "\/_site\/remixicon\/remixicon.css",
+      "oF" : 0,
+      "oS" : 0,
+      "pg" : 0,
+      "rwU" : 0,
+      "sI" : 0,
+      "sU" : 0
+    },
+    "\/_site\/remixicon\/remixicon.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/_site\/remixicon\/remixicon.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
+    },
+    "\/_site\/remixicon\/remixicon.symbol.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/_site\/remixicon\/remixicon.symbol.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
+    },
+    "\/_site\/remixicon\/remixicon.ttf" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/_site\/remixicon\/remixicon.ttf",
+      "oF" : 0
+    },
+    "\/_site\/remixicon\/remixicon.woff" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/_site\/remixicon\/remixicon.woff",
+      "oF" : 0
+    },
+    "\/_site\/remixicon\/remixicon.woff2" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/_site\/remixicon\/remixicon.woff2",
+      "oF" : 0
+    },
     "\/_site\/tools\/index.html" : {
       "cB" : 0,
       "ft" : 8192,
@@ -303,6 +1304,240 @@
       "oAP" : "\/_site\/tools\/index.html",
       "oF" : 1
     },
+    "\/_site\/uploads\/1feed-logo.png" : {
+      "ft" : 32768,
+      "iS" : 1002,
+      "oA" : 0,
+      "oAP" : "\/_site\/uploads\/1feed-logo.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/_site\/uploads\/around-logo.png" : {
+      "ft" : 32768,
+      "iS" : 13534,
+      "oA" : 0,
+      "oAP" : "\/_site\/uploads\/around-logo.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/_site\/uploads\/basecamp-logo.png" : {
+      "ft" : 32768,
+      "iS" : 3626,
+      "oA" : 0,
+      "oAP" : "\/_site\/uploads\/basecamp-logo.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/_site\/uploads\/book-shape-up.jpg" : {
+      "ft" : 16384,
+      "iS" : 174670,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/_site\/uploads\/book-shape-up.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/_site\/uploads\/dropbox-paper-logo.png" : {
+      "ft" : 32768,
+      "iS" : 11931,
+      "oA" : 0,
+      "oAP" : "\/_site\/uploads\/dropbox-paper-logo.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/_site\/uploads\/eagle-logo.png" : {
+      "ft" : 32768,
+      "iS" : 11859,
+      "oA" : 0,
+      "oAP" : "\/_site\/uploads\/eagle-logo.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/_site\/uploads\/figma-logo.png" : {
+      "ft" : 32768,
+      "iS" : 1459,
+      "oA" : 0,
+      "oAP" : "\/_site\/uploads\/figma-logo.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/_site\/uploads\/forestry-logo.png" : {
+      "ft" : 32768,
+      "iS" : 3636,
+      "oA" : 0,
+      "oAP" : "\/_site\/uploads\/forestry-logo.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/_site\/uploads\/iwantmyname-logo.png" : {
+      "ft" : 32768,
+      "iS" : 1355,
+      "oA" : 0,
+      "oAP" : "\/_site\/uploads\/iwantmyname-logo.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/_site\/uploads\/jekyll.png" : {
+      "ft" : 32768,
+      "iS" : 16937,
+      "oA" : 0,
+      "oAP" : "\/_site\/uploads\/jekyll.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/_site\/uploads\/logo-airtable.jpeg" : {
+      "ft" : 16384,
+      "iS" : 8194,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/_site\/uploads\/logo-airtable.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/_site\/uploads\/loom-logo.png" : {
+      "ft" : 32768,
+      "iS" : 7135,
+      "oA" : 0,
+      "oAP" : "\/_site\/uploads\/loom-logo.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/_site\/uploads\/notion-logo.png" : {
+      "ft" : 32768,
+      "iS" : 2433,
+      "oA" : 0,
+      "oAP" : "\/_site\/uploads\/notion-logo.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/_site\/uploads\/telegram-logo.png" : {
+      "ft" : 32768,
+      "iS" : 1183,
+      "oA" : 0,
+      "oAP" : "\/_site\/uploads\/telegram-logo.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/_site\/uploads\/tempo-logo.png" : {
+      "ft" : 32768,
+      "iS" : 11204,
+      "oA" : 0,
+      "oAP" : "\/_site\/uploads\/tempo-logo.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/_site\/uploads\/tweek-logo.png" : {
+      "ft" : 32768,
+      "iS" : 1664,
+      "oA" : 0,
+      "oAP" : "\/_site\/uploads\/tweek-logo.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/_site\/uploads\/webflow-logo.png" : {
+      "ft" : 32768,
+      "iS" : 1680,
+      "oA" : 0,
+      "oAP" : "\/_site\/uploads\/webflow-logo.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/_site\/uploads\/whereby-logo.png" : {
+      "ft" : 32768,
+      "iS" : 8124,
+      "oA" : 0,
+      "oAP" : "\/_site\/uploads\/whereby-logo.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
     "\/_site\/writing\/index.html" : {
       "cB" : 0,
       "ft" : 8192,
@@ -310,6 +1545,14 @@
       "oA" : 1,
       "oAP" : "\/_site\/writing\/index.html",
       "oF" : 1
+    },
+    "\/.bundle\/config" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/.bundle\/config",
+      "oF" : 0
     },
     "\/.forestry\/front_matter\/templates\/post.yml" : {
       "cB" : 0,
@@ -350,6 +1593,12 @@
       "oA" : 1,
       "oAP" : "\/.gitignore",
       "oF" : 1
+    },
+    "\/.jekyll-cache\/Jekyll\/Cache" : {
+      "ft" : 65536,
+      "oA" : 1,
+      "oAP" : "\/.jekyll-cache\/Jekyll\/Cache",
+      "oF" : 0
     },
     "\/404.md" : {
       "cB" : 0,
@@ -484,6 +1733,16 @@
       "q" : 100,
       "rq" : 75
     },
+    "\/assets\/commissions-open-da.gif" : {
+      "ft" : 4194304,
+      "iS" : 125614,
+      "oA" : 0,
+      "oAP" : "\/assets\/commissions-open-da.gif",
+      "oF" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "rq" : 75
+    },
     "\/assets\/drawings\/1bnw-thoughts.jpg" : {
       "ft" : 16384,
       "iS" : 323666,
@@ -562,17 +1821,17 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/assets\/drawings\/2019-10-Inktober-2-Gentle.jpg" : {
+    "\/assets\/drawings\/2019-10-Inktober-2-Gentle.JPG" : {
       "ft" : 16384,
       "iS" : 278650,
       "jF" : 0,
       "oA" : 0,
       "oAP" : "\/assets\/drawings\/2019-10-Inktober-2-Gentle.jpg",
-      "oF" : 1,
-      "oIPL" : 1,
-      "opt" : 1,
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
       "ou" : "lpckwebp-none",
-      "q" : 73,
+      "q" : 100,
       "rq" : 75
     },
     "\/assets\/drawings\/2019-11-Amplify-light.png" : {
@@ -588,17 +1847,17 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/assets\/drawings\/2020-04-MM-App-icon-contrast.jpg" : {
+    "\/assets\/drawings\/2020-04-MM-App-icon-contrast.JPG" : {
       "ft" : 16384,
       "iS" : 194995,
       "jF" : 0,
       "oA" : 0,
       "oAP" : "\/assets\/drawings\/2020-04-MM-App-icon-contrast.jpg",
-      "oF" : 1,
-      "oIPL" : 1,
-      "opt" : 1,
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
       "ou" : "lpckwebp-none",
-      "q" : 73,
+      "q" : 100,
       "rq" : 75
     },
     "\/assets\/drawings\/2020-05-Petros-looking-down-dark.jpg" : {
@@ -625,6 +1884,32 @@
       "oT" : 1,
       "ou" : "lpckwebp-none",
       "q" : 74,
+      "rq" : 75
+    },
+    "\/assets\/drawings\/20210527_purple-hair.jpg" : {
+      "ft" : 16384,
+      "iS" : 215180,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/assets\/drawings\/20210527_purple-hair.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/assets\/drawings\/20210531_merman.jpg" : {
+      "ft" : 16384,
+      "iS" : 231085,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/assets\/drawings\/20210531_merman.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
       "rq" : 75
     },
     "\/assets\/drawings\/bnw-icarus.jpg" : {
@@ -731,15 +2016,15 @@
       "q" : 73,
       "rq" : 75
     },
-    "\/assets\/dribbble-amazon-redesign-20200711.png" : {
+    "\/assets\/Dribbble-Amazon-Redesign-20200711.png" : {
       "ft" : 32768,
-      "iS" : 114763,
+      "iS" : 115735,
       "oA" : 0,
-      "oAP" : "\/assets\/dribbble-amazon-redesign-20200711.png",
+      "oAP" : "\/assets\/Dribbble-Amazon-Redesign-20200711.png",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 1,
-      "oT" : 2,
+      "opt" : 0,
+      "oT" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
@@ -1325,14 +2610,6 @@
       "oAP" : "\/en\/index.html",
       "oF" : 1
     },
-    "\/en\/resume.html" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 1,
-      "oAP" : "\/en\/resume.html",
-      "oF" : 1
-    },
     "\/Gemfile" : {
       "cB" : 0,
       "ft" : 8192,
@@ -1414,6 +2691,88 @@
       "rFN" : 0,
       "uCM" : 0
     },
+    "\/remixicon\/remixicon.css" : {
+      "aP" : 1,
+      "bl" : 0,
+      "ci" : 0,
+      "co" : 0,
+      "ft" : 16,
+      "ma" : 0,
+      "oA" : 0,
+      "oAP" : "\/remixicon\/remixicon-min.css",
+      "oF" : 0,
+      "pg" : 0
+    },
+    "\/remixicon\/remixicon.eot" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/remixicon\/remixicon.eot",
+      "oF" : 0
+    },
+    "\/remixicon\/remixicon.less" : {
+      "aP" : 0,
+      "bl" : 0,
+      "co" : 0,
+      "eJ" : 0,
+      "ft" : 1,
+      "iI" : 0,
+      "ma" : 1,
+      "mS" : 0,
+      "oA" : 0,
+      "oAP" : "\/remixicon\/remixicon.css",
+      "oF" : 0,
+      "oS" : 0,
+      "pg" : 0,
+      "rwU" : 0,
+      "sI" : 0,
+      "sU" : 0
+    },
+    "\/remixicon\/remixicon.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/remixicon\/remixicon.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
+    },
+    "\/remixicon\/remixicon.symbol.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/remixicon\/remixicon.symbol.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
+    },
+    "\/remixicon\/remixicon.ttf" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/remixicon\/remixicon.ttf",
+      "oF" : 0
+    },
+    "\/remixicon\/remixicon.woff" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/remixicon\/remixicon.woff",
+      "oF" : 0
+    },
+    "\/remixicon\/remixicon.woff2" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/remixicon\/remixicon.woff2",
+      "oF" : 0
+    },
     "\/tools.html" : {
       "cB" : 0,
       "ft" : 8192,
@@ -1457,6 +2816,19 @@
       "oIPL" : 0,
       "opt" : 0,
       "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/uploads\/book-shape-up.jpg" : {
+      "ft" : 16384,
+      "iS" : 174670,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/uploads\/book-shape-up.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
@@ -1535,6 +2907,19 @@
       "oIPL" : 0,
       "opt" : 0,
       "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/uploads\/logo-airtable.jpeg" : {
+      "ft" : 16384,
+      "iS" : 8194,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/uploads\/logo-airtable.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
@@ -1676,124 +3061,124 @@
       "oAP" : "\/vendor\/bundle\/ruby\/2.6.0\/cache",
       "oF" : 1
     },
-    "\/vendor\/bundle\/ruby\/2.6.0\/extensions\/x86_64-darwin-20\/2.6.0\/eventmachine-1.2.7\/fastfilereaderext.bundle" : {
+    "\/vendor\/bundle\/ruby\/2.6.0\/extensions\/universal-darwin-20\/2.6.0\/eventmachine-1.2.7\/fastfilereaderext.bundle" : {
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
       "oA" : 1,
-      "oAP" : "\/vendor\/bundle\/ruby\/2.6.0\/extensions\/x86_64-darwin-20\/2.6.0\/eventmachine-1.2.7\/fastfilereaderext.bundle",
+      "oAP" : "\/vendor\/bundle\/ruby\/2.6.0\/extensions\/universal-darwin-20\/2.6.0\/eventmachine-1.2.7\/fastfilereaderext.bundle",
       "oF" : 1
     },
-    "\/vendor\/bundle\/ruby\/2.6.0\/extensions\/x86_64-darwin-20\/2.6.0\/eventmachine-1.2.7\/gem_make.out" : {
+    "\/vendor\/bundle\/ruby\/2.6.0\/extensions\/universal-darwin-20\/2.6.0\/eventmachine-1.2.7\/gem_make.out" : {
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
       "oA" : 1,
-      "oAP" : "\/vendor\/bundle\/ruby\/2.6.0\/extensions\/x86_64-darwin-20\/2.6.0\/eventmachine-1.2.7\/gem_make.out",
+      "oAP" : "\/vendor\/bundle\/ruby\/2.6.0\/extensions\/universal-darwin-20\/2.6.0\/eventmachine-1.2.7\/gem_make.out",
       "oF" : 1
     },
-    "\/vendor\/bundle\/ruby\/2.6.0\/extensions\/x86_64-darwin-20\/2.6.0\/eventmachine-1.2.7\/gem.build_complete" : {
+    "\/vendor\/bundle\/ruby\/2.6.0\/extensions\/universal-darwin-20\/2.6.0\/eventmachine-1.2.7\/gem.build_complete" : {
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
       "oA" : 1,
-      "oAP" : "\/vendor\/bundle\/ruby\/2.6.0\/extensions\/x86_64-darwin-20\/2.6.0\/eventmachine-1.2.7\/gem.build_complete",
+      "oAP" : "\/vendor\/bundle\/ruby\/2.6.0\/extensions\/universal-darwin-20\/2.6.0\/eventmachine-1.2.7\/gem.build_complete",
       "oF" : 1
     },
-    "\/vendor\/bundle\/ruby\/2.6.0\/extensions\/x86_64-darwin-20\/2.6.0\/eventmachine-1.2.7\/mkmf.log" : {
+    "\/vendor\/bundle\/ruby\/2.6.0\/extensions\/universal-darwin-20\/2.6.0\/eventmachine-1.2.7\/mkmf.log" : {
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
       "oA" : 1,
-      "oAP" : "\/vendor\/bundle\/ruby\/2.6.0\/extensions\/x86_64-darwin-20\/2.6.0\/eventmachine-1.2.7\/mkmf.log",
+      "oAP" : "\/vendor\/bundle\/ruby\/2.6.0\/extensions\/universal-darwin-20\/2.6.0\/eventmachine-1.2.7\/mkmf.log",
       "oF" : 1
     },
-    "\/vendor\/bundle\/ruby\/2.6.0\/extensions\/x86_64-darwin-20\/2.6.0\/eventmachine-1.2.7\/rubyeventmachine.bundle" : {
+    "\/vendor\/bundle\/ruby\/2.6.0\/extensions\/universal-darwin-20\/2.6.0\/eventmachine-1.2.7\/rubyeventmachine.bundle" : {
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
       "oA" : 1,
-      "oAP" : "\/vendor\/bundle\/ruby\/2.6.0\/extensions\/x86_64-darwin-20\/2.6.0\/eventmachine-1.2.7\/rubyeventmachine.bundle",
+      "oAP" : "\/vendor\/bundle\/ruby\/2.6.0\/extensions\/universal-darwin-20\/2.6.0\/eventmachine-1.2.7\/rubyeventmachine.bundle",
       "oF" : 1
     },
-    "\/vendor\/bundle\/ruby\/2.6.0\/extensions\/x86_64-darwin-20\/2.6.0\/ffi-1.15.0\/ffi_c.bundle" : {
+    "\/vendor\/bundle\/ruby\/2.6.0\/extensions\/universal-darwin-20\/2.6.0\/ffi-1.15.0\/ffi_c.bundle" : {
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
       "oA" : 1,
-      "oAP" : "\/vendor\/bundle\/ruby\/2.6.0\/extensions\/x86_64-darwin-20\/2.6.0\/ffi-1.15.0\/ffi_c.bundle",
+      "oAP" : "\/vendor\/bundle\/ruby\/2.6.0\/extensions\/universal-darwin-20\/2.6.0\/ffi-1.15.0\/ffi_c.bundle",
       "oF" : 1
     },
-    "\/vendor\/bundle\/ruby\/2.6.0\/extensions\/x86_64-darwin-20\/2.6.0\/ffi-1.15.0\/gem_make.out" : {
+    "\/vendor\/bundle\/ruby\/2.6.0\/extensions\/universal-darwin-20\/2.6.0\/ffi-1.15.0\/gem_make.out" : {
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
       "oA" : 1,
-      "oAP" : "\/vendor\/bundle\/ruby\/2.6.0\/extensions\/x86_64-darwin-20\/2.6.0\/ffi-1.15.0\/gem_make.out",
+      "oAP" : "\/vendor\/bundle\/ruby\/2.6.0\/extensions\/universal-darwin-20\/2.6.0\/ffi-1.15.0\/gem_make.out",
       "oF" : 1
     },
-    "\/vendor\/bundle\/ruby\/2.6.0\/extensions\/x86_64-darwin-20\/2.6.0\/ffi-1.15.0\/gem.build_complete" : {
+    "\/vendor\/bundle\/ruby\/2.6.0\/extensions\/universal-darwin-20\/2.6.0\/ffi-1.15.0\/gem.build_complete" : {
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
       "oA" : 1,
-      "oAP" : "\/vendor\/bundle\/ruby\/2.6.0\/extensions\/x86_64-darwin-20\/2.6.0\/ffi-1.15.0\/gem.build_complete",
+      "oAP" : "\/vendor\/bundle\/ruby\/2.6.0\/extensions\/universal-darwin-20\/2.6.0\/ffi-1.15.0\/gem.build_complete",
       "oF" : 1
     },
-    "\/vendor\/bundle\/ruby\/2.6.0\/extensions\/x86_64-darwin-20\/2.6.0\/ffi-1.15.0\/mkmf.log" : {
+    "\/vendor\/bundle\/ruby\/2.6.0\/extensions\/universal-darwin-20\/2.6.0\/ffi-1.15.0\/mkmf.log" : {
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
       "oA" : 1,
-      "oAP" : "\/vendor\/bundle\/ruby\/2.6.0\/extensions\/x86_64-darwin-20\/2.6.0\/ffi-1.15.0\/mkmf.log",
+      "oAP" : "\/vendor\/bundle\/ruby\/2.6.0\/extensions\/universal-darwin-20\/2.6.0\/ffi-1.15.0\/mkmf.log",
       "oF" : 1
     },
-    "\/vendor\/bundle\/ruby\/2.6.0\/extensions\/x86_64-darwin-20\/2.6.0\/http_parser.rb-0.6.0\/gem_make.out" : {
+    "\/vendor\/bundle\/ruby\/2.6.0\/extensions\/universal-darwin-20\/2.6.0\/http_parser.rb-0.6.0\/gem_make.out" : {
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
       "oA" : 1,
-      "oAP" : "\/vendor\/bundle\/ruby\/2.6.0\/extensions\/x86_64-darwin-20\/2.6.0\/http_parser.rb-0.6.0\/gem_make.out",
+      "oAP" : "\/vendor\/bundle\/ruby\/2.6.0\/extensions\/universal-darwin-20\/2.6.0\/http_parser.rb-0.6.0\/gem_make.out",
       "oF" : 1
     },
-    "\/vendor\/bundle\/ruby\/2.6.0\/extensions\/x86_64-darwin-20\/2.6.0\/http_parser.rb-0.6.0\/gem.build_complete" : {
+    "\/vendor\/bundle\/ruby\/2.6.0\/extensions\/universal-darwin-20\/2.6.0\/http_parser.rb-0.6.0\/gem.build_complete" : {
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
       "oA" : 1,
-      "oAP" : "\/vendor\/bundle\/ruby\/2.6.0\/extensions\/x86_64-darwin-20\/2.6.0\/http_parser.rb-0.6.0\/gem.build_complete",
+      "oAP" : "\/vendor\/bundle\/ruby\/2.6.0\/extensions\/universal-darwin-20\/2.6.0\/http_parser.rb-0.6.0\/gem.build_complete",
       "oF" : 1
     },
-    "\/vendor\/bundle\/ruby\/2.6.0\/extensions\/x86_64-darwin-20\/2.6.0\/http_parser.rb-0.6.0\/ruby_http_parser.bundle" : {
+    "\/vendor\/bundle\/ruby\/2.6.0\/extensions\/universal-darwin-20\/2.6.0\/http_parser.rb-0.6.0\/ruby_http_parser.bundle" : {
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
       "oA" : 1,
-      "oAP" : "\/vendor\/bundle\/ruby\/2.6.0\/extensions\/x86_64-darwin-20\/2.6.0\/http_parser.rb-0.6.0\/ruby_http_parser.bundle",
+      "oAP" : "\/vendor\/bundle\/ruby\/2.6.0\/extensions\/universal-darwin-20\/2.6.0\/http_parser.rb-0.6.0\/ruby_http_parser.bundle",
       "oF" : 1
     },
-    "\/vendor\/bundle\/ruby\/2.6.0\/extensions\/x86_64-darwin-20\/2.6.0\/sassc-2.4.0\/gem_make.out" : {
+    "\/vendor\/bundle\/ruby\/2.6.0\/extensions\/universal-darwin-20\/2.6.0\/sassc-2.4.0\/gem_make.out" : {
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
       "oA" : 1,
-      "oAP" : "\/vendor\/bundle\/ruby\/2.6.0\/extensions\/x86_64-darwin-20\/2.6.0\/sassc-2.4.0\/gem_make.out",
+      "oAP" : "\/vendor\/bundle\/ruby\/2.6.0\/extensions\/universal-darwin-20\/2.6.0\/sassc-2.4.0\/gem_make.out",
       "oF" : 1
     },
-    "\/vendor\/bundle\/ruby\/2.6.0\/extensions\/x86_64-darwin-20\/2.6.0\/sassc-2.4.0\/gem.build_complete" : {
+    "\/vendor\/bundle\/ruby\/2.6.0\/extensions\/universal-darwin-20\/2.6.0\/sassc-2.4.0\/gem.build_complete" : {
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
       "oA" : 1,
-      "oAP" : "\/vendor\/bundle\/ruby\/2.6.0\/extensions\/x86_64-darwin-20\/2.6.0\/sassc-2.4.0\/gem.build_complete",
+      "oAP" : "\/vendor\/bundle\/ruby\/2.6.0\/extensions\/universal-darwin-20\/2.6.0\/sassc-2.4.0\/gem.build_complete",
       "oF" : 1
     },
-    "\/vendor\/bundle\/ruby\/2.6.0\/extensions\/x86_64-darwin-20\/2.6.0\/sassc-2.4.0\/sassc\/libsass.bundle" : {
+    "\/vendor\/bundle\/ruby\/2.6.0\/extensions\/universal-darwin-20\/2.6.0\/sassc-2.4.0\/sassc\/libsass.bundle" : {
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
       "oA" : 1,
-      "oAP" : "\/vendor\/bundle\/ruby\/2.6.0\/extensions\/x86_64-darwin-20\/2.6.0\/sassc-2.4.0\/sassc\/libsass.bundle",
+      "oAP" : "\/vendor\/bundle\/ruby\/2.6.0\/extensions\/universal-darwin-20\/2.6.0\/sassc-2.4.0\/sassc\/libsass.bundle",
       "oF" : 1
     },
     "\/vendor\/bundle\/ruby\/2.6.0\/gems\/addressable-2.7.0\/CHANGELOG.md" : {
@@ -27625,8 +29010,8 @@
     "creationDate" : 641226809.74132204,
     "displayValue" : "anna-filou.github.io",
     "displayValueWasSetByUser" : 0,
-    "iconImageName" : "logo-angular",
-    "iconImageWasSetByUser" : 0
+    "iconImageName" : "brackets-forest",
+    "iconImageWasSetByUser" : 1
   },
   "projectSettings" : {
     "abortBuildOnError" : 1,
@@ -27920,7 +29305,7 @@
     "bowerUseExactVersion" : 0,
     "browserRefreshDelay" : 0,
     "browserslistString" : ">0.2%, last 2 versions, Firefox ESR, not dead",
-    "buildEnvironment" : 1,
+    "buildEnvironment" : 0,
     "buildFolderActive" : 0,
     "buildFolderName" : "build",
     "cleanBuild" : 1,
@@ -28065,7 +29450,7 @@
     "cssoForceMediaMerge" : 0,
     "cssoRestructure" : 1,
     "environmentVariableEntries" : [
-      "NODE_ENV:::development"
+      "NODE_ENV:::production"
     ],
     "esLintConfigFileHandlingType" : 0,
     "esLintECMAVersion" : 7,

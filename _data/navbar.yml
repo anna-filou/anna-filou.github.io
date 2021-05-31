@@ -1,30 +1,30 @@
 main: 
-  - en: ✉️ Contact
+  - en: <i class="ri-mail-unread-fill mr1"></i> Contact
     el: ✉️ Επικοινωνία
     url: contact
     langs: 'yes'
-  - en: ✏️ Drawing
+  - en: <i class="ri-pen-nib-fill mr1"></i> Drawing
     el: ✏️ Ζωγραφική
     url: graphics
     langs: 'yes'
-  - en: 👤 About
+  - en: <i class="ri-user-5-fill mr1"></i> About
     el: 👤 Σχετικά
     url: about
     langs: 'yes'
-  # - en: 📝 Writing
+  # - en: <i class="ri-quill-pen-fill mr1"></i> Writing
   #   el: 📝 Writing
   #   url: writing
   #   langs: 'no'
 secondary: 
-  - en: 📚 Reading
+  - en: <i class="ri-book-3-line mr1"></i> Reading
     el: 📚 Reading
     url: reading
     langs: 'no'
-  - en: ⏰ Now
+  - en: <i class="ri-history-line mr1"></i> Now
     el: ⏰ Now
     url: now
     langs: 'no'
-  - en: 🛠 Tools
+  - en: <i class="ri-tools-line mr1"></i> Tools
     el: 🛠 Tools
     url: tools
     langs: 'no'

@@ -122,7 +122,7 @@ svg {
   }
 
   body, nav a, .main {
-    color: #eeeeee;
+    color: #e3e3e3;
   }
 
   a {
@@ -287,7 +287,7 @@ em {
 p,
 ol,
 ul {
-  margin: 0.5em 0;
+  margin: 1em 0;
 }
 
 ul,
@@ -376,6 +376,12 @@ blockquote p {
   -webkit-hyphens: auto;
   -moz-hyphens: auto;
   hyphens: auto;
+}
+
+i {
+  font-size: 20px;
+  vertical-align: sub;
+  opacity: 0.4;
 }
 
 article {
