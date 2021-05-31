@@ -1,13 +1,11 @@
 ---
 intro:
   en: "Some of the services I love to use—and often rely on.\n\nThese are all personal
-    recommendations (I'm not getting paid to advertise anything).\n\nSee more of my
-    product recommendations (not necessarily related to my work) on <a target=\"_blank\"
+    recommendations. See more (not necessarily related to my work) on <a target=\"_blank\"
     href=\"https://yourstack.com/@that__anna\">my \U0001F95E YourStack profile</a>.\n"
-  el: "Κανείς δεν με έχει πληρώσει (ούτε καν μου έχει ζητήσει) να διαφημίσω τα παρακάτω
-    προϊόντα. Μου αρέσουν αρκετά για να τα συνιστώ!\n\nΠερισσότερες συστάσεις προϊόντων
-    (που δεν σχετίζονται απαραίτητα με τη δουλειά μου) στο <a target=\"_blank\" href=\"https://yourstack.com/@that__anna\">προφίλ
-    μου στο \U0001F95E 'YourStack'</a>.\n"
+  el: "Τα παρακάτω προϊόντα/υπηρεσίες μου αρέσουν τόσο ώστε να τα συνιστώ!\n\nΠερισσότερες
+    συστάσεις (που δεν σχετίζονται απαραίτητα με τη δουλειά μου) στο <a target=\"_blank\"
+    href=\"https://yourstack.com/@that__anna\">προφίλ μου στο \U0001F95E YourStack</a>.\n"
 tools:
 - name: Airtable
   url: https://airtable.com/
@@ -22,14 +20,6 @@ tools:
       prototypes. Speeds up development by providing CSS snippets.
     el: ''
   img: "/uploads/figma-logo.png"
-- name: Loom
-  url: https://www.loom.com
-  desc:
-    en: Loom makes sharing instructional videos so quick and easy that there's no
-      reason not to. As soon as you're done shooting, Loom has a shareable link ready
-      for anyone to watch.
-    el: ''
-  img: "/uploads/loom-logo.png"
 - name: Jekyll
   url: https://jekyllrb.com/
   desc:
@@ -53,16 +43,7 @@ tools:
       they offer more freedom and are way more affordable.
     el: ''
   img: "/uploads/webflow-logo.png"
-- name: Tweek
-  url: https://tweek.so
-  desc:
-    en: "Tweek literally changed my life. \U0001F499 I'm a sucker for complicated
-      digital tools but nothing could beat the clarity of using a simple paper planner.
-      Tweek is just like that but with all the advantages of being a digital product.
-      I can't recommend it highly enough!"
-    el: ''
-  img: "/uploads/tweek-logo.png"
-- name: TEMPO
+- name: Tempo
   url: https://www.yourtempo.co
   desc:
     en: |
@@ -75,6 +56,23 @@ tools:
       ΣΗΜΕΙΩΣΗ: Κάνω υποστήριξη πελατών για το Tempo, αλλά η γνώμη μου είναι δική μου.
   img: "/uploads/tempo-logo.png"
   image: ''
+- name: Loom
+  url: https://www.loom.com
+  desc:
+    en: Loom makes sharing instructional videos so quick and easy that there's no
+      reason not to. As soon as you're done shooting, Loom has a shareable link ready
+      for anyone to watch.
+    el: ''
+  img: "/uploads/loom-logo.png"
+- name: Tweek
+  url: https://tweek.so
+  desc:
+    en: "Tweek literally changed my life. \U0001F499 I'm a sucker for complicated
+      digital tools but nothing could beat the clarity of using a simple paper planner.
+      Tweek is just like that but with all the advantages of being a digital product.
+      I can't recommend it highly enough!"
+    el: ''
+  img: "/uploads/tweek-logo.png"
 - name: 1Feed
   url: https://1feed.app/
   desc:
