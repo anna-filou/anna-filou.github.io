@@ -17,7 +17,7 @@ When I have the time, I take on **freelance design and development projects** fo
 
 I have a rather diverse skill set, which allows me to serve my clients in often unexpected ways. My workflow is **highly organized and meticulous**.
 
-Previously at [The Smiling Hippo](https://thesmilinghippo.com) in Greece.
+Currently managing growth and outreach efforts at [Theeta B.V.](https://theeta.nl) Previously designing at [The Smiling Hippo](https://thesmilinghippo.com).
 
 ### What else?
 
