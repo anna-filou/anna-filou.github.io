@@ -9,6 +9,12 @@ intro:
     (που δεν σχετίζονται απαραίτητα με τη δουλειά μου) στο <a target=\"_blank\" href=\"https://yourstack.com/@that__anna\">προφίλ
     μου στο \U0001F95E 'YourStack'</a>.\n"
 tools:
+- name: Airtable
+  url: https://airtable.com/
+  desc:
+    en: I rely on Airtable to run businesses and basically my entire life.
+    el: Βασίζομαι στο Airtable όπου τρέχω εταιρείες και βασικά την ζωή μου όλη.
+  img: "/uploads/logo-airtable.jpeg"
 - name: Figma
   url: https://www.figma.com
   desc:
