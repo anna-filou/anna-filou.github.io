@@ -14,11 +14,11 @@
   - name: Web design
     classes: bg-lightest-blue dark-blue
 - title:
-    en: SDA Manufacturer Website
-    el: Ιστοσελιδα κατασκευαστη μικρων οικιακων συσκευων
+    en: Beckher — SDA Manufacturer Website
+    el: Beckher — Ιστοσελιδα κατασκευαστη μικρων οικιακων συσκευων
   desc:
-    en: Custom code, Jekyll
-    el: Custom code, Jekyll
+    en: "[Visit the live website at beckher.com](https://beckher.com)! Custom code, Jekyll."
+    el: "[Δείτε το site ζωντανά στο beckher.com](https://beckher.com)! Custom code, Jekyll."
   img: "/assets/sda-manufacturer-screens.jpg"
   tags:
   - name: Client work
