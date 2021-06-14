@@ -23,7 +23,7 @@ The past couple of weeks I’ve been making small improvements to this websites 
 * a “tools” page with software recommendations / **UPDATE: Done →** [**Tools page**](/tools)
 * a “favorite books” section to my [reading page](/reading)
 * multilingual support (English + Greek, my native language)
-* custom icons to the navbar (I made due with emoji for now, but they look different on each platform)
+* custom icons to the navbar (I made due with emoji for now, but they look different on each platform) / **UPDATE: Done** 
 
 ### 💡 Idea
 
