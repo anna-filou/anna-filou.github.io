@@ -7,12 +7,6 @@ intro:
     συστάσεις (που δεν σχετίζονται απαραίτητα με τη δουλειά μου) στο <a target=\"_blank\"
     href=\"https://yourstack.com/@that__anna\">προφίλ μου στο \U0001F95E YourStack</a>.\n"
 tools:
-- name: Photopea
-  url: https://www.photopea.com/
-  desc:
-    en: Web-based Photoshop alternative.
-    el: Πρόγραμμα σαν το Photoshop που δουλεύει μέσα στο browser.
-  img: ''
 - name: Airtable
   url: https://airtable.com/
   desc:
@@ -106,3 +100,9 @@ tools:
       and hosting servers.
     el: ''
   img: "/uploads/iwantmyname-logo.png"
+- name: Photopea
+  url: https://www.photopea.com/
+  desc:
+    en: Web-based Photoshop alternative.
+    el: Πρόγραμμα σαν το Photoshop που δουλεύει μέσα στο browser.
+  img: ''
