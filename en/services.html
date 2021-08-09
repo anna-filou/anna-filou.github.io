@@ -1,13 +1,52 @@
 ---
 layout: default
-title: services
+title: Creative Services
 lang: en
 ref: services
+services: |
+    In short:
+    ### Digital Design
+
+    - Website design
+    - Mobile app design
+    - Wireframes
+    - Interactive prototypes
+
+    ### Front-end Development
+
+    - Custom HTML & CSS
+    - Jekyll
+    - [Forestry.io](http://forestry.io/) CMS
+    - Webflow
+
+    ### Illustrations for (among others)
+
+    - Websites
+    - Blog posts
+    - Books
+    - Clothing
+
+faq:
+    - q: Do you charge by the hour?
+      a: Almost never. I’m a big fan of project-based pricing, where you know how much you’ll pay upfront. With hourly pricing the *slower* you get the work done, the *more* you get paid. It motivates you to be slow. But fast is good, right? Then why get paid less for it? ;)
+    - q: How much does [X] cost?
+      a: It honestly depends on a lot of factors. While I can’t give you an accurate estimate without hearing the specifics of your project, I can tell you right now that if you’re looking for someone who charges rock bottom prices, it’s not me. I value my time and I value yours too. My most recent projects were in the 1.000–3.000 € range.
+    - q: Do you speak my language?
+      a: Currently, I can speak English, Greek and German (in that order of proficiency). 
+    - q: Can you do [XYZ]?
+      a: If you have something in mind and don’t see any examples of it on my site, but want to work with me, hit me up and ask. I’m open to new challenges and learn new skills all the time. If I can’t do it, I’ll let you know upfront.
+
 ---	
+<section class="container mt4">
+    <div class="bg-faint flex items-center justify-center tc pv2 ph3 br4">
+        <div class="w1 h1 bg-red br3 mr3"></div>
+        <div class="f6 f5-ns o-80">Current status: available again in September</div>
+    </div>
+</section>
 
 <section class="container mt4 cf">
     <div class="fl w-100 w-50-ns pr-0 pr4-ns mb4 mb0-ns">
-        <iframe src="https://www.videoask.com/f8o37t9k1"
+        <iframe src="https://www.videoask.com/fe29604md"
         allow="camera *; microphone *; autoplay *; encrypted-media *; fullscreen *; display-capture *;"
         width="100%"
         height="560px"
@@ -24,4 +63,25 @@ ref: services
         <p>So let’s get acquainted! 😁 Reply to my little video and I’ll get back to you right away. I get genuinely excited each time someone reaches out to me and do my absolute best to serve them, if I can. If not, we both walk away having met somebody new — and isn’t that the most interesting part of life?</p>
     </div>
 
+</section>
+<hr>
+
+<section class="container mt5">
+    <h2>OK, but what do you actually do?</h2>
+    <div class="copy">
+        {{ page.services | markdownify }}
+    </div>
+</section>
+<hr>
+<section class="container">
+    <div class="measure-wide">        
+        <h2>💬 F.A.Q.</h2>
+        {% for faq-item in page.faq %}
+        <div class="o-80">
+            <h3><em>“{{faq-item.q}}”</em></h3>
+            <div>{{faq-item.a | markdownify}}</div>
+        </div>
+        <hr class="mv4">
+        {% endfor %}
+    </div>
 </section>
