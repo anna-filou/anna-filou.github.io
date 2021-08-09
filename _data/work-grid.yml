@@ -14,13 +14,25 @@
   - name: Web design
     classes: bg-lightest-blue dark-blue
 - title:
+    en: DYNAMIKI - Beverage Distribution Network
+    el: ΔΥΝΑΜΙΚΗ - Δικτυο διανομης ποτων
+  desc:
+    en: Design for [Dynamiki’s website](https://www.dynamiki-sa.gr/). Part of my work at [The Smiling Hippo](https://www.thesmilinghippo.com/gr/en/projects/dynamic-sa/)
+    el: Design για το [site της Δυναμικής](https://www.dynamiki-sa.gr/). Μέρος της δουλιάς μου στην [The Smiling Hippo](https://www.thesmilinghippo.com/gr/en/projects/dynamic-sa/)
+  img: "/assets/dynamiki-menu-live-1-min.gif"
+  tags:
+  - name: Web design
+    classes: bg-lightest-blue dark-blue
+  - name: Agency work
+    classes: bg-moon-gray navy
+  - name: TSH
+    classes: bg-dark-blue lightest-blue
+- title:
     en: Beckher — SDA Manufacturer Website
     el: Beckher — Ιστοσελιδα κατασκευαστη μικρων οικιακων συσκευων
   desc:
-    en: "[Visit the live website at beckher.com](https://beckher.com)! Custom code,
-      Jekyll."
-    el: "[Δείτε το site ζωντανά στο beckher.com](https://beckher.com)! Custom code,
-      Jekyll."
+    en: "[Visit the live website at beckher.com](https://beckher.com) / Made with custom code and Jekyll."
+    el: "[Δείτε το site ζωντανά στο beckher.com](https://beckher.com) / Made with custom code and Jekyll."
   img: "/assets/sda-manufacturer-screens.jpg"
   tags:
   - name: Client work
@@ -58,7 +70,7 @@
     en: MegaMan-inspired Launcher setup
     el: MegaMan-inspired Launcher setup
   desc:
-    en: Animated with Motion Portrait. Using “The Grid” icon pack.
+    en: As a huge fan of the games and show, I had to make this for myself. 💙 Animated with Motion Portrait.
     el: Animated with Motion Portrait. Using “The Grid” icon pack.
   img: "/assets/megaman-launcher-mockup.gif"
   tags:

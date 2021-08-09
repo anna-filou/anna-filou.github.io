@@ -11,6 +11,10 @@ main:
     el: 👤 Σχετικά
     url: about
     langs: 'yes'
+  # - en: <i class="ri-service-fill mr1"></i> Services
+  #   el: 💼 Services
+  #   url: services
+  #   langs: 'yes'
   # - en: <i class="ri-quill-pen-fill mr1"></i> Writing
   #   el: 📝 Writing
   #   url: writing

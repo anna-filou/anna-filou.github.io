@@ -7,17 +7,17 @@ ref: about
 ---
 ### Who are you?
 
-I'm Anna, a digital designer who also does [illustration](/{{page.lang}}/graphics).
+I'm Anna, a digital native designer and technophile who also makes [illustrations](/{{page.lang}}/graphics) as a hobby.
 
 ### What do you do professionally?
 
-I build **websites** and design **digital interfaces**. My core skills are user interface and experience design (UI/UX).
+I build **websites**, design **digital interfaces**, do product research and organize workflows. My core skills are user interface and experience design (UI/UX).
 
 When I have the time, I take on **freelance design and development projects** for clients around the world.
 
-I have a rather diverse skill set, which allows me to serve my clients in often unexpected ways. My workflow is **highly organized and meticulous**.
+My rather diverse skill set helps me serve my clients in often unexpected ways. My workflow is **highly organized and meticulous**.
 
-Currently managing growth and outreach efforts at [Theeta B.V.](https://theeta.nl) Previously designing at [The Smiling Hippo](https://thesmilinghippo.com).
+Currently managing growth and operations at [Theeta B.V.](https://theeta.nl) / Previously designing at [The Smiling Hippo](https://thesmilinghippo.com).
 
 ### What else?
 
@@ -33,7 +33,7 @@ Also, I have a _ridiculously_ annoying but super cute cat.
 
 ### Any parting thoughts?
 
-Wish I could describe myself in a page but that'd be impossible. Do [contact me](/{{page.lang}}/contact) if you want us to get to know each other.
+I wish I could describe myself in a page but that'd be impossible. Do [contact me](/{{page.lang}}/contact) if you want us to get to know each other.
 
 ***
 
