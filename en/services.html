@@ -3,34 +3,47 @@ layout: default
 title: Creative Services
 lang: en
 ref: services
-services: |
-    In short:
-    ### Digital Design
+services:
+    - title: Digital Design
+      icon: ri-pencil-ruler-fill
+      li: | 
+        - Website design
+        - Mobile app design
+        - Wireframes
+        - Interactive prototypes
+      notes: 
+    - title: Front-end Development
+      icon: ri-tools-fill
+      li: | 
+        - Custom HTML & CSS
+        - Webflow
+        - Jekyll
+        - [Forestry.io](https://forestry.io/) CMS
+      notes: 
+    - title: Illustrations for
+      icon: ri-artboard-fill
+      li: |
+        - Websites
+        - Blog posts
+        - Books
+        - Clothing
+      notes: 
+process: |
+    ## Once you contact me…
+    1. First, we get on an introductory (video) call to get to know each other a bit and discuss your needs. (If you’re in Athens, Greece, we can meet in person.)
+    2. Respecting what we discussed on the call, I send you a (revisable) proposal with the scope, price and terms of the project.
+    3. You sign it electronically, pay the agreed deposit (usually half of the fixed price), and I get to work.
 
-    - Website design
-    - Mobile app design
-    - Wireframes
-    - Interactive prototypes
-
-    ### Front-end Development
-
-    - Custom HTML & CSS
-    - Jekyll
-    - [Forestry.io](http://forestry.io/) CMS
-    - Webflow
-
-    ### Illustrations for (among others)
-
-    - Websites
-    - Blog posts
-    - Books
-    - Clothing
+    **Sounds good?**
+    Email me at `hello -at- annafilou -dot- com` or [reply to my video above](#).
 
 faq:
     - q: Do you charge by the hour?
       a: Almost never. I’m a big fan of project-based pricing, where you know how much you’ll pay upfront. With hourly pricing the *slower* you get the work done, the *more* you get paid. It motivates you to be slow. But fast is good, right? Then why get paid less for it? ;)
     - q: How much does [X] cost?
-      a: It honestly depends on a lot of factors. While I can’t give you an accurate estimate without hearing the specifics of your project, I can tell you right now that if you’re looking for someone who charges rock bottom prices, it’s not me. I value my time and I value yours too. My most recent projects were in the 1.000–3.000 € range.
+      a: It honestly depends on a lot of factors. While I can’t give you an accurate estimate without hearing the specifics of your project, I can tell you right now that if you’re looking for someone who charges rock bottom prices, it’s not me. I value my time and I value yours too. My most recent web projects were in the 1.000–5.000 € range.
+    - q: Do you work with WordPress, Joomla, … etc.?
+      a: No. I believe that complex CMS like WordPress are not necessary for the majority of websites. If you disagree, get in touch and give me the chance to change your mind. :) If you really can’t switch away from your current CMS, I can do your site’s design and your developer of choice will develop it.
     - q: Do you speak my language?
       a: Currently, I can speak English, Greek and German (in that order of proficiency). 
     - q: Can you do [XYZ]?
@@ -46,20 +59,20 @@ faq:
 
 <section class="container mt4 cf">
     <div class="fl w-100 w-50-ns pr-0 pr4-ns mb4 mb0-ns">
-        <iframe src="https://www.videoask.com/fe29604md"
+        <!-- <iframe src="https://www.videoask.com/fe29604md"
         allow="camera *; microphone *; autoplay *; encrypted-media *; fullscreen *; display-capture *;"
         width="100%"
         height="560px"
         style="border: none; border-radius: 24px"
         >
-        </iframe>
+        </iframe> -->
     </div>
     
     <div class="fl w-100 w-50-ns pa2">
         <!-- <h1 class="mt0">Let’s work together</h1> -->
         <p>I’ll bet you’re here because you’re looking to commission creative work.</p>
         <p>I can tell you all about my skills and process (and I will) but allow me to let you in on a secret: </p>
-        <p class="blockquote">The most important thing when working with a freelancer is how well you get along with each other.</p>
+        <p class="blockquote">The most important thing when working with anyone is how well you get along with each other.</p>
         <p>So let’s get acquainted! 😁 Reply to my little video and I’ll get back to you right away. I get genuinely excited each time someone reaches out to me and do my absolute best to serve them, if I can. If not, we both walk away having met somebody new — and isn’t that the most interesting part of life?</p>
     </div>
 
@@ -67,9 +80,25 @@ faq:
 <hr>
 
 <section class="container mt5">
-    <h2>OK, but what do you actually do?</h2>
-    <div class="copy">
-        {{ page.services | markdownify }}
+    <h2>OK, but what do you actually&nbsp;do?</h2>
+
+    <div class="flex flex-column flex-row-ns space-between nr3-ns nl3-ns">
+        {% for service in page.services %}
+        <div class="w-100 w-third-ns mv2 mt3-ns mb0-ns">
+            <div class="bg-faint ph3 pv2 smooth-shadow br4 mh3-ns">
+                <i class="{{service.icon}} f1"></i>
+                <h3 class="mt1">{{service.title}}</h3>
+                {{service.li | markdownify}}
+            </div>
+            <p>{{service.notes | markdownify}}</p>
+        </div>
+        {% endfor %}
+    </div>
+</section>
+<hr>
+<section class="container">
+    <div class="measure-wide">
+        {{page.process | markdownify}}
     </div>
 </section>
 <hr>
