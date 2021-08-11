@@ -29,7 +29,9 @@ layout: default
     {%- endif -%}
       {%- assign date_format = "%-d %B %Y" -%}
 
-      {%- for post in posts -%}
+      {% assign en_posts = site.posts | where: "lang", page.lang %}
+
+      {%- for post in en_posts -%}
 
         <a class="db no-underline grow main" href="{{ post.url | relative_url }}">
           <div class="flex flex-column flex-row-ns">

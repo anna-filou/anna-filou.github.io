@@ -28,6 +28,11 @@ url: "https://annafilou.com" # the base hostname & protocol for your site, e.g. 
 # analytics: 
 
 permalink: pretty
+
+collections:
+  posts:
+    permalink: :categories/blog/:year/:title/
+
 highlighter: rouge
 
 twitter_username: that__anna

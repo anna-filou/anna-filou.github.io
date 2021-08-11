@@ -356,7 +356,7 @@ h6 {
   text-shadow: none;
 }
 
-blockquote, q, .blockquote, .q{
+blockquote, q, .blockquote, .q {
   font-size: 2em;
   font-style: italic;
   font-weight: 500;
@@ -365,7 +365,7 @@ blockquote, q, .blockquote, .q{
   /* margin: 2em 0; */
   border-top: 5px solid #5e5e5e;
   border-bottom: 5px solid #5e5e5e;
-  padding: 1em 0;
+  padding: 0.5em 0 0.7em 0;
 }
 
 article blockquote,

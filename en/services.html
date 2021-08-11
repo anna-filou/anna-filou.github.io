@@ -5,6 +5,7 @@ lang: en
 ref: services
 services:
     - title: Digital Design
+      url: "#work"
       icon: ri-pencil-ruler-fill
       li: | 
         - Website design
@@ -13,14 +14,16 @@ services:
         - Interactive prototypes
       notes: 
     - title: Front-end Development
+      url: "#work"
       icon: ri-tools-fill
       li: | 
         - Custom HTML & CSS
         - Webflow
         - Jekyll
-        - [Forestry.io](https://forestry.io/) CMS
+        - Forestry.io CMS
       notes: 
     - title: Illustrations for
+      url: graphics
       icon: ri-artboard-fill
       li: |
         - Websites
@@ -35,7 +38,7 @@ process: |
     3. You sign it electronically, pay the agreed deposit (usually half of the fixed price), and I get to work.
 
     **Sounds good?**
-    Email me at `hello -at- annafilou -dot- com` or [reply to my video above](#).
+    Email me at `hello`-at-`annafilou`-dot-`com` or [reply to my video above](#).
 
 faq:
     - q: Do you charge by the hour?
@@ -46,6 +49,8 @@ faq:
       a: No. I believe that complex CMS like WordPress are not necessary for the majority of websites. If you disagree, get in touch and give me the chance to change your mind. :) If you really can’t switch away from your current CMS, I can do your site’s design and your developer of choice will develop it.
     - q: Do you speak my language?
       a: Currently, I can speak English, Greek and German (in that order of proficiency). 
+    - q: Why is your email written in a weird way?
+      a: Spammers use automated software tools (bots) that scan websites and find email addresses. I write my email like this — `hello`-at-`annafilou`-dot-`com` — in an attempt to hide it from such bots.
     - q: Can you do [XYZ]?
       a: If you have something in mind and don’t see any examples of it on my site, but want to work with me, hit me up and ask. I’m open to new challenges and learn new skills all the time. If I can’t do it, I’ll let you know upfront.
 
@@ -57,7 +62,7 @@ faq:
     </div>
 </section>
 
-<section class="container mt4 cf">
+<section class="container mt2 cf">
     <div class="fl w-100 w-50-ns pr-0 pr4-ns mb4 mb0-ns">
         <!-- <iframe src="https://www.videoask.com/fe29604md"
         allow="camera *; microphone *; autoplay *; encrypted-media *; fullscreen *; display-capture *;"
@@ -73,7 +78,8 @@ faq:
         <p>I’ll bet you’re here because you’re looking to commission creative work.</p>
         <p>I can tell you all about my skills and process (and I will) but allow me to let you in on a secret: </p>
         <p class="blockquote">The most important thing when working with anyone is how well you get along with each other.</p>
-        <p>So let’s get acquainted! 😁 Reply to my little video and I’ll get back to you right away. I get genuinely excited each time someone reaches out to me and do my absolute best to serve them, if I can. If not, we both walk away having met somebody new — and isn’t that the most interesting part of life?</p>
+        <p>So let’s get acquainted! Reply to my little video and I’ll get back to you right away. (Or email me at <code class="language-plaintext highlighter-rouge">hello</code>-at-<code class="language-plaintext highlighter-rouge">annafilou</code>-dot-<code class="language-plaintext highlighter-rouge">com</code>)</p>
+        <p>I get genuinely excited each time someone reaches out to me and do my absolute best to serve them, if I can. If not, we both walk away having met somebody new — and isn’t that the most interesting part of life? 😁</p>
     </div>
 
 </section>
@@ -84,14 +90,14 @@ faq:
 
     <div class="flex flex-column flex-row-ns space-between nr3-ns nl3-ns">
         {% for service in page.services %}
-        <div class="w-100 w-third-ns mv2 mt3-ns mb0-ns">
-            <div class="bg-faint ph3 pv2 smooth-shadow br4 mh3-ns">
+        <a class="main w-100 w-third-ns mv2 mt3-ns mb0-ns" href="/{{page.lang}}/{{service.url}}">
+            <div class="bg-faint ph3 pv2 smooth-shadow br4 mh3-ns grow">
                 <i class="{{service.icon}} f1"></i>
                 <h3 class="mt1">{{service.title}}</h3>
                 {{service.li | markdownify}}
             </div>
             <p>{{service.notes | markdownify}}</p>
-        </div>
+        </a>
         {% endfor %}
     </div>
 </section>

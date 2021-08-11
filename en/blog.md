@@ -1,6 +1,6 @@
 ---
 layout: blog
-title: blog
+title: Blog
 lang: en
 ref: blog
 
@@ -12,3 +12,5 @@ But lately it seems that most articles are just part of some company’s “cont
 I'm under no illusion that my thoughts are groundbreaking. Nevertheless, I hope you find some of them interesting.
 
 [→ RSS feed](/feed.xml)
+
+---
