@@ -7,6 +7,13 @@ intro:
     συστάσεις (που δεν σχετίζονται απαραίτητα με τη δουλειά μου) στο <a target=\"_blank\"
     href=\"https://yourstack.com/@that__anna\">προφίλ μου στο \U0001F95E YourStack</a>.\n"
 tools:
+- name: Butterick’s Practical Typography
+  url: https://practicaltypography.com/
+  desc:
+    en: A tool in the broader sense of the word, this online book covers pretty much
+      everything you need to master the basics of typography.
+    el: ''
+  img: ''
 - name: Airtable
   url: https://airtable.com/
   desc:
