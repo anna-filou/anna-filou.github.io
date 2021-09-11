@@ -27,21 +27,20 @@ In the offline world I'm into inline/ice skating, reading fiction and non-fictio
 
 ![Me doing a simple but cool looking trick on inline skates](/assets/skate-circle-2.gif)
 
-Also, I have a _ridiculously_ annoying but super cute cat.
+Also, I ~~have~~ had a _ridiculously_ annoying but super cute cat. *(She passed away in September 2021…)*
 
 ![My fluffy white cat laying on her back looking at the camera](/assets/hioni.jpg "Hionitsa")
 
-### Any parting thoughts?
-
-I wish I could describe myself in a page but that'd be impossible. Do [contact me](/{{page.lang}}/contact) if you want us to get to know each other.
-
 ***
 
-* [Get in touch](/{{page.lang}}/contact)
-* [Check out some of my work](/{{page.lang}})
-* [View my illustrations](/{{page.lang}}/graphics)
-* [See the books I’ve read or am reading now](/reading)
-* [Find out which tools/software I use and recommend](/tools)
-* [Read what I’m currently up to](/now)
+### Now what?
+
+* 💬 [Get in touch](/{{page.lang}}/contact)
+* 🤝 [Hire me](/{{page.lang}}/services)
+* 💼 [Check out some of my work](/{{page.lang}})
+* 🎨 [View my illustrations](/{{page.lang}}/graphics)
+* 📚 [See the books I’ve read or am reading now](/reading)
+* 🛠 [Find out which tools/software I use and recommend](/tools)
+* ⏰ [Read what I’m currently up to](/now)
 
 Oh, did I mention I practically live on [😻 Product Hunt](https://www.producthunt.com/@anna_0x)?

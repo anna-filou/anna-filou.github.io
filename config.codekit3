@@ -617,6 +617,16 @@
       "q" : 100,
       "rq" : 75
     },
+    "\/_site\/assets\/dynamiki-menu-live-1-min.gif" : {
+      "ft" : 4194304,
+      "iS" : 4206696,
+      "oA" : 0,
+      "oAP" : "\/_site\/assets\/dynamiki-menu-live-1-min.gif",
+      "oF" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "rq" : 75
+    },
     "\/_site\/assets\/flag-de.png" : {
       "ft" : 32768,
       "iS" : 252,
@@ -946,6 +956,32 @@
       "q" : 100,
       "rq" : 75
     },
+    "\/_site\/assets\/meta\/old\/an-favicon-32.png" : {
+      "ft" : 32768,
+      "iS" : 944,
+      "oA" : 0,
+      "oAP" : "\/_site\/assets\/meta\/old\/an-favicon-32.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/_site\/assets\/meta\/old\/an-favicon-256.png" : {
+      "ft" : 32768,
+      "iS" : 2965,
+      "oA" : 0,
+      "oAP" : "\/_site\/assets\/meta\/old\/an-favicon-256.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
     "\/_site\/assets\/monster-behance-cover.jpg" : {
       "ft" : 16384,
       "iS" : 59554,
@@ -981,6 +1017,19 @@
       "oIPL" : 0,
       "opt" : 0,
       "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/_site\/assets\/sda-manufacturer-screens-blur.jpg" : {
+      "ft" : 16384,
+      "iS" : 55392,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/_site\/assets\/sda-manufacturer-screens-blur.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
@@ -1083,6 +1132,14 @@
       "q" : 100,
       "rq" : 75
     },
+    "\/_site\/css\/style-min.css.map" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/_site\/css\/style-min.css.map",
+      "oF" : 0
+    },
     "\/_site\/css\/tachyons-min.css" : {
       "aP" : 1,
       "bl" : 0,
@@ -1154,6 +1211,14 @@
       "oA" : 1,
       "oAP" : "\/_site\/en\/index.html",
       "oF" : 1
+    },
+    "\/_site\/en\/services\/index.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/_site\/en\/services\/index.html",
+      "oF" : 0
     },
     "\/_site\/feed.xml" : {
       "cB" : 0,
@@ -1440,6 +1505,19 @@
       "jF" : 0,
       "oA" : 0,
       "oAP" : "\/_site\/uploads\/logo-airtable.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/_site\/uploads\/logo-photopea.jpg" : {
+      "ft" : 16384,
+      "iS" : 14874,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/_site\/uploads\/logo-photopea.jpg",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -2029,6 +2107,16 @@
       "q" : 100,
       "rq" : 75
     },
+    "\/assets\/dynamiki-menu-live-1-min.gif" : {
+      "ft" : 4194304,
+      "iS" : 4206696,
+      "oA" : 0,
+      "oAP" : "\/assets\/dynamiki-menu-live-1-min.gif",
+      "oF" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "rq" : 75
+    },
     "\/assets\/flag-de.png" : {
       "ft" : 32768,
       "iS" : 252,
@@ -2358,6 +2446,32 @@
       "q" : 100,
       "rq" : 75
     },
+    "\/assets\/meta\/old\/an-favicon-32.png" : {
+      "ft" : 32768,
+      "iS" : 944,
+      "oA" : 0,
+      "oAP" : "\/assets\/meta\/old\/an-favicon-32.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/assets\/meta\/old\/an-favicon-256.png" : {
+      "ft" : 32768,
+      "iS" : 2965,
+      "oA" : 0,
+      "oAP" : "\/assets\/meta\/old\/an-favicon-256.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
     "\/assets\/monster-behance-cover.jpg" : {
       "ft" : 16384,
       "iS" : 59554,
@@ -2393,6 +2507,19 @@
       "oIPL" : 0,
       "opt" : 0,
       "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/assets\/sda-manufacturer-screens-blur.jpg" : {
+      "ft" : 16384,
+      "iS" : 55392,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/assets\/sda-manufacturer-screens-blur.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
@@ -2609,6 +2736,14 @@
       "oA" : 1,
       "oAP" : "\/en\/index.html",
       "oF" : 1
+    },
+    "\/en\/services.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/en\/services.html",
+      "oF" : 0
     },
     "\/Gemfile" : {
       "cB" : 0,
@@ -2917,6 +3052,19 @@
       "jF" : 0,
       "oA" : 0,
       "oAP" : "\/uploads\/logo-airtable.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/uploads\/logo-photopea.jpg" : {
+      "ft" : 16384,
+      "iS" : 14874,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/uploads\/logo-photopea.jpg",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -29305,7 +29453,7 @@
     "bowerUseExactVersion" : 0,
     "browserRefreshDelay" : 0,
     "browserslistString" : ">0.2%, last 2 versions, Firefox ESR, not dead",
-    "buildEnvironment" : 0,
+    "buildEnvironment" : 1,
     "buildFolderActive" : 0,
     "buildFolderName" : "build",
     "cleanBuild" : 1,
@@ -29450,7 +29598,7 @@
     "cssoForceMediaMerge" : 0,
     "cssoRestructure" : 1,
     "environmentVariableEntries" : [
-      "NODE_ENV:::production"
+      "NODE_ENV:::development"
     ],
     "esLintConfigFileHandlingType" : 0,
     "esLintECMAVersion" : 7,

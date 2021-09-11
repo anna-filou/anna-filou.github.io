@@ -3,22 +3,22 @@ main:
     el: ✉️ Επικοινωνία
     url: contact
     langs: 'yes'
-  - en: <i class="ri-pen-nib-fill mr1"></i> Drawing
-    el: ✏️ Ζωγραφική
-    url: graphics
-    langs: 'yes'
   - en: <i class="ri-user-5-fill mr1"></i> About
     el: 👤 Σχετικά
     url: about
     langs: 'yes'
-  # - en: <i class="ri-service-fill mr1"></i> Services
-  #   el: 💼 Services
-  #   url: services
+  - en: <i class="ri-service-fill mr1"></i> Services
+    el: 💼 Services
+    url: services
+    langs: 'yes'
+  - en: <i class="ri-pen-nib-fill mr1"></i> Drawing
+    el: ✏️ Ζωγραφική
+    url: graphics
+    langs: 'yes'
+  # - en: <i class="ri-quill-pen-fill mr1"></i> Blog
+  #   el: 📝 Blog
+  #   url: blog
   #   langs: 'yes'
-  # - en: <i class="ri-quill-pen-fill mr1"></i> Writing
-  #   el: 📝 Writing
-  #   url: writing
-  #   langs: 'no'
 secondary: 
   - en: <i class="ri-book-3-line mr1"></i> Reading
     el: 📚 Reading
