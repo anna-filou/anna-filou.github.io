@@ -7,7 +7,7 @@ ref: about
 ---
 ### Who are you?
 
-I'm Anna, a digital native designer and technophile who also makes [illustrations](/{{page.lang}}/graphics) as a hobby.
+I'm Anna, a digital native designer and technophile [who draws](/{{page.lang}}/graphics).
 
 ### What do you do professionally?
 
