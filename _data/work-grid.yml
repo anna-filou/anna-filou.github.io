@@ -40,6 +40,18 @@
   - name: Web design
     classes: bg-lightest-blue dark-blue
 - title:
+    en: Micronavi — Electronics Distributor Website
+    el: Micronavi — Ιστοσελιδα Distributor Ηλεκτρωνικών
+  desc:
+    en: "[Visit the live website at micronavi.eu](http://micronavi.eu) / Made with custom code."
+    el: "[Δείτε το site ζωντανά στο micronavi.eu](http://micronavi.eu) / Made with custom code."
+  img: "/assets/micronavi-screens.jpg"
+  tags:
+  - name: Client work
+    classes: bg-moon-gray navy
+  - name: Web design
+    classes: bg-lightest-blue dark-blue
+- title:
     en: Jewelry Store - Aevum
     el: Online Κοσμηματοπωλειο - Aevum
   desc:
