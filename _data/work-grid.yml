@@ -17,8 +17,10 @@
     en: DYNAMIKI - Beverage Distribution Network
     el: ΔΥΝΑΜΙΚΗ - Δικτυο διανομης ποτων
   desc:
-    en: Design for [Dynamiki’s website](https://www.dynamiki-sa.gr/). Part of my work at [The Smiling Hippo](https://www.thesmilinghippo.com/gr/en/projects/dynamic-sa/)
-    el: Design για το [site της Δυναμικής](https://www.dynamiki-sa.gr/). Μέρος της δουλιάς μου στην [The Smiling Hippo](https://www.thesmilinghippo.com/gr/en/projects/dynamic-sa/)
+    en: Design for [Dynamiki’s website](https://www.dynamiki-sa.gr/). Part of my work
+      at [The Smiling Hippo](https://www.thesmilinghippo.com/gr/en/projects/dynamic-sa/)
+    el: Design για το [site της Δυναμικής](https://www.dynamiki-sa.gr/). Μέρος της
+      δουλιάς μου στην [The Smiling Hippo](https://www.thesmilinghippo.com/gr/en/projects/dynamic-sa/)
   img: "/assets/dynamiki-menu-live-1-min.gif"
   tags:
   - name: Web design
@@ -31,8 +33,10 @@
     en: Beckher — SDA Manufacturer Website
     el: Beckher — Ιστοσελιδα κατασκευαστη μικρων οικιακων συσκευων
   desc:
-    en: "[Visit the live website at beckher.com](https://beckher.com) / Made with custom code and Jekyll."
-    el: "[Δείτε το site ζωντανά στο beckher.com](https://beckher.com) / Made with custom code and Jekyll."
+    en: "[Visit the live website at beckher.com](https://beckher.com) / Made with
+      custom code and Jekyll."
+    el: "[Δείτε το site ζωντανά στο beckher.com](https://beckher.com) / Made with
+      custom code and Jekyll."
   img: "/assets/sda-manufacturer-screens.jpg"
   tags:
   - name: Client work
@@ -43,13 +47,15 @@
     en: Micronavi — Electronics Distributor Website
     el: Micronavi — Ιστοσελιδα Distributor Ηλεκτρωνικών
   desc:
-    en: "[Visit the live website at micronavi.eu](http://micronavi.eu) / Made with custom code."
-    el: "[Δείτε το site ζωντανά στο micronavi.eu](http://micronavi.eu) / Made with custom code."
+    en: "[Visit the live website at micronavi.eu](http://micronavi.eu) / Made with
+      custom code."
+    el: "[Δείτε το site ζωντανά στο micronavi.eu](http://micronavi.eu) / Made with
+      custom code."
   img: "/assets/micronavi-screens.jpg"
   tags:
   - name: Client work
     classes: bg-moon-gray navy
-  - name: Web design
+  - name: Web design & development
     classes: bg-lightest-blue dark-blue
 - title:
     en: Jewelry Store - Aevum
@@ -82,7 +88,8 @@
     en: MegaMan-inspired Launcher setup
     el: MegaMan-inspired Launcher setup
   desc:
-    en: As a huge fan of the games and show, I had to make this for myself. 💙 Animated with Motion Portrait.
+    en: "As a huge fan of the games and show, I had to make this for myself. \U0001F499
+      Animated with Motion Portrait."
     el: Animated with Motion Portrait. Using “The Grid” icon pack.
   img: "/assets/megaman-launcher-mockup.gif"
   tags:
