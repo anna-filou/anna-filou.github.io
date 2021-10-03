@@ -149,7 +149,7 @@ svg {
 
   header {
     background-color: #2b2b2b;
-    box-shadow: 0px 2px 40px rgba(0, 0, 0, 0.6);
+    box-shadow: 0px 2px 40px rgba(0, 0, 0, 0.9);
   }
 
   article figure, div.highlight, .language-plaintext {
