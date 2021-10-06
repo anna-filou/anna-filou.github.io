@@ -2,7 +2,7 @@
 layout: measure
 title: Now
 lang: en
-date: May 4th, 2021
+date: October 6th, 2021
 
 ---
 # Now Page
@@ -13,7 +13,11 @@ It’s the answer to “what are you up to lately?” Learn more about the [Now 
 
 **Latest Update: {{ page.date }}**
 
+Busy with a bunch of interesting projects. Looking forward to things slowing down a bit so I can get back to reading books and exploring some recent ideas…
+
 ***
+
+## Previous update, May 4th, 2021
 
 I got a Nintendo Switch a couple of weeks ago and love it. As expected, I don’t play with it that long, but the local multiplayer games are so worth it (especially ARMS, you have to try it)! The downside is I haven’t done any skating since I got it. 😅
 
