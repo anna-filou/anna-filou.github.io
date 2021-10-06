@@ -3,9 +3,9 @@
     en: MONSTER ENERGY HOMEPAGE CONCEPT
     el: MONSTER ENERGY HOMEPAGE CONCEPT
   desc:
-    en: "[See the case study on Behance](https://www.behance.net/gallery/105157851/Monster-Energy-Website-Redesign-CONCEPT).
+    en: "[Case study on Behance](https://www.behance.net/gallery/105157851/Monster-Energy-Website-Redesign-CONCEPT).
       Not commissioned by Monster Energy."
-    el: "[Δείτε το case study στο Behance](https://www.behance.net/gallery/105157851/Monster-Energy-Website-Redesign-CONCEPT).
+    el: "[Case study στο Behance](https://www.behance.net/gallery/105157851/Monster-Energy-Website-Redesign-CONCEPT).
       Δεν έγινε κατά παραγγελία της Monster Energy."
   img: "/assets/monster-behance-cover.jpg"
   tags:
@@ -18,24 +18,24 @@
     el: ΔΥΝΑΜΙΚΗ - Δικτυο διανομης ποτων
   desc:
     en: Design for [Dynamiki’s website](https://www.dynamiki-sa.gr/). Part of my work
-      at [The Smiling Hippo](https://www.thesmilinghippo.com/gr/en/projects/dynamic-sa/)
+      at [TSH](https://www.thesmilinghippo.com/gr/en/projects/dynamic-sa/).
     el: Design για το [site της Δυναμικής](https://www.dynamiki-sa.gr/). Μέρος της
-      δουλιάς μου στην [The Smiling Hippo](https://www.thesmilinghippo.com/gr/en/projects/dynamic-sa/)
+      δουλιάς μου στην [TSH](https://www.thesmilinghippo.com/gr/en/projects/dynamic-sa/)
   img: "/assets/dynamiki-menu-live-1-min.gif"
   tags:
   - name: Web design
     classes: bg-lightest-blue dark-blue
   - name: Agency work
     classes: bg-moon-gray navy
-  - name: TSH
+  - name: The Smiling Hippo
     classes: bg-dark-blue lightest-blue
 - title:
     en: Beckher — SDA Manufacturer Website
     el: Beckher — Ιστοσελιδα κατασκευαστη μικρων οικιακων συσκευων
   desc:
-    en: "[Visit the live website at beckher.com](https://beckher.com) / Made with
+    en: "[→ Live website](https://beckher.com) / Made with
       custom code and Jekyll."
-    el: "[Δείτε το site ζωντανά στο beckher.com](https://beckher.com) / Made with
+    el: "[Δείτε το site ζωντανά](https://beckher.com) / Made with
       custom code and Jekyll."
   img: "/assets/sda-manufacturer-screens.jpg"
   tags:
@@ -44,12 +44,25 @@
   - name: Web design & development
     classes: bg-lightest-blue dark-blue
 - title:
-    en: Micronavi — Electronics Distributor Website
-    el: Micronavi — Ιστοσελιδα Distributor Ηλεκτρωνικών
+    en: Mig Lock — Business Consultant
+    el: Mig Lock — Business Consultant
   desc:
-    en: "[Visit the live website at micronavi.eu](http://micronavi.eu) / Made with
+    # en: "[→ Live website](http://miglock.co.uk) / Made with custom code."
+    en: "Live website coming soon / Made with custom code."
+    el: "[Δείτε το site ζωντανά](http://miglock.co.uk) / Made with custom code."
+  img: "/assets/miglock-scrollcap.gif"
+  tags:
+  - name: Client work
+    classes: bg-moon-gray navy
+  - name: Web design & development
+    classes: bg-lightest-blue dark-blue
+- title:
+    en: Micronavi — Electronics Distributor
+    el: Micronavi — Distributor Ηλεκτρωνικών
+  desc:
+    en: "[→ Live website](http://micronavi.eu) / Made with
       custom code."
-    el: "[Δείτε το site ζωντανά στο micronavi.eu](http://micronavi.eu) / Made with
+    el: "[Δείτε το site ζωντανά](http://micronavi.eu) / Made with
       custom code."
   img: "/assets/micronavi-screens.jpg"
   tags:
@@ -61,8 +74,8 @@
     en: Jewelry Store - Aevum
     el: Online Κοσμηματοπωλειο - Aevum
   desc:
-    en: Webflow, custom code, Ecwid for e-commerce
-    el: Webflow, custom code, Ecwid για λειτουργία e-commerce
+    en: Webflow, custom code, Ecwid for e-commerce.
+    el: Webflow, custom code, Ecwid για λειτουργία e-commerce.
   img: "/assets/aevum-demo.gif"
   tags:
   - name: Client work
@@ -73,7 +86,7 @@
     en: Restaurant Website — Bistrot&nbsp;46
     el: Ιστοσελιδα εστιατοριου — Bistrot&nbsp;46
   desc:
-    en: Design, Webflow development, photography and the Airtable-powered menu.
+    en: Design, Webflow development, photography.
     el: Σχεδιασμός, development με Webflow, φωτογράφιση και μενού που τροφοδοτείται
       από το Airtable.
   img: "/assets/website-bistrot46.jpg"
@@ -82,13 +95,13 @@
     classes: bg-moon-gray navy
   - name: Photography
     classes: bg-washed-green dark-green
-  - name: Web design & development
+  - name: Webflow
     classes: bg-lightest-blue purple
 - title:
     en: MegaMan-inspired Launcher setup
     el: MegaMan-inspired Launcher setup
   desc:
-    en: "As a huge fan of the games and show, I had to make this for myself. \U0001F499
+    en: "I had to make this for myself. \U0001F499
       Animated with Motion Portrait."
     el: Animated with Motion Portrait. Using “The Grid” icon pack.
   img: "/assets/megaman-launcher-mockup.gif"
