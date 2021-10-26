@@ -17,7 +17,7 @@ When I have the time, I take on **freelance design and development projects** fo
 
 My rather diverse skill set helps me serve my clients in often unexpected ways. My workflow is **highly organized and meticulous**.
 
-Currently managing growth and operations at [Theeta B.V.](https://theeta.nl) / Previously designing at [The Smiling Hippo](https://thesmilinghippo.com).
+Currently managing growth and operations at [Theeta B.V.](https://theeta.nl) / Previously designing at [The Smiling Hippo](https://thesmilinghippo.com) and doing customer support at [Tempo](https://www.yourtempo.co/).
 
 ### What else?
 
@@ -27,7 +27,7 @@ In the offline world I'm into inline/ice skating, reading fiction and non-fictio
 
 ![Me doing a simple but cool looking trick on inline skates](/assets/skate-circle-2.gif)
 
-Also, I ~~have~~ had a _ridiculously_ annoying but super cute cat. *(She passed away in September 2021…)*
+Also, I ~~have~~ had a _ridiculously_ annoying but super cute cat. _(She passed away in September 2021…)_
 
 ![My fluffy white cat laying on her back looking at the camera](/assets/hioni.jpg "Hionitsa")
 
