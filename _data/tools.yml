@@ -56,12 +56,21 @@ tools:
       ΣΗΜΕΙΩΣΗ: Κάνω υποστήριξη πελατών για το Tempo, αλλά η γνώμη μου είναι δική μου.
   img: "/uploads/tempo-logo.png"
   image: ''
+- name: CleanShot X
+  url: https://cleanshot.com/
+  desc:
+    en: Screenshot superpowers for Mac — capture, annotate and, most importantly,
+      share screen recordings with ease. I thought the built-in screenshot tool was
+      enough, but boy was I wrong!
+    el: ''
+  img: "/uploads/icon-1636390927-6189580fc0b06.webp"
 - name: Loom
   url: https://www.loom.com
   desc:
-    en: Loom makes sharing instructional videos so quick and easy that there's no
-      reason not to. As soon as you're done shooting, Loom has a shareable link ready
-      for anyone to watch.
+    en: 'Loom makes sharing instructional videos so quick and easy that there''s no
+      reason not to. As soon as you''re done shooting, Loom has a shareable link ready
+      for anyone to watch. Update: Loom added more limits to their free version, so
+      I mostly use CleanShot X now.'
     el: ''
   img: "/uploads/loom-logo.png"
 - name: Tweek
