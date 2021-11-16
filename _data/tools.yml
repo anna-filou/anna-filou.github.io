@@ -46,14 +46,14 @@ tools:
 - name: Tempo
   url: https://www.yourtempo.co
   desc:
-    en: |
-      Tempo is a macOS/iOS Gmail client. It creates a workspace that won't get filled with new emails automatically; you have to manually add them. Perfect for those overwhelmed by too many emails.
+    en: 'Tempo is a (now FREE) macOS/iOS Gmail client. It creates a workspace that
+      won''t get filled with new emails automatically; you have to manually add them.
+      Perfect for those overwhelmed by too many emails. Disclaimers: I used to do
+      customer support for Tempo. The app is no longer maintained but can be used
+      indefinitely.
 
-      DISCLAIMER: I do customer support for Tempo, but my opinion is my own.
-    el: |
-      Το Tempo είναι ένας Gmail client για macOS κ’ iOS. Φτιάχνει έναν χώρο εργασίας που δεν γεμίζει αυτόματα με νέα email — πρέπει να τα προσθέσετε χειροκίνητα. Ιδανικό για όσους πνίγονται από τα πολλά emails.
-
-      ΣΗΜΕΙΩΣΗ: Κάνω υποστήριξη πελατών για το Tempo, αλλά η γνώμη μου είναι δική μου.
+'
+    el: "\n"
   img: "/uploads/tempo-logo.png"
   image: ''
 - name: CleanShot X
@@ -93,14 +93,16 @@ tools:
     el: ''
   img: "/uploads/1feed-logo.png"
   image: ''
-- name: Dropbox Paper
-  url: https://www.dropbox.com/paper
+- name: Notion
+  url: https://www.notion.so/
   desc:
-    en: Easy to collaborate on a flexible, live, shared document. Good for creating
-      a timeline and communicating with clients, without losing track of messages
-      and emails. Keeps everyone on the same page.
+    en: I use Notion to manage larger projects, because it allows me to create a small
+      database with timelines, attachments, to-dos and more and share the entire things
+      or sub-pages. I used to use Dropbox Paper for this, but shared pages look really
+      weird for people who are not logged in. After Notion added a timeline creation
+      feature, there was no reason to keep using Paper.
     el: ''
-  img: "/uploads/dropbox-paper-logo.png"
+  img: "/uploads/logo_notion.png"
 - name: iwantmyname
   url: https://iwantmyname.com
   desc:
