@@ -2,18 +2,21 @@
 layout: measure
 title: Now
 lang: en
-date: October 6th, 2021
+date: November 23rd, 2021
 
 ---
 # Now Page
 
-### What is this page?
-
-It’s the answer to “what are you up to lately?” Learn more about the [Now Now Now project](https://nownownow.com/about).
+<dl class="fl lh-title w-100 w-50-ns pa3 br2 bg-faint mw7">
+    <dt class="secondary f6 b mb1">What is this page?</dt>
+    <dd class="secondary f6 ml0">It’s the answer to “what are you up to lately?” <a href="https://nownownow.com/about">Learn more about the Now Now Now project</a>.</dd>
+</dl>
 
 **Latest Update: {{ page.date }}**
 
-Busy with a bunch of interesting projects. Looking forward to things slowing down a bit so I can get back to reading books and exploring some recent ideas…
+Busy with a bunch of interesting projects. Looking forward to things slowing down a bit so I can get back to reading books and exploring some recent ideas… 
+
+Also, recently started playing The Legend of Zelda: Breath of the Wild and omg it is *amazing* ⚔
 
 ***
 
