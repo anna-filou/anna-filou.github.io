@@ -4,6 +4,12 @@ lang: en
 ref: ''
 title: Reading
 books:
+- title: The Mindbody Prescription
+  cover: "/assets/books/mindbody-prescription.jpg"
+  author: John E. Sarno M.D.
+  read: now
+  pages: 240
+  my-notes: ''
 - title: Learn To Code Now
   cover: "/assets/books/learn-to-code-now-superhi.jpg"
   author: Rik Lomas
