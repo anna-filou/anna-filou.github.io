@@ -12,7 +12,7 @@ date: November 23rd, 2021
     <dd class="secondary f6 ml0 i o-70">It’s the answer to “what are you up to lately?”<a href="https://nownownow.com/about">Learn more about the Now&nbsp;Now&nbsp;Now project</a>.</dd>
 </dl>
 
-**Latest Update: {{ page.date }}**
+**🗓 Latest Update: {{ page.date }}**
 
 Busy with a bunch of interesting projects. Looking forward to things slowing down a bit so I can get back to reading books and exploring some recent ideas… 
 
