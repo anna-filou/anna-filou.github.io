@@ -7,9 +7,10 @@ date: November 23rd, 2021
 ---
 # Now Page
 
-<dl class="fl lh-title w-100 w-50-ns pa3 br2 bg-faint mw7">
-    <dt class="secondary f6 b mb1">What is this page?</dt>
-    <dd class="secondary f6 ml0">It’s the answer to “what are you up to lately?” <a href="https://nownownow.com/about">Learn more about the Now Now Now project</a>.</dd>
+<dl class="fl lh-title pa3 br2 bg-faint mw7 mb4">
+    <dt class="secondary f6 b mb1 i o-80">What is this page?</dt>
+    <dd class="secondary f6 ml0 i o-70">It’s the answer to “what are you up to lately?”
+    <br><a href="https://nownownow.com/about">Learn more about the Now Now Now project</a>.</dd>
 </dl>
 
 **Latest Update: {{ page.date }}**
