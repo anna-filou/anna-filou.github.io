@@ -4,6 +4,18 @@ lang: en
 ref: ''
 title: Reading
 books:
+- title: Relationships
+  read: '2021'
+  cover: "/uploads/book-school-of-life-relationships.jpg"
+  author: The School of Life
+  pages: 118
+  my-notes: "This might be the most well-written book I've ever read. It's not unnecessarily
+    wordy, but rather goes straight to the point while still providing examples vivid
+    enough to drive the point home. \n\nI feel I now have the vocabulary to talk about
+    concepts that I couldn't before — at least not well enough. It's been enlightening
+    reading about a different worldview and discovering that some of my beliefs and
+    values might not be mine at all, but are heavily influenced by the dominant culture
+    of our time."
 - title: The Mindbody Prescription
   cover: "/assets/books/mindbody-prescription.jpg"
   author: John E. Sarno M.D.
