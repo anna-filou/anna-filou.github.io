@@ -4,6 +4,12 @@ lang: en
 ref: ''
 title: Reading
 books:
+- title: Calm
+  cover: "/assets/books/calm-the-school-of-life.jpg"
+  author: The School of Life
+  read: now
+  pages: 136
+  my-notes: ''
 - title: Relationships
   read: '2021'
   cover: "/uploads/book-school-of-life-relationships.jpg"
