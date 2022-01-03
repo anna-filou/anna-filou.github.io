@@ -83,6 +83,18 @@
     classes: bg-moon-gray navy
   - name: Web design & development
     classes: bg-lightest-blue dark-blue
+# - title:
+#     en: Danubian Crew
+#     el: Danubian Crew
+#   desc:
+#     en: "[→ Live website](https://danubian-crew.com) / Made with custom code / Jekyll."
+#     el: "[Δείτε το site ζωντανά](https://danubian-crew.com) / Custom code / Jekyll."
+#   img: "/assets/website-theeta.jpg"
+#   tags:
+#   - name: Client work
+#     classes: bg-moon-gray navy
+#   - name: Web design & development
+#     classes: bg-lightest-blue dark-blue
 - title:
     en: Jewelry Store - Aevum
     el: Online Κοσμηματοπωλειο - Aevum
