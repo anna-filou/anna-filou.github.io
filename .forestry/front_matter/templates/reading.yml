@@ -30,6 +30,7 @@ fields:
       required: false
       options:
       - now
+      - '2022'
       - '2021'
       - '2020'
       source:
