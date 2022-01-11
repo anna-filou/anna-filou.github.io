@@ -7,10 +7,22 @@ intro:
     συστάσεις (που δεν σχετίζονται απαραίτητα με τη δουλειά μου) στο <a target=\"_blank\"
     href=\"https://yourstack.com/@that__anna\">προφίλ μου στο \U0001F95E YourStack</a>.\n"
 tools:
+- name: Coda
+  url: https://coda.io
+  desc:
+    en: Airtable let me down when I really needed it but Coda was there to catch me
+      before I hit the ground. It's way more powerful than I thought and, importantly,
+      the app-like “docs” you create with it are easy to use for people who are not
+      familiar with databases and storing lots of data in spreadsheets.
+    el: ''
+  img: "/uploads/logo-coda.jpg"
 - name: Airtable
   url: https://airtable.com/
   desc:
-    en: I rely on Airtable to run businesses and basically my entire life.
+    en: |-
+      I rely on Airtable to run businesses and basically my entire life.
+
+      Update: I mostly use Coda now but Airtable can be better for certain projects.
     el: Βασίζομαι στο Airtable όπου τρέχω εταιρείες και βασικά την ζωή μου όλη.
   img: "/uploads/logo-airtable.jpeg"
 - name: Figma
