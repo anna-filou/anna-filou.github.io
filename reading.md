@@ -4,7 +4,7 @@ lang: en
 ref: ''
 title: Reading
 books:
-- title: What They Forgot to Teach You in School
+- title: What They Forgot to Teach You at School
   read: now
   cover: "/uploads/book-what-they-forgot-to-teach-you-in-school.jpg"
   author: The School of Life
