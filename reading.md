@@ -4,12 +4,21 @@ lang: en
 ref: ''
 title: Reading
 books:
+- title: What They Forgot to Teach You in School
+  read: now
+  cover: "/uploads/book-what-they-forgot-to-teach-you-in-school.jpg"
+  author: The School of Life
+  pages: 144
+  my-notes: ''
 - title: Calm
   cover: "/assets/books/calm-the-school-of-life.jpg"
   author: The School of Life
-  read: now
+  read: '2022'
   pages: 136
-  my-notes: ''
+  my-notes: |-
+    “A calm life isn’t one that’s always perfectly serene. It is one where we are committed to calming down more readily, and where we strive for more realistic expectations; where we can understand better why certain problems are occurring, and we can be more adept at finding a consoling perspective.”
+
+    “You will die and it will be as if you had never been. It could sound demeaning. But these are generous sentiments, for we otherwise so easily exaggerate our own importance and suffer accordingly.”
 - title: Relationships
   read: '2021'
   cover: "/uploads/book-school-of-life-relationships.jpg"
