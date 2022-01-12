@@ -55,6 +55,45 @@
   font-display: swap;
 }
 
+/* Space Grotesk */
+
+@font-face {
+  font-family: 'Space Grotesk';
+  src: url('/assets/fonts/SpaceGrotesk-Regular.woff2') format('woff2'),
+      url('/assets/fonts/SpaceGrotesk-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Space Grotesk';
+  src: url('/assets/fonts/SpaceGrotesk-Bold.ttf') format('woff2'),
+      url('/assets/fonts/SpaceGrotesk-Bold.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Space Grotesk';
+  src: url('/assets/fonts/SpaceGrotesk-Light.woff2') format('woff2'),
+      url('/assets/fonts/SpaceGrotesk-Light.ttf') format('truetype');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Space Grotesk';
+  src: url('/assets/fonts/SpaceGrotesk-Medium.woff2') format('woff2'),
+      url('/assets/fonts/SpaceGrotesk-Medium.ttf') format('truetype');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+
 /* DEFAULT LIGHT  */
 
 body {
@@ -62,8 +101,13 @@ body {
 }
 
 body, nav a, .main {
+  color: #4d4444;
+}
+
+h1, h2, h3, h4, h5, h6 {
   color: #171717;
 }
+
 a {
   color: #3e4497;
 }
@@ -126,11 +170,16 @@ svg {
   }
 
   body, nav a, .main {
+    color: #c0c0c0;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
     color: #e3e3e3;
   }
 
   a {
-    color: #a1d8f1;
+    /* color: #a1d8f1; */
+    color: #6fe7d6;
   }
 
   a:hover {
@@ -190,8 +239,13 @@ svg {
   }
 
   body, nav a, .main {
+    color: #4d4444;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
     color: #171717;
   }
+
   a {
     color: #3e4497;
   }
@@ -243,8 +297,8 @@ svg {
 body {
   /* font-family: Rubik;  */
   /* font-family: 'Inter'; */
-  font-family: 'Inter', sans-serif;
-  font-size: 16px;
+  font-family: 'Space Grotesk', sans-serif;
+  font-size: 18px;
   line-height: 1.4;
 }
 
@@ -326,7 +380,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: Rubik;  
+  font-family: 'Space Grotesk';  
   font-weight: 600;
   text-transform: none;
 }

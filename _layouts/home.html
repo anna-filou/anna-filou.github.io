@@ -4,11 +4,11 @@ layout: default
 {% assign data = site.data.home %}
 
 <section class="container mt2">
-<p class="ttu  pa0 mt5 mb1 f6 fw5 silver">{{data.hero.intro.tag[page.lang]}}</p>
+<p class="ttu  pa0 mt5 mb1 f6 fw5 silver tracked">{{data.hero.intro.tag[page.lang]}}</p>
 <h1 class="f-headline-l ttu pa0 mt0 mb2 mb3-l lh-solid nml">{{data.hero.intro.big-text[page.lang]}}</h1>
-<p class="pa0 mt0 f3-l mw6 lh-title secondary">{{data.hero.intro.text[page.lang]}}</p>
+<p class="pa0 mt0 f3-l mw6 lh-title">{{data.hero.intro.text[page.lang]}}</p>
 
-<div class="mt4">
+<div class="mt4" id="icons">
     <a class="dib h2 w2 mr3 hover-bg-blue" href="https://linkedin.com/in/annafilou" title="LinkedIn" target="_blank">
     <svg fill="currentColor" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" fill-rule="evenodd" clip-rule="evenodd" stroke-linejoin="round" stroke-miterlimit="1.414"><path d="M13.632 13.635h-2.37V9.922c0-.886-.018-2.025-1.234-2.025-1.235 0-1.424.964-1.424 1.96v3.778h-2.37V6H8.51V7.04h.03c.318-.6 1.092-1.233 2.247-1.233 2.4 0 2.845 1.58 2.845 3.637v4.188zM3.558 4.955c-.762 0-1.376-.617-1.376-1.377 0-.758.614-1.375 1.376-1.375.76 0 1.376.617 1.376 1.375 0 .76-.617 1.377-1.376 1.377zm1.188 8.68H2.37V6h2.376v7.635zM14.816 0H1.18C.528 0 0 .516 0 1.153v13.694C0 15.484.528 16 1.18 16h13.635c.652 0 1.185-.516 1.185-1.153V1.153C16 .516 15.467 0 14.815 0z" fill-rule="nonzero"/></svg>
     </a>
@@ -21,7 +21,6 @@ layout: default
     <a class="dib h2 w2 mr3 hover-bg-pink br4" href="https://dribbble.com/annafilou" title="Dribbble" target="_blank">
     <svg fill="currentColor" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" fill-rule="evenodd" clip-rule="evenodd"><path d="M3.90563 13.1071C5.02675 14.007 6.4505 14.5455 8 14.5455C8.8827 14.5455 9.72459 14.3707 10.493 14.054C10.2319 12.4828 9.75362 10.8607 9.0574 9.18781C7.10293 9.79236 5.39233 11.0959 3.90563 13.1071ZM2.86936 12.0648C4.47393 9.95478 6.34322 8.54784 8.46006 7.85159C8.32354 7.56565 8.18085 7.27828 8.03198 6.98948C7.65611 7.08987 7.26642 7.17657 6.86349 7.25023C5.24117 7.54681 3.83498 7.60457 1.55417 7.57197C1.52424 7.57155 1.49568 7.57114 1.4684 7.57075C1.45921 7.71265 1.45455 7.85578 1.45455 8C1.45455 9.53593 1.98358 10.9483 2.86936 12.0648ZM1.72865 6.11965C3.82908 6.14618 5.13453 6.08765 6.60191 5.8194C6.84581 5.77481 7.08342 5.72515 7.31464 5.67027C6.65694 4.51972 5.90392 3.34718 5.05535 2.15273C3.46562 2.95489 2.24763 4.38628 1.72865 6.11965ZM6.46948 1.63446C7.3208 2.85306 8.07735 4.05279 8.73889 5.23376C10.1329 4.69469 11.2149 3.89355 11.9522 2.782C10.854 1.9489 9.48475 1.45455 8 1.45455C7.47296 1.45455 6.96046 1.51684 6.46948 1.63446ZM13.019 3.79822C12.1411 5.02898 10.9275 5.9197 9.42873 6.52623C9.59305 6.85032 9.75003 7.17297 9.89968 7.49418C11.3441 7.24641 12.8913 7.29876 14.5364 7.6533C14.46 6.1892 13.9025 4.85247 13.019 3.79822ZM14.4493 9.12421C13.0432 8.7975 11.7284 8.71348 10.501 8.87398C11.1126 10.3832 11.5578 11.8599 11.8361 13.3041C13.1893 12.3238 14.1526 10.8382 14.4493 9.12421ZM8 16C3.58172 16 0 12.4183 0 8C0 3.58172 3.58172 0 8 0C12.4183 0 16 3.58172 16 8C16 12.4183 12.4183 16 8 16Z"/></svg>
     </a>
-    
 </div>
 
 <div class="cf mt4 mt5-ns">
@@ -36,7 +35,7 @@ layout: default
     {% endfor %}
 </div>
 
-<div class="secondary mt4 f6">
+<div class="secondary mt4 f5">
     {{data.hero.note[page.lang] | markdownify}}
 </div>
 </section>
@@ -53,15 +52,14 @@ layout: default
     {% for grid-item in site.data.work-grid %}
         <div class="fl w-100 w-50-m w-third-ns pa0 pa2-ns pa3-l mb5 mb2-ns">
             <div class="db aspect-ratio aspect-ratio--4x3">
-            <span role="img" aria-label="" style="background-image:url({{grid-item.img}});" class="bg-center cover aspect-ratio--object"></span>
+                <span role="img" aria-label="" style="background-image:url({{grid-item.img}});" class="bg-center cover aspect-ratio--object"></span>
             </div>
             <div class="ph0 pt2 pb3 db">
-            <h3 class="f3 f4-ns mv2">{{grid-item.title[page.lang]}}</h3>
-            <p class="secondary mt1">{{grid-item.desc[page.lang] | markdownify}}</p>
-
-            {% for tag in grid-item.tags %}
-            <div class="pv1 ph2 f6 fw6 dib br2 ttu mr1 mb1 {{tag.classes}}">{{tag.name}}</div>
-            {% endfor %}
+                <h3 class="f3 f4-ns mt3 mb0">{{grid-item.title[page.lang]}}</h3>
+                <div class="secondary nt2">{{grid-item.desc[page.lang] | markdownify}}</div>
+                {% for tag in grid-item.tags %}
+                <div class="pv1 ph3 f6 fw6 dib br3 ttu mr1 mb1 tracked {{tag.classes}}">{{tag.name}}</div>
+                {% endfor %}
             </div>
         </div>
     {% endfor %}

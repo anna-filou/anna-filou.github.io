@@ -55,6 +55,45 @@
   font-display: swap;
 }
 
+/* Space Grotesk */
+
+@font-face {
+  font-family: 'Space Grotesk';
+  src: url('/assets/fonts/SpaceGrotesk-Regular.woff2') format('woff2'),
+      url('/assets/fonts/SpaceGrotesk-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Space Grotesk';
+  src: url('/assets/fonts/SpaceGrotesk-Bold.ttf') format('woff2'),
+      url('/assets/fonts/SpaceGrotesk-Bold.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Space Grotesk';
+  src: url('/assets/fonts/SpaceGrotesk-Light.woff2') format('woff2'),
+      url('/assets/fonts/SpaceGrotesk-Light.ttf') format('truetype');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Space Grotesk';
+  src: url('/assets/fonts/SpaceGrotesk-Medium.woff2') format('woff2'),
+      url('/assets/fonts/SpaceGrotesk-Medium.ttf') format('truetype');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+
 /* DEFAULT LIGHT  */
 
 body {
@@ -62,13 +101,22 @@ body {
 }
 
 body, nav a, .main {
+  color: #4d4444;
+}
+
+h1, h2, h3, h4, h5, h6 {
   color: #171717;
 }
+
 a {
   color: #3e4497;
 }
 a:hover {
   color: #000000;
+}
+
+::-moz-selection {
+  background: #82c5bc;
 }
 
 ::selection {
@@ -122,6 +170,10 @@ svg {
   }
 
   body, nav a, .main {
+    color: #c0c0c0;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
     color: #e3e3e3;
   }
 
@@ -131,6 +183,11 @@ svg {
 
   a:hover {
     color: #ffffff;
+  }
+  
+  ::-moz-selection {
+    background: #038573;
+    color: white;
   }
   
   ::selection {
@@ -181,13 +238,22 @@ svg {
   }
 
   body, nav a, .main {
+    color: #4d4444;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
     color: #171717;
   }
+
   a {
     color: #3e4497;
   }
   a:hover {
     color: #000000;
+  }
+  
+  ::-moz-selection {
+    background: #82c5bc;
   }
   
   ::selection {
@@ -230,8 +296,8 @@ svg {
 body {
   /* font-family: Rubik;  */
   /* font-family: 'Inter'; */
-  font-family: 'Inter', sans-serif;
-  font-size: 16px;
+  font-family: 'Space Grotesk', sans-serif;
+  font-size: 18px;
   line-height: 1.4;
 }
 
@@ -313,7 +379,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: Rubik;  
+  font-family: 'Space Grotesk';  
   font-weight: 600;
   text-transform: none;
 }
@@ -352,11 +418,15 @@ h6 {
   text-transform: uppercase;
 }
 
+::-moz-selection {
+  text-shadow: none;
+}
+
 ::selection {
   text-shadow: none;
 }
 
-blockquote, q, .blockquote, .q {
+blockquote, q, .blockquote, .q{
   font-size: 2em;
   font-style: italic;
   font-weight: 500;
@@ -370,7 +440,6 @@ blockquote, q, .blockquote, .q {
 
 article blockquote,
 article q {
-  margin: 2em 0;
   padding: 1em 4em;
 }
 blockquote p {
@@ -379,7 +448,7 @@ blockquote p {
 
 .hyphens {
   -webkit-hyphens: auto;
-  -moz-hyphens: auto;
+  -ms-hyphens: auto;
   hyphens: auto;
 }
 

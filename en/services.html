@@ -88,12 +88,12 @@ faq:
 <section class="container mt5">
     <h2>OK, but what do you actually&nbsp;do?</h2>
 
-    <div class="flex flex-column flex-row-ns space-between nr3-ns nl3-ns">
+    <div class="flex flex-column flex-row-ns space-between nr3-ns nl3-ns mt5">
         {% for service in page.services %}
         <a class="main w-100 w-third-ns mv2 mt3-ns mb0-ns" href="/{{page.lang}}/{{service.url}}">
-            <div class="bg-faint ph3 pv2 smooth-shadow br4 mh3-ns grow">
+            <div class="bg-faint ph3 pv3 smooth-shadow br2 mh3-ns grow">
                 <i class="{{service.icon}} f1"></i>
-                <h3 class="mt1">{{service.title}}</h3>
+                <h3 class="mt5">{{service.title}}</h3>
                 {{service.li | markdownify}}
             </div>
             <p>{{service.notes | markdownify}}</p>
@@ -109,10 +109,10 @@ faq:
 </section>
 <hr>
 <section class="container">
-    <div class="measure-wide">        
-        <h2>💬 F.A.Q.</h2>
+    <div class="measure-wide center">        
+        <h2 class="mb5">💬 Answers to your Questions</h2>
         {% for faq-item in page.faq %}
-        <div class="o-80">
+        <div class="">
             <h3><em>“{{faq-item.q}}”</em></h3>
             <div>{{faq-item.a | markdownify}}</div>
         </div>

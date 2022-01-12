@@ -33,11 +33,29 @@ Also, I ~~have~~ had a _ridiculously_ annoying but super cute cat. _(She passed 
 
 ***
 
+### Core values
+
+We all value different qualities. I like reading such lists on other personal websites, so in January 2022 I wrote down the values that are important to me in how I live and work:
+
+#### Authenticity
+I hate pretending. I hate reading inflated statements such as “our company’s goal is to bring about global peace” when what you actually do is sell bubblegum. Self-awareness and humility are rare in today's world, but they are qualities I look for in the people and companies I work with.
+
+#### Honesty
+I hate lying. I don't want to be impolite; I'm well aware of the importance of not speaking my mind uninvited. But you can be sure that when I say something, I mean it.
+
+#### Curiosity
+Nothing good and nothing original can ever be created without a dose of curiosity. “Why is it always done this way? What if we took a different approach? What is the point of including this? What happens if we don’t?”
+
+#### Openness
+Transparency. Honesty. Humility. Respect. Those, in my eyes, are all aspects of being open. Open about your purpose, what you do, and who you are. I value this quality in everyone I meet who possesses it.
+
+***
+
 ### Now what?
 
 * 💬 [Get in touch](/{{page.lang}}/contact)
 * 🤝 [Hire me](/{{page.lang}}/services)
-* 💼 [Check out some of my work](/{{page.lang}})
+* 💼 [Check out some of my work](/{{page.lang}}/#work)
 * 🎨 [View my illustrations](/{{page.lang}}/graphics)
 * 📚 [See the books I’ve read or am reading now](/reading)
 * 🛠 [Find out which tools/software I use and recommend](/tools)
