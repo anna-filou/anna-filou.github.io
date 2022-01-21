@@ -4,33 +4,12 @@ lang: en
 ref: ''
 title: Reading
 books:
-- title: What They Forgot to Teach You at School
+- title: The Song of Achilles
   read: now
-  cover: "/uploads/book-what-they-forgot-to-teach-you-in-school.jpg"
-  author: The School of Life
-  pages: 144
+  cover: "/uploads/book-the-song-of-achilles.jpg"
+  author: Madeline Miller
+  pages: 416
   my-notes: ''
-- title: Calm
-  cover: "/assets/books/calm-the-school-of-life.jpg"
-  author: The School of Life
-  read: '2022'
-  pages: 136
-  my-notes: |-
-    “A calm life isn’t one that’s always perfectly serene. It is one where we are committed to calming down more readily, and where we strive for more realistic expectations; where we can understand better why certain problems are occurring, and we can be more adept at finding a consoling perspective.”
-
-    “You will die and it will be as if you had never been. It could sound demeaning. But these are generous sentiments, for we otherwise so easily exaggerate our own importance and suffer accordingly.”
-- title: Relationships
-  read: '2021'
-  cover: "/uploads/book-school-of-life-relationships.jpg"
-  author: The School of Life
-  pages: 118
-  my-notes: "This might be the most well-written book I've ever read. It's not unnecessarily
-    wordy, but rather goes straight to the point while still providing examples vivid
-    enough to drive the point home. \n\nI feel I now have the vocabulary to talk about
-    concepts that I couldn't before — at least not well enough. It's been interesting
-    reading about a different perspective and discovering that some of my beliefs
-    and values might not be mine at all, but are heavily influenced by the dominant
-    culture of our time."
 - title: The Mindbody Prescription
   cover: "/assets/books/mindbody-prescription.jpg"
   author: John E. Sarno M.D.
@@ -67,6 +46,36 @@ books:
   read: now
   pages: 
   my-notes: ''
+- title: What They Forgot to Teach You at School
+  read: '2022'
+  cover: "/uploads/book-what-they-forgot-to-teach-you-in-school.jpg"
+  author: The School of Life
+  pages: 144
+  my-notes: |-
+    *“To the surprise of any visiting alien, humans blithely educate themselves as if the chief requirement of adulthood were the possession of a set of technical skills, with no acknowledgement of the fact that what mostly runs us into the sands is … our inability to master what we could call the emotional dimensions of our lives.”*
+
+    An honest, condensed book. I think everyone should read it as early in their life as possible. I'm happy that a lot of the advice doesn't seem to apply to me, but gives me more tools to understand others.
+- title: Calm
+  cover: "/assets/books/calm-the-school-of-life.jpg"
+  author: The School of Life
+  read: '2022'
+  pages: 136
+  my-notes: |-
+    “A calm life isn’t one that’s always perfectly serene. It is one where we are committed to calming down more readily, and where we strive for more realistic expectations; where we can understand better why certain problems are occurring, and we can be more adept at finding a consoling perspective.”
+
+    “You will die and it will be as if you had never been. It could sound demeaning. But these are generous sentiments, for we otherwise so easily exaggerate our own importance and suffer accordingly.”
+- title: Relationships
+  read: '2021'
+  cover: "/uploads/book-school-of-life-relationships.jpg"
+  author: The School of Life
+  pages: 118
+  my-notes: "This might be the most well-written book I've ever read. It's not unnecessarily
+    wordy, but rather goes straight to the point while still providing examples vivid
+    enough to drive the point home. \n\nI feel I now have the vocabulary to talk about
+    concepts that I couldn't before — at least not well enough. It's been interesting
+    reading about a different perspective and discovering that some of my beliefs
+    and values might not be mine at all, but are heavily influenced by the dominant
+    culture of our time."
 - title: Shape Up
   read: '2021'
   cover: "/uploads/book-shape-up.jpg"
