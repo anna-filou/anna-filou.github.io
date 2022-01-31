@@ -5,11 +5,16 @@ ref: ''
 title: Reading
 books:
 - title: The Song of Achilles
-  read: now
+  read: '2022'
   cover: "/uploads/book-the-song-of-achilles.jpg"
   author: Madeline Miller
   pages: 416
-  my-notes: ''
+  my-notes: |-
+    *“I wish he had let you all die.”*
+
+    There’s a lot I did not like about this book: the tone of voice, the often cringey metaphors and the descriptions of ancient Greece not feeling real enough, among others. But in the end, I cried a little and that has to count for something.
+
+    I learned way more about the Iliad by reading the Song of Achilles than I ever did in (Greek) school.
 - title: The Mindbody Prescription
   cover: "/assets/books/mindbody-prescription.jpg"
   author: John E. Sarno M.D.
