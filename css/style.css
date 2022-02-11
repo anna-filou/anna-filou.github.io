@@ -5,6 +5,10 @@
   border-image: linear-gradient(90deg, #dc3b3e 10%, #ff8f00 28%, #ffe066 35%, #3bdc90 50%, #3b99dc 70%, #d535c3 90%) 100;
 }
 
+.rainbow {
+  fill: linear-gradient(90deg, #dc3b3e 10%, #ff8f00 28%, #ffe066 35%, #3bdc90 50%, #3b99dc 70%, #d535c3 90%) 100;
+}
+
 /* FONTS */
 
 /* Inter - body */

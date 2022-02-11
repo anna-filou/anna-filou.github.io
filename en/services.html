@@ -22,7 +22,7 @@ services:
         - Jekyll
         - Forestry.io CMS
       notes: 
-    - title: Illustrations for
+    - title: Illustrations for:
       url: graphics
       icon: ri-artboard-fill
       li: |
@@ -91,7 +91,7 @@ faq:
     <div class="flex flex-column flex-row-ns space-between nr3-ns nl3-ns mt5">
         {% for service in page.services %}
         <a class="main w-100 w-third-ns mv2 mt3-ns mb0-ns" href="/{{page.lang}}/{{service.url}}">
-            <div class="bg-faint ph3 pv3 smooth-shadow br2 mh3-ns grow">
+            <div class="bg-faint pa4 smooth-shadow br2 mh3-ns grow">
                 <i class="{{service.icon}} f1"></i>
                 <h3 class="mt5">{{service.title}}</h3>
                 {{service.li | markdownify}}
