@@ -25,7 +25,7 @@ description: >- # this means to ignore newlines until "baseurl:"
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://annafilou.com" # the base hostname & protocol for your site, e.g. http://example.com
 
-availability: not available until further notice # Current status: // contact & services
+availability: not available # Current status: // contact & services
 
 # analytics: 
 
