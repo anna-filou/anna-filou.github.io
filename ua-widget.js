@@ -44,11 +44,11 @@
 			class: "huww-widget huww-widget-one huww-widget-".concat(t)
 		}, h("p", {
 			class: "huww-title"
-		}, "Please help Ukraine!"), h("a", {
+		}, "War in Ukraine!"), h("a", {
 			class: "huww-link",
 			href: o,
 			target: "_blank"
-		}, "Go to the official website"), d(), s())
+		}, "Please learn and help"), d(), s())
 	}
 
 	function a(t) {
@@ -102,7 +102,7 @@
 	function d() {
 		return h("a", {
 			class: "huww-logo",
-			href: "https://war.ukraine.ua/",
+			href: "https://helpukrainewinwidget.org/",
 			target: "_blank"
 		}, h("span", {
 			class: "huww-logo-img"
