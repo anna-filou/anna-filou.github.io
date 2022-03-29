@@ -11,9 +11,9 @@ I'm Anna, a digital native designer and technophile [who draws](/{{page.lang}}/g
 
 ### What do you do professionally?
 
-I build **websites**, design **digital interfaces**, do product research and organize workflows. My core skills are user interface and experience design (UI/UX).
+I build **websites**, design **digital interfaces**, do product research and organize workflows. My core skills are user interface and experience design (UI/UX). I have a knack for making complex information easy to understand and powerful interfaces easy to use.
 
-When I have the time, I take on **freelance design and development projects** for clients around the world.
+When time allows, I take on **freelance design and development projects** for assorted clients around the world.
 
 My rather diverse skill set helps me serve my clients in often unexpected ways. My workflow is **highly organized and meticulous**.
 
@@ -37,10 +37,11 @@ Also, I ~~have~~ had a _ridiculously_ annoying but super cute cat. _(She passed 
 
 * 💬 [Get in touch](/{{page.lang}}/contact)
 * 🤝 [Hire me](/{{page.lang}}/services)
-* 💼 [Check out some of my work](/{{page.lang}}/#work)
-* 🎨 [View my illustrations](/{{page.lang}}/graphics)
-* 📚 [See the books I’ve read or am reading now](/reading)
-* 🛠 [Find out which tools/software I use and recommend](/tools)
-* ⏰ [Read what I’m currently up to](/now)
+* Check out:
+    * 💼 [Some of my work](/{{page.lang}}/#work)
+    * 🎨 [My illustrations](/{{page.lang}}/graphics)
+    * 📚 [Books I’ve read/am reading](/reading)
+    * 🛠 [The tools I use](/tools)
+    * ⏰ [What I’m currently up to](/now)
 
-Oh, did I mention I practically live on [😻 Product Hunt](https://www.producthunt.com/@anna_0x)?
+Oh, did I mention I practically live on [Product Hunt](https://www.producthunt.com/@anna_0x)?
