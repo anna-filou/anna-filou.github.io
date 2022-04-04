@@ -4,6 +4,15 @@ lang: en
 ref: ''
 title: Reading
 books:
+- title: The Tiny MBA
+  read: '2022'
+  cover: "/uploads/book-tiny-mba.png"
+  author: Alex Hillman
+  pages: 128
+  my-notes: More of a collection of cards than a book. I feel that I’ll be revisiting
+    it at regular intervals, like the author suggests. I didn't have a breakthrough
+    on my first read-through but I feel like some sprouts were planted in my head.
+    The ideas here are prompts for you to reflect on.
 - title: The Song of Achilles
   read: '2022'
   cover: "/uploads/book-the-song-of-achilles.jpg"
