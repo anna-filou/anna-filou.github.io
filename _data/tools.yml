@@ -58,13 +58,11 @@ tools:
 - name: Tempo
   url: https://www.yourtempo.co
   desc:
-    en: 'Tempo is a (now FREE) macOS/iOS Gmail client. It creates a workspace that
-      won''t get filled with new emails automatically; you have to manually add them.
-      Perfect for those overwhelmed by too many emails. Disclaimers: I used to do
-      customer support for Tempo. The app is no longer maintained but can be used
-      indefinitely.
-
-'
+    en: "Tempo is a (now free) macOS/iOS Gmail client. It creates a workspace that
+      won't get filled with new emails automatically; you have to manually add them.
+      Perfect for those overwhelmed by too many emails. \n\nDisclaimer: I used to
+      do customer support for Tempo. The app is no longer maintained but can be used
+      indefinitely."
     el: "\n"
   img: "/uploads/tempo-logo.png"
   image: ''
@@ -97,11 +95,11 @@ tools:
 - name: 1Feed
   url: https://1feed.app/
   desc:
-    en: 'Not just an RSS reader; it’s THE central hub for all the websites you want
+    en: 'Not just an RSS reader, but THE central hub for all the websites you want
       to check on a regular basis. Instead of overwhelming you with an infinite feed
-      of updates, each site takes up just one line.
+      of updates, each site takes up just 1 line.
 
-'
+      '
     el: ''
   img: "/uploads/1feed-logo.png"
   image: ''
