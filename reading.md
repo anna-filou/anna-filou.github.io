@@ -4,6 +4,17 @@ lang: en
 ref: ''
 title: Reading
 books:
+- title: The Mindbody Prescription
+  cover: "/assets/books/mindbody-prescription.jpg"
+  author: John E. Sarno M.D.
+  read: '2022'
+  pages: 240
+  my-notes: This was a slow read with multiple breaks. The content was insightful
+    but I don't currently suffer from any pain. Nevertheless, I think reading this
+    is good prevention. Everyone should read this book or a summary of it to be aware
+    of all the serious trouble that the mind can birth in the body. As the author
+    supports, there really is no separation between the mind and body. The title sounds
+    misleadingly gimmicky, but the book is not.
 - title: The Tiny MBA
   read: '2022'
   cover: "/uploads/book-tiny-mba.png"
@@ -24,17 +35,6 @@ books:
     There’s a lot I did not like about this book: the tone of voice, the often cringey metaphors and the descriptions of ancient Greece not feeling real enough, among others. But in the end, I cried a little and that has to count for something.
 
     I learned way more about the Iliad by reading the Song of Achilles than I ever did in (Greek) school.
-- title: The Mindbody Prescription
-  cover: "/assets/books/mindbody-prescription.jpg"
-  author: John E. Sarno M.D.
-  read: '2022'
-  pages: 240
-  my-notes: This was a slow read with multiple breaks. The content was insightful
-    but I don't currently suffer from any pain. Nevertheless, I think reading this
-    is good prevention. Everyone should read this book or a summary of it to be aware
-    of all the serious trouble that the mind can birth in the body. As the author
-    supports, there really is no separation between the mind and body. The title sounds
-    misleadingly gimmicky, but the book is not.
 - title: Learn To Code Now
   cover: "/assets/books/learn-to-code-now-superhi.jpg"
   author: Rik Lomas
