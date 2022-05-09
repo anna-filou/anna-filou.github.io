@@ -2,28 +2,27 @@
 layout: measure
 title: Now
 lang: en
-date: March 29th, 2022
+date: 2022-05-09 00:00:00 +0300
 
 ---
 # Now Page
 
 <dl class="w-100 fl lh-title ph4 pv3 br2 bg-faint mw7 mb4">
-    <dt class="secondary f6 b mb1 o-80">What is this page?</dt>
-    <dd class="secondary f6 ml0 o-70">It’s the answer to “what are you up to lately?” <a href="https://nownownow.com/about">
-    <br>Learn more about the Now&nbsp;Now&nbsp;Now project</a>.</dd>
+<dt class="secondary f6 b mb1 o-80">What is this page?</dt>
+<dd class="secondary f6 ml0 o-70">It’s the answer to “what are you up to lately?” <a href="https://nownownow.com/about">
+<br>Learn more about the Now Now Now project</a>.</dd>
 </dl>
 
 **🗓 Latest Update: {{ page.date }}**
 
-Exploring all sorts of exciting work projects while thinking of personal projects I want to kickstart too.
+Working on exciting work and personal projects but slightly overwhelmed.
 
 ## Updates in a few points
 
-* 🇳🇱 Started learning Dutch
-* 🇯🇵 Temporarily paused my japanese studying, but I’m happy I can already read and understand “NHK Easy News” without much trouble
-* ⛸️ Got back into inline skating
-* 🧙 Rewatching all Harry Potter movies
-* 💍 Want to rewatch TLOTR next 👀
+* 🇳🇱 Started learning Dutch in addition to 🇯🇵 
+* 📱 After months of it being on my mind, I started working on a personal app design project. My first app! I think it's going well, but I don't know how to develop it after I'm done with the design. We’ll see. One step at a time.
+* 🧙 Rewatching all Harry Potter movies.
+* 💍 Want to rewatch TLOTR next. 👀
 
 ***
 
