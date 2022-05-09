@@ -1,17 +1,15 @@
 ---
 - title:
-    en: MONSTER ENERGY HOMEPAGE CONCEPT
-    el: MONSTER ENERGY HOMEPAGE CONCEPT
+    en: Theeta — Production & Distribution
+    el: Theeta — Παραγωγή & Distribution
   desc:
-    en: "[Case study on Behance](https://www.behance.net/gallery/105157851/Monster-Energy-Website-Redesign-CONCEPT).
-      Not commissioned by Monster Energy."
-    el: "[Case study στο Behance](https://www.behance.net/gallery/105157851/Monster-Energy-Website-Redesign-CONCEPT).
-      Δεν έγινε κατά παραγγελία της Monster Energy."
-  img: "/assets/monster-behance-cover.jpg"
+    en: "Coming soon / Made with custom code."
+    el: "custom code."
+  img: "/assets/website-theeta.jpg"
   tags:
-  - name: Just for&nbsp;fun
-    classes: bg-light-yellow orange
-  - name: Web design
+  - name: Client work
+    classes: bg-moon-gray navy
+  - name: Web design & development
     classes: bg-lightest-blue dark-blue
 - title:
     en: DYNAMIKI - Beverage Distribution Network
@@ -30,6 +28,20 @@
   - name: The Smiling Hippo
     classes: bg-dark-blue lightest-blue
 - title:
+    en: MONSTER ENERGY HOMEPAGE CONCEPT
+    el: MONSTER ENERGY HOMEPAGE CONCEPT
+  desc:
+    en: "[Case study on Behance](https://www.behance.net/gallery/105157851/Monster-Energy-Website-Redesign-CONCEPT).
+      Not commissioned by Monster Energy."
+    el: "[Case study στο Behance](https://www.behance.net/gallery/105157851/Monster-Energy-Website-Redesign-CONCEPT).
+      Δεν έγινε κατά παραγγελία της Monster Energy."
+  img: "/assets/monster-behance-cover.jpg"
+  tags:
+  - name: Just for&nbsp;fun
+    classes: bg-light-yellow orange
+  - name: Web design
+    classes: bg-lightest-blue dark-blue
+- title:
     en: Beckher — SDA Manufacturer Website
     el: Beckher — Ιστοσελιδα κατασκευαστη μικρων οικιακων συσκευων
   desc:
@@ -38,18 +50,6 @@
     el: "[Δείτε το site ζωντανά](https://beckher.com) / Made with
       custom code and Jekyll."
   img: "/assets/sda-manufacturer-screens.jpg"
-  tags:
-  - name: Client work
-    classes: bg-moon-gray navy
-  - name: Web design & development
-    classes: bg-lightest-blue dark-blue
-- title:
-    en: Mig Lock — Business Consultant
-    el: Mig Lock — Business Consultant
-  desc:
-    en: "[→ Live website](http://miglock.co.uk) / Made with custom code."
-    el: "[Δείτε το site ζωντανά](http://miglock.co.uk) / Made with custom code."
-  img: "/assets/miglock-scrollcap.gif"
   tags:
   - name: Client work
     classes: bg-moon-gray navy
@@ -70,14 +70,12 @@
   - name: Web design & development
     classes: bg-lightest-blue dark-blue
 - title:
-    en: Theeta — Production & Distribution
-    el: Theeta — Παραγωγή & Distribution
+    en: Mig Lock — Business Consultant
+    el: Mig Lock — Business Consultant
   desc:
-    en: "[→ Live website](http://theeta.nl) / Made with Webflow &
-      custom code."
-    el: "[Δείτε το site ζωντανά](http://theeta.nl) / Webflow &
-      custom code."
-  img: "/assets/website-theeta.jpg"
+    en: "[→ Live website](http://miglock.co.uk) / Made with custom code."
+    el: "[Δείτε το site ζωντανά](http://miglock.co.uk) / Made with custom code."
+  img: "/assets/miglock-scrollcap.gif"
   tags:
   - name: Client work
     classes: bg-moon-gray navy
