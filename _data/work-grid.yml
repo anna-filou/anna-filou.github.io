@@ -3,14 +3,16 @@
     en: Theeta — Production & Distribution
     el: Theeta — Παραγωγή & Distribution
   desc:
-    en: "Coming soon / Made with custom code."
-    el: "Coming soon / Made with custom code."
+    en: "[→ Live website](https://theeta.nl/) / Made with custom code."
+    el: "[→ Live website](https://theeta.nl/) / Made with custom code."
   img: "/assets/theeta-demo.gif"
   tags:
   - name: Client work
     classes: bg-moon-gray navy
   - name: Web design & development
     classes: bg-lightest-blue dark-blue
+  - name: Jekyll
+    classes: bg-near-white dark-red
 - title:
     en: DYNAMIKI - Beverage Distribution Network
     el: ΔΥΝΑΜΙΚΗ - Δικτυο διανομης ποτων
@@ -45,12 +47,13 @@
     en: Beckher — SDA Manufacturer Website
     el: Beckher — Ιστοσελιδα κατασκευαστη μικρων οικιακων συσκευων
   desc:
-    en: "[→ Live website](https://beckher.com) / Made with
-      custom code and Jekyll."
-    el: "[Δείτε το site ζωντανά](https://beckher.com) / Made with
-      custom code and Jekyll."
+    en: "[→ Live website](https://beckher.com) / Made with custom code and Jekyll."
+    el: "[Δείτε το site ζωντανά](https://beckher.com) / Made with custom code and
+      Jekyll."
   img: "/assets/sda-manufacturer-screens.jpg"
   tags:
+  - name: Jekyll
+    classes: bg-near-white dark-red
   - name: Client work
     classes: bg-moon-gray navy
   - name: Web design & development
@@ -59,10 +62,8 @@
     en: Micronavi — Electronics Distributor
     el: Micronavi — Distributor Ηλεκτρωνικών
   desc:
-    en: "[→ Live website](http://micronavi.eu) / Made with
-      custom code."
-    el: "[Δείτε το site ζωντανά](http://micronavi.eu) / Made with
-      custom code."
+    en: "[→ Live website](http://micronavi.eu) / Made with custom code."
+    el: "[Δείτε το site ζωντανά](http://micronavi.eu) / Made with custom code."
   img: "/assets/micronavi-screens.jpg"
   tags:
   - name: Client work
@@ -81,18 +82,6 @@
     classes: bg-moon-gray navy
   - name: Web design & development
     classes: bg-lightest-blue dark-blue
-# - title:
-#     en: Danubian Crew
-#     el: Danubian Crew
-#   desc:
-#     en: "[→ Live website](https://danubian-crew.com) / Made with custom code / Jekyll."
-#     el: "[Δείτε το site ζωντανά](https://danubian-crew.com) / Custom code / Jekyll."
-#   img: "/assets/website-theeta.jpg"
-#   tags:
-#   - name: Client work
-#     classes: bg-moon-gray navy
-#   - name: Web design & development
-#     classes: bg-lightest-blue dark-blue
 - title:
     en: Jewelry Store - Aevum
     el: Online Κοσμηματοπωλειο - Aevum
@@ -124,8 +113,7 @@
     en: MegaMan-inspired Launcher setup
     el: MegaMan-inspired Launcher setup
   desc:
-    en: "I had to make this for myself. \U0001F499
-      Animated with Motion Portrait."
+    en: "I had to make this for myself. \U0001F499 Animated with Motion Portrait."
     el: Animated with Motion Portrait. Using “The Grid” icon pack.
   img: "/assets/megaman-launcher-mockup.gif"
   tags:
