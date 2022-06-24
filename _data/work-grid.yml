@@ -71,6 +71,18 @@
   - name: Web design & development
     classes: bg-lightest-blue dark-blue
 - title:
+    en: Logo for Platinum Stores
+    el: Logo για την Platinum Stores
+  desc:
+    en: Timeless logo design, for physical and digital placement.
+    el: 
+  img: "/assets/platinum-window-mockup.jpg"
+  tags:
+  - name: Logo design
+    classes: bg-light-yellow orange
+  - name: Client work
+    classes: bg-moon-gray navy
+- title:
     en: Mig Lock — Business Consultant
     el: Mig Lock — Business Consultant
   desc:
@@ -121,14 +133,14 @@
     classes: bg-light-yellow orange
   - name: Illustration
     classes: bg-washed-red dark-red
-- title:
-    en: Wholesaler Website — Techomax
-    el: Ιστοσελιδα εταιρειας χονδρικης — Techomax
-  desc:
-    en: Functional website with Airtable embeds for dynamic information.
-    el: Λειτουργική ιστοσελίδα με ενσωμάτωση Airtable για δυναμικές πληροφορίες.
-  img: "/assets/website-techomax.jpg"
-  tags:
+# - title:
+#     en: Wholesaler Website — Techomax
+#     el: Ιστοσελιδα εταιρειας χονδρικης — Techomax
+#   desc:
+#     en: Functional website with Airtable embeds for dynamic information.
+#     el: Λειτουργική ιστοσελίδα με ενσωμάτωση Airtable για δυναμικές πληροφορίες.
+#   img: "/assets/website-techomax.jpg"
+#   tags:
   - name: Client work
     classes: bg-moon-gray navy
   - name: Web design & development
