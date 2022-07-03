@@ -4,6 +4,17 @@ lang: en
 ref: ''
 title: Reading
 books:
+- title: When Breath Becomes Air
+  cover: "/assets/books/when-breath-becomes-air.jpg"
+  author: Paul Kalanithi
+  read: 'now'
+  pages: 
+  my-notes: |-
+    *“…”*
+
+    I hope I won't forget how reading this book made me feel. At times I’ve been preoccupied with the fear that I’m killing (part of) myself by living so far away from the people who are dear to me. Chasing careers and a good standard of living; what is that worth when you’re dying, out of time? 
+    
+    **We keep saying “later” to the good times, as if tomorrow were promised**. I’m more guilty of this than any of my friends. 
 - title: The Mindbody Prescription
   cover: "/assets/books/mindbody-prescription.jpg"
   author: John E. Sarno M.D.
@@ -20,10 +31,7 @@ books:
   cover: "/uploads/book-tiny-mba.png"
   author: Alex Hillman
   pages: 128
-  my-notes: More of a collection of cards than a book. I feel that I’ll be revisiting
-    it at regular intervals, like the author suggests. I didn't have a breakthrough
-    on my first read-through but I feel like some sprouts were planted in my head.
-    The ideas here are prompts for you to reflect on.
+  my-notes: More of a collection of cards than a book. I feel like I'll be going back to it frequently, as the author advises. On my first read-through, I didn't have a breakthrough, but I do feel like some seeds were planted. The pages within are prompts for the reader to reflect on.
 - title: The Song of Achilles
   read: '2022'
   cover: "/uploads/book-the-song-of-achilles.jpg"
@@ -32,9 +40,9 @@ books:
   my-notes: |-
     *“I wish he had let you all die.”*
 
-    There’s a lot I did not like about this book: the tone of voice, the often cringey metaphors and the descriptions of ancient Greece not feeling real enough, among others. But in the end, I cried a little and that has to count for something.
+    There are many aspects of this book that I didn’t like, including the tone of voice, the frequent use of cheesy metaphors, and the lack of realism in the descriptions of ancient Greece. But in the end, I cried a little and that has to count for something.
 
-    I learned way more about the Iliad by reading the Song of Achilles than I ever did in (Greek) school.
+    Reading The Song of Achilles taught me way more about the Iliad than secondary school in Greece.
 - title: Learn To Code Now
   cover: "/assets/books/learn-to-code-now-superhi.jpg"
   author: Rik Lomas
@@ -44,12 +52,6 @@ books:
 - title: The Design of Everyday Things
   cover: "/assets/books/the-design-of-everyday-things.png"
   author: Don Norman
-  read: now
-  pages: 
-  my-notes: ''
-- title: When Breath Becomes Air
-  cover: "/assets/books/when-breath-becomes-air.jpg"
-  author: Paul Kalanithi
   read: now
   pages: 
   my-notes: ''

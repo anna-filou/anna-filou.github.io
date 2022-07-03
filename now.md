@@ -2,27 +2,29 @@
 layout: measure
 title: Now
 lang: en
-date: 2022-05-09 00:00:00 +0300
+date: July 3rd, 2022
 
 ---
 # Now Page
 
 <dl class="w-100 fl lh-title ph4 pv3 br2 bg-faint mw7 mb4">
-<dt class="secondary f6 b mb1 o-80">What is this page?</dt>
-<dd class="secondary f6 ml0 o-70">It’s the answer to “what are you up to lately?” <a href="https://nownownow.com/about">
+<dt class="secondary f6 b mb1 o-90">What is this page?</dt>
+<dd class="secondary f6 ml0 o-90">It’s the answer to “what are you up to lately?” <a href="https://nownownow.com/about">
 <br>Learn more about the Now Now Now project</a>.</dd>
 </dl>
 
 **🗓 Latest Update: {{ page.date }}**
 
-Working on exciting work and personal projects but slightly overwhelmed.
+I'm trying to balance feeling overburdened by the amount of work I've committed to, with trying to enjoy my life with my friends while I still have the chance.
 
-## Updates in a few points
+I keep coming back to the idea that I'll need to drastically alter my lifestyle, if I want to preserve the positivity I've been experiencing lately and alleviate the pressure that’s built up over the years. 
 
-* 🇳🇱 Started learning Dutch in addition to 🇯🇵 
-* 📱 After months of it being on my mind, I started working on a personal app design project. My first app! I think it's going well, but I don't know how to develop it after I'm done with the design. We’ll see. One step at a time.
-* 🧙 Rewatching all Harry Potter movies.
-* 💍 Want to rewatch TLOTR next. 👀
+## In a few points
+
+* 🏞️ Been going out and doing stuff for a change.
+* 🇳🇱 Learning Dutch is going well! 🇯🇵 on hold for now but trying to not forget.
+* ✏️ Note to self: don’t **ever** take on more than 2 projects again when already working full-time. Feeling so overwhelmed and restricted just isn’t worth it.
+* 🏖️ Looking forward to vacation but can’t help thinking: I can’t keep putting everyone on hold for 11+ months and living for <1 month a year for the rest of my life.
 
 ***
 
