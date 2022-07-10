@@ -8,7 +8,7 @@ books:
   cover: "/assets/books/when-breath-becomes-air.jpg"
   author: Paul Kalanithi
   read: '2022'
-  pages: 
+  pages: 208
   my-notes: |-
     *“[E]ven if I’m dying, until I actually die, I am still living.”*
 
