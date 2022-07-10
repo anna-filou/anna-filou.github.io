@@ -10,11 +10,11 @@ books:
   read: '2022'
   pages: 208
   my-notes: |-
-    *“[E]ven if I’m dying, until I actually die, I am still living.”*
+    “[E]ven if I’m dying, until I actually die, I am still living.”
 
-    *“As a doctor, I had had some sense of what patients with life-changing illnesses faced—and it was exactly these moments I had wanted to explore with them. Shouldn’t terminal illness, then, be the perfect gift to that young man who had wanted to understand death?“*
+    “As a doctor, I had had some sense of what patients with life-changing illnesses faced—and it was exactly these moments I had wanted to explore with them. Shouldn’t terminal illness, then, be the perfect gift to that young man who had wanted to understand death?”
 
-    *“Even if you are perfect, the world isn’t. The secret is to know that the deck is stacked, that you will lose, that your hands or judgment will slip, and yet still struggle to win.”*
+    “Even if you are perfect, the world isn’t. The secret is to know that the deck is stacked, that you will lose, that your hands or judgment will slip, and yet still struggle to win.”
 - title: The Mindbody Prescription
   cover: "/assets/books/mindbody-prescription.jpg"
   author: John E. Sarno M.D.
