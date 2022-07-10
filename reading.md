@@ -4,6 +4,12 @@ lang: en
 ref: ''
 title: Reading
 books:
+- title: How to Find the Right Words
+  read: now
+  cover: "/uploads/book-how-to-find-the-right-words.jpg"
+  author: The School of Life
+  pages: 76
+  my-notes: ''
 - title: When Breath Becomes Air
   cover: "/assets/books/when-breath-becomes-air.jpg"
   author: Paul Kalanithi
