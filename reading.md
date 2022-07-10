@@ -7,14 +7,14 @@ books:
 - title: When Breath Becomes Air
   cover: "/assets/books/when-breath-becomes-air.jpg"
   author: Paul Kalanithi
-  read: 'now'
+  read: '2022'
   pages: 
   my-notes: |-
-    *“…”*
+    *“[E]ven if I’m dying, until I actually die, I am still living.”*
 
-    I hope I won't forget how reading this book made me feel. At times I’ve been preoccupied with the fear that I’m killing (part of) myself by living so far away from the people who are dear to me. Chasing careers and a good standard of living; what is that worth when you’re dying, out of time? 
-    
-    **We keep saying “later” to the good times, as if tomorrow were promised**. I’m more guilty of this than any of my friends. 
+    *“As a doctor, I had had some sense of what patients with life-changing illnesses faced—and it was exactly these moments I had wanted to explore with them. Shouldn’t terminal illness, then, be the perfect gift to that young man who had wanted to understand death?“*
+
+    *“Even if you are perfect, the world isn’t. The secret is to know that the deck is stacked, that you will lose, that your hands or judgment will slip, and yet still struggle to win.”*
 - title: The Mindbody Prescription
   cover: "/assets/books/mindbody-prescription.jpg"
   author: John E. Sarno M.D.
@@ -31,7 +31,10 @@ books:
   cover: "/uploads/book-tiny-mba.png"
   author: Alex Hillman
   pages: 128
-  my-notes: More of a collection of cards than a book. I feel like I'll be going back to it frequently, as the author advises. On my first read-through, I didn't have a breakthrough, but I do feel like some seeds were planted. The pages within are prompts for the reader to reflect on.
+  my-notes: More of a collection of cards than a book. I feel like I'll be going back
+    to it frequently, as the author advises. On my first read-through, I didn't have
+    a breakthrough, but I do feel like some seeds were planted. The pages within are
+    prompts for the reader to reflect on.
 - title: The Song of Achilles
   read: '2022'
   cover: "/uploads/book-the-song-of-achilles.jpg"
