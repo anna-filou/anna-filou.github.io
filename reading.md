@@ -5,11 +5,17 @@ ref: ''
 title: Reading
 books:
 - title: How to Find the Right Words
-  read: now
+  read: '2022'
   cover: "/uploads/book-how-to-find-the-right-words.jpg"
   author: The School of Life
   pages: 76
-  my-notes: ''
+  my-notes: "*“We want to let others know how we feel. And we want to be kind. Only
+    too often, the two missions seem entirely opposed.”*\n\nOne could call this book
+    a short introduction to practical psychology. It's the opposite of theoretical
+    by providing exemplary confessions and breaking them down phrase by phrase, explaining
+    along the way what makes them ideal. \n\nI strongly disagree with some of the
+    authors’ advice, but considering views you don't agree with helps you see situations
+    from others’ points of view."
 - title: When Breath Becomes Air
   cover: "/assets/books/when-breath-becomes-air.jpg"
   author: Paul Kalanithi
