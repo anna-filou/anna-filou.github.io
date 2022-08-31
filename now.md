@@ -2,7 +2,7 @@
 layout: measure
 title: Now
 lang: en
-date: July 3rd, 2022
+date: August 31st, 2022
 
 ---
 # Now Page
@@ -15,16 +15,7 @@ date: July 3rd, 2022
 
 **🗓 Latest Update: {{ page.date }}**
 
-I'm trying to balance feeling overburdened by the amount of work I've committed to, with trying to enjoy my life with my friends while I still have the chance.
-
-I keep coming back to the idea that I'll need to drastically alter my lifestyle, if I want to preserve the positivity I've been experiencing lately and alleviate the pressure that’s built up over the years. 
-
-## In a few points
-
-* 🏞️ Been going out and doing stuff for a change.
-* 🇳🇱 Learning Dutch is going well! 🇯🇵 on hold for now but trying to not forget.
-* ✏️ Note to self: don’t **ever** take on more than 2 projects again when already working full-time. Feeling so overwhelmed and restricted just isn’t worth it.
-* 🏖️ Looking forward to vacation but can’t help thinking: I can’t keep putting everyone on hold for 11+ months and living for <1 month a year for the rest of my life.
+Watched Arcane last week and **cannot** stop obsessing over Vi 😮‍💨
 
 ***
 
