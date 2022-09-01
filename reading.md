@@ -4,6 +4,24 @@ lang: en
 ref: ''
 title: Reading
 books:
+- title: Two Boys Kissing
+  cover: "/assets/books/two-boys-kissing.jpg"
+  author: David Levithan
+  read: now
+  pages: 239
+  my-notes: ''
+- title: It's Not How Good You Are…
+  cover: "/assets/books/its-not-how-good-you-are.jpg"
+  author: Paul Arden
+  read: '2022'
+  pages: 128
+  my-notes: |-
+    This book's typesetting was gorgeous! Large, legible print on appealing pages.
+
+    I immediately assumed it was a self-help book when I saw the title.
+    It turns out it’s a business book—and a good one at that.
+
+    Super quick read (few pages, big letters). I know I’ll need to come back to it often to instill the teachings into my head.
 - title: How to Find the Right Words
   read: '2022'
   cover: "/uploads/book-how-to-find-the-right-words.jpg"
