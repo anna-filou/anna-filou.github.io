@@ -7,9 +7,14 @@ books:
 - title: Two Boys Kissing
   cover: "/assets/books/two-boys-kissing.jpg"
   author: David Levithan
-  read: now
+  read: '2022'
   pages: 239
-  my-notes: ''
+  my-notes: "This is a book with life advice for teenagers and young adults. Maybe
+    it could even make some people *less afraid of two boys kissing,* as the author
+    puts it (but I doubt they'd read it…)\n\nOddly close to my life at times, once
+    I neared the ending, I stayed up late to finish it. It made my heart beat faster,
+    gave me reason to feel grateful and provided food for thought in the form of ample
+    quotable passages. "
 - title: It's Not How Good You Are…
   cover: "/assets/books/its-not-how-good-you-are.jpg"
   author: Paul Arden
