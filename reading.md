@@ -9,12 +9,12 @@ books:
   author: David Levithan
   read: '2022'
   pages: 239
-  my-notes: "This is a book with life advice for teenagers and young adults. Maybe
-    it could even make some people *less afraid of two boys kissing,* as the author
-    puts it (but I doubt they'd read it…)\n\nOddly close to my life at times, once
-    I neared the ending, I stayed up late to finish it. It made my heart beat faster,
-    gave me reason to feel grateful and provided food for thought in the form of ample
-    quotable passages. "
+  my-notes: "Oddly close to my life at times, once I neared the ending, I stayed up
+    late to finish it. It made my heart beat faster, gave me reason to feel grateful
+    and provided food for thought in the form of ample quotable passages. \n\n*“They
+    hold hands, feel like they are witnessing something monumental, something that
+    could change things. It won’t, but that feeling, that spirit will live on in everyone
+    here, everyone who sees. The spirit will change things.”*"
 - title: It's Not How Good You Are…
   cover: "/assets/books/its-not-how-good-you-are.jpg"
   author: Paul Arden
