@@ -4,6 +4,15 @@ lang: en
 ref: ''
 title: Reading
 books:
+- title: Gender Queer
+  read: '2022'
+  cover: "/uploads/gender-queer-book.jpg"
+  author: Maia Kobabe
+  pages: 239
+  my-notes: |-
+    I hadn't read a memoir comic book before; now I think it's a perfect format for memoirs.
+    Gender Queer is apparently **the** most banned book in the US, and I was curious to see why. At this point, I'm just embarrassed to be human. (Let's stop pretending that children don't have genitals, shall we?)
+    Anyhow, this work is informative, helpful and relatable. It felt so good to think “wait, I'm *not* the only one who feels that way?”
 - title: Two Boys Kissing
   cover: "/assets/books/two-boys-kissing.jpg"
   author: David Levithan
