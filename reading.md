@@ -4,6 +4,12 @@ lang: en
 ref: ''
 title: Reading
 books:
+- title: Whistling Vivaldi
+  read: now
+  cover: "/uploads/whistling-vivaldi-book.png"
+  author: Claude M. Steele
+  pages: 256
+  my-notes: ''
 - title: Gender Queer
   read: '2022'
   cover: "/uploads/gender-queer-book.jpg"
