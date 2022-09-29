@@ -23,15 +23,15 @@ Currently managing operations and making sites at [Theeta B.V.](https://theeta.n
 
 Challenges I can rise up to.
 
-I want to do good in the world. I don’t feel I have yet. 
+I want to do good in the world. I don’t feel I have yet.
 
-All sorts of projects excite me, but the ones I crave are those that’ll help people: software that makes your life easier, apps that brighten your day, websites that advocate for social issues… 
+All sorts of projects excite me, but the ones I crave are those that’ll help people: software that makes your life easier, apps that brighten your day, websites that advocate for social issues…
 
 ### What else?
 
 I love sketching out concepts for apps I'd want to use. That's the next area I want to explore professionally as well.
 
-Online, I hang out on [Product Hunt](https://www.producthunt.com/@anna_0x), read comics, watch anime, go down rabbit holes of all sorts, and learn how to build things for the web.
+Online, I hang out on [Product Hunt](https://www.producthunt.com/@anna_0x) (more than I probably should), read comics, watch anime, go down rabbit holes of all sorts, and learn how to build things for the web.
 
 Offline, I'm into lifting weights, inline and ice skating, [reading books](https://annafilou.com/reading/), playing board games, and learning languages, to name a few.
 
