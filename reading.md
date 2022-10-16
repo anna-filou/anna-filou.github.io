@@ -4,6 +4,12 @@ lang: en
 ref: ''
 title: Reading
 books:
+- title: 12 Rules for Life
+  read: now
+  cover: "/uploads/12-rules-for-life.jpg"
+  author: Jordan Peterson
+  pages: 320
+  my-notes: ''
 - title: Whistling Vivaldi
   read: now
   cover: "/uploads/whistling-vivaldi-book.png"
