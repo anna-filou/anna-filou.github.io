@@ -133,18 +133,6 @@
     classes: bg-light-yellow orange
   - name: Illustration
     classes: bg-washed-red dark-red
-# - title:
-#     en: Wholesaler Website — Techomax
-#     el: Ιστοσελιδα εταιρειας χονδρικης — Techomax
-#   desc:
-#     en: Functional website with Airtable embeds for dynamic information.
-#     el: Λειτουργική ιστοσελίδα με ενσωμάτωση Airtable για δυναμικές πληροφορίες.
-#   img: "/assets/website-techomax.jpg"
-#   tags:
-  - name: Client work
-    classes: bg-moon-gray navy
-  - name: Web design & development
-    classes: bg-lightest-blue purple
 - title:
     en: Werewolf Game Cards
     el: Καρτες παιχνιδιου «Παλερμο»
