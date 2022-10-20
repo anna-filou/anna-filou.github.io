@@ -174,7 +174,7 @@ svg {
   }
 
   body, nav a, .main {
-    color: #c0c0c0;
+    color: #bec7de;
   }
 
   h1, h2, h3, h4, h5, h6 {
@@ -215,7 +215,7 @@ svg {
   }
 
   svg {
-    fill: #F4F4F4;
+    fill: #ebeff3;
   }
 
   .secondary {
@@ -234,7 +234,7 @@ svg {
     border-color: #383272;
   }
 
-  .hover-bg-faint:hover { background-color: #2c2853; }
+  .hover-bg-faint:hover { background-color: #1f2238; }
 
 }
 @media (prefers-color-scheme: light) {
