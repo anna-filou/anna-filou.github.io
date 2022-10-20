@@ -170,7 +170,7 @@ svg {
 
 @media (prefers-color-scheme: dark) {
   body {
-    background-color: #171717;
+    background-color: #100023;
   }
 
   body, nav a, .main {
@@ -201,7 +201,7 @@ svg {
   }
 
   header {
-    background-color: #2b2b2b;
+    background-color: #1f1c3f;
     box-shadow: 0px 2px 40px rgba(0, 0, 0, 0.9);
   }
 
@@ -227,14 +227,14 @@ svg {
   }
 
   .bg-faint {
-    background-color: #292525;
+    background-color: #1f1c3f;
   }
 
   .b--faint, hr {
-    border-color: #332e2e;
+    border-color: #383272;
   }
 
-  .hover-bg-faint:hover { background-color: #292525; }
+  .hover-bg-faint:hover { background-color: #2c2853; }
 
 }
 @media (prefers-color-scheme: light) {
