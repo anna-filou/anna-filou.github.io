@@ -10,7 +10,7 @@ services:
       li: | 
         - Website design
         - Mobile app design
-        - Wireframes
+        - Wireframes & flows
         - Interactive prototypes
       notes: 
     - title: Front-end Development
@@ -42,21 +42,21 @@ process: |
 
 faq:
     - q: Do you charge by the hour?
-      a: Almost never. I’m a big fan of project-based pricing, where you know how much you’ll pay upfront. With hourly pricing the *slower* you get the work done, the *more* you get paid. It motivates you to be slow. But fast is good, right? Then why get paid less for it? ;)
+      a: Almost never. I’m a big fan of project-based pricing, where you know how much you’ll pay upfront. With hourly pricing the *slower* you get the work done, the *more* you get paid. It motivates you to be slow. But if fast is good, why get paid less for it? ;)
     - q: How much does [X] cost?
-      a: It honestly depends on a lot of factors. While I can’t give you an accurate estimate without hearing the specifics of your project, I can tell you right now that if you’re looking for someone who charges rock bottom prices, it’s not me. I value my time and I value yours too. My most recent web projects were in the 1.000–5.000 € range.
+      a: It honestly depends on many factors. While I can’t give you an accurate estimate without hearing the specifics of your project, I can tell you that if you’re looking for someone who charges rock bottom prices, it’s not me. I value my time and I value yours too. My most recent web projects were in the 1.000–5.000 € range.
     - q: Do you work with WordPress, Joomla, … etc.?
-      a: No. I believe that complex CMS like WordPress are not necessary for the majority of (but not all) websites. If you really can’t switch away from your current CMS, I can do your site’s design and your developer of choice will develop it.
+      a: No. Complex CMS like WordPress are not necessary for most websites. I work with headless CMS like Forestry. If you can’t switch away from your current CMS, I can do your site’s design and your developer of choice will develop it.
     - q: Do you speak my language?
-      a: Currently, I can speak English, Greek and German (in that order of proficiency). 
-    - q: Why is your email written in a weird way?
+      a: Currently, I speak English, Greek and German (in that order of proficiency) and understand Dutch fairly well. 
+    - q: Why do you write your email in a weird way?
       a: Spammers use automated software tools (bots) that scan websites and find email addresses. I write my email like this — `hello`-at-`annafilou`-dot-`com` — in an attempt to hide it from such bots.
     - q: Can you do [XYZ]?
       a: If you have something in mind and don’t see any examples of it on my site, but want to work with me, hit me up and ask. I’m open to new challenges and learn new skills all the time. If I can’t do it, I’ll let you know upfront.
 
 ---	
 <section class="container mv3">
-    <div class="bg-faint flex items-center justify-center tc pv2 pa4">
+    <div class="bg-faint flex items-center justify-center tc pv2 pa4 br2">
         <div class="w1 h1 bg-red br3 mr3"></div>
         <div class="f6 f5-ns o-80">Currently: {{ site.availability }}</div>
     </div>
@@ -73,7 +73,7 @@ faq:
         </iframe>
     </div>
     
-    <div class="fl w-100 w-50-ns pa2">
+    <div class="fl w-100 w-50-ns pa2 mt4 mt5-ns">
         <h1 class="mt0">Let’s work together</h1>
         <p>I’ll assume you’re here because you’re looking to commission creative work.</p>
         <p>That’s my thing, so let’s meet! Reply to my video and I’ll get back to you right away. (Or email me at <code class="language-plaintext highlighter-rouge">hello</code>-at-<code class="language-plaintext highlighter-rouge">annafilou</code>-dot-<code class="language-plaintext highlighter-rouge">com</code>)</p>
@@ -84,11 +84,11 @@ faq:
 <hr>
 
 <section class="container mt5">
-    <h2>OK, but what do you actually&nbsp;do?</h2>
+    <h2>OK, but what do&nbsp;you&nbsp;do?</h2>
 
     <div class="flex flex-column flex-row-ns space-between nr3-ns nl3-ns mt5">
         {% for service in page.services %}
-        <a class="main w-100 w-third-ns mv2 mt3-ns mb0-ns" href="/{{page.lang}}/{{service.url}}">
+        <a class="main w-100 mw6 center w-third-ns mv2 mt3-ns mb0-ns" href="/{{page.lang}}/{{service.url}}">
             <div class="bg-faint pa4 smooth-shadow br2 mh3-ns grow">
                 <i class="{{service.icon}} f1"></i>
                 <h3 class="mt5">{{service.title}}</h3>
