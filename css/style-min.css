@@ -326,8 +326,8 @@ hr {
 
 .container, .container-ns {
   max-width: 1128px;
-  padding-left: 12px;
-  padding-right: 12px;
+  padding-left: 16px;
+  padding-right: 16px;
   margin-left: auto;
   margin-right: auto;
 }
