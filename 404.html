@@ -1,0 +1,27 @@
+---
+permalink: /404.html
+layout: container
+title: 404
+lang: en
+---
+<div class="flex flex-column flex-row-ns justify-around-ns items-center-ns">
+    <div>
+        <h1 class="mt0">Error 404</h1>
+        <p><strong>The page you tried to access isn’t here anymore.</strong></p>
+        <p>I probably moved it while cleaning up 😅</p>
+        <p>Why not check out some of the other pages?</p>
+    </div>
+    
+    <a href="/" class="dim mt5 mt0-ns w-40-ns" style="transform: rotate(-5deg);">
+        {% for image in site.static_files %}
+            {% if image.path contains 'assets/hero-grid' %}
+            <div class="fl w-50">
+                <div class="db aspect-ratio aspect-ratio--1x1">
+                <span role="img" aria-label="" style="background-image:url({{image.path}});" class="bg-center cover aspect-ratio--object"></span>
+                </div>
+            </div>
+            {% endif %}
+        {% endfor %}
+    </a>
+
+</div>
