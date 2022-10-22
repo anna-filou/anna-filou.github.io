@@ -33,7 +33,8 @@ permalink: pretty
 
 collections:
   posts:
-    permalink: :categories/blog/:year/:title/
+    # permalink: :categories/blog/:year/:title/
+    permalink: :categories/:title/
 
 highlighter: rouge
 

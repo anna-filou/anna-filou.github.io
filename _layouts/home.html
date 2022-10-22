@@ -6,12 +6,12 @@ layout: default
 <section class="container mt4">
     <div class="flex flex-row justify-end">
         <a href="https://war.ukraine.ua/" class="lh-title pa3 br2 bg-faint link tr">
-            🇺🇦 Russia has started a war in Ukraine. Learn&nbsp;→ 🇺🇦
+            🇺🇦 Russia is attacking Ukraine. Learn&nbsp;→ 🇺🇦
         </a>
     </div>
 </section>
 
-<section class="container mt5">
+<section class="container mt4">
 <div class="mt0">
     <p class="ttu pa0 mb1 f6 fw5 tertiary tracked">{{data.hero.intro.tag[page.lang]}}</p>
     <h1 class="f-headline-l ttu pa0 mt0 mb2 mb3-l lh-solid nml">{{data.hero.intro.big-text[page.lang]}}</h1>
@@ -61,7 +61,7 @@ layout: default
     {% for grid-item in site.data.work-grid %}
         <div class="fl w-100 w-50-m w-third-ns pa0 pa2-ns pa3-l mb5 mb2-ns">
             <div class="db aspect-ratio aspect-ratio--4x3">
-                <span role="img" aria-label="" style="background-image:url({{grid-item.img}});" class="bg-center cover aspect-ratio--object"></span>
+                <span role="img" aria-label="" style="background-image:url({{grid-item.img}});" class="bg-center cover aspect-ratio--object br2"></span>
             </div>
             <div class="ph0 pt2 pb3 db">
                 <h3 class="f3 f4-ns mt3 mb0">{{grid-item.title[page.lang]}}</h3>

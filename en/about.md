@@ -7,7 +7,7 @@ ref: about
 ---
 ### Who are you?
 
-I'm Anna, a digital native designer and technophile [who draws](/{{page.lang}}/graphics).
+I'm Anna, a digital native designer and technophile [who&nbsp;draws](/{{page.lang}}/graphics).
 
 ### What do you do professionally?
 
@@ -25,11 +25,11 @@ Challenges I can rise up to.
 
 I want to do good in the world. I don’t feel I have yet.
 
-All sorts of projects excite me, but the ones I crave are those that’ll help people: software that makes your life easier, apps that brighten your day, websites that advocate for social issues…
+All sorts of projects excite me, but the ones I crave are those that’ll help others: software that makes your life easier, apps that brighten your day, websites that promote equal rights.
 
 ### What else?
 
-I love sketching out concepts for apps I'd want to use. That's the next area I want to explore professionally as well.
+I love sketching out concepts for apps I'd want to use. That's also the next area I’m exploring professionally.
 
 Online, I hang out on [Product Hunt](https://www.producthunt.com/@anna_0x) (more than I probably should), read comics, watch anime, go down rabbit holes of all sorts, and learn how to build things for the web.
 

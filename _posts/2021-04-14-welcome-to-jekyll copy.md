@@ -3,7 +3,7 @@ layout: post
 title: Ελληνικό ποστ
 date: 2021-04-14T01:35:41.000+03:00
 main-image: "/assets/drawings/2019-11-Amplify-light.png"
-categories: eL
+categories: el
 tag: taggy
 lang: el
 

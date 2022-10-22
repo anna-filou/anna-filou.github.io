@@ -22,22 +22,22 @@ books:
   author: Maia Kobabe
   pages: 239
   my-notes: |-
-    I hadn't read a memoir comic book before; now I think it's a perfect format for memoirs.
+    Gender Queer is **the** most banned book in the US, and I was curious to see why. Well, I'm just embarrassed to be human. (Let's stop pretending children don't have genitals, shall&nbsp;we?)
 
-    Gender Queer is **the** most banned book in the US, and I was curious to see why. Well, I'm just embarrassed to be human. (Let's stop pretending that children don't have genitals, shall we?)
-
-    Anyhow, this work is informative, helpful and relatable. It felt so good to think “wait, I'm *not* the only one who feels that way?”
+    Anyhow, this work is informative and helpful, full of relatable private moments we don’t often get a glimpse of in others.
 - title: Two Boys Kissing
   cover: "/assets/books/two-boys-kissing.jpg"
   author: David Levithan
   read: '2022'
   pages: 239
-  my-notes: "Oddly close to my life at times, once I neared the ending, I stayed up
+  my-notes: |-
+    Surprisingly rebatable at times. Once I neared the ending, I stayed up
     late to finish it. It made my heart beat faster, gave me reason to feel grateful
-    and provided food for thought in the form of ample quotable passages. \n\n*“They
-    hold hands, feel like they are witnessing something monumental, something that
+    and provided food for thought in the form of ample quotable passages.
+    
+    *“They hold hands, feel like they are witnessing something monumental, something that
     could change things. It won’t, but that feeling, that spirit will live on in everyone
-    here, everyone who sees. The spirit will change things.”*"
+    here, everyone who sees. The spirit will change things.”*
 - title: It's Not How Good You Are…
   cover: "/assets/books/its-not-how-good-you-are.jpg"
   author: Paul Arden
@@ -46,7 +46,7 @@ books:
   my-notes: |-
     This book's typesetting was gorgeous! Large, legible print on appealing pages.
 
-    I immediately assumed it was a self-help book when I saw the title.
+    I assumed it was a self-help book when I saw the title.
     It turns out it’s a business book—and a good one at that.
 
     Super quick read (few pages, big letters). I know I’ll need to come back to it often to instill the teachings into my head.
@@ -103,7 +103,7 @@ books:
 
     There are many aspects of this book that I didn’t like, including the tone of voice, the frequent use of cheesy metaphors, and the lack of realism in the descriptions of ancient Greece. But in the end, I cried a little and that has to count for something.
 
-    Reading The Song of Achilles taught me way more about the Iliad than secondary school in Greece.
+    (Reading The Song of Achilles taught me way more about the Iliad than secondary school in Greece.)
 - title: Learn To Code Now
   cover: "/assets/books/learn-to-code-now-superhi.jpg"
   author: Rik Lomas

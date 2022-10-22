@@ -49,7 +49,7 @@
   desc:
     en: "Answering “is there enought time to do all this?”"
     el: ""
-  img: "/assets/planner-v2.jpg"
+  img: "/assets/planner-v2.5.jpg"
   tags:
   - name: Just for&nbsp;fun
     classes: bg-light-yellow orange
@@ -106,18 +106,18 @@
     classes: bg-moon-gray navy
   - name: Web design & development
     classes: bg-lightest-blue dark-blue
-- title:
-    en: Jewelry Store - Aevum
-    el: Online Κοσμηματοπωλειο - Aevum
-  desc:
-    en: Webflow, custom code, Ecwid for e-commerce.
-    el: Webflow, custom code, Ecwid για λειτουργία e-commerce.
-  img: "/assets/aevum-demo.gif"
-  tags:
-  - name: Client work
-    classes: bg-moon-gray navy
-  - name: Web design & development
-    classes: bg-lightest-blue dark-blue
+# - title:
+#     en: Jewelry Store - Aevum
+#     el: Online Κοσμηματοπωλειο - Aevum
+#   desc:
+#     en: Webflow, custom code, Ecwid for e-commerce.
+#     el: Webflow, custom code, Ecwid για λειτουργία e-commerce.
+#   img: "/assets/aevum-demo.gif"
+#   tags:
+#   - name: Client work
+#     classes: bg-moon-gray navy
+#   - name: Web design & development
+#     classes: bg-lightest-blue dark-blue
 - title:
     en: Restaurant Website — Bistrot&nbsp;46
     el: Ιστοσελιδα εστιατοριου — Bistrot&nbsp;46

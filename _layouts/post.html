@@ -3,29 +3,35 @@ layout: default
 ---
 
 <article class="mt4">
-    <h1 class="">{{page.title}}</h1>
-    <p class="secondary ttu mb0">{% include read_time.html %} to read</p>
-    <p class="secondary ttu mb5 mt1 f7">{{content | number_of_words}} words</p>
-
-    <div class="lh-copy">
-        {{content}}
+    <div class="mb5">
+        <h1 class="">{{page.title}}</h1>
+        <p class="secondary tracked ttu f5">
+            <span class="tertiary">{{content | number_of_words}} words | </span>
+            {% include read_time.html %} to read
+        </p>
     </div>
+    
+    <main class="lh-copy">
+        {{content}}
+    </main>
 </article>
 
 <hr>
 
-<div class="mt6 flex flex-column items-center f6 tc secondary">
-    <a href="/{{page.lang}}/about">
-    <img
+<div class="mt6 flex flex-column items-center mh3">
+
+    <div class="fl lh-title w-100 w-50-ns pa4 br2 bg-faint mw7 mv0 flex flex-row">
+        <img
         src="/assets/anna-avatar.jpg"
-        class="br-100 h3 w3 dib grow-large" alt="avatar">
-    </a>
-    <div class="mt1 measure-narrow">
-        <p class="mv0 main">This post was written by Anna.</p>
-        <p class="mv0"> Published on {{page.date | date: "%-d %B %Y"}}</p>
-        <div class="mt3 f6">
-            <p class="mt0 mb1"><a href="/writing">→ All Posts</a></p>
-            <p class="mv0"><a href="/feed.xml">→ RSS feed</a></p>
+        class="br-100 h3 w3 dib mr4" alt="avatar">
+        <div>
+            <div class="b mb1">Written by <a href="/{{page.lang}}/about">Anna Filou</a></div>
+            <div class="secondary ml0">Published on {{page.date | date: "%-d %B %Y"}}</div>
+            <div class="mt3">
+                <p class="mt0 mb1"><a href="/{{page.lang}}/blog">→ All Posts</a></p>
+                <p class="mv0"><a href="/feed.xml">→ RSS feed</a></p>
+            </div>
         </div>
     </div>
+
 </div>
