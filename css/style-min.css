@@ -168,6 +168,8 @@ svg {
 
 .hover-bg-faint:hover { background-color: #e9e6e1; }
 
+.hover-rotate-left {rotate: -15deg;}
+
 @media (prefers-color-scheme: dark) {
   body {
     background-color: #100023;
