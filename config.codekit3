@@ -943,11 +943,11 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/_site\/assets\/meta\/an-og.png" : {
+    "\/_site\/assets\/meta\/an-og.jpg" : {
       "ft" : 32768,
       "iS" : 339016,
       "oA" : 0,
-      "oAP" : "\/_site\/assets\/meta\/an-og.png",
+      "oAP" : "\/_site\/assets\/meta\/an-og.jpg",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -2433,11 +2433,11 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/assets\/meta\/an-og.png" : {
+    "\/assets\/meta\/an-og.jpg" : {
       "ft" : 32768,
       "iS" : 339016,
       "oA" : 0,
-      "oAP" : "\/assets\/meta\/an-og.png",
+      "oAP" : "\/assets\/meta\/an-og.jpg",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
