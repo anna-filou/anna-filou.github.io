@@ -1,10 +1,11 @@
 ---
-layout: measure
+layout: about
 title: About
 lang: en
 ref: about
 
 ---
+
 ### Who are you?
 
 I'm Anna, a digital native designer and technophile [who&nbsp;draws](/{{page.lang}}/graphics).
@@ -46,5 +47,5 @@ Offline, I'm into lifting weights, inline and ice skating, [reading books](https
 * Check out:
   * 💼 [Some of my work](/{{page.lang}}/#work)
   * 🎨 [My illustrations](/{{page.lang}}/graphics)
-  * 🛠 [The tools I use](/tools)
+  * 🛠 [The tools I use](/uses)
   * ⏰ [What I’m up to](/now)

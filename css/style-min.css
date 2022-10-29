@@ -101,7 +101,7 @@
 /* DEFAULT LIGHT  */
 
 body {
-  background-color: #F4F4F4;
+  background-color: #EAE6E3;
 }
 
 body, nav a, .main {
@@ -128,7 +128,7 @@ a:hover {
 }
 
 header {
-  background-color: #F4F4F4;
+  background-color: #EAE6E3;
   box-shadow: 0px 2px 40px rgba(0, 0, 0, 0.178);
 }
 
@@ -159,14 +159,14 @@ svg {
 }
 
 .bg-faint {
-  background-color: #e9e6e1;
+  background-color: #DBD7D0;
 }
 
 .b--faint, hr {
-  border-color: #e9e6e1;
+  border-color: #DBD7D0;
 }
 
-.hover-bg-faint:hover { background-color: #e9e6e1; }
+.hover-bg-faint:hover { background-color: #DBD7D0; }
 
 .hover-rotate-left:hover {rotate: -15deg;}
 
@@ -241,7 +241,7 @@ svg {
 }
 @media (prefers-color-scheme: light) {
   body {
-    background-color: #F4F4F4;
+    background-color: #EAE6E3;
   }
 
   body, nav a, .main {
@@ -268,7 +268,7 @@ svg {
   }
 
   header {
-    background-color: #F4F4F4;
+    background-color: #EAE6E3;
     box-shadow: 0px 2px 40px rgba(0, 0, 0, 0.178);
   }
 
@@ -290,14 +290,14 @@ svg {
   }
 
   .bg-faint {
-    background-color: #e9e6e1;
+    background-color: #DBD7D0;
   }
 
   .b--faint, hr {
-    border-color: #e9e6e1;
+    border-color: #DBD7D0;
   }
 
-  .hover-bg-faint:hover { background-color: #e9e6e1; }
+  .hover-bg-faint:hover { background-color: #DBD7D0; }
 }
 
 body {
