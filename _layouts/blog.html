@@ -12,7 +12,6 @@ layout: default
     <div class="measure-wide">
       {{ content }}
     </div>
-
   </div>
   
 
@@ -22,7 +21,6 @@ layout: default
     {% assign posts = site.posts %}
   {% endif %}
 
-
   {%- if posts.size > 0 -%}
     {%- if page.list_title -%}
       <h2 class="post-list-heading">{{ page.list_title }}</h2>
@@ -31,43 +29,42 @@ layout: default
 
       {% assign en_posts = site.posts | where: "lang", page.lang %}
 
-      {%- for post in en_posts -%}
+      <!-- text VERSION -->
+      <div class="flex flex-row flex-wrap nl3 nr3 ">
+        {%- for post in en_posts -%}
 
-        <a class="db no-underline grow main" href="{{ post.url | relative_url }}">
-          <div class="flex flex-column flex-row-ns">
-            {%- if post.main-image == empty -%}
-             <div class="w-100 w-60-ns bl bw5 b--dark-green pl4">
-            {% else %}          
-              <div class="w-100 w-40-ns mr0 mr4-ns">
-                <div class="db aspect-ratio aspect-ratio--6x4 ">
-                  <span role="img" style="background-image:url({{post.main-image}});" class="bg-center cover aspect-ratio--object"></span>
-                </div>
-              </div>
-              <div class="w-100 w-60-ns">
-            {%- endif -%}
+        <a 
+        class="w-100 mh3 no-underline main mb4 bg-faint pa4 br2 shadow-hover" 
+        href="{{ post.url | relative_url }}">
+            <div class="flex flex-column justify-center h-100">
 
-              <h3 class="mt3 mb1">{{ post.title | escape }}</h3>
-              
-              <p class="fw4 ttu mv0 secondary">
-                <span class="reading-time" title="Estimated read time">
-                  {% assign words = post.content | number_of_words %}
-                  {% if words < 500 %}
-                     less than 1 min
-                  {% else %}
-                      {{ words | divided_by:280 }} min
-                  {% endif %}
-                  to read
-               </span>
-               </p>
-              <p class="fw4 db">
-                <span class="ttu b mr2">Excerpt:</span> {{ post.content | strip_html | truncate: 300, "…"  }}
-              </p>
-              
-            </div>
+              <div class="">
+                <h2 class="f3 mt0 mb3">{{ post.title | escape }}</h2>
+                  <div class="mv0 secondary tracked ttu f5 tr o-80 flex flex-row justify-between">
+
+                      <div class="reading-time tertiary" title="Estimated read time">
+                        {% assign words = post.content | number_of_words %}
+                        {% if words < 238 %}
+                          less than 1 min
+                        {% else %}
+                            {{ words | divided_by:238 }} min
+                        {% endif %}
+                        to read
+                      </div>
+
+                      <div>
+                          <i class="ri-book-open-line"></i> {{ post.tags }} 
+                          • 
+                          <i class="ri-time-line"></i> 
+                          <span class="tertiary">{{post.date | date: '%Y'}}</span>
+                      </div>
+                  </div>
+              </div> 
           </div>
         </a>
-
       {%- endfor -%}
+      </div>
+
 
     {% if site.paginate %}
       <div class="pager">

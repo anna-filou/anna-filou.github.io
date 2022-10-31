@@ -2,7 +2,7 @@
 layout: reading
 lang: en
 ref: ''
-title: Reading
+title: My Bookshelf
 books:
 - title: 12 Rules for Life
   read: now

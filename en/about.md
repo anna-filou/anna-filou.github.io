@@ -34,7 +34,7 @@ I love sketching out concepts for apps I'd want to use. That's also the next are
 
 Online, I hang out on [Product Hunt](https://www.producthunt.com/@anna_0x) (more than I probably should), read comics, watch anime, go down rabbit holes of all sorts, and learn how to build things for the web.
 
-Offline, I'm into lifting weights, inline and ice skating, [reading books](https://annafilou.com/reading/), playing board games, and learning languages, to name a few.
+Offline, I'm into lifting weights, inline and ice skating, [reading books](/bookshelf/), playing board games, and learning languages, to name a few.
 
 ![Me doing a simple but cool looking trick on inline skates](/assets/skate-circle-2.gif)
 

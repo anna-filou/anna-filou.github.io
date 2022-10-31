@@ -5,13 +5,13 @@ layout: default
 <article class="mt4">
     <div class="mb5">
         <h1 class="">{{page.title}}</h1>
-        <p class="secondary tracked ttu f5">
-            <span class="tertiary">{{content | number_of_words}} words | </span>
+        <p class="secondary tracked ttu f6">
+            <span class="tertiary">{{content | number_of_words}} words • </span>
             {% include read_time.html %} to read
         </p>
     </div>
     
-    <main class="lh-copy">
+    <main class="lh-copy"> 
         {{content}}
     </main>
 </article>
@@ -25,7 +25,7 @@ layout: default
         src="/assets/anna-avatar.jpg"
         class="br-100 h3 w3 dib mr4" alt="avatar">
         <div>
-            <div class="b mb1">Written by <a href="/{{page.lang}}/about">Anna Filou</a></div>
+            <div class="b mb1">Written by <a href="/{{page.lang}}/about">Anna</a></div>
             <div class="secondary ml0">Published on {{page.date | date: "%-d %B %Y"}}</div>
             <div class="mt3">
                 <p class="mt0 mb1"><a href="/{{page.lang}}/blog">→ All Posts</a></p>

@@ -2,7 +2,7 @@
 
 .border-rainbow {
   /* just the color, width etc must be defined */
-  border-image: linear-gradient(90deg, #dc3b3e 10%, #ff8f00 28%, #ffe066 35%, #3bdc90 50%, #3b99dc 70%, #d535c3 90%) 100;
+  border-image: linear-gradient(90deg, #dc3b3e 10%, #ff8f00 28%, #ffe066 35%, #3bdc90 50%, #3b99dc , #d535c3 90%) 100;
 }
 
 /* FONTS */
@@ -159,14 +159,14 @@ svg {
 }
 
 .bg-faint {
-  background-color: #DBD7D0;
+  background-color: #E1DCD3;
 }
 
 .b--faint, hr {
-  border-color: #DBD7D0;
+  border-color: #E1DCD3;
 }
 
-.hover-bg-faint:hover { background-color: #DBD7D0; }
+.hover-bg-faint:hover { background-color: #E1DCD3; }
 
 .hover-rotate-left:hover {rotate: -15deg;}
 
@@ -290,14 +290,14 @@ svg {
   }
 
   .bg-faint {
-    background-color: #DBD7D0;
+    background-color: #E1DCD3;
   }
 
   .b--faint, hr {
-    border-color: #DBD7D0;
+    border-color: #E1DCD3;
   }
 
-  .hover-bg-faint:hover { background-color: #DBD7D0; }
+  .hover-bg-faint:hover { background-color: #E1DCD3; }
 }
 
 body {
@@ -488,7 +488,7 @@ article h3,
 article h4,
 article h5,
 article h6 {
-  width: 80%;
+  width: 66%;
   margin-left: auto;
   margin-right: auto;
 }

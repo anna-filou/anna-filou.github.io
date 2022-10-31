@@ -983,9 +983,11 @@ code, .code { font-family: Consolas, monaco, monospace; }
 .w-20 { width: 20%; }
 .w-25 { width: 25%; }
 .w-30 { width: 30%; }
+.w-32 { width: 31%; }
 .w-33 { width: 33%; }
 .w-34 { width: 34%; }
 .w-40 { width: 40%; }
+.w-45 { width: 45%; }
 .w-50 { width: 50%; }
 .w-60 { width: 60%; }
 .w-70 { width: 70%; }
@@ -1871,6 +1873,9 @@ code, .code { font-family: Consolas, monaco, monospace; }
 .grow { -moz-osx-font-smoothing: grayscale; -webkit-backface-visibility: hidden; backface-visibility: hidden; -webkit-transform: translateZ( 0 ); transform: translateZ( 0 ); transition: -webkit-transform .25s ease-out; transition: transform .25s ease-out; transition: transform .25s ease-out, -webkit-transform .25s ease-out; }
 .grow:hover, .grow:focus { -webkit-transform: scale( 1.05 ); transform: scale( 1.05 ); }
 .grow:active { -webkit-transform: scale( .90 ); transform: scale( .90 ); }
+.grow-small { -moz-osx-font-smoothing: grayscale; -webkit-backface-visibility: hidden; backface-visibility: hidden; -webkit-transform: translateZ( 0 ); transform: translateZ( 0 ); transition: -webkit-transform .25s ease-out; transition: transform .25s ease-out; transition: transform .25s ease-out, -webkit-transform .25s ease-out; }
+.grow-small:hover, .grow:focus { -webkit-transform: scale( 1.02 ); transform: scale( 1.02 ); }
+.grow-small:active { -webkit-transform: scale( .90 ); transform: scale( .90 ); }
 .grow-large { -moz-osx-font-smoothing: grayscale; -webkit-backface-visibility: hidden; backface-visibility: hidden; -webkit-transform: translateZ( 0 ); transform: translateZ( 0 ); transition: -webkit-transform .25s ease-in-out; transition: transform .25s ease-in-out; transition: transform .25s ease-in-out, -webkit-transform .25s ease-in-out; }
 .grow-large:hover, .grow-large:focus { -webkit-transform: scale( 1.2 ); transform: scale( 1.2 ); }
 .grow-large:active { -webkit-transform: scale( .95 ); transform: scale( .95 ); }
@@ -1887,7 +1892,18 @@ code, .code { font-family: Consolas, monaco, monospace; }
    http://tobiasahlin.com/blog/how-to-animate-box-shadow/ 
 */
 .shadow-hover { cursor: pointer; position: relative; transition: all .5s cubic-bezier( .165, .84, .44, 1 ); }
-.shadow-hover::after { content: ''; box-shadow: 0 0 16px 2px rgba( 0, 0, 0, .2 ); border-radius: inherit; opacity: 0; position: absolute; top: 0; left: 0; width: 100%; height: 100%; z-index: -1; transition: opacity .5s cubic-bezier( .165, .84, .44, 1 ); }
+.shadow-hover::after { 
+  content: ''; 
+  box-shadow:
+  0px 2px 2.2px rgba(0, 0, 0, 0.02),
+  0px 4.7px 5.3px rgba(0, 0, 0, 0.028),
+  0px 8.9px 10px rgba(0, 0, 0, 0.035),
+  0px 15.9px 17.9px rgba(0, 0, 0, 0.042),
+  0px 29.7px 33.4px rgba(0, 0, 0, 0.05),
+  0px 71px 80px rgba(0, 0, 0, 0.07)
+; 
+  border-radius: inherit; 
+  opacity: 0; position: absolute; top: 0; left: 0; width: 100%; height: 100%; z-index: -1; transition: opacity .5s cubic-bezier( .165, .84, .44, 1 ); }
 .shadow-hover:hover::after, .shadow-hover:focus::after { opacity: 1; }
 /* Combine with classes in skins and skins-pseudo for 
  * many different transition possibilities. */
@@ -2246,6 +2262,7 @@ code, .code { font-family: Consolas, monaco, monospace; }
  .w-33-ns { width: 33%; }
  .w-34-ns { width: 34%; }
  .w-40-ns { width: 40%; }
+ .w-45-ns { width: 45%; }
  .w-50-ns { width: 50%; }
  .w-60-ns { width: 60%; }
  .w-70-ns { width: 70%; }
@@ -2672,6 +2689,7 @@ code, .code { font-family: Consolas, monaco, monospace; }
  .w-33-m { width: 33%; }
  .w-34-m { width: 34%; }
  .w-40-m { width: 40%; }
+ .w-45-m { width: 45%; }
  .w-50-m { width: 50%; }
  .w-60-m { width: 60%; }
  .w-70-m { width: 70%; }
@@ -3098,6 +3116,7 @@ code, .code { font-family: Consolas, monaco, monospace; }
  .w-33-l { width: 33%; }
  .w-34-l { width: 34%; }
  .w-40-l { width: 40%; }
+ .w-45-l { width: 45%; }
  .w-50-l { width: 50%; }
  .w-60-l { width: 60%; }
  .w-70-l { width: 70%; }

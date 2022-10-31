@@ -6,4 +6,3 @@ All the people online giving advice to their younger selves and a plethora of yo
 
 - you have to take chances; don’t worry about embarassing yourself. 
 - cherish your friends and go on adventures while you’re young and healthy enough to do so. Don’t waste your young years doing solitary work and staying in. Explore.
-

@@ -1,0 +1,22 @@
+---
+layout: default
+---
+<!-- layout: default means that this layout INCLUDES everything in default.html 
+AND adds the following code in the {{content}} area of default.html -->
+<div class="container flex flex-column flex-row-ns mt4">
+    <div class="ph3-ns mw6">
+        <h1>Now Page</h1>
+        <strong>🗓 Latest Update: {{ page.date }}</strong>
+        <dl class="w-100 fl f5 lh-title pa3 nl3-ns br2 bg-faint mw7 mb4">
+            <dt class="secondary b mb1 o-90">What is this page?</dt>
+            <dd class="secondary ml0 o-90">It’s the answer to “what are you up to lately?” 
+            <br>
+            <a href="https://nownownow.com/about">Part of the Now Now Now project</a>.</dd>
+        </dl>
+    </div>
+    <div class="mt3" style="min-width: 50%;">
+        <div class="measure ml-auto ">
+            {{content}}
+        </div>
+    </div>
+</div>
