@@ -1,5 +1,5 @@
 main: 
-  - en: <i class="ri-mail-unread-fill mr1"></i> Contact
+  - en: <i class="ri-mail-unread-fill mr1"></i> Connect
     el: ✉️ Επικοινωνία
     url: contact
     langs: 'yes'
@@ -15,14 +15,14 @@ main:
     el: ✏️ Ζωγραφική
     url: graphics
     langs: 'yes'
-  # - en: <i class="ri-quill-pen-fill mr1"></i> Blog
+  # - en: <i class="ri-quill-pen-fill mr1"></i> Writing
   #   el: 📝 Blog
-  #   url: blog
+  #   url: writing
   #   langs: 'yes'
 secondary: 
   - en: <i class="ri-book-3-line mr1"></i> Reading
     el: 📚 Reading
-    url: reading
+    url: bookshelf
     langs: 'no'
   - en: <i class="ri-history-line mr1"></i> Now
     el: ⏰ Now

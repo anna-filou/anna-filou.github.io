@@ -24,5 +24,3 @@ Could it be that this is only my personal fear? Unlikely, considering all the ar
 Look, I get it. I would also much rather an expert plumber fix my faucet, than someone who does plumbing alongside marketing, app development and writing novels. But in reality, few (if any) of us are really good at one thing only. We might pretend that we only care about, say, gardening and advertise ourselves as an expert gardener for luxury hotels, but when we are “backstage” we might also be really into singing, painting and designing board games. Not only that, but we might in fact be really good at all those things; so good that we could be doing any of them professionally instead, or in addition to, gardening.
 
 And here lies the dilemma. How do we choose our “face”, in essence the personality traits we handpick to present to the world and call “us”?
-
-I don’t have the answer.

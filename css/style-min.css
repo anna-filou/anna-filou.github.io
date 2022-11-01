@@ -435,22 +435,23 @@ h6 {
   text-shadow: none;
 }
 
+/* ARTICLE BLOG */
+
 blockquote, q, .blockquote, .q{
-  font-size: 2em;
-  font-style: italic;
-  font-weight: 500;
+  font-size: 1.5em;
+  /* font-style: italic; */
+  font-weight: 400;
   text-align: left;
-  line-height: 1.3;
-  /* margin: 2em 0; */
-  border-top: 5px solid #5e5e5e;
-  border-bottom: 5px solid #5e5e5e;
-  padding: 0.5em 0 0.7em 0;
+  line-height: 1.4;
+  border-left: 10px solid #383272;
+  padding: 0 0 0 0;
 }
 
 article blockquote,
 article q {
-  padding: 1em 4em;
+  padding: 1em 4em; /* large screen */
 }
+
 blockquote p {
   min-width: 100%;
 }
@@ -512,6 +513,7 @@ article figure, div.highlight {
   border: 2px solid rgb(99, 99, 99);
 }
 
+/* SMALL SCREEN */
 @media (max-width: 620px) {
   body {
     font-size: 18px;
@@ -568,13 +570,17 @@ article figure, div.highlight {
     position: relative;
     left: -12px;
   }
-  blockquote,
-  q {
-    min-width: 100vw;
+
+  article blockquote,
+  article q {
+    min-width: 103%;
     position: relative;
-    left: -12px;
-    padding: 1em 21px;
+    /* SMALL SCREEN */
+    left: -2.2em;
+    padding: .2em 0 .2em .5em;
+    font-size: 1.3em;
   }
+
   article figure, div.highlight {
     padding: 10px 20px;
     border-radius: 6px;
@@ -702,6 +708,7 @@ article figure, div.highlight {
     }
 }
 
+/* VERY SMALL SCREEN */
 @media (max-width: 370px) {
   h1 {
     font-size: 1.5em;

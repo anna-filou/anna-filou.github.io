@@ -39,15 +39,16 @@ layout: default
             <div class="flex flex-column justify-center h-100">
 
               <div class="">
-                <h2 class="f3 mt0 mb3">{{ post.title | escape }}</h2>
-                  <div class="mv0 secondary tracked ttu f5 tr o-80 flex flex-row justify-between">
+                  <h2 class="f4 f3-ns mt0 mb4 mb3-ns">{{ post.title | escape }}</h2>
+
+                  <div class="mv0 secondary tracked ttu f6 f5-ns tr o-80 flex flex-column flex-row-ns justify-between">
 
                       <div class="reading-time tertiary" title="Estimated read time">
                         {% assign words = post.content | number_of_words %}
-                        {% if words < 238 %}
+                        {% if words < 210 %}
                           less than 1 min
                         {% else %}
-                            {{ words | divided_by:238 }} min
+                            {{ words | divided_by:210 }} min
                         {% endif %}
                         to read
                       </div>
@@ -55,8 +56,7 @@ layout: default
                       <div>
                           <i class="ri-book-open-line"></i> {{ post.tags }} 
                           • 
-                          <i class="ri-time-line"></i> 
-                          <span class="tertiary">{{post.date | date: '%Y'}}</span>
+                          <i class="ri-time-line"></i>&nbsp;<span class="tertiary">{{post.date | date: '%Y'}}</span>
                       </div>
                   </div>
               </div> 
