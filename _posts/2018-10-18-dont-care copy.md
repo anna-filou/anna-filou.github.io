@@ -1,10 +1,10 @@
 ---
 layout: post
 title: To make better things, don’t care
-date: 2020-10-18
-main-image: "/assets/drawings/watercolor-thoughts.jpg"
+date: 2018-10-18
+main-image: 
 categories: en
-tag: philosophy
+tag: creativity
 lang: en
 
 ---
@@ -36,26 +36,26 @@ The one on the left is actually the "refined" piece I spent more time and energy
 
 Despite being aware of this, I keep doing it. Keep overthinking and caring too much about the outcome. Trying to plan every single thing in advance even though it’s not possible and actually counter-productive.
 
-> The more you care, the fewer risks you take. Less risk means mediocre results. That in turn brings average or bad feedback — if you get any at all - and leads to disappointment and decreased motivation.
+> The more you care, the fewer risks you take. Less risk means mediocre results. That in turn brings average or bad feedback—if you get any at all—and leads to disappointment and decreased motivation.
 
 On the opposite side of the argument, one could as well say, that not caring enough is also no way to go forward. Of course that can be true but depends on the answer to the question…
 
 **“Care about what?”**
 
-When it comes to any particular project on endeavor, there are many things you could care about. The quality of the work; the originality; the effort and self-discipline it took to complete it; how many likes it gets on social media; how many people talk about it at first; how many people remember it after a few days… The list goes on.
+On any particular project on endeavor, there are many things you could care about. The quality of the work; the originality; the effort and self-discipline it took to complete it; how many likes it gets on social media; how many people talk about it at first; how many people remember it after a few days… The list goes on.
 
-Now, it’s certainly not going to serve you well in the long run if you don’t care at all about the quality of what you make. On the other hand, whether or not you care about the likes you’ll get is of lesser importance, as it depends on the quality (and timing, and luck!), which in turn depends on experience. The only way to get experience though, is to do the thing you want to get good at. And you won’t do it a lot if you are too worried about all the other things.
+Now, it’s certainly not going to serve you well in the long run if you don’t care at all about the quality of what you make. On the other hand, whether or not you care about the likes you’ll get is of lesser importance, as it depends on the quality (and timing, and luck!), which in turn depends on experience. The only way to get experience though, is to do the thing you want to get good at. And you won’t do a lot of that if you’re too worried about all the other things.
 
 > The paradox that keeps plaguing us can be solved, if only we realize that it’s not possible to be great all the time or straight away. Experience is acquired by trying, but only when you actually go through with it. (“I was trying for a whole minute, and it didn’t work out” won’t get you experience.)
 
 ## TL;DR
 
-Obsessing over the details of the outcome won’t get you anywhere anytime soon. Let go of this idea that everything has to come out perfect and just do the things you want to do. You’ll be surprised by how much better than expected everything will turn out and how you won’t feel disappointed whenever something is less than stellar by your former standards.
+Obsessing over the details of the outcome won’t get you anywhere anytime soon. Let go of the idea that everything has to come out perfect and just do the things you want to do. You’ll be surprised by how much better than expected everything will turn out and how you won’t feel disappointed whenever something is less than stellar by your former standards.
 Don’t use that as an excuse to spend close to no time on it and think it’ll be well-received as long as you don’t care, though.
 
 ![](/assets/quick-doodle-2018.jpg)
 
-The quick doodles I draw on post-it notes are the ones I tend to like the best.
+*The quick doodles I draw on post-it notes are the ones I tend to like the best.*
 
 ---
 

@@ -363,7 +363,7 @@ ul {
   margin: 1em 0;
 }
 
-li ul { margin-top: 0; }
+li ul { margin-top: 0; margin-bottom: 0; }
 
 ul,
 ol {
@@ -492,6 +492,10 @@ article h6 {
   width: 66%;
   margin-left: auto;
   margin-right: auto;
+}
+
+article ul ul {
+  width: 100%;
 }
 
 article a {
