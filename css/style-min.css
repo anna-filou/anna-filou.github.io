@@ -303,7 +303,7 @@ svg {
 body {
   /* font-family: Rubik;  */
   /* font-family: 'Inter'; */
-  font-family: 'Space Grotesk', sans-serif;
+  font-family: 'Space Grotesk', Arial, sans-serif;
   font-size: 18px;
   line-height: 1.4;
 }
@@ -388,7 +388,9 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: 'Space Grotesk';  
+  font-family: 'Space Grotesk', 'Arial Narrow', Tahoma, Arial, sans-serif;
+  /* font-family:'Arial Narrow', Tahoma, Arial, sans-serif;  
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; */
   font-weight: 600;
   text-transform: none;
 }
