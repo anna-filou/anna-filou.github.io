@@ -449,6 +449,9 @@ blockquote, q, .blockquote, .q{
   padding: 0 0 0 0;
 }
 
+article {
+  font-size: 1.1em;
+}
 article blockquote,
 article q {
   padding: 1em 4em; /* large screen */
@@ -494,6 +497,12 @@ article h6 {
   width: 66%;
   margin-left: auto;
   margin-right: auto;
+}
+
+article audio {
+  display: block;
+  width: 99%;
+  margin: 0 auto;
 }
 
 article ul ul {
