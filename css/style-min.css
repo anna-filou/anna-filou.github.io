@@ -144,6 +144,8 @@ svg {
   color: #777777;
 }
 
+.vw-100 { width: 100vw; }
+
 .smooth-shadow {
   box-shadow:
   0 1.5px 54.5px -71px rgba(0, 0, 0, 0.74),
