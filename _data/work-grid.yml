@@ -71,7 +71,7 @@
     en: "[→ Live website](https://beckher.com) / Custom code / Jekyll"
     el: "[Δείτε το site ζωντανά](https://beckher.com) / Custom code and
       Jekyll."
-  img: "/assets/sda-manufacturer-screens.jpg"
+  img: "/assets/beckher-screens.jpg"
   tags:
   - name: Client work
     classes: bg-moon-gray navy
@@ -120,7 +120,7 @@
     en: Design, Webflow development, photography
     el: Σχεδιασμός, development με Webflow, φωτογράφιση και μενού που τροφοδοτείται
       από το Airtable.
-  img: "/assets/website-bistrot46.jpg"
+  img: "/assets/bistrot46-screens.jpg"
   tags:
   - name: Client work
     classes: bg-moon-gray navy
@@ -154,8 +154,8 @@
     en: Amazon Signup Page Concept
     el: Ιδεα για σελιδας εγγραφης Amazon
   desc:
-    en: Dribbble challenge. Not commissioned by Amazon.
-    el: Dribbble challenge. Δεν έγινε κατά παραγγελία της Amazon.
+    en: Dribbble challenge
+    el: Dribbble challenge
   img: "/assets/Dribbble-Amazon-Redesign-20200711.png"
   tags:
   - name: Just for fun
