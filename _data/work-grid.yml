@@ -3,16 +3,14 @@
     en: Theeta — Production & Distribution
     el: Theeta — Παραγωγή & Distribution
   desc:
-    en: "[→ Live website](https://theeta.nl/) / Made with custom code."
-    el: "[→ Live website](https://theeta.nl/) / Made with custom code."
+    en: "[→ Live website](https://theeta.nl/) / Custom code / Jekyll"
+    el: "[→ Live website](https://theeta.nl/) / Custom code / Jekyll"
   img: "/assets/theeta-demo.gif"
   tags:
   - name: Client work
     classes: bg-moon-gray navy
   - name: Web design & development
     classes: bg-lightest-blue dark-blue
-  - name: Jekyll
-    classes: bg-near-white dark-red
 - title:
     en: DYNAMIKI - Beverage Distribution Network
     el: ΔΥΝΑΜΙΚΗ - Δικτυο διανομης ποτων
@@ -58,7 +56,7 @@
     en: Micronavi — Electronics Distributor
     el: Micronavi — Distributor Ηλεκτρωνικών
   desc:
-    en: "[→ Live website](http://micronavi.eu) / Made with custom code."
+    en: "[→ Live website](http://micronavi.eu) /Custom code."
     el: "[Δείτε το site ζωντανά](http://micronavi.eu) / Made with custom code."
   img: "/assets/micronavi-screens.jpg"
   tags:
@@ -70,13 +68,11 @@
     en: Beckher — SDA Manufacturer Website
     el: Beckher — Ιστοσελιδα κατασκευαστη μικρων οικιακων συσκευων
   desc:
-    en: "[→ Live website](https://beckher.com) / Made with custom code and Jekyll."
-    el: "[Δείτε το site ζωντανά](https://beckher.com) / Made with custom code and
+    en: "[→ Live website](https://beckher.com) / Custom code / Jekyll"
+    el: "[Δείτε το site ζωντανά](https://beckher.com) / Custom code and
       Jekyll."
   img: "/assets/sda-manufacturer-screens.jpg"
   tags:
-  - name: Jekyll
-    classes: bg-near-white dark-red
   - name: Client work
     classes: bg-moon-gray navy
   - name: Web design & development
@@ -85,7 +81,7 @@
     en: Logo for Platinum Stores
     el: Logo για την Platinum Stores
   desc:
-    en: Timeless logo design, for physical and digital placement.
+    en: Timeless logo design
     el: 
   img: "/assets/platinum-window-mockup.jpg"
   tags:
@@ -121,15 +117,13 @@
     en: Restaurant Website — Bistrot&nbsp;46
     el: Ιστοσελιδα εστιατοριου — Bistrot&nbsp;46
   desc:
-    en: Design, Webflow development, photography.
+    en: Design, Webflow development, photography
     el: Σχεδιασμός, development με Webflow, φωτογράφιση και μενού που τροφοδοτείται
       από το Airtable.
   img: "/assets/website-bistrot46.jpg"
   tags:
   - name: Client work
     classes: bg-moon-gray navy
-  - name: Photography
-    classes: bg-washed-green dark-green
   - name: Webflow
     classes: bg-lightest-blue purple
 - title:
