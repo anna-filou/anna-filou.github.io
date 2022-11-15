@@ -45,12 +45,12 @@ layout: default
 
                       <div class="reading-time tertiary mb1 mb0-ns" title="Estimated read time">
                         {% assign words = post.content | number_of_words %}
-                        {% if words < 210 %}
-                          less than 1 min
+                        {% if words < 1 %}
+                        {% elsif words < 210 %}
+                            less than 1 min to read
                         {% else %}
-                            {{ words | divided_by:210 }} min
+                              {{ words | divided_by:210 }} min to read
                         {% endif %}
-                        to read
                       </div>
 
                       <div>

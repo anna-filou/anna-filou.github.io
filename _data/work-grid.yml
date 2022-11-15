@@ -43,12 +43,12 @@
   - name: Web design
     classes: bg-lightest-blue dark-blue
 - title:
-    en: Planner app concept
+    en: Concept for Planner App
     el: 
   desc:
-    en: "Answering “is there enought time to do all this?”"
+    en: "Working on a personal project for an intelligent planner."
     el: ""
-  img: "/assets/planner-v2.5.jpg"
+  img: "/assets/effortless-c3.jpg"
   tags:
   - name: Just for&nbsp;fun
     classes: bg-light-yellow orange
