@@ -3,8 +3,8 @@
     en: Theeta — Production & Distribution
     el: Theeta — Παραγωγή & Distribution
   desc:
-    en: "[→ Live website](https://theeta.nl/) / Custom code / Jekyll"
-    el: "[→ Live website](https://theeta.nl/) / Custom code / Jekyll"
+    en: "[Live website →](https://theeta.nl/) / Custom code / Jekyll"
+    el: 
   img: "/assets/theeta-demo.gif"
   tags:
   - name: Client work
@@ -31,7 +31,7 @@
     en: MONSTER ENERGY HOMEPAGE CONCEPT
     el: MONSTER ENERGY HOMEPAGE CONCEPT
   desc:
-    en: "Personal project. [Monster case study →](/en/monster)"
+    en: "Personal project. [→ Monster case study](/en/monster)"
     el: "[Case study στο Behance](https://www.behance.net/gallery/105157851/Monster-Energy-Website-Redesign-CONCEPT).
       Project προσωπικής πρωτοβουλίας."
   img: "/assets/monster-behance-cover.jpg"
@@ -56,7 +56,7 @@
     en: Micronavi — Electronics Distributor
     el: Micronavi — Distributor Ηλεκτρωνικών
   desc:
-    en: "[→ Live website](http://micronavi.eu) /Custom code."
+    en: "[Live website →](http://micronavi.eu) /Custom code."
     el: "[Δείτε το site ζωντανά](http://micronavi.eu) / Made with custom code."
   img: "/assets/micronavi-screens.jpg"
   tags:
@@ -68,7 +68,7 @@
     en: Beckher — SDA Manufacturer Website
     el: Beckher — Ιστοσελιδα κατασκευαστη μικρων οικιακων συσκευων
   desc:
-    en: "[→ Live website](https://beckher.com) / Custom code / Jekyll"
+    en: "[Live website →](https://beckher.com) / Custom code / Jekyll"
     el: "[Δείτε το site ζωντανά](https://beckher.com) / Custom code and
       Jekyll."
   img: "/assets/beckher-screens.jpg"
@@ -93,7 +93,7 @@
     en: Mig Lock — Business Consultant
     el: Mig Lock — Business Consultant
   desc:
-    en: "[→ Live website](http://miglock.co.uk) / Made with custom code."
+    en: "[Live website →](http://miglock.co.uk) / Made with custom code."
     el: "[Δείτε το site ζωντανά](http://miglock.co.uk) / Made with custom code."
   img: "/assets/miglock-scrollcap.gif"
   tags:
@@ -142,7 +142,7 @@
     en: Werewolf Game Cards
     el: Καρτες παιχνιδιου «Παλερμο»
   desc:
-    en: "[→ See the cards](https://www.behance.net/gallery/110141811/Werewolf-Game-Cards). Watercolor and ink."
+    en: "[See the cards →](https://www.behance.net/gallery/110141811/Werewolf-Game-Cards) / Watercolor and ink."
     el: Για προσωπική χρήση, νερομπογιά και μελάνι.
   img: "/assets/warewolf-cards.jpg"
   tags:
