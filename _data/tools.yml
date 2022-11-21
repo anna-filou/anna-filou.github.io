@@ -7,6 +7,15 @@ intro:
     συστάσεις (που δεν σχετίζονται απαραίτητα με τη δουλειά μου) στο <a target=\"_blank\"
     href=\"https://yourstack.com/@that__anna\">προφίλ μου στο \U0001F95E YourStack</a>.\n"
 tools:
+- name: Napkin
+  url: https://www.napkin.one/
+  img: "/uploads/napkin-logo.jpg"
+  desc:
+    en: Napkin is a tool that helps you think. How? You write your thoughts down and
+      it connects them. No folders, minimal manual tagging. It fosters serendipity
+      and deep thinking. I’ve been using it for a month and it feels like my brain
+      has more capacity.
+    el: ''
 - name: Coda
   url: https://coda.io
   desc:
