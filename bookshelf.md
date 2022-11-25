@@ -4,6 +4,13 @@ lang: en
 ref: ''
 title: My Bookshelf
 books:
+- title: Shoe Dog
+  read: now
+  cover: "/uploads/shoe-dog.jpg"
+  author: Phil Knight
+  pages: 400
+  my-notes: |-
+    Incredibly well-written and captivating from the very first page. I would have never expected I’d be excited to read an auto-biography but it here we are.
 - title: 12 Rules for Life
   read: now
   cover: "/uploads/12-rules-for-life.jpg"
