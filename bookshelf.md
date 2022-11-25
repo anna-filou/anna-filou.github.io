@@ -6,7 +6,7 @@ title: My Bookshelf
 books:
 - title: Shoe Dog
   read: now
-  cover: "/uploads/shoe-dog.jpg"
+  cover: "/assets/books/shoe-dog.jpg"
   author: Phil Knight
   pages: 400
   my-notes: |-
