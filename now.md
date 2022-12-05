@@ -10,7 +10,7 @@ date: October 31st, 2022
 * Getting my thinking in order — trying out [Napkin](https://www.napkin.one/) and [Obsidian](https://obsidian.md/).
 * Thinking a lot about work-life balance, what‘s worth it, … that kinda stuff.
 * Making my own task management system in Coda (and designing my dream interface for it on and off in my spare time).
-* [Reading](/bookshelf/) 
+* [Reading](/reading/) 
   * _Shoe Dog_ (auto-biography of the founder of Nike. Surprisingly engrossing and well-written!) 
   * _12 Rules for Life_ paused, next up
 * Working on some small client projects and trying new techniques.
