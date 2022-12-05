@@ -11,11 +11,11 @@ sections:
   label: "\U0001F4C4 Posts"
   create: all
 - type: document
-  path: en/about.md
-  label: "\U0001F464 About"
-- type: document
   path: reading.md
   label: "\U0001F4DA Reading"
+- type: document
+  path: en/about.md
+  label: "\U0001F464 About"
 - type: document
   path: writing.md
   label: "✏️ Writing"
