@@ -3,7 +3,7 @@
     en: Theeta — Production & Distribution
     el: Theeta — Παραγωγή & Distribution
   desc:
-    en: "[Live website →](https://theeta.nl/) / Custom code / Jekyll"
+    en: "Custom code / Jekyll / [Live website →](https://theeta.nl/)"
     el: 
   img: "/assets/theeta-demo.gif"
   tags:
@@ -28,10 +28,22 @@
   - name: The Smiling Hippo
     classes: bg-dark-blue lightest-blue
 - title:
+    en: Backyard — Cozy Hair Salon
+    el: 
+  desc:
+    en: "Custom code / Jekyll / [Live website →](https://backyard.hair/en/)"
+    el: 
+  img: "/assets/backyard-dribbble.jpg"
+  tags:
+  - name: Client work
+    classes: bg-moon-gray navy
+  - name: Web design & development
+    classes: bg-lightest-blue dark-blue
+- title:
     en: MONSTER ENERGY HOMEPAGE CONCEPT
     el: MONSTER ENERGY HOMEPAGE CONCEPT
   desc:
-    en: "Personal project. [→ Monster case study](/en/monster)"
+    en: "Design challenge / [→ Monster case study](/en/monster)"
     el: "[Case study στο Behance](https://www.behance.net/gallery/105157851/Monster-Energy-Website-Redesign-CONCEPT).
       Project προσωπικής πρωτοβουλίας."
   img: "/assets/monster-behance-cover.jpg"
@@ -56,7 +68,7 @@
     en: Micronavi — Electronics Distributor
     el: Micronavi — Distributor Ηλεκτρωνικών
   desc:
-    en: "[Live website →](http://micronavi.eu) /Custom code."
+    en: "Made with custom code / [Live website →](http://micronavi.eu)"
     el: "[Δείτε το site ζωντανά](http://micronavi.eu) / Made with custom code."
   img: "/assets/micronavi-screens.jpg"
   tags:
@@ -68,7 +80,7 @@
     en: Beckher — SDA Manufacturer Website
     el: Beckher — Ιστοσελιδα κατασκευαστη μικρων οικιακων συσκευων
   desc:
-    en: "[Live website →](https://beckher.com) / Custom code / Jekyll"
+    en: "Custom code / Jekyll / [Live website →](https://beckher.com)"
     el: "[Δείτε το site ζωντανά](https://beckher.com) / Custom code and
       Jekyll."
   img: "/assets/beckher-screens.jpg"
@@ -93,7 +105,7 @@
     en: Mig Lock — Business Consultant
     el: Mig Lock — Business Consultant
   desc:
-    en: "[Live website →](http://miglock.co.uk) / Made with custom code."
+    en: "Made with custom code. [Live website →](http://miglock.co.uk)"
     el: "[Δείτε το site ζωντανά](http://miglock.co.uk) / Made with custom code."
   img: "/assets/miglock-scrollcap.gif"
   tags:
@@ -142,7 +154,7 @@
     en: Werewolf Game Cards
     el: Καρτες παιχνιδιου «Παλερμο»
   desc:
-    en: "[See the cards →](https://www.behance.net/gallery/110141811/Werewolf-Game-Cards) / Watercolor and ink."
+    en: "Watercolor and ink / [See the cards on Behance →](https://www.behance.net/gallery/110141811/Werewolf-Game-Cards)"
     el: Για προσωπική χρήση, νερομπογιά και μελάνι.
   img: "/assets/warewolf-cards.jpg"
   tags:
@@ -154,7 +166,7 @@
     en: Amazon Signup Page Concept
     el: Ιδεα για σελιδας εγγραφης Amazon
   desc:
-    en: Dribbble challenge
+    en: Dribbble design challenge
     el: Dribbble challenge
   img: "/assets/Dribbble-Amazon-Redesign-20200711.png"
   tags:
