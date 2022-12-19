@@ -4,3 +4,4 @@ _includes/.DS_Store
 /vendor
 .jekyll-cache/
 /_site
+.forestry/.DS_Store
