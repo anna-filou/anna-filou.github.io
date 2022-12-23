@@ -22,7 +22,7 @@ main:
 secondary: 
   - en: <i class="ri-book-3-line mr1"></i> Reading
     el: 📚 Reading
-    url: bookshelf
+    url: reading
     langs: 'no'
   - en: <i class="ri-history-line mr1"></i> Now
     el: ⏰ Now
