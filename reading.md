@@ -4,13 +4,22 @@ lang: en
 ref: ''
 title: My Bookshelf
 books:
+- title: The Magic Fish
+  read: '2022'
+  cover: "/uploads/book-the-magic-fish.jpg"
+  author: Trung Le Nguyen
+  pages: 256
+  my-notes: Incredible graphic novel. I love fairy tales; I wasn't expecting these
+    ones would be so gripping. The illustration is breathtaking and the storytelling
+    keeps you at the edge of your seat. I felt happiness, sadness and anger, all in
+    a short span of time.
 - title: Shoe Dog
   read: now
   cover: "/assets/books/shoe-dog.jpg"
   author: Phil Knight
   pages: 400
-  my-notes: |-
-    Incredibly well-written and captivating from the very first page. I would have never expected I’d be excited to read an auto-biography but it here we are.
+  my-notes: Incredibly well-written and captivating from the very first page. I would
+    have never expected I’d be excited to read an auto-biography but it here we are.
 - title: 12 Rules for Life
   read: now
   cover: "/uploads/12-rules-for-life.jpg"
@@ -41,7 +50,7 @@ books:
     Surprisingly rebatable at times. Once I neared the ending, I stayed up
     late to finish it. It made my heart beat faster, gave me reason to feel grateful
     and provided food for thought in the form of ample quotable passages.
-    
+
     *“They hold hands, feel like they are witnessing something monumental, something that
     could change things. It won’t, but that feeling, that spirit will live on in everyone
     here, everyone who sees. The spirit will change things.”*

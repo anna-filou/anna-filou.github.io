@@ -51,3 +51,5 @@ fields:
   - type: textarea
     name: my-notes
     label: My Notes
+pages:
+- reading.md
