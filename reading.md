@@ -14,12 +14,11 @@ books:
     keeps you at the edge of your seat. I felt happiness, sadness and anger, all in
     a short span of time.
 - title: Shoe Dog
-  read: now
+  read: '2023'
   cover: "/assets/books/shoe-dog.jpg"
   author: Phil Knight
   pages: 400
-  my-notes: Incredibly well-written and captivating from the very first page. I would
-    have never expected I’d be excited to read an auto-biography but it here we are.
+  my-notes: Incredibly well-written and captivating from the very first page. If you’d told me 3 months ago that an auto-biography would be among my favorite books ever, I would have laughed, but here we are. I highlighted over 20.000 words and feel a renewed drive to live and try things.
 - title: 12 Rules for Life
   read: now
   cover: "/uploads/12-rules-for-life.jpg"
