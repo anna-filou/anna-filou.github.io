@@ -1,21 +1,15 @@
 ---
 intro:
-  en: "Some of the services I love to use—and often rely on.\n\nThese are all personal
-    recommendations. See more (not necessarily related to my work) on <a target=\"_blank\"
-    href=\"https://yourstack.com/@that__anna\">my \U0001F95E YourStack profile</a>.\n"
-  el: "Τα παρακάτω προϊόντα/υπηρεσίες μου αρέσουν τόσο ώστε να τα συνιστώ!\n\nΠερισσότερες
-    συστάσεις (που δεν σχετίζονται απαραίτητα με τη δουλειά μου) στο <a target=\"_blank\"
-    href=\"https://yourstack.com/@that__anna\">προφίλ μου στο \U0001F95E YourStack</a>.\n"
+  en: "Some of the services I love to use—and often&nbsp;rely&nbsp;on."
+  el: "Τα παρακάτω προϊόντα/υπηρεσίες μου αρέσουν τόσο ώστε να τα συνιστώ."
 tools:
 - name: Napkin
   url: https://napkin.one/?via=anna
   img: "/uploads/napkin-logo.jpg"
   desc:
-    en: Napkin is a tool that helps you think, by tagging your thoughts automatically
+    en: A new tool that helps you *think*, by tagging your thoughts automatically
       in a way that allows for connections to naturally emerge. It fosters serendipity
-      by making it easy to find related thoughts and ideas. I’ve been using it for
-      a month and it feels like my brain has more capacity! (Affiliate link, opinion
-      is my own.)
+      by showing you related thoughts and ideas. (Affiliate link, opinion my own.)
     el: ''
 - name: Coda
   url: https://coda.io
@@ -93,15 +87,15 @@ tools:
       I mostly use CleanShot X now.'
     el: ''
   img: "/uploads/loom-logo.png"
-- name: Tweek
-  url: https://tweek.so
-  desc:
-    en: "Tweek literally changed my life. \U0001F499 I'm a sucker for complicated
-      digital tools but nothing could beat the clarity of using a simple paper planner.
-      Tweek is just like that but with all the advantages of being a digital product.
-      I can't recommend it highly enough!"
-    el: ''
-  img: "/uploads/tweek-logo.png"
+# - name: Tweek
+#   url: https://tweek.so
+#   desc:
+#     en: "Tweek literally changed my life. \U0001F499 I'm a sucker for complicated
+#       digital tools but nothing could beat the clarity of using a simple paper planner.
+#       Tweek is just like that but with all the advantages of being a digital product.
+#       I can't recommend it highly enough!"
+#     el: ''
+#   img: "/uploads/tweek-logo.png"
 - name: 1Feed
   url: https://1feed.app/
   desc:
