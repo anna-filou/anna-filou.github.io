@@ -439,6 +439,16 @@ h6 {
   text-shadow: none;
 }
 
+/* PAGE PROGRESS BAR */
+.progress { 
+  position: fixed; top: 0;
+  left: 0;
+  height: 4px;
+  background-color: #3bdc90; 
+  border-bottom: solid 4px;
+  border-image: linear-gradient(90deg, #dc3b3e 10%, #ff8f00 28%, #ffe066 35%, #3bdc90 50%, #3b99dc , #d535c3 90%) 100;
+}
+
 /* ARTICLE BLOG */
 
 blockquote, q, .blockquote, .q{
