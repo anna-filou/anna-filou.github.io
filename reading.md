@@ -4,6 +4,15 @@ lang: en
 ref: ''
 title: My Bookshelf
 books:
+- title: Learn To Code Now
+  cover: "/assets/books/learn-to-code-now-superhi.jpg"
+  author: Rik Lomas
+  read: '2023'
+  pages: 446
+  my-notes: |-
+    I actually started this way back in 2021… Then I chickened out once I reached the chapter on JavaScript. (I needn't be afraid.) Fast forward to January 2023, when I needed to learn some JavaScript *fast*, and I finished it in two days.
+
+    This book definitely supercharged my confidence in coding and it was genuinely fun to read! That says, it's full of typos and even has some omissions. For a paid guide, I'd expect someone would have corrected those.
 - title: The Magic Fish
   read: '2022'
   cover: "/uploads/book-the-magic-fish.jpg"
@@ -18,7 +27,10 @@ books:
   cover: "/assets/books/shoe-dog.jpg"
   author: Phil Knight
   pages: 400
-  my-notes: Incredibly well-written and captivating from the very first page. If you’d told me 3 months ago that an auto-biography would be among my favorite books ever, I would have laughed, but here we are. I highlighted over 20.000 words and feel a renewed drive to live and try things.
+  my-notes: Incredibly well-written and captivating from the very first page. If you’d
+    told me 3 months ago that an auto-biography would be among my favorite books ever,
+    I would have laughed, but here we are. I highlighted over 20.000 words and feel
+    a renewed drive to live and try things.
 - title: 12 Rules for Life
   read: now
   cover: "/uploads/12-rules-for-life.jpg"
@@ -119,12 +131,6 @@ books:
     There are many aspects of this book that I didn’t like, including the tone of voice, the frequent use of cheesy metaphors, and the lack of realism in the descriptions of ancient Greece. But in the end, I cried a little and that has to count for something.
 
     (Reading The Song of Achilles taught me way more about the Iliad than secondary school in Greece.)
-- title: Learn To Code Now
-  cover: "/assets/books/learn-to-code-now-superhi.jpg"
-  author: Rik Lomas
-  read: now
-  pages: 
-  my-notes: ''
 - title: The Design of Everyday Things
   cover: "/assets/books/the-design-of-everyday-things.png"
   author: Don Norman
