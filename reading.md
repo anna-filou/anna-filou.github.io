@@ -9,10 +9,12 @@ books:
   author: Rik Lomas
   read: '2023'
   pages: 446
-  my-notes: |-
-    I actually started this way back in 2021… Then I chickened out once I reached the chapter on JavaScript. (I needn't be afraid.) Fast forward to January 2023, when I needed to learn some JavaScript *fast*, and I finished it in two days.
-
-    This book definitely supercharged my confidence in coding and it was genuinely fun to read! That says, it's full of typos and even has some omissions. For a paid guide, I'd expect someone would have corrected those.
+  my-notes: "I actually started this way back in 2021… Then I chickened out once I
+    reached the chapter on JavaScript. (I needn’t be afraid.) Fast forward to January
+    2023, when I needed to learn some JavaScript *fast*, and I finished it in two
+    days.\n\nThis book definitely **supercharged my confidence in coding** and it
+    was genuinely fun to read! That said, it’s full of typos and even has some omissions.
+    I’d expect someone would have corrected those, since it’s a paid guide. "
 - title: The Magic Fish
   read: '2022'
   cover: "/uploads/book-the-magic-fish.jpg"
