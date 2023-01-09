@@ -5,7 +5,9 @@ lang: en
 date: January 7th, 2022
 
 ---
-* Started learning Javascript.
+* Started learning Javascript + jQuery:
+  * Was finally able to add a progress bar to my [article pages](/en/writing)) and
+  * a full-srceen menu to [Theeta's website](https://theeta.nl) on mobile!
 * Talking with [ChatGPT](https://chat.openai.com/), perhaps a bit too much.
 * Working out at home.  
 * Getting my thinking in order.
