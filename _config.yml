@@ -7,7 +7,7 @@ collections:
   posts:
     title: Posts
     output: true
-    permalink: /:title
+    permalink: /:categories/:title
   uploads:
     title: Uploads
     output: true
