@@ -1,9 +1,8 @@
 ---
-layout: about
 title: About
+layout: about
 lang: en
 ref: about
-
 ---
 
 ### Who are you?

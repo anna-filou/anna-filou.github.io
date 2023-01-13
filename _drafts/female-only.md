@@ -1,10 +1,12 @@
 ---
-layout: post
 title: The problem with “female-only” anything
-date: 2022-11-01
+date: 2022-11-01 00:00:00 Z
+categories:
+- en
+tags:
+- philosophy
+layout: post
 main-image: "/assets/drawings/watercolor-thoughts.jpg"
-categories: en
-tag: philosophy
 lang: en
 ---
 

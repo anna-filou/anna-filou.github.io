@@ -1,12 +1,13 @@
 ---
-layout: post
 title: Monster Energy Redesign Concept
-date: 2021-05-16
+date: 2021-05-16 00:00:00 Z
+categories:
+- en
+tags:
+- case study
+layout: post
 main-image: 
-categories: en
-tag: case study
 lang: en
-
 ---
 
 ![](https://mir-s3-cdn-cf.behance.net/project_modules/2800_opt_1/7cdb46105157851.5f732e90baa7d.jpeg)

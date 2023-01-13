@@ -1,8 +1,10 @@
 ---
-layout: now
 title: Now
+date: 2022-01-07 00:00:00 Z
+layout: now
 lang: en
 updated: January 7th, 2022
+
 ---
 
 * Started learning Javascript + jQuery:
