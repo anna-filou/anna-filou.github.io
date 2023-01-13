@@ -1,5 +1,6 @@
 ---
-title: Everyone keeps making the same mistakes. 
+title: Everyone keeps making the same mistakes.
+date: 2000-01-01 00:00:00 Z
 ---
 
 All the people online giving advice to their younger selves and a plethora of young readers hoping to make the most of their lives seem to agree on the following: 
