@@ -1,13 +1,12 @@
 ---
-title: Choosing your “face”
-date: 2022-10-31 00:00:00 Z
-categories:
-- en
-tags:
-- philosophy
 layout: post
+title: Choosing your “face”
+date: 2022-10-31
 main-image: 
+categories: en
+tag: philosophy
 lang: en
+
 ---
 
 <p>

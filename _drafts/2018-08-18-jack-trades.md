@@ -1,13 +1,12 @@
 ---
-title: I’m afraid I’m becoming a Jack of all trades.
-date: 2018-08-18 00:00:00 Z
-categories:
-- en
-tags:
-- work
 layout: post
+title: I’m afraid I’m becoming a Jack of all trades.
+date: 2018-08-18
 main-image: 
+categories: en
+tag: work
 lang: en
+
 ---
 
 *My compulsion to do everything and do it well.*

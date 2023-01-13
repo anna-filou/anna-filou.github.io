@@ -1,8 +1,8 @@
 ---
-title: My Bookshelf
 layout: reading
 lang: en
 ref: ''
+title: My Bookshelf
 books:
 - title: Learn To Code Now
   cover: "/assets/books/learn-to-code-now-superhi.jpg"
@@ -198,6 +198,6 @@ books:
   my-notes: "Despite being a quick read, this book is full of insights on human psychology
     and advice that one would have to spend years collecting. My feelings are a bit
     mixed but overall I think I’ve gained something valuable. \U0001F499\n"
----
 
+---
 I use this page as a way to keep track of the books I read, starting in 2021, in a way that makes sense to me.
