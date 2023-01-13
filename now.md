@@ -1,10 +1,10 @@
 ---
-layout: now
 title: Now
+date: 2022-01-07 00:00:00 Z
+layout: now
 lang: en
-date: January 7th, 2022
-
 ---
+
 * Started learning Javascript + jQuery:
   * Was finally able to add a progress bar to my [article pages](/en/writing)) and
   * a full-srceen menu to [Theeta's website](https://theeta.nl) on mobile!
