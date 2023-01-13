@@ -5,9 +5,9 @@ categories:
 - en
 tags:
 - philosophy
-layout: post
-main-image: "/assets/drawings/watercolor-thoughts.jpg"
+main-image: 
 lang: en
+layout: post
 ---
 
 In the past years a lot of female-only social networks have popped up. Some of them for professional networking and others for companionship. (I'm not including dating apps.)
