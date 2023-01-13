@@ -2,9 +2,9 @@
 layout: now
 title: Now
 lang: en
-date: January 7th, 2022
-
+updated: January 7th, 2022
 ---
+
 * Started learning Javascript + jQuery:
   * Was finally able to add a progress bar to my [article pages](/en/writing)) and
   * a full-srceen menu to [Theeta's website](https://theeta.nl) on mobile!
