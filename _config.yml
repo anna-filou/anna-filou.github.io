@@ -15,6 +15,9 @@ baseurl: ''
 url: https://annafilou.com
 permalink: pretty
 highlighter: rouge
+sass:
+    style: compressed
+    sourcemap: always
 plugins:
 - jekyll-feed
 exclude:

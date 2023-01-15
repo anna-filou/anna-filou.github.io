@@ -1,0 +1,32 @@
+@media print
+{    
+    body {
+      background-color: transparent !important;
+      color: black;
+      font-size: 12px !important;
+    }
+
+    a {
+      border-bottom: 2px solid !important;
+    }
+
+    section {
+      margin: 10px 0 !important;
+    }
+
+    .container {
+      max-width: 100% !important;
+      margin: 20px !important;
+    }
+
+    header {
+      display: none !important;
+    }
+    footer {
+      display: none !important;
+    }
+    .no-print, .no-print *
+    {
+        display: none !important;
+    }
+}

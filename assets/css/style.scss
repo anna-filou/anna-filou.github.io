@@ -1,0 +1,355 @@
+---
+---
+@import 'typography', 'article', 'code', 'print';
+
+$media-small: 620px;
+$media-xs: 370px;
+
+$container: 1128px;
+
+/* COLORS */
+
+$light-bg: #EAE6E3;
+$dark-bg: #100023;
+
+$light-faint: #E1DCD3;
+$dark-faint: #1f1c3f;
+
+$light-body: #4d4444;
+$dark-body: #bec7de;
+
+$light-secondary: #535353;
+$dark-secondary: #a8b0c7;
+
+$light-tertiary: #777777;
+$dark-tertiary: #6586b0;
+
+$light-headings: #171717;
+$dark-headings: #e3e3e3;
+
+$light-a: #3e4497;
+$dark-a: #6fe7d6;
+
+$light-a-hover: #000000;
+$dark-a-hover: #ffffff;
+
+$light-selection: #82c5bc;
+$dark-selection: #038573;
+
+
+.border-rainbow {
+  /* just the color, width etc must be defined */
+  border-image: linear-gradient(90deg, #dc3b3e 10%, #ff8f00 28%, #ffe066 35%, #3bdc90 50%, #3b99dc , #d535c3 90%) 100;
+}
+
+/* DEFAULT LIGHT  */
+
+body {
+  background-color: $light-bg;
+}
+
+body, nav a, .main {
+  color: $light-body;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: $light-headings;
+}
+
+a {
+  color: $light-a;
+}
+a:hover {
+  color: $light-a-hover;
+}
+
+::-moz-selection {
+  background: $light-selection;
+}
+
+::selection {
+  background: $light-selection;
+}
+
+header {
+  background-color: $light-bg;
+  box-shadow: 0px 2px 40px rgba(0, 0, 0, 0.178);
+}
+
+svg {
+  fill: $light-headings;
+}
+
+.secondary {
+  color: $light-secondary;
+}
+
+.tertiary {
+  color: $light-tertiary;
+}
+
+.vw-100 { width: 100vw; }
+
+.smooth-shadow {
+  box-shadow:
+  0 1.5px 54.5px -71px rgba(0, 0, 0, 0.74),
+  0 3.5px 46.5px -71px rgba(0, 0, 0, 1.023),
+  0 6.7px 33.5px -71px rgba(0, 0, 0, 1.056),
+  0 13.2px 25.5px -71px rgba(0, 0, 0, 0.969),
+  0 49px 80px -71px rgba(0, 0, 0, 1);
+}
+
+.outline {
+  outline: 1px solid rgba(22, 19, 63, 0.1);
+  outline-offset: -1px;
+}
+
+.bg-faint {
+  background-color: $light-faint;
+}
+
+.b--faint, hr {
+  border-color: $light-faint;
+}
+
+.hover-bg-faint:hover { background-color: $light-faint; }
+
+.hover-rotate-left:hover {rotate: -15deg;}
+
+@media (prefers-color-scheme: dark) {
+  body {
+    background-color: $dark-bg;
+  }
+
+  body, nav a, .main {
+    color: $dark-body;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    color: $dark-headings;
+  }
+
+  a {
+    /* color: #a1d8f1; */
+    color: $dark-a;
+  }
+
+  a:hover {
+    color: $dark-a-hover;
+  }
+  
+  ::-moz-selection {
+    background: $dark-selection;
+    color: white;
+  }
+  
+  ::selection {
+    background: $dark-selection;
+    color: white;
+  }
+
+  header {
+    background-color: $dark-faint;
+    box-shadow: 0px 2px 40px rgba(0, 0, 0, 0.9);
+  }
+
+  article figure, div.highlight, .language-plaintext {
+    border: 2px solid rgb(87, 87, 87);
+  }
+
+  .language-plaintext {
+    background-color: #272822;
+    color: rgb(216, 226, 195);
+  }
+
+  svg {
+    fill: #ebeff3;
+  }
+
+  .secondary {
+    color: $dark-secondary;
+  }
+
+  .tertiary {
+    color: $dark-tertiary;
+  }
+
+  .bg-faint {
+    background-color: $dark-faint;
+  }
+
+  .b--faint, hr {
+    border-color: $dark-faint;
+  }
+
+  .hover-bg-faint:hover { background-color: $dark-faint; }
+
+}
+@media (prefers-color-scheme: light) {
+  body {
+    background-color: $light-bg;
+  }
+
+  body, nav a, .main {
+    color: $light-body;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    color: $light-headings;
+  }
+
+  a {
+    color: $light-a;
+  }
+  a:hover {
+    color: $light-a-hover;
+  }
+  
+  ::-moz-selection {
+    background: $light-selection;
+  }
+  
+  ::selection {
+    background: $light-selection;
+  }
+
+  header {
+    background-color: $light-bg;
+    box-shadow: 0px 2px 40px rgba(0, 0, 0, 0.178);
+  }
+
+  svg {
+    fill: $light-headings;
+  }
+
+  .language-plaintext {
+    border: 1.5px solid rgb(212, 212, 212) ;
+    background-color: rgb(238, 238, 238);
+  }
+
+  .secondary {
+    color: $light-secondary;
+  }
+
+  .tertiary {
+    color: $light-tertiary;
+  }
+
+  .bg-faint {
+    background-color: $light-faint;
+  }
+
+  .b--faint, hr {
+    border-color: $light-faint;
+  }
+
+  .hover-bg-faint:hover { background-color: $light-faint; }
+}
+
+body {
+  /* font-family: 'Inter', Arial, sans-serif; */
+  font-family: 'Space Grotesk', Arial, sans-serif;
+  font-size: 18px;
+  line-height: 1.4;
+}
+
+nav {
+  max-width: 1100px;
+  padding-left: 12px;
+  padding-right: 12px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+hr {
+  border-width: 1px;
+  border-style: solid;
+  margin: 5em 0 4em;
+}
+
+.nml {
+  margin-left: -6px;
+}
+
+.container, .container-ns {
+  max-width: $container;
+  padding-left: 16px;
+  padding-right: 16px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.max-vh-80 {
+  max-height: 80vh;
+}
+.max-vh-70 {
+  max-height: 70vh;
+}
+
+
+::-moz-selection {
+  text-shadow: none;
+}
+
+::selection {
+  text-shadow: none;
+}
+
+/* PAGE PROGRESS BAR */
+.progress { 
+  position: fixed; top: 0;
+  left: 0;
+  height: 4px;
+  background-color: #3bdc90; 
+  border-bottom: solid 4px;
+  border-image: linear-gradient(90deg, #dc3b3e 10%, #ff8f00 28%, #ffe066 35%, #3bdc90 50%, #3b99dc , #d535c3 90%) 100;
+}
+
+
+/* SMALL SCREEN */
+@media (max-width: $media-small) {
+  body {
+    font-size: 18px;
+    margin-bottom: 6em;
+  } 
+
+  nav {
+    padding: 0;
+  }
+
+  .flag-icon {
+    height: 5px;
+    padding: 0;
+  }
+
+  .container-ns {
+    max-width: 100vw;
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  .nml {
+    margin-left: -2px;
+  }
+
+  header {
+    position: fixed;
+    width: 100vw;
+    left: 0px;
+    bottom: 0px;
+    margin: 0;
+    z-index: 999;
+  }
+
+}
+
+
+.lh0 { line-height: 0; }
+
+
+/* VERY SMALL SCREEN */
+@media (max-width: $media-xs) {
+  h1 {
+    font-size: 1.5em;
+  }
+}

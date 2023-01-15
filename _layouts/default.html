@@ -1,14 +1,16 @@
 <!DOCTYPE html>
 <html>
 <head>
-    {% include head.html %}
+{% include head.html %}
 </head>
 <body lang="{{page.lang}}" class="">
-<main>
+    <main>
 {% include navbar.html %}
 {{ content }}
-</main>
-{% include footer.html %}
+    </main>
+    {% include footer.html %}
 
+    <script src="/assets/js/jquery-3.6.3.min.js"></script>
+	<script src="/assets/js/progress.js"></script>
 </body>
 </html>
