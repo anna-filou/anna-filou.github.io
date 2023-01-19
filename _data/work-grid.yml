@@ -52,6 +52,18 @@
   - name: Web design
     classes: bg-lightest-blue dark-blue
 - title:
+    en: Concept for Time Tracker
+    el: 
+  desc:
+    en: "Spend your time intentionally by tagging every hour."
+    el: ""
+  img: "/assets/hourly-tracker-v1-demo.gif"
+  tags:
+  - name: Just for&nbsp;fun
+    classes: bg-light-yellow orange
+  - name: App design
+    classes: bg-lightest-blue dark-blue
+- title:
     en: Concept for Planner App
     el: 
   desc:
@@ -76,6 +88,18 @@
   - name: Web design & development
     classes: bg-lightest-blue dark-blue
 - title:
+    en: Logo for Platinum Stores
+    el: Logo για την Platinum Stores
+  desc:
+    en: Timeless logo design
+    el: 
+  img: "/assets/platinum-window-mockup.jpg"
+  tags:
+  - name: Logo design
+    classes: bg-light-yellow orange
+  - name: Client work
+    classes: bg-moon-gray navy
+- title:
     en: Beckher — SDA Manufacturer Website
     el: Beckher — Ιστοσελιδα κατασκευαστη μικρων οικιακων συσκευων
   desc:
@@ -88,18 +112,6 @@
     classes: bg-moon-gray navy
   - name: Web design & development
     classes: bg-lightest-blue dark-blue
-- title:
-    en: Logo for Platinum Stores
-    el: Logo για την Platinum Stores
-  desc:
-    en: Timeless logo design
-    el: 
-  img: "/assets/platinum-window-mockup.jpg"
-  tags:
-  - name: Logo design
-    classes: bg-light-yellow orange
-  - name: Client work
-    classes: bg-moon-gray navy
 - title:
     en: Mig Lock — Business Consultant
     el: Mig Lock — Business Consultant

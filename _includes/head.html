@@ -21,6 +21,64 @@
 
     {% include analytics.html %}
 
+    {% if page.style %}
+    <style>
+        @media (prefers-color-scheme: light) {
+            body {
+                /* background-color: #100023; */
+                background-color: {{ page.style.light.bg }};
+            }
+            header {
+                /* background-color: #1f1c3f; */
+                background-color: {{ page.style.light.nav }};
+            }
+            body, nav a, .main {
+                /* color: #bec7de; */
+                color: {{ page.style.light.text }};
+            }
+            .secondary {
+                /* color: #a8b0c7; */
+                color: {{ page.style.light.secondary }};
+            }
+            .b--faint, hr {
+                /* border-color: #1f1c3f; */
+                border-color: {{ page.style.light.b--faint }};
+            }
+            .bg-faint {
+                /* background-color: #1f1c3f; */
+                background-color: {{ page.style.light.bg-faint }};
+            }
+        }
+
+        @media (prefers-color-scheme: dark) {
+            body {
+                /* background-color: #100023; */
+                background-color: {{ page.style.dark.bg }};
+            }
+            header {
+                /* background-color: #1f1c3f; */
+                background-color: {{ page.style.dark.nav }};
+            }
+            body, nav a, .main {
+                /* color: #bec7de; */
+                color: {{ page.style.dark.text }};
+            }
+            .secondary {
+                /* color: #a8b0c7; */
+                color: {{ page.style.dark.secondary }};
+            }
+            .b--faint, hr {
+                /* border-color: #1f1c3f; */
+                border-color: {{ page.style.dark.b--faint }};
+            }
+            .bg-faint {
+                /* background-color: #1f1c3f; */
+                background-color: {{ page.style.dark.bg-faint }};
+            }
+        }
+    </style>
+    {% endif %}
+
     <script>
         /* to prevent Firefox FOUC */
         let FF_FOUC_FIX;
