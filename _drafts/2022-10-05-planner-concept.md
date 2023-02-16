@@ -1,5 +1,5 @@
 ---
-title: Monster Energy Homepage Concept
+title: Planner App Concept
 date: 2022-10-05 00:00:00 Z
 categories:
 - en
@@ -13,19 +13,15 @@ banner: "/assets/effortless-c3.jpg"
 intro: Design for parts of a planner app concept that automatically prioritizes your tasks.
 style: 
   light: 
-    bg: '#E1EBDE'
-    nav: '#E7F3E8'
-    text: '#1e4526'
-    secondary: '#2c7022'
-    b--faint: '#BFE4C4'
-    bg-faint: '#D0E6D3'
+    text: '#45301e'
+    secondary: '#8f4b0e'
   dark: 
-    bg: '#001800'
-    nav: '#0d230d'
-    text: '#d7e0c6'
-    secondary: '#95b685'
-    b--faint: '#152615'
-    bg-faint: '#152615'
+    bg: '#2e1f16'
+    nav: '#3b2a20'
+    text: '#e0d1c6'
+    secondary: '#b6a185'
+    b--faint: '#413120'
+    bg-faint: '#3d2f25'
 sections:
 - title: The Struggle
   text: |-
