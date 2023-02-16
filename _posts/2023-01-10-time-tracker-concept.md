@@ -10,7 +10,7 @@ main-image:
 lang: en
 type: mobile app design concept
 banner: "/assets/time-tracker-concept-banner.jpg"
-intro: I often found myself wondering “where did the time go?” I came across personal time trackers, but found tracking every minute impossible. Then I found hourly time trackers but all of them seemed to complex and slow to use. So I made my own.
+intro: I used to wonder where my time went. I tried personal time trackers, but they were and cumbersome. I liked the concept of an hourly tracker, and made my own.
 style: 
   light: 
     bg: '#CDD1D7'
