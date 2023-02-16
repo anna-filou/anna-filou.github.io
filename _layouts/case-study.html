@@ -40,7 +40,8 @@ layout: default
                 </div>
             </div>
         </div>
-        {% if section.image-1 %}
+        
+        {% if section.image-1 and section.image-2%}
             <div class="cf">
                 <div class="w-50-ns fl mb3 mb0-ns">
                     <img src="{{section.image-1}}" alt="">
@@ -49,7 +50,14 @@ layout: default
                     <img src="{{section.image-2}}" alt="">
                 </div>
             </div>
+        {% elsif section.image-1 %}
+        
+            <div class="mb3 mb0-ns">
+                <img src="{{section.image-1}}" alt="">
+            </div>
+
         {% endif %}
+        
     </div>
 
 {%- endfor -%}  
