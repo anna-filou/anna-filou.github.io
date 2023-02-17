@@ -1,3 +1,4 @@
+---
 label: post
 hide_body: false
 fields:
@@ -22,6 +23,3 @@ fields:
   name: lang
   label: Language
   hidden: false
-pages:
-- _posts/2021-04-14-welcome-to-jekyll.md
-- _posts/draft-post.md
