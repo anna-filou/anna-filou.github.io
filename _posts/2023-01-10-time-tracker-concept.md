@@ -1,6 +1,6 @@
 ---
 title: Time Tracker Concept
-date: 2023-01-10 00:00:00 Z
+date: 2023-01-10T00:00:00.000+00:00
 categories:
 - en
 tags:
@@ -10,20 +10,22 @@ main-image:
 lang: en
 type: mobile app design concept
 banner: "/assets/time-tracker-concept-banner.jpg"
-intro: I used to wonder where my time went. I tried personal time trackers, but they were and cumbersome. I liked the concept of an hourly tracker, and made my own.
-style: 
-  light: 
-    bg: '#CDD1D7'
-    nav: '#D8DCE2'
-    b--faint: '#BDC3E6'
-    bg-faint: '#C2C9D5'
-  dark: 
-    bg: '#2e162a;'
-    nav: '#3b203b'
-    text: '#e2d2e7'
-    secondary: '#cf9dbb'
-    b--faint: '#4b2e56'
-    bg-faint: '#37253d'
+intro: I used to wonder where my time went. I tried some personal time trackers, but
+  found them complicated and inconvenient. I liked the concept of an hourly tracker,
+  and made my own.
+style:
+  light:
+    bg: "#CDD1D7"
+    nav: "#D8DCE2"
+    b--faint: "#BDC3E6"
+    bg-faint: "#C2C9D5"
+  dark:
+    bg: "#2e162a;"
+    nav: "#3b203b"
+    text: "#e2d2e7"
+    secondary: "#cf9dbb"
+    b--faint: "#4b2e56"
+    bg-faint: "#37253d"
 sections:
 - title: Concept & Design
   text: |-
@@ -35,8 +37,11 @@ sections:
   image-1: "/assets/time-tracker-top.jpg"
   image-2: "/assets/time-tracker-bottom.jpg"
 - title: Working prototype
-  text: |-
-    I quickly made a working prototype in [Coda](https://coda.io) (where I don't have much control over the design), which I’ve been using every day since. I find I'm more mindful about how I spend my time because I mentally check in with myself during the day, in order to log my time later.
+  text: I quickly made a working prototype in [Coda](https://coda.io) (where I don't
+    have much control over the design), which I’ve been using every day since. I find
+    I'm more mindful about how I spend my time because I mentally check in with myself
+    during the day, in order to log my time later.
   image-1: "/assets/time-tracker-coda-today.jpg"
   image-2: "/assets/time-tracker-coda-acitivity-chart.jpg"
+
 ---
