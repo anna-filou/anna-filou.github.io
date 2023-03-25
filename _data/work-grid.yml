@@ -11,6 +11,18 @@
   - name: Web design & development
     classes: bg-lightest-blue dark-blue
 - title:
+    en: The Newsroom
+    el: 
+  desc:
+    en: "Reducing bias in news reporting / [→ Read the case study](/en/newsroom)"
+    el: 
+  img: "/assets/newsroom-4x3.jpg"
+  tags:
+  - name: Client work
+    classes: bg-moon-gray navy
+  - name: App design
+    classes: bg-lightest-blue dark-blue
+- title:
     en: DYNAMIKI - Beverage Distribution Network
     el: ΔΥΝΑΜΙΚΗ - Δικτυο διανομης ποτων
   desc:
