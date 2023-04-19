@@ -110,6 +110,41 @@ layout: default
   </div>
 </section>
 
+<section class="container">
+  <hr>
+  <h2 class="ttu">Featured projects</h2>
+
+  <div class="mt6 mt5-ns">
+
+    {% for case in site.data.case-list %}
+
+      <a href="{{ case.url }}">
+        <div class="grow br3 bg-faint pa3 pa4-ns grow nl2-l nr2-l mb4 flex flex-column-reverse flex-column-ns">
+          <div class="flex flex-column flex-row-ns justify-between">
+            <div class="w-70-ns">
+              <h3 class="ttu mv0">{{ case.title[page.lang] }}</h3>
+              <div class="f3 measure secondary fw5 lh-title mv4">
+                {{ case.desc[page.lang] }}
+              </div>
+            </div>
+            <div class="tr w-30-ns flex flex-column justify-between mb0">
+              <div class="tracked f3 fw1 tertiary mv0">{{ case.year }}</div>
+              <div class="f3 mv0 mb4-ns">Case&nbsp;study&nbsp;→</div>
+            </div>
+          </div>
+          <img
+            src="{{ case.img }}"
+            class="br2 mb4 mb0-ns"
+            alt="{{ case.title[page.lang] }} by Anna Filou">
+        </div>
+      </a>
+
+    {% endfor %}
+  </div>
+
+
+</section>
+
 <div class="container" id="work">
   <hr>
   <h2 class="ttu">{{ data.work.title[page.lang] }}</h2>
