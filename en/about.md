@@ -3,7 +3,6 @@ layout: about
 title: About
 lang: en
 ref: about
-published: false
 
 ---
 ### Who are you?
