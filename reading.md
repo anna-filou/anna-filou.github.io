@@ -4,6 +4,21 @@ layout: reading
 lang: en
 ref: ''
 books:
+- title: 1984
+  read: now
+  cover: "/assets/books/1984.jpg"
+  author: George Orwell
+  pages: 368
+  my-notes: ''
+- title: 12 Rules for Life
+  read: '2023'
+  cover: "/uploads/12-rules-for-life.jpg"
+  author: Jordan B. Peterson
+  pages: 320
+  my-notes:  |- 
+    I wasn’t aware of the controversy surrounding Jordan Peterson when I started reading this book, but still noticed how he seemed to present some of his personal opinions as scientific fact (e.g. supposedly innate psychological difference between men and women), even though in most other cases he uses references to base his arguments on. 
+    
+    Despite its flaws, this is a good book, because it makes you think about various topics which we don’t usually discuss.
 - title: Learn To Code Now
   cover: "/assets/books/learn-to-code-now-superhi.jpg"
   author: Rik Lomas
@@ -33,12 +48,6 @@ books:
     told me 3 months ago that an auto-biography would be among my favorite books ever,
     I would have laughed, but here we are. I highlighted over 20.000 words and feel
     a renewed drive to live and try things.
-- title: 12 Rules for Life
-  read: now
-  cover: "/uploads/12-rules-for-life.jpg"
-  author: Jordan Peterson
-  pages: 320
-  my-notes: ''
 - title: Whistling Vivaldi
   read: now
   cover: "/uploads/whistling-vivaldi-book.png"
