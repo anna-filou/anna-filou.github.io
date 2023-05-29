@@ -35,6 +35,18 @@
   - name: App design
     classes: bg-lightest-blue dark-blue
 - title:
+    en: Airboxr web-app
+    el: 
+  desc:
+    en: "Get automated reports from multiple sources within your spreadsheets / [Try&nbsp;the&nbsp;web&nbsp;app →](https://www.airboxr.com/)"
+    el: 
+  img: "/assets/airboxr-4x3.jpg"
+  tags:
+  - name: Client work
+    classes: bg-moon-gray navy
+  - name: Web-app design
+    classes: bg-lightest-blue dark-blue
+- title:
     en: DYNAMIKI - Beverage Distribution Network
     el: ΔΥΝΑΜΙΚΗ - Δικτυο διανομης ποτων
   desc:
@@ -123,19 +135,19 @@
     classes: bg-light-yellow orange
   - name: Client work
     classes: bg-moon-gray navy
-- title:
-    en: Beckher — SDA Manufacturer Website
-    el: Beckher — Ιστοσελιδα κατασκευαστη μικρων οικιακων συσκευων
-  desc:
-    en: "Custom code / Jekyll / [Live website →](https://beckher.com)"
-    el: "[Δείτε το site ζωντανά](https://beckher.com) / Custom code and
-      Jekyll."
-  img: "/assets/beckher-screens.jpg"
-  tags:
-  - name: Client work
-    classes: bg-moon-gray navy
-  - name: Web design & development
-    classes: bg-lightest-blue dark-blue
+# - title:
+#     en: Beckher — SDA Manufacturer Website
+#     el: Beckher — Ιστοσελιδα κατασκευαστη μικρων οικιακων συσκευων
+#   desc:
+#     en: "Custom code / Jekyll / [Live website →](https://beckher.com)"
+#     el: "[Δείτε το site ζωντανά](https://beckher.com) / Custom code and
+#       Jekyll."
+#   img: "/assets/beckher-screens.jpg"
+#   tags:
+#   - name: Client work
+#     classes: bg-moon-gray navy
+#   - name: Web design & development
+#     classes: bg-lightest-blue dark-blue
 - title:
     en: Mig Lock — Business Consultant
     el: Mig Lock — Business Consultant
@@ -160,19 +172,19 @@
 #     classes: bg-moon-gray navy
 #   - name: Web design & development
 #     classes: bg-lightest-blue dark-blue
-- title:
-    en: Restaurant Website — Bistrot&nbsp;46
-    el: Ιστοσελιδα εστιατοριου — Bistrot&nbsp;46
-  desc:
-    en: Design, Webflow development, photography
-    el: Σχεδιασμός, development με Webflow, φωτογράφιση και μενού που τροφοδοτείται
-      από το Airtable.
-  img: "/assets/bistrot46-screens.jpg"
-  tags:
-  - name: Client work
-    classes: bg-moon-gray navy
-  - name: Webflow
-    classes: bg-lightest-blue purple
+# - title:
+#     en: Restaurant Website — Bistrot&nbsp;46
+#     el: Ιστοσελιδα εστιατοριου — Bistrot&nbsp;46
+#   desc:
+#     en: Design, Webflow development, photography
+#     el: Σχεδιασμός, development με Webflow, φωτογράφιση και μενού που τροφοδοτείται
+#       από το Airtable.
+#   img: "/assets/bistrot46-screens.jpg"
+#   tags:
+#   - name: Client work
+#     classes: bg-moon-gray navy
+#   - name: Webflow
+#     classes: bg-lightest-blue purple
 - title:
     en: MegaMan-inspired Launcher setup
     el: MegaMan-inspired Launcher setup

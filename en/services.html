@@ -20,7 +20,7 @@ services:
     - Custom HTML & CSS
     - Webflow
     - Jekyll
-    - Forestry.io CMS
+    - Headless CMS
   notes: 
 - title: Illustrations for
   url: graphics
@@ -52,7 +52,7 @@ faq:
     My most recent web projects were in the 1.000–5.000 € range.
 - q: Do you work with WordPress, Joomla, … etc.?
   a: No. Since complex CMS like WordPress are not necessary for most websites, I work with
-    headless CMS like [Forestry](https://forestry.io/). If you can’t switch away from your current system, I
+    headless CMS. If you can’t switch away from your current system, I
     will design your site and your developer of choice will develop it.
 - q: Do you make sites on platforms like Wix and Squarespace?
   a: No. I typically develop sites by writing code in a code editor. I can also use [Webflow](https://webflow.com/), 
@@ -64,7 +64,7 @@ faq:
 ---
 
 <section class="container mv3">
-    <div class="bg-faint flex items-center justify-center tc pv2 pa4 br2">
+    <div class="bg-faint flex items-center justify-center tc pv2 pa4 br3">
         <div class="w1 h1 bg-red br3 mr3"></div>
         <div class="f6 f5-ns o-80">Currently: {{ site.availability }}</div>
     </div>
@@ -96,8 +96,8 @@ faq:
 
     <div class="flex flex-column flex-row-ns space-between nr3-ns nl3-ns mt5">
         {% for service in page.services %}
-        <a class="main w-100 mw6 center w-third-ns mv2 mt3-ns mb0-ns" href="/{{page.lang}}/{{service.url}}">
-            <div class="bg-faint pa4 smooth-shadow br2 mh3-ns grow">
+        <a class="main w-100 mw6 center w-third-ns mv2 mt3-ns mb0-ns link" href="/{{page.lang}}/{{service.url}}">
+            <div class="bg-faint pa4 smooth-shadow br3 mh3-ns grow">
                 <i class="{{service.icon}} f1"></i>
                 <h3 class="mt5">{{service.title}}</h3>
                 {{service.li | markdownify}}
