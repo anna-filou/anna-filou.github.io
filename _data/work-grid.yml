@@ -8,8 +8,10 @@
   tags:
   - name: Client work
     classes: bg-moon-gray navy
+    color: green
   - name: Web design & development
     classes: bg-lightest-blue dark-blue
+    color: blue
 - title:
     en: LGBT Myths
     el: 
@@ -20,8 +22,10 @@
   tags:
   - name: Personal
     classes: bg-light-yellow orange
+    color: yellow
   - name: Web design & development
     classes: bg-lightest-blue dark-blue
+    color: blue
 - title:
     en: The Newsroom
     el: 
@@ -32,8 +36,10 @@
   tags:
   - name: Client work
     classes: bg-moon-gray navy
+    color: green
   - name: App design
     classes: bg-lightest-blue dark-blue
+    color: blue
 - title:
     en: Airboxr web-app
     el: 
@@ -44,8 +50,10 @@
   tags:
   - name: Client work
     classes: bg-moon-gray navy
+    color: green
   - name: Web-app design
     classes: bg-lightest-blue dark-blue
+    color: blue
 - title:
     en: DYNAMIKI - Beverage Distribution Network
     el: ΔΥΝΑΜΙΚΗ - Δικτυο διανομης ποτων
@@ -58,10 +66,13 @@
   tags:
   - name: Web design
     classes: bg-lightest-blue dark-blue
+    color: blue
   - name: Agency work
     classes: bg-moon-gray navy
+    color: green
   - name: The Smiling Hippo
     classes: bg-dark-blue lightest-blue
+    color: blue
 - title:
     en: Backyard — Cozy Hair Salon
     el: 
@@ -72,8 +83,10 @@
   tags:
   - name: Client work
     classes: bg-moon-gray navy
+    color: green
   - name: Web design & development
     classes: bg-lightest-blue dark-blue
+    color: blue
 - title:
     en: MONSTER ENERGY HOMEPAGE CONCEPT
     el: MONSTER ENERGY HOMEPAGE CONCEPT
@@ -85,8 +98,10 @@
   tags:
   - name: Just for&nbsp;fun
     classes: bg-light-yellow orange
+    color: yellow
   - name: Web design
     classes: bg-lightest-blue dark-blue
+    color: blue
 - title:
     en: Concept for Time Tracker
     el: 
@@ -97,8 +112,10 @@
   tags:
   - name: Just for&nbsp;fun
     classes: bg-light-yellow orange
+    color: yellow
   - name: App design
     classes: bg-lightest-blue dark-blue
+    color: blue
 - title:
     en: Concept for Planner App
     el: 
@@ -109,8 +126,10 @@
   tags:
   - name: Just for&nbsp;fun
     classes: bg-light-yellow orange
+    color: yellow
   - name: App design
     classes: bg-lightest-blue dark-blue
+    color: blue
 - title:
     en: Micronavi — Electronics Distributor
     el: Micronavi — Distributor Ηλεκτρωνικών
@@ -121,8 +140,10 @@
   tags:
   - name: Client work
     classes: bg-moon-gray navy
+    color: green
   - name: Web design & development
     classes: bg-lightest-blue dark-blue
+    color: blue
 - title:
     en: Logo for Platinum Stores
     el: Logo για την Platinum Stores
@@ -131,10 +152,12 @@
     el: 
   img: "/assets/platinum-window-mockup.jpg"
   tags:
-  - name: Logo design
-    classes: bg-light-yellow orange
   - name: Client work
     classes: bg-moon-gray navy
+    color: green
+  - name: Logo design
+    classes: bg-light-yellow orange
+    color: blue
 # - title:
 #     en: Beckher — SDA Manufacturer Website
 #     el: Beckher — Ιστοσελιδα κατασκευαστη μικρων οικιακων συσκευων
@@ -148,18 +171,18 @@
 #     classes: bg-moon-gray navy
 #   - name: Web design & development
 #     classes: bg-lightest-blue dark-blue
-- title:
-    en: Mig Lock — Business Consultant
-    el: Mig Lock — Business Consultant
-  desc:
-    en: "Made with custom code. [Live website →](http://miglock.co.uk)"
-    el: "[Δείτε το site ζωντανά](http://miglock.co.uk) / Made with custom code."
-  img: "/assets/miglock-scrollcap.gif"
-  tags:
-  - name: Client work
-    classes: bg-moon-gray navy
-  - name: Web design & development
-    classes: bg-lightest-blue dark-blue
+# - title:
+#     en: Mig Lock — Business Consultant
+#     el: Mig Lock — Business Consultant
+#   desc:
+#     en: "Made with custom code. [Live website →](http://miglock.co.uk)"
+#     el: "[Δείτε το site ζωντανά](http://miglock.co.uk) / Made with custom code."
+#   img: "/assets/miglock-scrollcap.gif"
+#   tags:
+#   - name: Client work
+#     classes: bg-moon-gray navy
+#   - name: Web design & development
+#     classes: bg-lightest-blue dark-blue
 # - title:
 #     en: Jewelry Store - Aevum
 #     el: Online Κοσμηματοπωλειο - Aevum
@@ -195,8 +218,10 @@
   tags:
   - name: Just for fun
     classes: bg-light-yellow orange
+    color: yellow
   - name: Illustration
     classes: bg-washed-red dark-red
+    color: pink
 - title:
     en: Werewolf Game Cards
     el: Καρτες παιχνιδιου «Παλερμο»
@@ -207,8 +232,10 @@
   tags:
   - name: Just for fun
     classes: bg-light-yellow orange
+    color: yellow
   - name: Illustration
     classes: bg-washed-red dark-red
+    color: pink
 - title:
     en: Amazon Signup Page Concept
     el: Ιδεα για σελιδας εγγραφης Amazon
@@ -219,5 +246,7 @@
   tags:
   - name: Just for fun
     classes: bg-light-yellow orange
+    color: yellow
   - name: Web design
     classes: bg-lightest-blue dark-blue
+    color: blue
