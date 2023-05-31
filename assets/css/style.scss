@@ -412,3 +412,12 @@ hr {
     font-size: 1.5em;
   }
 }
+
+.book-container-gradient {
+  @media (prefers-color-scheme: light) {
+    background: linear-gradient(90deg, #ffffff00 0%, $light-bg 83.85%);
+  }
+  @media (prefers-color-scheme: dark) {
+    background: linear-gradient(90deg, #ffffff00 0%, $dark-bg 83.85%);
+  }
+}

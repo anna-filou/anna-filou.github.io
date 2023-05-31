@@ -29,6 +29,7 @@ AND adds the following code in the {{content}} area of default.html -->
 </div>
 
 <section class="container-ns">
+    <div class="relative">
     <div class="pl3 pl0-ns nowrap overflow-x-auto flex items-end w-100">
         {%- for book in page.books-%}
             {%- if book.read == "now" -%}
@@ -41,6 +42,8 @@ AND adds the following code in the {{content}} area of default.html -->
             </div>
             {%- endif -%}
         {%- endfor -%}  
+    </div>
+    <div class="absolute top-0 right-0 bg-red h-100 w-20 book-container-gradient"></div>
     </div>
 </section>
 
