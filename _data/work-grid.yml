@@ -1,6 +1,6 @@
 - title:
-    en: Theeta — Production & Distribution
-    el: Theeta — Παραγωγή & Distribution
+    en: Theeta.nl
+    el: Theeta
   desc:
     en: "Custom code / Jekyll / [Live website →](https://theeta.nl/)"
     el: 
@@ -13,7 +13,7 @@
     classes: bg-lightest-blue dark-blue
     color: blue
 - title:
-    en: LGBT Myths
+    en: LGBTmyths.com
     el: 
   desc:
     en: "Debunking misconceptions. [Live website →](https://lgbtmyths.com)"
@@ -44,7 +44,7 @@
     en: Airboxr web-app
     el: 
   desc:
-    en: "Get automated reports from multiple sources within your spreadsheets / [Try&nbsp;the&nbsp;web&nbsp;app →](https://www.airboxr.com/)"
+    en: "Spreadsheet automation / [Try&nbsp;the&nbsp;web&nbsp;app →](https://www.airboxr.com/)"
     el: 
   img: "/assets/airboxr-4x3.jpg"
   tags:
@@ -58,8 +58,8 @@
     en: DYNAMIKI - Beverage Distribution Network
     el: ΔΥΝΑΜΙΚΗ - Δικτυο διανομης ποτων
   desc:
-    en: Design for [Dynamiki’s website](https://www.dynamiki-sa.gr/). Part of my work
-      at [TSH](https://www.thesmilinghippo.com/gr/en/projects/dynamic-sa/).
+    en: Design for [Dynamiki’s website](https://www.dynamiki-sa.gr/) / Part of my work
+      at [TSH](https://www.thesmilinghippo.com/gr/en/projects/dynamic-sa/)
     el: Design για το [site της Δυναμικής](https://www.dynamiki-sa.gr/). Μέρος της
       δουλιάς μου στην [TSH](https://www.thesmilinghippo.com/gr/en/projects/dynamic-sa/)
   img: "/assets/dynamiki-menu-live-1-min.gif"
@@ -106,7 +106,7 @@
     en: Concept for Time Tracker
     el: 
   desc:
-    en: "Spend your time intentionally. [→ Case study](/en/time-tracker-concept)"
+    en: "Spend your time intentionally / [→ Case study](/en/time-tracker-concept)"
     el: ""
   img: "/assets/hourly-tracker-v1-demo.gif"
   tags:
