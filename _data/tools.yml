@@ -43,13 +43,6 @@ tools:
     el: ''
   img: "/uploads/jekyll.png"
   image: "/uploads/jekyll-logo.webp"
-- name: Forestry.io CMS
-  url: https://forestry.io
-  desc:
-    en: Easy to use for developers and end-users/clients alike. My headless CMS of
-      choice. Generous free tier.
-    el: ''
-  img: "/uploads/forestry-logo.png"
 - name: Webflow
   url: https://webflow.com/cms#editors
   desc:
