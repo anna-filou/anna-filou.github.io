@@ -2,7 +2,8 @@
 title: Now
 layout: now
 lang: en
-updated: May 7th, 2023
+updated: June 22nd, 2023
 ---
-* Started at [Shopflix](https://shopflix.gr/) a few weeks ago.
-* Playing around with Midjourney for way too long at a time… 
+* Going out more (hello summer) while feeling overworked and guilty that I don't work more 🤷🏻
+* Designing ads and landing pages
+* Playing card games
