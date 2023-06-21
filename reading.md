@@ -5,11 +5,16 @@ lang: en
 ref: ''
 books:
 - title: 1984
-  read: now
+  read: '2023'
   cover: "/assets/books/1984.jpg"
   author: George Orwell
   pages: 368
-  my-notes: ''
+  my-notes:   |- 
+    *“Power is not a means, it is an end.”*
+
+    Extremely well written and gripping. But it also made me sick and, at times, prevented me from falling asleep.
+
+    *“To die hating them, that was freedom.”*
 - title: 12 Rules for Life
   read: '2023'
   cover: "/uploads/12-rules-for-life.jpg"
