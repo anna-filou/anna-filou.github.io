@@ -7,10 +7,10 @@ main:
     el: 👤 Σχετικά
     url: about
     langs: 'yes'
-  - en: <i class="ri-service-fill mr1"></i> Services
-    el: 💼 Services
-    url: services
-    langs: 'yes'
+  # - en: <i class="ri-service-fill mr1"></i> Services
+  #   el: 💼 Services
+  #   url: services
+  #   langs: 'yes'
   - en: <i class="ri-pen-nib-fill mr1"></i> Drawing
     el: ✏️ Ζωγραφική
     url: graphics
