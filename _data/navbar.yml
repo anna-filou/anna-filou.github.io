@@ -1,5 +1,5 @@
 main: 
-  - en: <i class="ri-mail-unread-fill mr1"></i> Connect
+  - en: <i class="ri-mail-unread-fill mr1"></i> Contact
     el: ✉️ Επικοινωνία
     url: contact
     langs: 'yes'
