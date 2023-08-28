@@ -35,6 +35,24 @@
     classes: bg-lightest-blue dark-blue
     color: blue
 - title:
+    en: Concept work at Shopflix
+    el: 
+  desc:
+    en: "Design explorations for Greece's largest marketplace."
+    el: 
+  link:
+    title: Current&nbsp;site&nbsp;↗
+    url: https://shopflix.gr
+  img: "/assets/shopflix-dribbble.jpg"
+  year: 2023
+  tags:
+  - name: In-house
+    classes: bg-moon-gray navy
+    color: green
+  - name: Web design
+    classes: bg-lightest-blue dark-blue
+    color: blue
+- title:
     en: The Newsroom
     el: 
   desc:
