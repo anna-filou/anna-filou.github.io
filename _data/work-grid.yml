@@ -2,9 +2,13 @@
     en: Theeta.nl
     el: Theeta
   desc:
-    en: "Custom code / Jekyll / [Live website →](https://theeta.nl/)"
+    en: "Trilingual corporate website. Made with custom code &&nbsp;Jekyll."
     el: 
+  link:
+    title: Live&nbsp;↗
+    url: https://theeta.nl/
   img: "/assets/theeta-demo.gif"
+  year: 2022
   tags:
   - name: Client work
     classes: bg-moon-gray navy
@@ -16,9 +20,13 @@
     en: LGBTmyths.com
     el: 
   desc:
-    en: "Debunking misconceptions. [Live website →](https://lgbtmyths.com)"
+    en: "Debunking misconceptions. Made for easy sharing."
     el: 
+  link:
+    title: Live&nbsp;↗
+    url: https://lgbtmyths.com
   img: "/assets/lgbtmyths-mockup-4x3.jpg"
+  year: 2023
   tags:
   - name: Personal
     classes: bg-light-yellow orange
@@ -30,9 +38,13 @@
     en: The Newsroom
     el: 
   desc:
-    en: "Reducing bias in news reporting / [→ Read the case study](/en/newsroom)"
+    en: "Design refresh for mobile app reducing bias in news reporting."
     el: 
+  link:
+    title: Case&nbsp;study&nbsp;→
+    url: /en/newsroom
   img: "/assets/newsroom-4x3.jpg"
+  year: 2023
   tags:
   - name: Client work
     classes: bg-moon-gray navy
@@ -44,9 +56,13 @@
     en: Airboxr web-app
     el: 
   desc:
-    en: "Spreadsheet automation / [Try&nbsp;the&nbsp;web&nbsp;app →](https://www.airboxr.com/)"
+    en: "Design from scratch for a startup that does spreadsheet report automation."
     el: 
+  link:
+    title: Live&nbsp;↗
+    url: https://www.airboxr.com/
   img: "/assets/airboxr-4x3.jpg"
+  year: 2022
   tags:
   - name: Client work
     classes: bg-moon-gray navy
@@ -58,11 +74,15 @@
     en: DYNAMIKI - Beverage Distribution Network
     el: ΔΥΝΑΜΙΚΗ - Δικτυο διανομης ποτων
   desc:
-    en: Design for [Dynamiki’s website](https://www.dynamiki-sa.gr/) / Part of my work
-      at [TSH](https://www.thesmilinghippo.com/gr/en/projects/dynamic-sa/)
+    en: Design for Dynamiki’s website. Part of my work
+      at The Smiling Hippo.
     el: Design για το [site της Δυναμικής](https://www.dynamiki-sa.gr/). Μέρος της
       δουλιάς μου στην [TSH](https://www.thesmilinghippo.com/gr/en/projects/dynamic-sa/)
+  link:
+    title: Live&nbsp;↗
+    url: https://www.dynamiki-sa.gr/
   img: "/assets/dynamiki-menu-live-1-min.gif"
+  year: 2021
   tags:
   - name: Web design
     classes: bg-lightest-blue dark-blue
@@ -70,16 +90,20 @@
   - name: Agency work
     classes: bg-moon-gray navy
     color: green
-  - name: The Smiling Hippo
+  - name: TSH
     classes: bg-dark-blue lightest-blue
     color: blue
 - title:
     en: Backyard — Cozy Hair Salon
     el: 
   desc:
-    en: "Custom code / Jekyll / [Live website →](https://backyard.hair/en/)"
+    en: "One-page website with a unique aesthetic. Made with custom code & Jekyll"
     el: 
+  link:
+    title: Live&nbsp;↗
+    url: https://backyard.hair/en/
   img: "/assets/backyard-dribbble.jpg"
+  year: 2022
   tags:
   - name: Client work
     classes: bg-moon-gray navy
@@ -88,13 +112,17 @@
     classes: bg-lightest-blue dark-blue
     color: blue
 - title:
-    en: MONSTER ENERGY HOMEPAGE CONCEPT
+    en: Monster Energy - Homepage&nbsp;Concept
     el: MONSTER ENERGY HOMEPAGE CONCEPT
   desc:
-    en: "Design challenge / [→ Monster case study](/en/monster)"
+    en: "Design challenge as part of my job interview at&nbsp;TSH."
     el: "[Case study στο Behance](https://www.behance.net/gallery/105157851/Monster-Energy-Website-Redesign-CONCEPT).
       Project προσωπικής πρωτοβουλίας."
+  link:
+    title: Case&nbsp;study&nbsp;→
+    url: /en/monster
   img: "/assets/monster-behance-cover.jpg"
+  year: 2020
   tags:
   - name: Just for&nbsp;fun
     classes: bg-light-yellow orange
@@ -103,12 +131,16 @@
     classes: bg-lightest-blue dark-blue
     color: blue
 - title:
-    en: Concept for Time Tracker
+    en: Hourly Time Tracker
     el: 
   desc:
-    en: "Spend your time intentionally / [→ Case study](/en/time-tracker-concept)"
+    en: "Concept interface for a Coda “app” I made for myself and use daily."
     el: ""
+  link:
+    title: Case&nbsp;study&nbsp;→
+    url: /en/time-tracker-concept
   img: "/assets/hourly-tracker-v1-demo.gif"
+  year: 2023
   tags:
   - name: Just for&nbsp;fun
     classes: bg-light-yellow orange
@@ -120,9 +152,10 @@
     en: Concept for Planner App
     el: 
   desc:
-    en: "Working on a personal project for an intelligent planner."
+    en: "Personal project for an intelligent planner with minimalist aesthetics."
     el: ""
   img: "/assets/effortless-c3.jpg"
+  year: 2022
   tags:
   - name: Just for&nbsp;fun
     classes: bg-light-yellow orange
@@ -134,9 +167,13 @@
     en: Micronavi — Electronics Distributor
     el: Micronavi — Distributor Ηλεκτρωνικών
   desc:
-    en: "Made with custom code / [Live website →](http://micronavi.eu)"
+    en: "Bold marketing website. Made with custom code."
     el: "[Δείτε το site ζωντανά](http://micronavi.eu) / Made with custom code."
+  link:
+    title: Live&nbsp;↗
+    url: https://micronavi.eu
   img: "/assets/micronavi-screens.jpg"
+  year: 2022
   tags:
   - name: Client work
     classes: bg-moon-gray navy
@@ -148,9 +185,10 @@
     en: Logo for Platinum Stores
     el: Logo για την Platinum Stores
   desc:
-    en: Timeless logo design
+    en: Timeless logo design for online and physical store. Versatile enough to support pivots.
     el: 
   img: "/assets/platinum-window-mockup.jpg"
+  year: 2021
   tags:
   - name: Client work
     classes: bg-moon-gray navy
@@ -212,9 +250,10 @@
     en: MegaMan-inspired Launcher setup
     el: MegaMan-inspired Launcher setup
   desc:
-    en: "I had to make this for myself. \U0001F499 Animated with Motion Portrait."
+    en: "I had to make this for myself. \U0001F499 (Animated with Motion&nbsp;Portrait.)"
     el: Animated with Motion Portrait. Using “The Grid” icon pack.
   img: "/assets/megaman-launcher-mockup.gif"
+  year: 2019
   tags:
   - name: Just for fun
     classes: bg-light-yellow orange
@@ -226,9 +265,13 @@
     en: Werewolf Game Cards
     el: Καρτες παιχνιδιου «Παλερμο»
   desc:
-    en: "Watercolor and ink / [See the cards on Behance →](https://www.behance.net/gallery/110141811/Werewolf-Game-Cards)"
+    en: "Handmade for personal use with watercolor and&nbsp;ink."
     el: Για προσωπική χρήση, νερομπογιά και μελάνι.
+  link:
+    title: Behance&nbsp;↗
+    url: https://www.behance.net/gallery/110141811/Werewolf-Game-Cards
   img: "/assets/warewolf-cards.jpg"
+  year: 2019
   tags:
   - name: Just for fun
     classes: bg-light-yellow orange
@@ -242,7 +285,11 @@
   desc:
     en: Dribbble design challenge
     el: Dribbble challenge
+  link:
+    title: Dribbble&nbsp;↗
+    url: https://dribbble.com/shots/13243688-Amazon-Login-Page-Redesign-Dribbble-Weekly-Warmup
   img: "/assets/Dribbble-Amazon-Redesign-20200711.png"
+  year: 2020
   tags:
   - name: Just for fun
     classes: bg-light-yellow orange

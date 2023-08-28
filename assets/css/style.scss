@@ -406,12 +406,6 @@ hr {
 }
 
 
-/* VERY SMALL SCREEN */
-@media (max-width: $media-xs) {
-  h1 {
-    font-size: 1.5em;
-  }
-}
 
 .book-container-gradient {
   @media (prefers-color-scheme: light) {
@@ -420,4 +414,54 @@ hr {
   @media (prefers-color-scheme: dark) {
     background: linear-gradient(90deg, #00000000 0%, $dark-bg 83.85%);
   }
+}
+
+
+
+/* VERY SMALL SCREEN */
+@media (max-width: $media-xs) {
+  h1 {
+    font-size: 1.5em;
+  }
+}
+
+
+.work-grid {  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr;
+  gap: 20px 20px;
+  grid-auto-flow: row;
+  grid-template-areas:
+    ".";
+}
+
+// w-100 w-50-m w-third-ns
+
+/*Tachyhons -NS */
+@media screen and (min-width: 50em) { 
+  .work-grid {  display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    gap: 20px 20px;
+    grid-auto-flow: row;
+    grid-template-areas:
+      ". . .";
+  }
+}
+
+/*Tachyhons -M */
+@media screen and (min-width: 50em) and (max-width: 100em) {
+  .work-grid {  display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    gap: 20px 20px;
+    grid-auto-flow: row;
+    grid-template-areas:
+      ". .";
+  }
+}
+
+/*Tachyhons -L */
+@media screen and (min-width: 60em) {
+
 }
