@@ -4,9 +4,12 @@ layout: default
 
 <!-- layout: default means that this layout INCLUDES everything in default.html 
 AND adds the following code in the {{content}} area of default.html -->
-<div class="container flex flex-column flex-row-ns mt4">
-    <div class="ph3-ns mw6">
-        <h1>Now Page</h1>
+<div class="container">
+    <h1 class="db dn-ns mt5 mb2">Now Page</h1>
+</div>
+<div class="container flex flex-column-reverse flex-row-ns mt4-ns">
+    <div class="ph3-ns mw6 mt5 mt0-ns">
+        <h1 class="dn db-ns">Now Page</h1>
         <strong>🗓 Latest Update: {{ page.updated }}</strong>
         <dl class="w-100 fl f5 lh-title pa3 nl3-ns br3 bg-faint mw7 mb4">
             <dt class="secondary b mb1 o-90">What is this page?</dt>
@@ -15,8 +18,8 @@ AND adds the following code in the {{content}} area of default.html -->
                 Part of the <a href="https://nownownow.com/about">Now&nbsp;Now&nbsp;Now project</a>.</dd>
         </dl>
     </div>
-    <div class="mt3" style="min-width: 50%;">
-        <div class="measure ml-auto ">
+    <div class="mt3-ns" style="min-width: 50%;">
+        <div class="measure">
             {{content}}
         </div>
     </div>
