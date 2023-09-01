@@ -2,6 +2,21 @@ intro:
   en: "Some of the services I love to use—and often&nbsp;rely&nbsp;on."
   el: "Τα παρακάτω προϊόντα/υπηρεσίες μου αρέσουν τόσο ώστε να τα συνιστώ."
 tools:
+- name: Figma
+  url: https://www.figma.com
+  desc:
+    en: Best design tool for solo and collaborative use. Easy to create interactive
+      prototypes. Speeds up development by providing CSS snippets.
+    el: ''
+  img: "/uploads/figma-logo.png"
+- name: Jekyll
+  url: https://jekyllrb.com/
+  desc:
+    en: Instead of bulky CMS that you need to install on your server—like Wordpress—I
+      use Jekyll to make super fast, perfectly secure websites that never go down.
+    el: ''
+  img: "/uploads/jekyll.png"
+  image: "/uploads/jekyll-logo.webp"
 - name: Napkin
   url: https://napkin.one/?via=anna
   img: "/uploads/napkin-logo.jpg"
@@ -28,21 +43,23 @@ tools:
       Update: I mostly use Coda now but Airtable can be better for certain projects.
     el: Βασίζομαι στο Airtable όπου τρέχω εταιρείες και βασικά την ζωή μου όλη.
   img: "/uploads/logo-airtable.jpeg"
-- name: Figma
-  url: https://www.figma.com
+- name: CleanShot X
+  url: https://cleanshot.com/
   desc:
-    en: Best design tool for solo and collaborative use. Easy to create interactive
-      prototypes. Speeds up development by providing CSS snippets.
+    en: Screenshot superpowers for Mac — capture, annotate and, most importantly,
+      share screen recordings with ease. I thought the built-in screenshot tool was
+      enough, but boy was I wrong!
     el: ''
-  img: "/uploads/figma-logo.png"
-- name: Jekyll
-  url: https://jekyllrb.com/
+  img: "/uploads/icon-1636390927-6189580fc0b06.webp"
+- name: Loom
+  url: https://www.loom.com
   desc:
-    en: Instead of bulky CMS that you need to install on your server—like Wordpress—I
-      use Jekyll to make super fast, perfectly secure websites that never go down.
+    en: 'Loom makes sharing instructional videos so quick and easy that there''s no
+      reason not to. As soon as you''re done shooting, Loom has a shareable link ready
+      for anyone to watch. Update: Loom added more limits to their free version, so
+      I mostly use CleanShot X now.'
     el: ''
-  img: "/uploads/jekyll.png"
-  image: "/uploads/jekyll-logo.webp"
+  img: "/uploads/loom-logo.png"
 - name: Webflow
   url: https://webflow.com/cms#editors
   desc:
@@ -62,23 +79,6 @@ tools:
     el: "\n"
   img: "/uploads/tempo-logo.png"
   image: ''
-- name: CleanShot X
-  url: https://cleanshot.com/
-  desc:
-    en: Screenshot superpowers for Mac — capture, annotate and, most importantly,
-      share screen recordings with ease. I thought the built-in screenshot tool was
-      enough, but boy was I wrong!
-    el: ''
-  img: "/uploads/icon-1636390927-6189580fc0b06.webp"
-- name: Loom
-  url: https://www.loom.com
-  desc:
-    en: 'Loom makes sharing instructional videos so quick and easy that there''s no
-      reason not to. As soon as you''re done shooting, Loom has a shareable link ready
-      for anyone to watch. Update: Loom added more limits to their free version, so
-      I mostly use CleanShot X now.'
-    el: ''
-  img: "/uploads/loom-logo.png"
 # - name: Tweek
 #   url: https://tweek.so
 #   desc:

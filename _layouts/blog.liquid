@@ -6,14 +6,14 @@ layout: default
 
   <div class="mv5">
     {%- if page.title -%}
-    <h1>{{ page.title }}</h1>
+      <h1>{{ page.title }}</h1>
     {%- endif -%}
 
     <div class="measure-wide">
       {{ content }}
     </div>
   </div>
-  
+
 
   {% if site.paginate %}
     {% assign posts = paginator.posts %}
@@ -25,61 +25,69 @@ layout: default
     {%- if page.list_title -%}
       <h2 class="post-list-heading">{{ page.list_title }}</h2>
     {%- endif -%}
-      {%- assign date_format = "%-d %B %Y" -%}
+    {%- assign date_format = "%-d %B %Y" -%}
 
-      {% assign en_posts = site.posts | where: "lang", page.lang %}
+    {% assign en_posts = site.posts | where: "lang", page.lang %}
 
-      <!-- text VERSION -->
-      <div class="flex flex-row flex-wrap nl3 nr3 ">
-        {%- for post in en_posts -%}
+    <!-- text VERSION -->
+    <div class="flex flex-row flex-wrap nl3 nr3 ">
+      {%- for post in en_posts -%}
 
-        <a 
-        class="w-100 mh3 no-underline main mb4 bg-faint pa3 pa4-ns br3 shadow-hover grow" 
-        href="{{ post.url | relative_url }}">
-            <div class="flex flex-column justify-center h-100">
+        <a class="w-100 mh3 no-underline main mb4 bg-faint pa3 pa4-ns br3 shadow-hover grow" href="{{ post.url | relative_url }}">
+          <div class="flex flex-column justify-center h-100">
 
-              <div class="">
-                  <h2 class="f4 f3-ns mt0 mb3 ttn">{{ post.title | escape }}</h2>
+            <div class="">
+              <h2 class="f4 f3-ns mt0 mb3 ttn">{{ post.title | escape }}</h2>
 
-                  <div class="mv0 secondary tracked ttu f7 f6-ns tr o-80 flex flex-column flex-row-ns justify-between">
+              <div class="mv0 secondary tracked ttu f7 f6-ns tr o-80 flex flex-column flex-row-ns justify-between">
 
-                      <div class="reading-time tertiary mb1 mb0-ns" title="Estimated read time">
-                        {% assign words = post.content | number_of_words %}
-                        {% if words < 1 %}
-                        {% elsif words < 210 %}
-                            less than 1 min to read
-                        {% else %}
-                              {{ words | divided_by:210 }} min to read
-                        {% endif %}
-                      </div>
+                <div class="reading-time tertiary mb1 mb0-ns" title="Estimated read time">
+                  {% assign words = post.content | number_of_words %}
+                  {% if words < 1 %}
+                    {% elsif words < 210 %}
+                      less than 1 min to read
+                    {% else %}
+                      {{ words | divided_by: 210 }} min to read
+                  {% endif %}
+                </div>
 
-                      <div>
-                          {{ post.tags }} 
-                          • 
-                          <span class="tertiary">{{post.date | date: '%Y'}}</span>
-                      </div>
-                  </div>
-              </div> 
+                <div>
+                  {{ post.tags }}
+                  •
+                  <span class="tertiary">{{ post.date | date: '%Y' }}</span>
+                </div>
+              </div>
+            </div>
           </div>
         </a>
       {%- endfor -%}
-      </div>
+    </div>
 
 
     {% if site.paginate %}
       <div class="pager">
         <ul class="pagination">
-        {%- if paginator.previous_page %}
-          <li><a href="{{ paginator.previous_page_path | relative_url }}" class="previous-page">{{ paginator.previous_page }}</a></li>
-        {%- else %}
-          <li><div class="pager-edge">•</div></li>
-        {%- endif %}
-          <li><div class="current-page">{{ paginator.page }}</div></li>
-        {%- if paginator.next_page %}
-          <li><a href="{{ paginator.next_page_path | relative_url }}" class="next-page">{{ paginator.next_page }}</a></li>
-        {%- else %}
-          <li><div class="pager-edge">•</div></li>
-        {%- endif %}
+          {%- if paginator.previous_page %}
+            <li>
+              <a href="{{ paginator.previous_page_path | relative_url }}" class="previous-page">{{ paginator.previous_page }}</a>
+            </li>
+          {%- else %}
+            <li>
+              <div class="pager-edge">•</div>
+            </li>
+          {%- endif %}
+          <li>
+            <div class="current-page">{{ paginator.page }}</div>
+          </li>
+          {%- if paginator.next_page %}
+            <li>
+              <a href="{{ paginator.next_page_path | relative_url }}" class="next-page">{{ paginator.next_page }}</a>
+            </li>
+          {%- else %}
+            <li>
+              <div class="pager-edge">•</div>
+            </li>
+          {%- endif %}
         </ul>
       </div>
     {%- endif %}

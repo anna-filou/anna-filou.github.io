@@ -7,7 +7,7 @@ layout: default
 <section class="container mt4">
   <div class="flex flex-row justify-end">
     <a href="https://war.ukraine.ua/" class="lh-title pa2 ph3-ns f5 br3 bg-faint link tr">
-      🇺🇦 Russia is STILL attacking Ukraine&nbsp;→&nbsp;🇺🇦
+      🇺🇦 Russia is STILL attacking Ukraine&nbsp;🇺🇦&nbsp;→
     </a>
   </div>
 </section>
@@ -197,7 +197,10 @@ alt="{{ case.title[page.lang] }} by Anna Filou">
   {% for grid-item in site.data.work-grid %}
 
     {% if grid-item.link.url %}
-      <a href="{{ grid-item.link.url }}" class="flex flex-column justify-between pa3 bg-faint br3 grow-small no-underline">
+      <a
+        href="{{ grid-item.link.url }}"
+        class="flex flex-column justify-between pa3 bg-faint br3 grow-small no-underline"
+        {% if grid-item.link.url contains 'http' %}target="_BLANK"{% endif %}>
       {% else %}
         <div class="flex flex-column justify-between pa3 bg-faint br3">
         {% endif %}

@@ -9,7 +9,7 @@ layout: case-study
 main-image: 
 lang: en
 type: mobile app design concept
-banner: "/assets/time-tracker-concept-banner.jpg"
+banner: "/assets/time-tracker-concept-banner-16-9.jpg"
 intro: I used to wonder where my time went. I tried some personal time trackers, but
   found them complicated and inconvenient. I liked the concept of an hourly tracker,
   and made my own.
