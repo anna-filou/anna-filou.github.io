@@ -4,6 +4,12 @@ layout: reading
 lang: en
 ref: ''
 books:
+- title: Atomic Design
+  read: now
+  cover: "/assets/books/atomic-design.jpg"
+  author: Brad Frost
+  pages: 198
+  my-notes:   |- 
 - title: 1984
   read: '2023'
   cover: "/assets/books/1984.jpg"
