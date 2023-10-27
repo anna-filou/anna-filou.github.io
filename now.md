@@ -2,8 +2,7 @@
 title: Now
 layout: now
 lang: en
-updated: September 27th, 2023
+updated: October 13th, 2023
 ---
-* Came back from a long weekend away last week 🏝️🇬🇷
-* Spending time with friends who are in Athens for a while
-* Focusing on my work at Shopflix (internal tool + upcoming site update) — no side projects atm
+* Learning about design systems and atomic design. Applying and enriching the knowledge right away at work. Currently desiging an internal tool from scratch.
+* Thinking about and trying to be more active online, publically. I’ve always been afraid of bragging, but I’m trying to reframe it: speaking about the things I’m actually, demonstratably, good at is *not* bragging. I’m just stating who I am and what I do, in hopes I’ll connect with people who like or need that.
