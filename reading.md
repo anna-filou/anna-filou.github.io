@@ -4,6 +4,12 @@ layout: reading
 lang: en
 ref: ''
 books:
+- title: Bullshit Jobs
+  read: 'now'
+  cover: "/assets/books/bullshit-jobs.webp"
+  author: 	David Graeber
+  pages: 368
+  my-notes:   |-
 - title: Atomic Design
   read: '2023'
   cover: "/assets/books/atomic-design.jpg"
