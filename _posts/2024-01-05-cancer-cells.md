@@ -10,18 +10,16 @@ main-image:
 lang: en
 ---
 
-I came across this [captivating article comparing capitalism to cancer](https://spencerrscott.substack.com/p/if-capitalism-is-a-cancer-what-are), which goes deeper than others have.
+The other day I read an [article that compares capitalism to cancer](https://spencerrscott.substack.com/p/if-capitalism-is-a-cancer-what-are). Many have made the same analogy, but this one goes deeper. 
 
-When cancer kills its host, it dies too; but tumor cells are shielded from the body and unaware of their reliance on it. Similarly, humans under capitalism resemble tumor cells, each generation indoctrinated with ideas of constant growth and seeking more wealth, fame, and status. We city dwellers rarely consider our trash production and its impact—out of sight, out of mind. 
+If cancer kills its host, it dies too. However, tumor cells are shielded from the rest of the body and don't realize that they rely on it for survival. Similarly, each generation of humans under capitalism is indoctrinated with the idea they must seek constant growth. Always striving for more wealth, fame, and status. We rarely consider our impact on our environment—the disasters and trash we produce are out of sight, out of mind. 
 
-Though we possess foresight, unlike cancer cells, we still thoughtlessly contribute to an unsustainable system that harms us. Secretly, we just hope it won't collapse in our lifetimes. 
+Unlike cancer cells, we have reason. And yet we still maintain a system that we know will kill us in the end. We just secretly hope the system won't collapse during our lifetimes. But even if we completely ignore the catastrophic potential of climate change, the system must still change. Because even if it stays the same, they're already bad enough. 
 
-But even ignoring climate change's implications for our generation, the social aspects remain undeniably problematic. Things must change because even if they don't worsen, they're already bad enough. 
+At 26, despite doing well financially, I'm not satisfied. I feel guilty when I try to enjoy quiet time. Our outlook on leisure has collectively shifted from ‘be productive to go on vacation’ to ‘go on vacation to be more productive when you come back’. 
 
-At 26, despite doing well in my career and leading a comfortable life, I’m not satisfied. Guilt arises when I try to rest or enjoy time with my partner. Leisure is no longer the goal of work but rather a means to boost productivity. The idea has shifted from “be productive to go on vacation” to “go on vacation to be more productive.”
+Some of my friends have moved abroad for better jobs. To see my best friend, I have to wait until summer each year. Our system pushes us to relocate to richer places, scattering families and groups of friends apart. Not that moving is bad in itself; it's just often not a choice you make to improve your living conditions, but one you make to survive. 
 
-Some of my friends have relocated abroad for better jobs. To see my best friend, I have to wait for summer each year. Our system pushes relocation to more affluent places, scattering us apart. Not that moving is bad in itself. It's just often not a choice you make to improve your living conditions, but one you make to survive.
+This is not the good life. Most of us crave connection and friendship. How could we possibly hope to find happiness without life's most meaning-inducing aspect? 
 
-This isn’t the good life. Life's meaning lies in our relationships with others. Most of us yearn for connection and friendship; but how can we find happiness without life's most meaning-inducing aspect?
-
-I didn't choose this cancer; I was born into it. Yet I’m complacent. My self-worth hinges on productivity. If my creations fail to meet standards, I feel awful. Only when producing something worthy do I feel content (for a short while). But this mindset isn't innate to humans. Looking at other primates and animals shows it's not our nature—so it must be the system.
+I didn't choose this cancer. I was born into it. Yet, I'm complacent. My self-worth is tied to my productivity. I only feel content (for a short while) when I make something I find worthy of praise and respect. But, judging by how animals and other primates behave, this way of thinking is probably not natural. And if it's not our nature, then it must be our nurture.
