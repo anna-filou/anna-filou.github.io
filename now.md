@@ -2,9 +2,8 @@
 title: Now
 layout: now
 lang: en
-updated: Janurary 5th, 2024
+updated: Janurary 22nd, 2024
 ---
-* Adjusting to work after the holidays. Focus: design systems, branding.
-* Started a couple of short courses, for fun. I missed learning with focused intend.
-* I crave reading novels again. Too much non-fiction makes life feel sterile.
-* Thought that’s been on my mind lately: the more novel things you do in your lifetime, the longer it’ll feel like you’ve lived.
+* Binge watching courses related to design systems and branding.
+* After a burst of motivation, working on the side on some personal ideas.
+* I have so many ideas about redesigning this website to make it reflect my current abilities and work better, but I need to organize them :')
