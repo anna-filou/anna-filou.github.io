@@ -4,10 +4,17 @@ layout: reading
 lang: en
 ref: ''
 books:
+- title: Academic Dissertation
+  read: 'now'
+  cover: "/assets/books/dissertation-mock-cover.webp"
+  author: my friend
+  pages: 160
+  my-notes:   |-
+    It’s so long that it counts as a book, OK??
 - title: Bullshit Jobs
   read: 'now'
   cover: "/assets/books/bullshit-jobs.webp"
-  author: 	David Graeber
+  author: David Graeber
   pages: 368
   my-notes:   |-
 - title: Atomic Design

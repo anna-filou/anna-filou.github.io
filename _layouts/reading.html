@@ -51,16 +51,17 @@ AND adds the following code in the {{content}} area of default.html -->
     <hr class="mv5">
 </div>
 
-<!-- <div class="container mt4">
-    <h2 class="f2 mb5">Books read in 2023</h2>
+<div class="container mt4">
+    <h2 class="f2 mb5">Books read in 2024 <span class="o-40">({{page.books | where: "read", "2024" | size}})</span></h2>
+
     {%- for book in page.books -%}
-        {%- if book.read == "2023" -%}
+        {%- if book.read == "2024" -%}
         <div class="flex flex-column flex-row-ns items-start items-start-ns mb5">
             <div class="mw5 mr5">
                 <img src="{{book.cover}}" class="ba br3 b--black-05 smooth-shadow" alt="">
             </div>
             <div class="mt3">
-                <h3 class="f3 mb1">{{book.title}}</h3>
+                <h3 class="f3 mt3 mt4-ns mb1">{{book.title}}</h3>
                 <div class="dib f4">by {{book.author}}</div>
                 <div class="dib f4 ml3 secondary o-70">{{book.pages}} pages</div>
                 <div class="mt3 mt4-ns measure lh-copy">{{book.my-notes | markdownify}}</div>
@@ -68,7 +69,8 @@ AND adds the following code in the {{content}} area of default.html -->
         </div>
         {%- endif -%}
     {%- endfor -%}  
-</div> -->
+</div>
+    
 
 <div class="container mt4">
     <h2 class="f2 mb5">Books read in 2023 <span class="o-40">({{page.books | where: "read", "2023" | size}})</span></h2>
