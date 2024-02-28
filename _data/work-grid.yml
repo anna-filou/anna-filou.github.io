@@ -1,21 +1,15 @@
 - title:
-    en: Theeta.nl
-    el: Theeta
-  desc:
-    en: "Trilingual corporate website. Made with custom code &&nbsp;Jekyll."
+    en: UI Design at SHOPFLIX.gr
     el: 
-  link:
-    title: Live&nbsp;↗
-    url: https://theeta.nl/
-  img: "/assets/work-grid/theeta-735shots_so.png"
-  year: 2022
+  desc:
+    en: "Iteratively creating a Design System for a living online marketplace."
+    el: 
+  img: "/assets/work-grid/figma-shopflix-ds.png"
+  year: 2024
   tags:
-  - name: Client work
+  - name: In-House
     classes: bg-moon-gray navy
     color: green
-  - name: Web design & development
-    classes: bg-lightest-blue dark-blue
-    color: blue
 - title:
     en: LGBTmyths.com
     el: 
@@ -71,6 +65,24 @@
     classes: bg-lightest-blue dark-blue
     color: blue
 - title:
+    en: Theeta.nl
+    el: Theeta
+  desc:
+    en: "Trilingual corporate website. Made with custom code &&nbsp;Jekyll."
+    el: 
+  link:
+    title: Live&nbsp;↗
+    url: https://theeta.nl/
+  img: "/assets/work-grid/theeta-735shots_so.png"
+  year: 2022
+  tags:
+  - name: Client work
+    classes: bg-moon-gray navy
+    color: green
+  - name: Web design & development
+    classes: bg-lightest-blue dark-blue
+    color: blue
+- title:
     en: DYNAMIKI - Beverage Distribution Network
     el: ΔΥΝΑΜΙΚΗ - Δικτυο διανομης ποτων
   desc:
@@ -92,6 +104,24 @@
     color: green
   - name: TSH
     classes: bg-dark-blue lightest-blue
+    color: blue
+- title:
+    en: Hourly Time Tracker
+    el: 
+  desc:
+    en: "Concept interface for a Coda “app” I made for myself and use daily."
+    el: ""
+  link:
+    title: Case&nbsp;study&nbsp;→
+    url: /en/time-tracker-concept
+  img: "/assets/work-grid/hourly-4-3.jpg"
+  year: 2023
+  tags:
+  - name: Just for&nbsp;fun
+    classes: bg-light-yellow orange
+    color: yellow
+  - name: App design
+    classes: bg-lightest-blue dark-blue
     color: blue
 - title:
     en: Backyard — Cozy Hair Salon
@@ -128,24 +158,6 @@
     classes: bg-light-yellow orange
     color: yellow
   - name: Web design
-    classes: bg-lightest-blue dark-blue
-    color: blue
-- title:
-    en: Hourly Time Tracker
-    el: 
-  desc:
-    en: "Concept interface for a Coda “app” I made for myself and use daily."
-    el: ""
-  link:
-    title: Case&nbsp;study&nbsp;→
-    url: /en/time-tracker-concept
-  img: "/assets/work-grid/hourly-4-3.jpg"
-  year: 2023
-  tags:
-  - name: Just for&nbsp;fun
-    classes: bg-light-yellow orange
-    color: yellow
-  - name: App design
     classes: bg-lightest-blue dark-blue
     color: blue
 - title:
