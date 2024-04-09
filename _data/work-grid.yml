@@ -178,24 +178,24 @@
   - name: App design
     classes: bg-lightest-blue dark-blue
     color: blue
-- title:
-    en: Micronavi — Electronics Distributor
-    el: Micronavi — Distributor Ηλεκτρωνικών
-  desc:
-    en: "Bold marketing website. Made with custom code."
-    el: "[Δείτε το site ζωντανά](http://micronavi.eu) / Made with custom code."
-  link:
-    title: Live&nbsp;↗
-    url: https://micronavi.eu
-  img: "/assets/work-grid/micronavi-screens.jpg"
-  year: 2022
-  tags:
-  - name: Client work
-    classes: bg-moon-gray navy
-    color: green
-  - name: Web design & development
-    classes: bg-lightest-blue dark-blue
-    color: blue
+# - title:
+#     en: Micronavi — Electronics Distributor
+#     el: Micronavi — Distributor Ηλεκτρωνικών
+#   desc:
+#     en: "Bold marketing website. Made with custom code."
+#     el: "[Δείτε το site ζωντανά](http://micronavi.eu) / Made with custom code."
+#   link:
+#     title: Live&nbsp;↗
+#     url: https://micronavi.eu
+#   img: "/assets/work-grid/micronavi-screens.jpg"
+#   year: 2022
+#   tags:
+#   - name: Client work
+#     classes: bg-moon-gray navy
+#     color: green
+#   - name: Web design & development
+#     classes: bg-lightest-blue dark-blue
+#     color: blue
 - title:
     en: Logo for Platinum Stores
     el: Logo για την Platinum Stores

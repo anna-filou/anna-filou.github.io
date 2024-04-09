@@ -4,15 +4,14 @@ hero:
       en: Hello～ I'm Anna and I do
       el: Ειμαι η Αννα και κανω
     big-text:
-      en: design, illustration &&nbsp;development.
-      el: design, illustration &&nbsp;development.
+      en: Interface Design &&nbsp;development.
+      el: 
     text:
       en: I thoughtfully design digital interfaces for the web and mobile&nbsp;devices.
-      el: Φτιάχνω εύχρηστες ιστοσελίδες που κάνουν&nbsp;εντύπωση.
+      el: 
   note:
-    en: Currently at [Shopflix](https://shopflix.gr/). Previously at [The&nbsp;Smiling&nbsp;Hippo](https://www.thesmilinghippo.com/) and [Tempo](https://www.yourtempo.co/)&nbsp;(support)
-    el: "Αυτή τη στιγμή στην εταιρεία [Theeta B.V.](https://theeta.nl/) Προηγουμένως
-      στην [The Smiling Hippo](https://www.thesmilinghippo.com/) στην Αθήνα \U0001F1EC\U0001F1F7"
+    en: note
+    el: 
 work:
   title:
     en: Work Snippets
@@ -21,6 +20,3 @@ work:
     en: |
       Glimpses into some of my projects — for clients or for fun.
     el: |-
-      Αυτά είναι αποσπάσματα από μερικά από τα έργα μου που μου αρέσουν πολύ, είτε για πελάτες είτε προσωπικά.
-
-      Κάποια στιγμή θα προσθέσω case studies, αλλά προς το παρόν, αν θέλετε περισσότερες πληροφορίες για κάποιο από αυτά, απλά επικοινωνήστε μαζί μου.

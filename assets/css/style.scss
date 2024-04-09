@@ -5,6 +5,7 @@
 $media-small: 620px;
 $media-xs: 370px;
 
+// $container: 1128px;
 $container: 1128px;
 
 /* COLORS */
@@ -59,11 +60,19 @@ h1, h2, h3, h4, h5, h6 {
   color: $light-headings;
 }
 
+.hero-headline {
+  // font-size: 7.5vw;
+  font-size: 3em; // fallback if clamp is not supported?
+  // font-size: calc(1em + 6.5vw); // no because there's no MAX
+  font-size: clamp(1em, 10vw, 6.5em); // min, preferred, max
+}
+
 a {
   color: $light-a;
   text-decoration: underline;
   text-decoration-thickness: 2px;
 }
+
 a:hover {
   color: $light-a-hover;
 }
