@@ -27,6 +27,7 @@
             body {
                 /* background-color: #100023; */
                 background-color: {{ page.style.light.bg }};
+                background-image: none;
             }
             header {
                 /* background-color: #1f1c3f; */
@@ -54,6 +55,7 @@
             body {
                 /* background-color: #100023; */
                 background-color: {{ page.style.dark.bg }};
+                background-image: none;
             }
             header {
                 /* background-color: #1f1c3f; */
@@ -79,6 +81,23 @@
     </style>
     {% endif %}
 
+    {% if page.url contains 'reading' %}
+    <style>
+        @media (prefers-color-scheme: light) {
+            body {
+                /* background-color: #682cb0; */
+               background-image: none;
+            }
+        }
+        @media (prefers-color-scheme: dark) {
+            body {
+                /* background-color: #100023; */
+                background-image: none;
+            }
+        }
+    </style>
+    {% endif %}
+    
     <script>
         /* to prevent Firefox FOUC */
         let FF_FOUC_FIX;

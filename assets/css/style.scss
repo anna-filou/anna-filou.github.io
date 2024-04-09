@@ -11,25 +11,40 @@ $container: 1128px;
 /* COLORS */
 
 $light-bg: #E2E7F5; // #EAE6E3
-$dark-bg: #100023;
+$light-bg-gradient:
+radial-gradient(at 23% 84%, hsla(195,100%,79%,0.33) 0px, transparent 50%),
+radial-gradient(at 49% 100%, hsla(224,92%,89%,0.38) 0px, transparent 50%),
+radial-gradient(at 53% 23%, hsla(2,100%,96%,0.55) 0px, transparent 50%),
+radial-gradient(at 65% 26%, hsla(123,66%,88%,0.48) 0px, transparent 50%);
+$dark-bg: #050736;
+// $dark-bg: #0e142f;
+$dark-bg-gradient: radial-gradient(at 12% 26%, hsla(225,91%,13%,1) 0px, transparent 50%),
+radial-gradient(at 48% 55%, hsla(202,78%,13%,1) 0px, transparent 50%),
+radial-gradient(at 28% 95%, hsla(273,65%,13%,1) 0px, transparent 50%),
+radial-gradient(at 42% 60%, hsla(180,70%,13%,1) 0px, transparent 50%),
+radial-gradient(at 62% 19%, hsla(289,81%,13%,1) 0px, transparent 50%),
+radial-gradient(at 79% 79%, hsla(233,71%,13%,1) 0px, transparent 50%);
 
-$light-faint: #ECF2F9; // #E3DDD7
-$dark-faint: #1f1c3f;
+
+// $light-faint: #ECF2F9;
+$light-faint: #ffffff5c;
+// $dark-faint: #1f1c3f;
+$dark-faint: hsla(246, 100%, 85%, 0.102);
+
+$light-headings: #17181D; // #3d3333
+$dark-headings: hsl(246, 100%, 98%);
 
 $light-body: #313645; // #4d4444
-$dark-body: #bec7de;
+$dark-body: hsl(246, 100%, 95%);
 
 $light-secondary: #525455; // #535353
-$dark-secondary: #adb7d1;
+$dark-secondary: hsl(246, 100%, 90%);
 
 $light-tertiary: #6e7176; // #777777
 $dark-tertiary: #6586b0;
 
 $dark-border: #28405e;
 $light-border: #d1d7ff;
-
-$light-headings: #17181D; // #3d3333
-$dark-headings: #d5e3ef;
 
 $light-a: #0024ef; // #3e4497
 $dark-a: #6fe7d6; 
@@ -50,6 +65,7 @@ $dark-selection: #038573;
 
 body {
   background-color: $light-bg;
+  background-image: $light-bg-gradient;
 }
 
 body, nav a, .main {
@@ -86,7 +102,7 @@ a:hover {
 }
 
 header {
-  background-color: $light-bg;
+  background-color: $light-faint;
   box-shadow: 0px 2px 40px rgba(0, 0, 0, 0.178);
 }
 
@@ -133,6 +149,7 @@ svg {
 @media (prefers-color-scheme: dark) {
   body {
     background-color: $dark-bg;
+    background-image: $dark-bg-gradient;
   }
 
   body, nav a, .main {
@@ -202,6 +219,7 @@ svg {
 @media (prefers-color-scheme: light) {
   body {
     background-color: $light-bg;
+    background-image: $light-bg-gradient;
   }
 
   body, nav a, .main {
@@ -228,7 +246,7 @@ svg {
   }
 
   header {
-    background-color: $light-bg;
+    background-color: $light-faint;
     box-shadow: 0px 2px 40px rgba(0, 0, 0, 0.178);
   }
 
@@ -353,6 +371,12 @@ hr {
     bottom: 0px;
     margin: 0;
     z-index: 999;
+    @media (prefers-color-scheme: light) { 
+      background-color: $light-bg;
+    }
+    @media (prefers-color-scheme: dark) {
+      background-color: $dark-bg;
+    }
   }
 
 }
