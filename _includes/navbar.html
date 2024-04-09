@@ -9,7 +9,7 @@
 				{% assign data = site.data.navbar %}
 				{%- for navlink in data.main -%}
 
-				<a class="{%- if page.url contains navlink.url -%}b--light-blue b{%- endif -%}b--transparent bb bw2 link dib mr3 f5 flex flex-row items-center{%- endif -%}" href="/
+				<a class="{%- if page.url contains navlink.url -%}b--light-blue b{%- endif -%}b--transparent bb bw2 link dib mr3 f5 flex flex-row items-center" href="/
 				{%- if navlink.langs == "yes" -%}
 				{{page.lang}}/
 				{%- endif -%}
