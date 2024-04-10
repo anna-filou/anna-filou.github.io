@@ -3,6 +3,7 @@ layout: about
 title: About
 lang: en
 ref: about
+sidebar: | 
 
 ---
 ### Who are you?

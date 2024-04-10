@@ -6,7 +6,7 @@ $media-small: 620px;
 $media-xs: 370px;
 
 // $container: 1128px;
-$container: 1128px;
+$container: 1160px;
 
 /* COLORS */
 
@@ -290,9 +290,8 @@ body {
 }
 
 nav {
-  max-width: 1100px;
-  padding-left: 12px;
-  padding-right: 12px;
+  max-width: $container;
+  padding: 16px 32px;
   margin-left: auto;
   margin-right: auto;
 }
@@ -309,8 +308,8 @@ hr {
 
 .container, .container-ns {
   max-width: $container;
-  padding-left: 16px;
-  padding-right: 16px;
+  padding-left: 32px;
+  padding-right: 32px;
   margin-left: auto;
   margin-right: auto;
 }
@@ -349,13 +348,18 @@ hr {
     margin-bottom: 6em;
   } 
 
-  nav {
-    padding: 0;
-  }
-
   .flag-icon {
     height: 5px;
     padding: 0;
+  }
+
+  nav {
+    padding: 16px;
+  }
+
+  .container {
+    padding-left: 16px;
+    padding-right: 16px;
   }
 
   .container-ns {
