@@ -38,7 +38,7 @@ process: |
   3. You sign it electronically, pay the agreed deposit (usually half of the fixed price), and I get to work.
 
   **Sounds good?**
-  Email me at `hello`-at-`annafilou`-dot-`com` or [reply to my video above](#).
+  Email me at `hello` at `annafilou` dot `com`.
 faq:
 - q: Do you charge by the hour?
   a: Almost never. I’m a big fan of project-based pricing, where you know how much
@@ -70,7 +70,7 @@ faq:
     </div>
 </section>
 
-<section class="container mt4 cf">
+<!-- <section class="container mt4 cf">
     <div class="fl w-100 w-50-ns pr-0 pr4-ns mb4 mb0-ns">
         <iframe src="https://www.videoask.com/fu1jk5fhw"
         allow="camera *; microphone *; autoplay *; encrypted-media *; fullscreen *; display-capture *;"
@@ -89,15 +89,15 @@ faq:
     </div>
 
 </section>
-<hr>
+<hr> -->
 
-<section class="container mt5">
-    <h2>OK, but what do&nbsp;you&nbsp;do?</h2>
+<section class="container mt3">
+    <h2 class="tc">What I do</h2>
 
-    <div class="flex flex-column flex-row-ns space-between nr3-ns nl3-ns mt5">
+    <div class="flex flex-column flex-row-ns space-between nr3-ns nl3-ns mt">
         {% for service in page.services %}
         <a class="main w-100 mw6 center w-third-ns mv2 mt3-ns mb0-ns link" href="/{{page.lang}}/{{service.url}}">
-            <div class="bg-faint pa4 smooth-shadow br3 mh3-ns grow">
+            <div class="bg-faint pa4 pa3-ns pa4-l smooth-shadow br3 mh3-ns grow">
                 <i class="{{service.icon}} f1"></i>
                 <h3 class="mt5">{{service.title}}</h3>
                 {{service.li | markdownify}}
