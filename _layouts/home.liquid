@@ -121,33 +121,33 @@ layout: default
   <div class="secondary mt4 f5">
   {{ data.hero.note[page.lang] | markdownify }}
   </div>
-  {% endcomment %}<div class="secondary mt4 f5 flex items-center flex-wrap">
+  {% endcomment %}
+  
+  <div class="secondary mt4 f4 flex items-center flex-wrap gap2">
     Currently at
     <a
       href="https://shopflix.gr/"
-      class="flex items-center link"
+      class="flex items-center link nowrap"
       target="_blank"><img
         src="/assets/logo-shopflix.svg"
-        class="pl2 pr1 dib w2"
+        class="mr2 dib w2"
         alt="">Shopflix
-    </a>
-    &nbsp;(UI Design). Previously at
+    </a> / Previously at
     <a
       href="https://www.thesmilinghippo.com/"
       class="flex items-center link"
       target="_blank"><img
         src="/assets/logo-tsh.svg"
-        class="pl2 pr1 dib w2"
-        alt="">The&nbsp;Smiling&nbsp;Hippo
-    </a>
-    &nbsp;(Web Design) and
+        class="mr2 dib w2"
+        alt="">The Smiling Hippo
+    </a> and
     <a
       href="https://www.yourtempo.co/"
-      class="flex items-center link"
+      class="flex items-center link nowrap"
       target="_blank"><img
         src="/assets/logo-tempo.png"
-        class="pl2 pr1 dib w2"
-        alt="">Tempo</a>&nbsp;(Support).
+        class="mr2 dib w2"
+        alt="">Tempo</a>
   </div>
 </section>
 
@@ -205,9 +205,9 @@ alt="{{ case.title[page.lang] }} by Anna Filou">
       {% else %}
         <div class="flex flex-column justify-between pa3 bg-faint br3">
         {% endif %}
-        <div class="flex justify-between mb1">
+        <div class="flex items-center justify-between mb1">
           <h3 class="f3 f4-ns ma0 ttn mr2">{{ grid-item.title[page.lang] }}</h3>
-          <div class="">{{ grid-item.link.title }}</div>
+          <div class="nowrap">{{ grid-item.link.title }}</div>
         </div>
         <div class="secondary fw4">{{ grid-item.desc[page.lang] }}</div>
         <div class="db aspect-ratio aspect-ratio--4x3 mv3">

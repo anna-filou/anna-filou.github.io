@@ -146,6 +146,10 @@ svg {
 
 .hover-rotate-left:hover {rotate: -15deg;}
 
+.gap1 { gap: .25rem; }
+.gap2 { gap: .5rem; }
+
+
 @media (prefers-color-scheme: dark) {
   body {
     background-color: $dark-bg;
