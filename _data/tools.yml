@@ -5,8 +5,7 @@ tools:
 - name: Figma
   url: https://www.figma.com
   desc:
-    en: Best design tool for solo and collaborative use. Easy to create interactive
-      prototypes. Speeds up development by providing CSS snippets.
+    en: I likely spend most of my waking hours on Figma; creating, experimenting, annotating, making and organizing components.
     el: ''
   img: "/uploads/figma-logo.png"
 - name: Jekyll
