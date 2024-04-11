@@ -50,3 +50,6 @@ Offline, I'm into lifting weights, inline and ice skating, [reading books](/read
   * 📃 [Stuff I’ve written](/{{page.lang}}/posts)
   * 🛠 [The tools I use](/uses)
   * ⏰ [What I’m up to](/now)
+
+---
+<video autoplay loop muted src="/assets/swan-bike.mp4" class="w-100 br3 dn-ns"></video>
