@@ -47,6 +47,6 @@ Offline, I'm into lifting weights, inline and ice skating, [reading books](/read
 * Check out:
   * 💼 [Some of my work](/{{page.lang}}/#work)
   * 🎨 [My illustrations](/{{page.lang}}/graphics)
-  * 📃 [Stuff I’ve written](/{{page.lang}}/writing)
+  * 📃 [Stuff I’ve written](/{{page.lang}}/posts)
   * 🛠 [The tools I use](/uses)
   * ⏰ [What I’m up to](/now)

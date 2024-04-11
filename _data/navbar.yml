@@ -15,9 +15,9 @@ main:
     el: ✏️ Ζωγραφική
     url: graphics
     langs: 'yes'
-  - en: <i class="ri-quill-pen-fill mr1"></i> Writing
+  - en: <i class="ri-quill-pen-fill mr1"></i> Posts
     el: 📝 Blog
-    url: writing
+    url: posts
     langs: 'yes'
 secondary: 
   - en: <i class="ri-book-3-line mr1"></i> Reading

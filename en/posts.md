@@ -1,8 +1,8 @@
 ---
-title: Writing
+title: Posts
 layout: blog
 lang: en
-ref: writing
+ref: posts
 ---
 
 The occasional thought, sometimes related to my work.
