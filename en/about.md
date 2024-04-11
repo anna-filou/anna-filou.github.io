@@ -8,7 +8,7 @@ sidebar: |
 ---
 ### Who are you?
 
-I'm Anna, a digital native designer and technophile [who draws](/{{page.lang}}/graphics).
+I'm Anna, a digital native designer and technophile [who draws](/{{page.lang}}/art).
 
 ### What do you do professionally?
 
@@ -46,7 +46,7 @@ Offline, I'm into lifting weights, inline and ice skating, [reading books](/read
 * 🤝 [Hire me](/{{page.lang}}/collab)
 * Check out:
   * 💼 [Some of my work](/{{page.lang}}/#work)
-  * 🎨 [My illustrations](/{{page.lang}}/graphics)
+  * 🎨 [My illustrations](/{{page.lang}}/art)
   * 📃 [Stuff I’ve written](/{{page.lang}}/posts)
   * 🛠 [The tools I use](/uses)
   * ⏰ [What I’m up to](/now)

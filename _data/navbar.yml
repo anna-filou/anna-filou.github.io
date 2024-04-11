@@ -7,13 +7,13 @@ main:
     el: 👤 Σχετικά
     url: about
     langs: 'yes'
-  # - en: <i class="ri-service-fill mr1"></i> Services
-  #   el: 💼 Services
+  # - en: <i class="ri-service-fill mr1"></i> Collab
+  #   el: 💼 Collab
   #   url: collab
   #   langs: 'yes'
   - en: <i class="ri-pen-nib-fill mr1"></i> Drawing
     el: ✏️ Ζωγραφική
-    url: graphics
+    url: art
     langs: 'yes'
   - en: <i class="ri-quill-pen-fill mr1"></i> Posts
     el: 📝 Blog
