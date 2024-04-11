@@ -43,7 +43,7 @@ Offline, I'm into lifting weights, inline and ice skating, [reading books](/read
 ### Now what?
 
 * 💬 [Get in touch](/{{page.lang}}/contact)
-* 🤝 [Hire me](/{{page.lang}}/services)
+* 🤝 [Hire me](/{{page.lang}}/collab)
 * Check out:
   * 💼 [Some of my work](/{{page.lang}}/#work)
   * 🎨 [My illustrations](/{{page.lang}}/graphics)
