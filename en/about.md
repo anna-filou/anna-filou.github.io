@@ -36,7 +36,7 @@ Online, I hang out on [Product Hunt](https://www.producthunt.com/@anna_0x) (more
 
 Offline, I'm into lifting weights, inline and ice skating, [reading books](/reading/), playing board games, and learning languages, to name a few.
 
-![Me doing a simple but cool looking trick on inline skates](/assets/skate-circle-2.gif)
+<video autoplay loop muted src="/assets/skate-circle-oaka.mp4" class="w-100 br3"></video>
 
 ***
 

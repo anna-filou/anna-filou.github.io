@@ -5,15 +5,16 @@ layout: default
 <!-- layout: default means that this layout INCLUDES everything in default.html 
 AND adds the following code in the {{content}} area of default.html -->
 <div class="container flex flex-column flex-row-reverse-ns">
-    <div class="mt4 pl4-ns flex flex-row items-start flex-column-ns gap2">
-        <img src="/assets/camera-test-selfie.webp" class="br3 w-50 w-100-ns" alt="young person with beaming smile and long wavy hair waving at the camera with both hands">
-        <img src="/assets/stickers-1.png" class="nl4 ml0-ns w-60 w-100-ns h-auto" alt="Handdrawn stickers: a burger, headphones, a rainbow, the MegaMan Battle Network emblem, a barbell, and a Pokeball">
+    <div class="mt4 pl4-ns flex flex-row items-start flex-wrap flex-column-ns gap3">
+        <img src="/assets/camera-test-selfie.webp" class="br3 w-50 w-100-ns" alt="young person with beaming smile and long dark hair waving at the camera with both hands">
+        <img src="/assets/stickers-1.png" class="nl4 ml0-ns nt5-ns w-50 w-100-ns h-auto" alt="Handdrawn stickers: a burger, headphones, a rainbow, the MegaMan Battle Network emblem, a barbell, and a Pokeball">
+        <video autoplay loop muted src="/assets/swan-bike.mp4" class="w-100 br3 min-h-150"></video>
         <img src="/assets/about-illustration-from-timeline.webp" alt="" class="br3 dn db-ns">
         <div>
             {{page.sidebar | markdownify }}
         </div>
     </div>
-    <div class="br-ns bw1-ns b--white-10 pr4-ns" style="min-width: 60%;">
+    <div class="br-ns bw1-ns b--faint pr4-ns" style="min-width: 60%;">
         <div class="measure">
             {{content}}
         </div>
