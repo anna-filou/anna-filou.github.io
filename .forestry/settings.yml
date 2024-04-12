@@ -17,7 +17,7 @@ sections:
   path: en/about.md
   label: "\U0001F464 About"
 - type: document
-  path: en/writing.md
+  path: en/posts.md
   label: "✏️ Writing"
 - type: directory
   path: _data
