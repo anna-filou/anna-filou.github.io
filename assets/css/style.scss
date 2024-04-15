@@ -68,12 +68,27 @@ body {
   background-image: $light-bg-gradient;
 }
 
-body, nav a, .main {
+body, nav a, .new-nav a, .main {
   color: $light-body;
 }
 
+.new-nav nav, .new-nav .item {
+  background-color: #fffef782;
+  backdrop-filter: blur(8px);
+}
+
+.mobile-nav-hover:hover {  background-color: #898fe461; }
+.bg-nav { background-color: rgba(206, 208, 239, 0.45); }
+
 h1, h2, h3, h4, h5, h6 {
   color: $light-headings;
+}
+
+del {
+  text-decoration: line-through;
+  text-decoration-color: rgba(215, 54, 78, 0.65);
+  text-decoration-thickness: 4px;
+
 }
 
 .hero-headline {
@@ -101,7 +116,7 @@ a:hover {
   background: $light-selection;
 }
 
-header {
+.header {
   background-color: $light-faint;
   box-shadow: 0px 2px 40px rgba(0, 0, 0, 0.178);
 }
@@ -152,6 +167,29 @@ svg {
 
 .min-h-150 { min-height: 150px;}
 
+// Mobile navbar
+
+// .rainbow-border {
+//   border: 3px solid transparent;
+//   background-image: linear-gradient(rgba(0, 0, 0, 0.746), rgba(0, 0, 0, 0.777)), 
+//                     linear-gradient(90deg, #dc3b3e 10%, #ff8f00 28%, #ffe066 35%, #3bdc90 50%, #3b99dc , #d535c3 90%);
+//   // background-origin: border-box;
+//   background-clip: padding-box, border-box;
+// }
+
+#open-menu {
+  visibility: hidden;
+  opacity: 0;
+  transform: translateY(20px);
+  transition: all 0.2s ease-in-out;
+  overflow: hidden;
+}
+
+#open-menu.open {
+  visibility: visible;
+  opacity: 1;
+  transform: translateY(0);
+}
 
 @media (prefers-color-scheme: dark) {
   body {
@@ -159,9 +197,17 @@ svg {
     background-image: $dark-bg-gradient;
   }
 
-  body, nav a, .main {
+  body, nav a, .new-nav a, .main {
     color: $dark-body;
   }
+
+  .new-nav nav, .new-nav .item {
+    background-color: #080931bd;
+    // border: $dark-faint 3px solid;
+  }
+
+  .mobile-nav-hover:hover {  background-color: #ffffff2e; }
+  .bg-nav { background-color: rgba(206, 208, 239, 0.15); }
 
   h1, h2, h3, h4, h5, h6 {
     color: $dark-headings;
@@ -186,7 +232,7 @@ svg {
     color: white;
   }
 
-  header {
+  .header {
     background-color: $dark-faint;
     box-shadow: 0px 2px 40px rgba(0, 0, 0, 0.9);
   }
@@ -229,9 +275,16 @@ svg {
     background-image: $light-bg-gradient;
   }
 
-  body, nav a, .main {
+  body, nav a, .new-nav a, .main {
     color: $light-body;
   }
+
+  .new-nav nav, .new-nav .item {
+    background-color: #fffef7bd;
+  }
+
+  .mobile-nav-hover:hover {  background-color: #898fe461; }
+  .bg-nav { background-color: rgba(206, 208, 239, 0.45); }
 
   h1, h2, h3, h4, h5, h6 {
     color: $light-headings;
@@ -252,7 +305,7 @@ svg {
     background: $light-selection;
   }
 
-  header {
+  .header {
     background-color: $light-faint;
     box-shadow: 0px 2px 40px rgba(0, 0, 0, 0.178);
   }
@@ -292,7 +345,7 @@ body {
   line-height: 1.4;
 }
 
-nav {
+.nav {
   max-width: $container;
   padding: 16px 32px;
   margin-left: auto;
@@ -356,7 +409,7 @@ hr {
     padding: 0;
   }
 
-  nav {
+  .nav {
     padding: 16px;
   }
 
@@ -375,7 +428,7 @@ hr {
     margin-left: -2px;
   }
 
-  header {
+  .header {
     position: fixed;
     width: 100vw;
     left: 0px;

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="{{page.lang}}">
+<head>
+{% include head.html %}
+</head>
+<body class="mb0">
+    {% include navbar.html %}
+    <main class="min-vh-100 pv3">
+
+        <div class="new-nav fixed z-max w-100 ph2 flex justify-end" style="bottom: 80px;">
+			<nav class="pa3 br4">
+				<div class="flex flex-column ttu gap2">
+					{%- for navlink in data.main -%}
+					<a class="white pa2 no-underline flex flex-row-reverse  justify-between items-center bg-nav mobile-nav-hover br3" href="/
+					{%- if navlink.langs == "yes" -%}
+					{{page.lang}}/
+					{%- endif -%}
+					{{navlink.url}}/" style="min-width: 200px;">{{navlink[page.lang]}}</a> 
+					{%- endfor -%}
+
+					{%- for navlink in data.secondary -%}
+					<a class="white pa2 no-underline flex flex-row-reverse  justify-between items-center bg-nav mobile-nav-hover br3" href="/
+					{%- if navlink.langs == "yes" -%}
+					{{page.lang}}/
+					{%- endif -%}
+					{{navlink.url}}/">{{navlink[page.lang]}}</a> 
+					{%- endfor -%}
+					
+				</div>
+			</nav>
+		</div>
+
+        
+    </main>
+
+    <!-- <script src="/assets/js/jquery-3.6.3.min.js"></script> -->
+	<script src="/assets/js/progress.js"></script>
+    <script src="/assets/js/main.js"></script>
+</body>
+</html>

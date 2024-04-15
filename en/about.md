@@ -32,11 +32,11 @@ All sorts of projects excite me, but the ones I crave are those that’ll help o
 
 I love sketching out concepts for apps I'd want to use and am looking forward to learning how to build them too! 
 
-Online, I hang out on [Product Hunt](https://www.producthunt.com/@anna_0x) (more than I probably should), read comics, watch anime, go down rabbit holes of all sorts, and learn how to build things for the web.
+Online, I hang out on ~~[Product Hunt](https://www.producthunt.com/@anna_0x)~~ Kickstarter (PH is full of low-quality ‘products’ these days…), read comics, watch anime, go down rabbit holes of all sorts, and learn how to build things for the web.
 
 Offline, I'm into lifting weights, inline and ice skating, [reading books](/reading/), playing board games, and learning languages, to name a few.
 
-<video autoplay loop muted src="/assets/skate-circle-oaka.mp4" class="w-100 br3"></video>
+<video autoplay loop muted src="/assets/skate-circle-oaka-2.mp4" class="w-100 br3"></video>
 
 ***
 
