@@ -74,6 +74,7 @@ body, nav a, .new-nav a, .main {
 
 .new-nav nav, .new-nav .item {
   background-color: #fffef782;
+  -webkit-backdrop-filter: blur(8px); /* fixes blur for Safari*/
   backdrop-filter: blur(8px);
 }
 
