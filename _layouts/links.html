@@ -1,0 +1,15 @@
+---
+layout: default
+---
+<section class="container mv5">
+    <div class="flex flex-row gap3 flex-wrap">
+        {%- for link in page.links-%}
+        <a href="{{link.url}}" class="{%- if link.size == 'half' -%}w-5{%- else -%}w-10{%- endif -%}0 pa3 br4 bg-faint link flex items-center">
+            <img src="{{link.icon}}" alt="" class="w2 pr3">
+            {{link.title}}
+            {{link.description}}
+            {%- if link.pill -%} —  {{link.pill}}{%- endif -%}
+        </a> 
+        {%- endfor -%}  
+    </div>
+</section>

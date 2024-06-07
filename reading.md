@@ -4,6 +4,12 @@ layout: reading
 lang: en
 ref: ''
 books:
+- title: You Can Negotiate Anything
+  read: 'now'
+  cover: "/assets/books/you-can-negotiate-anything.webp"
+  author: Herb Cohen
+  pages: 256
+  my-notes:   |-
 - title: Academic Dissertation
   read: 'now'
   cover: "/assets/books/dissertation-mock-cover.webp"
