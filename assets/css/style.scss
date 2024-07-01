@@ -55,6 +55,9 @@ $dark-a-hover: #ffffff;
 $light-selection: #82c5bc; 
 $dark-selection: #038573; 
 
+* {
+  box-sizing: border-box;
+}
 
 .border-rainbow {
   /* just the color, width etc must be defined */

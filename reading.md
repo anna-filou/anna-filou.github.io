@@ -4,11 +4,23 @@ layout: reading
 lang: en
 ref: ''
 books:
+- title: Business Thinking For Designers
+  read: 'now'
+  cover: "/assets/books/business-thinking-for-designers.webp"
+  author: Ryan Rumsey
+  pages: 156
+  my-notes:   |-
 - title: You Can Negotiate Anything
   read: 'now'
   cover: "/assets/books/you-can-negotiate-anything.webp"
   author: Herb Cohen
   pages: 256
+  my-notes:   |-
+- title: How to design better UI Components
+  read: 'now'
+  cover: "/assets/books/how-to-design-better-ui-components.webp"
+  author: Adrian Kuleszo
+  pages: 197
   my-notes:   |-
 - title: Academic Dissertation
   read: 'now'
