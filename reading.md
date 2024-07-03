@@ -5,11 +5,14 @@ lang: en
 ref: ''
 books:
 - title: Business Thinking For Designers
-  read: 'now'
+  read: '2024'
   cover: "/assets/books/business-thinking-for-designers.webp"
   author: Ryan Rumsey
   pages: 156
-  my-notes:   |-
+  my-notes:   |- 
+    I know that if I’m going to a be a better designer, I need to learn as much as I can about the business side of things. In our current system, great design is not made for the sake of it, but to achieve business goals—whether or not that’s what what personally drives me. 
+    
+    After reading this book and connecting the insights to my personal struggles, I feel better equiped to navigate the corporate world and partner with business leaders to build great designs that push goals&nbsp;forward.
 - title: You Can Negotiate Anything
   read: 'now'
   cover: "/assets/books/you-can-negotiate-anything.webp"
