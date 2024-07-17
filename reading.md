@@ -4,6 +4,15 @@ layout: reading
 lang: en
 ref: ''
 books:
+- title: You Can Negotiate Anything
+  read: '2024'
+  cover: "/assets/books/you-can-negotiate-anything.webp"
+  author: Herb Cohen
+  pages: 256
+  my-notes:   |-
+    I can see there’s value in the insights within, but many of the anecdotes are a bit hard to believe. 
+    
+    Overall the book was highly entertaining! Whether it’ll prove to be helpful remains to be seen, but I’d definitelly like my attitude to be more like author’s.
 - title: Business Thinking For Designers
   read: '2024'
   cover: "/assets/books/business-thinking-for-designers.webp"
@@ -13,12 +22,6 @@ books:
     I know that if I’m going to a be a better designer, I need to learn as much as I can about the business side of things. In our current system, great design is not made for the sake of it, but to achieve business goals—whether or not that’s what what personally drives me. 
     
     After reading this book and connecting the insights to my personal struggles, I feel better equiped to navigate the corporate world and partner with business leaders to build great designs that push goals&nbsp;forward.
-- title: You Can Negotiate Anything
-  read: 'now'
-  cover: "/assets/books/you-can-negotiate-anything.webp"
-  author: Herb Cohen
-  pages: 256
-  my-notes:   |-
 - title: How to design better UI Components
   read: 'now'
   cover: "/assets/books/how-to-design-better-ui-components.webp"
