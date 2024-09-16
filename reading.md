@@ -4,6 +4,12 @@ layout: reading
 lang: en
 ref: ''
 books:
+- title: Siliconned
+  read: now
+  cover: "/assets/books/siliconned.webp"
+  author: Emmanuel Maggiori
+  pages: 230
+  my-notes:   |-
 - title: You Can Negotiate Anything
   read: '2024'
   cover: "/assets/books/you-can-negotiate-anything.webp"
