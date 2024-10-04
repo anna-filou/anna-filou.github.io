@@ -68,21 +68,18 @@
     classes: bg-lightest-blue dark-blue
     color: blue
 - title:
-    en: Theeta.nl
-    el: Theeta
-  desc:
-    en: "Trilingual corporate website. Made with custom code &&nbsp;Jekyll."
+    en: Concept for Note-Taking App
     el: 
-  link:
-    title: Live ↗
-    url: https://theeta.nl/
-  img: "/assets/work-grid/theeta-735shots_so.png"
-  year: 2022
+  desc:
+    en: "A powerfully simple interface for organized knowledge."
+    el: ""
+  img: "/assets/work-grid/m-project.webp"
+  year: 2024
   tags:
-  - name: Client work
-    classes: bg-moon-gray navy
-    color: green
-  - name: Web design & development
+  - name: Just for&nbsp;fun
+    classes: bg-light-yellow orange
+    color: yellow
+  - name: App design
     classes: bg-lightest-blue dark-blue
     color: blue
 - title:
@@ -107,6 +104,24 @@
     color: green
   - name: TSH
     classes: bg-dark-blue lightest-blue
+    color: blue
+- title:
+    en: Theeta.nl
+    el: Theeta
+  desc:
+    en: "Trilingual corporate website. Made with custom code &&nbsp;Jekyll."
+    el: 
+  link:
+    title: Live ↗
+    url: https://theeta.nl/
+  img: "/assets/work-grid/theeta-735shots_so.png"
+  year: 2022
+  tags:
+  - name: Client work
+    classes: bg-moon-gray navy
+    color: green
+  - name: Web design & development
+    classes: bg-lightest-blue dark-blue
     color: blue
 - title:
     en: Hourly Time Tracker
@@ -294,21 +309,21 @@
   - name: Illustration
     classes: bg-washed-red dark-red
     color: pink
-- title:
-    en: Amazon Signup Page Concept
-    el: Ιδεα για σελιδας εγγραφης Amazon
-  desc:
-    en: Dribbble design challenge
-    el: Dribbble challenge
-  link:
-    title: Dribbble&nbsp;↗
-    url: https://dribbble.com/shots/13243688-Amazon-Login-Page-Redesign-Dribbble-Weekly-Warmup
-  img: "/assets/work-grid/amazon-403shots.png"
-  year: 2020
-  tags:
-  - name: Just for fun
-    classes: bg-light-yellow orange
-    color: yellow
-  - name: Web design
-    classes: bg-lightest-blue dark-blue
-    color: blue
+# - title:
+#     en: Amazon Signup Page Concept
+#     el: Ιδεα για σελιδας εγγραφης Amazon
+#   desc:
+#     en: Dribbble design challenge
+#     el: Dribbble challenge
+#   link:
+#     title: Dribbble&nbsp;↗
+#     url: https://dribbble.com/shots/13243688-Amazon-Login-Page-Redesign-Dribbble-Weekly-Warmup
+#   img: "/assets/work-grid/amazon-403shots.png"
+#   year: 2020
+#   tags:
+#   - name: Just for fun
+#     classes: bg-light-yellow orange
+#     color: yellow
+#   - name: Web design
+#     classes: bg-lightest-blue dark-blue
+#     color: blue
