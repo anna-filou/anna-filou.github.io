@@ -233,50 +233,55 @@ layout: default
 document.querySelectorAll('.scroll-container').forEach(container => {
   const scrollLeftOverlay = container.nextElementSibling.querySelector('.scroll-left');
   const scrollRightOverlay = container.nextElementSibling.querySelector('.scroll-right');
-  const scrollAmount = 500; // The number of pixels to scroll to the right
+  const scrollAmount = 800; // Number of pixels to scroll
+
+  // Function to check scroll position and set pointer events
+  function checkScroll() {
+    const maxScrollLeft = container.scrollWidth - container.clientWidth;
+
+    // Disable left overlay if scrolled all the way left
+    scrollLeftOverlay.style.pointerEvents = container.scrollLeft <= 0 ? 'none' : 'auto';
+    
+    // Disable right overlay if scrolled all the way right
+    scrollRightOverlay.style.pointerEvents = container.scrollLeft >= maxScrollLeft ? 'none' : 'auto';
+  }
 
   // Add event listeners for clicking on the left or right
-  scrollLeftOverlay.addEventListener('click', () => {
-    // Scroll all the way to the left
-    container.scrollTo({
-      left: 0,
+  scrollLeftOverlay.addEventListener('click', (event) => {
+    event.stopPropagation(); // Prevent event bubbling
+    container.scrollBy({
+      left: -scrollAmount,
       behavior: 'smooth'
     });
   });
 
-  scrollRightOverlay.addEventListener('click', () => {
+  scrollRightOverlay.addEventListener('click', (event) => {
+    event.stopPropagation(); // Prevent event bubbling
     container.scrollBy({
       left: scrollAmount,
       behavior: 'smooth'
     });
   });
 
-  // Adjust overlay visibility based on scroll position
-  function checkScroll() {
-    const maxScrollLeft = container.scrollWidth - container.clientWidth;
-
-    // Disable left overlay if scrolled all the way left
-    if (container.scrollLeft <= 0) {
-      scrollLeftOverlay.style.pointerEvents = 'none';
-      scrollLeftOverlay.style.opacity = '0.5'; // Change the opacity for visual feedback
-      scrollLeftOverlay.querySelector('svg').style.display = 'none'; // Hide left SVG
-    } else {
-      scrollLeftOverlay.style.pointerEvents = 'all';
-      scrollLeftOverlay.style.opacity = '1'; // Reset opacity
-      scrollLeftOverlay.querySelector('svg').style.display = 'block'; // Show left SVG
+  // Allow scrolling while hovering over the overlay
+  // Using mouse wheel events to enable natural scrolling
+  scrollLeftOverlay.addEventListener('wheel', (event) => {
+    if (event.deltaY < 0) { // Scroll up
+      container.scrollBy({
+        left: -scrollAmount,
+        behavior: 'smooth'
+      });
     }
+  });
 
-    // Disable right overlay if scrolled all the way right
-    if (container.scrollLeft >= maxScrollLeft) {
-      scrollRightOverlay.style.pointerEvents = 'none';
-      scrollRightOverlay.style.opacity = '0.5'; // Change the opacity for visual feedback
-      scrollRightOverlay.querySelector('svg').style.display = 'none'; // Hide right SVG
-    } else {
-      scrollRightOverlay.style.pointerEvents = 'all';
-      scrollRightOverlay.style.opacity = '1'; // Reset opacity
-      scrollRightOverlay.querySelector('svg').style.display = 'block'; // Show right SVG
+  scrollRightOverlay.addEventListener('wheel', (event) => {
+    if (event.deltaY > 0) { // Scroll down
+      container.scrollBy({
+        left: scrollAmount,
+        behavior: 'smooth'
+      });
     }
-  }
+  });
 
   // Check scroll position on scroll
   container.addEventListener('scroll', checkScroll);
