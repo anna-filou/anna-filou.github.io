@@ -229,57 +229,56 @@ layout: default
 <!-- GPT JS scrolling -->
 
 <script>
-document.addEventListener('DOMContentLoaded', () => { // Wait for the DOM to fully load
+document.addEventListener('DOMContentLoaded', () => {
+  console.log('Script loaded');
   document.querySelectorAll('.scroll-container').forEach(container => {
+    console.log('Container found:', container);
     const scrollLeftOverlay = container.nextElementSibling.querySelector('.scroll-left');
     const scrollRightOverlay = container.nextElementSibling.querySelector('.scroll-right');
+    console.log('Left Overlay:', scrollLeftOverlay, 'Right Overlay:', scrollRightOverlay);
+    
     const scrollAmount = 800; // Number of pixels to scroll
 
-    // Function to check scroll position and set pointer events
     function checkScroll() {
       const maxScrollLeft = container.scrollWidth - container.clientWidth;
+      console.log('Max Scroll Left:', maxScrollLeft, 'Current Scroll Left:', container.scrollLeft);
 
       // Disable left overlay if scrolled all the way left
       if (container.scrollLeft <= 0) {
         scrollLeftOverlay.style.pointerEvents = 'none';
-        scrollLeftOverlay.style.opacity = '0.5'; // Visual feedback
       } else {
         scrollLeftOverlay.style.pointerEvents = 'auto';
-        scrollLeftOverlay.style.opacity = '1'; // Reset opacity
       }
 
       // Disable right overlay if scrolled all the way right
       if (container.scrollLeft >= maxScrollLeft) {
         scrollRightOverlay.style.pointerEvents = 'none';
-        scrollRightOverlay.style.opacity = '0.5'; // Visual feedback
       } else {
         scrollRightOverlay.style.pointerEvents = 'auto';
-        scrollRightOverlay.style.opacity = '1'; // Reset opacity
       }
     }
 
-    // Add event listeners for clicking on the left or right
     scrollLeftOverlay.addEventListener('click', (event) => {
-      container.scrollBy({
-        left: -scrollAmount,
+      console.log('Left Overlay Clicked');
+      container.scrollTo({
+        left: 0,
         behavior: 'smooth'
       });
-      checkScroll(); // Check scroll position after clicking
+      checkScroll();
     });
 
     scrollRightOverlay.addEventListener('click', (event) => {
+      console.log('Right Overlay Clicked');
       container.scrollBy({
         left: scrollAmount,
         behavior: 'smooth'
       });
-      checkScroll(); // Check scroll position after clicking
+      checkScroll();
     });
 
-    // Check scroll position on scroll
     container.addEventListener('scroll', checkScroll);
-
-    // Initial check on page load
-    checkScroll(); // This ensures the overlays are in the correct state initially
+    checkScroll(); // Initial check
   });
 });
 </script>
+
