@@ -270,7 +270,11 @@ document.querySelectorAll('.scroll-container').forEach(container => {
     }
   }
 
+  // Check scroll position on scroll
+  container.addEventListener('scroll', checkScroll);
 
+  // Initial check on page load
+  checkScroll();
 });
 
 
