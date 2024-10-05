@@ -233,7 +233,7 @@ layout: default
 document.querySelectorAll('.scroll-container').forEach(container => {
   const scrollLeftOverlay = container.nextElementSibling.querySelector('.scroll-left');
   const scrollRightOverlay = container.nextElementSibling.querySelector('.scroll-right');
-  const scrollAmount = 500; // The number of pixels to scroll to the right
+  const scrollAmount = 800; // The number of pixels to scroll to the right
 
   // Add event listeners for clicking on the left or right
   scrollLeftOverlay.addEventListener('click', () => {
@@ -270,11 +270,7 @@ document.querySelectorAll('.scroll-container').forEach(container => {
     }
   }
 
-  // Check scroll position on scroll
-  container.addEventListener('scroll', checkScroll);
 
-  // Initial check on page load
-  checkScroll();
 });
 
 
