@@ -421,9 +421,6 @@ hr {
   border-image: linear-gradient(90deg, #dc3b3e 10%, #ff8f00 28%, #ffe066 35%, #3bdc90 50%, #3b99dc , #d535c3 90%) 100;
 }
 
-.scroll-container {
-  cursor: e-resize;
-}
 /* GPT scroll overlays */
 
 .scroll-overlay {
@@ -431,32 +428,26 @@ hr {
 }
 
 .scroll-left, .scroll-right {
-  pointer-events: all; /* Allow interaction with left and right overlays */
-  cursor: pointer;
+  position: absolute;
+  top: 0;
+  width: 15%; 
+  height: 100%;
+  z-index: 999; 
+  display: block; /* Ensure they are always visible */
+  pointer-events: auto; /* Always clickable when visible */
 }
 
 .scroll-left {
-  position: absolute;
-  top: 0;
   left: 0;
-  width: 15%; 
-  height: 100%;
-  cursor: url('/assets/left.svg') 0 0, pointer;
-  z-index: 999; 
+  cursor: url('/assets/left.svg') 0 0, w-resize;
 }
-
 .scroll-right {
-  position: absolute;
-  top: 0;
   right: 0;
-  width: 15%; 
-  height: 100%;
-  cursor: url('/assets/right.svg') 0 0, pointer; 
-  z-index: 999;
+  cursor: url('/assets/right.svg') 0 0, e-resize; 
 }
 
 .scroll-left:hover, .scroll-right:hover {
-  background-color: rgba(0, 0, 0, 0.05); /* Optional visual feedback */
+  background-color: rgba(0, 0, 0, 0.05); 
 }
 
 .scroll-container::-webkit-scrollbar {
@@ -464,7 +455,6 @@ hr {
 }
 
 .scroll-container {
-  -ms-overflow-style: none; /* For Internet Explorer and Edge */
   scrollbar-width: none; /* For Firefox */
 }
 
