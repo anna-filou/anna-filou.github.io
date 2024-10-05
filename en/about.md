@@ -37,19 +37,3 @@ Online, ~~[I hang out on Product Hunt](https://www.producthunt.com/@anna_0x)~~ (
 Offline, I'm into lifting weights, inline and ice skating, [reading books](/reading/), playing board games, and learning languages, to name a few.
 
 <video autoplay loop muted src="/assets/skate-circle-oaka-2.mp4" class="w-100 br3"></video>
-
-***
-
-### Now what?
-
-* 💬 [Get in touch](/{{page.lang}}/contact)
-* 🤝 [Hire me](/{{page.lang}}/collab)
-* Check out:
-  * 💼 [Some of my work](/{{page.lang}}/#work)
-  * 🎨 [My illustrations](/{{page.lang}}/art)
-  * 📃 [Stuff I’ve written](/{{page.lang}}/posts)
-  * 🛠 [The tools I use](/uses)
-  * ⏰ [What I’m up to](/now)
-
----
-<video autoplay loop muted src="/assets/swan-bike.mp4" class="w-100 br3 dn-ns"></video>

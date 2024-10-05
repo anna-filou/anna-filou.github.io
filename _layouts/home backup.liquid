@@ -6,10 +6,21 @@ layout: default
 
 {% assign data = site.data.home %}
 
+{% comment %} <div class="container mt4">
+  <div class="flex flex-row justify-end">
+    <a href="https://war.ukraine.ua/" class="lh-title pa2 ph3-ns f5 br3 bg-faint link tr">
+      🇺🇦 Russia is STILL attacking Ukraine&nbsp;🇺🇦&nbsp;→
+    </a>
+  </div>
+</div> {% endcomment %}
+
+
 <section class="container mt5">
+
   <div class="mt0">
     <p class="ttu pa0 mb1 f6 fw5 tertiary tracked">{{ data.hero.intro.tag[page.lang] }}</p>
     <h1 class="hero-headline ttu pa0 mt0 mb2 mb3-l lh-solid nml">{{ data.hero.intro.big-text[page.lang] }}</h1>
+
       <div class="flex flex-row items-center justify-between">
         <a class="mw3 hover-rotate-left" href="/{{page.lang}}/about">
           <img
@@ -88,7 +99,12 @@ layout: default
           </a>
         </div>
       </div>
+
+
   </div>
+
+
+
   <div class="cf mt3 br3 overflow-hidden">
     {% for image in site.static_files %}
       {% if image.path contains 'assets/hero-grid' %}
@@ -104,6 +120,8 @@ layout: default
       {% endif %}
     {% endfor %}
   </div>
+
+  
   <div class="secondary mt4 f4 flex items-center flex-wrap gap2">
     Currently at
     <a
@@ -138,38 +156,30 @@ layout: default
 </div>  
 
 <section class="container-lg-ns">
-  {% for project in site.data.works %}
-    <div class="relative mb3 overflow-hidden">
-      <div class="scroll-container flex flex-column flex-row-ns overflow-x-auto-ns pv3 pl3-ns bg-faint br3 gap3">
-        <div class="flex-shrink-0 measure-narrow-ns pa3 pa2-ns pr3-ns">
-          <h3 class="f3 f4-ns ma0 ttn">{{ project.title }}</h3>
-          <p class="f5 mt2 secondary">{{ project.year }} | {{ project.skills }}</p>
-          <div class="f5 lh-copy">{{ project.description | markdownify }}</div>
-          <div class="mt4">
-            {% if project.case_study %}
-              <a href="{{ project.case_study.url }}" class="f5 br3 ph3 pv2 dib ba bw1 b--faint bg-faint mr2">{{ project.case_study.title }}</a>
-            {% endif %}
-            {% if project.live_site %}
-              <a href="{{ project.live_site.url }}" target="_BLANK" class="f5 br3 ph3 pv2 dib ba bw1 b--faint">{{ project.live_site.title }}</a>
-            {% endif %}
-          </div>
-        </div>
-        <div class="flex-shrink-0 overflow-x-auto project-images flex pl3 pl0-ns" style="height: 400px;">
-          {% for image in project.images %}
-            <img draggable="false" style="min-width: fit-content;" height="100%" width="auto" class="br3 {% if forloop.last == false %}mr3{% endif %}" src="{{ image }}" alt="{{ project.title }} - Image {{ forloop.index }}">
-          {% endfor %}
+{% for project in site.data.works %}
+    <div class="flex flex-column flex-row-ns overflow-x-auto-ns pv3 pl3-ns bg-faint br3 gap3 mb3">
+      <div class="flex-shrink-0 measure-narrow-ns pa3 pa2-ns pr3-ns">
+        <h3 class="f3 f4-ns ma0 ttn">{{ project.title }}</h3>
+        <p class="f5 mt2 secondary">{{ project.year }} | {{ project.skills }}</p>
+        <div class="f5 lh-copy">{{ project.description | markdownify}}</div>
+        <div class="mt4">
+          {% if project.case_study %}
+            <a href="{{ project.case_study.url }}" class="f5 br3 ph3 pv2 dib ba bw1 b--faint bg-faint mr2">{{ project.case_study.title }}</a>
+          {% endif %}
+          {% if project.live_site %}
+            <a href="{{ project.live_site.url }}" target="_BLANK" class="f5 br3 ph3 pv2 dib ba bw1 b--faint">{{ project.live_site.title }}</a>
+          {% endif %}
         </div>
       </div>
-      <!-- Scroll control overlay = SIBLING of scroll-container because if it’s INSIDE it scrolls WITH it! -->
-      <div class="scroll-overlay absolute top-0 left-0 right-0 bottom-0 flex">
-        <div class="scroll-left"></div>
-        <div class="scroll-right"></div>
+      <div class="flex-shrink-0 overflow-x-auto project-images flex pl3 pl0-ns" style="height: 400px;">
+        {% for image in project.images %}
+          <img draggable="false" style="min-width: fit-content;" height="100%" width="auto" class="br3 {% if forloop.last == false %}mr3{% endif %}" src="{{ image }}" alt="{{ project.title }} - Image {{ forloop.index }}">
+        {% endfor %}
       </div>
-    </div>
-  {% endfor %}
+      
+  </div>
+{% endfor %}
 </section>
-
-
 
 
 <div class="container">
@@ -222,60 +232,5 @@ layout: default
 
 </section> 
 
-<script async src="/assets/js/progress.js"></script>
-<script async src="/assets/js/main.js"></script>
-
-
-<!-- GPT JS scrolling -->
-
-<script>
-
-document.querySelectorAll('.scroll-container').forEach(container => {
-  const scrollLeftOverlay = container.nextElementSibling.querySelector('.scroll-left');
-  const scrollRightOverlay = container.nextElementSibling.querySelector('.scroll-right');
-  const scrollAmount = 500; // The number of pixels to scroll to the right
-
-  // Add event listeners for clicking on the left or right
-  scrollLeftOverlay.addEventListener('click', () => {
-    // Scroll all the way to the left
-    container.scrollTo({
-      left: 0,
-      behavior: 'smooth'
-    });
-  });
-
-  scrollRightOverlay.addEventListener('click', () => {
-    container.scrollBy({
-      left: scrollAmount,
-      behavior: 'smooth'
-    });
-  });
-
-  // Adjust overlay activation based on scroll position
-  function checkScroll() {
-    const maxScrollLeft = container.scrollWidth - container.clientWidth;
-
-    // Disable left overlay if scrolled all the way left
-    if (container.scrollLeft <= 0) {
-      scrollLeftOverlay.style.pointerEvents = 'none';
-    } else {
-      scrollLeftOverlay.style.pointerEvents = 'all';
-    }
-
-    // Disable right overlay if scrolled all the way right
-    if (container.scrollLeft >= maxScrollLeft) {
-      scrollRightOverlay.style.pointerEvents = 'none';
-    } else {
-      scrollRightOverlay.style.pointerEvents = 'all';
-    }
-  }
-
-  // Check scroll position on scroll
-  container.addEventListener('scroll', checkScroll);
-
-  // Initial check on page load
-  checkScroll();
-});
-
-
-</script>
+<script src="/assets/js/progress.js"></script>
+<script src="/assets/js/main.js"></script>

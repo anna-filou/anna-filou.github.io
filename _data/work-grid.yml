@@ -1,87 +1,87 @@
-- title:
-    en: UI Design at SHOPFLIX.gr
-    el: 
-  desc:
-    en: "Iteratively creating a Design System for a living online marketplace."
-    el: 
-  link:
-    title: Live ↗
-    url: https://shopflix.gr/
-  img: "/assets/work-grid/figma-shopflix-ds.png"
-  year: 2024
-  tags:
-  - name: In-House
-    classes: bg-moon-gray navy
-    color: green
-- title:
-    en: LGBTmyths.com
-    el: 
-  desc:
-    en: "Debunking misconceptions. Made for easy sharing."
-    el: 
-  link:
-    title: Live ↗
-    url: https://lgbtmyths.com
-  img: "/assets/work-grid/lgbtmyths-mockup-4x3.jpg"
-  year: 2023
-  tags:
-  - name: Personal
-    classes: bg-light-yellow orange
-    color: yellow
-  - name: Web design & development
-    classes: bg-lightest-blue dark-blue
-    color: blue
-- title:
-    en: The Newsroom
-    el: 
-  desc:
-    en: "Design refresh for mobile app reducing bias in news reporting."
-    el: 
-  link:
-    title: Case study →
-    url: /en/newsroom
-  img: "/assets/work-grid/newsroom-4x3.jpg"
-  year: 2023
-  tags:
-  - name: Client work
-    classes: bg-moon-gray navy
-    color: green
-  - name: App design
-    classes: bg-lightest-blue dark-blue
-    color: blue
-- title:
-    en: Airboxr web-app
-    el: 
-  desc:
-    en: "Design from scratch for a startup that does spreadsheet report automation."
-    el: 
-  link:
-    title: Live ↗
-    url: https://www.airboxr.com/
-  img: "/assets/work-grid/airboxr-4x3.jpg"
-  year: 2022
-  tags:
-  - name: Client work
-    classes: bg-moon-gray navy
-    color: green
-  - name: Web-app design
-    classes: bg-lightest-blue dark-blue
-    color: blue
-- title:
-    en: Concept for Note-Taking App
-    el: 
-  desc:
-    en: "A powerfully simple interface for organized knowledge."
-    el: ""
-  img: "/assets/work-grid/m-project.webp"
-  year: 2024
-  tags:
-  - name: Just for&nbsp;fun
-    classes: bg-light-yellow orange
-    color: yellow
-  - name: App design
-    classes: bg-lightest-blue dark-blue
-    color: blue
+# - title:
+#     en: UI Design at SHOPFLIX.gr
+#     el: 
+#   desc:
+#     en: "Iteratively creating a Design System for a living online marketplace."
+#     el: 
+#   link:
+#     title: Live ↗
+#     url: https://shopflix.gr/
+#   img: "/assets/work-grid/figma-shopflix-ds.png"
+#   year: 2024
+#   tags:
+#   - name: In-House
+#     classes: bg-moon-gray navy
+#     color: green
+# - title:
+#     en: LGBTmyths.com
+#     el: 
+#   desc:
+#     en: "Debunking misconceptions. Made for easy sharing."
+#     el: 
+#   link:
+#     title: Live ↗
+#     url: https://lgbtmyths.com
+#   img: "/assets/work-grid/lgbtmyths-mockup-4x3.jpg"
+#   year: 2023
+#   tags:
+#   - name: Personal
+#     classes: bg-light-yellow orange
+#     color: yellow
+#   - name: Web design & development
+#     classes: bg-lightest-blue dark-blue
+#     color: blue
+# - title:
+#     en: The Newsroom
+#     el: 
+#   desc:
+#     en: "Design refresh for mobile app reducing bias in news reporting."
+#     el: 
+#   link:
+#     title: Case study →
+#     url: /en/newsroom
+#   img: "/assets/work-grid/newsroom-4x3.jpg"
+#   year: 2023
+#   tags:
+#   - name: Client work
+#     classes: bg-moon-gray navy
+#     color: green
+#   - name: App design
+#     classes: bg-lightest-blue dark-blue
+#     color: blue
+# - title:
+#     en: Airboxr web-app
+#     el: 
+#   desc:
+#     en: "Design from scratch for a startup that does spreadsheet report automation."
+#     el: 
+#   link:
+#     title: Live ↗
+#     url: https://www.airboxr.com/
+#   img: "/assets/work-grid/airboxr-4x3.jpg"
+#   year: 2022
+#   tags:
+#   - name: Client work
+#     classes: bg-moon-gray navy
+#     color: green
+#   - name: Web-app design
+#     classes: bg-lightest-blue dark-blue
+#     color: blue
+# - title:
+#     en: Concept for Note-Taking App
+#     el: 
+#   desc:
+#     en: "A powerfully simple interface for organized knowledge."
+#     el: ""
+#   img: "/assets/work-grid/m-project.webp"
+#   year: 2024
+#   tags:
+#   - name: Just for&nbsp;fun
+#     classes: bg-light-yellow orange
+#     color: yellow
+#   - name: App design
+#     classes: bg-lightest-blue dark-blue
+#     color: blue
 - title:
     en: DYNAMIKI - Beverage Distribution Network
     el: ΔΥΝΑΜΙΚΗ - Δικτυο διανομης ποτων
