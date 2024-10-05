@@ -233,7 +233,7 @@ layout: default
 document.querySelectorAll('.scroll-container').forEach(container => {
   const scrollLeftOverlay = container.nextElementSibling.querySelector('.scroll-left');
   const scrollRightOverlay = container.nextElementSibling.querySelector('.scroll-right');
-  const scrollAmount = 800; // The number of pixels to scroll to the right
+  const scrollAmount = 500; // The number of pixels to scroll to the right
 
   // Add event listeners for clicking on the left or right
   scrollLeftOverlay.addEventListener('click', () => {
@@ -251,22 +251,30 @@ document.querySelectorAll('.scroll-container').forEach(container => {
     });
   });
 
-  // Adjust overlay activation based on scroll position
+  // Adjust overlay visibility based on scroll position
   function checkScroll() {
     const maxScrollLeft = container.scrollWidth - container.clientWidth;
 
     // Disable left overlay if scrolled all the way left
     if (container.scrollLeft <= 0) {
       scrollLeftOverlay.style.pointerEvents = 'none';
+      scrollLeftOverlay.style.opacity = '0.5'; // Change the opacity for visual feedback
+      scrollLeftOverlay.querySelector('svg').style.display = 'none'; // Hide left SVG
     } else {
       scrollLeftOverlay.style.pointerEvents = 'all';
+      scrollLeftOverlay.style.opacity = '1'; // Reset opacity
+      scrollLeftOverlay.querySelector('svg').style.display = 'block'; // Show left SVG
     }
 
     // Disable right overlay if scrolled all the way right
     if (container.scrollLeft >= maxScrollLeft) {
       scrollRightOverlay.style.pointerEvents = 'none';
+      scrollRightOverlay.style.opacity = '0.5'; // Change the opacity for visual feedback
+      scrollRightOverlay.querySelector('svg').style.display = 'none'; // Hide right SVG
     } else {
       scrollRightOverlay.style.pointerEvents = 'all';
+      scrollRightOverlay.style.opacity = '1'; // Reset opacity
+      scrollRightOverlay.querySelector('svg').style.display = 'block'; // Show right SVG
     }
   }
 
