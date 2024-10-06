@@ -140,7 +140,7 @@ layout: default
 <section class="container-lg-ns">
   {% for project in site.data.works %}
     <div class="relative mb3 overflow-hidden">
-      <div class="scroll-container flex flex-column flex-row-ns overflow-x-auto-ns pv3 pl3-ns bg-faint br3 gap3">
+      <div class="scroll-container w-100 flex flex-column flex-row-ns overflow-x-auto-ns pv3 pl3-ns bg-faint br3 gap3">
         <div class="flex-shrink-0 measure-narrow-ns pa3 pa2-ns pr3-ns">
           <h3 class="f3 f4-ns ma0 ttn">{{ project.title }}</h3>
           <p class="f5 mt2 secondary">{{ project.year }} | {{ project.skills }}</p>
@@ -228,47 +228,38 @@ layout: default
 
 <!-- GPT JS scrolling -->
 
-<script>
-document.addEventListener('DOMContentLoaded', () => {
-  console.log('Script loaded');
-  document.querySelectorAll('.scroll-container').forEach(container => {
-    console.log('Container found:', container);
+<script defer>
+
+window.addEventListener('load', () => {
+  document.querySelectorAll('.scroll-container').forEach((container, index) => {
+    console.log(`Initializing container ${index}`); // Log for each container
+
     const scrollLeftOverlay = container.nextElementSibling.querySelector('.scroll-left');
     const scrollRightOverlay = container.nextElementSibling.querySelector('.scroll-right');
-    console.log('Left Overlay:', scrollLeftOverlay, 'Right Overlay:', scrollRightOverlay);
-    
     const scrollAmount = 800; // Number of pixels to scroll
 
+    // Function to check scroll position and set pointer events
     function checkScroll() {
       const maxScrollLeft = container.scrollWidth - container.clientWidth;
-      console.log('Max Scroll Left:', maxScrollLeft, 'Current Scroll Left:', container.scrollLeft);
+      console.log(`Container ${index} - Max Scroll Left: ${maxScrollLeft}, Scroll Width: ${container.scrollWidth}, Client Width: ${container.clientWidth}`);
 
       // Disable left overlay if scrolled all the way left
-      if (container.scrollLeft <= 0) {
-        scrollLeftOverlay.style.pointerEvents = 'none';
-      } else {
-        scrollLeftOverlay.style.pointerEvents = 'auto';
-      }
-
+      scrollLeftOverlay.style.pointerEvents = container.scrollLeft <= 0 ? 'none' : 'auto';
+      
       // Disable right overlay if scrolled all the way right
-      if (container.scrollLeft >= maxScrollLeft) {
-        scrollRightOverlay.style.pointerEvents = 'none';
-      } else {
-        scrollRightOverlay.style.pointerEvents = 'auto';
-      }
+      scrollRightOverlay.style.pointerEvents = container.scrollLeft >= maxScrollLeft ? 'none' : 'auto';
     }
 
-    scrollLeftOverlay.addEventListener('click', (event) => {
-      console.log('Left Overlay Clicked');
-      container.scrollTo({
-        left: 0,
+    // Add event listeners for clicking on the left or right
+    scrollLeftOverlay.addEventListener('click', () => {
+      container.scrollBy({
+        left: -scrollAmount,
         behavior: 'smooth'
       });
       checkScroll();
     });
 
-    scrollRightOverlay.addEventListener('click', (event) => {
-      console.log('Right Overlay Clicked');
+    scrollRightOverlay.addEventListener('click', () => {
       container.scrollBy({
         left: scrollAmount,
         behavior: 'smooth'
@@ -276,9 +267,20 @@ document.addEventListener('DOMContentLoaded', () => {
       checkScroll();
     });
 
+    // Check scroll position on scroll
     container.addEventListener('scroll', checkScroll);
-    checkScroll(); // Initial check
+
+    // Initial check on page load
+    checkScroll();
+
+    // Create a ResizeObserver to watch for changes in the scroll container
+    const resizeObserver = new ResizeObserver(() => {
+      checkScroll();
+    });
+
+    resizeObserver.observe(container);
   });
 });
-</script>
 
+
+</script>
