@@ -47,15 +47,23 @@ Alas, it wasn’t that simple. I tried set it up so that the right arrow would o
 window.addEventListener('load', () => { }
 ```
 
-Such a simple solution, yet it almost drove me insane!
+It finally worked, but then I wondered how discoverable that “feature” was. Would visitors instinctively know to go towards the right to scroll? I asked a couple of people and the answer was no. They couldn’t immediately tell the area was scrollable.
 
-Finally done, but now I wonder how discoverable that “feature” is. Will visitors instinctively know to go towards the right to scroll? I might have to revise the whole thing and make the arrows always visible. But I’m hesistant to make another round of changes after seeing how long this one took…
+On top of that I realized that on a lot of mobile screens, unless you already knew, you couldn‘t tell that it’s possible to scroll horizontally, since the first image was about as wide a typical smartphone screen.
+
+To address those:
+- For the **mobile** issue, I made the first images of each project smaller, so the second image would always be visible and give you an indicator you can scroll right.
+- For the **desktop** issue, I made the arrows visible at all times, provided you can scroll in that direction. To ensure they’re always visible, I added a small semi-transparent overlay underneath.
+
+
+![](/uploads/portfolio-projects-left-right.webp)
+
 
 ## Conclusion
 Theoretically, the new layout helps engage visitors better. 
 
 To find out, whenever I know someone has visited my website, I’ll ask them what they thought of the way the projects are presented. 
 
-This also seems like a good chance to try out A/B testing and compare the time visitors spent on the page and which links they clicked on. I might do that (it requires some additional setup on my Jekyll “backend”), but it still couldn’t tell me the most important thing: to what degree do visitors understand what my skills are?
+This also seems like a good chance to try out A/B testing and compare the time visitors spent on the page and which links they clicked on. I might do that (it requires some additional setup on my Jekyll “backend”), but it still couldn’t tell me the most important thing: to what degree do visitors understand what my skills are? That I can only find out by asking.
 
 PS: [Here’s the previous version of the homepage](https://66ffd8b28cd2140008bd1125--annafilou.netlify.app/) with the grid layout.
