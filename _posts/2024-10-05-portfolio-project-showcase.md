@@ -41,7 +41,15 @@ I had to add a way to either drag or click to scroll. Considering that dragging 
 
 <video autoplay loop muted src="/uploads/portfolio-projects-hover.mp4" class="w-100 br3"></video>
 
-I have a reservation regarding how discoverable that “feature” is. Will visitors instinctively know to go towards the right to scroll?
+Alas, it wasn’t that simple. I tried set it up so that the right arrow would only appear when it’s possible to scroll right, and vice versa. But that sometimes didn’t work and the arrow never appeared. After an excuciatingly long “conversation” with ChatGPT, the issue was solved when I wrapped the entire JS script in this:
+
+```js
+window.addEventListener('load', () => { }
+```
+
+Such a simple solution, yet it almost drove me insane!
+
+Finally done, but now I wonder how discoverable that “feature” is. Will visitors instinctively know to go towards the right to scroll? I might have to revise the whole thing and make the arrows always visible. But I’m hesistant to make another round of changes after seeing how long this one took…
 
 ## Conclusion
 Theoretically, the new layout helps engage visitors better. 

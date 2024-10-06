@@ -90,8 +90,16 @@ article a {
 article figure, div.highlight {
   padding: 10px 20px;
   border-radius: 6px;
-  margin: 2em 40px;
   border: 2px solid rgb(99, 99, 99);
+}
+
+code {
+  text-wrap: balance;
+  font-size: 0.9em;
+}
+
+pre {
+
 }
 
 /* SMALL SCREEN */
