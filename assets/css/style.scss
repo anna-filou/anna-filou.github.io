@@ -428,31 +428,31 @@ hr {
 
 /* GPT scroll overlays */
 
-.scroll-overlay {
-  pointer-events: none; /* Prevent interaction with the full overlay */
-}
-
-.scroll-left, .scroll-right {
+/* Style for the scroll arrows */
+.scroll-arrow {
   position: absolute;
   top: 0;
-  width: 15%; 
+  width: 80px;
   height: 100%;
-  z-index: 999; 
-  display: block; /* Ensure they are always visible */
-  pointer-events: auto; /* Always clickable when visible */
+  display: flex;
+  background-color: rgba(38, 35, 164, 0.06);
+  // background: linear-gradient(90deg, #19009300 0%, #1d00ae42 100%);
+  cursor: pointer;
+  z-index: 2;
+  align-items: center;
+  justify-content: center;
 }
 
-.scroll-left {
+.scroll-arrow:hover {
+  opacity: 1;
+}
+
+.left-arrow {
   left: 0;
-  cursor: url('/assets/left.svg') 0 0, w-resize;
-}
-.scroll-right {
-  right: 0;
-  cursor: url('/assets/right.svg') 0 0, e-resize; 
 }
 
-.scroll-left:hover, .scroll-right:hover {
-  background-color: rgba(0, 0, 0, 0.05); 
+.right-arrow {
+  right: 0;
 }
 
 .scroll-container::-webkit-scrollbar {
@@ -463,9 +463,10 @@ hr {
   scrollbar-width: none; /* For Firefox */
 }
 
-@media screen and (max-width: 768px) {
-  .scroll-overlay {
-    display: none; /* Disable the overlay on mobile */
+@media (max-width: 800px) {
+  /* Hide arrows on mobile */
+  .scroll-arrow {
+    display: none;
   }
 }
 

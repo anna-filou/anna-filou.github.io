@@ -139,8 +139,11 @@ layout: default
 
 <section class="container-lg-ns">
   {% for project in site.data.works %}
-    <div class="relative mb3 overflow-hidden">
-      
+    <div class="relative mb3 overflow-hidden br3">
+      <!-- Left and Right Scroll Arrows -->
+      <div class="scroll-arrow left-arrow" style="display: none;"><img width="40px" height="40px" src="/assets/left.svg" alt=""></div>
+      <div class="scroll-arrow right-arrow"><img width="40px" height="40px" src="/assets/right.svg" alt=""></div>
+
       <div class="scroll-container w-100 flex flex-column flex-row-ns overflow-x-auto-ns pv3 pl3-ns bg-faint br3 gap3">
         <div class="flex-shrink-0 measure-narrow-ns pa3 pa2-ns pr3-ns">
           <h3 class="f3 f4-ns ma0 ttn">{{ project.title }}</h3>
@@ -156,18 +159,11 @@ layout: default
           </div>
         </div>
 
-          <div class="flex-shrink-0 overflow-x-auto project-images flex pl3 pl0-ns">
+        <div class="flex-shrink-0 overflow-x-auto project-images flex pl3 pl0-ns">
           {% for image in project.images %}
             <img draggable="false" style="min-width: fit-content;" height="100%" width="auto" class="br3 {% if forloop.last == false %}mr3{% endif %}" src="{{ image }}" alt="{{ project.title }} - Image {{ forloop.index }}">
           {% endfor %}
-          </div>
-
-        
-      </div>
-      <!-- Scroll control overlay = SIBLING of scroll-container because if it’s INSIDE it scrolls WITH it! -->
-      <div class="scroll-overlay absolute top-0 left-0 right-0 bottom-0 flex">
-        <div class="scroll-left"></div>
-        <div class="scroll-right"></div>
+        </div>
       </div>
     </div>
   {% endfor %}
@@ -235,56 +231,48 @@ layout: default
 <script defer>
 
 window.addEventListener('load', () => {
-  document.querySelectorAll('.scroll-container').forEach((container, index) => {
-    console.log(`Initializing container ${index}`); // Log for each container
+  document.querySelectorAll('.scroll-container').forEach(function (container) {
+  const leftArrow = container.parentElement.querySelector('.left-arrow');
+  const rightArrow = container.parentElement.querySelector('.right-arrow');
 
-    const scrollLeftOverlay = container.nextElementSibling.querySelector('.scroll-left');
-    const scrollRightOverlay = container.nextElementSibling.querySelector('.scroll-right');
-    const scrollAmount = 800; // Number of pixels to scroll
+  // Initial check: hide the left arrow, right arrow is visible
+  leftArrow.style.display = 'none';
 
-    // Function to check scroll position and set pointer events
-    function checkScroll() {
-      const maxScrollLeft = container.scrollWidth - container.clientWidth;
-      console.log(`Container ${index} - Max Scroll Left: ${maxScrollLeft}, Scroll Width: ${container.scrollWidth}, Client Width: ${container.clientWidth}`);
+  // Handle scrolling
+  container.addEventListener('scroll', function () {
+    const scrollLeft = container.scrollLeft;
+    const maxScrollLeft = container.scrollWidth - container.clientWidth;
 
-      // Disable left overlay if scrolled all the way left
-      scrollLeftOverlay.style.pointerEvents = container.scrollLeft <= 0 ? 'none' : 'auto';
-      
-      // Disable right overlay if scrolled all the way right
-      scrollRightOverlay.style.pointerEvents = container.scrollLeft >= maxScrollLeft ? 'none' : 'auto';
+    // Show both arrows if not at the extremes
+    if (scrollLeft === 0) {
+      leftArrow.style.display = 'none';  // Hide left arrow at the start
+    } else {
+      leftArrow.style.display = 'flex';  // Show left arrow when scrolling right
     }
 
-    // Add event listeners for clicking on the left or right
-    scrollLeftOverlay.addEventListener('click', () => {
-      container.scroll({
-        left: 0,
-        behavior: 'smooth'
-      });
-      checkScroll();
+    if (scrollLeft >= maxScrollLeft) {
+      rightArrow.style.display = 'none'; // Hide right arrow at the end
+    } else {
+      rightArrow.style.display = 'flex'; // Show right arrow when not at the end
+    }
+  });
+
+  // Click events for arrows
+  leftArrow.addEventListener('click', function () {
+    container.scroll({
+      left: 0,  // Scroll all the way to the beginning
+      behavior: 'smooth'
     });
+  });
 
-    scrollRightOverlay.addEventListener('click', () => {
-      container.scrollBy({
-        left: scrollAmount,
-        behavior: 'smooth'
-      });
-      checkScroll();
+  rightArrow.addEventListener('click', function () {
+    container.scrollBy({
+      left: 800,  
+      behavior: 'smooth'
     });
-
-    // Check scroll position on scroll
-    container.addEventListener('scroll', checkScroll);
-
-    // Initial check on page load
-    checkScroll();
-
-    // Create a ResizeObserver to watch for changes in the scroll container
-    const resizeObserver = new ResizeObserver(() => {
-      checkScroll();
-    });
-
-    resizeObserver.observe(container);
   });
 });
+  });
 
 
 </script>
