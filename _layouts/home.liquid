@@ -140,6 +140,7 @@ layout: default
 <section class="container-lg-ns">
   {% for project in site.data.works %}
     <div class="relative mb3 overflow-hidden">
+      
       <div class="scroll-container w-100 flex flex-column flex-row-ns overflow-x-auto-ns pv3 pl3-ns bg-faint br3 gap3">
         <div class="flex-shrink-0 measure-narrow-ns pa3 pa2-ns pr3-ns">
           <h3 class="f3 f4-ns ma0 ttn">{{ project.title }}</h3>
@@ -154,11 +155,14 @@ layout: default
             {% endif %}
           </div>
         </div>
-        <div class="flex-shrink-0 overflow-x-auto project-images flex pl3 pl0-ns" style="height: 400px;">
+
+          <div class="flex-shrink-0 overflow-x-auto project-images flex pl3 pl0-ns">
           {% for image in project.images %}
             <img draggable="false" style="min-width: fit-content;" height="100%" width="auto" class="br3 {% if forloop.last == false %}mr3{% endif %}" src="{{ image }}" alt="{{ project.title }} - Image {{ forloop.index }}">
           {% endfor %}
-        </div>
+          </div>
+
+        
       </div>
       <!-- Scroll control overlay = SIBLING of scroll-container because if it’s INSIDE it scrolls WITH it! -->
       <div class="scroll-overlay absolute top-0 left-0 right-0 bottom-0 flex">
@@ -252,8 +256,8 @@ window.addEventListener('load', () => {
 
     // Add event listeners for clicking on the left or right
     scrollLeftOverlay.addEventListener('click', () => {
-      container.scrollBy({
-        left: -scrollAmount,
+      container.scroll({
+        left: 0,
         behavior: 'smooth'
       });
       checkScroll();

@@ -421,6 +421,11 @@ hr {
   border-image: linear-gradient(90deg, #dc3b3e 10%, #ff8f00 28%, #ffe066 35%, #3bdc90 50%, #3b99dc , #d535c3 90%) 100;
 }
 
+
+.project-images {
+  height: 400px;
+}
+
 /* GPT scroll overlays */
 
 .scroll-overlay {
@@ -471,7 +476,9 @@ hr {
     font-size: 18px;
     margin-bottom: 6em;
   } 
-
+  .project-images {
+    height: 320px;
+  }
   .flag-icon {
     height: 5px;
     padding: 0;

@@ -30,20 +30,20 @@ AND adds the following code in the {{content}} area of default.html -->
 
 <section class="container-ns">
     <div class="relative">
-    <div class="pl3 pr5-ns pl0-ns nowrap overflow-x-auto flex items-end w-100">
-        {%- for book in page.books-%}
-            {%- if book.read == "now" -%}
-            <div class="w-20-ns mr4 mv2 overflow-auto ws-normal" style="min-width: 200px;">
-                <div class="mb1">
-                    <img src="{{book.cover}}" class="smooth-shadow outline br3 ba b--faint" alt="">
+        <div class="pl3 pr5-ns pl0-ns nowrap overflow-x-auto flex items-end w-100">
+            {%- for book in page.books-%}
+                {%- if book.read == "now" -%}
+                <div class="w-20-ns mr4 mv2 overflow-auto ws-normal" style="min-width: 200px;">
+                    <div class="mb1">
+                        <img src="{{book.cover}}" class="smooth-shadow outline br3 ba b--faint" alt="">
+                    </div>
+                    <h3 class="mt2 mb1 f5">{{book.title}}</h3>
+                    <div class="o-70">by {{book.author}}</div>
                 </div>
-                <h3 class="mt2 mb1 f5">{{book.title}}</h3>
-                <div class="o-70">by {{book.author}}</div>
-            </div>
-            {%- endif -%}
-        {%- endfor -%}  
-    </div>
-    <div class="dn db-ns absolute top-0 right-0 bg-red h-100 w-10 book-container-gradient"></div>
+                {%- endif -%}
+            {%- endfor -%}  
+        </div>
+        <div class="dn db-ns absolute top-0 right-0 bg-red h-100 w-10 book-container-gradient"></div>
     </div>
 </section>
 

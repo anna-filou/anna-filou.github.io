@@ -47,9 +47,9 @@
     title: App Store ↗
     url: https://apps.apple.com/us/app/the-newsroom/id1613913905
   images:
+    - /assets/work-new/newsroom-article.webp
     - /assets/work-grid/newsroom-4x3.jpg
     - /assets/newsroom-3.jpg
-    - /assets/work-new/newsroom-article.webp
   year: 2023
 - title: Concept for Note-Taking App
   description: |
@@ -60,7 +60,7 @@
     To get it out of my head, I'm playing around with the idea in&nbsp;Figma.
   skills: Concept, Design
   images:
-    - /assets/work-grid/m-project.webp
+    - /assets/work-new/m-project.webp
     - /assets/work-new/m-exploations-figma.webp
     - /assets/work-new/m-mashup-exploration.webp
   year: 2024
