@@ -17,11 +17,11 @@
   year: 2023–now
 - title: LGBTmyths.com
   description: |
-    A resource that debunks misconceptions in a polite and understanding way.
+    In the spirit of using my skills for good, I designed and coded a website to help challenge
+    common misconceptions and myths about LGBT+ people. 
     
-    A link that you can post under ignorant comments on social media to educate, without spending time 
-    and effort to gather references from the ground&nbsp;up.
-  skills: Concept, Design, Development (HTML, CSS)
+    It was also an opportunity to experiment with a new aesthetic.
+  skills: Concept, Design, Development (HTML, CSS, Jekyll + Liquid)
   live_site:
     title: Live website ↗
     url: https://lgbtmyths.com

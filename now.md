@@ -9,7 +9,10 @@ Spent ~10 hours (!) making what was supposed to be a “quick update” to my po
 
 [Read about that here](/en/portfolio-project-showcase) and [let me know](/en/contact) if it was worth it! 🙏🏻
 
-## May 23rd, 2024
+---
+
+## Previously
+**May 23rd, 2024**
 
 I used ChatGPT + 5 hours to make a Chrome extension that turns my new tab into a grid with bookmarks that can be put into sections! 
 
