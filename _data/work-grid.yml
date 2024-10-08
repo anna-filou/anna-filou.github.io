@@ -178,21 +178,6 @@
   - name: Web design
     classes: bg-lightest-blue dark-blue
     color: blue
-- title:
-    en: Concept for Planner App
-    el: 
-  desc:
-    en: "Personal project for an intelligent planner with minimalist aesthetics."
-    el: ""
-  img: "/assets/work-grid/effortless-c3.jpg"
-  year: 2022
-  tags:
-  - name: Just for&nbsp;fun
-    classes: bg-light-yellow orange
-    color: yellow
-  - name: App design
-    classes: bg-lightest-blue dark-blue
-    color: blue
 # - title:
 #     en: Micronavi — Electronics Distributor
 #     el: Micronavi — Distributor Ηλεκτρωνικών
@@ -212,6 +197,24 @@
 #     classes: bg-lightest-blue dark-blue
 #     color: blue
 - title:
+    en: Werewolf Game Cards
+    el: Καρτες παιχνιδιου «Παλερμο»
+  desc:
+    en: "Handmade for personal use with watercolor and&nbsp;ink."
+    el: Για προσωπική χρήση, νερομπογιά και μελάνι.
+  link:
+    title: Behance&nbsp;↗
+    url: https://www.behance.net/gallery/110141811/Werewolf-Game-Cards
+  img: "/assets/work-grid/warewolf-cards.jpg"
+  year: 2019
+  tags:
+  - name: Just for fun
+    classes: bg-light-yellow orange
+    color: yellow
+  - name: Illustration
+    classes: bg-washed-red dark-red
+    color: pink
+- title:
     en: Logo for Platinum Stores
     el: Logo για την Platinum Stores
   desc:
@@ -225,6 +228,21 @@
     color: green
   - name: Logo design
     classes: bg-light-yellow orange
+    color: blue
+- title:
+    en: Concept for Planner App
+    el: 
+  desc:
+    en: "Personal project for an intelligent planner with minimalist aesthetics."
+    el: ""
+  img: "/assets/work-grid/effortless-c3.jpg"
+  year: 2022
+  tags:
+  - name: Just for&nbsp;fun
+    classes: bg-light-yellow orange
+    color: yellow
+  - name: App design
+    classes: bg-lightest-blue dark-blue
     color: blue
 # - title:
 #     en: Beckher — SDA Manufacturer Website
@@ -276,39 +294,21 @@
 #     classes: bg-moon-gray navy
 #   - name: Webflow
 #     classes: bg-lightest-blue purple
-- title:
-    en: MegaMan-inspired Launcher setup
-    el: MegaMan-inspired Launcher setup
-  desc:
-    en: "I made this for myself. \U0001F499 (Animated with Motion&nbsp;Portrait.)"
-    el: Animated with Motion Portrait. Using “The Grid” icon pack.
-  img: "/assets/work-grid/megaman-launcher-mockup.gif"
-  year: 2019
-  tags:
-  - name: Just for fun
-    classes: bg-light-yellow orange
-    color: yellow
-  - name: Illustration
-    classes: bg-washed-red dark-red
-    color: pink
-- title:
-    en: Werewolf Game Cards
-    el: Καρτες παιχνιδιου «Παλερμο»
-  desc:
-    en: "Handmade for personal use with watercolor and&nbsp;ink."
-    el: Για προσωπική χρήση, νερομπογιά και μελάνι.
-  link:
-    title: Behance&nbsp;↗
-    url: https://www.behance.net/gallery/110141811/Werewolf-Game-Cards
-  img: "/assets/work-grid/warewolf-cards.jpg"
-  year: 2019
-  tags:
-  - name: Just for fun
-    classes: bg-light-yellow orange
-    color: yellow
-  - name: Illustration
-    classes: bg-washed-red dark-red
-    color: pink
+# - title:
+#     en: MegaMan-inspired Launcher setup
+#     el: MegaMan-inspired Launcher setup
+#   desc:
+#     en: "I made this for myself. \U0001F499 (Animated with Motion&nbsp;Portrait.)"
+#     el: Animated with Motion Portrait. Using “The Grid” icon pack.
+#   img: "/assets/work-grid/megaman-launcher-mockup.gif"
+#   year: 2019
+#   tags:
+#   - name: Just for fun
+#     classes: bg-light-yellow orange
+#     color: yellow
+#   - name: Illustration
+#     classes: bg-washed-red dark-red
+#     color: pink
 # - title:
 #     en: Amazon Signup Page Concept
 #     el: Ιδεα για σελιδας εγγραφης Amazon
