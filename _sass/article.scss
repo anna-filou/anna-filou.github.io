@@ -102,11 +102,10 @@ code {
 /* SMALL SCREEN */
 @media (max-width: $media-small) {
 
-  article img {
+  article img, article video {
     min-width: 100vw;
     position: relative;
     left: -$padding;
-    max-width: auto;
     border: none;
     border-radius: 0;
   }
