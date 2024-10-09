@@ -2,12 +2,14 @@
 title: Now
 layout: now
 lang: en
-updated: October 5th, 2024
+updated: October 9th, 2024
 ---
 
-Spent ~10 hours (!) making what was supposed to be a “quick update” to my portfolio 🥲
+This weekend, I spent over 10 hours (!) making what started out as a “quick update” to my portfolio 🥲
 
 [Read about that here](/en/portfolio-project-showcase) and [let me know](/en/contact) if it was worth it! 🙏🏻
+
+I also wrote a [manual for working with me](/{{page.lang}}/manual) after coming across [manualof.me](https://www.manualof.me/about)!
 
 ---
 
