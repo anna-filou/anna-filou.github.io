@@ -4,8 +4,13 @@ $max-width: 900px;
 
 /* ARTICLE BLOG */
 
-article {
+.article {
   font-size: 1em;
+  color: blue;
+}
+
+.article b, .article bold, .article strong {
+  color: red;
 }
 
 article p,

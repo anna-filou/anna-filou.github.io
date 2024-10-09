@@ -35,7 +35,7 @@ $light-headings: #17181D; // #3d3333
 $dark-headings: hsl(246, 100%, 98%);
 
 $light-body: #313645; // #4d4444
-$dark-body: hsl(246, 100%, 95%);
+$dark-body: hsl(246, 100%, 92%);
 
 $light-secondary: #525455; // #535353
 $dark-secondary: hsl(246, 100%, 90%);
@@ -44,7 +44,7 @@ $light-tertiary: #6e7176; // #777777
 $dark-tertiary: #6586b0;
 
 $dark-border: #28405e;
-$light-border: #d1d7ff;
+$light-border: hsl(232, 60%, 88%);
 
 $light-a: #0024ef; // #3e4497
 $dark-a: #6fe7d6; 
@@ -87,14 +87,27 @@ body, nav a, .new-nav a, .main {
   color: $light-body;
 }
 
+strong,
+b {
+  color: $light-headings;
+  
+  @media (prefers-color-scheme: light) { 
+    color: $light-headings;
+  }
+  @media (prefers-color-scheme: dark) {
+   color: $dark-headings;
+  }
+}
+
+
 .new-nav nav, .new-nav .item {
   background-color: #fffef782;
   -webkit-backdrop-filter: blur(8px); /* fixes blur for Safari*/
   backdrop-filter: blur(8px);
 }
 
-.mobile-nav-hover:hover {  background-color: #898fe461; }
-.bg-nav { background-color: rgba(206, 208, 239, 0.45); }
+.mobile-nav-hover:hover {  background-color: rgba(206, 208, 239, 0.35); }
+.bg-nav { background-color: rgba(206, 208, 239, 0.25); }
 
 h1, h2, h3, h4, h5, h6 {
   color: $light-headings;
@@ -299,8 +312,8 @@ svg {
     background-color: #fffef7bd;
   }
 
-  .mobile-nav-hover:hover {  background-color: #898fe461; }
-  .bg-nav { background-color: rgba(206, 208, 239, 0.45); }
+  .mobile-nav-hover:hover {  background-color: rgba(206, 208, 239, 0.35); }
+  .bg-nav { background-color: rgba(206, 208, 239, 0.25); }
 
   h1, h2, h3, h4, h5, h6 {
     color: $light-headings;
@@ -371,7 +384,7 @@ body {
 hr {
   border-width: 1px;
   border-style: solid;
-  margin: 5em 0 4em;
+  margin: 4em 0;
 }
 
 .nml {

@@ -10,6 +10,17 @@ sidebar: |
 
 I'm Anna, a digital native designer and technophile [who draws](/{{page.lang}}/art).
 
+<div class="ba bw1 b--faint br4 overflow-hidden mv4">
+<a href="/{{page.lang}}/manual" class="no-underline">
+    <div class="flex items-center pa3 hover-bg-faint">
+        <div class="f2 mr3">📒</div>
+        <div>
+        <span class="fw1">Working with me?</span> Read&nbsp;my&nbsp;Manual&nbsp;→
+        </div>
+    </div>
+</a>
+</div>
+
 ### What do you do professionally?
 
 I design **digital interfaces** and build **websites**. My core skills are user interface and experience design (UI/UX). I have a knack for making complex information easy to understand and powerful interfaces easy to use. 
