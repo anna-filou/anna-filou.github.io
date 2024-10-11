@@ -189,6 +189,14 @@ svg {
 .hover-bg-faint:hover { background-color: $light-faint; }
 
 .hover-rotate-left:hover {rotate: -15deg;}
+.hover-rotate-right:hover {rotate: 15deg;}
+
+.rotate--15 { -webkit-transform: rotate( -15deg ); transform: rotate( -15deg ); }
+
+.fit-content {
+  height: fit-content;
+  width: fit-content;
+}
 
 .gap1 { gap: .25rem; }
 .gap2 { gap: .5rem; }
