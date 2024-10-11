@@ -35,7 +35,7 @@ $light-headings: #17181D; // #3d3333
 $dark-headings: hsl(246, 100%, 98%);
 
 $light-body: #313645; // #4d4444
-$dark-body: hsl(246, 100%, 92%);
+$dark-body: hsl(246, 100%, 94%);
 
 $light-secondary: #525455; // #535353
 $dark-secondary: hsl(246, 100%, 90%);
@@ -124,7 +124,7 @@ del {
   // font-size: 7.5vw;
   font-size: 3em; // fallback if clamp is not supported?
   // font-size: calc(1em + 6.5vw); // no because there's no MAX
-  font-size: clamp(1em, 10vw, 6.5em); // min, preferred, max
+  font-size: clamp(1em, 9.7vw, 6.5em); // min, preferred, max
 }
 
 a {
