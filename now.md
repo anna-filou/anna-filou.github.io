@@ -5,9 +5,7 @@ lang: en
 updated: October 9th, 2024
 ---
 
-This weekend, I spent over 10 hours (!) making what started out as a “quick update” to my portfolio 🥲
-
-[Read about that here](/en/portfolio-project-showcase) and [let me know](/en/contact) if it was worth it! 🙏🏻
+This weekend, I pushed a big update to my website’s homepage, regarding how I show previews of the projects I’ve worked on! [Read about it here](/en/portfolio-project-showcase).
 
 I also wrote a [manual for working with me](/{{page.lang}}/manual) after coming across [manualof.me](https://www.manualof.me/about)!
 

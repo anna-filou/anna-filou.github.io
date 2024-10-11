@@ -25,11 +25,11 @@ I'm Anna, a digital native designer and technophile [who draws](/{{page.lang}}/
 
 I design **digital interfaces** and build **websites**. My core skills are user interface and experience design (UI/UX). I have a knack for making complex information easy to understand and powerful interfaces easy to use. 
 
-When time allows, I take on **freelance design and development projects** for assorted clients around the world.
-
-Previously, I spent years managing business operations for international commerce firms. I’m a recovering perfectionist with a diverse skill set. I try my best, but sometimes I get burned out.
-
 Currently doing UI Design at [Shopflix](https://shopflix.gr/). Previously managing operations and making sites at [Theeta B.V.](https://theeta.nl), designing at [The Smiling Hippo](https://thesmilinghippo.com) and doing customer support at [Tempo](https://www.yourtempo.co/).
+
+When time allows, I take on **freelance design and development projects** for assorted clients around the world. 
+
+I spent the earlier years of my career managing business operations and building lightweight ERPs for wholesale commerce firms. 
 
 ### What makes you tick?
 
