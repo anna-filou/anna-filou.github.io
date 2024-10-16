@@ -11,7 +11,7 @@ lang: en
 ---
 
 ## Context
-I wanted to improve how my portfolio shows previews of my projects, making it easier for visitors to see what I can do. My old grid layout wasn’t engaging enough. Many of the cards didn’t provide enough context, making it hard for visitors to understand my work. Sure, most cards were clickable, but most led to the project‘s live website, so my involvement was still unclear.
+I wanted to improve how my portfolio shows previews of my projects, making it easier for visitors to see what I can do. My old grid layout wasn’t engaging enough. Many of the cards didn’t provide enough context, making it hard for visitors to understand my work. Sure, most cards were clickable, but most led to the project’s live website, so my involvement was still unclear.
 
 ![](/uploads/portfolio-ux-before.webp)
 
