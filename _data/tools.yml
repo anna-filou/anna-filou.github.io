@@ -8,6 +8,12 @@ tools:
     en: I likely spend most of my waking hours on Figma; creating, experimenting, annotating, making and organizing components.
     el: ''
   img: "/uploads/figma-logo.png"
+- name: Wispr Flow
+  url: https://www.flowvoice.ai/?referral=ANNA5
+  desc:
+    en: I almost never type since I discovered this—I just speak instead! 🤯 If you sign up using this link and dictate 2000 words, we both get 1-month of Pro for free ;)
+    el: ''
+  img: "/assets/wispr-flow.webp"
 - name: Jekyll
   url: https://jekyllrb.com/
   desc:
