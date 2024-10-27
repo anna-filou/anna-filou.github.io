@@ -1,5 +1,5 @@
 intro:
-  en: "Some of the services I love to use—and often&nbsp;rely&nbsp;on."
+  en: "Some of the digital products I love to use"
   el: "Τα παρακάτω προϊόντα/υπηρεσίες μου αρέσουν τόσο ώστε να τα συνιστώ."
 tools:
 - name: Figma
@@ -65,6 +65,12 @@ tools:
       I mostly use CleanShot X now.'
     el: ''
   img: "/uploads/loom-logo.png"
+- name: SwiftRead
+  url: https://swiftread.com/
+  desc:
+    en: 'The best speed reading extension BY FAR. It helps me read 3× as fast—literally! The details are so well thought out.'
+    el: ''
+  img: "/assets/swiftread-logo.webp"
 - name: Webflow
   url: https://webflow.com/cms#editors
   desc:
