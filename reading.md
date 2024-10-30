@@ -5,7 +5,7 @@ lang: en
 ref: ''
 books:
 - title: Siliconned
-  read: 2024
+  read: '2024'
   cover: "/assets/books/siliconned.webp"
   author: Emmanuel Maggiori
   pages: 230
