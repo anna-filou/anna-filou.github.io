@@ -5,11 +5,14 @@ lang: en
 ref: ''
 books:
 - title: Siliconned
-  read: now
+  read: '2024'
   cover: "/assets/books/siliconned.webp"
   author: Emmanuel Maggiori
   pages: 230
   my-notes:   |-
+    A timeline and critical historical overview of the current state of startup culture.
+
+    I often found myself chuckling and thinking “I can't believe nobody else is pointing out how absurd this is!” Not only did I learn a lot more about how the economy works, I was also highly entertained.
 - title: You Can Negotiate Anything
   read: '2024'
   cover: "/assets/books/you-can-negotiate-anything.webp"
