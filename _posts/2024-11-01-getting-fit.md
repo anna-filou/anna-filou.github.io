@@ -1,5 +1,5 @@
 ---
-title: The understated impact of getting git
+title: The understated impact of getting fit
 date: 2024-11-01T00:00:00.000+00:00
 categories:
 - en
