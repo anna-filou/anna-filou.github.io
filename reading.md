@@ -32,11 +32,14 @@ books:
     
     After reading this book and connecting the insights to my personal struggles, I feel better equiped to navigate the corporate world and partner with business leaders to build great designs that push goals&nbsp;forward.
 - title: How to design better UI Components
-  read: 'now'
+  read: '2024'
   cover: "/assets/books/how-to-design-better-ui-components.webp"
   author: Adrian Kuleszo
   pages: 197
   my-notes:   |-
+    Honestly, I was hoping I’d get some tips to take my designs to the next level, but the book only contained information and advice that I already knew. I feel that it was falsely advertised as suitable for more advanced designers in addition to beginners, and it’s my fault for not seeing through that.
+
+    I’d say the book is mostly a marketing tool for the authors’ more expensive book. 
 - title: Academic Dissertation
   read: 'now'
   cover: "/assets/books/dissertation-mock-cover.webp"
