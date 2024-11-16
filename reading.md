@@ -4,6 +4,18 @@ layout: reading
 lang: en
 ref: ''
 books:
+- title: Psychopolitics
+  read: 'now'
+  cover: "/assets/books/psychopolitics.webp"
+  author: Byung-Chul Han
+  pages: 96
+  my-notes:   |-
+- title: Bullshit Jobs
+  read: 'now'
+  cover: "/assets/books/bullshit-jobs.webp"
+  author: David Graeber
+  pages: 368
+  my-notes:   |-
 - title: Siliconned
   read: '2024'
   cover: "/assets/books/siliconned.webp"
@@ -47,12 +59,6 @@ books:
   pages: 160
   my-notes:   |-
     It’s so long that it counts as a book, OK??
-- title: Bullshit Jobs
-  read: 'now'
-  cover: "/assets/books/bullshit-jobs.webp"
-  author: David Graeber
-  pages: 368
-  my-notes:   |-
 - title: Atomic Design
   read: '2023'
   cover: "/assets/books/atomic-design.jpg"
