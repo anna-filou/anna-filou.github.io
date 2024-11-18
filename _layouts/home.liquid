@@ -164,7 +164,10 @@ layout: default
         <div class="flex-shrink-0 overflow-x-auto project-images flex pl3 pl0-ns">
           {% for image in project.images %}
             {% comment %} <img draggable="false" style="min-width: fit-content;" height="100%" width="auto" class="br3 {% if forloop.last == false %}mr3{% endif %}" src="{{ image }}" alt="{{ project.title }} - Image {{ forloop.index }}"> {% endcomment %}
-            <img draggable="false" style="min-width: fit-content;" height="100%" width="auto" class="br3 mr3" src="{{ image }}" alt="{{ project.title }} - Image {{ forloop.index }}">
+            {% comment %} <img draggable="false" style="min-width: fit-content;" height="100%" width="auto" class="br3 mr3" src="{{ image }}" alt="{{ project.title }} - Image {{ forloop.index }}"> {% endcomment %}
+            {% comment %} <img draggable="false" height="auto" width="auto" class="br3 mr3 object-cover" src="{{ image }}" alt="{{ project.title }} - Image {{ forloop.index }}"> {% endcomment %}
+            <img draggable="false" height="100%" width="auto" class="br3 mr3 object-contain" src="{{ image }}" alt="{{ project.title }} - Image {{ forloop.index }}">
+
           {% endfor %}
         </div>
       </div>
