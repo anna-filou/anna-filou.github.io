@@ -120,6 +120,12 @@ tools:
       feature, there was no reason to keep using Paper.
     el: ''
   img: "/uploads/logo_notion.png"
+- name: TeuxDeux
+  url: https://teuxdeux.com/
+  desc:
+    en: Super straight-forward todo app that resembles a weekly paper&nbsp;planner.
+    el: ''
+  img: "/uploads/teuxdeux.webp"
 - name: iwantmyname
   url: https://iwantmyname.com
   desc:
