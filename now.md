@@ -2,17 +2,24 @@
 title: Now
 layout: now
 lang: en
-updated: October 9th, 2024
+updated: November 29th, 2024
 ---
+
+After years of knowing I should, I added a [“Skip to content” link](https://css-tricks.com/how-to-create-a-skip-to-content-link/) to my website. I’m not sure why I put it off for so long. I kinda thought it would take a long time to implement, but it took < 5 minutes… Now if anyone uses a keyboard to navigate my website, they won’t have to tab through 8 (!) nav links to get to the main content!
+
+---
+
+
+## Previously
+
+### October 9th, 2024
 
 This weekend, I pushed a big update to my website’s homepage, regarding how I show previews of the projects I’ve worked on! [Read about it here](/en/portfolio-project-showcase).
 
 I also wrote a [manual for working with me](/{{page.lang}}/manual) after coming across [manualof.me](https://www.manualof.me/about)!
 
----
 
-## Previously
-**May 23rd, 2024**
+### May 23rd, 2024
 
 I used ChatGPT + 5 hours to make a Chrome extension that turns my new tab into a grid with bookmarks that can be put into sections! 
 

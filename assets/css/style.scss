@@ -66,6 +66,21 @@ $dark-selection: #038573;
   border-image: linear-gradient(90deg, #dc3b3e 10%, #ff8f00 28%, #ffe066 35%, #3bdc90 50%, #3b99dc , #d535c3 90%) 100;
 }
 
+.skip-to-content-link {
+  background: $light-bg;
+  color: $light-a;
+  top: 0;
+  left: 0;
+  padding: 12px 24px;
+  position: absolute;
+  transform: translateY(-100%);
+  transition: transform 0.3s;
+}
+
+.skip-to-content-link:focus {
+  transform: translateY(0%);
+}
+
 /* DEFAULT LIGHT  */
 
 .sticky {
