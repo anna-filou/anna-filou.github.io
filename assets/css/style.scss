@@ -5,8 +5,8 @@
 $media-small: 620px;
 $media-xs: 370px;
 
-$container: 1160px;
-$container-lg: 2000px;
+$container: 1320px;
+$container-lg: 1800px;
 
 /* COLORS */
 
@@ -83,7 +83,7 @@ body {
   background-image: $light-bg-gradient;
 }
 
-body, nav a, .new-nav a, .main {
+body, nav a, .new-nav a, .main, footer a {
   color: $light-body;
 }
 
@@ -124,7 +124,7 @@ del {
   // font-size: 7.5vw;
   font-size: 3em; // fallback if clamp is not supported?
   // font-size: calc(1em + 6.5vw); // no because there's no MAX
-  font-size: clamp(1em, 9.7vw, 6.5em); // min, preferred, max
+  font-size: clamp(1em, 9.7vw, 7.5em); // min, preferred, max
 }
 
 a {
@@ -234,7 +234,7 @@ svg {
     background-image: $dark-bg-gradient;
   }
 
-  body, nav a, .new-nav a, .main {
+  body, nav a, .new-nav a, .main, footer a {
     color: $dark-body;
   }
 
@@ -312,7 +312,7 @@ svg {
     background-image: $light-bg-gradient;
   }
 
-  body, nav a, .new-nav a, .main {
+  body, nav a, .new-nav a, .main, footer a {
     color: $light-body;
   }
 

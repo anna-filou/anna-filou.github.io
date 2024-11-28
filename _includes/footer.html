@@ -15,7 +15,7 @@
     <div class="dn db-ns bt bw1 b--faint pt3">
       {% assign data = site.data.navbar %}
       {%- for navlink in data.main -%}
-      <a class="{%- if page.url contains navlink.url -%}strike o-50 fw4 link dib mr3{%- else -%}link dib mr3{%- endif -%}" href="/
+      <a class="{%- if page.url contains navlink.url -%}b--light-blue bb--transparent bb bw2 link dib mr3{%- else -%}link dib mr3{%- endif -%}" href="/
       {%- if navlink.langs == "yes" -%}
       {{page.lang}}/
       {%- endif -%}

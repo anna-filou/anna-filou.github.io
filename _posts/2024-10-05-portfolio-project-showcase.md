@@ -29,7 +29,7 @@ There’s more space to explain what I did, the skills I used, and the impact of
 ### Clear navigation and mental model
 Separate buttons link to the case study and the live website. If neither is available, there are no buttons. Now expectations are clear.
 
-In the grid layout, the entire card was clickable, and in it, there was a small piece of text reading either “Case&nbsp;study&nbsp;→” or “Live;&nbsp;↗”, but a lot of people didn’t notice them.
+In the grid layout, the entire card was clickable, and in it, there was a small piece of text reading either “Case&nbsp;study&nbsp;→” or “Live&nbsp;↗”, but a lot of people didn’t notice them.
 
 Reminder: when you make something yourself, you pay attention to all the details, no matter how tiny. When others see it, they first notice the obvious things, and most won’t be interested enough to look for the details. Guide them, show them what you want them to see.
 
