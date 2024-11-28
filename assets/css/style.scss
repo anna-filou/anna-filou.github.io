@@ -2,10 +2,12 @@
 ---
 @import 'typography', 'article', 'code', 'print', 'masonry';
 
+$media-xl: 1700px;
+$media-xl-containers: 1600px;
 $media-small: 620px;
 $media-xs: 370px;
 
-$container: 1320px;
+$container: 1160px;
 $container-lg: 1800px;
 
 /* COLORS */
@@ -124,7 +126,7 @@ del {
   // font-size: 7.5vw;
   font-size: 3em; // fallback if clamp is not supported?
   // font-size: calc(1em + 6.5vw); // no because there's no MAX
-  font-size: clamp(1em, 9.7vw, 7.5em); // min, preferred, max
+  font-size: clamp(1em, 9.7vw, 6.5em); // min, preferred, max
 }
 
 a {
@@ -491,6 +493,19 @@ hr {
   }
 }
 
+/* HUGE SCREEN */
+@media (min-width: $media-xl) {
+  .container, .container-ns, .container-lg, .container-lg-ns {
+    max-width: $media-xl-containers;
+  }
+
+  .hero-headline {
+    font-size: clamp(1em, 9.7vw, 9em); // min, preferred, max
+  }
+  .nav {
+    max-width: $media-xl-containers;
+  }
+}
 
 /* SMALL SCREEN */
 @media (max-width: $media-small) {

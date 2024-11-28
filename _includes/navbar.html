@@ -1,30 +1,37 @@
 		<header class="header dn db-ns bt bw2 border-rainbow">
-			<nav class="nav pv3 nowrap overflow-x-auto flex items-center">
-				<a class="link dim dib mr4 flex flex-row items-center mb1" href="/{{page.lang}}/" title="Homepage">
-					<svg width="40px" viewBox="0 0 201 123" xmlns="http://www.w3.org/2000/svg">
+			<nav class="nav pv3 nowrap overflow-x-auto flex items-center justify-between">
+				<a class="link dim dib mr2 flex flex-row items-center" href="/{{page.lang}}/" title="Homepage">
+					<svg class="nt1" width="40px" viewBox="0 0 201 123" xmlns="http://www.w3.org/2000/svg">
 					<path fill-rule="evenodd" clip-rule="evenodd" d="M104.423 32.4863V122.486H130.234V84.3129L174.381 122.486H200.193V0.921158H174.381V91.0717L130.234 52.8984V0.921158H104.423L96.5 0.921188L0.192505 122.486H33.1222L65.8948 81.1187V122.486H89.6577V62.2114H80.8737L104.423 32.4863Z"/>
 					</svg>
+					<div class="{%- if page.url == '/' or page.url == '/en/' -%}b--light-blue fw7{%- endif -%}b--transparent bb bw2 link dib mr3 f5 flex flex-row items-center ml3">Work <span class="ml1 fw7 o-60">/</span></div>
 				</a>
 
-				{% assign data = site.data.navbar %}
-				{%- for navlink in data.main -%}
+				
 
-				<a class="{%- if page.url contains navlink.url -%}b--light-blue b{%- endif -%}b--transparent bb bw2 link dib mr3 f5 flex flex-row items-center" href="/
-				{%- if navlink.langs == "yes" -%}
-				{{page.lang}}/
-				{%- endif -%}
-				{{navlink.url}}/">{{navlink[page.lang]}}</a> 
+				<div class="flex">
+					{% assign data = site.data.navbar %}
+					{%- for navlink in data.main -%}
 
-				{%- endfor -%}
+					<a class="{%- if page.url contains navlink.url -%}b--light-blue b{%- endif -%}b--transparent bb bw2 link dib mr3 f5 flex flex-row items-center" href="/
+					{%- if navlink.langs == "yes" -%}
+					{{page.lang}}/
+					{%- endif -%}
+					{{navlink.url}}/">{{navlink[page.lang]}}</a> 
 
-				{%- for navlink in data.secondary -%}
-				<a class="{%- if page.url contains navlink.url -%}b--light-blue b{%- endif -%} b--transparent bb bw2 link mr3 fw4 secondary f5 flex flex-row items-center" href="/
-				{%- if navlink.langs == "yes" -%}
-				{{page.lang}}/
-				{%- endif -%}
-				{{navlink.url}}/">{{navlink[page.lang]}}</a> 
+					{%- endfor -%}
 
-				{%- endfor -%}
+					{%- for navlink in data.secondary -%}
+					<a class="{%- if page.url contains navlink.url -%}b--light-blue b{%- endif -%} b--transparent bb bw2 link mr3 fw4 secondary f5 flex flex-row items-center" href="/
+					{%- if navlink.langs == "yes" -%}
+					{{page.lang}}/
+					{%- endif -%}
+					{{navlink.url}}/">{{navlink[page.lang]}}</a> 
+
+					{%- endfor -%}
+
+				</div>
+
 
 			</nav>
 		</header>
