@@ -141,7 +141,7 @@ del {
   // font-size: 7.5vw;
   font-size: 3em; // fallback if clamp is not supported?
   // font-size: calc(1em + 6.5vw); // no because there's no MAX
-  font-size: clamp(1em, 9.7vw, 6.8em); // min, preferred, max
+  font-size: clamp(1em, 9.7vw, 7em); // min, preferred, max
 }
 
 a {
