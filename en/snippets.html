@@ -1,0 +1,70 @@
+---
+title: Work Snippets
+layout: default
+lang: en
+ref: snippets
+---
+
+		<div class="progress"></div>
+
+		<div class="container mt5 mt6-ns flex justify-between items-end">
+			<h1 class="ttu mb0">{{page.title}}</h2> 
+			<a href="/{{page.lang}}/#work" class="f5 br3 ph3 pv2 dib ba bw1 b--faint bg-faint nowrap">Main projects →</a>
+		</div>
+		
+
+		<section class="container-lg-ns pa3 work-grid pt4 pt5-ns">
+			{% for grid-item in site.data.work-grid %}
+		  
+			  {% if grid-item.link.url %}
+				<a
+				  href="{{ grid-item.link.url }}"
+				  class="flex flex-column justify-between pa3 bg-faint br3 grow-small no-underline"
+				  {% if grid-item.link.url contains 'http' %}target="_BLANK"{% endif %}>
+				{% else %}
+				  <div class="flex flex-column justify-between pa3 bg-faint br3">
+				  {% endif %}
+				  <div class="flex items-center justify-between mb1">
+					<h3 class="f3 f4-ns ma0 ttn mr2">{{ grid-item.title[page.lang] }}</h3>
+					<div class="nowrap">{{ grid-item.link.title }}</div>
+				  </div>
+				  <div class="f5 secondary fw4">{{ grid-item.desc[page.lang] }}</div>
+				  <div class="db aspect-ratio aspect-ratio--4x3 mv3">
+					<span
+					  role="img"
+					  aria-label=""
+					  style="background-image:url({{grid-item.img}});"
+					  class="bg-center cover aspect-ratio--object br2"></span>
+				  </div>
+				  <div class="flex justify-between">
+					<div>
+					  {% for tag in grid-item.tags %}
+						<div class="tracked tag tag-{{tag.color}} mb1 mr1">{{ tag.name }}</div>
+					  {% endfor %}
+					</div>
+					{% if grid-item.year %}
+					  <div class="fw3 white secondary">{{ grid-item.year }}</div>
+					{% endif %}
+				  </div>
+				  {% if grid-item.link.url %}
+				  </a>
+			  {% else %}
+				</div>
+			  {% endif %}
+			{% endfor %}
+		  
+		</section> 
+		
+		  
+		<!-- <section class="ph3 mt4">
+			<div class="masonry">
+			{% for image in site.static_files %}
+				{% if image.path contains 'assets/drawings' %}
+				<a href="{{image.path}}" class="masonry-item">
+				<img src="{{image.path}}" alt=""/>
+				</a>
+				{% endif %}
+			{% endfor %}
+			</div>
+		</section> -->
+

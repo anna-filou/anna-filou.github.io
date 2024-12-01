@@ -83,6 +83,39 @@
 #     classes: bg-lightest-blue dark-blue
 #     color: blue
 - title:
+    en: Hourly Time Tracker
+    el: 
+  desc:
+    en: "Concept interface for a Coda “app” I made for myself and use daily."
+    el: ""
+  link:
+    title: Case study →
+    url: /en/time-tracker-concept
+  img: "/assets/work-grid/hourly-4-3.jpg"
+  year: 2023
+  tags:
+  - name: Just for&nbsp;fun
+    classes: bg-light-yellow orange
+    color: yellow
+  - name: App design
+    classes: bg-lightest-blue dark-blue
+    color: blue
+- title:
+    en: Concept for Planner App
+    el: 
+  desc:
+    en: "Personal project for an intelligent planner with minimalist aesthetics."
+    el: ""
+  img: "/assets/work-grid/effortless-c3.jpg"
+  year: 2022
+  tags:
+  - name: Just for&nbsp;fun
+    classes: bg-light-yellow orange
+    color: yellow
+  - name: App design
+    classes: bg-lightest-blue dark-blue
+    color: blue
+- title:
     en: DYNAMIKI - Beverage Distribution Network
     el: ΔΥΝΑΜΙΚΗ - Δικτυο διανομης ποτων
   desc:
@@ -121,24 +154,6 @@
     classes: bg-moon-gray navy
     color: green
   - name: Web design & development
-    classes: bg-lightest-blue dark-blue
-    color: blue
-- title:
-    en: Hourly Time Tracker
-    el: 
-  desc:
-    en: "Concept interface for a Coda “app” I made for myself and use daily."
-    el: ""
-  link:
-    title: Case study →
-    url: /en/time-tracker-concept
-  img: "/assets/work-grid/hourly-4-3.jpg"
-  year: 2023
-  tags:
-  - name: Just for&nbsp;fun
-    classes: bg-light-yellow orange
-    color: yellow
-  - name: App design
     classes: bg-lightest-blue dark-blue
     color: blue
 - title:
@@ -228,21 +243,6 @@
     color: green
   - name: Logo design
     classes: bg-light-yellow orange
-    color: blue
-- title:
-    en: Concept for Planner App
-    el: 
-  desc:
-    en: "Personal project for an intelligent planner with minimalist aesthetics."
-    el: ""
-  img: "/assets/work-grid/effortless-c3.jpg"
-  year: 2022
-  tags:
-  - name: Just for&nbsp;fun
-    classes: bg-light-yellow orange
-    color: yellow
-  - name: App design
-    classes: bg-lightest-blue dark-blue
     color: blue
 # - title:
 #     en: Beckher — SDA Manufacturer Website

@@ -1,34 +1,34 @@
 main: 
-  - en: <i class="ri-mail-unread-fill mr1"></i> Contact
-    el: ✉️ Επικοινωνία
-    url: contact
+  - en: Work
+    el:
+    url: /
     langs: 'yes'
-  - en: <i class="ri-user-5-fill mr1"></i> About
-    el: 👤 Σχετικά
+  - en: About
+    el:
     url: about
     langs: 'yes'
-  # - en: <i class="ri-service-fill mr1"></i> Collab
-  #   el: 💼 Collab
-  #   url: collab
-  #   langs: 'yes'
-  - en: <i class="ri-pen-nib-fill mr1"></i> Drawing
-    el: ✏️ Ζωγραφική
-    url: art
-    langs: 'yes'
-  - en: <i class="ri-quill-pen-fill mr1"></i> Posts
-    el: 📝 Blog
-    url: posts
+  - en: Contact
+    el:
+    url: contact
     langs: 'yes'
 secondary: 
-  - en: <i class="ri-book-3-line mr1"></i> Reading
-    el: 📚 Reading
+  - en: Posts
+    el: 
+    url: posts
+    langs: 'yes'
+  - en: Drawing
+    el: 
+    url: art
+    langs: 'yes'
+  - en: Reading
+    el: 
     url: reading
     langs: 'no'
-  - en: <i class="ri-history-line mr1"></i> Now
-    el: ⏰ Now
-    url: now
-    langs: 'no'
-  - en: <i class="ri-tools-line mr1"></i> Tools
-    el: 🛠 Tools
+  - en: Tools
+    el: 
     url: uses
+    langs: 'no'
+  - en: Now
+    el:
+    url: now
     langs: 'no'

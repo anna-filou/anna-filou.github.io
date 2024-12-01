@@ -1,0 +1,21 @@
+<section class="container mv5">
+    <div id="work" class="mt6 mb4 flex align-center items-center gap2">
+      <h2 class="f1-ns ttu mv0 nowrap">More</h2>
+      <div class="bw1 bt b--faint w-100 mh3"></div>
+    </div>  
+    <div class="more-grid">
+      {% for item in site.data.more %}
+      {%- if item.url != page.ref -%}
+        <a href="/{%- if item.langs == 'yes' -%}{{page.lang}}/{%- endif -%}{{item.url}}" class="link">
+          <div class="h-100 flex flex-column justify-between items-end bg-faint br4 w-100 overflow-hidden">
+            <div class="pa3 w-100">
+              <h3 class="f4 mv0">{{ item.title }}</h3>
+              <div class="secondary fw4">{{ item.desc }}</div>
+            </div>
+            <img src="{{item.img}}" class="grow" alt="">
+          </div>
+        </a>
+      {%- endif -%}
+      {% endfor %}
+    </div>
+</section>

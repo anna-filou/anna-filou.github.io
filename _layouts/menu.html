@@ -4,37 +4,26 @@
 {% include head.html %}
 </head>
 <body class="mb0">
+
     {% include navbar.html %}
-    <main class="min-vh-100 pv3">
 
-        <div class="new-nav fixed z-max w-100 ph2 flex justify-end" style="bottom: 80px;">
-			<nav class="pa3 br4">
-				<div class="flex flex-column ttu gap2">
-					{%- for navlink in data.main -%}
-					<a class="white pa2 no-underline flex flex-row-reverse  justify-between items-center bg-nav mobile-nav-hover br3" href="/
-					{%- if navlink.langs == "yes" -%}
-					{{page.lang}}/
-					{%- endif -%}
-					{{navlink.url}}/" style="min-width: 200px;">{{navlink[page.lang]}}</a> 
-					{%- endfor -%}
+	
+	{% include more.html %}
 
-					{%- for navlink in data.secondary -%}
-					<a class="white pa2 no-underline flex flex-row-reverse  justify-between items-center bg-nav mobile-nav-hover br3" href="/
-					{%- if navlink.langs == "yes" -%}
-					{{page.lang}}/
-					{%- endif -%}
-					{{navlink.url}}/">{{navlink[page.lang]}}</a> 
-					{%- endfor -%}
-					
-				</div>
-			</nav>
+    <!-- <main class="container min-vh-100 pv3 flex flex-column justify-center">
+
+		<h1 class="center f2">More pages</h1>
+		
+		<div class="flex flex-column ttu gap3 pt3 pb5">
+			{%- for navlink in data.secondary -%}
+				<a class="white pa3 no-underline flex justify-center items-center bg-nav mobile-nav-hover br3" href="/
+				{%- if navlink.langs == "yes" -%}
+				{{page.lang}}/
+				{%- endif -%}
+				{{navlink.url}}/">{{navlink[page.lang]}}</a> 
+			{%- endfor -%}
 		</div>
-
         
-    </main>
-
-    <!-- <script src="/assets/js/jquery-3.6.3.min.js"></script> -->
-	<script src="/assets/js/progress.js"></script>
-    <script src="/assets/js/main.js"></script>
+    </main> -->
 </body>
 </html>

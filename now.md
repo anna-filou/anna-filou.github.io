@@ -2,15 +2,24 @@
 title: Now
 layout: now
 lang: en
-updated: November 29th, 2024
+updated: December 1st, 2024
+now: |
+    Spent the weekend designing and coding a huge overhaul of my website’s homepage and navigation. 
+
+    Feedback from a third party drove me to acknowledge the shortcomings I had already noticed, but wished weren’t so bad. It was the small push I needed to make some big changes I’ve had in the back of my mind for a long&nbsp;time.
+
+    The thing now is that the other pages look stale (to me) by comparison, and I can’t wait to update them too!
 ---
 
-After years of knowing I should, I added a [“Skip to content” link](https://css-tricks.com/how-to-create-a-skip-to-content-link/) to my website. I’m not sure why I put it off for so long. I kinda thought it would take a long time to implement, but it took < 5 minutes… Now if anyone uses a keyboard to navigate my website, they won’t have to tab through 8 (!) nav links to get to the main content!
 
 ---
 
 
 ## Previously
+
+### November 29th, 2024
+
+After years of knowing I should, I added a [“Skip to content” link](https://css-tricks.com/how-to-create-a-skip-to-content-link/) to my website. I’m not sure why I put it off for so long. I kinda thought it would take a long time to implement, but it took < 5 minutes… Now if anyone uses a keyboard to navigate my website, they won’t have to tab through 8 (!) nav links to get to the main content!
 
 ### October 9th, 2024
 
