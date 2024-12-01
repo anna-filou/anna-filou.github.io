@@ -1,30 +1,30 @@
 - title: About me
   desc: Personality & Experience
-  img: "/assets/more-grid/about.png"
+  img: "/assets/more-grid/about.webp"
   url: about
   langs: 'yes'
 - title: Now
   desc: What I’m doing now
-  img: "/assets/more-grid/now.png"
+  img: "/assets/more-grid/now.webp"
   url: now
   langs: no
 - title: Tools
   desc: Software I use and recommend
-  img: "/assets/more-grid/tools.png"
+  img: "/assets/more-grid/tools.webp"
   url: uses
   langs: no
 - title: Bookshelf
   desc: Books I’m reading and have read
-  img: "/assets/more-grid/reading.png"
+  img: "/assets/more-grid/reading.webp"
   url: reading
   langs: no
 - title: Drawing
   desc: Personal illustrations
-  img: "/assets/more-grid/drawing.png"
+  img: "/assets/more-grid/drawing.webp"
   url: art
   langs: 'yes'
 - title: Posts
   desc: Thoughts I’ve shared
-  img: "/assets/more-grid/posts.png"
+  img: "/assets/more-grid/posts.webp"
   url: posts
   langs: 'yes'
