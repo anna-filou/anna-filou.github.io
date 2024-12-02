@@ -9,7 +9,7 @@ layout: case-study
 main-image: 
 lang: en
 type: mobile app design concept
-banner: "/assets/effortless-c3.jpg"
+banner: "/assets/effortless-c3.webp"
 intro: Design for parts of a planner app concept that automatically prioritizes your tasks.
 style: 
   light: 
