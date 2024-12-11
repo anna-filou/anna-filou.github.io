@@ -6,33 +6,29 @@ lang: en
 ref: uses
 ---
 
-<section class="container">
-    <div class="mv5 mt6-ns">
-        {%- if page.title -%}
-        <h1>{{ page.title }}</h1>
-        {%- endif -%}
-    
-        <div class="measure-wide f3">
+<div class="container-ns relative flex flex-column flex-row-ns mt6-ns">
+    <div class="pa2 pa0-ns w-100 w-30-ns mv3 mt0-ns sticky pr5-ns">
+        <h1 class="ph3 ph0-ns mb1">{{ page.title }}</h1>
+        <div class="w-100 fl f5 lh-title ph3 ph0-ns secondary mb1">
             {{site.data.tools.intro[page.lang] | markdownify}}
         </div>
     </div>
-</section>
 
-
-<section class="container-ns">
-    <div class="mw7-ns">
+    <div class="w-70-ns">
+        <div>
         {% for tool in site.data.tools.tools %}
             <a target="_blank" href="{{tool.url}}" class="link hover-bg-faint fw4 flex flex-column flex-row-ns pa3 ma2 ml0-ns br3 mt2 mb4" href="#0">
                 <img src="{{tool.img}}" class="db br3 w3 w4-ns h3 h4-ns smooth-shadow"/>
-                <div class="pt3 pt0-ns pl0 pl4-ns">
-                    <h2 class="f4 f3-ns lh-title mb2 mt0 main">{{tool.name}}</h2>
-                    <div class="mv0 secondary">
+                <div class="mt4 mt2-ns pl0 pl4-ns">
+                    <h2 class="f4 f3-ns lh-title mt0 main">{{tool.name}}</h2>
+                    <div class="nt2 mv0 secondary">
                         {{tool.desc[page.lang] | markdownify}}
                     </div>
                 </div>
             </a>
         {% endfor %}
+        </div>
     </div>
-</section>
+</div>
 
 {% include more.html %}

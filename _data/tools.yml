@@ -1,11 +1,11 @@
 intro:
-  en: "Some of the digital products I love to use"
+  en: "Some of my favorite digital tools"
   el: "Τα παρακάτω προϊόντα/υπηρεσίες μου αρέσουν τόσο ώστε να τα συνιστώ."
 tools:
 - name: Figma
   url: https://www.figma.com
   desc:
-    en: I likely spend most of my waking hours on Figma; creating, experimenting, annotating, making and organizing components.
+    en: I likely spend most of my waking hours in Figma; creating, experimenting, annotating, making and organizing components.
     el: ''
   img: "/uploads/figma-logo.png"
 - name: Wispr Flow
@@ -14,6 +14,12 @@ tools:
     en: I almost never type since I discovered this—I just speak instead! 🤯 If you sign up using this link and dictate 2000 words, we both get 1-month of Pro for free ;)
     el: ''
   img: "/assets/wispr-flow.webp"
+- name: Voicenotes
+  url: https://voicenotes.com/?via=anna
+  desc:
+    en: It transcribes your ramblings and lets you run preset LLM prompts to create new passages and ask for insights from your notes in natural language. I’ve yet to try the meeting mode. (Affiliate link)
+    el: ''
+  img: "/uploads/voicenotes.webp"
 - name: Jekyll
   url: https://jekyllrb.com/
   desc:
@@ -21,14 +27,13 @@ tools:
       use Jekyll to make super fast, perfectly secure websites that never go down.
     el: ''
   img: "/uploads/jekyll.png"
-  image: "/uploads/jekyll-logo.webp"
 - name: Napkin
   url: https://napkin.one/?via=anna
   img: "/uploads/napkin-logo.jpg"
   desc:
     en: A new tool that helps you *think*, by tagging your thoughts automatically
       in a way that allows for connections to naturally emerge. It fosters serendipity
-      by showing you related thoughts and ideas. (Affiliate link, opinion my own.)
+      by showing you related thoughts and ideas. (Affiliate link)
     el: ''
 - name: Coda
   url: https://coda.io
