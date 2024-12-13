@@ -24,15 +24,15 @@ layout: default
 
 <!-- GENERATED SECTIONS -->
 {%- for section in page.sections -%}
-    <div class="container mt6">
+    <div class="container">
         <div class="flex flex-column flex-row-ns mv5">
-            <div class="w-40-ns" style="">
+            <div class="w-40-ns">
                 <div class="measure">
-                    <div class="secondary tracked ttu f5">{{section.title}}</div>
+                    <div class="secondary tracked ttu f5 nt2-ns">{{section.title}}</div>
                 </div>
             </div>
             <div class="w-60-ns mt4 mt0-ns">
-                <div class="nt4 f3-ns">
+                <div class="nt4 f4-ns lh-copy">
                     {{section.text | markdownify}}
                 </div>
             </div>

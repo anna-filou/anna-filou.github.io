@@ -149,15 +149,13 @@ layout: default
           <div class="mt3">
             {% comment %} <div class="tertiary dib mr3">{{ project.year }}</div> {% endcomment %}
             {% if project.case_study %}
-              <a href="{{ project.case_study.url }}" class="mr2">{{ project.case_study.title }}</a>
+              <a href="{{ project.case_study.url }}" class="mr3 link">{{ project.case_study.title }}</a>
               {% else %}
-                <div class="mr2 fw6 dib secondary">Case study soon</div>
+                <div class="mr3 fw6 dib secondary">Case study soon</div>
             {% endif %}
             {% if project.live_site %}
-              <a href="{{ project.live_site.url }}" target="_BLANK" class="">{{ project.live_site.title }}</a>
+              <a href="{{ project.live_site.url }}" target="_BLANK" class="fw4 link">{{ project.live_site.title }}</a>
             {% endif %}
-
-            
           </div>
         </div>
       </div>

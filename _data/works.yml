@@ -5,13 +5,16 @@
     url: https://shopflix.gr/
   img: /assets/work-new/shopflix.webp
   year: 2023–now
-- title: LGBTmyths.com
-  skills: Concept • Design • Development
+- title: Airboxr web app
+  skills: 0→1 • Design • Prototyping
+  case_study:
+    title: Case study →
+    url: /en/airboxr
   live_site:
     title: Live ↗
-    url: https://lgbtmyths.com
-  img: /assets/work-new/lgbtmyths.webp
-  year: 2023
+    url: https://www.airboxr.com/interactive-demo
+  img: /assets/work-new/airboxr.webp
+  year: 2022
 - title: The Newsroom
   skills: UX Design
   case_study:
@@ -22,14 +25,14 @@
     url: https://apps.apple.com/us/app/the-newsroom/id1613913905
   img: /assets/work-new/newsroom.webp
   year: 2023
+- title: LGBTmyths.com
+  skills: Concept • Design • Development
+  live_site:
+    title: Live ↗
+    url: https://lgbtmyths.com
+  img: /assets/work-new/lgbtmyths.webp
+  year: 2023
 - title: Note-Taking App
   skills: Concept • Design
   img: /assets/work-new/monad.webp
   year: 2024
-- title: Airboxr web app
-  skills: UI Design • Prototyping
-  live_site:
-    title: Live ↗
-    url: https://www.airboxr.com/interactive-demo
-  img: /assets/work-new/airboxr.webp
-  year: 2022
