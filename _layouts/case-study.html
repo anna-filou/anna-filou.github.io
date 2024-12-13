@@ -19,7 +19,8 @@ layout: default
 </div>
 
 <div class="vw-100">
-    <img src="{{page.banner}}" alt="" class="w-100">
+    <img src="{{page.banner}}" alt="" class="w-100 dn db-ns">
+    <img src="{{page.banner-mobile}}" alt="" class="w-100 db dn-ns">
 </div>
 
 <!-- GENERATED SECTIONS -->
@@ -41,10 +42,10 @@ layout: default
         {% if section.image-1 and section.image-2%}
             <div class="cf">
                 <div class="w-50-ns fl mb3 mb0-ns">
-                    <img src="{{section.image-1}}" alt="">
+                    <img src="{{section.image-1}}" class="br4" alt="">
                 </div>
                 <div class="w-50-ns fl">
-                    <img src="{{section.image-2}}" alt="">
+                    <img src="{{section.image-2}}" class="br4" alt="">
                 </div>
             </div>
         {% elsif section.image-1 %}
