@@ -241,12 +241,25 @@ svg {
 
   bottom: 60px;
 
+  border-radius: 1rem; // 16px
+  padding: 0.5rem; // 8px
+  border-width: 0.25rem; // 4px
+  border-color: $light-border;
 
   @media screen and (min-width: 50em) { 
     bottom: unset;
     top: 60px;
   }
+
+  nav {
+    background-color: #E6E9F1; // light mode color
+  }
 }
+
+#open-menu a {
+  border-radius: 0.5rem; // 8px
+}
+
 
 #open-menu.open {
   visibility: visible;
@@ -254,8 +267,8 @@ svg {
   transform: translateY(0);
 }
 
-#open-menu nav {
-  
+nav {
+  background-color: #E6E9F1; // light mode color
 }
 
 @media (prefers-color-scheme: dark) {
@@ -340,6 +353,16 @@ svg {
 
   .hover-bg-faint:hover { background-color: $dark-faint; }
 
+  nav {
+    background-color: #290E46; // dark mode color
+  }
+
+  #open-menu {
+    nav {
+      background-color: #290E46; // dark mode color
+    }
+  }
+
 }
 @media (prefers-color-scheme: light) {
   body {
@@ -408,6 +431,12 @@ svg {
   }
 
   .hover-bg-faint:hover { background-color: $light-faint; }
+
+  #open-menu {
+    nav {
+      background-color: #E6E9F1; // light mode color
+    }
+  }
 }
 
 body {

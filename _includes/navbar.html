@@ -1,4 +1,4 @@
-		<a class="skip-to-content-link" href="#main">
+<a class="skip-to-content-link" href="#main">
 			Skip to content
 		</a>
 		
@@ -27,19 +27,29 @@
 			</div>
 		</header>
 		
-		<div id="open-menu" class="f5 fixed z-max w-100">
+		<div id="open-menu" class="f5 fixed z-max w-100 pa2 br4 b--faint bw2">
 			<div class="flex flex-row new-nav justify-end container-ns">
-				<nav class="pa3 pa4-ns br4 w-100 w5-ns">
-					<div class="flex flex-column gap3">
+				<nav class="pa2 br4 w5 ba bw2 b--faint w-100 w-auto-ns">
+					<div class="flex flex-column gap2"> 
 						{%- for navlink in data.secondary -%}
-							<a class="white pa3 no-underline flex justify-center items-center bg-nav mobile-nav-hover br3" href="/
+							<a class="bg-faint flex justify-between items-center bg-nav mobile-nav-hover link" href="/
 							{%- if navlink.langs == "yes" -%}
 							{{page.lang}}/
 							{%- endif -%}
-							{{navlink.url}}/">{{navlink[page.lang]}}</a> 
+							{{navlink.url}}/"> 
+								<div class="pa3 pr5 flex items-center">
+									{%- if page.url contains navlink.url -%}
+										<svg width="9" height="10" viewBox="0 0 9 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+											<circle cx="4.5" cy="5" r="4.5" fill="#17DE35"/>
+										</svg>
+									{%- endif -%}
+									<span class="ml2">{{ navlink[page.lang] }}</span>
+								</div>
+								<img src="{{ navlink.image }}" alt="{{ navlink[page.lang] }}" class="w4">
+							</a> 
 						{%- endfor -%}
 					</div>
 				</nav>
 			</div>
 		</div>
-		
+

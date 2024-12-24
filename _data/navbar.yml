@@ -16,19 +16,24 @@ secondary:
     el: 
     url: posts
     langs: 'yes'
+    image: /assets/menu-images/posts.webp
   - en: Drawing
     el: 
     url: art
     langs: 'yes'
+    image: /assets/menu-images/drawing.webp
   - en: Reading
     el: 
     url: reading
     langs: 'no'
+    image: /assets/menu-images/reading.webp
   - en: Tools
     el: 
     url: uses
     langs: 'no'
+    image: /assets/menu-images/tools.webp
   - en: Now
     el:
     url: now
     langs: 'no'
+    image: /assets/menu-images/now.webp
