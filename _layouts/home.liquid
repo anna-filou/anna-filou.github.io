@@ -33,6 +33,8 @@ layout: default
         </div>
       </div>
   </div>
+  
+  <!-- Hero grid
   <div class="cf mt3 br3 overflow-hidden">
     {% for image in site.static_files %}
       {% if image.path contains 'assets/hero-grid' %}
@@ -48,6 +50,37 @@ layout: default
       {% endif %}
     {% endfor %}
   </div>
+  -->
+
+  <div class="overflow-hidden br4 mt3">
+    <div class="carousel">
+      <div class="carousel__wrapper">
+        {% assign images = site.static_files | where_exp: "image", "image.path contains 'assets/hero-grid'" %}
+        {% for image in images %}
+          <div class="carousel__slide">
+            <div class="carousel__image-wrapper">
+              <img src="{{ image.path }}" class="br4" alt="">
+            </div>
+          </div>
+        {% endfor %}
+        {% for image in images %}
+          <div class="carousel__slide">
+            <div class="carousel__image-wrapper">
+              <img src="{{ image.path }}" class="br4" alt="">
+            </div>
+          </div>
+        {% endfor %}
+        {% for image in images %}
+          <div class="carousel__slide">
+            <div class="carousel__image-wrapper">
+              <img src="{{ image.path }}" class="br4" alt="">
+            </div>
+          </div>
+        {% endfor %}
+      </div>
+    </div>
+  </div>
+
   
   <div class="flex align-center flex-column flex-row-ns justify-between-ns mt4 nl2-ns nr2-ns">
     <div class="ph3 br4 pv2 bg-faint inline-flex flex items-center justify-center nowrap gap2 mb3 mb0-ns">
@@ -135,46 +168,5 @@ layout: default
   </a>
 </div>  
 
-{% comment %} <section class="container-lg-ns pa3 work-grid pt4 pt5-ns">
-  {% for grid-item in site.data.work-grid %}
-
-    {% if grid-item.link.url %}
-      <a
-        href="{{ grid-item.link.url }}"
-        class="flex flex-column justify-between pa3 bg-faint br3 grow-small no-underline"
-        {% if grid-item.link.url contains 'http' %}target="_BLANK"{% endif %}>
-      {% else %}
-        <div class="flex flex-column justify-between pa3 bg-faint br3">
-        {% endif %}
-        <div class="flex items-center justify-between mb1">
-          <h3 class="f3 f4-ns ma0 ttn mr2">{{ grid-item.title[page.lang] }}</h3>
-          <div class="nowrap">{{ grid-item.link.title }}</div>
-        </div>
-        <div class="f5 secondary fw4">{{ grid-item.desc[page.lang] }}</div>
-        <div class="db aspect-ratio aspect-ratio--4x3 mv3">
-          <span
-            role="img"
-            aria-label=""
-            style="background-image:url({{grid-item.img}});"
-            class="bg-center cover aspect-ratio--object br2"></span>
-        </div>
-        <div class="flex justify-between">
-          <div>
-            {% for tag in grid-item.tags %}
-              <div class="tracked tag tag-{{tag.color}} mb1 mr1">{{ tag.name }}</div>
-            {% endfor %}
-          </div>
-          {% if grid-item.year %}
-            <div class="fw3 white secondary">{{ grid-item.year }}</div>
-          {% endif %}
-        </div>
-        {% if grid-item.link.url %}
-        </a>
-    {% else %}
-      </div>
-    {% endif %}
-  {% endfor %}
-
-</section>  {% endcomment %}
 
 {% include more.html %}

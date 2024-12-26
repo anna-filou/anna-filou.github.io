@@ -775,11 +775,11 @@ hr {
 /* Infinite Carousel */
 
 :root {
-  --no-of-slides: 6;
-  --slides-in-view: 4;
-  --slide-width: 200px;
-  --slide-height: 300px;
-  --iteration-time: 10s;
+  // --no-of-slides: 4; 
+  --no-of-slides: {% assign images = site.static_files | where_exp: "image", "image.path contains 'assets/hero-grid'" %}{{ images | size }};
+  --slides-in-view: 6;
+  --slide-width: 260px; /* Fixed width for horizontal scrolling */
+  --iteration-time: 15s;
 }
 
 @keyframes scroll {
@@ -787,8 +787,13 @@ hr {
     transform: translateX(0);
   }
   100% {
-    transform: translateX(calc(var(--slide-width) * var(--no-of-slides)* -1));
+    transform: translateX(calc(var(--slide-width) * var(--no-of-slides) * -1));
   }
+}
+
+.carousel {
+  overflow: hidden;
+  width: calc(var(--slides-in-view) * var(--slide-width));
 }
 
 .carousel__wrapper {
@@ -797,39 +802,45 @@ hr {
   overflow: hidden;
 }
 
-.carousel {
-  overflow: hidden;
-  width: calc(2 * var(--no-of-slides));
-}
-
 .carousel__slide {
   animation: scroll var(--iteration-time) linear infinite;
+  flex-shrink: 0;
   width: var(--slide-width);
-  height: var(--slide-height);
-  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-.carousel__image {
-  background-size: cover;
-  background-repeat: no-repeat;
+.carousel__image-wrapper {
+  width: 100%;
+  height: auto; /* Height adjusts dynamically */
+  display: flex;
+  justify-content: center;
+}
+
+.carousel__image-wrapper img {
+  width: 100%; /* Makes the image scale to the container's width */
+  height: auto; /* Maintains the aspect ratio of the image */
+  display: block; /* Removes any extra spacing below the image */
 }
 
 
-/* Show slide numbers for validation. Comment out */
-    .carousel__slide {
-      position: relative;
-    }
 
-    .carousel {
-      counter-reset: slideNo;
-    }
+/* Show slide numbers for validation */
+    // .carousel__slide {
+    //   position: relative;
+    // }
 
-    .carousel__slide::before {
-      counter-increment: slideNo;
-      content: counter(slideNo);
-      position: absolute;
-      top: 0%;
-      left: 50%;
-      font-size: 2rem;
-      color: lime;
-    }
+    // .carousel {
+    //   counter-reset: slideNo;
+    // }
+
+    // .carousel__slide::before {
+    //   counter-increment: slideNo;
+    //   content: counter(slideNo);
+    //   position: absolute;
+    //   top: 35%;
+    //   left: 45%;
+    //   font-size: 3rem;
+    //   color: crimson;
+    // }
