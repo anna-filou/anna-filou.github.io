@@ -2,13 +2,9 @@
 title: Now
 layout: now
 lang: en
-updated: December 1st, 2024
+updated: December 26th, 2024
 now: |
-    Spent the weekend designing and coding a huge overhaul of my website’s homepage and navigation. 
-
-    Feedback from a third party drove me to acknowledge the shortcomings I had already noticed, but wished weren’t so bad. It was the small push I needed to make some big changes I’ve had in the back of my mind for a long&nbsp;time.
-
-    The thing now is that the other pages look stale (to me) by comparison, and I can’t wait to update them too!
+    Rewatching Arcane Season 1 to finally watch Season 2!!! <3
 ---
 
 
@@ -16,6 +12,14 @@ now: |
 
 
 ## Previously
+
+### December 1st, 2024
+
+Spent the weekend designing and coding a huge overhaul of my website’s homepage and navigation. 
+
+Feedback from a third party drove me to acknowledge the shortcomings I had already noticed, but wished weren’t so bad. It was the small push I needed to make some big changes I’ve had in the back of my mind for a long&nbsp;time.
+
+The thing now is that the other pages look stale (to me) by comparison, and I can’t wait to update them too!
 
 ### November 29th, 2024
 
