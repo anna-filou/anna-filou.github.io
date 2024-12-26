@@ -771,3 +771,65 @@ hr {
       ". . .";
   }
 }
+
+/* Infinite Carousel */
+
+:root {
+  --no-of-slides: 6;
+  --slides-in-view: 4;
+  --slide-width: 200px;
+  --slide-height: 300px;
+  --iteration-time: 10s;
+}
+
+@keyframes scroll {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(calc(var(--slide-width) * var(--no-of-slides)* -1));
+  }
+}
+
+.carousel__wrapper {
+  display: flex;
+  width: calc(var(--slides-in-view) * var(--slide-width));
+  overflow: hidden;
+}
+
+.carousel {
+  overflow: hidden;
+  width: calc(2 * var(--no-of-slides));
+}
+
+.carousel__slide {
+  animation: scroll var(--iteration-time) linear infinite;
+  width: var(--slide-width);
+  height: var(--slide-height);
+  box-sizing: border-box;
+}
+
+.carousel__image {
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+
+/* Show slide numbers for validation. Comment out */
+    .carousel__slide {
+      position: relative;
+    }
+
+    .carousel {
+      counter-reset: slideNo;
+    }
+
+    .carousel__slide::before {
+      counter-increment: slideNo;
+      content: counter(slideNo);
+      position: absolute;
+      top: 0%;
+      left: 50%;
+      font-size: 2rem;
+      color: lime;
+    }
