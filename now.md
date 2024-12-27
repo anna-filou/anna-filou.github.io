@@ -4,7 +4,7 @@ layout: now
 lang: en
 updated: December 26th, 2024
 now: |
-    Rewatching Arcane Season 1 to finally watch Season 2!!! <3
+    Finally watching **Arcane Season 2** after two years of anxious&nbsp;waiting!
 ---
 
 
