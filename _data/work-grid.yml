@@ -86,7 +86,7 @@
     en: Hourly Time Tracker
     el: 
   desc:
-    en: "Concept interface for a Coda “app” I made for myself and use daily."
+    en: "Concept interface for a Coda “app” I made for myself and use&nbsp;daily."
     el: ""
   link:
     title: Case study →
@@ -98,6 +98,20 @@
     classes: bg-light-yellow orange
     color: yellow
   - name: App design
+    classes: bg-lightest-blue dark-blue
+    color: blue
+- title:
+    en: CID Website & Logo
+  desc:
+    en: "Corporate website and identity for wastewater treatment consulting company."
+    el: ""
+  img: "/assets/work-grid/cid-website.webp"
+  year: 2024
+  tags:
+  - name: Client work
+    classes: bg-moon-gray navy
+    color: green
+  - name: Web design & development
     classes: bg-lightest-blue dark-blue
     color: blue
 - title:
