@@ -4,7 +4,7 @@ layout: now
 lang: en
 updated: December 26th, 2024
 now: |
-    Finally watching **Arcane Season 2** after two years of anxious&nbsp;waiting!
+    Finally watching **Arcane Season 2** after two years of anxious&nbsp;waiting! ![](/assets/arcane-vi.gif)
 ---
 
 
