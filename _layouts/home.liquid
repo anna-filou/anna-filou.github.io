@@ -88,23 +88,32 @@ layout: default
   <div class="project-grid ">
     {% for project in site.data.works %}
       <div class="bg-faint mb3 overflow-hidden br4">
-        <img src="{{ project.img }}" class="project-image bb bw1 b--faint" alt="">
+          {% if project.case_study %}
+            <div class="overflow-hidden">
+              <a href="{{ project.case_study.url }}" class="project-image db grow">
+                <img src="{{ project.img }}" class="db" alt="">
+              </a>
+            </div>
+          {% else %}
+          <div class="project-image db">
+            <img src="{{ project.img }}" class="db" alt="">
+          </div>
+            
+          {% endif %}
+
 
         <div class="pa35">
-
-          {% comment %} <h3 class="f4 mt0 mb2">{{ project.title }}</h3> {% endcomment %}
           <div class="flex justify-between align-center">
             <h3 class="f4 mt0 mb2">{{ project.title }}</h3>
-          <div class="tertiary">{{ project.year }}</div>
+            <div class="tertiary">{{ project.year }}</div>
           </div> 
           
-          <div class="secondary">{{project.skills }}</div>
+          <div class="secondary">{{ project.skills }}</div>
           <div class="mt3">
-            {% comment %} <div class="tertiary dib mr3">{{ project.year }}</div> {% endcomment %}
             {% if project.case_study %}
               <a href="{{ project.case_study.url }}" class="mr3 link">{{ project.case_study.title }}</a>
-              {% else %}
-                <div class="mr3 fw6 dib secondary">Case study soon</div>
+            {% else %}
+              <div class="mr3 fw6 dib secondary">Case study soon</div>
             {% endif %}
             {% if project.live_site %}
               <a href="{{ project.live_site.url }}" target="_BLANK" class="fw4 link">{{ project.live_site.title }}</a>
@@ -113,7 +122,6 @@ layout: default
         </div>
       </div>
     {% endfor %}
-
   </div>
   
 
