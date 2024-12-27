@@ -805,8 +805,8 @@ hr {
   --no-of-slides: {% assign images = site.static_files | where_exp: "image", "image.path contains 'assets/hero-grid'" %}{{ images | size }};
   --slides-in-view: 6;
   --slides-in-view-small: 4;
-  --slide-width: 260px; /* Fixed width for horizontal scrolling */
-  --slide-width-small: 240px;
+  --slide-width: 270px; /* Fixed width for horizontal scrolling */
+  --slide-width-small: 250px;
   --iteration-time: 15s;
 }
 
@@ -839,6 +839,7 @@ hr {
 
 .carousel__wrapper {
   display: flex;
+  align-items: end;
   width: calc(var(--slides-in-view) * var(--slide-width));
   @media (max-width: $media-small) {
     width: calc(var(--slides-in-view-small) * var(--slide-width-small));
@@ -849,10 +850,12 @@ hr {
 .carousel__slide {
   animation: scroll var(--iteration-time) linear infinite;
   flex-shrink: 0;
+  padding: 0 12px;
   width: var(--slide-width);
   @media (max-width: $media-small) {
     animation: scroll-small var(--iteration-time) linear infinite;
     width: var(--slide-width-small);
+    padding: 0 8px;
   }
   display: flex;
   justify-content: center;
