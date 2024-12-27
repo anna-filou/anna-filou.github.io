@@ -4,10 +4,10 @@ layout: default
 
 {% assign data = site.data.home %}
 
-<section class="container mt5">
-  <div class="pt2-ns">
-    <p class="ttu pa0 mb1 f5 tertiary tracked">{{ data.hero.intro.tag[page.lang] }}</p>
-    <h1 class="hero-headline ttu pa0 mt0 mb2 mb3-l lh-solid nml">{{ data.hero.intro.big-text[page.lang] }}</h1>
+
+  <section class="container mt5 pt2-ns">
+    <p class="ttu pa0 mb3 mb1-ns f5 tertiary tracked">{{ data.hero.intro.tag[page.lang] }}</p>
+    <h1 class="hero-headline ttu pa0 mt0 mb3 lh-solid nml">{{ data.hero.intro.big-text[page.lang] }}</h1>
       <div class="flex flex-row items-center justify-between">
         <a class="mw3 flex-shrink-0" href="/{{page.lang}}/about">
           <img src="/assets/anna-avatar.webp" alt="About Anna" class="br-100 mt1 grow-large">
@@ -32,73 +32,55 @@ layout: default
           {% endfor %}
         </div>
       </div>
-  </div>
-  
-  <!-- Hero grid
-  <div class="cf mt3 br3 overflow-hidden">
-    {% for image in site.static_files %}
-      {% if image.path contains 'assets/hero-grid' %}
-        <div class="fl w-50 w-25-ns">
-          <div class="db aspect-ratio aspect-ratio--1x1">
-            <span
-              role="img"
-              aria-label=""
-              style="background-image:url({{image.path}});"
-              class="bg-center cover aspect-ratio--object"></span>
-          </div>
-        </div>
-      {% endif %}
-    {% endfor %}
-  </div>
-  -->
+  </section>
 
-  <div class="overflow-hidden br4 mt3">
-    <div class="carousel">
-      <div class="carousel__wrapper">
-        {% assign images = site.static_files | where_exp: "image", "image.path contains 'assets/hero-grid'" %}
-        {% for image in images %}
-          <div class="carousel__slide">
-            <div class="carousel__image-wrapper">
-              <img src="{{ image.path }}" class="br4" alt="">
+  <section class="container-ns mt3 mt4-ns">
+    <div class="overflow-hidden br3 br4">
+      <div class="carousel">
+        <div class="carousel__wrapper">
+          {% assign images = site.static_files | where_exp: "image", "image.path contains 'assets/hero-grid'" %}
+          {% for image in images %}
+            <div class="carousel__slide">
+              <div class="carousel__image-wrapper">
+                <img src="{{ image.path }}" class="br4" alt="">
+              </div>
             </div>
-          </div>
-        {% endfor %}
-        {% for image in images %}
-          <div class="carousel__slide">
-            <div class="carousel__image-wrapper">
-              <img src="{{ image.path }}" class="br4" alt="">
+          {% endfor %}
+          {% for image in images %}
+            <div class="carousel__slide">
+              <div class="carousel__image-wrapper">
+                <img src="{{ image.path }}" class="br4" alt="">
+              </div>
             </div>
-          </div>
-        {% endfor %}
-        {% for image in images %}
-          <div class="carousel__slide">
-            <div class="carousel__image-wrapper">
-              <img src="{{ image.path }}" class="br4" alt="">
+          {% endfor %}
+          {% for image in images %}
+            <div class="carousel__slide">
+              <div class="carousel__image-wrapper">
+                <img src="{{ image.path }}" class="br4" alt="">
+              </div>
             </div>
-          </div>
-        {% endfor %}
+          {% endfor %}
+        </div>
       </div>
     </div>
-  </div>
+  </section>
 
   
-  <div class="flex align-center flex-column flex-row-ns justify-between-ns mt4 nl2-ns nr2-ns">
-    <div class="ph3 br4 pv2 bg-faint inline-flex flex items-center justify-center nowrap gap2 mb3 mb0-ns">
+  <section class="container flex align-center flex-column flex-row-ns justify-between-ns mt4 nl2-ns nr2-ns">
+    <div class="ph3 br4 pv2 bg-faint inline-flex flex items-center justify-center nowrap gap2 mb3 mb0-ns f5">
     Currently at <a href="https://shopflix.gr/" class="flex items-center link nowrap" target="_blank"><img src="/assets/logo-shopflix.svg" class="mr2 dib w2" alt="">Shopflix</a>
     </div>
 
-    <div class="ph3 br4 pv2 bg-faint inline-flex flex items-center justify-center flex-wrap gap2">
-      Previously at <a href="https://www.thesmilinghippo.com/" class="flex items-center link" target="_blank"><img src="/assets/logo-tsh.svg" class="mr2 dib w2" alt="">The Smiling Hippo</a> 
-      <span class="tertiary">|</span> <a href="https://www.yourtempo.co/" class="flex items-center link nowrap" target="_blank"><img src="/assets/logo-tempo.png" class="mr2 dib w2" alt="">Tempo</a>
+    <div class="ph3-ns br4 pv2-ns bg-faint-ns inline-flex flex items-center justify-center flex-wrap gap2 f5">
+      Previously at <a href="https://www.thesmilinghippo.com/" class="flex items-center link" target="_blank"><img src="/assets/logo-tsh.svg" class="mr2 dib w1 w2-ns" alt="">The Smiling Hippo</a> 
+      <span class="tertiary">|</span> <a href="https://www.yourtempo.co/" class="flex items-center link nowrap" target="_blank"><img src="/assets/logo-tempo.png" class="mr2 dib w1 w2-ns" alt="">Tempo</a>
     </div>
-  </div>
-  
+  </section>
 
-</section>
 
 <section id="work" class="container">
   
-  <div class="pt6 mb5 flex align-center items-center gap2">
+  <div class="mt6 mb5 flex align-center items-center gap2">
     <h2 class="f1-ns ttu mv0 nowrap">Select Works</h2>
     <div class="bw1 bt b--faint w-100 mh3"></div>
   </div>  
