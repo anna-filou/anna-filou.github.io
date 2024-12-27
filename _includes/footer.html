@@ -12,8 +12,8 @@
       </dl>
     </div> -->
 
-    <div class="overflow-x-auto nowrap bt bw1 b--faint pt3 flex flex-column flex-row-ns justify-between">
-      <div class="flex gap4 align-center justify-center">
+    <div class="bt bw1 b--faint pt3 flex flex-column flex-row-ns justify-between">
+      <div class="flex flex-wrap gap4 align-center justify-center">
 
         <a href="/{{page.lang}}" class="{%- if page.url == '/' or page.url == '/en/' -%}b--light-blue bb--transparent bb bw2 link dib{%- endif -%} link dib">Work&nbsp;<span class="dib ml1 o-60">/</span></a>
 
@@ -29,7 +29,7 @@
         {%- endfor -%}
       </div>
 
-      <div class="flex gap4 align-center justify-center mv3 mv0-ns">
+      <div class="flex flex-wrap gap4 align-center justify-center mv3 mv0-ns">
         {%- for navlink in data.secondary -%}
         <a class="{%- if page.url contains navlink.url -%}b--light-blue bb--transparent bb bw2 link fw7 secondary{%- else -%}link fw4 secondary{%- endif -%}" href="/
         {%- if navlink.langs == "yes" -%}
@@ -40,7 +40,7 @@
       </div>
     </div>
 
-    <div class="flex flex-column gap1 flex-row-ns justify-between items-center mt3 mb5 mv4-ns">
+    <div class="flex flex-column gap4 gap1-ns flex-row-ns justify-between items-center mt3 mb5 mv4-ns">
 
       <div class="ph3 br4 pv2 bg-faint inline-flex flex items-center nowrap flex-shrink-0 ">
         <img src="/assets/safe-triangle.png" class="w2 mr2 grow-huge" alt="Rainbow-colored downward-pointing triangle" title="Please don’t talk to me if you oppose LGBT rights. Thank you.">
