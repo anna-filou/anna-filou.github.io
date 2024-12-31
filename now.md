@@ -2,9 +2,14 @@
 title: Now
 layout: now
 lang: en
-updated: December 26th, 2024
+updated: December 31st, 2024
 now: |
-    Finally watching **Arcane Season 2** after two years of anxious&nbsp;waiting! ![](/assets/arcane-vi.gif)
+    ![](/assets/arcane-2.webp)
+    Not sure how to feel about Arcane Season 2. I finished it a few days ago and can’t get it out of my head.
+
+    On one hand, a lot of the things I wanted to happen did; but the way everything was handled made the world and the characters within it feel less… real, compared to Season 1 → smaller emotional investment. S2 felt more like a “videogame adaptation”, whereas S1 felt like a standalone storytelling masterpiece that I’d recommend to anyone.
+
+    I still liked it, but the closure felt incomplete because the focus shifted.
 ---
 
 
