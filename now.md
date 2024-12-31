@@ -10,6 +10,14 @@ now: |
     On one hand, a lot of the things I wanted to happen did; but the way everything was handled made the world and the characters within it feel less… real, compared to Season 1 → smaller emotional investment. S2 felt more like a “videogame adaptation”, whereas S1 felt like a standalone storytelling masterpiece that I’d recommend to anyone.
 
     I still liked it, but the closure felt incomplete because the focus shifted.
+
+    ### Also, these days I’m…
+    - Obsessively watching video essays about Arcane 📺
+    - Learning to use Copilot and Cursor 🤖
+    - Updating my site 👩🏻‍💻
+    - Doing a lot of German lessons on Duolingo 🦉
+    - Finishing our home gym 🏋🏻‍♂️
+    - Watching over our neighbors’ kitten 🐱
 ---
 
 
