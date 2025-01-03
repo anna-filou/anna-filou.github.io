@@ -23,13 +23,11 @@ I'm Anna, a digital native designer and technophile [who draws](/{{page.lang}}/
 
 ### What do you do professionally?
 
-I design digital interfaces and build websites. My most developed skills are **UI Design** and **Product Thinking**. 
-
-For me, good user experience isn’t an afterthought—it’s the reason I design. While a pleasing UI contributes to UX, it’s only one piece of a much bigger picture.
+I design digital interfaces and build websites. My strongest skills are **UI Design** and **Product Thinking**. 
 
 Currently, I’m the sole UI Designer at [Shopflix](https://shopflix.gr/), minimizing design debt, creating and maintaining a **Design System**, and balancing it all with business needs.
 
-I have a solid grasp of businees from managing operations and building lightweight ERPs for wholesale firms like [Theeta](https://theeta.nl). I also understand what it takes to serve customers, thanks to my experience handling customer support at [Tempo](https://www.yourtempo.co/).
+I write my own front-end code using **HTML**, **CSS** and a bit of JavaScript. I made this website using mostly handwritten HTML/CSS, [Tachyons CSS](https://tachyons.io/) and [Jekyll](https://jekyllrb.com/). (It’s open source on [GitHub](https://github.com/anna-filou/anna-filou.github.io)!) My pet peeve is websites that break on “uncommon” breakpoints.
 
 ### What makes you tick?
 
