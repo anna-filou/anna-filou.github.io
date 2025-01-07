@@ -4,12 +4,21 @@ layout: reading
 lang: en
 ref: ''
 books:
+- title: The Design of Everyday Things
+  cover: "/assets/books/the-design-of-everyday-things.png"
+  author: Don Norman
+  read: now
+  pages: 
+  my-notes: ''
 - title: Psychopolitics
-  read: 'now'
+  read: '2025'
   cover: "/assets/books/psychopolitics.webp"
   author: Byung-Chul Han
   pages: 96
   my-notes:   |-
+      *“Under neoliberalism, the technology of power takes on a subtle form. It does not lay hold of individuals directly. Instead, it ensures that individuals act on themselves so that power relations are interiorized—and then interpreted as&nbsp;freedom.”*
+      
+      Not the kind of book I would normally read if it hadn't been personally recommended. None of the ideas strikes me as completely new, but they are well-developed and thought-provoking. That said, I found the language unnecessarily difficult and had to look up a lot of words. The author also assumes that you're familiar with the writings of various philosophers that I hadn't even heard of; but that makes it a nice introduction for further&nbsp;reading. 
 - title: Bullshit Jobs
   read: 'now'
   cover: "/assets/books/bullshit-jobs.webp"
@@ -211,12 +220,6 @@ books:
     There are many aspects of this book that I didn’t like, including the tone of voice, the frequent use of cheesy metaphors, and the lack of realism in the descriptions of ancient Greece. But in the end, I cried a little and that has to count for something.
 
     (Reading The Song of Achilles taught me way more about the Iliad than secondary school in Greece.)
-- title: The Design of Everyday Things
-  cover: "/assets/books/the-design-of-everyday-things.png"
-  author: Don Norman
-  read: now
-  pages: 
-  my-notes: ''
 - title: The Demon-Haunted World
   cover: "/assets/books/the-demon-haunted-world.jpg"
   author: Carl Sagan, Ann Druyan
