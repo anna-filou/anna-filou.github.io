@@ -7,9 +7,14 @@ books:
 - title: Pricing Design
   cover: "/assets/books/pricing-design.webp"
   author: Dan Mall
-  read: now
-  pages: 
-  my-notes: ''
+  read: '2025'
+  pages: 58
+  my-notes:   |-
+      I love this way of thinking about pricing projects: how do we make it so that it’s both a steal for you and lucrative for me? In other words, how do we both win? 
+
+      Just pondering this question can help us figure out what we really need from a project and how to get it.
+
+      A short read anyone would benefit from. [Read it online here](https://pricingdesignbook.com/#introduction). 
 - title: The Design of Everyday Things
   cover: "/assets/books/the-design-of-everyday-things.png"
   author: Don Norman
