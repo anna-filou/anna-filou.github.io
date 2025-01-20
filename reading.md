@@ -4,6 +4,12 @@ layout: reading
 lang: en
 ref: ''
 books:
+- title: Pricing Design
+  cover: "/assets/books/pricing-design.webp"
+  author: Dan Mall
+  read: now
+  pages: 
+  my-notes: ''
 - title: The Design of Everyday Things
   cover: "/assets/books/the-design-of-everyday-things.png"
   author: Don Norman
