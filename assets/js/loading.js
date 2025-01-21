@@ -1,3 +1,6 @@
+// Show the loading animation when the page starts loading
+document.getElementById('loading').style.display = 'block';
+
 function Ticker(elem) {
     this.elem = elem;
     this.done = false;
