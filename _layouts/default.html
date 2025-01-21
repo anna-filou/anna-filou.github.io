@@ -1,14 +1,13 @@
 <!DOCTYPE html>
 <html lang="{{page.lang}}">
 <head>
-{% include head.html %}
-<link rel="stylesheet" href="/assets/css/loading.css">
-<noscript>
-    <style>
-        #loading { display: none; }
-    </style>
-</noscript>
-
+    {% include head.html %}
+    <link rel="stylesheet" href="/assets/css/loading.css">
+    <noscript>
+        <style>
+            #loading { display: none; }
+        </style>
+    </noscript>
 </head>
 <body class="bt bw2 border-rainbow">
 
@@ -21,7 +20,7 @@
     </div>
 {% endif %}
 
-    <div class="progress" style="display: none;"></div>
+    <div class="progress"></div>
     
     {% include navbar.html %}
     <main id="main">
