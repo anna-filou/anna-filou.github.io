@@ -10,6 +10,10 @@ main-image:
 lang: en
 ---
 
+<div class="w-100 pa3 br3 bg-faint mv0">
+    <strong>UPDATE - Dec 2024</strong>: This turned out to be a <strong>down</strong>grade instead of an improvement—which is why you’ll notice my homepage looks different in actuality than in the screenshots and videos below. I’ll write about that some other time. In the meantime, feel free to ask&nbsp;me.
+</div>
+
 ## Context
 I wanted to improve how my portfolio shows previews of my projects, making it easier for visitors to see what I can do. My old grid layout wasn’t engaging enough. Many of the cards didn’t provide enough context, making it hard for visitors to understand my work. Sure, most cards were clickable, but most led to the project’s live website, so my involvement was still unclear.
 
