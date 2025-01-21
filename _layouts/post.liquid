@@ -12,7 +12,7 @@ layout: default
     </p>
   </div>
 
-  <main class="lh-copy">
+  <main class="">
     {{ content }}
   </main>
 </article>
@@ -22,7 +22,7 @@ layout: default
 <div id="more-articles" class="mt5 pa3 flex flex-column items-center">
 
   <div class="fl lh-title w-100 mw6 pa4 br3 bg-faint flex flex-column flex-row-ns">
-    <img src="/assets/anna-avatar.webp" class="br-100 h3 w3 dib mb4 mb0-ns mr4-ns" alt="avatar">
+    <img src="/assets/anna-avatar.webp" class="br-100 dib mb4 mb0-ns mr4-ns" alt="avatar" width="80" height="80">
 
     <div>
       <div class="b mb1">Written by
@@ -30,12 +30,9 @@ layout: default
       </div>
       <div class="secondary ml0">Published on {{page.date | date: "%B %e, %Y"}}</div>
       <div class="mt3">
-        <p class="mt0 mb1">
-          <a href="/en/posts">→ All Posts</a>
-        </p>
-        <p class="mv0">
-          <a href="/feed.xml">→ RSS feed</a>
-        </p>
+        <div class="mt0 mb1">
+          <a href="/en/posts">All Posts</a> | <a href="/feed.xml">RSS feed</a>
+        </div>
       </div>
     </div>
   </div>

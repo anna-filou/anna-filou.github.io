@@ -1,17 +1,18 @@
 $media-small: 620px;
 $padding: 24px;
-$max-width: 900px;
+$max-width: 800px;
 
 /* ARTICLE BLOG */
 
-.article {
-  font-size: 1em;
-  color: blue;
+article {
+  font-size: 1.1em;
+  line-height: 1.7;
 }
 
-.article b, .article bold, .article strong {
-  color: red;
+article p {
+  margin: 1.2em;
 }
+
 
 article p,
 article ul,
