@@ -10,7 +10,7 @@ layout: default
     <h1 class="hero-headline ttu pa0 mt0 mb3 lh-solid nml">{{ data.hero.intro.big-text[page.lang] }}</h1>
       <div class="flex flex-row items-center justify-between pb2 pb0-ns">
         <a class="mw3 flex-shrink-0" href="/{{page.lang}}/about">
-          <img src="/assets/anna-avatar.webp" alt="About Anna" class="br-100 mt1 grow-large">
+          <img src="/assets/anna-avatar.webp" alt="About Anna" class="br-100 mt1 grow-large" width="64" height="64">
         </a>
         <div class="bw1 bt b--faint w-100 mh3"></div>
         <div class="flex flex-row items-center">
@@ -42,21 +42,21 @@ layout: default
           {% for image in images %}
             <div class="carousel__slide">
               <div class="carousel__image-wrapper">
-                <img src="{{ image.path }}" class="br4" alt="">
+                <img src="{{ image.path }}" class="br4" alt="" width="200" height="200">
               </div>
             </div>
           {% endfor %}
           {% for image in images %}
             <div class="carousel__slide">
               <div class="carousel__image-wrapper">
-                <img src="{{ image.path }}" class="br4" alt="">
+                <img src="{{ image.path }}" class="br4" alt="" width="200" height="200">
               </div>
             </div>
           {% endfor %}
           {% for image in images %}
             <div class="carousel__slide">
               <div class="carousel__image-wrapper">
-                <img src="{{ image.path }}" class="br4" alt="">
+                <img src="{{ image.path }}" class="br4" alt="" width="200" height="200">
               </div>
             </div>
           {% endfor %}
@@ -67,12 +67,12 @@ layout: default
   
   <section class="container flex align-center flex-column flex-row-ns justify-between-ns mt4 nl2-ns nr2-ns">
     <div class="ph3 br4 pv2 bg-faint inline-flex flex items-center justify-center nowrap gap2 mb3 mb0-ns f5">
-    Currently at <a href="https://shopflix.gr/" class="flex items-center link nowrap" target="_blank"><img src="/assets/logo-shopflix.svg" class="mr2 dib w2" alt="">Shopflix</a>
+    Currently at <a href="https://shopflix.gr/" class="flex items-center link nowrap" target="_blank"><img src="/assets/logo-shopflix.svg" class="mr2 dib w2" alt="" width="32" height="32">Shopflix</a>
     </div>
 
     <div class="ph3-ns br4 pv2-ns bg-faint-ns inline-flex flex items-center justify-center flex-wrap gap2 f5">
-      Previously at <a href="https://www.thesmilinghippo.com/" class="flex items-center link" target="_blank"><img src="/assets/logo-tsh.svg" class="mr2 dib w1 w2-ns" alt="">The Smiling Hippo</a> 
-      <span class="tertiary">|</span> <a href="https://www.yourtempo.co/" class="flex items-center link nowrap" target="_blank"><img src="/assets/logo-tempo.png" class="mr2 dib w1 w2-ns" alt="">Tempo</a>
+      Previously at <a href="https://www.thesmilinghippo.com/" class="flex items-center link" target="_blank"><img src="/assets/logo-tsh.svg" class="mr2 dib w1 w2-ns" alt="" width="32" height="32">The Smiling Hippo</a> 
+      <span class="tertiary">|</span> <a href="https://www.yourtempo.co/" class="flex items-center link nowrap" target="_blank"><img src="/assets/logo-tempo.png" class="mr2 dib w1 w2-ns" alt="" width="32" height="32">Tempo</a>
     </div>
   </section>
 
@@ -90,12 +90,12 @@ layout: default
           {% if project.case_study %}
             <div class="overflow-hidden">
               <a href="{{ project.case_study.url }}" class="project-image db grow">
-                <img src="{{ project.img }}" class="db" alt="">
+                <img src="{{ project.img }}" class="db" alt="" width="371" height="431">
               </a>
             </div>
           {% else %}
           <div class="project-image db">
-            <img src="{{ project.img }}" class="db" alt="">
+            <img src="{{ project.img }}" class="db" alt="" width="371" height="431">
           </div>
             
           {% endif %}

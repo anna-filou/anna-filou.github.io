@@ -199,6 +199,11 @@ svg {
   background-color: $light-faint;
 }
 
+.more-grid img {
+  width: 100%;
+  height: auto;
+}
+
 /* Tachyons -NS */
 @media screen and (min-width: 50em) { 
   .bg-faint-ns {
@@ -311,6 +316,11 @@ nav {
   
   .project-image {
     background-color: hsla(233, 51%, 72%, 0.5);
+  }
+
+  .project-image img { 
+    width: auto;
+    height: auto;
   }
 
 
