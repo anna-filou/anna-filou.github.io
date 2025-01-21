@@ -89,7 +89,7 @@ layout: default
       <div class="bg-faint mb3 overflow-hidden br4">
           {% if project.case_study %}
             <div class="overflow-hidden">
-              <a href="{{ project.case_study.url }}" class="project-image db grow">
+              <a href="{{ project.case_study.url }}" class="project-image db grow" aria-label="{{ project.title }} Case Study">
                 <img src="{{ project.img }}" class="db" alt="" width="371" height="431">
               </a>
             </div>
