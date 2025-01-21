@@ -2,9 +2,18 @@
 <html lang="{{page.lang}}">
 <head>
 {% include head.html %}
+<link rel="stylesheet" href="/assets/css/loading.css">
 </head>
 <body class="bt bw2 border-rainbow">
-    <div class="progress"></div>
+
+{% if page.url == "/" or page.url == "/en/" %}
+    <div id="loading">
+        <div class="word">LOADING...</div>
+        <div class="overlay"></div>
+    </div>
+{% endif %}
+
+    <div class="progress" style="display: none;"></div>
     
     {% include navbar.html %}
     <main id="main">
@@ -12,8 +21,10 @@
     </main>
     {% include footer.html %}
 
-    <!-- <script src="/assets/js/jquery-3.6.3.min.js"></script> -->
-	<script src="/assets/js/progress.js"></script>
+    <script src="/assets/js/progress.js"></script>
     <script src="/assets/js/main.js"></script>
+    {% if page.url == "/" or page.url == "/en/" %}
+        <script src="/assets/js/loading.js"></script>
+    {% endif %}
 </body>
 </html>

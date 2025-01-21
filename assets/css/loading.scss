@@ -1,0 +1,55 @@
+---
+---
+@import url(https://fonts.googleapis.com/css?family=Source+Code+Pro:400);
+
+#loading {
+  position: fixed;
+  width: 100vw;
+  height: 100dvh;
+  background: radial-gradient(#3d1964, #06001e);
+  z-index: 9999;
+  transition: opacity 0.5s ease-out; /* Add transition for fade-out effect */
+  opacity: 1; /* Initial opacity */
+}
+
+#loading.fade-out {
+  opacity: 0; /* Fade-out effect */
+}
+
+#loading .word {
+  font-family: monospace;
+  width: 310px;
+  bottom: 0;
+  color: #f2d7ff;
+  font-size: 2.5em;
+  height: 2.5em;
+  left: 0;
+  line-height: 2.5em;
+  margin: auto;
+  right: 0;
+  position: absolute;
+  text-shadow: 0 0 10px rgba(50, 248, 255, 0.5), 0 0 5px rgba(50, 248, 255, 0.5);
+  top: 0;
+}
+
+#loading .word span {
+  display: inline-block;
+  transform: translateX(100%) scale(0.9);
+  transition: transform 500ms;
+}
+
+#loading .word .done {
+  color: rgb(108, 240, 255);
+  transform: translateX(0) scale(1);
+}
+
+#loading .overlay {
+  background-image: linear-gradient(transparent 0%, rgba(10, 16, 10, 0.5) 50%);
+  background-size: 1000px 2px;
+  bottom: 0;
+  content: '';
+  left: 0;
+  position: absolute;
+  right: 0;
+  top: 0;
+}

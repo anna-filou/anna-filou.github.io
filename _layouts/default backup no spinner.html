@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="{{page.lang}}">
+<head>
+{% include head.html %}
+</head>
+<body class="bt bw2 border-rainbow">
+    <div class="progress"></div>
+    
+    {% include navbar.html %}
+    <main id="main">
+    {{ content }}
+    </main>
+    {% include footer.html %}
+
+    <!-- <script src="/assets/js/jquery-3.6.3.min.js"></script> -->
+	<script src="/assets/js/progress.js"></script>
+    <script src="/assets/js/main.js"></script>
+</body>
+</html>
