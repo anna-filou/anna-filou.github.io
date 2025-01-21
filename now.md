@@ -2,22 +2,11 @@
 title: Now
 layout: now
 lang: en
-updated: December 31st, 2024
+updated: January 21st, 2025
 now: |
-    ![](/assets/arcane-2.webp)
-    Not sure how to feel about Arcane Season 2. I finished it a few days ago and can’t get it out of my head.
-
-    On one hand, a lot of the things I wanted to happen did; but the way everything was handled made the world and the characters within it feel less… real, compared to Season 1 → smaller emotional investment. S2 felt more like a “videogame adaptation”, whereas S1 felt like a standalone storytelling masterpiece that I’d recommend to anyone.
-
-    I still liked it, but the closure felt incomplete because the focus shifted.
-
-    ### Also, these days I’m…
-    - Obsessively watching video essays about Arcane 📺
-    - Learning to use Copilot and Cursor 🤖
-    - Updating my site 👩🏻‍💻
-    - Doing a lot of German lessons on Duolingo 🦉
-    - Finishing our home gym 🏋🏻‍♂️
-    - Watching over our neighbors’ kitten 🐱
+    Pushing quality of life updates to my website. Check out the loading animation [on the homepage](/)! 
+    
+    Granted, I copied [this awesome animation from Codepen](https://codepen.io/jackrugile/pen/GROaam), but it was a great opportunity to learn how to make it fade out smoothly, how to make sure it doesn’t appear if the JS doesn’t load, how to avoid a flash of the page underneath before the loader appears … and to familiarize myself with [Cursor](https://www.cursor.com/)!
 ---
 
 
@@ -25,6 +14,15 @@ now: |
 
 
 ## Previously
+
+### December 31st, 2024
+![](/assets/arcane-2.webp)
+
+Not sure how to feel about Arcane Season 2. I finished it a few days ago and can’t get it out of my head.
+
+On one hand, a lot of the things I wanted to happen did; but the way everything was handled made the world and the characters within it feel less… real, compared to Season 1 → smaller emotional investment. S2 felt more like a “videogame adaptation”, whereas S1 felt like a standalone storytelling masterpiece that I’d recommend to anyone.
+
+I still liked it, but the closure felt incomplete because the focus shifted.
 
 ### December 1st, 2024
 

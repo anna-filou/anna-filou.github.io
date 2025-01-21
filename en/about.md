@@ -27,7 +27,7 @@ I design digital interfaces and build websites. My strongest skills are **UI Des
 
 Currently, I’m the sole UI Designer at [Shopflix](https://shopflix.gr/), minimizing design debt, creating and maintaining a **Design System**, and balancing it all with business needs.
 
-I write my own front-end code using **HTML**, **CSS** and a bit of JavaScript. I made this website using mostly handwritten HTML/CSS, [Tachyons CSS](https://tachyons.io/) and [Jekyll](https://jekyllrb.com/). (It’s open source on [GitHub](https://github.com/anna-filou/anna-filou.github.io)!) My pet peeve is websites that break on “uncommon” breakpoints.
+I write my own front-end code using **HTML** and **CSS**. I made this website using mostly handwritten markup, [Tachyons CSS](https://tachyons.io/) and [Jekyll](https://jekyllrb.com/). (ChatGPT wrote most of the JavaScript.) I obsess over responsiveness on the web. My pet peeve is websites that break on “uncommon” breakpoints.
 
 ### What makes you tick?
 
@@ -41,7 +41,7 @@ All sorts of projects excite me, but the ones I crave are those that’ll help o
 
 I love sketching out concepts for apps I'd want to use and am looking forward to learning how to build them too! 
 
-Online, ~~[I hang out on Product Hunt](https://www.producthunt.com/@anna_0x)~~ (PH is full of low-quality ‘products’ these days…), read comics, watch anime, go down rabbit holes of all sorts, and learn how to build things for the web.
+Online, ~~[I hang out on Product Hunt](https://www.producthunt.com/@anna_0x)~~ (PH is full of low-quality ‘products’ these days…), read comics, watch anime, go down rabbit holes of all sorts, and keep learning how to build things for the web.
 
 Offline, I'm into lifting weights, inline and ice skating, [reading books](/reading/), playing board games, and learning languages, to name a few.
 
