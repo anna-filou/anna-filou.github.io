@@ -1,5 +1,7 @@
-// Show the loading animation when the page starts loading
-document.getElementById('loading').style.display = 'block';
+// Show the loading animation when the script runs
+document.addEventListener('DOMContentLoaded', function() {
+    document.getElementById('loading').style.display = 'block';
+});
 
 function Ticker(elem) {
     this.elem = elem;
@@ -92,12 +94,33 @@ window.addEventListener('scroll', preventScroll, { passive: false });
 window.addEventListener('touchmove', preventScroll, { passive: false });
 window.addEventListener('wheel', preventScroll, { passive: false });
 
-// Hide the loading animation and re-enable scrolling once the page has fully loaded
+// Hide the loading animation once the page has fully loaded
 window.addEventListener('load', function() {
-  document.getElementById('loading').style.display = 'none';
+    const loadingElement = document.getElementById('loading');
+    const minLoadingTime = 300; // Minimum loading time in milliseconds
 
-  // Remove event listeners to re-enable scrolling
-  window.removeEventListener('scroll', preventScroll);
-  window.removeEventListener('touchmove', preventScroll);
-  window.removeEventListener('wheel', preventScroll);
+    // Ensure the loading screen is visible for at least minLoadingTime
+    const startTime = performance.now();
+    const hideLoadingScreen = () => {
+        const elapsedTime = performance.now() - startTime;
+        
+        // Add event listener before starting the fade-out transition
+        loadingElement.addEventListener('transitionend', (e) => {
+            // Only proceed if this is the opacity transition
+            if (e.propertyName === 'opacity') {
+                // Remove event listeners to re-enable scrolling
+                window.removeEventListener('scroll', preventScroll);
+                window.removeEventListener('touchmove', preventScroll);
+                window.removeEventListener('wheel', preventScroll);
+
+                // Remove the loading element from the DOM completely
+                loadingElement.remove();
+            }
+        });
+
+        loadingElement.classList.add('fade-out');
+    };
+
+    // Always wait for minLoadingTime before starting fade-out
+    setTimeout(hideLoadingScreen, Math.max(0, minLoadingTime - (performance.now() - startTime)));
 });

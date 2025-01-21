@@ -141,7 +141,7 @@ del {
   // font-size: 7.5vw;
   font-size: 3em; // fallback if clamp is not supported?
   // font-size: calc(1em + 6.5vw); // no because there's no MAX
-  font-size: clamp(1em, 9.7vw, 7em); // min, preferred, max
+  font-size: clamp(2.8em, 9.7vw, 7em); // min, preferred, max
 }
 
 a {
@@ -584,7 +584,7 @@ hr {
   }
 
   .hero-headline {
-    font-size: clamp(1em, 9.7vw, 8.1em); // min, preferred, max
+    font-size: clamp(2.8em, 9.7vw, 8.1em); // min, preferred, max
   }
   .nav {
     max-width: $media-xl-containers;
@@ -806,7 +806,7 @@ hr {
   --slides-in-view: 6;
   --slides-in-view-small: 4;
   --slide-width: 270px; /* Fixed width for horizontal scrolling */
-  --slide-width-small: 260px;
+  --slide-width-small: 300px;
   --iteration-time: 20s;
 }
 
