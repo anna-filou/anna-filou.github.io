@@ -31,8 +31,8 @@
 
     <script src="/assets/js/progress.js"></script>
     <script src="/assets/js/main.js"></script>
-{% if page.url == "/" or page.url == "/en/" %}
-    <script src="/assets/js/loading.js"></script>
-{% endif %}
+    {% if page.url == "/" or page.url == "/en/" %}
+        <script src="/assets/js/loading.js"></script>
+    {% endif %}
 </body>
 </html>

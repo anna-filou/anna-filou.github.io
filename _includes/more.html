@@ -5,7 +5,7 @@
     </div>  
     <div class="more-grid">
       {% for item in site.data.more %}
-      {%- if item.url != page.ref -%}
+      {%- if item.url != page.ref and page.ref != item.ref -%}
         <a href="/{%- if item.langs == 'yes' -%}{{page.lang}}/{%- endif -%}{{item.url}}" class="link">
           <div class="h-100 flex flex-column justify-between items-end bg-faint br4 w-100 overflow-hidden">
             <div class="pa3 w-100">

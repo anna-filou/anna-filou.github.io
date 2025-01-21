@@ -1,3 +1,9 @@
+- title: Work
+  desc: Design + code = ♡
+  img: "/assets/more-grid/work.webp"
+  url: '#work'
+  langs: 'yes' 
+  ref: 'index'
 - title: About me
   desc: Personality & Experience
   img: "/assets/more-grid/about.webp"
@@ -27,4 +33,4 @@
   desc: Thoughts I’ve shared
   img: "/assets/more-grid/posts.webp"
   url: posts
-  langs: 'yes'
+  langs: 'yes' 
