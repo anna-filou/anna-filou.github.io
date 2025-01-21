@@ -91,16 +91,10 @@ window.addEventListener('wheel', preventScroll, { passive: false });
 
 // Hide the loading animation and re-enable scrolling once the page has fully loaded
 window.addEventListener('load', function() {
-  const loadingDiv = document.getElementById('loading');
-  loadingDiv.classList.add('fade-out');
+  document.getElementById('loading').style.display = 'none';
 
-  // Wait for the fade-out transition to complete before hiding the div
-  setTimeout(function() {
-    loadingDiv.style.display = 'none';
-
-    // Remove event listeners to re-enable scrolling
-    window.removeEventListener('scroll', preventScroll);
-    window.removeEventListener('touchmove', preventScroll);
-    window.removeEventListener('wheel', preventScroll);
-  }, 500); // Match the duration of the CSS transition
+  // Remove event listeners to re-enable scrolling
+  window.removeEventListener('scroll', preventScroll);
+  window.removeEventListener('touchmove', preventScroll);
+  window.removeEventListener('wheel', preventScroll);
 });

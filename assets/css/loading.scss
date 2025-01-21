@@ -8,8 +8,8 @@
   height: 100dvh;
   background: radial-gradient(#3d1964, #06001e);
   z-index: 9999;
-  transition: opacity 0.5s ease-out; /* Add transition for fade-out effect */
-  opacity: 1; /* Initial opacity */
+  transition: opacity 0.5s ease-out;
+  opacity: 1;
 }
 
 #loading.fade-out {
