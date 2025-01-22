@@ -10,12 +10,12 @@ main-image:
 lang: en
 ---
 
-<p>
-    <label class="ml1 f6 tertiary">Listen to a human (me) reading this article</label>
-    <audio src="/assets/audio/choosing-face.mp3" class="ba bw2 br3 b--faint mt1 mb5" controls="controls" aria-label="Listen to a human (me) reading this article">
-    Sorry, your browser doesn’t support audio! Read instead
+<!-- <div>
+    <label class="ml1 f6 tertiary">Listen to me reading this post</label>
+    <audio src="/assets/audio/choosing-face.mp3" class="mt1 mb5" controls="controls" aria-label="Listen to me reading this post">
+    Sorry, your browser doesn’t support audio! Read below instead.
     </audio>
-</p>
+</div> -->
 
 Right now I have a website where I promote my web-design and development skills. I’ve devoted a lot of time and effort into building those skills and positioning myself as a person skilled in them.
 

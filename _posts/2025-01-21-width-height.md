@@ -10,6 +10,13 @@ main-image:
 lang: en
 ---
 
+<div>
+    <label class="ml1 f6 tertiary">Listen to me reading this post</label>
+    <audio src="/assets/audio/weight-height.mp3" type="audio/mpeg" class="mt1 mb5" controls="controls" aria-label="Listen to me reading this post">
+    Sorry, your browser doesn’t support audio! Read below instead.
+    </audio>
+</div>
+
 I was scrolling through [my website’s Lighthouse report](https://pagespeed.web.dev/analysis/https-annafilou-com/cmu1d4q0nk?form_factor=desktop), as one does in the afternoon, and there I was once again confronted by the frustrating message that the images on my homepage were “lacking an explicit size”. 
 
 ***OF COURSE** they are*, I internally mumbled and rolled my eyes. *They’re **responsive**. Their size changes depending on their container and the browser window. I can’t possibly specify a fixed width and height in the HTML!*
