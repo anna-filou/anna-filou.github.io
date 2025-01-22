@@ -32,7 +32,7 @@ To demonstrate, let’s say that, for simplicity’s sake, at the moment our web
 
 <img src="/uploads/browser-explain-ratio.png" alt="" width="432" height="500">
 
-If the browser window was 832px, then there would be 800px available for our image, and the browser would know it has to reserve exactly 600px for the image!
+If the browser window was 832px, then there would be 800px available horizontally for our image, and the browser would know it has to reserve exactly 600px in the vertical axis!
 
 ---
 
