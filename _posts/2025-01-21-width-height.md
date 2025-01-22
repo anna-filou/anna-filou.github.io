@@ -30,37 +30,7 @@ Yes, the browser can’t know the height of a not-yet-downloaded image if the on
 
 To demonstrate, let’s say that, for simplicity’s sake, at the moment our website loads, the browser window is 432px. The `body`’s padding is 16px on each side, leaving 400px. The browser can now **infer** that the height of the image is 300px!
 
-<div style="font-family: system-ui, -apple-system, sans-serif; max-width: 432px; margin: 0 auto; background: #f5f5f5; border-radius: 8px; overflow: hidden; border: 2px solid #2563eb; background: white; ">
-  <!-- Container representing browser window -->
-
-    <!-- Header showing browser chrome -->
-    <div style="background: #e5e7eb; padding: 8px; border-bottom: 1px solid #d1d5db;">
-      <div style="width: 60px; height: 12px; background: #9ca3af; border-radius: 6px;"></div>
-    </div>
-    
-    <!-- Body with padding -->
-    <div style="padding: 16px; position: relative;">
-      <!-- Width indicators -->
-      <div style="position: absolute; top: 4px; left: 16px; right: 16px; text-align: center; font-size: 14px; color: #4b5563;">
-        400px available width
-      </div>
-      <div style="position: absolute; top: -20px; left: 0; right: 0; text-align: center; font-size: 14px; color: #6b7280;">
-        432px window width
-      </div>
-      
-      <!-- Image placeholder with 4:3 aspect ratio -->
-      <div style="margin-top: 24px; background: #93c5fd; aspect-ratio: 4/3; width: 100%;">
-        <div style="height: 100%; display: flex; align-items: center; justify-content: center; color: #1e40af; font-weight: 500;">
-          4:3 aspect ratio
-        </div>
-      </div>
-      
-      <!-- Height indicator -->
-      <div style="position: absolute; right: 0; top: 40px; bottom: 16px; width: 20px; display: flex; align-items: center; justify-content: center; font-size: 14px; color: #4b5563; writing-mode: vertical-rl; text-orientation: mixed;">
-        300px inferred height
-      </div>
-    </div>
-</div>
+<img src="/uploads/browser-explain-ratio.png" alt="" width="432" height="500">
 
 If the browser window was 832px, then there would be 800px available for our image, and the browser would know it has to reserve exactly 600px for the image!
 
