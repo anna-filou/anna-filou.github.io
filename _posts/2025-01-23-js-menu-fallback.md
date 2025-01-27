@@ -1,5 +1,5 @@
 ---
-title: 'Video: Mobile menus that don‘t break without JavaScript'
+title: 'Video: Mobile menus that don’t break without JavaScript'
 date: 2025-01-23T00:00:00.000+00:00
 categories:
 - en
@@ -28,7 +28,7 @@ Sometimes, mobile menu buttons are simple `<div>` elements. Since a `<div>` is j
 
 ## A better way  
 
-Instead of using a `<div>`, you can use a link, an `<a>` tag. Then, even if the JavaScript fails to load, the link will still work. And you can set it up to take the visitor to a backup menu page.  
+> Instead of using a `<div>`, you can use a link—an `<a>` tag. Then, even if the JavaScript fails to load, the link will still work. And you can set it up to take the visitor to a backup menu page.  
 
 Here’s how I handle this on my own site:  
 
@@ -57,7 +57,7 @@ That way, if JavaScript doesn’t load, the browser falls back to the default li
 
 You might think there’s no way anyone is going to be visiting your website without JavaScript. But it’s happened to me many, many times, so chances are it’s going to happen to your visitors as well.  
 
-**If you have a bad connection—like when you’re on a train or in a remote area—JavaScript is the last thing the browser cares about!** It might download the HTML and CSS, but leave out the JS.
+> If you have a bad connection—like when you’re on a train or in a remote area—JavaScript is the last thing the browser cares about! It might download the HTML and CSS, but leave out the JS.
 
 With the link approach, you make your site more resilient, and you respect your visitors. 
 

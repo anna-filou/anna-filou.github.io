@@ -36,22 +36,19 @@ article img, p img {
 }
 
 blockquote, q, .blockquote, .q{
-  font-size: 1.5em;
+  font-size: 1.2em;
   /* font-style: italic; */
   font-weight: 400;
   text-align: left;
   line-height: 150%;
-  border-left: 10px solid #383272;
-  padding: 0 0 0 0;
-}
-
-article blockquote,
-article q {
-  padding: 1em 4em; /* large screen */
+  padding: 0 1em; /* large screen */
+  margin: 0;
+  opacity: 1;
 }
 
 blockquote p {
   min-width: 100%;
+  padding: 1em 0;
 }
 
 .hyphens {
@@ -117,14 +114,13 @@ code {
     border-radius: 0;
   }
 
-  article blockquote,
-  article q {
-    min-width: 103%;
+  blockquote, q, .blockquote, .q {
+    min-width: 100vw;
     position: relative;
     /* SMALL SCREEN */
-    left: -2.2em;
-    padding: .2em 0 .2em .5em;
-    font-size: 1.3em;
+    font-size: 1.15em;
+    padding: 0 .8em 0 .8em;
+    left: -0.8em;
   }
 
   article figure, div.highlight {

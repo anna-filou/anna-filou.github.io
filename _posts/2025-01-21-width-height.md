@@ -25,7 +25,7 @@ Ever since I made some updates to my homepage (notably a CSS-only infinitely scr
 
 Defeated, I decided to click on Google’s [Learn how to improve CLS](https://web.dev/articles/optimize-cls) out of curiosity. Skimming it, I started noticing the word “ratio” making frequent appearances. It got me thinking… what’s an image’s aspect ratio got to do with this? Lighthouse *and* VS Code are both telling me I need to set explicit, hard coded, `width` and `height` attributes. Unless…
 
-[Further reading](https://blog.logrocket.com/jank-free-page-loading-with-media-aspect-ratios/) confirmed my lightbulb moment suspicion: if you’re directly manipulating an image’s width and height using CSS, then the browser only uses the `width` and `height` attributes in the HTML tag to infer its **aspect ratio**. 
+[Further reading](https://blog.logrocket.com/jank-free-page-loading-with-media-aspect-ratios/) confirmed my lightbulb moment suspicion: if you’re directly manipulating an image’s width and height using CSS, then the browser only uses the `width` and `height` attributes in the HTML tag to infer its **aspect&nbsp;ratio**. 
 
 Forgive my ignorance until now, but my mind was BLOWN.
 

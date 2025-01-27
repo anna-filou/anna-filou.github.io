@@ -18,7 +18,7 @@ I was never terribly out of shape, but as a teenager, I was skinny-fat. I hated 
 
 Eventually, I’d had enough and decided to change. Within months, I went from slightly flabby to having a six-pack and doing dozens of push-ups (I couldn’t even manage one when I started). A few months later, I could do multiple pull-ups—an achievement for any adult—and received compliments on my body from nearly everyone I met.
 
-To say my life didn’t change or that things went back to how they were after I got used to my new body, would simply be **untrue**. 
+> To say my life didn’t change or that things went back to how they were after I got used to my new body, would simply be **untrue**. 
 
 Yes, the body I have now is my new baseline, and I still strive to be stronger, though it’s not always my top priority. Real change requires making it a priority for a while, but afterward, it can take a back seat, like a habit that eventually becomes part of your life. Working out is the same.
 
@@ -26,7 +26,8 @@ For most of this year, I lifted weights three times a week and set new personal 
 
 When I get back to lifting seriously, I might not be able to lift as heavy, and that’s okay. If my main goal were to get as strong as possible, I could keep pushing year after year. But with so many aspects to my life, I prefer to shift my focus every now and then. That’s my idea of balance.
 
-So how exactly is my life better as a result of my level of fitness?
+
+## So how exactly is my life better as a result of my level of fitness?
 
 For one, I feel great when I look in the mirror. I don’t love every aspect of my body, but having a mushy waist and thin arms is no longer a concern—I genuinely like the way I look. Also, people perceive me differently. Not that I get compliments daily (it would often be out of place), but knowing I look good and am strong makes me carry myself with more confidence. 
 
