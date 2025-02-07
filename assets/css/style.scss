@@ -1,6 +1,6 @@
 ---
 ---
-@import 'typography', 'article', 'code', 'print', 'masonry';
+@import 'typography', 'article', 'code', 'print', 'masonry', 'book';
 
 $media-xl: 1700px;
 $media-xl-containers: 1440px;
@@ -201,6 +201,15 @@ svg {
   0 6.7px 33.5px -71px rgba(0, 0, 0, 1.056),
   0 13.2px 25.5px -71px rgba(0, 0, 0, 0.969),
   0 49px 80px -71px rgba(0, 0, 0, 1);
+
+  @media (prefers-color-scheme: dark) {
+    box-shadow:
+    0 1.5px 24.5px -31px rgba(255, 255, 255, 0.2),
+    0 3.5px 26.5px -31px rgba(255, 255, 255, 0.3),
+    0 6.7px 33.5px -31px rgba(255, 255, 255, 0.3),
+    0 13.2px 45.5px -31px rgba(255, 255, 255, 0.1),
+    0 29px 60px -31px rgba(255, 255, 255, 0.2);
+  }
 }
 
 .outline {
@@ -247,15 +256,7 @@ svg {
 
 .min-h-150 { min-height: 150px;}
 
-// Mobile navbar
-
-// .rainbow-border {
-//   border: 3px solid transparent;
-//   background-image: linear-gradient(rgba(0, 0, 0, 0.746), rgba(0, 0, 0, 0.777)), 
-//                     linear-gradient(90deg, #dc3b3e 10%, #ff8f00 28%, #ffe066 35%, #3bdc90 50%, #3b99dc , #d535c3 90%);
-//   // background-origin: border-box;
-//   background-clip: padding-box, border-box;
-// }
+/* Mobile navbar */
 
 #open-menu {
   visibility: hidden;
@@ -761,8 +762,6 @@ hr {
     ".";
 }
 
-
-// w-100 w-50-m w-third-ns
 
 /* Tachyons -NS */
 @media screen and (min-width: 50em) { 

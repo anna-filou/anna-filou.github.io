@@ -1,0 +1,153 @@
+---
+layout: default
+---
+
+<div class="container mv5 mt6-ns">
+    <h1 class="f1">{{page.title}}</h1>
+    <div class="measure">
+        {{content}}
+    </div>
+</div>
+
+<!-- <div class="mt4">
+    <div class="nowrap overflow-x-auto flex items-center" style="width: 100vw;">
+        {%- for book in page.books-to-read -%}
+            <div class="ml3 pl5">
+                <img src="{{book.cover}}" class="" alt="">
+                <h3>{{book.title}}</h3>
+                <div>{{book.author}}</div>
+            </div>
+        {%- endfor -%}  
+    </div>
+</div> -->
+
+<div class="container">
+    <h2 class="f2">Started</h2>
+</div>
+
+<section class="container-ns">
+    <div class="relative">
+        <div class="pl3 pr5-ns pl0-ns nowrap overflow-x-auto flex items-end w-100">
+            {%- for book in page.books-%}
+                {%- if book.read == "now" -%}
+                <div class="w-20-ns mr4 mv2 overflow-auto ws-normal" style="min-width: 200px;">
+                    <div class="mb1">
+                        <img src="{{book.cover}}" class="smooth-shadow outline br3 ba b--faint" alt="">
+                    </div>
+                    <h3 class="mt2 mb1 f5">{{book.title}}</h3>
+                    <div class="o-70">by {{book.author}}</div>
+                </div>
+                {%- endif -%}
+            {%- endfor -%}  
+        </div>
+        <div class="dn db-ns absolute top-0 right-0 bg-red h-100 w-10 book-container-gradient"></div>
+    </div>
+</section>
+
+<div class="container">
+    <hr class="mv5">
+</div>
+
+<div class="container mt4">
+    <h2 class="f2 mb5">Books read in 2025 <span class="o-40">({{page.books | where: "read", "2025" | size}})</span></h2>
+
+    {%- for book in page.books -%}
+        {%- if book.read == "2025" -%}
+        <div class="flex flex-column flex-row-ns items-start items-start-ns mb5">
+            <div class="mw5 mr5">
+                <img src="{{book.cover}}" class="ba br3 bw1 b--faint smooth-shadow" alt="">
+            </div>
+            <div class="mt3">
+                <h3 class="f3 mt3 mt4-ns mb1">{{book.title}}</h3>
+                <div class="dib f4">by {{book.author}}</div>
+                <div class="dib f4 ml3 secondary o-70">{{book.pages}} pages</div>
+                <div class="mt3 mt4-ns measure lh-copy">{{book.my-notes | markdownify}}</div>
+            </div>
+        </div>
+        {%- endif -%}
+    {%- endfor -%}  
+</div>
+
+<div class="container mt4">
+    <h2 class="f2 mb5">Books read in 2024 <span class="o-40">({{page.books | where: "read", "2024" | size}})</span></h2>
+
+    {%- for book in page.books -%}
+        {%- if book.read == "2024" -%}
+        <div class="flex flex-column flex-row-ns items-start items-start-ns mb5">
+            <div class="mw5 mr5">
+                <img src="{{book.cover}}" class="ba br3 bw1 b--faint smooth-shadow" alt="">
+            </div>
+            <div class="mt3">
+                <h3 class="f3 mt3 mt4-ns mb1">{{book.title}}</h3>
+                <div class="dib f4">by {{book.author}}</div>
+                <div class="dib f4 ml3 secondary o-70">{{book.pages}} pages</div>
+                <div class="mt3 mt4-ns measure lh-copy">{{book.my-notes | markdownify}}</div>
+            </div>
+        </div>
+        {%- endif -%}
+    {%- endfor -%}  
+</div>
+    
+
+<div class="container mt4">
+    <h2 class="f2 mb5">Books read in 2023 <span class="o-40">({{page.books | where: "read", "2023" | size}})</span></h2>
+
+    {%- for book in page.books -%}
+        {%- if book.read == "2023" -%}
+        <div class="flex flex-column flex-row-ns items-start items-start-ns mb5">
+            <div class="mw5 mr5">
+                <img src="{{book.cover}}" class="br3 ba bw1 b--faint smooth-shadow" alt="">
+            </div>
+            <div class="mt3">
+                <h3 class="f3 mt3 mt4-ns mb1">{{book.title}}</h3>
+                <div class="dib f4">by {{book.author}}</div>
+                <div class="dib f4 ml3 secondary o-70">{{book.pages}} pages</div>
+                <div class="mt3 mt4-ns measure lh-copy">{{book.my-notes | markdownify}}</div>
+            </div>
+        </div>
+        {%- endif -%}
+    {%- endfor -%}  
+</div>
+    
+<div class="container mt4">
+    <h2 class="f2 mb5">Books read in 2022 <span class="o-40">({{page.books | where: "read", "2022" | size}})</span></h2>
+    {%- for book in page.books -%}
+        {%- if book.read == "2022" -%}
+        <div class="flex flex-column flex-row-ns items-start items-start-ns mb5">
+            <div class="mw5 mr5">
+                <img src="{{book.cover}}" class="br3 ba bw1 b--faint smooth-shadow" alt="">
+            </div>
+            <div class="mt3">
+                <h3 class="f3 mt3 mt4-ns mb1">{{book.title}}</h3>
+                <div class="dib f4">by {{book.author}}</div>
+                <div class="dib f4 ml3 secondary o-70">{{book.pages}} pages</div>
+                <div class="mt3 mt4-ns measure lh-copy">{{book.my-notes | markdownify}}</div>
+            </div>
+        </div>
+        {%- endif -%}
+    {%- endfor -%}  
+</div>
+    
+    
+<div class="container">
+    <hr class="mv5">
+</div>
+
+<div class="container mt4">
+    <h2 class="f2 mb5">Books read in 2021 <span class="o-40">({{page.books | where: "read", "2021" | size}})</span></h2>
+    {%- for book in page.books -%}
+        {%- if book.read == "2021" -%}
+        <div class="flex flex-column flex-row-ns items-start items-start-ns mb5">
+            <div class="mw5 mr5">
+                <img src="{{book.cover}}" class="br3 ba bw1 b--faint smooth-shadow" alt="">
+            </div>
+            <div class="mt3">
+                <h3 class="f3 mt3 mt4-ns mb1">{{book.title}}</h3>
+                <div class="dib f4">by {{book.author}}</div>
+                <div class="dib f4 ml3 secondary o-70">{{book.pages}} pages</div>
+                <div class="mt3 mt4-ns measure lh-copy">{{book.my-notes | markdownify}}</div>
+            </div>
+        </div>
+        {%- endif -%}
+    {%- endfor -%}  
+</div>

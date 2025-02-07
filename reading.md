@@ -19,7 +19,7 @@ books:
   cover: "/assets/books/the-design-of-everyday-things.png"
   author: Don Norman
   read: now
-  pages: 
+  pages: 368
   my-notes: ''
 - title: Psychopolitics
   read: '2025'
@@ -235,13 +235,13 @@ books:
   cover: "/assets/books/the-demon-haunted-world.jpg"
   author: Carl Sagan, Ann Druyan
   read: now
-  pages: 
+  pages: 457
   my-notes: ''
 - title: Typography Referenced
   cover: "/assets/books/typography-referenced.jpg"
   author: Multiple Authors
   read: now
-  pages: 
+  pages: 400
   my-notes: ''
 - title: What They Forgot to Teach You at School
   read: '2022'
