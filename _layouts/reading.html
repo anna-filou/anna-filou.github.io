@@ -19,7 +19,7 @@ layout: default
             {%- for book in page.books-%}
                 {%- if book.read == "now" -%}
                 <div class="w-20-ns mr4 mv2 ws-normal" style="min-width: 200px;">
-                    <div class="book-3d mb4">
+                    <div class="book-3d mb4 ml1">
                         <div class="book-3d__inner" style="--book-thickness: calc({{book.pages}}px / 11);">
                             <img src="{{book.cover}}" class="book-3d__cover smooth-shadow" alt="">
                         </div>
@@ -34,19 +34,55 @@ layout: default
     </div>
 </section>
 
-<div class="container">
+
+{% assign years = page.books | map: "read" | uniq | sort | reverse %}
+
+<div class="container f3">
+    <hr class="mv5">
+    <div class="dib mr2">Jump to:</div>
+    {% for year in years %}
+        {% unless year == "now" or year == years[1] %}
+            <a href="#{{year}}" class="mr2">{{year}}</a>
+        {% endunless %}
+    {%- endfor -%}  
     <hr class="mv5">
 </div>
 
-{% assign years = page.books | map: "read" | uniq | sort | reverse %}
 {% for year in years %}
     {% unless year == "now" %}
-    <div class="container mt4">
-        <h2 class="f2 mb6">Books read in {{year}} <span class="o-40">({{page.books | where: "read", year | size}})</span></h2>
+    <section id="{{year}}" class="mt4" style="scroll-margin-top: 140px;">
 
-        {%- for book in page.books -%}
+        <div class="container mb5">
+            <h2 class="f2">Books read in {{year}} <span class="o-40">({{page.books | where: "read", year | size}})</span></h2>
+        </div>
+
+        {% assign books_for_year = page.books | where: "read", year %}
+        {% if books_for_year.size > 3 %}
+        <div class="container-ns">
+            <div class="relative">
+                <div class="pl3 pr5-ns pl0-ns nowrap overflow-x-auto flex items-end w-100 pb4 mb5 bb-ns bw1 b--faint">
+                    {%- for book in books_for_year -%}
+                        <a href="#{{ book.title | slugify }}" class="w-20-ns mr4 mv2 ws-normal link dim" style="min-width: 200px;">
+                            <div class="book-3d mb4">
+                                <div class="book-3d__inner" style="--book-thickness: calc({{book.pages}}px / 11);">
+                                    <img src="{{book.cover}}" class="book-3d__cover smooth-shadow" alt="">
+                                </div>
+                            </div>
+                            <h3 class="mt2 mb1 f5">{{book.title}}</h3>
+                            <div class="fw4 secondary secondary o-80">by {{book.author}}</div>
+                        </a>
+                    {%- endfor -%}  
+                </div>
+                
+                <div class="dn db-ns absolute top-0 right-0 bg-red h-100 w-10 book-container-gradient"></div>
+            </div>
+        </div>
+        {% endif %}
+
+        <div class="container">
+            {%- for book in page.books -%}
             {%- if book.read == year -%}
-            <div class="flex flex-column flex-row-ns items-start items-start-ns pb5-ns mb5 bb-ns bw1 b--faint">
+            <div id="{{ book.title | slugify }}" class="flex flex-column flex-row-ns items-start items-start-ns pb5-ns mb5 bb-ns bw1 b--faint" style="scroll-margin-top: 140px;">
                 <div class="book-3d">
                     <div class="book-3d__inner" style="--book-thickness: calc({{book.pages}}px / 8);">
                         <img src="{{book.cover}}" class="book-3d__cover smooth-shadow" alt="">
@@ -62,6 +98,7 @@ layout: default
             </div>
             {%- endif -%}
         {%- endfor -%}  
-    </div>
+        </div>
+    </section>
     {% endunless %}
 {% endfor %}

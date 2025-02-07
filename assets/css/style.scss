@@ -10,6 +10,8 @@ $media-xs: 370px;
 $container: 1240px;
 $container-lg: 1440px;
 
+html { scroll-behavior: smooth; }
+
 /* COLORS */
 
 $light-bg: #E2E7F5; // #EAE6E3

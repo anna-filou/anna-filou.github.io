@@ -6,8 +6,9 @@
     }
     --cover-outline: none;
     perspective: 1000px;
-    max-width: 280px;
+    max-width: 250px;
     // margin: 0 auto;
+    // margin-left: -2px;
 }
 
 @media (prefers-color-scheme: dark) {

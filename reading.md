@@ -88,7 +88,7 @@ books:
     Amazing, wonderful, concise, and entertaining! Although I've been familiar with the overall concept for years, taking the time to read this short book from start to finish has been enlightening and empowering.
 
     It helps that I began applying the insights at work while still reading it. The best way to keep newly acquired knowledge is to use it right away.
-- title: 1984
+- title: '1984'
   read: '2023'
   cover: "/assets/books/1984.jpg"
   author: George Orwell
