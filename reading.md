@@ -4,6 +4,12 @@ layout: reading
 lang: en
 ref: ''
 books:
+- title: $100M Offers
+  cover: "/assets/books/100m-offers.webp"
+  author: Alex Hormozi
+  read: now
+  pages: 258
+  my-notes: ''
 - title: Pricing Design
   cover: "/assets/books/pricing-design.webp"
   author: Dan Mall
