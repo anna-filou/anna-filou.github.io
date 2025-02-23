@@ -7,9 +7,12 @@ books:
 - title: $100M Offers
   cover: "/assets/books/100m-offers.webp"
   author: Alex Hormozi
-  read: now
+  read: '2025'
   pages: 258
-  my-notes: ''
+  my-notes:   |-
+      Loved some parts (e.g. “When you raise your price, you increase the value the consumer receives without changing anything else about your product”), hated some others (e.g. “if you wouldn’t club a baby seal to stay on as a customer, you don’t have to pay a penny”—yes, I assume it’s a joke, but it still makes me sick).
+
+      Overall, I’m glad I read this and was exposed to a new perspective—that’s the point of reading books! While I agree with the author on many philosophical points, I’m not convinced that fully embracing the capitalist system we live in is the best way forward as a society.
 - title: Pricing Design
   cover: "/assets/books/pricing-design.webp"
   author: Dan Mall
