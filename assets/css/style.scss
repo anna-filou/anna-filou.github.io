@@ -1,6 +1,6 @@
 ---
 ---
-@import 'typography', 'article', 'code', 'print', 'masonry', 'book';
+@import 'typography', 'article', 'code', 'print', 'masonry', 'book', 'carousel';
 
 $media-xl: 1700px;
 $media-xl-containers: 1440px;
@@ -299,6 +299,11 @@ nav {
   background-color: #E6E9F1; // light mode color
 }
 
+.project-image img { 
+  width: auto;
+  height: auto;
+}
+
 @media (prefers-color-scheme: dark) {
   body {
     background-color: $dark-bg;
@@ -332,11 +337,6 @@ nav {
   
   .project-image {
     background-color: hsla(233, 51%, 72%, 0.5);
-  }
-
-  .project-image img { 
-    width: auto;
-    height: auto;
   }
 
 
@@ -821,100 +821,3 @@ hr {
       ". . .";
   }
 }
-
-/* Infinite Carousel */
-
-:root {
-  // --no-of-slides: 4; 
-  --no-of-slides: {% assign images = site.static_files | where_exp: "image", "image.path contains 'assets/hero-grid'" %}{{ images | size }};
-  --slides-in-view: 6;
-  --slides-in-view-small: 4;
-  --slide-width: 270px; /* Fixed width for horizontal scrolling */
-  --slide-width-small: 300px;
-  --iteration-time: 20s;
-}
-
-@keyframes scroll {
-  0% {
-    transform: translateX(0);
-  }
-  100% {
-    transform: translateX(calc(var(--slide-width) * var(--no-of-slides) * -1));
-  }
-  
-}
-
-@keyframes scroll-small {
-  0% {
-    transform: translateX(0);
-  }
-  100% {
-    transform: translateX(calc(var(--slide-width-small) * var(--no-of-slides) * -1));
-  }
-}
-
-.carousel {
-  overflow: hidden;
-  width: calc(var(--slides-in-view) * var(--slide-width));
-  @media (max-width: $media-small) {
-    width: calc(var(--slides-in-view-small) * var(--slide-width-small));
-  }
-}
-
-.carousel__wrapper {
-  display: flex;
-  align-items: end;
-  width: calc(var(--slides-in-view) * var(--slide-width));
-  @media (max-width: $media-small) {
-    width: calc(var(--slides-in-view-small) * var(--slide-width-small));
-  }
-  overflow: hidden;
-}
-
-.carousel__slide {
-  animation: scroll var(--iteration-time) linear infinite;
-  flex-shrink: 0;
-  padding: 0 12px;
-  width: var(--slide-width);
-  @media (max-width: $media-small) {
-    animation: scroll-small var(--iteration-time) linear infinite;
-    width: var(--slide-width-small);
-    padding: 0 8px;
-  }
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.carousel__image-wrapper {
-  width: 100%;
-  height: auto; /* Height adjusts dynamically */
-  display: flex;
-  justify-content: center;
-}
-
-.carousel__image-wrapper img {
-  width: 100%; /* Makes the image scale to the container's width */
-  height: auto; /* Maintains the aspect ratio of the image */
-  display: block; /* Removes any extra spacing below the image */
-}
-
-
-/* Show slide numbers for validation */
-    // .carousel__slide {
-    //   position: relative;
-    // }
-
-    // .carousel {
-    //   counter-reset: slideNo;
-    // }
-
-    // .carousel__slide::before {
-    //   counter-increment: slideNo;
-    //   content: counter(slideNo);
-    //   position: absolute;
-    //   top: 35%;
-    //   left: 45%;
-    //   font-size: 3rem;
-    //   color: crimson;
-    // }
