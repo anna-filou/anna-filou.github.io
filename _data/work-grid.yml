@@ -11,7 +11,6 @@
 #   year: 2024
 #   tags:
 #   - name: In-House
-#     classes: bg-moon-gray navy
 #     color: green
 # - title:
 #     en: LGBTmyths.com
@@ -26,10 +25,8 @@
 #   year: 2023
 #   tags:
 #   - name: Personal
-#     classes: bg-light-yellow orange
 #     color: yellow
 #   - name: Web design & development
-#     classes: bg-lightest-blue dark-blue
 #     color: blue
 # - title:
 #     en: The Newsroom
@@ -44,10 +41,8 @@
 #   year: 2023
 #   tags:
 #   - name: Client work
-#     classes: bg-moon-gray navy
 #     color: green
 #   - name: App design
-#     classes: bg-lightest-blue dark-blue
 #     color: blue
 # - title:
 #     en: Airboxr web-app
@@ -62,10 +57,8 @@
 #   year: 2022
 #   tags:
 #   - name: Client work
-#     classes: bg-moon-gray navy
 #     color: green
 #   - name: Web-app design
-#     classes: bg-lightest-blue dark-blue
 #     color: blue
 # - title:
 #     en: Concept for Note-Taking App
@@ -77,11 +70,27 @@
 #   year: 2024
 #   tags:
 #   - name: Just for&nbsp;fun
-#     classes: bg-light-yellow orange
 #     color: yellow
 #   - name: App design
-#     classes: bg-lightest-blue dark-blue
 #     color: blue
+- title:
+    en: Calorie Grid
+    el: 
+  desc:
+    en: "Minimalist calorie tracking PWA that I designed and built in a couple of days with the help of&nbsp;AI."
+    el: ""
+  link:
+    title: Live ↗
+    url: https://calorie-grid.netlify.app/
+  img: "/assets/calorie-grid-dribbble.webp"
+  year: 2025
+  tags:
+  - name: Just for&nbsp;fun
+    color: yellow
+  - name: App design
+    color: blue
+  - name: Web dev
+    color: pink
 - title:
     en: Hourly Time Tracker
     el: 
@@ -95,15 +104,13 @@
   year: 2023
   tags:
   - name: Just for&nbsp;fun
-    classes: bg-light-yellow orange
     color: yellow
   - name: App design
-    classes: bg-lightest-blue dark-blue
     color: blue
 - title:
     en: CID Website & Logo
   desc:
-    en: "Corporate website and identity for wastewater treatment consulting company."
+    en: "Corporate website and identity for wastewater treatment consulting company. Made with custom code &&nbsp;Jekyll."
     el: ""
   link:
     title: Live ↗
@@ -112,10 +119,8 @@
   year: 2024
   tags:
   - name: Client work
-    classes: bg-moon-gray navy
     color: green
   - name: Web design & development
-    classes: bg-lightest-blue dark-blue
     color: blue
 - title:
     en: Concept for Planner App
@@ -127,10 +132,8 @@
   year: 2022
   tags:
   - name: Just for&nbsp;fun
-    classes: bg-light-yellow orange
     color: yellow
   - name: App design
-    classes: bg-lightest-blue dark-blue
     color: blue
 - title:
     en: DYNAMIKI - Beverage Distribution Network
@@ -147,13 +150,10 @@
   year: 2021
   tags:
   - name: Web design
-    classes: bg-lightest-blue dark-blue
     color: blue
   - name: Agency work
-    classes: bg-moon-gray navy
     color: green
   - name: TSH
-    classes: bg-dark-blue lightest-blue
     color: blue
 - title:
     en: Theeta.nl
@@ -168,16 +168,14 @@
   year: 2022
   tags:
   - name: Client work
-    classes: bg-moon-gray navy
     color: green
   - name: Web design & development
-    classes: bg-lightest-blue dark-blue
     color: blue
 - title:
     en: Backyard — Cozy Hair Salon
     el: 
   desc:
-    en: "One-page website with a unique aesthetic. Made with custom code & Jekyll"
+    en: "One-page website with a unique aesthetic. Made with custom code &&nbsp;Jekyll."
     el: 
   link:
     title: Live ↗
@@ -186,10 +184,8 @@
   year: 2022
   tags:
   - name: Client work
-    classes: bg-moon-gray navy
     color: green
   - name: Web design & development
-    classes: bg-lightest-blue dark-blue
     color: blue
 - title:
     en: Monster Energy Homepage Concept
@@ -205,10 +201,8 @@
   year: 2020
   tags:
   - name: Just for&nbsp;fun
-    classes: bg-light-yellow orange
     color: yellow
   - name: Web design
-    classes: bg-lightest-blue dark-blue
     color: blue
 # - title:
 #     en: Micronavi — Electronics Distributor
@@ -223,10 +217,8 @@
 #   year: 2022
 #   tags:
 #   - name: Client work
-#     classes: bg-moon-gray navy
 #     color: green
 #   - name: Web design & development
-#     classes: bg-lightest-blue dark-blue
 #     color: blue
 - title:
     en: Werewolf Game Cards
@@ -241,10 +233,8 @@
   year: 2019
   tags:
   - name: Just for fun
-    classes: bg-light-yellow orange
     color: yellow
   - name: Illustration
-    classes: bg-washed-red dark-red
     color: pink
 - title:
     en: Logo for Platinum Stores
@@ -256,10 +246,8 @@
   year: 2021
   tags:
   - name: Client work
-    classes: bg-moon-gray navy
     color: green
   - name: Logo design
-    classes: bg-light-yellow orange
     color: blue
 # - title:
 #     en: Beckher — SDA Manufacturer Website
@@ -271,9 +259,7 @@
 #   img: "/assets/beckher-screens.jpg"
 #   tags:
 #   - name: Client work
-#     classes: bg-moon-gray navy
 #   - name: Web design & development
-#     classes: bg-lightest-blue dark-blue
 # - title:
 #     en: Mig Lock — Business Consultant
 #     el: Mig Lock — Business Consultant
@@ -283,9 +269,7 @@
 #   img: "/assets/miglock-scrollcap.gif"
 #   tags:
 #   - name: Client work
-#     classes: bg-moon-gray navy
 #   - name: Web design & development
-#     classes: bg-lightest-blue dark-blue
 # - title:
 #     en: Jewelry Store - Aevum
 #     el: Online Κοσμηματοπωλειο - Aevum
@@ -295,9 +279,7 @@
 #   img: "/assets/aevum-demo.gif"
 #   tags:
 #   - name: Client work 
-#     classes: bg-moon-gray navy
 #   - name: Web design & development
-#     classes: bg-lightest-blue dark-blue
 # - title:
 #     en: Restaurant Website — Bistrot&nbsp;46
 #     el: Ιστοσελιδα εστιατοριου — Bistrot&nbsp;46
@@ -308,9 +290,7 @@
 #   img: "/assets/bistrot46-screens.jpg"
 #   tags:
 #   - name: Client work
-#     classes: bg-moon-gray navy
 #   - name: Webflow
-#     classes: bg-lightest-blue purple
 # - title:
 #     en: MegaMan-inspired Launcher setup
 #     el: MegaMan-inspired Launcher setup
@@ -321,10 +301,8 @@
 #   year: 2019
 #   tags:
 #   - name: Just for fun
-#     classes: bg-light-yellow orange
 #     color: yellow
 #   - name: Illustration
-#     classes: bg-washed-red dark-red
 #     color: pink
 # - title:
 #     en: Amazon Signup Page Concept
@@ -339,8 +317,6 @@
 #   year: 2020
 #   tags:
 #   - name: Just for fun
-#     classes: bg-light-yellow orange
 #     color: yellow
 #   - name: Web design
-#     classes: bg-lightest-blue dark-blue
 #     color: blue

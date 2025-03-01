@@ -2,11 +2,15 @@
 title: Now
 layout: now
 lang: en
-updated: January 21st, 2025
+updated: March 1st, 2025
 now: |
-    Pushing quality of life updates to my website. Check out the loading animation [on the homepage](/)! 
+    I made a single-page Progressive Web App (PWA)! It works offline and solves a real issue for me so I’m overjoyed! 
     
-    Granted, I copied [this awesome animation from Codepen](https://codepen.io/jackrugile/pen/GROaam), but it was a great opportunity to learn how to make it fade out smoothly, how to make sure it doesn’t appear if the JS doesn’t load, how to avoid a flash of the page underneath before the loader appears … and to familiarize myself with [Cursor](https://www.cursor.com/)!
+    I call it [Calorie Grid](https://calorie-grid.netlify.app/) and the idea’s been in my head for years. Now thanks to LLMs like Claude but also being more knowledgeable about JavaScript, I was able to build it in a bit over a day. 
+
+    It’s already taught me a lot about JS, but more importantly it’s shown me the importance of understanding every single line of code an LLM writes for you. I knew that already, but it’s painful to try to make a small change yourself only to realize your assumption about how the system works was extremely wrong. Lesson learned!
+
+    ![Calorie Grid App Design by Anna Filou](/assets/calorie-grid-dribbble.webp)
 ---
 
 
@@ -14,6 +18,12 @@ now: |
 
 
 ## Previously
+
+### January 21st, 2025
+
+Pushing quality of life updates to my website. Check out the loading animation [on the homepage](/)! 
+    
+Granted, I copied [this awesome animation from Codepen](https://codepen.io/jackrugile/pen/GROaam), but it was a great opportunity to learn how to make it fade out smoothly, how to make sure it doesn’t appear if the JS doesn’t load, how to avoid a flash of the page underneath before the loader appears … and to familiarize myself with [Cursor](https://www.cursor.com/)!
 
 ### December 31st, 2024
 ![](/assets/arcane-2.webp)
@@ -50,3 +60,9 @@ I used ChatGPT + 5 hours to make a Chrome extension that turns my new tab into a
 <video autoplay loop muted src="/uploads/bookmarks-2024-05-15.mp4" class="w-100 br3"></video>
 
 [It’s live in the Chrome Web Store](https://chromewebstore.google.com/detail/bookmarks-tab/ofijmedbafaffedkkhpgandnchdnbgoo)! I’m very excited about it because it’s crazy to me how limited the default browser new tabs are regarding how they handle bookmarks and I’ve wanted an alternative for so long!
+
+--- 
+
+## Note
+
+I’ve been writing updates on my `/now` page for a much longer time, and regret that I haven’t been keeping a running log since the beginning. I could theoretically go over all my GitHub commits to populate this page and might do it at some point.
