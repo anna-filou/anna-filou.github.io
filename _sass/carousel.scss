@@ -1,6 +1,8 @@
 /* Infinite Carousel */
 
 :root {
+    // THESE ARE IN INLINE STYLES PER CAROUSEL NOW! 2025-03-02
+
     // --no-of-slides: 4; 
     // --no-of-slides: {% assign images = site.static_files | where_exp: "image", "image.path contains 'assets/hero-grid'" %}{{ images | size }};
     --slides-in-view: 6;

@@ -821,3 +821,9 @@ hr {
       ". . .";
   }
 }
+
+.shrink { -moz-osx-font-smoothing: grayscale; -webkit-backface-visibility: hidden; backface-visibility: hidden; -webkit-transform: translateZ( 0 ); transform: translateZ( 0 ); transition: -webkit-transform .25s ease-out; transition: transform .25s ease-out; transition: transform .25s ease-out, -webkit-transform .25s ease-out; }
+.shrink:hover, .shrink:focus { -webkit-transform: scale( .95 ); transform: scale( .95 ); }
+
+.raise { -moz-osx-font-smoothing: grayscale; -webkit-backface-visibility: hidden; backface-visibility: hidden; -webkit-transform: translateZ( 0 ); transform: translateZ( 0 ); transition: -webkit-transform .25s ease-out; transition: transform .25s ease-out; transition: transform .25s ease-out, -webkit-transform .25s ease-out; }
+.raise:hover, .raise:focus { -webkit-transform: translateY(-1rem); transform: translateY(-1rem); }
