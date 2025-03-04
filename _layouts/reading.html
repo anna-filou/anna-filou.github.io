@@ -52,7 +52,7 @@ layout: default
     {% unless year == "now" %}
     <section id="{{year}}" class="mt4" style="scroll-margin-top: 140px;">
 
-        <div class="container mb3">
+        <div class="container mb5">
             <h2 class="f2">Books read in {{year}} <span class="o-40">({{page.books | where: "read", year | size}})</span></h2>
         </div>
 
@@ -60,7 +60,7 @@ layout: default
         {% if books_for_year.size > 3 %}
         <div class="container-ns">
             <div class="relative">
-                <div class="pl3 pr5-ns pl0-ns nowrap overflow-x-auto flex items-end w-100 pb4 mb5 bb-ns bw1 b--faint">
+                <div class="pl3 pr5-ns pl0-ns nowrap overflow-x-auto flex items-end w-100 pb4 nt4 mb5 bb-ns bw1 b--faint">
                     {%- for book in books_for_year -%}
                         <a href="#{{ book.title | slugify }}" class="w-20-ns mr4 mv2 ws-normal raise pt3" style="min-width: 200px;">
                             <div class="book-3d mb4">
