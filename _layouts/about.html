@@ -11,14 +11,14 @@ layout: default
                 <img src="/assets/intp-sticker.webp" class="w4 rotate--15 shadow grow-large" alt="the words INTP Assertive inside a stamp-shaped sticker">
             </a>
         </div>
-        <div class="dn db-ns mb4">
-            <a href="https://info.flagcounter.com/qz5V">
-                <img src="https://s01.flagcounter.com/count2/qz5V/bg_0E0A70/txt_FFFFFF/border_6D80FC/columns_3/maxflags_12/viewers_0/labels_1/pageviews_0/flags_0/percent_1/" alt="Flag Counter" border="0">
+        <div class="dn db-ns mb4 br3 pa2 bg-faint">
+            <a href="https://info.flagcounter.com/qz5V" target="_blank">
+                <img width="293" height="83" src="https://s01.flagcounter.com/count2/qz5V/bg_0E0A70/txt_FFFFFF/border_6D80FC/columns_3/maxflags_12/viewers_0/labels_1/pageviews_0/flags_0/percent_1/" alt="Flag Counter" border="0">
             </a>
-            <div class="f6 secondary">Counter added 2025-03-04</div>
+            <div class="f6 secondary">Added 2025-03-04, covers <code>/about</code> page</div>
         </div>
         <!-- <video autoplay loop muted src="/assets/swan-bike.mp4" class="w-100 br3 dn db-ns"></video> -->
-        <img src="/assets/about-illustration-from-timeline.webp" alt="" class="br3 dn db-ns">
+        <!-- <img src="/assets/about-illustration-from-timeline.webp" alt="" class="br3 dn db-ns"> -->
         <div>
             {{page.sidebar | markdownify }}
         </div>
@@ -31,13 +31,45 @@ layout: default
     </div>
 
     <!-- <video autoplay loop muted src="/assets/swan-bike.mp4" class="w-100 br3 db dn-ns"></video> -->
-    <div class="db dn-ns mt4">
-        <a href="https://info.flagcounter.com/qz5V">
-            <img src="https://s01.flagcounter.com/count2/qz5V/bg_0E0A70/txt_FFFFFF/border_6D80FC/columns_3/maxflags_12/viewers_0/labels_1/pageviews_0/flags_0/percent_1/" alt="Flag Counter" border="0">
+    <div class="db dn-ns mt5 br3 pa3 bg-faint">
+        <a href="https://info.flagcounter.com/qz5V" target="_blank">
+            <img width="293" height="83" src="https://s01.flagcounter.com/count2/qz5V/bg_0E0A70/txt_FFFFFF/border_6D80FC/columns_3/maxflags_12/viewers_0/labels_1/pageviews_0/flags_0/percent_1/" alt="Flag Counter" border="0">
         </a>
-        <div class="f6 secondary">Counter added 2025-03-04</div>
+        <div class="f6 secondary">Added 2025-03-04, covers <code>/about</code> page</div>
     </div>
     
 </div>
+
+<hr>
+
+<section class="container-ns mt4 mt6-ns">
+    <div class="overflow-hidden br3 br4-ns">
+        <div class="carousel" style="--no-of-slides: {% assign images = site.static_files | where_exp: "image", "image.path contains 'about-carousel'" %}{{ images | size }}; --slide-width: 270px; --slide-width-small: 300px; --iteration-time: 25s;">
+        <div class="carousel__wrapper">
+            {% for image in images %}
+            <div class="carousel__slide">
+                <div class="carousel__image-wrapper">
+                <img src="{{ image.path }}" class="br4" alt="" width="200" height="200">
+                </div>
+            </div>
+            {% endfor %}
+            {% for image in images %}
+            <div class="carousel__slide">
+                <div class="carousel__image-wrapper">
+                <img src="{{ image.path }}" class="br4" alt="" width="200" height="200">
+                </div>
+            </div>
+            {% endfor %}
+            {% for image in images %}
+            <div class="carousel__slide">
+                <div class="carousel__image-wrapper">
+                <img src="{{ image.path }}" class="br4" alt="" width="200" height="200">
+                </div>
+            </div>
+            {% endfor %}
+        </div>
+        </div>
+    </div>
+</section>
 
 {% include more.html %}
