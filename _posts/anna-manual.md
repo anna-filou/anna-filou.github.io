@@ -1,0 +1,39 @@
+# Manual for working with me
+
+I’m Anna, a digital native UI and Product Designer. You can [read more about me here](/{{page.lang}}/about/).
+
+Note: Don’t take my having a ‘manual’ as a request for special treatment. If we’re working together, or will be, I’d love to read your manual or learn about your preferences!
+
+### I’d describe myself as…
+… someone who thrives on **new ideas** and **challenges**. I’m both **creative** and **analytical**, with a strong drive for autonomy and passion about the quality of my work. I shift between structured, goal-oriented work and more fluid, exploratory thinking.
+
+My predominant personality type is [INT**P**-A](https://www.16personalities.com/intps-at-work), and I share the structured way of thinking of the closely related [INT**J**](https://www.16personalities.com/intjs-at-work).
+
+
+Note: I consider personality tests a reflection of your self-perception at the time when you took the test. They’re not horoscopes and they change as we grow. They only serve as a way to package certain insights about ourselves and deliver them to others more efficiently.
+
+### I do my best work when…
+… I’m given the freedom to find my own solutions for tasks which are meaningful and intellectually engaging. I care deeply both about my **craft** and **user experience**. I work best with those who share this mindset.
+
+### Working patterns
+I often go through phases of **intense focus** on specific tasks or projects. I need **uninterrupted** time to focus on deep work. **Flexible** hours and **remote** setups help me adjust my work to match my energy throughout the day and week.
+
+### Communication
+   - **Direct** communication works best for me—get to the point without fear of hurting my feelings. I appreciate being involved in higher level decision making and planning. If that’s not possible, then at least explain the “why” behind decisions so I can stay aligned with goals.
+   - Information silos stifle progress and give rise to misunderstandings. I’m a big fan of **shared knowledge bases** and/or task management systems, where everything is laid out clearly for the entire team to reference. (Think Notion, [Slite](https://slite.com/), [Saga](https://saga.so/) and the like.)
+   - I usually prefer **async** communication (e.g. **Figma** comments and [Looms](https://loom.com/)) over calls, but know when a meeting could be the best way to push a project forward.
+
+### When giving me feedback, it’s important that…
+… it’s focused on the facts and desired **outcome**. Instead of vague comments like “I don’t like this,” tell me what doesn’t meet expectations and why. For example, “This isn’t achieving the user engagement we hoped for”. Feel free to suggest solutions, but also allow me to potentially come up with my own proposals.
+
+### If I seem slower or detached, the best way to support me is…
+… by challenging me to reach **milestones** or asking me to delve into a **different area** of the project. Seeing things from a new angle helps me re-build momentum and enthusiasm.
+
+
+### As a designer
+
+- My designs focus on **functionality** and clarity, not only aesthetics or personal preferences of stakeholders. I will consistently advocate for user-centric solutions. Remember that **user needs** more often than not align with **business goals**. Pushback on bad ideas is part of how I help projects succeed.
+- I enjoy building and maintaining **design systems** and **component libraries**. If I have to do something more than twice, I’d rather automate it.
+- I’m most effective when I have **ownership** of my designs and **involvement in the technical implementation**.
+- While I trust my knowledge and instincts, I appreciate consulting **user research** and **data** to inform higher-level decisions. If it’s not available, I love taking part in collecting it by talking with users and designing experiments.
+

@@ -42,16 +42,37 @@ layout: default
         {% if section.image-1 and section.image-2%}
             <div class="cf">
                 <div class="w-50-ns fl mb3 mb0-ns">
-                    <img src="{{section.image-1}}" class="br4" alt="">
+                    {% if section.image-1 contains '.mp4' %}
+                        <video autoplay loop muted class="w-100 br4">
+                            <source src="{{section.image-1}}" type="video/mp4">
+                            Your browser does not support the video tag.
+                        </video>
+                    {% else %}
+                        <img src="{{section.image-1}}" class="br4" alt="">
+                    {% endif %}
                 </div>
                 <div class="w-50-ns fl">
-                    <img src="{{section.image-2}}" class="br4" alt="">
+                    {% if section.image-2 contains '.mp4' %}
+                        <video autoplay loop muted class="w-100 br4">
+                            <source src="{{section.image-2}}" type="video/mp4">
+                            Your browser does not support the video tag.
+                        </video>
+                    {% else %}
+                        <img src="{{section.image-2}}" class="br4" alt="">
+                    {% endif %}
                 </div>
             </div>
         {% elsif section.image-1 %}
         
             <div class="mb3 mb0-ns">
-                <img src="{{section.image-1}}" alt="">
+                {% if section.image-1 contains '.mp4' %}
+                    <video autoplay loop muted class="w-100 br4">
+                        <source src="{{section.image-1}}" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>
+                {% else %}
+                    <img src="{{section.image-1}}" class="br4" alt="">
+                {% endif %}
             </div>
 
         {% endif %}
