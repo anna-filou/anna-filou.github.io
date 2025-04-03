@@ -2,15 +2,11 @@
 title: Now
 layout: now
 lang: en
-updated: March 1st, 2025
+updated: April 2nd, 2025
 now: |
-    I made a single-page Progressive Web App (PWA)! It works offline and solves a real issue for me so I’m overjoyed! 
-    
-    I call it [Calorie Grid](https://calorie-grid.netlify.app/) and the idea’s been in my head for years. Now thanks to LLMs like Claude but also being more knowledgeable about JavaScript, I was able to build it in a bit over a day. 
+    I uploaded an [overview of the work I've done at Shopflix](/en/shopflix) for the past couple of years. I've been meaning to do that for over a year and finally carved out the time to. It's hard to distill years of work into a concise overview (I might trim it further) and it's even harder when you're under an NDA (I was very inspired by [this designer’s solution](https://yg.is/airtable/)).
 
-    It’s already taught me a lot about JS, but more importantly it’s shown me the importance of understanding every single line of code an LLM writes for you. I knew that already, but it’s painful to try to make a small change yourself only to realize your assumption about how the system works was extremely wrong. Lesson learned!
-
-    ![Calorie Grid App Design by Anna Filou](/assets/calorie-grid-dribbble.webp)
+    In unrelated news, I’m happy my sudden spike of acne is going away after applying an Azelaic acid cream for over a week.
 ---
 
 
@@ -18,6 +14,16 @@ now: |
 
 
 ## Previously
+
+### March 1st, 2025
+
+I made a single-page Progressive Web App (PWA)! It works offline and solves a real issue for me so I’m overjoyed! 
+    
+I call it [Calorie Grid](https://calorie-grid.netlify.app/) and the idea’s been in my head for years. Now thanks to LLMs like Claude but also being more knowledgeable about JavaScript, I was able to build it in a bit over a day. 
+
+It’s already taught me a lot about JS, but more importantly it’s shown me the importance of understanding every single line of code an LLM writes for you. I knew that already, but it’s painful to try to make a small change yourself only to realize your assumption about how the system works was extremely wrong. Lesson learned!
+
+![Calorie Grid App Design by Anna Filou](/assets/calorie-grid-dribbble.webp)
 
 ### January 21st, 2025
 
@@ -65,4 +71,4 @@ I used ChatGPT + 5 hours to make a Chrome extension that turns my new tab into a
 
 ## Note
 
-I’ve been writing updates on my `/now` page for a much longer time, and regret that I haven’t been keeping a running log since the beginning. I could theoretically go over all my GitHub commits to populate this page and might do it at some point.
+I’ve been writing updates on my `/now` page for a much longer time, and regret that I haven’t been keeping a running log since the beginning. I could theoretically go over all my GitHub commits to populate this page and might do just that at some point.
