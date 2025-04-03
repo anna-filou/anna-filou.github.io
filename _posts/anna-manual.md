@@ -1,6 +1,6 @@
 # Manual for working with me
 
-I’m Anna, a digital native UI and Product Designer. You can [read more about me here](/{{page.lang}}/about/).
+I’m Anna, a digital native UI and Product Designer. [More about me here](/{{page.lang}}/about/).
 
 Note: Don’t take my having a ‘manual’ as a request for special treatment. If we’re working together, or will be, I’d love to read your manual or learn about your preferences!
 

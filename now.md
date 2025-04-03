@@ -4,7 +4,9 @@ layout: now
 lang: en
 updated: April 2nd, 2025
 now: |
-    I uploaded an [overview of the work I've done at Shopflix](/en/shopflix) for the past couple of years. I've been meaning to do that for over a year and finally carved out the time to. It's hard to distill years of work into a concise overview (I might trim it further) and it's even harder when you're under an NDA (I was very inspired by [this designer’s solution](https://yg.is/airtable/)).
+    I uploaded an [overview of the work I've done at Shopflix](/en/shopflix) for the past couple of years. I've been meaning to do that for over a year and finally carved out the time to. It's hard to distill years of work into a concise overview (I might trim it further) and it's even harder when you're under an NDA (I was very inspired by [this designer’s approach](https://yg.is/airtable/)).
+
+    And since I was at it, I thought: why not also write [something about my LGBT myths project](https://annafilou.com/en/lgbtmyths)? (Because who needs sleep?)
 
     In unrelated news, I’m happy my sudden spike of acne is going away after applying an Azelaic acid cream for over a week.
 ---
