@@ -23,7 +23,9 @@ sections:
 - title: The idea
   text: | 
 
-    **What's the goal behind this?** Honestly, a large part of it is just wanting to get some things out of my head, and to encapsulate arguments I've vocalized on the spot countless times. Maybe this will be the spark that prompts someone to question what they've assumed to be true because everyone around them believes it—and if so, then it will have been worth my time.
+    **What's the goal behind this?** Honestly, I mostly just wanted to get it out of my head; to encapsulate arguments I've vocalized on the spot countless times. 
+    
+    Maybe this will be the spark that prompts someone to question what they've assumed to be true because everyone around them believes it—and if so, then it will have been worth my time.
 - title: The backstory
   text: | 
     I was taking a course on branding, and the capstone project was to create a brand and website design for a fictional organization—the only requirement? It would have to support a socially beneficial cause. 
