@@ -5,69 +5,74 @@ lang: en
 ref: contact
 ---
 
-	<section class="container mt5-ns mv4">
-		<div class="bg-faint flex items-center justify-center tc br3 f5 pa3 pa2-ns">
-			<div class="w1 h1 bg-red br3 mr3"></div>
-			<div class="o-80">Currently: {{ site.availability }}</div>
-		</div>
-	</section>
+<section class="container mt5">
+	<h1 class="f1 mv4 pt4-ns">CONTACT</h1>
 
-	<section class="container mt4">
-		<div class="flex flex-column bg-faint br4 pa3">
-			<div class="flex flex-column flex-row-ns justify-between-ns items-center mb2-ns">
-				<h1 class="f2 mt0 mb3 mb2-ns">Contact</h1>
-				<div class="bw1-ns bt-ns b--faint w-100 mh3"></div>
-				<div class="f4 nowrap-ns" style="-webkit-line-break: after-white-space;"><code class="language-plaintext highlighter-rouge">hello</code> at <code class="language-plaintext highlighter-rouge">annafilou</code> dot <code class="language-plaintext highlighter-rouge">com</code></div>
-			</div>
-			<div class="flex flex-column flex-row-l">
-				<img src="/assets/hi-on-skates-anna.gif" class="w-40-l br3 mv3 mv0-l">
-				<div class="lh-copy pl0 pl4-l w-60-l">
-					<ul class="mt0">
-						<li>Send me an electronic letter</li>
-						<li>See <a href="/now">what I’m doing now</a></li>
-						<li>Connect on <a href="https://www.linkedin.com/in/annafilou">LinkedIn</a></li>
-					</ul>
-					<div class="flex items-center ph3 pt2 pb3 ba bw1 b--faint br3 mb3">
-						<div class="f2 mr3">👋🏻</div>
-						<div>
-							Do say hi!
-							<br>
-							<a href="https://youtu.be/Gb38t9ZnBhM">We might be good friends in a possible&nbsp;future&nbsp;↗</a>
+	<div class="flex flex-column-reverse flex-row-ns gap3">
+		<div class="">
+			<img src="/assets/contact-montage.gif" class="br4" alt="">
+		</div>
+	
+		<div class="w-100 flex flex-column gap3">
+			<div class="flex flex-column flex-row-l w-100 bg-faint-ns br4 overflow-hidden ">
+				<div class="flex flex-column w-100">
+					<div class="pa3 pa4-ns flex items-center bg-faint bg-transparent-ns br4 br0-ns bb-ns b--faint">
+						<!-- STATUS -->
+						<div style="width: 24px; height: 24px;" class="bg-{{ site.data.home.availability.color }}-30 br-100 flex items-center mr3 flex-shrink-0">
+							<div style="width: 10px; height: 10px;" class="bg-{{ site.data.home.availability.color }}-80 br-100 z-5 center"></div>
+						</div>
+						<div>{{ site.data.home.availability.text }}</div>
+					</div>
+					<div class="pv4 pa4-ns flex flex-column gap3">
+						<!-- MAIN -->
+						<div class="">
+							DM me on <a href="https://www.linkedin.com/in/annafilou">LinkedIn</a>
+						</div>
+		
+						<div class="">
+							Or write me a letter:
+							<div class="f3">
+							<strong>hello</strong> <code>at</code> <strong>anna filou</strong> <code>dot</code> <strong>com</strong>
+							</div>
+						</div>
+		
+						<div class="">
+							Also <a href="/now">see what I’m up to&nbsp;now</a>
 						</div>
 					</div>
-					<div class="bg-faint br3 ttu tracked fw5 ph3 pv2 f6 tc">
-						I speak <img src="/assets/flags/greece.svg" alt="Greek" class="mh1"> <img src="/assets/flags/usa.svg" alt="English" class="mh1"> fluently, <img src="/assets/flags/germany.svg" alt="German" class="mh1"> quite well, and <img src="/assets/flags/netherlands.svg" alt="Dutch" class="mh1"> <img src="/assets/flags/japan.svg" alt="Japanese" class="mh1"> a&nbsp;little
+				</div>
+				<div class="flex flex-row flex-wrap flex-column-l gap4 pv4 pa4-ns bt bt-0-l bl-l h-100 bw1 b--faint w-fit-content">
+					<!-- LANGS -->
+					<div class="flex items-center">
+						<img src="/assets/flags/greece.svg" alt="Greek" class="mr3" style="width: 28px;">
+						<span>Native</span>
+					</div>
+					<div class="flex items-center">
+						<img src="/assets/flags/usa.svg" alt="English" class="mr3" style="width: 28px;">
+						<span>Fluent</span>
+					</div>
+					<div class="flex items-center">
+						<img src="/assets/flags/germany.svg" alt="German" class="mr3" style="width: 28px;">
+						<span>Proficient</span>
+					</div>
+					<div class="flex items-center">
+						<img src="/assets/flags/netherlands.svg" alt="Dutch" class="mr3 flex-shrink-0" style="width: 28px;">
+						<span class="nowrap">Can understand</span>
+					</div>
+					<div class="flex items-center">
+						<img src="/assets/flags/japan.svg" alt="Japanese" class="mr3" style="width: 28px;">
+						<span>Elementary</span>
 					</div>
 				</div>
 			</div>
-
-		</div>
-	</section>
-
-	<!-- {% include more.html %} -->
-
-	<!-- <section class="container mt4">
-		<div class="flex flex-column flex-row-ns ba bw1 b--faint br4 overflow-hidden">
-			<h2 class="mv0 nowrap f3 pa3 pb0 pb3-ns flex items-center justify-center b w-40-ns br-ns bw1-ns b--faint">Read about…</h2>
-		
-			<div class="w-60-ns f4">
-				<a href="/{{page.lang}}/about" class="no-underline">
-					<div class="flex items-center pa3 bb bw1 b--faint hover-bg-faint">
-						<div class="f2 mr3">🧠</div>
-						<div>
-							me, as a person
-						</div>
-					</div>
-				</a>
-		
-				<a href="/{{page.lang}}/collab" class="no-underline">
-					<div class="flex items-center pa3 hover-bg-faint">
-						<div class="f2 mr3">🫵🏻</div>
-						<div>
-							what I can do for you
-						</div>
-					</div>
-				</a>
+			<div class="flex items-center pv4 pa4-ns bt bw1 ba-ns bw1-ns b--faint br4-ns">
+				<div class="f2 mr3 mr4-ns">👋🏻</div>
+				<div>
+					Do say hi!
+					<br class="dn db-ns">
+					<a href="https://youtu.be/Gb38t9ZnBhM">We might be good friends in a possible&nbsp;future&nbsp;↗</a>
+				</div>
 			</div>
 		</div>
-	</section> -->
+	</div>
+</section>
