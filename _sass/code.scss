@@ -1,27 +1,45 @@
 .code, code {
     overflow-wrap: break-word;
   }
+
+article figure, div.highlight, .language-plaintext {
+  border: 2px solid #31578c;
+  border-radius: 8px;
+}
+
+.language-plaintext {
+  padding: 0.2em .4em;
+}
+
+article figure, div.highlight {
+  padding: 0 1.5em;
+}
+
+.language-plaintext, .highlight {
+  background-color: #00144a;
+  color: #f8f8f2;
+}
   
-.highlight .hll { background-color: #49483e }
-.highlight  { background: #272822; color: #f8f8f2 }
-.highlight .c { color: #75715e } /* Comment */
+.highlight .hll { background-color: #00144a }
+// .highlight { background: #00144a; color: #f8f8f2 }
+.highlight .c { color: #4e73ab } /* Comment */
 .highlight .err { color: #960050; background-color: #1e0010 } /* Error */
 .highlight .k { color: #66d9ef } /* Keyword */
 .highlight .l { color: #ae81ff } /* Literal */
 .highlight .n { color: #f8f8f2 } /* Name */
 .highlight .o { color: #f92672 } /* Operator */
 .highlight .p { color: #f8f8f2 } /* Punctuation */
-.highlight .ch { color: #75715e } /* Comment.Hashbang */
-.highlight .cm { color: #75715e } /* Comment.Multiline */
-.highlight .cp { color: #75715e } /* Comment.Preproc */
-.highlight .cpf { color: #75715e } /* Comment.PreprocFile */
-.highlight .c1 { color: #75715e } /* Comment.Single */
-.highlight .cs { color: #75715e } /* Comment.Special */
+.highlight .ch { color: #4e73ab } /* Comment.Hashbang */
+.highlight .cm { color: #4e73ab } /* Comment.Multiline */
+.highlight .cp { color: #4e73ab } /* Comment.Preproc */
+.highlight .cpf { color: #4e73ab } /* Comment.PreprocFile */
+.highlight .c1 { color: #4e73ab } /* Comment.Single */
+.highlight .cs { color: #4e73ab } /* Comment.Special */
 .highlight .gd { color: #f92672 } /* Generic.Deleted */
 .highlight .ge { font-style: italic } /* Generic.Emph */
 .highlight .gi { color: #a6e22e } /* Generic.Inserted */
 .highlight .gs { font-weight: bold } /* Generic.Strong */
-.highlight .gu { color: #75715e } /* Generic.Subheading */
+.highlight .gu { color: #4e73ab } /* Generic.Subheading */
 .highlight .kc { color: #66d9ef } /* Keyword.Constant */
 .highlight .kd { color: #66d9ef } /* Keyword.Declaration */
 .highlight .kn { color: #f92672 } /* Keyword.Namespace */
