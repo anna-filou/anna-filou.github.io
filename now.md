@@ -4,11 +4,11 @@ layout: now
 lang: en
 updated: April 2nd, 2025
 now: |
-    I uploaded an [overview of the work I've done at Shopflix](/en/shopflix) for the past couple of years. I've been meaning to do that for over a year and finally carved out the time to. It's hard to distill years of work into a concise overview (I might trim it further) and it's even harder when you're under an NDA (I was very inspired by [this designer’s approach](https://yg.is/airtable/)).
-
-    And since I was at it, I thought: why not also write [something about my LGBT myths project](https://annafilou.com/en/lgbtmyths)? (Because who needs sleep?)
-
-    In unrelated news, I’m happy my sudden spike of acne is going away after applying an Azelaic acid cream for over a week.
+    - I’ve added an [/ideas](/ideas) page to my website!
+    - Having fun checking out sites on [this blogroll](https://blogroll.org/). 
+        - Dicovered [TamaNOTchi](https://tamanotchi.world/22206c) (xD) and got a pang of nostalgia — reminds me of [Dragon Cave](https://dragcave.net/), which is apparently still running?! Too bad my account was seemingly deleted.
+    - Playing around with local LLM models in [LM Studio](https://lmstudio.ai/). The 8–12B ones my laptop can are leagues behind ChatGPT though. Open to recommendations!
+    
 ---
 
 
@@ -16,6 +16,14 @@ now: |
 
 
 ## Previously
+
+### April 2nd, 2025
+
+I uploaded an [overview of the work I've done at Shopflix](/en/shopflix) for the past couple of years. I've been meaning to do that for over a year and finally carved out the time to. It's hard to distill years of work into a concise overview (I might trim it further) and it's even harder when you're under an NDA (I was very inspired by [this designer’s approach](https://yg.is/airtable/)).
+
+And since I was at it, I thought: why not also write [something about my LGBT myths project](https://annafilou.com/en/lgbtmyths)? (Because who needs sleep?)
+
+In unrelated news, I’m happy my sudden spike of acne is going away after applying an Azelaic acid cream for over a week.
 
 ### March 1st, 2025
 
