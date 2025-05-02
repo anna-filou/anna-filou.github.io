@@ -8,6 +8,16 @@
     url: https://shopflix.gr/
   img: /assets/work-new/shopflix.webp
   year: (Currently)
+- title: LGBTmyths.com
+  skills: Concept • Design • Development
+  case_study:
+    title: Details&nbsp;→
+    url: /en/lgbtmyths
+  live_site:
+    title: Live&nbsp;↗
+    url: https://lgbtmyths.com
+  img: /assets/work-new/lgbtmyths.webp
+  year: 
 - title: Airboxr web app
   skills: 0→1 • Design • Prototyping
   case_study:
@@ -28,15 +38,15 @@
     url: https://apps.apple.com/us/app/the-newsroom/id1613913905
   img: /assets/work-new/newsroom.webp
   year: 
-- title: LGBTmyths.com
-  skills: Concept • Design • Development
-  case_study:
-    title: Details&nbsp;→
-    url: /en/lgbtmyths
+- title: Calorie Grid
+  skills: Concept • Design • Dev
+  # case_study:
+  #   title: Details&nbsp;→
+  #   url: /en/calorie-grid
   live_site:
     title: Live&nbsp;↗
-    url: https://lgbtmyths.com
-  img: /assets/work-new/lgbtmyths.webp
+    url: https://calorie-grid.netlify.app/
+  img: /assets/work-new/calorie-grid.webp
   year: 
 - title: Note-Taking App
   skills: Concept • Design
