@@ -12,6 +12,7 @@ subtitle: |
 
 - **Nested Kanban** project manager. Imagine Trello, but clicking a card opens its own Kanban board.
 - **Hourly time tracker** — [see my concept prototype](/en/time-tracker-concept)
+- **Weather app** that shows you the clothes you need to wear instead of temperature and weather icons. E.g. Real feel temperature > 25 °C (adjustable) → 🎽🩳. Rain → ☂️
 - **Recording app** that records everything for 1–2 running hours, then you can choose to save the last 5, 10, 20 etc. minutes. (Similar to [Backtrack](https://apps.apple.com/us/app/backtrack-record-the-past/id1477089520?mt=12), but for mobile.) Could also be a physical device that syncs with the cloud/your phone.
 - A browser extension that shows you a **searchable list of your other extensions** (should be built into browsers IMO).
 - **Notes app you can converse with**. My biggest pain point with existing note taking applications is that, when I search for something, I often don't remember the exact words that I used within the note. I would like to search in natural language and have the app surface results that might not use the exact words but match the query (similar to how Gmail does it). For example, maybe I wrote about something being “inexpensive” but now I'm searching for “cheap”— it should still turn up. 
