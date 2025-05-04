@@ -4,6 +4,15 @@ layout: reading
 lang: en
 ref: ''
 books:
+- title: "Animal Farm: The Graphic Novel"
+  cover: "/assets/books/animal-farm-graphic-novel.webp"
+  author: George Orwell, adapted by Odyr
+  read: '2025'
+  pages: 176
+  my-notes:   |-
+      Been meaning to read Animal Farm for years, never got around to it. Stumbled upon this beautiful adaptation in a bookstore and read it all on the spot.
+
+      It made me sad. Now I wanna read the actual book more than before. Wonder if it has more details. How do you go from egalitatian to totalitarian? It felt kinda… fake in the graphic novel. Like it could not possibly happen for real. But it does!
 - title: $100M Offers
   cover: "/assets/books/100m-offers.webp"
   author: Alex Hormozi
