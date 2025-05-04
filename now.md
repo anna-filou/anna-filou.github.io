@@ -7,7 +7,7 @@ now: |
     - I’ve added an [/ideas](/ideas) page to my website!
     - Having fun checking out sites on [this blogroll](https://blogroll.org/). 
         - Dicovered [TamaNOTchi](https://tamanotchi.world/22206c) (xD) and got a pang of nostalgia — reminds me of [Dragon Cave](https://dragcave.net/), which is apparently still running?! Too bad my account was seemingly deleted.
-    - Playing around with local LLM models in [LM Studio](https://lmstudio.ai/). The 8–12B ones my laptop can are leagues behind ChatGPT though. Open to recommendations!
+    - Playing around with local LLM models in [LM Studio](https://lmstudio.ai/). The 8–12B ones my laptop can run are leagues behind ChatGPT though. Open to recommendations!
     
 ---
 
