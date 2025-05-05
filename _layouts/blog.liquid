@@ -27,7 +27,14 @@ layout: default
     {%- endif -%}
     {%- assign date_format = "%-d %B %Y" -%}
 
-    {% assign en_posts = site.posts | where: "lang", page.lang %}
+    {% comment %} {% assign en_posts = site.posts | where: "lang", page.lang %} {% endcomment %}
+
+    {% assign en_posts = "" | split: "" %}
+    {% for post in site.posts %}
+      {% unless post.tags contains "case study" %}
+        {% assign en_posts = en_posts  | where: "lang", page.lang | push: post %}
+      {% endunless %}
+    {% endfor %}
 
     <!-- text VERSION -->
     <div class="flex flex-row flex-wrap nl3 nr3 ">
