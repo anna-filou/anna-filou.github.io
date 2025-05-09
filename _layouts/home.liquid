@@ -90,13 +90,13 @@ layout: default
     {% for project in site.data.works %}
       <div class="bg-faint mb3 overflow-hidden br4">
           {% if project.case_study %}
-            <div class="overflow-hidden">
+            <div class="overflow-hidden bb bw1 b--faint">
               <a href="{{ project.case_study.url }}" class="project-image db grow" aria-label="{{ project.title }} Case Study">
                 <img src="{{ project.img }}" class="db" alt="" width="371" height="431">
               </a>
             </div>
           {% else %}
-          <div class="project-image db">
+          <div class="project-image db bb bw1 b--faint">
             <img src="{{ project.img }}" class="db" alt="" width="371" height="431">
           </div>
             
@@ -167,7 +167,7 @@ layout: default
 <section class="container mt5">
   <a href="/{{page.lang}}/snippets" class="link">
     <div class="db br4 bg-faint flex flex-column overflow-hidden grow-small">
-      <div class="pa3 pa4-ns flex flex-column flex-shrink-1 bb bw2 b--faint"> 
+      <div class="pa3 pa4-ns flex flex-column flex-shrink-1 bb bw1 b--faint"> 
         <h2 class="ttu mt0 mb2">See more works →</h2>
         <div class="fw4 secondary">
           Quick looks into more of my projects — some for clients, some&nbsp;for&nbsp;fun.
