@@ -20,6 +20,8 @@ I will organize these better later.
 - [densediscovery.com](https://www.densediscovery.com/) — newsletter
 - [snopes.com/factbot](https://www.snopes.com/factbot/)
 - [oneminutepark.tv](https://oneminutepark.tv/)
+- [hardlyeverything.com](https://www.hardlyeverything.com/)
+- [article.app/posts](https://article.app/posts)
 
 
 ## People / Blogs / Projects
@@ -31,6 +33,7 @@ I will organize these better later.
 - [stillness.digital](https://stillness.digital/)
 
 ## Articles
+- [The internet can be good](https://www.todepond.com/sky/the-internet-can-be-good/)
 - [Pain we forgot](https://www.scattered-thoughts.net/writing/pain-we-forgot/)
 - [Ads Don't Work That Way](https://meltingasphalt.com/ads-dont-work-that-way/)
 - [Tearing down the Rewind app](https://kevinchen.co/blog/rewind-ai-app-teardown/)
