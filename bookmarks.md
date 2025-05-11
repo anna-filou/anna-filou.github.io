@@ -29,7 +29,7 @@ I will organize these better later.
 - [efy - customizable, modular CSS / JS framework](https://github.com/dragos-efy/efy)
 - [lindylearn.io](https://lindylearn.io/)
 - [alexandersandberg.com](https://alexandersandberg.com/)
-- [hency.codes](https://henry.codes/)
+- [henry.codes](https://henry.codes/)
 - [adamsilver.io](https://adamsilver.io/)
 - [stillness.digital](https://stillness.digital/)
 
