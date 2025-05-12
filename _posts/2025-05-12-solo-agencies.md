@@ -14,7 +14,7 @@ Lately I’ve been seeing more and more solo designers offering design “subscr
 
 And the model makes sense! Especially for early-stage startups who need ongoing design support but might not want to hire someone full-time for a variety of reasons—including not knowing whether the business will still be around five months down the line. (Which probably explains why this setup is more common in the US, from my limited perspective, where startups come and go by the minute.)
 
-## What rubs me the wrong way is the marketing
+## The marketing rubs me the wrong way
 A lot of these are solo designers calling themselves an “agency.” Now, sometimes a single freelancer has a network of collaborators they bring in as needed. That’s a bit of a gray area, and in that case “studio” or “agency” might make sense.
 
 But that’s not what I’m referring to here. I’m talking about people who proudly say, “When you work with Studio XYZ, you work only with me. No other collaborators.” So far, still fine!
