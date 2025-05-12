@@ -5,13 +5,13 @@ lang: en
 subtitle: | 
     A curated collection of links to other webs pages.
 
-    Why? I enjoy this sort of page on other people’s websites because it helps me discover more cool people, articles and projects. After reading [Why linking matters](https://thoughts.melonking.net/thoughts/every-site-needs-a-links-page-why-linking-matters), I couldn’t ignore the itch any longer.
+    I enjoy this sort of page on other people’s websites because it helps me discover more cool people, articles and projects. After reading [Why linking matters](https://thoughts.melonking.net/thoughts/every-site-needs-a-links-page-why-linking-matters), I couldn’t ignore the itch any longer.
 
     <a href="https://bukmark.club/"><img src="https://bukmark.club/img/button_url.png" alt="URL button"></a>
     
 ---
 
-I will organize these better later.
+I will organize these better later. For now, enjoy the randomness!
 
 - [blogroll.org](https://blogroll.org/)
 - [pudding.cool](https://pudding.cool/) — visual essays
@@ -42,7 +42,7 @@ I will organize these better later.
 - [RECONSIDER](https://signalvnoise.com/posts/3972-reconsider)
 - [Why Not Mars](https://idlewords.com/2023/1/why_not_mars.htm)
 - [Live closer to your friends](https://www.theatlantic.com/family/archive/2023/03/neighbors-friendship-happiness/673352/)
-- [Bushido: Way of Total Bullshit](https://www.tofugu.com/japan/bushido/))
+- [Bushido: Way of Total Bullshit](https://www.tofugu.com/japan/bushido/)
 - [Net Promoter Score Considered Harmful](https://articles.centercentre.com/net-promoter-score-considered-harmful-and-what-ux-professionals-can-do-about-it/)
 - [The First Things First Manifesto](http://www.designishistory.com/1960/first-things-first/)
 - [I Don’t Care What Google or Apple or Whoever Did](https://adrianroselli.com/2020/03/i-dont-care-what-google-or-apple-or-whomever-did.html)
