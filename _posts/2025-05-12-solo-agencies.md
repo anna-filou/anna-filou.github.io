@@ -22,39 +22,33 @@ But that’s not what I’m referring to here. I’m talking about people who pr
 What’s **not** fine, in my opinion, is writing—on the same landing page—something like: 
 > “Ditch unreliable freelancers today and work with Studio XYZ instead!”
 
-But… **you** are freelancer too! 😅 You’re just hoping prospective clients won’t notice. Sure, it’s technically stated that they’ll be working with *you*, not a team—but if clarity is the goal, why frame it as an agency in the first place?
+But… **you** are freelancer too! 😅 You’re just hoping prospective clients won’t notice. Sure, it’s technically stated that they’ll be working with you alone, but then why present yourself as an agency in the first place?
 
-That’s what bugs me. Not the model itself, but the almost-dishonest positioning.
+That’s what bugs me. Not the model itself, but the almost dishonest positioning.
 
 ## Design = task delivery?
 
-Then there’s the way the service is often structured:
+Then there’s the way the service is often structured: You pay → You get a Trello board → You add cards → You get “deliverables”
 
-You pay → You get a Trello board → You add cards → You get “deliverables”
+Simple. Transactional. Trello becomes a prompting box and the designer becomes ChatGPT.
 
-Simple. Transactional. Design becomes a to-do list. The designer becomes comparable to ChatGPT.
+Maybe there’s more going on behind the scenes though. Maybe the designers hop on calls, ask thoughtful questions, and push back when needed, and Trello is simply their project management tool of choice! But that’s not the idea you get from the landing pages. They pitch the service as a UI vending machine, so I’m inclined to believe that’s what it is.
 
-Now, maybe behind the scenes there’s more going on. Maybe these designers hop on calls, ask thoughtful questions, and push back when needed! But the landing pages don’t reflect that. They pitch the service as a UI vending machine, so I’m inclined to believe that’s what it is.
-
-That messaging shapes expectations; not just of the given clients, but of the entire industry. It reinforces the idea that the value of design lies in how many mockups you can produce, and how quickly.
+That messaging shapes expectations; not just those of the given clients, but of the entire industry. It reinforces the idea that the value of design lies in how many mockups you can produce, and how quickly.
 
 ## Full-timer vs “me”
 
 Another pattern I’ve noticed: almost every one of these sites has an FAQ section that starts with:
-**“Why not hire a full-time designer instead?”**
+**“Why not hire a full-time designer instead?”** And the answer is always some variation of:
+**“Because a full-time hire costs $100K+/year, and I only cost $5K/month.”**
 
-And the answer is always some variation of:
-**“Because a full-time hire costs \$100K+, and I only cost $5K/month.”**
+Which might sound like a deal for a sec; until you remember that $5K month is $60K/year—for part-time availability. Not such a dramatic difference.
 
-Which sounds like a deal, until you remember that $5K month is $60K/year. For part-time availability. Not such a dramatic difference.
-
-Of course, not everyone **needs** a full-time designer! In many cases, working with a freelancer or a small studio makes more sense. But if your selling point is “I’m the same but cheaper”—and that isn’t even accurate—I don’t think you’re doing anyone a service.
+Of course, not everyone needs a full-time designer! In many cases, working with a freelancer or a small studio makes more sense. But if your selling point is “I’m the same but cheaper” (and that isn’t even entirely accurate) I don’t think you’re doing anyone a service.
 
 ## Clarifications
 
-To be clear: I **love** the idea of making good design more accessible. Even now, with endless templates and design tools available, thoughtful design is still rare. (What do I mean by “good design”? Maybe a topic for another post—but happy to chat if you wanna discuss it.)
-
-And sometimes, a client simply needs some mockups, shipped fast. Maybe to show them around and validate an early idea, or ato put a fresh coat of paint on a legacy app that they don’t have the resources to fully remake just yet. And that’s totally fine! But these subscription services are often presented as the **ideal** setup for every company, and that’s misleading.
+To be clear: I **love** the idea of making good design more accessible, and retainer models are great. Also, sometimes a client simply needs some mockups, shipped fast. Maybe to show them around and validate an early idea; perhaps to put a fresh coat of paint onto a legacy app that they don’t have the resources to fully remake just yet. And that’s totally fine! But these subscription services are often presented as the **ideal** setup for every company, and that’s just misleading.
 
 Basically: you wanna sell design subscriptions? Totally fair and welcome! Just don’t be sleazy about it and be mindful of what expectations you’re creating.
 
@@ -63,7 +57,7 @@ Basically: you wanna sell design subscriptions? Totally fair and welcome! Just d
 **Curious to hear from you:**
 
 * Have you worked with a one-person design subscription “agency”?
-* Do you offer this kind of service yourself? Am I getting the premise wrong?
+* Do you offer this kind of service yourself? Am I getting it wrong?
 * What’s your take—good, harmful, or something in between?
 
 You know where to find my email ^-^
