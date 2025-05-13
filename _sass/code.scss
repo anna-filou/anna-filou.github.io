@@ -2,7 +2,7 @@
     overflow-wrap: break-word;
   }
 
-article figure, div.highlight, .language-plaintext {
+div.highlight, .language-plaintext {
   border: 2px solid #31578c;
   border-radius: 8px;
 }
@@ -11,7 +11,7 @@ article figure, div.highlight, .language-plaintext {
   padding: 0.2em .4em;
 }
 
-article figure, div.highlight {
+div.highlight {
   padding: 0 1.5em;
 }
 

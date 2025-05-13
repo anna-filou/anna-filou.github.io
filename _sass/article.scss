@@ -51,6 +51,26 @@ blockquote p {
   padding: 1em 0;
 }
 
+figure {
+  margin: 1em 0;
+  padding: 12px;
+  border-radius: 20px;
+  border: 2px solid #31578c;
+  font-size: 0.8em;
+
+  & figcaption {
+    width: 100%;
+    margin: 8px 0 4px;
+  }
+
+  & img {
+    margin: 0;
+    border-radius: 8px;
+  }
+
+}
+
+
 .hyphens {
   -webkit-hyphens: auto;
   -ms-hyphens: auto;
@@ -112,7 +132,7 @@ code {
     left: -0.8em;
   }
 
-  article figure, div.highlight {
+  div.highlight {
     padding: 10px 20px;
     border-radius: 6px;
     margin: 2em 0;
