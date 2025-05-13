@@ -27,7 +27,7 @@ article h6 {
   margin-right: auto;
 }
 
-article img, article p img {
+article p img {
   display: block;
   margin: 1.5em auto;
   border: 2px solid #874eb94d;
@@ -66,6 +66,7 @@ figure {
   & img {
     margin: 0;
     border-radius: 8px;
+    width: auto;
   }
 
 }
@@ -115,7 +116,7 @@ code {
 /* SMALL SCREEN */
 @media (max-width: $media-small) {
 
-  article img, article video {
+  article p img, article video {
     min-width: 100vw;
     position: relative;
     left: -$padding;
@@ -133,6 +134,7 @@ code {
   }
 
   div.highlight {
+    font-size: .9rem;
     padding: 10px 20px;
     border-radius: 6px;
     margin: 2em 0;
