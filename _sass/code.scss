@@ -5,21 +5,25 @@
 div.highlight, .language-plaintext {
   border: 2px solid #31578c;
   border-radius: 8px;
-}
-
-.language-plaintext {
-  padding: 0.2em .4em;
+  background-color: #00144a;
 }
 
 div.highlight {
   padding: 0 1.5em;
 }
 
-.language-plaintext, .highlight {
-  background-color: #00144a;
-  color: #f8f8f2;
+.language-plaintext {
+  padding: 0.2em .4em;
+ 
 }
-  
+
+@media (prefers-color-scheme: light) {
+  .language-plaintext {
+    border: 1.5px solid rgb(212, 212, 212) ;
+    background-color: rgb(238, 238, 238);
+  }
+}
+
 .highlight .hll { background-color: #00144a }
 // .highlight { background: #00144a; color: #f8f8f2 }
 .highlight .c { color: #4e73ab } /* Comment */
