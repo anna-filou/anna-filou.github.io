@@ -74,6 +74,37 @@
 #   - name: App design
 #     color: blue
 - title:
+    en: Loukataris Transfers
+    el: 
+  desc:
+    en: "Playful transfer booking website for local business in Sifnos."
+    el: ""
+  link:
+    title: Live ↗
+    url: https://transfersifnos.gr/
+  img: "/assets/transfersifnos.gif"
+  year: 2025
+  tags:
+    - name: Client work
+      color: green
+    - name: Web design & development
+      color: blue
+- title:
+    en: CID Website & Logo
+  desc:
+    en: "Corporate website and identity for wastewater treatment consulting company. Made with custom code &&nbsp;Jekyll."
+    el: ""
+  link:
+    title: Live ↗
+    url: https://cid-studies.com/
+  img: "/assets/work-grid/cid-website.webp"
+  year: 2024
+  tags:
+  - name: Client work
+    color: green
+  - name: Web design & development
+    color: blue
+- title:
     en: Calorie Grid
     el: 
   desc:
@@ -106,21 +137,6 @@
   - name: Just for&nbsp;fun
     color: yellow
   - name: App design
-    color: blue
-- title:
-    en: CID Website & Logo
-  desc:
-    en: "Corporate website and identity for wastewater treatment consulting company. Made with custom code &&nbsp;Jekyll."
-    el: ""
-  link:
-    title: Live ↗
-    url: https://cid-studies.com/
-  img: "/assets/work-grid/cid-website.webp"
-  year: 2024
-  tags:
-  - name: Client work
-    color: green
-  - name: Web design & development
     color: blue
 - title:
     en: Concept for Planner App
