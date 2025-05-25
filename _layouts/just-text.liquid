@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="{{page.lang}}">
+<head>
+    {% include head.html %}
+    <link rel="stylesheet" href="/assets/css/loading.css">
+    <noscript>
+        <style>
+            #loading { display: none; }
+        </style>
+    </noscript>
+</head>
+<body class="bt bw2 border-rainbow min-vh-100">
+
+    <div class="progress"></div>
+
+    <article class="mt4 mt6-ns overflow-hidden">
+      <div class="mb5">
+        <h1 class="">{{ page.title }}</h1>
+        <p class="secondary tracked ttu f6">
+          <span class="ml1 tertiary">{{ content | number_of_words }} words •
+          </span>
+          {% include read_time.html %} to read
+        </p>
+      </div>
+
+      <main>
+        {{ content }}
+      </main>
+    </article>
+
+    <script src="/assets/js/progress.js"></script>
+
+    <script src="//instant.page/5.2.0" type="module" integrity="sha384-jnZyxPjiipYXnSU0ygqeac2q7CVYMbh84q0uHVRRxEtvFPiQYbXWUorga2aqZJ0z"></script>
+</body>
+</html>
