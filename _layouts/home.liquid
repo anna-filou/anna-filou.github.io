@@ -174,7 +174,7 @@ layout: default
         </div>
       </div>
       <div class="overflow-hidden pv4">
-        <div class="carousel" style="--no-of-slides: {% assign images = site.data.work-grid | map: 'img' %}{{ images | size }}; --slide-width: 270px; --slide-width-small: 300px; --iteration-time: 30s;">
+        <div class="carousel" style="--no-of-slides: {% assign images = site.data.work-grid | map: 'img' | where_exp: 'img', 'img contains ".jpg" or img contains ".jpeg" or img contains ".png" or img contains ".webp"' | limit:5 %}{{ images | size }}; --slide-width: 270px; --slide-width-small: 300px; --iteration-time: 30s;">
           <div class="carousel__wrapper">
             {% for image in images %}
               <div class="carousel__slide">

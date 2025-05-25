@@ -82,7 +82,7 @@
   link:
     title: Live ↗
     url: https://transfersifnos.gr/
-  img: "/assets/transfersifnos.gif"
+  img: "/assets/work-grid/transfersifnos.gif"
   year: 2025
   tags:
     - name: Client work
@@ -98,6 +98,21 @@
     title: Live ↗
     url: https://cid-studies.com/
   img: "/assets/work-grid/cid-website.webp"
+  year: 2024
+  tags:
+  - name: Client work
+    color: green
+  - name: Web design & development
+    color: blue
+- title:
+    en: Q-Pass.gr
+  desc:
+    en: "Corporate website and identity for wastewater treatment consulting company. Made with custom code &&nbsp;Jekyll."
+    el: ""
+  link:
+    title: Live ↗
+    url: https://q-pass.gr/
+  img: "/assets/work-grid/q-pass-website.gif"
   year: 2024
   tags:
   - name: Client work
@@ -152,26 +167,6 @@
   - name: App design
     color: blue
 - title:
-    en: DYNAMIKI - Beverage Distribution Network
-    el: ΔΥΝΑΜΙΚΗ - Δικτυο διανομης ποτων
-  desc:
-    en: Design for Dynamiki’s website. Part of my work
-      at The&nbsp;Smiling&nbsp;Hippo.
-    el: Design για το [site της Δυναμικής](https://www.dynamiki-sa.gr/). Μέρος της
-      δουλιάς μου στην [TSH](https://www.thesmilinghippo.com/gr/en/projects/dynamic-sa/)
-  link:
-    title: Live ↗
-    url: https://www.dynamiki-sa.gr/
-  img: "/assets/work-grid/dynamiki-maneken-31DE058.jpg"
-  year: 2021
-  tags:
-  - name: Web design
-    color: blue
-  - name: Agency work
-    color: green
-  - name: TSH
-    color: blue
-- title:
     en: Theeta.nl
     el: Theeta
   desc:
@@ -202,6 +197,26 @@
   - name: Client work
     color: green
   - name: Web design & development
+    color: blue
+- title:
+    en: DYNAMIKI - Beverage Distribution Network
+    el: ΔΥΝΑΜΙΚΗ - Δικτυο διανομης ποτων
+  desc:
+    en: Design for Dynamiki’s website. Part of my work
+      at The&nbsp;Smiling&nbsp;Hippo.
+    el: Design για το [site της Δυναμικής](https://www.dynamiki-sa.gr/). Μέρος της
+      δουλιάς μου στην [TSH](https://www.thesmilinghippo.com/gr/en/projects/dynamic-sa/)
+  link:
+    title: Live ↗
+    url: https://www.dynamiki-sa.gr/
+  img: "/assets/work-grid/dynamiki-maneken-31DE058.jpg"
+  year: 2021
+  tags:
+  - name: Web design
+    color: blue
+  - name: Agency work
+    color: green
+  - name: TSH
     color: blue
 - title:
     en: Monster Energy Homepage Concept
