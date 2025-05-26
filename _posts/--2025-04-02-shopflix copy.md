@@ -1,0 +1,78 @@
+---
+title: 'Shaping a growing e-commerce platform'
+date: 2025-04-02T00:00:00.000+00:00
+categories:
+- en
+tags:
+- case study
+layout: case-study
+main-image: 
+lang: en
+type: UI, UX, Product
+banner: "/assets/shopflix/shopflix-case-hero.webp"
+banner-mobile: "/assets/shopflix/shopflix-case-hero-mobile.webp"
+intro: 'I’ve been the sole in-house UI / Product Designer at SHOPFLIX.gr since 2023'
+sections:
+- title:  Note
+  text: | 
+    > Due to my NDA, visuals are blurred and some details omitted. Visit [shopflix.gr](https://shopflix.gr/) for visuals.
+
+- title: Context
+  text: | 
+    When I joined Shopflix, a Greek e-commerce marketplace, the company had just wrapped up a full visual redesign. I was brought in to extend the existing work—but it quickly became clear that while the visuals had changed, the experience hadn’t. Accessibility issues, inconsistent patterns, and broken user flows were everywhere.
+
+    I began **identifying problems and proposing solutions**. Over time, my responsibilities grew, and my role evolved from UI to **Product Designer**.
+- title: Impact
+  text: | 
+    - Helped shift the product focus from aesthetics to **clarity, usability, and long-term maintainability**
+    - Built a design foundation that **reduces handoff friction** and allows us to move faster—aligned with dev workflows and priorities
+  image-1: "/assets/shopflix/shopflix-3.webp"
+  image-2: "/assets/shopflix/shopflix-4.mp4"
+- title:  
+  text: | 
+    ---
+    # Highlights
+- title: Dev Collaboration
+  text: | 
+    - Created and maintain an evolving **component library** in Figma that matches development architecture as closely as possible—creating a shared language between design and engineering teams
+    - Established a **Figma file structure** that separates ongoing explorations from implementation-ready designs:
+      - System file — components and styles
+      - Design file — experimental or in-progress work
+      - Development file — only implementation-ready designs (I manually pull updates from the System file to ensure that a change in a component doesn’t result in accidental changes elsewhere)
+    - Built page templates in Figma as **multi-variant components** to ensure consistency across all flows and prevent the implementation of outdated designs
+    - Made comprehensive banner **guidelines** with contextual previews that reduce back-and-forths with the marketing team
+    - **Documented complex flows** visually using component variants (e.g., a return logic matrix) that now serve as the source of truth across departments
+  image-1: "/assets/shopflix/shopflix-1.webp"
+- title: Human-Centered Approach to UX
+  text: | 
+    - Advocated for the implementation of tools to observe visitor behavior → now using the insights to **identify pain points** and help **validate or disprove assumptions**
+    - Prioritized **addressing core frustrations** over feature additions, focusing on the most meaningful improvements
+    - Conducted small-scale **guerrilla usability testing** to identify friction points in critical user journeys
+    - Consistently **challenge assumptions**, refusing to underestimate users’ capabilities while ensuring interfaces remain intuitive
+  image-1: "/assets/shopflix/shopflix-5.webp"
+  image-2: "/assets/shopflix/shopflix-6.webp"
+# - title: Redesigning the Order History
+#   text: | 
+#     Shopflix breaks every order into sub-orders—one per store and each one is delivered separately by our courier. But the UI didn’t make that clear. It only showed the first item of each sub-order, making a 3-store, 9-item order look like a single 3-item order. Even as someone working on the product, I found it confusing.
+
+#     I redesigned the experience to show:
+
+#     - The parent order as a labeled wrapper
+#     - Each sub-order displayed in full, with all item names clearly visible
+#     - On mobile, items are shown as scrollable thumbnails instead of rows, saving space without sacrificing clarity
+
+#     The redesign is not yet implemented, but it’s already shifted how the team thinks about communicating order structure.
+#   image-1: "https://placehold.co/800x800"
+#   image-2: "https://placehold.co/800x800"
+- title: 'Internal Tools'
+  text: | 
+    I’ve designed **internal tools** from the ground up and improved existing ones—introducing thoughtful **UX enhancements** like contextual help, clearer layouts, and more streamlined workflows that reduce cognitive load for internal teams.
+- title: 'Bonus: A Personal Touch'
+  text: | 
+    I couldn’t find any size guide illustrations that met my standards—so I drew them by hand. (Shown: personal drafts.)
+  image-1: "/assets/shopflix/shopflix-7.webp"
+  image-2: "/assets/shopflix/shopflix-8.webp"
+# - title: Final words
+#   text: | 
+#     Throughout my work, I've established myself as a partner rather than just an executor. I approach design challenges with both analytical rigor and creative exploration. 
+---
