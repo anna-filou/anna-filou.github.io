@@ -52,10 +52,13 @@ blockquote p {
 }
 
 figure {
+  border: 2px solid #31578c61;
+}
+
+figure {
   margin: 1em 0;
   padding: 12px;
   border-radius: 20px;
-  border: 2px solid #31578c;
   font-size: 0.8em;
 
   & figcaption {
@@ -133,11 +136,4 @@ code {
     left: -0.8em;
   }
 
-  div.highlight {
-    font-size: .9rem;
-    padding: 10px 20px;
-    border-radius: 6px;
-    margin: 2em 0;
-    border: 2px solid rgb(99, 99, 99);
-  }
 }

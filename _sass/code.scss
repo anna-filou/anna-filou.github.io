@@ -1,12 +1,25 @@
+$media-small: 620px;
+$padding: 24px;
+$max-width: 800px;
+
+
 .code, code {
     overflow-wrap: break-word;
   }
 
 div.highlight, .language-plaintext {
-  border: 2px solid #31578c;
   border-radius: 8px;
-  background-color: #00144a;
 }
+
+@media (max-width: $media-small) {
+  div.highlight {
+    font-size: .9rem;
+    padding: 10px 20px;
+    border-radius: 6px;
+    margin: 2em 0;
+  }
+}
+
 
 div.highlight {
   padding: 0 1.5em;
@@ -17,10 +30,22 @@ div.highlight {
  
 }
 
+div.highlight, .language-plaintext {
+  border: 1.5px solid rgb(212, 212, 212) ;
+  background-color: rgb(238, 238, 238);
+}
+
 @media (prefers-color-scheme: light) {
-  .language-plaintext {
+  div.highlight, .language-plaintext {
     border: 1.5px solid rgb(212, 212, 212) ;
     background-color: rgb(238, 238, 238);
+  }
+}
+
+@media (prefers-color-scheme: dark) {
+  div.highlight, .language-plaintext {
+    border: 2px solid #1a3b68;
+    background-color: #00144a;
   }
 }
 
