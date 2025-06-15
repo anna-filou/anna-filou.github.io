@@ -13,6 +13,7 @@ subtitle: |
 
 I will organize these better later. For now, enjoy the randomness!
 
+- [In 2020 and beyond, the battle to save personhood and democracy requires a radical overhaul of mainstream technology](https://ar.al/2020/01/01/in-2020-and-beyond-the-battle-to-save-personhood-and-democracy-requires-a-radical-overhaul-of-mainstream-technology/) — I found the video at the end of the article, where the author speaks at the European Parliament , particularly impactful
 - [blogroll.org](https://blogroll.org/)
 - [pudding.cool](https://pudding.cool/) — visual essays
 - [tinloof.com/blog](https://tinloof.com/blog)
