@@ -5,6 +5,6 @@ Live: https://annafilou.com/
 - SSG: Jekyll
 - CSS: Custom, Tachyons CSS
 - Hosting: Netlify
-- CMS: Forestry.io
+- CMS: None yet
 
 Constant work in progress.
