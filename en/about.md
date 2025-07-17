@@ -8,7 +8,9 @@ sidebar: |
 ---
 ### Who are you?
 
-I'm Anna, a digital native designer and technophile [who draws](/{{page.lang}}/art).
+I’m Anna, a naturally curious designer and developer who learned to type before I learned to write. 
+
+I’m addicted to learning, have high standards, but know how and when to settle for good enough (done is better than perfect).
 
 <div class="ba bw1 b--faint br4 overflow-hidden mv4">
 <a href="/{{page.lang}}/manual" class="no-underline">
