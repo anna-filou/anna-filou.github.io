@@ -4,6 +4,13 @@ layout: reading
 lang: en
 ref: ''
 books:
+- title: Unwritten Rules of Social Relationships
+  cover: "/assets/books/unwritten-rules.webp"
+  author: Temple Grandin & Sean Barron 
+  read: 'now'
+  pages: 425
+  my-notes:   |-
+
 - title: "Animal Farm: The Graphic Novel"
   cover: "/assets/books/animal-farm-graphic-novel.webp"
   author: George Orwell, adapted by Odyr
