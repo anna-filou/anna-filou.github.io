@@ -6,15 +6,17 @@ lang: en
 ref: uses
 ---
 
-<div class="container-ns relative flex flex-column flex-row-ns mt6-ns">
-    <div class="pa2 pa0-ns w-100 w-30-ns mv3 mt0-ns sticky pr5-ns">
-        <h1 class="ph3 ph0-ns mb1">{{ page.title }}</h1>
-        <div class="w-100 fl f5 lh-title ph3 ph0-ns secondary mb1">
-            {{site.data.tools.intro[page.lang] | markdownify}}
+<div class="container-ns relative flex flex-column flex-row-ns">
+    <div class="w-100 w-30-ns pr5-ns">
+        <div class="pv4 pt6-ns sticky-ns">
+            <h1 class="ph3 ph0-ns mb1">{{ page.title }}</h1>
+            <div class="w-100 fl f5 lh-title ph3 ph0-ns secondary mb1">
+                {{site.data.tools.intro[page.lang] | markdownify}}
+            </div>
         </div>
     </div>
 
-    <div class="w-70-ns">
+    <div class="w-70-ns mt6-ns">
         <div>
         {% for tool in site.data.tools.tools %}
             <a target="_blank" href="{{tool.url}}" class="link hover-bg-faint fw4 flex flex-column flex-row-ns pa3 ma2 ml0-ns br3 mt2 mb4" href="#0">

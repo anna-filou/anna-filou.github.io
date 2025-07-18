@@ -2,7 +2,7 @@
     en: Loukataris Transfers
     el: 
   desc:
-    en: "Playful transfer booking website for local business in Sifnos."
+    en: "Playful transfer booking website for a local business in Sifnos."
     el: ""
   link:
     title: Live ↗
@@ -61,22 +61,6 @@
   - name: Web design & development
     color: blue
 - title:
-    en: Theeta.nl
-    el: Theeta
-  desc:
-    en: "Trilingual corporate website. Made with custom code &&nbsp;Jekyll."
-    el: 
-  link:
-    title: Live ↗
-    url: https://theeta.nl/
-  img: "/assets/work-grid/theeta-735shots_so.png"
-  year: 2022
-  tags:
-  - name: Client work
-    color: green
-  - name: Web design & development
-    color: blue
-- title:
     en: Backyard — Cozy Hair Salon
     el: 
   desc:
@@ -86,6 +70,22 @@
     title: Live ↗
     url: https://backyard.hair/en/
   img: "/assets/work-grid/backyard-dribbble.jpg"
+  year: 2022
+  tags:
+  - name: Client work
+    color: green
+  - name: Web design & development
+    color: blue
+- title:
+    en: Theeta.nl
+    el: Theeta
+  desc:
+    en: "Trilingual corporate website. Made with custom code &&nbsp;Jekyll."
+    el: 
+  link:
+    title: Live ↗
+    url: https://theeta.nl/
+  img: "/assets/work-grid/theeta-735shots_so.png"
   year: 2022
   tags:
   - name: Client work
