@@ -125,83 +125,87 @@ layout: default
     {% endfor %}
   </div>
   
-
 </section>
 
-
- 
-
-{% comment %}
-  <div class="container mt5">
-  <a href="/{{page.lang}}/snippets" class="link">
-
-    <div class="db br4 bg-faint flex flex-column flex-row-ns items-center-ns overflow-hidden grow-small">
-      <div class="flex">
-        {% for work in site.data.work-grid limit:2 %}
-          <div style="min-width: 12rem;" class="w-50 br4 overflow-hidden">
-            <div class="db aspect-ratio aspect-ratio--4x3">
-            <span
-              role="img"
-              aria-label=""
-              style="background-image:url({{work.img}});"
-              class="bg-center cover aspect-ratio--object br2">
-            </span>
-          </div>
-          </div>
-        {% endfor %}
-      </div>
-  
-      <div class="pa3 pl4-ns flex flex-column flex-shrink-1"> 
-        <h2 class="ttu mt0 mb2">Snippets →</h2>
-        <div class="measure fw4 secondary">
-          Quick looks into other projects — for clients or&nbsp;for&nbsp;fun.
-        </div>
-      </div>
-    </div>
-
-  </a>
-</div> 
-{% endcomment %}
-
-
+{% comment %} More works {% endcomment %}
 <section class="container mt5">
-  <a href="/{{page.lang}}/snippets" class="link">
-    <div class="db br4 bg-faint flex flex-column overflow-hidden grow-small">
-      <div class="pa3 pa4-ns flex flex-column flex-shrink-1 bb bw1 b--faint"> 
-        <h2 class="ttu mt0 mb2">See more works →</h2>
-        <div class="fw4 secondary">
-          Quick looks into more of my projects — some for clients, some&nbsp;for&nbsp;fun.
+  <div class="flex flex-column flex-row-ns gap5">
+    <a href="/{{page.lang}}/websites" class="link flex-auto w-100">
+      <div class="db br4 bg-faint flex flex-column overflow-hidden grow-small">
+        <div class="pa3 pa4-ns flex flex-column flex-shrink-1 bb bw1 b--faint"> 
+          <h2 class="ttu mt0 mb2">Websites →</h2>
+          <div class="fw4 secondary">
+            Some of my favorite websites that I’ve designed and coded for&nbsp;clients.
+          </div>
         </div>
-      </div>
-      <div class="overflow-hidden pv4">
-        <div class="carousel" style="--no-of-slides: {% assign images = site.data.work-grid | map: 'img' | where_exp: 'img', 'img contains ".jpg" or img contains ".jpeg" or img contains ".png" or img contains ".webp"' | limit:5 %}{{ images | size }}; --slide-width: 270px; --slide-width-small: 300px; --iteration-time: 30s;">
-          <div class="carousel__wrapper">
-            {% for image in images %}
-              <div class="carousel__slide">
-                <div class="carousel__image-wrapper">
-                  <img src="{{ image }}" class="br4" alt="" width="200" height="200">
+        <div class="overflow-hidden pv4">
+          <div class="carousel" style="--no-of-slides: {% assign images = site.data.websites | map: 'img' | where_exp: 'img', 'img contains ".jpg" or img contains ".jpeg" or img contains ".png" or img contains ".webp"' | slice: 0, 3 %}{{ images | size }}; --slide-width: 270px; --slide-width-small: 300px; --iteration-time: 20s;">
+            <div class="carousel__wrapper">
+              {% for image in images %}
+                <div class="carousel__slide">
+                  <div class="carousel__image-wrapper">
+                    <img src="{{ image }}" class="br4" alt="" width="200" height="200">
+                  </div>
                 </div>
-              </div>
-            {% endfor %}
-            {% for image in images %}
-              <div class="carousel__slide">
-                <div class="carousel__image-wrapper">
-                  <img src="{{ image }}" class="br4" alt="" width="200" height="200">
+              {% endfor %}
+              {% for image in images %}
+                <div class="carousel__slide">
+                  <div class="carousel__image-wrapper">
+                    <img src="{{ image }}" class="br4" alt="" width="200" height="200">
+                  </div>
                 </div>
-              </div>
-            {% endfor %}
-            {% for image in images %}
-              <div class="carousel__slide">
-                <div class="carousel__image-wrapper">
-                  <img src="{{ image }}" class="br4" alt="" width="200" height="200">
+              {% endfor %}
+              {% for image in images %}
+                <div class="carousel__slide">
+                  <div class="carousel__image-wrapper">
+                    <img src="{{ image }}" class="br4" alt="" width="200" height="200">
+                  </div>
                 </div>
-              </div>
-            {% endfor %}
+              {% endfor %}
+            </div>
           </div>
         </div>
       </div>
-    </div>
-  </a>
+    </a>
+
+    <a href="/{{page.lang}}/experiments" class="link flex-auto w-100">
+      <div class="db br4 bg-faint flex flex-column overflow-hidden grow-small">
+        <div class="pa3 pa4-ns flex flex-column flex-shrink-1 bb bw1 b--faint"> 
+          <h2 class="ttu mt0 mb2">Experiments →</h2>
+          <div class="fw4 secondary">
+            Personal projects or concepts, as well as client work outside the&nbsp;usual.
+          </div>
+        </div>
+        <div class="overflow-hidden pv4">
+          <div class="carousel" style="--no-of-slides: {% assign images = site.data.experiments | where_exp: "item", 'item.img contains ".jpg" or item.img contains ".jpeg" or item.img contains ".png" or item.img contains ".webp"' | map: 'img' | slice: 0, 3 %}{{ images | size }}; --slide-width: 270px; --slide-width-small: 300px; --iteration-time: 20s;">
+            <div class="carousel__wrapper">
+              {% for image in images %}
+                <div class="carousel__slide">
+                  <div class="carousel__image-wrapper">
+                    <img src="{{ image }}" class="br4" alt="" width="200" height="200">
+                  </div>
+                </div>
+              {% endfor %}
+              {% for image in images %}
+                <div class="carousel__slide">
+                  <div class="carousel__image-wrapper">
+                    <img src="{{ image }}" class="br4" alt="" width="200" height="200">
+                  </div>
+                </div>
+              {% endfor %}
+              {% for image in images %}
+                <div class="carousel__slide">
+                  <div class="carousel__image-wrapper">
+                    <img src="{{ image }}" class="br4" alt="" width="200" height="200">
+                  </div>
+                </div>
+              {% endfor %}
+            </div>
+          </div>
+        </div>
+      </div>
+    </a>
+  </div>
 </section>  
 
 {% include more.html %}

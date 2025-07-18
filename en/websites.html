@@ -1,15 +1,15 @@
 ---
-title: Work Snippets
+title: Websites
 layout: default
 lang: en
-ref: snippets
+ref: websites
 ---
 
 		<div class="progress"></div>
 
 		<div class="container mt5 mt6-ns flex flex-column items-start">
 			<h1 class="ttu mb3 mt0">{{page.title}}</h2> 
-				<a href="/{{page.lang}}/#work" class="f5 br3 ph3 pv2 dib ba bw1 b--faint bg-faint nowrap link">← Main projects</a>
+				<a href="/{{page.lang}}/#work" class="f5 br3 ph3 pv2 dib ba bw1 b--faint bg-faint nowrap link">← Back</a>
 
 		</div>
 		
@@ -21,7 +21,7 @@ ref: snippets
 		
 
 		<section class="container-lg-ns pa3 work-grid pt4 pt5-ns">
-			{% for grid-item in site.data.work-grid %}
+			{% for grid-item in site.data.websites %}
 		  
 			  {% if grid-item.link.url %}
 				<a

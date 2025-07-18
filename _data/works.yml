@@ -28,27 +28,27 @@
     url: https://www.airboxr.com/interactive-demo
   img: /assets/work-new/airboxr.webp
   year: 
-- title: The Newsroom
-  skills: UX Design Refresh
-  case_study:
-    title: Case&nbsp;study&nbsp;→
-    url: /en/newsroom
-  live_site:
-    title: App&nbsp;Store&nbsp;↗
-    url: https://apps.apple.com/us/app/the-newsroom/id1613913905
-  img: /assets/work-new/newsroom.webp
-  year: 
-- title: Calorie Grid
-  skills: Concept • Design • Dev
-  # case_study:
-  #   title: Details&nbsp;→
-  #   url: /en/calorie-grid
-  live_site:
-    title: Live&nbsp;↗
-    url: https://calorie-grid.netlify.app/
-  img: /assets/work-new/calorie-grid.webp
-  year: 
-- title: Note-Taking App
-  skills: Concept • Design
-  img: /assets/work-new/monad.webp
-  year: 
+# - title: The Newsroom
+#   skills: UX Design Refresh
+#   case_study:
+#     title: Case&nbsp;study&nbsp;→
+#     url: /en/newsroom
+#   live_site:
+#     title: App&nbsp;Store&nbsp;↗
+#     url: https://apps.apple.com/us/app/the-newsroom/id1613913905
+#   img: /assets/work-new/newsroom.webp
+#   year: 
+# - title: Calorie Grid
+#   skills: Concept • Design • Dev
+#   # case_study:
+#   #   title: Details&nbsp;→
+#   #   url: /en/calorie-grid
+#   live_site:
+#     title: Live&nbsp;↗
+#     url: https://calorie-grid.netlify.app/
+#   img: /assets/work-new/calorie-grid.webp
+#   year: 
+# - title: Note-Taking App
+#   skills: Concept • Design
+#   img: /assets/work-new/monad.webp
+#   year: 
