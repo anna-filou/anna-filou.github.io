@@ -9,8 +9,7 @@ books:
   author: Temple Grandin & Sean Barron 
   read: 'now'
   pages: 425
-  my-notes:   |-
-
+  my-notes:
 - title: "Animal Farm: The Graphic Novel"
   cover: "/assets/books/animal-farm-graphic-novel.webp"
   author: George Orwell, adapted by Odyr

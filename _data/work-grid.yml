@@ -1,78 +1,3 @@
-# - title:
-#     en: UI Design at SHOPFLIX.gr
-#     el: 
-#   desc:
-#     en: "Iteratively creating a Design System for a living online marketplace."
-#     el: 
-#   link:
-#     title: Live ↗
-#     url: https://shopflix.gr/
-#   img: "/assets/work-grid/figma-shopflix-ds.png"
-#   year: 2024
-#   tags:
-#   - name: In-House
-#     color: green
-# - title:
-#     en: LGBTmyths.com
-#     el: 
-#   desc:
-#     en: "Debunking misconceptions. Made for easy sharing."
-#     el: 
-#   link:
-#     title: Live ↗
-#     url: https://lgbtmyths.com
-#   img: "/assets/work-grid/lgbtmyths-mockup-4x3.jpg"
-#   year: 2023
-#   tags:
-#   - name: Personal
-#     color: yellow
-#   - name: Web design & development
-#     color: blue
-# - title:
-#     en: The Newsroom
-#     el: 
-#   desc:
-#     en: "Design refresh for mobile app reducing bias in news reporting."
-#     el: 
-#   link:
-#     title: Case study →
-#     url: /en/newsroom
-#   img: "/assets/work-grid/newsroom-4x3.jpg"
-#   year: 2023
-#   tags:
-#   - name: Client work
-#     color: green
-#   - name: App design
-#     color: blue
-# - title:
-#     en: Airboxr web-app
-#     el: 
-#   desc:
-#     en: "Design from scratch for a startup that does spreadsheet report automation."
-#     el: 
-#   link:
-#     title: Live ↗
-#     url: https://www.airboxr.com/
-#   img: "/assets/work-grid/airboxr-4x3.jpg"
-#   year: 2022
-#   tags:
-#   - name: Client work
-#     color: green
-#   - name: Web-app design
-#     color: blue
-# - title:
-#     en: Concept for Note-Taking App
-#     el: 
-#   desc:
-#     en: "A powerfully simple interface for organized knowledge."
-#     el: ""
-#   img: "/assets/work-grid/m-project.webp"
-#   year: 2024
-#   tags:
-#   - name: Just for&nbsp;fun
-#     color: yellow
-#   - name: App design
-#     color: blue
 - title:
     en: Loukataris Transfers
     el: 
@@ -83,6 +8,22 @@
     title: Live ↗
     url: https://transfersifnos.gr/
   img: "/assets/work-grid/transfersifnos.gif"
+  year: 2025
+  tags:
+    - name: Client work
+      color: green
+    - name: Web design & development
+      color: blue
+- title:
+    en: Giotis Rentals
+    el: 
+  desc:
+    en: "Modern scooter rental site with transparent pricing and a booking form."
+    el: ""
+  link:
+    title: Live ↗
+    url: https://giotis-rentals.gr/
+  img: "/assets/work-grid/giotis-rentals.webp"
   year: 2025
   tags:
     - name: Client work
@@ -235,22 +176,6 @@
     color: yellow
   - name: Web design
     color: blue
-# - title:
-#     en: Micronavi — Electronics Distributor
-#     el: Micronavi — Distributor Ηλεκτρωνικών
-#   desc:
-#     en: "Bold marketing website. Made with custom code."
-#     el: "[Δείτε το site ζωντανά](http://micronavi.eu) / Made with custom code."
-#   link:
-#     title: Live ↗
-#     url: https://micronavi.eu
-#   img: "/assets/work-grid/micronavi-screens.jpg"
-#   year: 2022
-#   tags:
-#   - name: Client work
-#     color: green
-#   - name: Web design & development
-#     color: blue
 - title:
     en: Werewolf Game Cards
     el: Καρτες παιχνιδιου «Παλερμο»
@@ -280,74 +205,3 @@
     color: green
   - name: Logo design
     color: blue
-# - title:
-#     en: Beckher — SDA Manufacturer Website
-#     el: Beckher — Ιστοσελιδα κατασκευαστη μικρων οικιακων συσκευων
-#   desc:
-#     en: "Custom code / Jekyll / [Live website →](https://beckher.com)"
-#     el: "[Δείτε το site ζωντανά](https://beckher.com) / Custom code and
-#       Jekyll."
-#   img: "/assets/beckher-screens.jpg"
-#   tags:
-#   - name: Client work
-#   - name: Web design & development
-# - title:
-#     en: Mig Lock — Business Consultant
-#     el: Mig Lock — Business Consultant
-#   desc:
-#     en: "Made with custom code. [Live website →](http://miglock.co.uk)"
-#     el: "[Δείτε το site ζωντανά](http://miglock.co.uk) / Made with custom code."
-#   img: "/assets/miglock-scrollcap.gif"
-#   tags:
-#   - name: Client work
-#   - name: Web design & development
-# - title:
-#     en: Jewelry Store - Aevum
-#     el: Online Κοσμηματοπωλειο - Aevum
-#   desc:
-#     en: Webflow, custom code, Ecwid for e-commerce.
-#     el: Webflow, custom code, Ecwid για λειτουργία e-commerce.
-#   img: "/assets/aevum-demo.gif"
-#   tags:
-#   - name: Client work 
-#   - name: Web design & development
-# - title:
-#     en: Restaurant Website — Bistrot&nbsp;46
-#     el: Ιστοσελιδα εστιατοριου — Bistrot&nbsp;46
-#   desc:
-#     en: Design, Webflow development, photography
-#     el: Σχεδιασμός, development με Webflow, φωτογράφιση και μενού που τροφοδοτείται
-#       από το Airtable.
-#   img: "/assets/bistrot46-screens.jpg"
-#   tags:
-#   - name: Client work
-#   - name: Webflow
-# - title:
-#     en: MegaMan-inspired Launcher setup
-#     el: MegaMan-inspired Launcher setup
-#   desc:
-#     en: "I made this for myself. \U0001F499 (Animated with Motion&nbsp;Portrait.)"
-#     el: Animated with Motion Portrait. Using “The Grid” icon pack.
-#   img: "/assets/work-grid/megaman-launcher-mockup.gif"
-#   year: 2019
-#   tags:
-#   - name: Just for fun
-#     color: yellow
-#   - name: Illustration
-#     color: pink
-# - title:
-#     en: Amazon Signup Page Concept
-#     el: Ιδεα για σελιδας εγγραφης Amazon
-#   desc:
-#     en: Dribbble design challenge
-#     el: Dribbble challenge
-#   link:
-#     title: Dribbble&nbsp;↗
-#     url: https://dribbble.com/shots/13243688-Amazon-Login-Page-Redesign-Dribbble-Weekly-Warmup
-#   img: "/assets/work-grid/amazon-403shots.png"
-#   year: 2020
-#   tags:
-#   - name: Just for fun
-#     color: yellow
-#   - name: Web design
-#     color: blue
