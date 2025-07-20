@@ -53,7 +53,7 @@ Firstly, I used the numbering format from the Tailwind color scales for familiar
 Then I tried using `oklch(from…)` and adjusting the Alpha value to create a scale. But then colors on the scale could not be darker than the original. And if they ever overlap (think, text color with 80% opacity + background at 30%) then the color on top will be a mix of the two!
 
 So I switched to using `calc()` instead of L and C values within `oklch()` and keeping the hue value the same.
-I first created a color scale using an online generated, then converted to OKLCH and used a preadsheet to calculate the different between the Lightness and Chroma values of each color. I rounded those up and created variables in my CSS to replesnt the Lightness increment and the Chrome increment separately.
+I first created a color scale using an online generator, then converted to OKLCH and used a spreadsheet to calculate the difference between the Lightness and Chroma values of each color. I rounded those up and created variables in my CSS to represent the Lightness increment and the Chroma increment separately.
 
 ![](/assets/color-scale-excel.webp)
 
