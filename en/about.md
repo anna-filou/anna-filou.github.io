@@ -41,9 +41,9 @@ All sorts of projects excite me, but the ones I crave are those that’ll help o
 
 ### What else?
 
-I love sketching out concepts for apps I'd want to use and am looking forward to learning how to build them too! 
+I love designing and building web apps that scratch my own itches (see [experiments](/en/experiments/)) and often spend a worrying amount of time doing just that.
 
-Online, ~~[I hang out on Product Hunt](https://www.producthunt.com/@anna_0x)~~ (PH is full of low-quality ‘products’ these days…), read comics, watch anime, go down rabbit holes of all sorts, and keep learning how to build things for the web.
+Online, I text with friends, read comics, watch anime, go down rabbit holes of all sorts, and keep learning how to build things for the web.
 
 Offline, I'm into lifting weights, inline and ice skating, [reading books](/reading/), playing board games, and learning languages, to name a few.
 
