@@ -1,19 +1,19 @@
-- title:
-    en: "Gridmarks: New Tab Bookmarks"
-    el: 
-  desc:
-    en: "A Chromium extension that lets me bypass the limited new tab page and add as many bookmarks as I want, plus group them."
-    el: ""
-  link:
-    title: GitHub ↗
-    url: https://github.com/anna-filou/bookmarks-tab?tab=readme-ov-file
-  img: "/assets/gridmarks.webp"
-  year: 2025
-  tags:
-  - name: For fun
-    color: yellow
-  - name: Web dev
-    color: pink
+# - title:
+#     en: "Gridmarks: New Tab Bookmarks"
+#     el: 
+#   desc:
+#     en: "A Chromium extension that lets me bypass the limited new tab page and add as many bookmarks as I want, plus group them."
+#     el: ""
+#   link:
+#     title: GitHub ↗
+#     url: https://github.com/anna-filou/bookmarks-tab?tab=readme-ov-file
+#   img: "/assets/gridmarks.webp"
+#   year: 2025
+#   tags:
+#   - name: For fun
+#     color: yellow
+#   - name: Web dev
+#     color: pink
 - title:
     en: Calorie Grid
     el: 
