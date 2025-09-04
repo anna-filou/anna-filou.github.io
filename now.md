@@ -2,12 +2,11 @@
 title: Now
 layout: now
 lang: en
-updated: April 2nd, 2025
+updated: September 4th, 2025
 now: |
-    - I’ve added an [/ideas](/ideas) page to my website!
-    - Having fun checking out sites on [this blogroll](https://blogroll.org/). 
-        - Dicovered [TamaNOTchi](https://tamanotchi.world/22206c) (xD) and got a pang of nostalgia — reminds me of [Dragon Cave](https://dragcave.net/), which is apparently still running?! Too bad my account was seemingly deleted.
-    - Playing around with local LLM models in [LM Studio](https://lmstudio.ai/). The 8–12B ones my laptop can run are leagues behind ChatGPT though. Open to recommendations!
+    - Going back and forth between work and vacation modes 🇬🇷🏖️
+    - Working on challenging projects at work 🤓
+    - Enjoying deep talk with friends into the night 🌃
     
 ---
 
@@ -16,6 +15,13 @@ now: |
 
 
 ## Previously
+
+### May 4th, 2025
+
+- I’ve added an [/ideas](/ideas) page to my website!
+- Having fun checking out sites on [this blogroll](https://blogroll.org/). 
+    - Dicovered [TamaNOTchi](https://tamanotchi.world/22206c) (xD) and got a pang of nostalgia — reminds me of [Dragon Cave](https://dragcave.net/), which is apparently still running?! Too bad my account was seemingly deleted.
+- Playing around with local LLM models in [LM Studio](https://lmstudio.ai/). The 8–12B ones my laptop can run are leagues behind ChatGPT though. Open to recommendations!
 
 ### April 2nd, 2025
 
