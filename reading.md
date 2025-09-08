@@ -7,9 +7,10 @@ books:
 - title: Unwritten Rules of Social Relationships
   cover: "/assets/books/unwritten-rules.webp"
   author: Temple Grandin & Sean Barron 
-  read: 'now'
+  read: '2025'
   pages: 425
-  my-notes:
+  my-notes:   |-
+      I was looking for a social cheat sheet, and while this was written for neurotypical adults who work with autistic children, it was still helpful. Reading things I was technically already aware of, but explained by people who think like me, was far more impactful. Some of it was informative and some useful, but a lot felt like giving up your values just to conform. I refuse to do that. 
 - title: "Animal Farm: The Graphic Novel"
   cover: "/assets/books/animal-farm-graphic-novel.webp"
   author: George Orwell, adapted by Odyr
