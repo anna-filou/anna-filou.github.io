@@ -4,6 +4,12 @@ layout: reading
 lang: en
 ref: ''
 books:
+- title: You’re My Favorite Client
+  cover: "/assets/books/you're-my-favorite-client.webp"
+  author: Mike Monteiro
+  read: 'now'
+  pages: 127
+  my-notes:
 - title: Unwritten Rules of Social Relationships
   cover: "/assets/books/unwritten-rules.webp"
   author: Temple Grandin & Sean Barron 
