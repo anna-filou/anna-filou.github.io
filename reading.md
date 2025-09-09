@@ -16,9 +16,9 @@ books:
   read: '2025'
   pages: 127
   my-notes:   |-
-      *«When we build websites or apps, we often wait until the last minute to bring in designers to “apply” design, or look and feel. This is akin to baking a cake and then hiring a baker to make it taste good.»*
+      *“When we build websites or apps, we often wait until the last minute to bring in designers to ‘apply’ design, or look and feel. This is akin to baking a cake and then hiring a baker to make it taste good.”*
 
-      I laughed SO hard on every other page! But I also had a lot of aha-moments and “oh, that’s why that happened back then and this is how I could have done better”. 
+      I laughed SO hard on every other page! 😂 But I also had a lot of aha-moments and “oh, that’s why that happened back then and this is how I could have done better”. 
 - title: Unwritten Rules of Social Relationships
   cover: "/assets/books/unwritten-rules.webp"
   author: Temple Grandin & Sean Barron 
