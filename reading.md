@@ -4,7 +4,7 @@ layout: reading
 lang: en
 ref: ''
 books:
-- title: Design Is a Job: The Necessary Second Edition
+- title: "Design Is a Job: The Necessary Second Edition"
   cover: "/assets/books/design-is-a-job.webp"
   author: Mike Monteiro
   read: '2025'
