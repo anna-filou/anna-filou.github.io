@@ -4,11 +4,11 @@ layout: reading
 lang: en
 ref: ''
 books:
-- title: Design Is a Job
+- title: Design Is a Job: The Necessary Second Edition
   cover: "/assets/books/design-is-a-job.webp"
   author: Mike Monteiro
   read: 'now'
-  pages: 135
+  pages: 150
   my-notes:
 - title: You’re My Favorite Client
   cover: "/assets/books/you're-my-favorite-client.webp"
