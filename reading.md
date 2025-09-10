@@ -10,54 +10,54 @@ books:
   read: '2025'
   pages: 150
   my-notes:   |-
-      Almost as funny as ‘You’re My Favorite Client’ by the same author. I’d recommend reading this both for the practical tips and for a boost in your determination to do good—both good work and good in the world.
+    Almost as funny as ‘You’re My Favorite Client’ by the same author. I’d recommend reading this both for the practical tips and for a boost in your determination to do good—both good work and good in the world.
 
-      It isn’t strictly about the business of design (the first edition was more focused on that), but rather a human-to-human exchange of knowledge and convictions. I personally appreciate that and admire people who take a stand, though it was unexpected.
+    It isn’t strictly about the business of design (the first edition was more focused on that), but rather a human-to-human exchange of knowledge and convictions. I personally appreciate that and admire people who take a stand, though it was unexpected.
 - title: You’re My Favorite Client
   cover: "/assets/books/you're-my-favorite-client.webp"
   author: Mike Monteiro
   read: '2025'
   pages: 127
   my-notes:   |-
-      *“When we build websites or apps, we often wait until the last minute to bring in designers to ‘apply’ design, or look and feel. This is akin to baking a cake and then hiring a baker to make it taste good.”*
+    *“When we build websites or apps, we often wait until the last minute to bring in designers to ‘apply’ design, or look and feel. This is akin to baking a cake and then hiring a baker to make it taste good.”*
 
-      I laughed SO hard on every other page! 😂 But I also had a lot of aha-moments and “oh, that’s why that happened back then and this is how I could have done better”. 
+    I laughed SO hard on every other page! 😂 But I also had a lot of aha-moments and “oh, that’s why that happened back then and this is how I could have done better”. 
 - title: Unwritten Rules of Social Relationships
   cover: "/assets/books/unwritten-rules.webp"
   author: Temple Grandin & Sean Barron 
   read: '2025'
   pages: 425
   my-notes:   |-
-      I was looking for a social cheat sheet, and while this was written for neurotypical adults who work with autistic children, it was still helpful. Reading things I was technically already aware of, but explained by people who think like me, was far more impactful. Some of it was informative and some useful, but a lot felt like giving up your values just to conform. I refuse to do that. 
+    I was looking for a social cheat sheet, and while this was written for neurotypical adults who work with autistic children, it was still helpful. Reading things I was technically already aware of, but explained by people who think like me, was far more impactful. Some of it was informative and some useful, but a lot felt like giving up your values just to conform; and I refuse to do that. 
 - title: "Animal Farm: The Graphic Novel"
   cover: "/assets/books/animal-farm-graphic-novel.webp"
   author: George Orwell, adapted by Odyr
   read: '2025'
   pages: 176
   my-notes:   |-
-      Been meaning to read Animal Farm for years, never got around to it. Stumbled upon this beautiful adaptation in a bookstore and read it all on the spot.
+    Been meaning to read Animal Farm for years, never got around to it. Stumbled upon this beautiful adaptation in a bookstore and read it all on the spot.
 
-      It made me sad. Now I wanna read the actual book more than before. Wonder if it has more details. How do you go from egalitatian to totalitarian? It felt kinda… fake in the graphic novel. Like it could not possibly happen for real. But it does!
+    It made me sad. Now I wanna read the actual book more than before. Wonder if it has more details. How do you go from egalitarian to totalitarian? It felt kinda… fake in the graphic novel. Like it could not possibly happen for real. But it does!
 - title: $100M Offers
   cover: "/assets/books/100m-offers.webp"
   author: Alex Hormozi
   read: '2025'
   pages: 258
   my-notes:   |-
-      Loved some parts (e.g. “When you raise your price, you increase the value the consumer receives without changing anything else about your product”), hated some others (e.g. “if you wouldn’t club a baby seal to stay on as a customer, you don’t have to pay a penny”—yes, I assume it’s a joke, but it still makes me sick).
+    Loved some parts (e.g. “When you raise your price, you increase the value the consumer receives without changing anything else about your product”), hated some others (e.g. “if you wouldn’t club a baby seal to stay on as a customer, you don’t have to pay a penny”—yes, I assume it’s a joke, but it still makes me sick).
 
-      Overall, I’m glad I read this and was exposed to a new perspective—that’s the point of reading books! While I agree with the author on many philosophical points, I’m not convinced that fully embracing the capitalist system we live in is the best way forward as a society.
+    Overall, I’m glad I read this and was exposed to a new perspective—that’s the point of reading books! While I agree with the author on many philosophical points, I’m not convinced that fully embracing the capitalist system we live in is the best way forward as a society.
 - title: Pricing Design
   cover: "/assets/books/pricing-design.webp"
   author: Dan Mall
   read: '2025'
   pages: 58
   my-notes:   |-
-      I love this way of thinking about pricing projects: how do we make it so that it’s both a steal for you and lucrative for me? In other words, how do we both win? 
+    I love this way of thinking about pricing projects: ‘how do we make it so that it’s both a steal for you and lucrative for me? In other words, how do we both win?’
 
-      Just pondering this question can help us figure out what we really need from a project and how to get it.
+    Just pondering this question can help us figure out what we really need from a project and how to get it.
 
-      A short read anyone would benefit from. [Read it online here](https://pricingdesignbook.com/#introduction). 
+    A short read anyone would benefit from. [Read it online here](https://pricingdesignbook.com/#introduction). 
 - title: The Design of Everyday Things
   cover: "/assets/books/the-design-of-everyday-things.png"
   author: Don Norman
@@ -96,16 +96,18 @@ books:
   my-notes:   |-
     I can see there’s value in the insights within, but many of the anecdotes are a bit hard to believe. 
     
-    Overall the book was highly entertaining! Whether it’ll prove to be helpful remains to be seen, but I’d definitelly like my attitude to be more like author’s.
+    Overall the book was highly entertaining! Whether it’ll prove to be helpful remains to be seen, but I’d definitelly like my attitude to be more like the author’s.
 - title: Business Thinking For Designers
   read: '2024'
   cover: "/assets/books/business-thinking-for-designers.webp"
   author: Ryan Rumsey
   pages: 156
   my-notes:   |- 
-    I know that if I’m going to a be a better designer, I need to learn as much as I can about the business side of things. In our current system, great design is not made for the sake of it, but to achieve business goals—whether or not that’s what what personally drives me. 
-    
-    After reading this book and connecting the insights to my personal struggles, I feel better equiped to navigate the corporate world and partner with business leaders to build great designs that push goals&nbsp;forward.
+    In our current system, great design isn’t created for its own sake but to achieve business goals—whether or not that’s what personally drives me.
+
+    After reading this book and relating its insights to my own struggles, I feel better equipped to partner with business owners in building designs that not only work great for the people who use them, but also for the business.
+
+    I’ll admit, I feel a bit pretentious writing this, but at the end of the day: no business = no way to earn a living as a designer.
 - title: How to design better UI Components
   read: '2024'
   cover: "/assets/books/how-to-design-better-ui-components.webp"
