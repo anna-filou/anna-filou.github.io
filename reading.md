@@ -7,9 +7,12 @@ books:
 - title: Design Is a Job: The Necessary Second Edition
   cover: "/assets/books/design-is-a-job.webp"
   author: Mike Monteiro
-  read: 'now'
+  read: '2025'
   pages: 150
   my-notes:
+      Almost as funny as ‘You’re My Favorite Client’ by the same author. I’d recommend reading this both for the practical tips and for a boost in your determination to do good—both good work and good in the world.
+
+      It isn’t strictly about the business of design (the first edition was more focused on that), but rather a human-to-human exchange of knowledge and convictions. I personally appreciate that and admire people who take a stand, though it was unexpected.
 - title: You’re My Favorite Client
   cover: "/assets/books/you're-my-favorite-client.webp"
   author: Mike Monteiro
