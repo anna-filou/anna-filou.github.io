@@ -4,6 +4,12 @@ layout: reading
 lang: en
 ref: ''
 books:
+- title: "Ruined by Design"
+  cover: "/assets/books/ruined-by-design.webp"
+  author: Mike Monteiro
+  read: 'now'
+  pages: 221
+  my-notes:   |-
 - title: "Design Is a Job: The Necessary Second Edition"
   cover: "/assets/books/design-is-a-job.webp"
   author: Mike Monteiro
