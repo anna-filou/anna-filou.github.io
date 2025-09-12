@@ -10,6 +10,15 @@ books:
   read: 'now'
   pages: 221
   my-notes:   |-
+- title: "What I Mean When I Say I’m Autistic"
+  cover: "/assets/books/what-i-mean-when-i-say-im-autistic.webp"
+  author: Annie Kotowicz
+  read: '2025'
+  pages: 120
+  my-notes:   |-
+    I hadn’t thought of “autistic behavior” as its own language, AKA just a different way of communicating. Like with any language, both sides can make the effort to bridge the gap.
+
+    Reading this person’s account was interesting, but I think they may overestimate how different autism makes them. Just one example: she writes “I wish an autism bracelet would say to paramedics, ‘I don’t know what’s happening, and I find that terrifying. Please tell me where we’re going, and exactly what to expect.’” But most people, neurotypical or not, would feel the same!
 - title: "Design Is a Job: The Necessary Second Edition"
   cover: "/assets/books/design-is-a-job.webp"
   author: Mike Monteiro
