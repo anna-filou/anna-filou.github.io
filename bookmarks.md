@@ -19,7 +19,7 @@ If you check out one thing on this page, let it be this:
 
 I will organize these later. For now, enjoy the randomness!
 
-- [Web Independence](https://lmnt.me/blog/web-independence.html) — “It’s worth thinking about not just how little effort it takes to get started with an app, web app, or web service. But how much effort it always takes for you to migrate elsewhere when it turns out to be shittier than they originally advertised.”
+- [Where’s the Line?](https://lmnt.me/blog/wheres-the-line.html) — “If the pitcher pulls out a pistol and shoots the batter, then I’m sorry to say we’re not playing baseball anymore”
 - [In 2020 and beyond, the battle to save personhood and democracy requires a radical overhaul of mainstream technology](https://ar.al/2020/01/01/in-2020-and-beyond-the-battle-to-save-personhood-and-democracy-requires-a-radical-overhaul-of-mainstream-technology/) — I found the video at the end of the article, where the author speaks at the European Parliament , particularly impactful
 - [blogroll.org](https://blogroll.org/)
 - [pudding.cool](https://pudding.cool/) — visual essays
@@ -42,6 +42,8 @@ I will organize these later. For now, enjoy the randomness!
 - [stillness.digital](https://stillness.digital/)
 
 ## Articles
+- Double posted because you should read it: [Where’s the Line?](https://lmnt.me/blog/wheres-the-line.html) — “If the pitcher pulls out a pistol and shoots the batter, then I’m sorry to say we’re not playing baseball anymore”
+- [Web Independence](https://lmnt.me/blog/web-independence.html) — “It’s worth thinking about not just how little effort it takes to get started with an app, web app, or web service. But how much effort it always takes for you to migrate elsewhere when it turns out to be shittier than they originally advertised.”
 - [The internet can be good](https://www.todepond.com/sky/the-internet-can-be-good/)
 - [Pain we forgot](https://www.scattered-thoughts.net/writing/pain-we-forgot/)
 - [Ads Don't Work That Way](https://meltingasphalt.com/ads-dont-work-that-way/)
