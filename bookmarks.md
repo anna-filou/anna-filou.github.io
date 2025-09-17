@@ -19,6 +19,7 @@ If you check out one thing on this page, let it be this:
 
 I will organize these later. For now, enjoy the randomness!
 
+- [Web Independence](https://lmnt.me/blog/web-independence.html) — “It’s worth thinking about not just how little effort it takes to get started with an app, web app, or web service. But how much effort it always takes for you to migrate elsewhere when it turns out to be shittier than they originally advertised.”
 - [In 2020 and beyond, the battle to save personhood and democracy requires a radical overhaul of mainstream technology](https://ar.al/2020/01/01/in-2020-and-beyond-the-battle-to-save-personhood-and-democracy-requires-a-radical-overhaul-of-mainstream-technology/) — I found the video at the end of the article, where the author speaks at the European Parliament , particularly impactful
 - [blogroll.org](https://blogroll.org/)
 - [pudding.cool](https://pudding.cool/) — visual essays
