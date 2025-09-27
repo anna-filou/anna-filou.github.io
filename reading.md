@@ -7,9 +7,15 @@ books:
 - title: "Ruined by Design"
   cover: "/assets/books/ruined-by-design.webp"
   author: Mike Monteiro
-  read: 'now'
+  read: '2025'
   pages: 221
-  my-notes:   |-
+  my-notes:|-
+    “Labor without counsel is not design.”
+
+    “For too long, we’ve treated the job as if we were servants. We did what we’re told. We followed orders. We didn’t ask questions. We may have rolled our eyes once in a while when something didn’t seem right, but we did it anyway. We behaved as if we had no say and no agency in how the job was done. We lost control of our labor, our hands, and finally we lost our minds.”
+
+  ♥️
+    
 - title: "What I Mean When I Say I’m Autistic"
   cover: "/assets/books/what-i-mean-when-i-say-im-autistic.webp"
   author: Annie Kotowicz
