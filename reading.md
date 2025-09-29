@@ -4,6 +4,12 @@ layout: reading
 lang: en
 ref: ''
 books:
+- title: "The End of Burnout"
+  cover: "/assets/books/the-end-of-burn-out.webp"
+  author: Jonathan Malesic
+  read: 'now'
+  pages: 288
+  my-notes:   |-
 - title: "Ruined by Design"
   cover: "/assets/books/ruined-by-design.webp"
   author: Mike Monteiro
