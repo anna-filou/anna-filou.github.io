@@ -7,9 +7,16 @@ books:
 - title: "The End of Burnout"
   cover: "/assets/books/the-end-of-burn-out.webp"
   author: Jonathan Malesic
-  read: 'now'
+  read: '2025'
   pages: 288
   my-notes:   |-
+    *“I have a few caveats concerning what this book is not about. First, it is not a self‑help book for individuals, but rather for an entire culture.”*
+
+    Reading the book felt like a respectful conversation with a person who’s different from me in every way, but whose life experiences, research and insights have a lot of relevancy to my own life.
+
+    It’s put a lot of ideas in my head, in a realistically optimistic way.
+  
+    And I appreciated the 40+ pages of references with links for proof and further reading!
 - title: "Ruined by Design"
   cover: "/assets/books/ruined-by-design.webp"
   author: Mike Monteiro
