@@ -10,5 +10,5 @@ now: |
     
     Some of my newfound free time has gone into [reading a lot of books](/reading). Soon, some of it will hopefully go into seeing my friends more often, **SLEEPING**, planning and going on trips, working out and ✨relaxing✨.
 
-    And then, after I've recharged a bit, I really wanna work on some personal projects and [ideas](/ideas) that I've had in mind for a while. I recently made [Today Todo](https://today.annafilou.com/), which I've had in mind as an app idea for months! I'd love to do more of that.
+    And then, after I've recharged a bit, I really wanna work on some personal projects and [ideas](/ideas) that I've had in mind for a while. I recently made [Today Todo](/en/building-today), which I've had in mind as an app idea for months! I'd love to do more of that.
 ---
