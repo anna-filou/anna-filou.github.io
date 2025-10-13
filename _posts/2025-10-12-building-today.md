@@ -1,5 +1,5 @@
 ---
-title: "Why and how I built Today Todo"
+title: "Why I built Today Todo"
 date: 2025-10-12T00:00:00.000+00:00
 categories:
 - en
