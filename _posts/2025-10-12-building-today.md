@@ -10,6 +10,8 @@ main-image:
 lang: en
 ---
 
+![3 mockups showing a minimal todo app in dark mode. The third screen is of interest: it shows a modal with the title “it’s a new dat”, a list of todos, and a button that reads “Clear and Start Today”](/assets/today-todo-4x3.webp)
+
 Like many tech workers, I have a complicated relationship with to-do apps. On one hand, I’ve spent countless hours trying them all—and even making my own. On the other, they just. Don’t. Work.
 
 I’ve literally tried them all: Todoist, Microsoft To Do, Sunsama, Trello, Superlist, Taskade… and I’ve built at least two fully custom, complicated task management systems in Coda, with features like automatic prioritization based on parameters and warnings when there aren’t enough hours in the day to finish everything I’ve scheduled.
