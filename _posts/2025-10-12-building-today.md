@@ -35,7 +35,7 @@ The promise of these apps is that they’ll let us capture everything so we can 
 
 > Forgetting is a feature of memory, not a bug. You let the unimportant stuff fade so you can focus.
 
-I know, you don’t **have** to see all your tasks at once. You can focus on what’s due today while everything else sits in the backlog. But I **know** it’s there, and it stresses me out. What if I missed something from two days ago? Or yesterday? Then I open the app and see overdue tasks stacking up. Some people can calmly sort through them—decide what’s still important, move things around, delete the rest.
+I know, you don’t **have** to see all your tasks at once. You can focus on what’s due today while everything else sits in the backlog. But I **know** it’s there, and it stresses me out. What if I missed a few things two days ago, and then another yesterday? I open the app and see a growing list of overdue tasks. Some people can calmly sort through them—decide what’s still important, move things around, delete the rest.
 
 I’m not one of those people. I’m a hoarder. I have a hard time throwing things away—or removing apps from my phone—and that extends to tasks. What if I need them again someday?
 
@@ -47,19 +47,19 @@ A paper notebook. [^1]
 
 ![Notebook spread with sketches on the left page and a tight list of tasks with checkboxes of various states on the right](/assets/todo-notebook.webp)
 
-I write tasks down as they come. When I finish one, I check it off. A single page usually lasts me a few days or weeks. When it fills up, I turn the page—and I’m forced to decide: **which uncompleted tasks do I bring over?**
+I write tasks down as they come. When I finish one, I check it off. A single page usually lasts me a few days or weeks. When it fills up, I turn the page and I’m forced to make decisions: **which uncompleted tasks do I bring over?**
 
-That **friction** of having to manually re-write incomplete tasks forces me to ask whether they’re actually worth doing. And that’s what to-do apps are missing.
+That **friction** of having to manually re-write incomplete tasks forces me to ask whether they’re actually worth doing. And that’s what to-do apps have been missing!
 
-On paper, the default is that incomplete tasks disappear when you turn the page. In digital apps, the default is that they become “overdue” and haunt you. Even if they get hidden in a backlog, you still know they’re there—and that knowledge alone creates guilt. You end up browsing through old tasks, dragging irrelevant ones forward just because you feel bad for not doing them.
+On paper, the default is that incomplete tasks “disappear” when you turn the page. In digital apps, the default is that they become “overdue” and haunt you. Even if they get hidden in a backlog, I still know they’re there—and that knowledge alone creates **guilt**. I end up browsing through old tasks, resurrecting ultimately useless ones just because I feel bad for not having done them.
 
 ## The digital equivalent?
 
 I built my own to-do app where, at the end of the day, unfinished tasks just… **vanish**. They go away! Better yet, they don’t **just** vanish. When you open the app in the morning, it shows you the list of tasks you didn’t finish yesterday. There’s only one possible action: **delete the list**! You can’t roll tasks over to the next day.
 
-If you see something important—something you actually want to do—you have to remember it for a few seconds and re-write it yourself. How many unimportant tasks survive that process? Not many, maybe none. And that’s the point: no backlog, no guilt.
+If you see something important—something you actually want to do—you have to remember it for a few seconds and re-write it yourself. How many unimportant tasks survive that process? Not many, maybe none! And that’s the point: no backlog, no guilt.
 
-![](/assets/today-todo-modals.webp)
+![Two screens showing two different modals: One says "Welcome" and explains how the app works. The other shows it's a new day. Here are the tasks you didn't finish yesterday, are they still important? If yes, add them back from memory  Beneath the list of tasks, there is a button that reads "Clear" and "Start Today"](/assets/today-todo-modals.webp)
 
 ## Try it!
 
