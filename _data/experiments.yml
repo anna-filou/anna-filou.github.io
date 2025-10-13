@@ -15,13 +15,31 @@
 #   - name: Web dev
 #     color: pink
 - title:
+    en: Today Todo
+    el: 
+  desc:
+    en: "A purposefully frictionful task management app. Didn’t finish a task? You get to see it tomorrow once, before it disappears without a trace."
+    el: ""
+  link:
+    title: Use it ↗
+    url: https://today.annafilou.com/
+  img: "/assets/today-todo-4x3.webp"
+  year: 2025
+  tags:
+  - name: For fun
+    color: yellow
+  - name: App design
+    color: blue
+  - name: PWA
+    color: pink
+- title:
     en: Calorie Grid
     el: 
   desc:
     en: "Minimalist calorie tracking PWA that I designed and built in a couple of days with the help of&nbsp;AI."
     el: ""
   link:
-    title: Live ↗
+    title: Use it ↗
     url: https://calorie-grid.netlify.app/
   img: "/assets/calorie-grid-dribbble.webp"
   year: 2025
@@ -30,7 +48,7 @@
     color: yellow
   - name: App design
     color: blue
-  - name: Web dev
+  - name: PWA
     color: pink
 - title:
     en: Hourly Time Tracker
@@ -74,8 +92,8 @@
   img: "/assets/work-grid/monster-764shots.jpg"
   year: 2020
   tags:
-  - name: For fun
-    color: yellow
+  - name: Assignment
+    color: green
   - name: Web design
     color: blue
 - title:
@@ -90,7 +108,18 @@
   img: "/assets/work-grid/warewolf-cards.jpg"
   year: 2019
   tags:
-  - name: Just for fun
+  - name: for fun
+    color: yellow
+  - name: Illustration
+    color: pink
+- title:
+    en: MMBN Live Wallpaper
+  desc:
+    en: "I’m a huge fan of MegaMan Battle Network! I made this live wallpaper for my&nbsp;phone."
+  img: "/assets/drawings/megaman-launcher-mockup.gif"
+  year: 2019
+  tags:
+  - name: for fun
     color: yellow
   - name: Illustration
     color: pink

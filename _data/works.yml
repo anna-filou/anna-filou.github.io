@@ -3,11 +3,21 @@
   case_study:
     title: Case&nbsp;study&nbsp;→
     url: /en/shopflix
-  live_site:
-    title: Live&nbsp;↗
-    url: https://shopflix.gr/
+  # live_site:
+  #   title: Live&nbsp;↗
+  #   url: https://shopflix.gr/
   img: /assets/work-new/shopflix.webp
-  year: (Currently)
+  year: 2023—2025
+# - title: Database™
+#   skills: Design System • UI
+#   case_study:
+#     title: Case&nbsp;study&nbsp;→
+#     url: /en/database
+#   # live_site:
+#   #   title: Live&nbsp;↗
+#   #   url: https://database.co/
+#   img: /assets/work-new/database.webp
+#   year: 
 - title: LGBTmyths.com
   skills: Concept • Design • Development
   case_study:
@@ -18,7 +28,7 @@
     url: https://lgbtmyths.com
   img: /assets/work-new/lgbtmyths.webp
   year: 
-- title: Airboxr web app
+- title: Airboxr
   skills: 0→1 • Design • Prototyping
   case_study:
     title: Case&nbsp;study&nbsp;→
