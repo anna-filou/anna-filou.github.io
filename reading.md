@@ -4,6 +4,15 @@ layout: reading
 lang: en
 ref: ''
 books:
+- title: "Smart Brevity"
+  cover: "/assets/books/smart-brevity.webp"
+  author: Jim VandeHei, Mike Allen, Roy Schwartz
+  read: '2025'
+  pages: 190
+  my-notes:   |-
+    I was already trying to practice what the authors call “smart brevity” in my writing, but it’s hard to break my bad habits. I was hoping for something to help me finally get rid of them—and I think this was it. 
+
+    It was also super interesting learning the history of Axios, a publication I’d come across a bunch of times. I appreciated the “Why it matters” section up top, without consciously thinking about it.
 - title: "The End of Burnout"
   cover: "/assets/books/the-end-of-burn-out.webp"
   author: Jonathan Malesic
