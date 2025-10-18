@@ -4,6 +4,18 @@ layout: reading
 lang: en
 ref: ''
 books:
+- title: "Inspired"
+  cover: "/assets/books/inspired.webp"
+  author: Marty Cagan
+  read: now
+  pages: 368
+  my-notes: ''
+- title: "Getting Real"
+  cover: "/assets/books/getting-real.png"
+  author: Basecamp
+  read: now
+  pages: 196
+  my-notes: ''
 - title: "Smart Brevity"
   cover: "/assets/books/smart-brevity.webp"
   author: Jim VandeHei, Mike Allen, Roy Schwartz
