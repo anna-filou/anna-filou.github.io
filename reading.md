@@ -336,12 +336,6 @@ books:
   read: now
   pages: 457
   my-notes: ''
-- title: Typography Referenced
-  cover: "/assets/books/typography-referenced.jpg"
-  author: Multiple Authors
-  read: now
-  pages: 400
-  my-notes: ''
 - title: What They Forgot to Teach You at School
   read: '2022'
   cover: "/uploads/book-what-they-forgot-to-teach-you-in-school.jpg"
