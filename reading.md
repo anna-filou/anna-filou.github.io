@@ -7,9 +7,12 @@ books:
 - title: "Inspired"
   cover: "/assets/books/inspired.webp"
   author: Marty Cagan
-  read: now
+  read: '2025'
   pages: 368
-  my-notes: ''
+  my-notes:   |-
+    It’s a high level overview of the mindset and techniques that help you **discover** and build successful technology products. While reading, I was creating and updating a mental checklist—like, “OK, I’m already doing this… But not that; at least not to that degree.”
+    
+    It gave me reassurance (you’ve got the right mindset) and tough love advice on how to do better. The author repeats himself a lot, which I found good for a book that’s supposed to induce mindset change. But it doesn’t go in depth on anything; it points you to other books for that. 
 - title: "Getting Real"
   cover: "/assets/books/getting-real.png"
   author: Basecamp
