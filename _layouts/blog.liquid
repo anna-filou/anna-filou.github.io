@@ -58,7 +58,7 @@ layout: default
                   {%- for post in en_posts -%}
                     {%- assign post_year = post.date | date: "%Y" -%}
                     {%- if post_year == year -%}
-                      <a class="w-100 mh3 no-underline main bb b--faint" style="padding-top: 24px; padding-bottom: 24px;" href="{{ post.url | relative_url }}">
+                      <a class="w-100 mh3 no-underline main bb b--faint pr4 pr0-ns" style="padding-top: 24px; padding-bottom: 24px;" href="{{ post.url | relative_url }}">
                         <div class="flex flex-row items-start items-center-ns grow-small">
                           {%- if post.icon -%}
                             <img src="{{ post.icon }}" alt="{{ post.title | escape }}" class="br2 mr3 flex-shrink-0" style="width: 40px; height: 40px;" />
@@ -66,7 +66,7 @@ layout: default
                           
                           <div class="flex flex-column flex-row-ns justify-between items-start items-center-ns flex-grow-1">
                             <h2 class="f4 fw5 lh-title mt0 mb0 ttn secondary">{{ post.title | escape }}</h2>
-                            <div class="reading-time tertiary fw4 f5 mt1 mt0-ns">
+                            <div class="reading-time tertiary fw4 f5 mt2 mt0-ns w4-ns tr">
                               {% assign words = post.content | number_of_words %}
                               {% if words < 1 %}
                                 <1 min
