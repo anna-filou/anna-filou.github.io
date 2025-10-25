@@ -7,6 +7,7 @@ tags:
 - code
 layout: post
 main-image: 
+icon: /assets/blog/css-color-scales.webp
 lang: en
 ---
 

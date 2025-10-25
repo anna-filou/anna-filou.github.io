@@ -7,7 +7,7 @@
 		{% assign data = site.data.navbar %}
 
 		<header class="flex justify-center relative">
-			<div class="container f5 new-nav fixed bottom-0 bottom-unset-ns top-0-ns w-100 flex items-center justify-center z-999 pa2">
+			<div class="container f5 new-nav fixed bottom-0 bottom-unset-ns top-0-ns w-100 flex items-center justify-center z-999 pa2 pt3">
 				<a class="dn flex-ns flex-row items-center link dim mr2 " href="/{{page.lang}}/" title="Homepage">
 					<svg class="nt1" width="48px" viewBox="0 0 201 123" xmlns="http://www.w3.org/2000/svg">
 					<path fill-rule="evenodd" clip-rule="evenodd" d="M104.423 32.4863V122.486H130.234V84.3129L174.381 122.486H200.193V0.921158H174.381V91.0717L130.234 52.8984V0.921158H104.423L96.5 0.921188L0.192505 122.486H33.1222L65.8948 81.1187V122.486H89.6577V62.2114H80.8737L104.423 32.4863Z"/>
@@ -16,12 +16,12 @@
 	
 				<div class="dn db-ns bw1 bt b--faint w-100 mh3"></div>
 	
-				<nav class="flex items-center pa2 br4">
+				<nav class="flex items-center pa1 br3">
 					<div class="flex">
-						<a href="/{{page.lang}}" class="{%- if page.url == '/' or page.url == '/en/' -%}bg-nav c {%- endif -%} c no-underline ph3 pv2 br3 mobile-nav-hover nowrap">Work&nbsp;<span class="dib ml1 o-60">/</span></a>
-						<a href="/{{page.lang}}/about" class="{%- if page.url == '/en/about/' -%}bg-nav c {%- endif -%} c no-underline ph3 pv2 br3 mobile-nav-hover">About</a>
-						<a href="/{{page.lang}}/contact" class="{%- if page.url == '/en/contact/' -%}bg-nav c {%- endif -%} c no-underline ph3 pv2 br3 mobile-nav-hover">Contact</a>
-						<a id="more-button" href="/{{page.lang}}/menu" class="{%- if page.url == '/en/info/' -%}bg-nav c {%- endif -%} c w3 tc no-underline ph3 pv2 br3 mobile-nav-hover pointer">•••</a>
+						<a href="/{{page.lang}}" class="{%- if page.url == '/' or page.url == '/en/' -%}bg-nav c {%- endif -%} c no-underline ph3 pv2 br2 mobile-nav-hover nowrap">Work&nbsp;<span class="dib ml1 o-60">/</span></a>
+						<a href="/{{page.lang}}/about" class="{%- if page.url == '/en/about/' -%}bg-nav c {%- endif -%} c no-underline ph3 pv2 br2 mobile-nav-hover">About</a>
+						<a href="/{{page.lang}}/contact" class="{%- if page.url == '/en/contact/' -%}bg-nav c {%- endif -%} c no-underline ph3 pv2 br2 mobile-nav-hover">Contact</a>
+						<a id="more-button" href="/{{page.lang}}/menu" class="{%- if page.url == '/en/info/' -%}bg-nav c {%- endif -%} c w3 tc no-underline ph3 pv2 br2 mobile-nav-hover pointer">•••</a>
 					</div>
 				</nav>
 			</div>

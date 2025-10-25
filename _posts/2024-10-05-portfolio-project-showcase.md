@@ -7,6 +7,7 @@ tags:
 - product design
 layout: post
 main-image: 
+icon: /assets/blog/portfolio-project-showcase.webp
 lang: en
 ---
 

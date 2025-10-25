@@ -7,6 +7,7 @@ tags:
 - product
 layout: post
 main-image: 
+icon: /assets/blog/building-today.webp
 lang: en
 ---
 

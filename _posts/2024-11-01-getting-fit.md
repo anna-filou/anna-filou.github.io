@@ -7,6 +7,7 @@ tags:
 - life
 layout: post
 main-image: 
+icon: /assets/blog/getting-fit.webp
 lang: en
 ---
 

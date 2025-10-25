@@ -4,6 +4,12 @@ layout: reading
 lang: en
 ref: ''
 books:
+- title: "Show Your Work!"
+  cover: "/assets/books/show-your-work.webp"
+  author: Austin Kleon
+  read: now
+  pages: 100
+  my-notes: ''
 - title: "Inspired"
   cover: "/assets/books/inspired.webp"
   author: Marty Cagan

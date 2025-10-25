@@ -7,6 +7,7 @@ tags:
 - philosophy
 layout: post
 main-image: 
+icon: /assets/blog/choosing-face.webp
 lang: en
 ---
 

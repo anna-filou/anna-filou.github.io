@@ -1,5 +1,5 @@
 ---
-title: "Freelancers are agencies now?"
+title: "Solo subscription agencies"
 date: 2025-05-12T00:00:00.000+00:00
 categories:
 - en
@@ -7,6 +7,7 @@ tags:
 - business
 layout: post
 main-image: 
+icon: /assets/blog/solo-agencies.webp
 lang: en
 ---
 

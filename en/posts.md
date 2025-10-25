@@ -5,6 +5,6 @@ lang: en
 ref: posts
 ---
 
-The occasional thought, sometimes related to my work.
+Sometimes, I share my thoughts on my work—and on other topics.
 
-[→ Grab the RSS feed](/feed.xml)
+[RSS feed](/feed.xml)

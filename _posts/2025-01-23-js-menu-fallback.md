@@ -1,5 +1,5 @@
 ---
-title: 'Video: Mobile menus that don’t break without JavaScript'
+title: "[VID ⏯︎ ] Menus that don't break without JS"
 date: 2025-01-23T00:00:00.000+00:00
 categories:
 - en
@@ -7,6 +7,7 @@ tags:
 - code
 layout: post
 main-image: 
+icon: /assets/blog/js-menu-fallback.webp
 lang: en
 ---
 
