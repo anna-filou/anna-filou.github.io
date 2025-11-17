@@ -4,6 +4,18 @@ layout: reading
 lang: en
 ref: ''
 books:
+- title: "Über Tyrannei: Zwanzig Lektionen für den Widerstand"
+  cover: "/assets/books/ueber-tyrannei.webp"
+  author: Timothy Snyder
+  read: now
+  pages: 128
+  my-notes: ''
+- title: "Alles richtig gemacht"
+  cover: "/assets/books/alles-richtig-gemacht.webp"
+  author: Gregor Sander
+  read: now
+  pages: 240
+  my-notes: ''
 - title: "Show Your Work!"
   cover: "/assets/books/show-your-work.webp"
   author: Austin Kleon
