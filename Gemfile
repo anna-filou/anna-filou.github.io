@@ -22,6 +22,7 @@ end
 # Performance-booster for watching directories on Windows
 # gem "wdm", "~> 0.1.1", :platforms => [:mingw, :x64_mingw, :mswin]
 
+# For Netlify
 # Ruby 3.4+ no longer auto-loads some standard libraries like csv, base64, logger.
 # They must be explicitly included in the Gemfile for Netlify.
 gem "csv"

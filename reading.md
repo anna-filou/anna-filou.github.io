@@ -22,6 +22,17 @@ books:
   read: now
   pages: 100
   my-notes: ''
+- title: "Getting Real"
+  cover: "/assets/books/getting-real.png"
+  author: Basecamp
+  read: '2025'
+  pages: 196
+  my-notes:   |-
+    It’s easy to doubt yourself when your intuition is to go counter to what most companies seem to be doing. So these pointers, coming from the makers of such a successful software company, are quite reassuring. 
+
+    Some advice that must have been radical at the time this book was written is thankfully common practice now. But so much still isn’t! Old misguided ideas stick around despite all the evidence it’s not working.
+
+    [Read Getting Real online ↗](https://basecamp.com/gettingreal)
 - title: "Inspired"
   cover: "/assets/books/inspired.webp"
   author: Marty Cagan
@@ -31,13 +42,6 @@ books:
     It’s a high level overview of the mindset and techniques that help you **discover** and build successful technology products. While reading, I was creating and updating a mental checklist—like, “OK, I’m already doing this… But not that; at least not to that degree.”
     
     It gave me reassurance (you’ve got the right mindset) and tough love advice on how to do better. The author repeats himself a lot, which I found good for a book that’s supposed to induce mindset change. But it doesn’t go in depth on anything; it points you to other books for that. 
-- title: "Getting Real"
-  cover: "/assets/books/getting-real.png"
-  author: Basecamp
-  read: '2025'
-  pages: 196
-  my-notes:   |-
-    
 - title: "Smart Brevity"
   cover: "/assets/books/smart-brevity.webp"
   author: Jim VandeHei, Mike Allen, Roy Schwartz
@@ -407,4 +411,4 @@ books:
     mixed but overall I think I’ve gained something valuable. \U0001F499\n"
 ---
 
-I use this page as a way to keep track of the books I read, starting in 2021, in a way that makes sense to me.
+I started tracking my books here in 2021 in a way that makes sense to me.

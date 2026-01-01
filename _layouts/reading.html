@@ -2,11 +2,26 @@
 layout: default
 ---
 
-<div class="container mv5 mt6-ns">
+<div class="container mt5 mb4 mb0-ns mt6-ns">
     <h1 class="f1">{{page.title}}</h1>
-    <div class="measure">
+    <div class="measure-narrow">
         {{content}}
     </div>
+</div>
+
+{% assign years = page.books | map: "read" | uniq | sort | reverse %}
+
+<div class="container-ns sticky z-1 mb4 mb0-ns nt6-ns pt5-ns new-nav tr">
+    <nav class="f5 pa3 br3-ns w-100 w-auto-ns dib-ns overflow-x-auto">
+        <div class="nowrap flex items-center">  
+            <div class="dib mr2">Jump to:</div>
+            {% for year in years %}
+                {% unless year == "now" %}
+                    <a href="#{{year}}" class="mr2">{{year}}</a>
+                {% endunless %}
+            {%- endfor -%}  
+        </div>
+    </nav>
 </div>
 
 <div class="container">
@@ -35,18 +50,6 @@ layout: default
 </section>
 
 
-{% assign years = page.books | map: "read" | uniq | sort | reverse %}
-
-<div class="container f3">
-    <hr class="mv5">
-    <div class="dib mr2">Jump to:</div>
-    {% for year in years %}
-        {% unless year == "now" or year == years[1] %}
-            <a href="#{{year}}" class="mr2">{{year}}</a>
-        {% endunless %}
-    {%- endfor -%}  
-    <hr class="mv5">
-</div>
 
 {% for year in years %}
     {% unless year == "now" %}

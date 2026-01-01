@@ -1,6 +1,12 @@
 ---
 ---
-@import 'typography', 'article', 'code', 'print', 'masonry', 'book', 'carousel';
+@use 'typography' as *;
+@use 'article' as *;
+@use 'code' as *;
+@use 'print' as *;
+@use 'masonry' as *;
+@use 'book' as *;
+@use 'carousel' as *;
 
 $media-xl: 1700px;
 $media-xl-containers: 1440px;
