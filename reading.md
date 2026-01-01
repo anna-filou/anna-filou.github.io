@@ -34,9 +34,10 @@ books:
 - title: "Getting Real"
   cover: "/assets/books/getting-real.png"
   author: Basecamp
-  read: now
+  read: '2025'
   pages: 196
-  my-notes: ''
+  my-notes:   |-
+    
 - title: "Smart Brevity"
   cover: "/assets/books/smart-brevity.webp"
   author: Jim VandeHei, Mike Allen, Roy Schwartz
