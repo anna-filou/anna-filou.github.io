@@ -4,6 +4,12 @@ layout: reading
 lang: en
 ref: ''
 books:
+- title: "The Likeability Factor"
+  cover: "/assets/books/the-likeability-factor.webp"
+  author: Tim Sanders
+  read: now
+  pages: 224
+  my-notes: ''
 - title: "Über Tyrannei: Zwanzig Lektionen für den Widerstand"
   cover: "/assets/books/ueber-tyrannei.webp"
   author: Timothy Snyder
