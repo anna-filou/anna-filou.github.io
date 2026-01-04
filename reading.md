@@ -10,7 +10,13 @@ books:
   read: now
   pages: 224
   my-notes: ''
-- title: "Über Tyrannei: Zwanzig Lektionen für den Widerstand"
+- title: "Το Χρυσο Εισιτηριο (the Golden Ticket)"
+  cover: "/assets/books/the-golden-ticket.webp"
+  author: Ρενέ Στυλιαρά
+  read: now
+  pages: 336
+  my-notes: ''
+- title: "Über Tyrannei (On Tyranny)"
   cover: "/assets/books/ueber-tyrannei.webp"
   author: Timothy Snyder
   read: now
