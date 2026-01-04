@@ -766,6 +766,37 @@ hr {
   }
 }
 
+/* Book carousel - aligned with container using symmetric padding */
+.book-carousel {
+  padding: 0 calc(50% - min(#{$container}, 100%) / 2 + 32px);
+  overflow-x: auto;
+  scroll-padding: 0 calc(50% - min(#{$container}, 100%) / 2 + 32px);
+  scroll-snap-type: x proximity;
+  @media (max-width: $media-small) {
+    padding: 0 1rem; // Match pl3 (1rem) on mobile
+    scroll-padding: 0 1rem;
+  }
+  
+  @media (min-width: $media-xl) {
+    padding: 0 calc(50% - min(#{$media-xl-containers}, 100%) / 2 + 32px);
+    scroll-padding: 0 calc(50% - min(#{$media-xl-containers}, 100%) / 2 + 32px);
+  }
+  
+  // Scroll snap alignment for children
+  > * {
+    scroll-snap-align: start;
+  }
+  
+  // Scrollbar styling (Firefox only - Safari uses system scrollbars)
+  scrollbar-width: thin; /* Firefox */
+  scrollbar-color: rgba(0, 0, 0, 0.4) transparent; /* Firefox - thumb and track */
+  padding-bottom: 12px; /* Space for scrollbar to not overlap content */
+  
+  @media (prefers-color-scheme: dark) {
+    scrollbar-color: rgba(255, 255, 255, 0.5) transparent; /* Firefox - thumb and track */
+  }
+}
+
 .pa35 {
   padding: 1.5rem;
 }
