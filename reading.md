@@ -19,9 +19,12 @@ books:
 - title: "Show Your Work!"
   cover: "/assets/books/show-your-work.webp"
   author: Austin Kleon
-  read: now
+  read: '2026'
   pages: 100
-  my-notes: ''
+  my-notes:   |-
+    Quick, enjoyable read. Full of both practical tips and strong motivation (mostly in the form of highly relevant quotes). I didn’t expect to think so deeply about my life and future when reading this. Recommended. 
+    
+    A lot of people “build in public” these days, but many more are afraid to share, or rarely do. But really, showing your work online **will** change your life. (Give it a few years.)
 - title: "Getting Real"
   cover: "/assets/books/getting-real.png"
   author: Basecamp
