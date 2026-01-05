@@ -35,3 +35,5 @@ For one, I feel great when I look in the mirror. I don’t love every aspect of 
 Transporting groceries or moving heavy objects up the stairs is never an issue, and the ability to hike to remote, beautiful spots while traveling is a given. It just feels great to know I’m ready to take on whatever life throws at me! With fitness now part of my baseline, I have more time and energy for other things—advancing my career, tackling interesting side projects, going out feeling good about myself, and yes, even helping others carry heavy stuff.
 
 In short, don't be discouraged from trying to improve your body because negative people online tell you that it's pointless. It is very much worth it and I'm rooting for you!
+
+![Person seen from behind, sitting at the shoreline and visible from the waist up, with a clearly built upper body, broad shoulders and a strong back, facing the sea. Calm blue water, distant mountains, and a sailboat to the right under a clear sky.](/assets/2024-back-beach.jpg)
