@@ -31,7 +31,11 @@ The post gets a bit technical at times, but **if you don't consider yourself tec
 
 ## My unusual approach
 
-I hand code websites using [HTML](https://developer.mozilla.org/en-US/docs/Web/HTML), [CSS](https://developer.mozilla.org/en-US/docs/Web/CSS) and a bit of [JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript), when interactivity is needed.
+I hand code websites using [HTML](https://developer.mozilla.org/en-US/docs/Web/HTML), [CSS](https://developer.mozilla.org/en-US/docs/Web/CSS) and a bit of [JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript).
+
+If you're new to this, just know that HTML is a file type and websites are just folders with files that are linked to each other. You know how you open `.docx` files using Word? Well, you open `.html` files using a web browser like Chrome! 
+
+CSS is another file with information on how to style the content in the HTML, and JavaScript is a programming language to make websites **do** things (without it, they're mostly static.)
 
 I use [Jekyll](https://jekyllrb.com/), a Static Site Generator (SSG), to 'sandwich' together ("bundle") parts of my code (e.g. navigation bar, footer, etc.) into a full website. Jekyll, like [other SSGs](https://jamstack.org/generators/), runs on my computer and I control it via terminal commands. 
 
