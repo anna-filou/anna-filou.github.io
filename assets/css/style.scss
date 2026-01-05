@@ -772,6 +772,7 @@ hr {
   overflow-x: auto;
   scroll-padding: 0 calc(50% - min(#{$container}, 100%) / 2 + 32px);
   scroll-snap-type: x proximity;
+  position: relative; /* For scrollbar positioning */
   @media (max-width: $media-small) {
     padding: 0 1rem; // Match pl3 (1rem) on mobile
     scroll-padding: 0 1rem;
@@ -787,13 +788,85 @@ hr {
     scroll-snap-align: start;
   }
   
-  // Scrollbar styling (Firefox only - Safari uses system scrollbars)
+  // Hide system scrollbar when JS is enabled (custom scrollbar shown instead)
+  .js-enabled & {
+    scrollbar-width: none; /* Firefox */
+    -ms-overflow-style: none; /* IE/Edge */
+    &::-webkit-scrollbar {
+      display: none; /* Chrome, Safari, Opera */
+    }
+  }
+  
+  // Default scrollbar for noscript
   scrollbar-width: thin; /* Firefox */
-  scrollbar-color: rgba(0, 0, 0, 0.4) transparent; /* Firefox - thumb and track */
+  scrollbar-color: rgba(0, 0, 0, 0.4) transparent;
   padding-bottom: 12px; /* Space for scrollbar to not overlap content */
   
   @media (prefers-color-scheme: dark) {
-    scrollbar-color: rgba(255, 255, 255, 0.5) transparent; /* Firefox - thumb and track */
+    scrollbar-color: rgba(255, 255, 255, 0.5) transparent;
+  }
+}
+
+.book-carousel-container {
+  position: relative; // For positioning the scrollbar wrapper
+}
+
+// Custom scrollbar (shown when JS is enabled)
+.book-carousel-scrollbar-wrapper {
+  display: none; /* Hidden by default, shown by JS */
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding: 0 calc(50% - min(#{$container}, 100%) / 2 + 32px);
+  
+  @media (max-width: $media-small) {
+    padding: 0 1rem;
+  }
+  
+  @media (min-width: $media-xl) {
+    padding: 0 calc(50% - min(#{$media-xl-containers}, 100%) / 2 + 32px);
+  }
+  
+  .js-enabled & {
+    display: block;
+  }
+}
+
+.book-carousel-scrollbar-track {
+  position: relative;
+  height: 4px;
+  background-color: rgba(0, 0, 0, 0.1);
+  border-radius: 2px;
+  cursor: pointer;
+  
+  @media (prefers-color-scheme: dark) {
+    background-color: rgba(255, 255, 255, 0.1);
+  }
+}
+
+.book-carousel-scrollbar-thumb {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.4);
+  border-radius: 2px;
+  cursor: grab;
+  transition: background-color 0.2s;
+  will-change: transform;
+  
+  &:active {
+    cursor: grabbing;
+    background-color: rgba(0, 0, 0, 0.6);
+  }
+  
+  @media (prefers-color-scheme: dark) {
+    background-color: rgba(255, 255, 255, 0.5);
+    
+    &:active {
+      background-color: rgba(255, 255, 255, 0.7);
+    }
   }
 }
 
