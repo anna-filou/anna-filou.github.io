@@ -11,6 +11,8 @@ icon: /uploads/jekyll.png
 lang: en
 ---
 
+![](/assets/how-websites/hero.webp)
+
 I've been building websites for over 7 years, but until now I'd never shared my entire process online. 
 
 Everyone is talking about Framer and Webflow, and most build with WordPress. **I do things differently**. Not to be contrarian, but because I prefer having more freedom.
@@ -19,17 +21,18 @@ The post gets a bit technical at times, but **if you don't consider yourself tec
 
 ---
 
-## Table of contents
-- [My unusual approach](#my-unusual-approach)
-- [Going live: Hosting & deployment](#going-live-hosting--deployment)
-- [Making sites editable (Git-based CMS)](#making-sites-editable-git-based-cms)
+## Table of contents 
+- [My approach](#my-approach)
+- [Going live: Hosting](#going-live-hosting)
+- [Making sites editable](#making-sites-editable)
 - [Templating Languages](#templating-languages)
 - [Getting a domain name](#getting-a-domain-name)
 - [Setting up custom email](#setting-up-custom-email)
 
 ---
 
-## My unusual approach
+## My approach
+
 
 I hand code websites using [HTML](https://developer.mozilla.org/en-US/docs/Web/HTML), [CSS](https://developer.mozilla.org/en-US/docs/Web/CSS) and a bit of [JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript).
 
@@ -39,19 +42,25 @@ CSS is another file with information on how to style the content in the HTML, an
 
 I use [Jekyll](https://jekyllrb.com/), a Static Site Generator (SSG), to 'sandwich' together ("bundle") parts of my code (e.g. navigation bar, footer, etc.) into a full website. Jekyll, like [other SSGs](https://jamstack.org/generators/), runs on my computer and I control it via terminal commands. 
 
+![](/assets/how-websites/editor.webp)
+
 The reason I do that instead of just making one HTML file per webpage is that some elements repeat across pages (e.g. head, nav, footer) and some pages look exactly the same but have different content (think individual articles in a news site, or the same pages in different languages). I don't wanna do duplicate work and risk creating inconsistencies. Even if a website has a single page at first, I might add more later. And even if I don't, it's often helpful to have separate files for different sections because it's easier to find where to make changes when needed. 
 
 Jekyll creates a folder within my project folder called `_site` and in it it puts the sandwiched version. That version works completely independently and offline (as all sites do), unless I have built any dependencies into the code itself (for example, if I embed a YouTube video, it's not gonna play offline).
 
-## Going live: Hosting & deployment
+## Going live: Hosting
 
 To put the website on the internet, I use [Netlify](https://netlify.app/), a [Content Delivery Network](https://en.wikipedia.org/wiki/Content_delivery_network) (CDN). They offer free hosting, and since they're a CDN, that means they put a copy of my website (`_site` folder) on many servers across the globe, and they serve from the one closest to the visitor for increased speed. 
+
+![](/assets/how-websites/netlify.webp)
 
 Netlify can actually use Jekyll (among others) on their side to 'sandwich' (bundle) the code I upload. So I don't have to upload the finished `_site` folder; instead I connect it to [GitHub](http://github.com/) directly and Netlify rebuilds the site every time I push a change. 
 
 Note: Since Netlify builds the site independently from me, I might occasionally run into issues where the site gets built fine on my computer, but Netlify runs into errors. These are usually because of different [Ruby](https://www.ruby-lang.org/en/) versions (the language powering Jekyll) running on Netlify's servers vs locally on my machine. To resolve them I typically have to make changes to the "[Gemfile](https://jekyllrb.com/docs/step-by-step/10-deployment/#gemfile)", a text file that tells Jekyll which version of what to use.
 
-## Making sites editable (Git-based CMS)
+## Making sites editable
+
+![](/assets/how-websites/cms.webp)
 
 But how does a non-technical person (e.g. my client) edit their website if the content is stored in the code? 
 
@@ -100,9 +109,13 @@ And that will be the code in the outputted HTML inside my `_site` folder.
 
 ## Getting a domain name
 
+![](/assets/how-websites/domains.webp)
+
 All that is great, but how does someone visit my website on the internet? I want them to type something like `example.com` into their browser and see my page. To do that, I need to buy the domain name "example.com". I buy domains from companies known as domain registrars. [iwantmyname.com](https://iwantmyname.com/) is one such company and while I appreciated their no-nonsense minimalist approach for years, their prices have gone up significantly lately. So I switched to buying from [Porkbun](https://porkbun.com/)!
 
 After I buy a domain, I need to point it to where my website is stored ('hosted'). I do that by adding a [DNS](https://en.wikipedia.org/w/index.php?title=Domain_Name_System) record in the domain registrar's software platform. What does the record say? Depends on where the site is hosted. In my case, that's usually Netlify, so Netlify gives me some IP addresses to copy-paste and they take care of the rest.
+
+![](/assets/how-websites/dns.webp)
 
 ## Setting up custom email
 
@@ -111,6 +124,9 @@ What if I want to receive email in an address like `me@example.com`?
 First, I need an email service provider. Gmail is such a provider, but to use it with a custom domain, you need to buy a "Google Workspace" subscription. Most email services ask you to pay to use a custom domain email. 
 
 The only reliable free solution that I know of is [Zoho Mail](https://www.zoho.com/mail/), but that too has a catch: when using the free version of the service, you can only view your emails from their website or their mobile app. Good enough, considering it's free! But for just 12 € per **year** (not per month), you can use any email client you like (for example Apple Mail, Outlook, or even Gmail—yes, Gmail can be used as an email client for other services!) via the protocols [IMAP](https://en.wikipedia.org/wiki/Internet_Message_Access_Protocol) (receiving email) & [SMTP](https://en.wikipedia.org/w/index.php?title=Simple_Mail_Transfer_Protocol) (sending email) or [POP3](https://en.wikipedia.org/wiki/Post_Office_Protocol) (both).
+
+![](/assets/how-websites/email.webp)
+
 
 ---
 
