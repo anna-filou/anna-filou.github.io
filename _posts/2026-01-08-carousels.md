@@ -56,6 +56,8 @@ We're basically saying:
 
 ![](/assets/carousel-diagram.webp)
 
+And the coolest part is that this is all just CSS! Which means, if scripts don’t load (bad connection, on the train, unknown error, browser that blocks scripts), the carousel still works the same (progressive enhancement 😎).
+
 ---
 
 Did you notice the custom scrollbar? Don’t ask me how that one works because I asked Cursor to build it. You can [see the code on GitHub](https://github.com/anna-filou/anna-filou.github.io/blob/master/assets/js/book-carousel-scrollbar.js) though. 
