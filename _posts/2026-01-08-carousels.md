@@ -25,7 +25,10 @@ So for a long time, I thought this was an unavoidable problem. But then I saw [a
 
 Thankfully, because this is the web, you can right-click → Inspect Source on any website to see exactly how it's built. I then adapted it for my website, and ta-da!
 
+<figure>
 <video autoplay loop muted src="/assets/carousel-demo.mp4" class="w-100 br4"></video>
+<figcaption><a href="/reading">See it live</a></figcaption>
+</figure>
 
 The code ↴
 
