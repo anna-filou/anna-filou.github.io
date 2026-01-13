@@ -4,6 +4,12 @@ layout: reading
 lang: en
 ref: ''
 books:
+- title: "No Bullsh*t Strategy"
+  cover: "/assets/books/no-bullshit-strategy.webp"
+  author: Alex M H Smith
+  read: now
+  pages: 154
+  my-notes: ''
 - title: "The Likeability Factor"
   cover: "/assets/books/the-likeability-factor.webp"
   author: Tim Sanders
