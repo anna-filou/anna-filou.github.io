@@ -4,6 +4,12 @@ layout: reading
 lang: en
 ref: ''
 books:
+- title: "NO.6#1"
+  cover: "/assets/books/no6.webp"
+  author: あさのあつこ
+  read: now
+  pages: 60
+  my-notes: ''
 - title: "No Bullsh*t Strategy"
   cover: "/assets/books/no-bullshit-strategy.webp"
   author: Alex M H Smith
