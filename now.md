@@ -4,11 +4,8 @@ layout: now
 lang: en
 updated: October 13th, 2025
 now: |
-    I recently left [Shopflix](/en/shopflix) after 2.5 years and, as of today, I’m working at a stealth startup I’m very excited about! 🌟
-
-    I've been thinking about what I want more of in my life, and the answer includes **free time** to engage with my favorite people and hobbies. To that end, I’m not taking on any client work for the forseeable future to maintain my focus and sanity. 
-    
-    Some of my newfound free time has gone into [reading a lot of books](/reading). Soon, some of it will hopefully go into seeing my friends more often, **SLEEPING**, planning and going on trips, working out and ✨relaxing✨.
-
-    And then, after I've recharged a bit, I really wanna work on some personal projects and [ideas](/ideas) that I've had in mind for a while. I recently made [Today Todo](/en/building-today), which I've had in mind as an app idea for months! I'd love to do more of that.
+    - 🎬 Re-watching [Inuyasha](https://www.google.com/search?hl=en&q=inuyasha) with my partner who’s watching it for the first time. This anime series is supposedly for children, and yet, despite the abudnance of humorous momemnts, its themes are dark and serious.
+    - ✈️ Preparing for two upcoming business trips to countries I haven’t visited before!
+    - 📚 [Re-reading NO.6](/reading/), but this time in Japanese. This will probably be an on-and-off thing, since many of pages are incomprehensible to me. Still got a long way to go until I can read Japanese fluently, but landing on pages I can understand perfectly by myself feels soooo good!
+        - I ordered a physical copy from Japan (since I ordered something else anyway; might as well spread out the shipping cost). It came with an additonal cover stuck on it, to advertise… the release of the **sequel** series that started in 2025!!! 😱 If I hadn’t ordered the book I’d have no idea… I can’t believe the author is continuing it after 14 years since the last book or the original series… I’m kind of afraid to read the sequels. What if they don’t feel like a natural continuation of the books I got to love so much? 
 ---
