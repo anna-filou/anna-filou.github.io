@@ -2,7 +2,7 @@
 title: Now
 layout: now
 lang: en
-updated: October 13th, 2025
+updated: January 10th, 2026
 now: |
     - 🎬 Re-watching [Inuyasha](https://www.google.com/search?hl=en&q=inuyasha) with my partner who’s watching it for the first time. This anime series is supposedly for children, and yet, despite the abudnance of humorous momemnts, its themes are dark and serious.
     - ✈️ Preparing for two upcoming business trips to countries I haven’t visited before!
