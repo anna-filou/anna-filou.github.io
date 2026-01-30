@@ -2,9 +2,9 @@
 layout: default
 ---
 
-<div class="container relative flex flex-column flex-row-ns">
+<div class="container-ns relative flex flex-column flex-row-ns">
 
-    <div class="w-100 w-40-ns pr0 pr5-ns">
+    <div class="w-100 w-40-ns pr0 pr5-ns ph3 pl0-ns">
         <div class="pv4 pt6-ns sticky-ns">
             <h1 class="ph3 ph0-ns">{{page.title}}</h1>
             <dl class="w-100 fl f5 lh-title ph3 ph0-ns">
@@ -17,8 +17,17 @@ layout: default
     </div>
 
     <div class="w-60-ns mt6-ns">
-        <div class="bg-faint pt3 ph3 pb2 pa3-ns ph4-ns br4">
-            {{content}}
+        {% for idea in page.ideas %}
+        <div class="bg-faint pa4 pb2 br4 mb4 flex flex-column flex-row-ns">
+            <div class="mb3 mr4-ns f2">{{ idea.emoji }}</div>
+            <div>
+                <h3 class="f4 mt0 mb2">{{ idea.title }}</h3>
+                <div class="measure lh-copy o-90">{{ idea.description | markdownify }}</div>
+            </div>
+        </div>
+        {% endfor %}
+        <div class="pt3">
+            {{ content }}
         </div>
     </div>
 </div>

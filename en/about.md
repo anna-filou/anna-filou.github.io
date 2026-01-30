@@ -8,7 +8,7 @@ sidebar: |
 ---
 ### Who are you?
 
-I’m Anna, a naturally curious designer and developer who learned to type before I learned to write. 
+I’m Anna, a naturally curious designer and developer who learned typing before writing.
 
 I’m addicted to learning, have high standards, but know how and when to settle for good enough (done is better than perfect).
 
