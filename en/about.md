@@ -49,6 +49,8 @@ Offline, I'm into lifting weights, inline and ice skating, [reading books](/read
 
 ---
 
-While you’re here, check out my [bookmarks](/bookmarks) for interesting links I’m sure you’ll enjoy diving into.
+While you’re here:
+- check out my [bookmarks](/bookmarks) for interesting links I’m sure you’ll enjoy diving into.
+- see [ideas](/ideas) I’d like to work on
 
 <!-- <video autoplay loop muted src="/assets/skate-circle-oaka-2.mp4" class="w-100 br3"></video> -->
