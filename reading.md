@@ -57,7 +57,7 @@ books:
   my-notes:   |-
     It’s easy to doubt yourself when your intuition is to go counter to what most companies seem to be doing. So these pointers, coming from the makers of such a successful software company, are quite reassuring. 
 
-    Some advice that must have been radical at the time this book was written is thankfully common practice now. But so much still isn’t! Old misguided ideas stick around despite all the evidence it’s not working.
+    Some advice that must have been radical at the time this book was written is thankfully common practice now. But so much still isn’t! Old misguided ideas stick around despite all the evidence that it’s not working.
 
     [Read Getting Real online ↗](https://basecamp.com/gettingreal)
 - title: "Inspired"
@@ -203,7 +203,7 @@ books:
   my-notes:   |-
     I can see there’s value in the insights within, but many of the anecdotes are a bit hard to believe. 
     
-    Overall the book was highly entertaining! Whether it’ll prove to be helpful remains to be seen, but I’d definitelly like my attitude to be more like the author’s.
+    Overall the book was highly entertaining! Whether it’ll prove to be helpful remains to be seen, but I’d definitely like my attitude to be more like the author’s.
 - title: Business Thinking For Designers
   read: '2024'
   cover: "/assets/books/business-thinking-for-designers.webp"
@@ -223,7 +223,7 @@ books:
   my-notes:   |-
     Honestly, I was hoping I’d get some tips to take my designs to the next level, but the book only contained information and advice that I already knew. I feel that it was falsely advertised as suitable for more advanced designers in addition to beginners, and it’s my fault for not seeing through that.
 
-    I’d say the book is mostly a marketing tool for the authors’ more expensive book. 
+    I’d say the book is mostly a marketing tool for the author’s more expensive book. 
 - title: Academic Dissertation
   read: 'now'
   cover: "/assets/books/dissertation-mock-cover.webp"
@@ -310,7 +310,7 @@ books:
   read: '2022'
   pages: 239
   my-notes: |-
-    Surprisingly rebatable at times. Once I neared the ending, I stayed up
+    Surprisingly relatable at times. Once I neared the ending, I stayed up
     late to finish it. It made my heart beat faster, gave me reason to feel grateful
     and provided food for thought in the form of ample quotable passages.
 
