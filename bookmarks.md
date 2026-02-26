@@ -3,7 +3,7 @@ title: Bookmarks
 layout: ideas
 lang: en
 subtitle: | 
-    A curated collection of links to other webs pages.
+    A curated collection of links to other web pages.
 
     I enjoy this sort of page on other people’s websites because it helps me discover more cool people, articles and projects. After reading [Why linking matters](https://thoughts.melonking.net/thoughts/every-site-needs-a-links-page-why-linking-matters), I couldn’t ignore the itch any longer.
 
@@ -20,7 +20,7 @@ If you check out one thing on this page, let it be this:
 I will organize these later. For now, enjoy the randomness!
 
 - [Where’s the Line?](https://lmnt.me/blog/wheres-the-line.html) — “If the pitcher pulls out a pistol and shoots the batter, then I’m sorry to say we’re not playing baseball anymore”
-- [In 2020 and beyond, the battle to save personhood and democracy requires a radical overhaul of mainstream technology](https://ar.al/2020/01/01/in-2020-and-beyond-the-battle-to-save-personhood-and-democracy-requires-a-radical-overhaul-of-mainstream-technology/) — I found the video at the end of the article, where the author speaks at the European Parliament , particularly impactful
+- [In 2020 and beyond, the battle to save personhood and democracy requires a radical overhaul of mainstream technology](https://ar.al/2020/01/01/in-2020-and-beyond-the-battle-to-save-personhood-and-democracy-requires-a-radical-overhaul-of-mainstream-technology/) — I found the video at the end of the article, where the author speaks at the European Parliament, particularly impactful
 - [blogroll.org](https://blogroll.org/)
 - [pudding.cool](https://pudding.cool/) — visual essays
 - [tinloof.com/blog](https://tinloof.com/blog)

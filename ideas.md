@@ -68,7 +68,7 @@ ideas:
   - title: Routine app
     emoji: "⏰"
     description: |
-      Where you can create a multi step process with timed steps. E.g. "getting ready to go to the office" would have tasks like `make coffee - 8 min`, `drink coffee - 10 min`, `brush teeth - 3 min`, `get dressed - 6 min`, and so on. I know there many apps "ADHD planner" apps that do this (in theory) but none of them work well IMO (too complex and/or inflexible).
+      Where you can create a multi step process with timed steps. E.g. "getting ready to go to the office" would have tasks like `make coffee - 8 min`, `drink coffee - 10 min`, `brush teeth - 3 min`, `get dressed - 6 min`, and so on. I know there are many apps "ADHD planner" apps that do this (in theory) but none of them work well IMO (too complex and/or inflexible).
 ---
 
 Do you wanna work on any of these? (Or something similar, or another thing you think I'd be into that's not listed here?) → [Contact me](/en/contact)!

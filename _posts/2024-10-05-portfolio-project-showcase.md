@@ -49,7 +49,7 @@ I had to add a way to either drag or click to scroll. Considering that dragging 
 Alas, it wasn’t that simple. I tried to set it up so that the right arrow would only appear when it’s possible to scroll right, and vice versa. But that sometimes didn’t work, and the arrow never appeared. After an excruciatingly long “conversation” with ChatGPT, the issue was solved when I wrapped the entire JS script in this:
 
 ```js
-window.addEventListener('load', () => { }
+window.addEventListener('load', () => { });
 ```
 
 It finally worked, but then I wondered how discoverable that “feature” was. Would visitors instinctively hover over the right part of the container to scroll? I asked a couple of people, and the answer was no. They couldn’t immediately tell the area was scrollable.

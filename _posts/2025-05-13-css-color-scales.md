@@ -15,13 +15,13 @@ lang: en
 
 ## The idea
 
-I wanted to create a single variable in my CSS, e.g. `--brand: ##ff6800;`, and have an entire color scale (with variables like `--brand-10: #ffe4d3; --brand-20: #ffd2b2;` and so on) automatically “generated” for me. Like this! ⤵︎
+I wanted to create a single variable in my CSS, e.g. `--brand: #ff6800;`, and have an entire color scale (with variables like `--brand-10: #ffe4d3; --brand-20: #ffd2b2;` and so on) automatically “generated” for me. Like this! ⤵︎
 
 ![](/assets/color-scale-example.webp)
 
 Similar to what you get from sites like [uicolors.app’s Tailwind CSS Color Generator](https://uicolors.app/generate), but locally, in your CSS file. 
 
-Why? When playing around with a new design, not yet sure which colors to go with, being able to tweak a couple of values direcly in my CSS and preview my own design in different colors would be super practical.
+Why? When playing around with a new design, not yet sure which colors to go with, being able to tweak a couple of values directly in my CSS and preview my own design in different colors would be super practical.
 
 Now, you *might* be wondering:
 
@@ -37,7 +37,7 @@ These people have done a much better job explaining than I could at the moment:
 
     “In HSL, 100% saturation is simply as saturated as that particular color can be in the sRGB gamut. In OKLCH, the values aren't based on technical limits or a mathematical definition, but rather on perceived equality. **The amount of lightness indicates exactly how bright the color is**, and the amount of chroma indicates exactly how vivid it is. The human eye perceives some colors like green or yellow to be brighter than others, like blue or purple, and OKLCH takes these details into account.”
 
-The gist of it is that, similar to HSL, you can keep the Hue constant while adjusting the Lightness and Saturation (Chroma, in this case) independetnly. What sets OKLCH apart is that, unlike HSL and the others, all colors with the same hue **actually look like they have the saem hue**! You know how making a vibrant blue lighter makes it look purple? Well, in OKLCH it still lookes blue! 
+The gist of it is that, similar to HSL, you can keep the Hue constant while adjusting the Lightness and Saturation (Chroma, in this case) independently. What sets OKLCH apart is that, unlike HSL and the others, all colors with the same hue **actually look like they have the same hue**! You know how making a vibrant blue lighter makes it look purple? Well, in OKLCH it still looks blue! 
 
 <figure>
   <img

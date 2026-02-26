@@ -32,7 +32,7 @@ sections:
   text: |-
     A strip at the top, colored to represent the change of the sky's color during course of a day, reminds you how long you have left until the day is over.
 
-    Each hour is assigned an icon besed on the activity you type, to give you a quick overview of your day when you look back.
+    Each hour is assigned an icon based on the activity you type, to give you a quick overview of your day when you look back.
 
     A line visually separates hours past, from time yet to come, grounding you.
   image-1: "/assets/time-tracker-top.jpg"
@@ -43,6 +43,6 @@ sections:
     I'm more mindful about how I spend my time because I mentally check in with myself
     during the day, in order to log my time later.
   image-1: "/assets/time-tracker-coda-today.jpg"
-  image-2: "/assets/time-tracker-coda-acitivity-chart.jpg"
+  image-2: "/assets/time-tracker-coda-activity-chart.jpg"
 
 ---

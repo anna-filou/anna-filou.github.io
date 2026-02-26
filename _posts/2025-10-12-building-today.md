@@ -11,7 +11,7 @@ icon: /assets/blog/building-today.webp
 lang: en
 ---
 
-![3 mockups showing a minimal todo app in dark mode. The third screen is of interest: it shows a modal with the title “it’s a new dat”, a list of todos, and a button that reads “Clear and Start Today”](/assets/today-todo-4x3.webp)
+![3 mockups showing a minimal todo app in dark mode. The third screen is of interest: it shows a modal with the title “it’s a new day”, a list of todos, and a button that reads “Clear and Start Today”](/assets/today-todo-4x3.webp)
 
 Like many tech workers, I have a complicated relationship with to-do apps. On one hand, I’ve spent countless hours trying them all—and even making my own. On the other, they just. Don’t. Work.
 
@@ -21,7 +21,7 @@ They all meet the same fate. It doesn’t matter how much I like them at first, 
 
 <figure>
   <img
-    src="/assets/todo-archive-micorsoft.webp"
+    src="/assets/todo-archive-microsoft.webp"
     alt="Screenshot of a bloated task list" />
   <figcaption>Many of the tasks I add to a task manager are by nature <strong>ephemeral</strong>, like “call hotel for reservation” or “tidy up clothes drawer.” I’ve long since completed them (or not), and yet they’ve been sitting there for years. Is that helping me?</figcaption>
 </figure>

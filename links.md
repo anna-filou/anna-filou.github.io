@@ -14,7 +14,7 @@ links:
   icon: 
   size: 
   pill: 
-- title: Bookmakrs Tab Chrome extension
+- title: Bookmarks Tab Chrome extension
   description: 
   url: 'https://chromewebstore.google.com/detail/bookmarks-tab/ofijmedbafaffedkkhpgandnchdnbgoo'
   icon: 
