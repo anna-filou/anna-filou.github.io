@@ -1,8 +1,8 @@
 - title: Jest.com
   skills: Founding Designer • Product
-  # case_study:
-  #   title: Case&nbsp;study&nbsp;→
-  #   url: /en/jest
+  case_study:
+    title: Details&nbsp;→
+    url: /en/jest
   live_site:
     title: Website&nbsp;↗
     url: https://about.jest.com/
