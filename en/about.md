@@ -27,7 +27,7 @@ I’m addicted to learning, have high standards, but know how and when to settle
 
 I design digital interfaces and build websites. My strongest skills are **UI Design** and **Product Thinking**. 
 
-Currently working at a **Stealth Startup** that I’m excited to share more about soon! Previously, I was the Product Designer at [Shopflix](/en/shopflix).
+Currently working at <img src="/assets/logo-jest.svg" class="dib v-mid w2 h2 br-100" alt="Jest.com" width="24" height="24"> [Jest.com](https://about.jest.com). Previously, I was the Product Designer at [Shopflix](/en/shopflix).
 
 I write my own front-end code using **HTML** and **CSS**. I made this website using mostly handwritten markup, [Tachyons CSS](https://tachyons.io/) and [Jekyll](https://jekyllrb.com/). (ChatGPT wrote most of the JavaScript.) I obsess over responsiveness on the web. My pet peeve is websites that break on “uncommon” breakpoints.
 
