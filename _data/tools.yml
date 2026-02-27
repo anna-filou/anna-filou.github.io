@@ -84,17 +84,17 @@ tools:
       they offer more freedom and are way more affordable.
     el: ''
   img: "/uploads/webflow-logo.png"
-- name: Tempo
-  url: https://archive.is/4P3Qb
-  desc:
-    en: "Tempo is a (now free) macOS/iOS Gmail client. It creates a workspace that
-      won't get filled with new emails automatically; you have to manually add them.
-      Perfect for those overwhelmed by too many emails. \n\nDisclaimer: I used to
-      do customer support for Tempo. The app is no longer maintained but can be used
-      indefinitely."
-    el: "\n"
-  img: "/uploads/tempo-logo.png"
-  image: ''
+# - name: Tempo
+#   url: https://archive.is/4P3Qb
+#   desc:
+#     en: "Tempo is a (now free) macOS/iOS Gmail client. It creates a workspace that
+#       won't get filled with new emails automatically; you have to manually add them.
+#       Perfect for those overwhelmed by too many emails. \n\nDisclaimer: I used to
+#       do customer support for Tempo. The app is no longer maintained but can be used
+#       indefinitely."
+#     el: "\n"
+#   img: "/uploads/tempo-logo.png"
+#   image: ''
 # - name: Tweek
 #   url: https://tweek.so
 #   desc:
