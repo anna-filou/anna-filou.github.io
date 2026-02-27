@@ -85,7 +85,7 @@ tools:
     el: ''
   img: "/uploads/webflow-logo.png"
 - name: Tempo
-  url: https://www.yourtempo.co
+  url: https://archive.is/4P3Qb
   desc:
     en: "Tempo is a (now free) macOS/iOS Gmail client. It creates a workspace that
       won't get filled with new emails automatically; you have to manually add them.
