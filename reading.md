@@ -19,9 +19,9 @@ books:
 - title: "The Likeability Factor"
   cover: "/assets/books/the-likeability-factor.webp"
   author: Tim Sanders
-  read: now
+  read: '2026'
   pages: 224
-  my-notes: ''
+  my-notes: 'I read the entire book on a transatlantic flight. That might have been a mistake because a few days later, I literally could not remember a single tip. Either that, or they were all forgettable.'
 - title: "Το Χρυσο Εισιτηριο (the Golden Ticket)"
   cover: "/assets/books/the-golden-ticket.webp"
   author: Ρενέ Στυλιαρά
