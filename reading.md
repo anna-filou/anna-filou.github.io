@@ -5,7 +5,7 @@ lang: en
 ref: ''
 books:
 - title: "Made to Stick"
-  cover: "/assets/books/made-to-stick.jpg"
+  cover: "/assets/books/made-to-stick.webp"
   author: Chip and Dan Heath
   read: now
   pages: 
