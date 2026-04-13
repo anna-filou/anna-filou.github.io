@@ -7,7 +7,7 @@ tags:
 - essay
 layout: post
 main-image:
-icon: /assets/blog/gendered-pronouns.png
+icon: /assets/blog/gendered-pronouns.webp
 lang: en
 ---
 
