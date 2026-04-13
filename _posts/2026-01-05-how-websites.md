@@ -7,7 +7,7 @@ tags:
 - product
 layout: post
 main-image: 
-icon: /uploads/jekyll.png
+icon: /assets/tools/jekyll.webp
 lang: en
 ---
 

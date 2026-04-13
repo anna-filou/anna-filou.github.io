@@ -1,154 +1,146 @@
-intro:
-  en: "Some of my favorite digital tools"
-  el: "Τα παρακάτω προϊόντα/υπηρεσίες μου αρέσουν τόσο ώστε να τα συνιστώ."
+intro: Some of my favorite digital tools.
 tools:
 - name: Figma
   url: https://www.figma.com
-  desc:
-    en: I likely spend most of my waking hours in Figma; creating, experimenting, annotating, making and organizing components.
-    el: ''
-  img: "/uploads/figma-logo.png"
-- name: Wispr Flow
-  url: https://www.flowvoice.ai/?referral=ANNA5
-  desc:
-    en: I almost never type since I discovered this—I just speak instead! 🤯 If you sign up using this link and dictate 2000 words, we both get 1-month of Pro for free ;)
-    el: ''
-  img: "/assets/wispr-flow.webp"
-- name: Voicenotes
-  url: https://voicenotes.com/?via=anna
-  desc:
-    en: It transcribes your ramblings and lets you run preset LLM prompts to create new passages and ask for insights from your notes in natural language. I’ve yet to try the meeting mode. (Affiliate link)
-    el: ''
-  img: "/uploads/voicenotes.webp"
+  desc: Despite the advent of AI coding tools, Figma remains vital to how I work.
+    It's still so much faster and freeing to visualize on a canvas—with lightweight
+    constraints instead of the rigid structure of code—than to jump straight from
+    idea to code. You pay more attention to the small things that make or break a
+    design.
+  img: "/assets/tools/figma.webp"
+- name: Cursor
+  url: https://cursor.com/
+  desc: Switched from VS Code to Cursor for the better LLM integration and zero learning curve. It keeps getting better and better.
+  img: "/assets/tools/cursor.webp"
+- name: Claude
+  url: https://claude.ai/
+  desc: Which model is better for certain tasks changes from week to week, but I'm sticking with Claude for now. On average, it seems better for everything that I do, and I'm more aligned with Anthropic's values/conduct than OpenAI's (see Pentagon incident). 
+  img: "/assets/tools/claude.webp"
 - name: Jekyll
   url: https://jekyllrb.com/
-  desc:
-    en: Instead of bulky CMS that you need to install on your server—like Wordpress—I
-      use Jekyll to make super fast, perfectly secure websites that never go down.
-    el: ''
-  img: "/uploads/jekyll.png"
-- name: Napkin
-  url: https://napkin.one/?via=anna
-  img: "/uploads/napkin-logo.jpg"
-  desc:
-    en: A new tool that helps you *think*, by tagging your thoughts automatically
-      in a way that allows for connections to naturally emerge. It fosters serendipity
-      by showing you related thoughts and ideas. (Affiliate link)
-    el: ''
-- name: Coda
-  url: https://coda.io
-  desc:
-    en: Airtable let me down when I really needed it but Coda was there to catch me
-      before I hit the ground. It's way more powerful than I thought and, importantly,
-      the app-like “docs” you create with it are easy to use for people who are not
-      familiar with databases and storing lots of data in spreadsheets.
-    el: ''
-  img: "/uploads/logo-coda.jpg"
-- name: Airtable
-  url: https://airtable.com/
-  desc:
-    en: |-
-      I rely on Airtable to run businesses and basically my entire life.
-
-      Update: I mostly use Coda now but Airtable can be better for certain projects.
-    el: Βασίζομαι στο Airtable όπου τρέχω εταιρείες και βασικά τη ζωή μου όλη.
-  img: "/uploads/logo-airtable.jpeg"
-- name: CleanShot X
-  url: https://cleanshot.com/
-  desc:
-    en: Screenshot superpowers for Mac — capture, annotate and, most importantly,
-      share screen recordings with ease. I thought the built-in screenshot tool was
-      enough, but boy was I wrong!
-    el: ''
-  img: "/uploads/icon-1636390927-6189580fc0b06.webp"
-- name: Loom
-  url: https://www.loom.com
-  desc:
-    en: 'Loom makes sharing instructional videos so quick and easy that there''s no
-      reason not to. As soon as you''re done shooting, Loom has a shareable link ready
-      for anyone to watch. Update: Loom added more limits to their free version, so
-      I mostly use CleanShot X now.'
-    el: ''
-  img: "/uploads/loom-logo.png"
-- name: SwiftRead
-  url: https://swiftread.com/
-  desc:
-    en: 'The best speed reading extension BY FAR. It helps me read 3× as fast—literally! The details are so well thought out.'
-    el: ''
-  img: "/assets/swiftread-logo.webp"
-- name: Webflow
-  url: https://webflow.com/cms#editors
-  desc:
-    en: Webflow is an amazing tool that empowers editors/clients to edit content by
-      themselves. I mostly use custom code + Jekyll + Forestry CMS nowadays, because
-      they offer more freedom and are way more affordable.
-    el: ''
-  img: "/uploads/webflow-logo.png"
-# - name: Tempo
-#   url: https://archive.is/4P3Qb
-#   desc:
-#     en: "Tempo is a (now free) macOS/iOS Gmail client. It creates a workspace that
-#       won't get filled with new emails automatically; you have to manually add them.
-#       Perfect for those overwhelmed by too many emails. \n\nDisclaimer: I used to
-#       do customer support for Tempo. The app is no longer maintained but can be used
-#       indefinitely."
-#     el: "\n"
-#   img: "/uploads/tempo-logo.png"
-#   image: ''
-# - name: Tweek
-#   url: https://tweek.so
-#   desc:
-#     en: "Tweek literally changed my life. \U0001F499 I'm a sucker for complicated
-#       digital tools but nothing could beat the clarity of using a simple paper planner.
-#       Tweek is just like that but with all the advantages of being a digital product.
-#       I can't recommend it highly enough!"
-#     el: ''
-#   img: "/uploads/tweek-logo.png"
-- name: 1Feed
-  url: https://1feed.app/
-  desc:
-    en: 'Not just an RSS reader, but THE central hub for all the websites you want
-      to check on a regular basis. Instead of overwhelming you with an infinite feed
-      of updates, each site takes up just 1 line.
-
-      '
-    el: ''
-  img: "/uploads/1feed-logo.png"
-  image: ''
+  desc: Instead of bulky CMS that you need to install on your server—like Wordpress—I
+    use Jekyll to make super fast, perfectly secure websites that never go down.
+  img: "/assets/tools/jekyll.webp"
+- name: Pages CMS
+  url: https://pagescms.org/
+  desc: Edit Markdown and media straight in your GitHub repo—no database, no extra
+    backend. Built for static generators like Jekyll.
+  img: "/assets/tools/pagescms.webp"
+- name: Obsidian
+  url: https://obsidian.md/
+  desc: I cannot get myself to use online note-taking tools consistently because the notes just don't belong to me. Obsidian, on the other hand, works with plain text files on my computer. Any potato PC can read them! Plus, you can have an LLM organize and draw from your knowledge base, since it's just files.
+  img: "/assets/tools/obsidian.webp"
+- name: Eagle
+  url: https://eagle.cool/
+  desc: It's an offline image viewer, but purpose-built for design inspiration! I save everything I like from the web with its Chrome extension, and I can find it anytime thanks to the rich metadata it collects. 
+  img: "/assets/tools/eagle.webp"
+- name: Monologue
+  url: https://www.monologue.to/
+  desc: New speech-to-text apps pop up every other day. I used Whisperflow in the past, but hated the fact it only worked online, when I know the Whisper model can work offline. So I switched to Monologue, which offers both options. They now have an iOS app as well, which is cool, but no Android support yet. 
+  img: "/assets/tools/monologue.webp"
+- name: Voicenotes
+  url: https://voicenotes.com/?via=anna
+  desc: It transcribes your ramblings and lets you run preset LLM prompts to create
+    new passages and ask for insights from your notes in natural language. I’ve
+    yet to try the meeting mode. (Affiliate link)
+  img: "/assets/tools/voicenotes.webp"
+- name: MacWhisper
+  url: https://goodsnooze.gumroad.com/l/macwhisper
+  desc: Great when I need a transcript of a screen recording to paste onto an LLM chat and get a summary. Works completely offline and is free. 
+  img: "/assets/tools/macwhisper.webp"
+- name: Beeper
+  url: https://www.beeper.com/
+  desc: 'One of those digital life-changing apps. Instead of needing to have a dozen tabs open (WhatsApp, Messenger, Telegram, etc.), I have a single app on all of my devices: Mac, iOS, and Android.'
+  img: "/assets/tools/beeper.webp"
 - name: Notion
   url: https://www.notion.so/
-  desc:
-    en: I use Notion to manage larger projects, because it allows me to create a small
-      database with timelines, attachments, to-dos and more and share the entire things
-      or sub-pages. I used to use Dropbox Paper for this, but shared pages look really
-      weird for people who are not logged in. After Notion added a timeline creation
-      feature, there was no reason to keep using Paper.
-    el: ''
-  img: "/uploads/logo_notion.png"
+  desc: I use Notion to manage larger projects, because it allows me to create a small
+    database with timelines, attachments, to-dos and more and share the entire things
+    or sub-pages. I used to use Dropbox Paper for this, but shared pages look really
+    weird for people who are not logged in. After Notion added a timeline creation
+    feature, there was no reason to keep using Paper.
+  img: "/assets/tools/notion.webp"
+- name: Coda
+  url: https://coda.io
+  desc: Airtable let me down when I really needed it but Coda was there to catch me
+    before I hit the ground. It's way more powerful than I thought and, importantly,
+    the app-like “docs” you create with it are easy to use for people who are not
+    familiar with databases and storing lots of data in spreadsheets.
+  img: "/assets/tools/coda.webp"
+- name: Airtable
+  url: https://airtable.com/
+  desc: |-
+    I rely on Airtable to run businesses and basically my entire life.
+
+    Update: I mostly use Coda now but Airtable can be better for certain projects.
+  img: "/assets/tools/airtable.webp"
+- name: CleanShot X
+  url: https://cleanshot.com/
+  desc: Screenshot superpowers for Mac — capture, annotate and, most importantly,
+    share screen recordings with ease. I thought the built-in screenshot tool was
+    enough, but boy was I wrong!
+  img: "/assets/tools/cleanshot.webp"
+- name: Napkin
+  url: https://napkin.one/?via=anna
+  img: "/assets/tools/napkin.webp"
+  desc: A new tool that helps you *think*, by tagging your thoughts automatically
+    in a way that allows for connections to naturally emerge. It fosters serendipity
+    by showing you related thoughts and ideas. (Affiliate link)
+- name: SwiftRead
+  url: https://swiftread.com/
+  desc: The best speed reading extension BY FAR. It helps me read 3× as fast—literally!
+    The details are so well thought out.
+  img: "/assets/tools/swiftread.webp"
 - name: TeuxDeux
   url: https://teuxdeux.com/
-  desc:
-    en: Super straight-forward todo app that resembles a weekly paper&nbsp;planner.
-    el: ''
-  img: "/uploads/teuxdeux.webp"
+  desc: Super straight-forward todo app that resembles a weekly paper&nbsp;planner.
+  img: "/assets/tools/teuxdeux.webp"
+- name: Freedom
+  url: https://freedom.to/
+  desc: 'Sometimes just knowing I could be browsing YouTube and Instagram instead of doing something productive is enough to distract me. Freedom locks me out of the apps and websites I choose for however long I want and syncs across all of my devices, regardless of OS.'
+  img: "/assets/tools/freedom.webp"
+- name: 1Feed
+  url: https://1feed.app/
+  desc: 'Not just an RSS reader, but THE central hub for all the websites you want
+    to check on a regular basis. Instead of overwhelming you with an infinite feed
+    of updates, each site takes up just 1 line.'
+  img: "/assets/tools/1feed.webp"
+- name: Porkbun
+  url: https://porkbun.com/
+  desc: iwantmyname has gotten super expensive in recent years. So I switched to Porkbun for new domains and plan to transfer my old ones too. 
+  img: "/assets/tools/porkbun.webp"
 - name: iwantmyname
   url: https://iwantmyname.com
-  desc:
-    en: I buy most domains from iwantmyname. Their service is so easy to use and saves
-      you so much time when connecting your domain to other services, like email providers
-      and hosting servers.
-    el: ''
-  img: "/uploads/iwantmyname-logo.png"
+  desc: I buy most domains from iwantmyname. Their service is so easy to use and saves
+    you so much time when connecting your domain to other services, like email providers
+    and hosting servers.
+  img: "/assets/tools/iwantmyname.webp"
 - name: Photopea
   url: https://www.photopea.com/
-  desc:
-    en: Web-based Photoshop alternative.
-    el: Πρόγραμμα σαν το Photoshop που δουλεύει μέσα στο browser.
-  img: "/uploads/logo-photopea.jpg"
+  desc: Web-based Photoshop alternative.
+  img: "/assets/tools/photopea.webp"
+- name: Webflow
+  url: https://webflow.com/cms#editors
+  desc: Webflow is an amazing tool that empowers editors/clients to edit content by
+    themselves. I mostly use custom code + Jekyll + Forestry CMS nowadays, because
+    they offer more freedom and are way more affordable.
+  img: "/assets/tools/webflow.webp"
+- name: Loom
+  url: https://www.loom.com
+  desc: 'Loom makes sharing instructional videos so quick and easy that there''s no
+    reason not to. As soon as you''re done shooting, Loom has a shareable link ready
+    for anyone to watch. Update: Loom added more limits to their free version, so
+    I mostly use CleanShot X now.'
+  img: "/assets/tools/loom.webp"
+# - name: Tweek
+#   url: https://tweek.so
+#   desc: "Tweek literally changed my life. \U0001F499 I'm a sucker for complicated
+#     digital tools but nothing could beat the clarity of using a simple paper planner.
+#     Tweek is just like that but with all the advantages of being a digital product.
+#     I can't recommend it highly enough!"
+#   img: "/assets/tools/tweek.webp"
 - name: Butterick’s Practical Typography
   url: https://practicaltypography.com/
-  desc:
-    en: A tool in the broader sense of the word, this online book covers pretty much
-      everything you need to master the basics of typography.
-    el: ''
-  img: "/uploads/20210905_160051.jpg"
+  desc: A tool in the broader sense of the word, this online book covers pretty much
+    everything you need to master the basics of typography.
+  img: "/assets/tools/butterick.webp"
