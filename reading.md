@@ -6,9 +6,9 @@ ref: ''
 books:
 - title: "Made to Stick"
   cover: "/assets/books/made-to-stick.webp"
-  author: Chip and Dan Heath
+  author: Chip & Dan Heath
   read: now
-  pages: 328
+  pages: 291
   my-notes: ''
 - title: "NO.6#1"
   cover: "/assets/books/no6.webp"
