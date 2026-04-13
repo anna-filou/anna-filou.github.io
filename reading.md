@@ -4,6 +4,12 @@ layout: reading
 lang: en
 ref: ''
 books:
+- title: "Made to Stick"
+  cover: "/assets/books/made-to-stick.jpg"
+  author: Chip and Dan Heath
+  read: now
+  pages: 
+  my-notes: ''
 - title: "NO.6#1"
   cover: "/assets/books/no6.webp"
   author: あさのあつこ
