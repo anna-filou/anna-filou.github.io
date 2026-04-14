@@ -7,7 +7,7 @@ tags:
 - code
 layout: post
 main-image: 
-icon: /assets/blog/js-menu-fallback.webp
+icon: /assets/blog/js-menu-fallback.png
 lang: en
 ---
 

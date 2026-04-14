@@ -4,6 +4,9 @@ layout: default
 
 <article class="mt4 mt6-ns overflow-hidden">
   <div class="mb5">
+    {%- if page.icon -%}
+      <img src="{{ page.icon }}" alt="" width="64" height="64" class="db mb3 br3 ba bw1 b--faint" />
+    {%- endif -%}
     <h1 class="">{{ page.title }}</h1>
     <p class="secondary tracked ttu f6">
       <span class="ml1 tertiary">{{ content | number_of_words }} words •
