@@ -4,6 +4,12 @@ layout: reading
 lang: en
 ref: ''
 books:
+- title: "The Status Game"
+  cover: "/assets/books/the-status-game.jpg"
+  author: Will Storr
+  read: now
+  pages: 416
+  my-notes: ''
 - title: "Made to Stick"
   cover: "/assets/books/made-to-stick.webp"
   author: Chip & Dan Heath
