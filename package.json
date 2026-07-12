@@ -1,0 +1,13 @@
+{
+  "name": "anna-filou-github-io",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "capture-og": "node scripts/capture-og.mjs",
+    "capture-all-og": "node scripts/capture-all-og.mjs",
+    "capture-posts-og": "node scripts/capture-posts-og.mjs"
+  },
+  "devDependencies": {
+    "playwright": "^1.52.0"
+  }
+}

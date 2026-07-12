@@ -6,6 +6,7 @@ categories:
 tags:
 - philosophy
 layout: post
+banner: /assets/metadata/posts/choosing-face-og.png
 main-image: 
 icon: /assets/blog/choosing-face.webp
 lang: en

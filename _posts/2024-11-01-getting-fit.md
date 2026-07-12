@@ -6,6 +6,7 @@ categories:
 tags:
 - life
 layout: post
+banner: /assets/metadata/posts/getting-fit-og.png
 main-image: 
 icon: /assets/blog/getting-fit.webp
 lang: en

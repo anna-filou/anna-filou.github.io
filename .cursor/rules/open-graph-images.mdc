@@ -1,0 +1,76 @@
+---
+description: How to create and update per-page Open Graph images
+globs: _includes/head.html,scripts/capture*.mjs,assets/metadata/**/*
+alwaysApply: false
+---
+
+# Open Graph images
+
+## Field conventions
+
+| Field | Purpose |
+|-------|---------|
+| `banner` | On-page hero image (`_layouts/case-study.html` only) |
+| `og_image` | Social preview only — never rendered on the page |
+
+`_includes/head.html` resolves `og:image` / `twitter:image` in this order:
+
+1. `page.og_image`
+2. `page.banner`
+3. Fallback: `/assets/meta/an-og.jpg?v=3`
+
+## Which field to use
+
+**Static pages & regular posts** (no on-page hero):
+- Use `banner: /assets/metadata/...` or `og_image: /assets/metadata/...`
+- Either works; `og_image` is clearer, `banner` is fine as shorthand
+
+**Case studies** (`layout: case-study`):
+- Use `banner` (+ `banner-mobile`) for the on-page hero **and** for OG/social
+- Do **not** set `og_image` — `head.html` falls back to `banner` automatically
+- Do not capture screenshot OG images for case studies
+
+```
+Need on-page hero?     → banner (+ banner-mobile)
+Want custom social?    → og_image (not used on case studies)
+Happy with hero as OG? → banner only (case studies)
+Regular page/post?     → banner or og_image
+```
+
+## Screenshots
+
+Playwright captures at **1024×694**, dark mode. Saved to:
+- `assets/metadata/` — static pages
+- `assets/metadata/posts/` — blog posts
+
+## Prerequisites
+
+- Jekyll running locally: `bundle exec jekyll serve`
+- Playwright installed once: `npm install && npx playwright install chromium`
+
+## Commands
+
+```bash
+node scripts/capture-og.mjs /listening listening-og   # single page
+npm run capture-all-og                                 # static pages (not homepage or /now)
+npm run capture-posts-og                               # all _posts/ (updates front matter)
+```
+
+Override viewport with `OG_WIDTH`, `OG_HEIGHT`, `OG_BASE_URL`.
+
+## New static page
+
+1. `node scripts/capture-og.mjs /page-path page-og`
+2. Add `banner: /assets/metadata/page-og.png` (or `og_image`)
+3. Add to `scripts/capture-all-og.mjs` for batch regeneration
+
+Skip homepage (`/`, `/en/`, `/el/`) and `/now` (content changes often).
+
+## New blog post
+
+After the post is reachable at `/{category}/{slug}.html`:
+
+- **Regular post:** `banner: /assets/metadata/posts/{slug}-og.png`
+- **Case study:** `banner` (+ `banner-mobile`) only — same image for hero and OG; skip screenshot capture
+
+Or run `npm run capture-posts-og` (skips case studies; sets `banner` on other posts).

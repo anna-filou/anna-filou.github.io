@@ -6,6 +6,7 @@ categories:
 tags:
 - product
 layout: post
+banner: /assets/metadata/posts/carousels-og.png
 main-image: 
 icon: /assets/blog/carousel.webp
 lang: en

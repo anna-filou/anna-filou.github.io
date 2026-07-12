@@ -6,6 +6,7 @@ categories:
 tags:
 - business
 layout: post
+banner: /assets/metadata/posts/solo-agencies-og.png
 main-image: 
 icon: /assets/blog/solo-agencies.webp
 lang: en

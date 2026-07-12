@@ -6,6 +6,7 @@ categories:
 tags:
 - product design
 layout: post
+banner: /assets/metadata/posts/portfolio-project-showcase-og.png
 main-image: 
 icon: /assets/blog/portfolio-project-showcase.webp
 lang: en

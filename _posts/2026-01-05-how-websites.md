@@ -6,6 +6,7 @@ categories:
 tags:
 - product
 layout: post
+banner: /assets/metadata/posts/how-websites-og.png
 main-image: 
 icon: /assets/tools/jekyll.webp
 lang: en

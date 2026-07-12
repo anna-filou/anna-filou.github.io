@@ -6,6 +6,7 @@ categories:
 tags:
 - product
 layout: post
+banner: /assets/metadata/posts/building-today-og.png
 main-image: 
 icon: /assets/blog/building-today.webp
 lang: en

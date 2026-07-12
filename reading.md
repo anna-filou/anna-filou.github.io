@@ -3,6 +3,7 @@ title: My Bookshelf
 layout: reading
 lang: en
 ref: ''
+banner: /assets/metadata/reading-og.png
 books:
 - title: "The Status Game"
   cover: "/assets/books/the-status-game.jpg"

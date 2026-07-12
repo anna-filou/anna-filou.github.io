@@ -6,6 +6,7 @@ categories:
 tags:
 - essay
 layout: post
+banner: /assets/metadata/posts/why-are-pronouns-gendered-at-all-og.png
 main-image:
 icon: /assets/blog/gendered-pronouns.webp
 lang: en

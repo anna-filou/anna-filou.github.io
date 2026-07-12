@@ -6,6 +6,7 @@ categories:
 tags:
 - code
 layout: post
+banner: /assets/metadata/posts/css-color-scales-og.png
 main-image: 
 icon: /assets/blog/css-color-scales.webp
 lang: en

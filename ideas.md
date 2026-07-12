@@ -2,6 +2,7 @@
 title: Ideas
 layout: ideas
 lang: en
+banner: /assets/metadata/ideas-og.png
 subtitle: |
     A list of rough (mostly software) ideas I'd like to work on, in no particular order. Do you have any similar ones? Let's&nbsp;collab!
 

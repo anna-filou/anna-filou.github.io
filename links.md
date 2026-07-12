@@ -1,8 +1,9 @@
-<!-- --- -->
+---
 title: Links
 layout: links
 lang: en
 ref: 'links'
+banner: /assets/metadata/links-og.png
 links:
 - title: My work
   description: 

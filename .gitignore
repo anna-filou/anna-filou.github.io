@@ -5,3 +5,4 @@ _includes/.DS_Store
 .jekyll-cache/
 /_site
 .forestry/.DS_Store
+node_modules/

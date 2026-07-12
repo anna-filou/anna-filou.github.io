@@ -6,6 +6,7 @@ categories:
 tags:
 - code
 layout: post
+banner: /assets/metadata/posts/js-menu-fallback-og.png
 main-image: 
 icon: /assets/blog/js-menu-fallback.png
 lang: en
