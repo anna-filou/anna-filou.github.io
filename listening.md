@@ -57,10 +57,11 @@ songs:
 <div class="container pb5 pb6-ns">
     <div class="listening-grid">
         {% for song in page.songs %}
-        <div class="listening-card{% if song.snippet %} listening-card--playable{% endif %}"{% if song.snippet %} data-snippet="{{ song.snippet }}" role="button" tabindex="0" aria-label="Play {{ song.title | escape }} by {{ song.artist | escape }}"{% endif %}>
+        <div class="listening-card{% if song.snippet %} listening-card--playable{% endif %}"{% if song.snippet %} role="button" tabindex="0" aria-label="Play {{ song.title | escape }} by {{ song.artist | escape }}"{% endif %}>
             <div class="listening-cover-wrap br3 ba b--faint grow">
                 <img src="{{ song.cover }}" alt="{{ song.title | escape }} by {{ song.artist | escape }}" class="listening-cover" width="300" height="300">
                 {% if song.snippet %}
+                <audio class="listening-audio" preload="metadata" src="{{ song.snippet }}"></audio>
                 <span class="listening-control" aria-hidden="true">
                     <span class="listening-control__icon">
                         <svg class="listening-control__play" viewBox="0 0 24 24" width="24" height="24" aria-hidden="true"><path d="M8 5.14v14.72L19 12 8 5.14z" fill="currentColor"/></svg>
@@ -76,5 +77,4 @@ songs:
     </div>
 </div>
 
-<audio id="listening-player" preload="none"></audio>
 <script src="/assets/js/listening.js"></script>
