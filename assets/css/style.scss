@@ -959,3 +959,95 @@ hr {
 
 .raise { -moz-osx-font-smoothing: grayscale; -webkit-backface-visibility: hidden; backface-visibility: hidden; -webkit-transform: translateZ( 0 ); transform: translateZ( 0 ); transition: -webkit-transform .25s ease-out; transition: transform .25s ease-out; transition: transform .25s ease-out, -webkit-transform .25s ease-out; }
 .raise:hover, .raise:focus { -webkit-transform: translateY(-1rem); transform: translateY(-1rem); }
+
+.listening-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(min(calc(50% - 1rem), 200px), 1fr));
+  gap: 1.2rem;
+}
+
+.listening-cover-wrap {
+  position: relative;
+  display: block;
+  overflow: hidden;
+}
+
+.listening-cover {
+  aspect-ratio: 1 / 1;
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  display: block;
+  background-color: $light-faint;
+
+  @media (prefers-color-scheme: dark) {
+    background-color: $dark-faint;
+  }
+}
+
+.listening-control {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 0;
+  transition: opacity 0.25s ease;
+  pointer-events: none;
+  background-color: rgba(0, 0, 0, 0.35);
+  color: #fff;
+}
+
+.listening-control__icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 3rem;
+  height: 3rem;
+  border-radius: 50%;
+  background-color: rgba(0, 0, 0, 0.55);
+}
+
+.listening-control__play,
+.listening-control__pause {
+  display: block;
+}
+
+.listening-control__pause {
+  display: none;
+}
+
+.listening-card--playable:hover .listening-control {
+  opacity: 1;
+}
+
+.listening-card.is-playing .listening-control__play {
+  display: none;
+}
+
+.listening-card.is-playing .listening-control__pause {
+  display: block;
+}
+
+.listening-artist {
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+.listening-card--playable {
+  cursor: pointer;
+}
+
+.listening-card {
+  transition: opacity 0.5s;
+}
+
+.listening-grid.has-playing .listening-card:not(.is-playing) {
+  opacity: 0.5;
+}
+
+.listening-audio {
+  display: none;
+}

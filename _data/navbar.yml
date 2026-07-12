@@ -27,6 +27,11 @@ secondary:
     url: reading
     langs: 'no'
     image: /assets/menu-images/reading.webp
+  - en: Listening
+    el: 
+    url: listening
+    langs: 'no'
+    image: /assets/menu-images/listening.webp
   - en: Tools
     el: 
     url: uses
