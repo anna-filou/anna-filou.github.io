@@ -87,7 +87,8 @@ songs:
     <h1 class="f1">{{ page.title }}</h1>
     <div class="">
         <p>Snippets from some of my favorite songs. Click one to play!</p>
-        <p>(This list is nothing close to complete but I wanted to start somewhere!)</p>
+        <p>This list is nothing close to complete but I wanted to start somewhere!</p>
+        <p>Here’s a <a target="_blank" href="https://www.youtube.com/playlist?list=PLThPR15_KIIXPE6sOrPQmqD7GBkPIvPQq">YouTube playlist</a> with these songs and more.</p>
     </div>
 </div>
 
