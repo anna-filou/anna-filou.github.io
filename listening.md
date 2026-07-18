@@ -115,4 +115,9 @@ songs:
     </div>
 </div>
 
+<button type="button" class="listening-float-pause" aria-label="Stop music" hidden>
+    <svg viewBox="0 0 24 24" width="20" height="20" aria-hidden="true"><path d="M6 5h4v14H6V5zm8 0h4v14h-4V5z" fill="currentColor"/></svg>
+    <span>Stop music</span>
+</button>
+
 <script src="/assets/js/listening.js"></script>

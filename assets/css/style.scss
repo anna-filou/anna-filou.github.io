@@ -1059,3 +1059,71 @@ hr {
 .listening-audio {
   display: none;
 }
+
+.listening-float-pause {
+  position: fixed;
+  left: 50%;
+  /* Sit above the ~70px floating mobile nav (same clearance as #open-menu + a gap) */
+  bottom: calc(60px + 0.75rem + env(safe-area-inset-bottom, 0px));
+  z-index: 1000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.4rem;
+  height: 3.25rem;
+  margin: 0;
+  padding: 0 1.1rem 0 0.9rem;
+  border: 0;
+  border-radius: 999px;
+  cursor: pointer;
+  color: #fff;
+  font: inherit;
+  font-size: 0.95rem;
+  font-weight: 600;
+  line-height: 1;
+  white-space: nowrap;
+  background-color: rgba(0, 0, 0, 0.88);
+  box-shadow: 0 8px 28px rgba(0, 0, 0, 0.28);
+  transform: translateX(-50%);
+  transition: opacity 0.2s ease, transform 0.2s ease;
+
+  svg {
+    flex-shrink: 0;
+  }
+
+  &[hidden] {
+    display: none;
+  }
+
+  &:hover,
+  &:focus-visible {
+    background-color: rgba(0, 0, 0, 0.95);
+    transform: translateX(-50%) scale(1.05);
+  }
+
+  &:focus-visible {
+    outline: 2px solid $light-a;
+    outline-offset: 3px;
+  }
+
+  /* Desktop: centered under the top nav */
+  @media screen and (min-width: 50em) {
+    top: calc(60px + 0.75rem + env(safe-area-inset-top, 0px));
+    bottom: auto;
+  }
+
+  @media (prefers-color-scheme: dark) {
+    background-color: rgba(255, 255, 255, 0.85);
+    color: #050736;
+    box-shadow: 0 8px 28px rgba(0, 0, 0, 0.45);
+
+    &:hover,
+    &:focus-visible {
+      background-color: rgba(255, 255, 255, 0.95);
+    }
+
+    &:focus-visible {
+      outline-color: $dark-a;
+    }
+  }
+}
