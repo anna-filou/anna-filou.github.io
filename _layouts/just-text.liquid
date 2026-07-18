@@ -30,6 +30,21 @@
 
     <script src="/assets/js/progress.js"></script>
 
+    <script type="speculationrules">
+    {
+      "prerender": [{
+        "where": {
+          "and": [
+            { "href_matches": "/*" },
+            { "not": { "href_matches": "/*\\?*" } },
+            { "not": { "selector_matches": "[target=_blank]" } },
+            { "not": { "selector_matches": ".external" } }
+          ]
+        },
+        "eagerness": "eager"
+      }]
+    }
+    </script>
     <script src="//instant.page/5.2.0" type="module" integrity="sha384-jnZyxPjiipYXnSU0ygqeac2q7CVYMbh84q0uHVRRxEtvFPiQYbXWUorga2aqZJ0z"></script>
 </body>
 </html>

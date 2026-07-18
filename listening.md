@@ -97,7 +97,7 @@ songs:
         {% for song in page.songs %}
         <div class="listening-card{% if song.snippet %} listening-card--playable{% endif %}"{% if song.snippet %} role="button" tabindex="0" aria-label="Play {{ song.title | escape }} by {{ song.artist | escape }}"{% endif %}>
             <div class="listening-cover-wrap br3 ba b--faint grow">
-                <img src="{{ song.cover }}" alt="{{ song.title | escape }} by {{ song.artist | escape }}" class="listening-cover" width="300" height="300">
+                <img src="{{ song.cover }}" alt="{{ song.title | escape }} by {{ song.artist | escape }}" class="listening-cover" width="300" height="300" loading="lazy" decoding="async">
                 {% if song.snippet %}
                 <audio class="listening-audio" preload="metadata" src="{{ song.snippet }}"></audio>
                 <span class="listening-control" aria-hidden="true">
