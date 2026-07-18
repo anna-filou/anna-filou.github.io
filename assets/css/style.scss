@@ -1044,8 +1044,16 @@ hr {
   transition: opacity 0.5s;
 }
 
-.listening-grid.has-playing .listening-card:not(.is-playing) {
-  opacity: 0.5;
+@media (hover: hover) {
+  .listening-grid.has-playing .listening-card:not(.is-playing) {
+    opacity: 0.5;
+  }
+}
+
+@media (hover: none) {
+  .listening-card.is-playing .listening-control {
+    opacity: 1;
+  }
 }
 
 .listening-audio {
