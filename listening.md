@@ -7,79 +7,79 @@ banner: /assets/metadata/listening-og.png
 songs:
 - title: introvert
   artist: brakence
-  cover: /assets/listening/brakence-introvert.png
+  cover: /assets/listening/brakence-introvert.webp
   snippet: /assets/listening/snippet-01.mp3
 - title: Doomed 
   artist: MAPHRA (BMTH COVER)
-  cover: /assets/listening/maphra-doomed.jpg
+  cover: /assets/listening/maphra-doomed.webp
   snippet: /assets/listening/snippet-02.mp3
 - title: In the Name of Love
   artist: "Martin Garrix & Bebe Rexha"
-  cover: /assets/listening/in-the-name-of-love.jpg
+  cover: /assets/listening/in-the-name-of-love.webp
   snippet: /assets/listening/snippet-03.mp3
 - title: Hell On Earth
   artist: Iron Maiden
-  cover: /assets/listening/iron-maiden-hell-on-earth.jpg
+  cover: /assets/listening/iron-maiden-hell-on-earth.webp
   snippet: /assets/listening/snippet-04.mp3
 - title: Monster
   artist: Jorge Rivera-Herrans
-  cover: /assets/listening/jorge-rivera-herrans-monster.jpg
+  cover: /assets/listening/jorge-rivera-herrans-monster.webp
   snippet: /assets/listening/snippet-05.mp3
 - title: Rote Flaggen
   artist: Berq
-  cover: /assets/listening/berq-rote-flaggen.jpg
+  cover: /assets/listening/berq-rote-flaggen.webp
   snippet: /assets/listening/snippet-06.mp3
 - title: 2 Heads
   artist: Coleman Hell
-  cover: /assets/listening/coleman-hell-2-heads.jpg
+  cover: /assets/listening/coleman-hell-2-heads.webp
   snippet: /assets/listening/snippet-07.mp3
 - title: Mr. Jones
   artist: Counting Crows
-  cover: /assets/listening/counting-crows-mr-jones.jpg
+  cover: /assets/listening/counting-crows-mr-jones.webp
   snippet: /assets/listening/snippet-08.mp3
 - title: Picture Perfect
   artist: Escape the Fate
-  cover: /assets/listening/escape-the-fate-picture-perfect.jpg
+  cover: /assets/listening/escape-the-fate-picture-perfect.webp
   snippet: /assets/listening/snippet-09.mp3
 - title: Nicotine
   artist: Panic! At The Disco
-  cover: /assets/listening/panic-at-the-disco-nicotine.jpg
+  cover: /assets/listening/panic-at-the-disco-nicotine.webp
   snippet: /assets/listening/snippet-10.mp3
 - title: Fallen Angel (We're All Down Here Alone)
   artist: "NXCRE & The Villains"
-  cover: /assets/listening/nxcre-fallen-angel.jpg
+  cover: /assets/listening/nxcre-fallen-angel.webp
   snippet: /assets/listening/snippet-11.mp3
 - title: Emergency Contact
   artist: Pierce the Veil
-  cover: /assets/listening/pierce-the-veil-emergency-contact.jpg
+  cover: /assets/listening/pierce-the-veil-emergency-contact.webp
   snippet: /assets/listening/snippet-12.mp3
 - title: King For a Day (ft. Kellin Quinn)
   artist: Pierce the Veil
-  cover: /assets/listening/pierce-the-veil-king-for-a-day.jpg
+  cover: /assets/listening/pierce-the-veil-king-for-a-day.webp
   snippet: /assets/listening/snippet-13.mp3
 - title: Props & Mayhem
   artist: Pierce the Veil
-  cover: /assets/listening/pierce-the-veil-props-and-mayhem.jpg
+  cover: /assets/listening/pierce-the-veil-props-and-mayhem.webp
   snippet: /assets/listening/snippet-14.mp3
 - title: Looking Through Your Eyes
   artist: Bryan White and The Corrs
-  cover: /assets/listening/bryan-white-looking-through-your-eyes.jpg
+  cover: /assets/listening/bryan-white-looking-through-your-eyes.webp
   snippet: /assets/listening/snippet-15.mp3
 - title: I Want to Break Free
   artist: Queen
-  cover: /assets/listening/queen-i-want-to-break-free.jpg
+  cover: /assets/listening/queen-i-want-to-break-free.webp
   snippet: /assets/listening/snippet-16.mp3
 - title: Hero Of War
   artist: Rise Against
-  cover: /assets/listening/rise-against-hero-of-war.jpg
+  cover: /assets/listening/rise-against-hero-of-war.webp
   snippet: /assets/listening/snippet-17.mp3
 - title: House On Fire
   artist: Rise Against
-  cover: /assets/listening/rise-against-house-on-fire.jpg
+  cover: /assets/listening/rise-against-house-on-fire.webp
   snippet: /assets/listening/snippet-18.mp3
 - title: Meine Soldaten (MAXIM COVER)
   artist: Rogers
-  cover: /assets/listening/rogers-meine-soldaten.jpg
+  cover: /assets/listening/rogers-meine-soldaten.webp
   snippet: /assets/listening/snippet-19.mp3
 ---
 
