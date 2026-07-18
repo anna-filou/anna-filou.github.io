@@ -8,6 +8,18 @@
             #loading { display: none; }
         </style>
     </noscript>
+    {% if page.url == "/" or page.url == "/en/" %}
+    <script>
+        try {
+            if (localStorage.getItem('homeVisitedAlready') === '1') {
+                document.documentElement.classList.add('home-visited-already');
+            }
+        } catch (e) {}
+    </script>
+    <style>
+        html.home-visited-already #loading { display: none !important; }
+    </style>
+    {% endif %}
 </head>
 <body class="bt bw2 border-rainbow min-vh-100">
 
