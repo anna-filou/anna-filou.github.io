@@ -93,12 +93,12 @@ layout: default
           {% if project.case_study %}
             <div class="overflow-hidden bb bw1 b--faint">
               <a href="{{ project.case_study.url }}" class="project-image db grow" aria-label="{{ project.title }} Case Study">
-                <img src="{{ project.img }}" class="db" alt="" width="371" height="431">
+                <img src="{{ project.img }}" class="db" alt="" width="371" height="431" loading="lazy" decoding="async">
               </a>
             </div>
           {% else %}
           <div class="project-image db bb bw1 b--faint">
-            <img src="{{ project.img }}" class="db" alt="" width="371" height="431">
+            <img src="{{ project.img }}" class="db" alt="" width="371" height="431" loading="lazy" decoding="async">
           </div>
             
           {% endif %}
@@ -145,21 +145,21 @@ layout: default
               {% for image in images %}
                 <div class="carousel__slide">
                   <div class="carousel__image-wrapper">
-                    <img src="{{ image }}" class="br4" alt="" width="200" height="200">
+                    <img src="{{ image }}" class="br4" alt="" width="200" height="200" loading="lazy" decoding="async">
                   </div>
                 </div>
               {% endfor %}
               {% for image in images %}
                 <div class="carousel__slide">
                   <div class="carousel__image-wrapper">
-                    <img src="{{ image }}" class="br4" alt="" width="200" height="200">
+                    <img src="{{ image }}" class="br4" alt="" width="200" height="200" loading="lazy" decoding="async">
                   </div>
                 </div>
               {% endfor %}
               {% for image in images %}
                 <div class="carousel__slide">
                   <div class="carousel__image-wrapper">
-                    <img src="{{ image }}" class="br4" alt="" width="200" height="200">
+                    <img src="{{ image }}" class="br4" alt="" width="200" height="200" loading="lazy" decoding="async">
                   </div>
                 </div>
               {% endfor %}
@@ -183,21 +183,21 @@ layout: default
               {% for image in images %}
                 <div class="carousel__slide">
                   <div class="carousel__image-wrapper">
-                    <img src="{{ image }}" class="br4" alt="" width="200" height="200">
+                    <img src="{{ image }}" class="br4" alt="" width="200" height="200" loading="lazy" decoding="async">
                   </div>
                 </div>
               {% endfor %}
               {% for image in images %}
                 <div class="carousel__slide">
                   <div class="carousel__image-wrapper">
-                    <img src="{{ image }}" class="br4" alt="" width="200" height="200">
+                    <img src="{{ image }}" class="br4" alt="" width="200" height="200" loading="lazy" decoding="async">
                   </div>
                 </div>
               {% endfor %}
               {% for image in images %}
                 <div class="carousel__slide">
                   <div class="carousel__image-wrapper">
-                    <img src="{{ image }}" class="br4" alt="" width="200" height="200">
+                    <img src="{{ image }}" class="br4" alt="" width="200" height="200" loading="lazy" decoding="async">
                   </div>
                 </div>
               {% endfor %}
