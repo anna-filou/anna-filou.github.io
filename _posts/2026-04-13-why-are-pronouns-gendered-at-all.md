@@ -28,7 +28,7 @@ I still remember stumbling upon this experiment that found that simply asking fe
 
 If I say “she is a doctor”, you know I’m talking about a female human. But you know nothing else. What is their hair color? Skin color? Age? Doesn’t matter! If it did, I could specify (“She is 32 years old. She has blond hair.”) But gender? Well, that one characteristic is so important for some reason that I just need to mention it to be “grammatically correct”.
 
-Reproductive sex is real. Humans reproduce through a binary sex system: male sperm fertilizes a female egg. That’s not up for debate.[^3]
+Humans reproduce through a binary sex system: male sperm fertilizes a female egg. That’s not up for debate.[^3]
 
 But choosing to divide the population based on reproductive biology, and use different pronouns to refer to them, and making it a grammatical necessity that we use these pronouns in almost every sentence… well, those are arbitrary decisions our society has made, and can therefore undo.
 
