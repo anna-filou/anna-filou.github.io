@@ -1017,7 +1017,7 @@ hr {
   display: none;
 }
 
-.listening-card--playable:hover .listening-control {
+.listening-card--playable .listening-cover-wrap:hover .listening-control {
   opacity: 1;
 }
 
@@ -1029,6 +1029,17 @@ hr {
   display: block;
 }
 
+.listening-meta {
+  display: flex;
+  align-items: flex-start;
+  gap: 0.5rem;
+}
+
+.listening-copy {
+  flex: 1;
+  min-width: 0;
+}
+
 .listening-artist {
   display: -webkit-box;
   -webkit-line-clamp: 2;
@@ -1036,7 +1047,27 @@ hr {
   overflow: hidden;
 }
 
-.listening-card--playable {
+.listening-link {
+  flex-shrink: 0;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 0.15rem;
+  color: inherit;
+  opacity: 0.55;
+  transition: opacity 0.2s ease;
+}
+
+.listening-link:hover,
+.listening-link:focus-visible {
+  opacity: 1;
+}
+
+.listening-link__icon {
+  display: block;
+}
+
+.listening-card--playable .listening-cover-wrap {
   cursor: pointer;
 }
 

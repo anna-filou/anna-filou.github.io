@@ -68,7 +68,8 @@
 
   cards.forEach((card) => {
     const audio = card.querySelector('audio');
-    if (!audio) return;
+    const trigger = card.querySelector('.listening-cover-wrap');
+    if (!audio || !trigger) return;
 
     const toggle = async () => {
       if (currentCard === card && !audio.paused) {
@@ -88,8 +89,13 @@
       }
     };
 
-    card.addEventListener('click', toggle);
-    card.addEventListener('keydown', (event) => {
+    // Clicks on title/artist hit the card but must not start playback.
+    card.addEventListener('click', (event) => {
+      if (!trigger.contains(event.target)) return;
+      toggle();
+    });
+
+    trigger.addEventListener('keydown', (event) => {
       if (event.key === 'Enter' || event.key === ' ') {
         event.preventDefault();
         toggle();
