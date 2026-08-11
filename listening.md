@@ -40,6 +40,11 @@ songs:
   cover: /assets/listening/iron-maiden-hell-on-earth.webp
   snippet: /assets/listening/snippet-04.mp3
   link: https://open.spotify.com/track/19Z0EtM84F2Wbw17KPD88o
+- title: So schön kaputt (Akustik Version)
+  artist: SDP
+  cover: /assets/listening/sdp-so-schoen-kaputt.webp
+  snippet: /assets/listening/snippet-32.mp3
+  link: https://open.spotify.com/track/3T0y1pShcjywQzOWkIBhjj
 - title: Picture Perfect
   artist: Escape the Fate
   cover: /assets/listening/escape-the-fate-picture-perfect.webp
