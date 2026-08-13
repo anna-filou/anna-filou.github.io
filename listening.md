@@ -115,8 +115,8 @@ songs:
   cover: /assets/listening/rise-against-house-on-fire.webp
   snippet: /assets/listening/snippet-18.mp3
   link: https://open.spotify.com/track/4c75xeSteTcgSSxRtsKqOJ
-- title: Meine Soldaten (MAXIM COVER)
-  artist: Rogers
+- title: Meine Soldaten
+  artist: Rogers (Maxim Cover)
   cover: /assets/listening/rogers-meine-soldaten.webp
   snippet: /assets/listening/snippet-19.mp3
   link: https://open.spotify.com/track/3hAUAprCjQMwlSVfXJ5gXB
@@ -313,11 +313,10 @@ songs:
 <div class="container pb5 pb6-ns">
     <div class="listening-grid">
         {% for song in page.songs %}
-        <div class="listening-card{% if song.snippet %} listening-card--playable{% endif %}">
+        <div class="listening-card{% if song.snippet %} listening-card--playable{% endif %}"{% if song.snippet %} data-snippet="{{ song.snippet | escape }}"{% endif %}>
             <div class="listening-cover-wrap br3 ba b--faint grow"{% if song.snippet %} role="button" tabindex="0" aria-label="Play {{ song.title | escape }} by {{ song.artist | escape }}"{% endif %}>
                 <img src="{{ song.cover }}" alt="{{ song.title | escape }} by {{ song.artist | escape }}" class="listening-cover" width="300" height="300" loading="lazy" decoding="async">
                 {% if song.snippet %}
-                <audio class="listening-audio" preload="metadata" src="{{ song.snippet }}"></audio>
                 <span class="listening-control" aria-hidden="true">
                     <span class="listening-control__icon">
                         <svg class="listening-control__play" viewBox="0 0 24 24" width="24" height="24" aria-hidden="true"><path d="M8 5.14v14.72L19 12 8 5.14z" fill="currentColor"/></svg>
@@ -361,4 +360,4 @@ songs:
     <span>Stop music</span>
 </button>
 
-<script src="/assets/js/listening.js?v=2"></script>
+<script src="/assets/js/listening.js?v=5"></script>
