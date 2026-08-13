@@ -165,6 +165,141 @@ songs:
   cover: /assets/listening/bryan-white-looking-through-your-eyes.webp
   snippet: /assets/listening/snippet-15.mp3
   link: https://www.youtube.com/watch?v=WnQmRbyWtQI
+- title: Moving On (Acoustic)
+  artist: Asking Alexandria
+  cover: /assets/listening/asking-alexandria-moving-on-acoustic.webp
+  snippet: /assets/listening/snippet-33.mp3
+  link: https://open.spotify.com/track/3gBPTRV6R7IwVfuo6Bn25x
+- title: Burn for You
+  artist: "Barlow & Bear"
+  cover: /assets/listening/barlow-and-bear-burn-for-you.webp
+  snippet: /assets/listening/snippet-34.mp3
+  link: https://open.spotify.com/track/6lmke3XxJTBC2x2tT6gMo7
+- title: Gales of Song
+  artist: Belle
+  cover: /assets/listening/belle-gales-of-song-english-version.webp
+  snippet: /assets/listening/snippet-35.mp3
+  link: https://open.spotify.com/track/4nYtUFgvS188cTHFtK8GK5
+- title: Zoutelande
+  artist: BLØF, Geike Arnaert
+  cover: /assets/listening/blof-zoutelande-feat-geike-arnaert.webp
+  snippet: /assets/listening/snippet-36.mp3
+  link: https://open.spotify.com/track/0le8EcVp4x1JjMhwRKIOVi
+- title: Lost It All
+  artist: Black Veil Brides
+  cover: /assets/listening/black-veil-brides-lost-it-all.webp
+  snippet: /assets/listening/snippet-37.mp3
+  link: https://open.spotify.com/track/1wfZKFKzBDRl1wTK7TvYQe
+- title: The First Time
+  artist: Damiano David
+  cover: /assets/listening/damiano-david-the-first-time.webp
+  snippet: /assets/listening/snippet-38.mp3
+  link: https://open.spotify.com/track/2t4RCWbICUqhPKVQeA7VPq
+- title: Paralyzed
+  artist: Dream Theater
+  cover: /assets/listening/dream-theater-paralyzed.webp
+  snippet: /assets/listening/snippet-39.mp3
+  link: https://open.spotify.com/track/527rOHTuKjeF5vpF0zkr9S
+- title: "It's All Tears"
+  artist: HIM
+  cover: /assets/listening/him-it-s-all-tears-drown-in-this-love.webp
+  snippet: /assets/listening/snippet-40.mp3
+  link: https://open.spotify.com/track/4B4QRZxr7MTPSlIMiaNaFN
+- title: Take Me To Church
+  artist: Hozier
+  cover: /assets/listening/hozier-take-me-to-church.webp
+  snippet: /assets/listening/snippet-41.mp3
+  link: https://open.spotify.com/track/70LrxJ5u19umvrXbC19g20
+- title: Incomplete
+  artist: James Bay
+  cover: /assets/listening/james-bay-incomplete.webp
+  snippet: /assets/listening/snippet-42.mp3
+  link: https://open.spotify.com/track/2cFWt6kXHjqVAvVnGgS8ET
+- title: Carry on Wayward Son
+  artist: Kansas
+  cover: /assets/listening/kansas-carry-on-wayward-son.webp
+  snippet: /assets/listening/snippet-43.mp3
+  link: https://open.spotify.com/track/4DMKwE2E2iYDKY01C335Uw
+- title: The Riddle
+  artist: Kodaline
+  cover: /assets/listening/kodaline-the-riddle.webp
+  snippet: /assets/listening/snippet-44.mp3
+  link: https://open.spotify.com/track/2BwYgQ48l8ky3CULr9cint
+- title: Personal Hell
+  artist: Kim Petras
+  cover: /assets/listening/kim-petras-personal-hell.webp
+  snippet: /assets/listening/snippet-45.mp3
+  link: https://open.spotify.com/track/2k7U163ZREgFqAAlOhsgcy
+- title: One More Light
+  artist: Linkin Park
+  cover: /assets/listening/linkin-park-one-more-light.webp
+  snippet: /assets/listening/snippet-46.mp3
+  link: https://open.spotify.com/track/3xXBsjrbG1xQIm1xv1cKOt
+- title: more than life
+  artist: "Machine Gun Kelly, Glaive"
+  cover: /assets/listening/machine-gun-kelly-glaive-more-than-life-ft-glaive.webp
+  snippet: /assets/listening/snippet-47.mp3
+  link: https://open.spotify.com/track/3kB1DY1ou9dg5DfPcNuJbT
+- title: Sucker
+  artist: Marcus King
+  cover: /assets/listening/marcus-king-sucker.webp
+  snippet: /assets/listening/snippet-48.mp3
+  link: https://open.spotify.com/track/4cOkuEMhRVQdDIYktvLsUC
+- title: Baby Said
+  artist: Måneskin
+  cover: /assets/listening/maneskin-baby-said.webp
+  snippet: /assets/listening/snippet-49.mp3
+  link: https://open.spotify.com/track/5xsNR0fpFr7Z6HwnSJo6Om
+- title: Kiri
+  artist: MONORAL
+  cover: /assets/listening/monoral-kiri.webp
+  snippet: /assets/listening/snippet-50.mp3
+  link: https://open.spotify.com/track/4Ljv20Qfsp3Ul6BBml37Xb
+- title: Starlight
+  artist: Muse
+  cover: /assets/listening/muse-starlight.webp
+  snippet: /assets/listening/snippet-51.mp3
+  link: https://open.spotify.com/track/3skn2lauGk7Dx6bVIt5DVj
+- title: "To The Moon & Back"
+  artist: Savage Garden
+  cover: /assets/listening/savage-garden-to-the-moon-and-back.webp
+  snippet: /assets/listening/snippet-52.mp3
+  link: https://open.spotify.com/track/3K35c3c8M2IdW0JiWpwBsg
+- title: Monster
+  artist: Skillet
+  cover: /assets/listening/skillet-monster.webp
+  snippet: /assets/listening/snippet-53.mp3
+  link: https://open.spotify.com/track/2UREu1Y8CO4jXkbvqAtP7g
+- title: The Apparition
+  artist: Sleep Token
+  cover: /assets/listening/sleep-token-the-apparition.webp
+  snippet: /assets/listening/snippet-54.mp3
+  link: https://open.spotify.com/track/21eMasL93nEafqRwlI851z
+- title: Strange
+  artist: Tokio Hotel
+  cover: /assets/listening/tokio-hotel-strange.webp
+  snippet: /assets/listening/snippet-55.mp3
+  link: https://open.spotify.com/track/2FG4Qo6Qvm1ZMVvzYtDN0N
+- title: Habits (Stay High)
+  artist: Tove Lo
+  cover: /assets/listening/tove-lo-habits-stay-high.webp
+  snippet: /assets/listening/snippet-56.mp3
+  link: https://open.spotify.com/track/14OxJlLdcHNpgsm4DRwDOB
+- title: If I Know You
+  artist: The Presets
+  cover: /assets/listening/the-presets-if-i-know-you.webp
+  snippet: /assets/listening/snippet-57.mp3
+  link: https://open.spotify.com/track/2Pul3XbZ8Du5PAGrCRq5HC
+- title: Shut Up and Dance
+  artist: WALK THE MOON
+  cover: /assets/listening/walk-the-moon-shut-up-and-dance.webp
+  snippet: /assets/listening/snippet-58.mp3
+  link: https://open.spotify.com/track/6jJ4UDPpsznxQKCSHLiipS
+- title: El Tango De Roxanne
+  artist: Moulin Rouge
+  cover: /assets/listening/moulin-rouge-el-tango-de-roxanne.webp
+  snippet: /assets/listening/snippet-59.mp3
+  link: https://open.spotify.com/track/606WoZeEY2gs7wCne8VPUN
 ---
 
 <div class="container mt5 mb5 mt6-ns">
