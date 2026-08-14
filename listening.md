@@ -305,8 +305,8 @@ songs:
 <div class="container mt5 mb5 mt6-ns">
     <h1 class="f1">{{ page.title }}</h1>
     <div class="">
-        <p>Snippets from some of my favorite songs in semi-random order.</p>
-        <p>Click a cover to play! Also, here’s a <a target="_blank" href="https://www.youtube.com/playlist?list=PLThPR15_KIIXPE6sOrPQmqD7GBkPIvPQq">YouTube playlist</a> with these and more.</p>
+        <p>Snippets from some of my favorite songs in semi-random order. <strong>Click one to play!</strong></p>
+        <p>These songs don’t simply <b>sound</b> great to me, they make me <b>feel</b> something.</p>
     </div>
 </div>
 
