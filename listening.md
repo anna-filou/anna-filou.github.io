@@ -360,4 +360,4 @@ songs:
     <span>Stop music</span>
 </button>
 
-<script src="/assets/js/listening.js?v=5"></script>
+<script src="/assets/js/listening.js?v=6"></script>
