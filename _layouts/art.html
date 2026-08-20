@@ -1,0 +1,229 @@
+---
+layout: default
+---
+
+{{ content }}
+
+<div id="art-lightbox" class="art-lightbox" hidden aria-hidden="true">
+	<div class="art-lightbox__backdrop"></div>
+	<img class="art-lightbox__img" alt="">
+</div>
+
+<style>
+.art-lightbox {
+	position: fixed;
+	inset: 0;
+	z-index: 10000;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.art-lightbox[hidden] {
+	display: none;
+}
+.art-lightbox__backdrop {
+	position: absolute;
+	inset: 0;
+	background: rgba(0, 0, 0, 0.75);
+	cursor: zoom-out;
+}
+.art-lightbox__img {
+	position: relative;
+	max-width: 90vw;
+	max-height: 90vh;
+	object-fit: contain;
+	touch-action: none;
+	transform-origin: center center;
+	cursor: zoom-out;
+	user-select: none;
+	-webkit-user-drag: none;
+}
+</style>
+
+<script>
+(function () {
+	var lightbox = document.getElementById('art-lightbox');
+	var img = lightbox.querySelector('.art-lightbox__img');
+	var backdrop = lightbox.querySelector('.art-lightbox__backdrop');
+	var scale = 1;
+	var x = 0;
+	var y = 0;
+	var lastDist = 0;
+	var pinching = false;
+	var dragging = false;
+	var moved = false;
+	var dragStartX = 0;
+	var dragStartY = 0;
+	var panStartX = 0;
+	var panStartY = 0;
+	var isDesktop = window.matchMedia('(hover: hover) and (pointer: fine)').matches;
+	var CLICK_ZOOM = 2;
+
+	function clampPan() {
+		if (scale <= 1) {
+			x = 0;
+			y = 0;
+			return;
+		}
+		var w = img.offsetWidth;
+		var h = img.offsetHeight;
+		if (!w || !h) return;
+
+		var maxX = Math.max(0, (w * scale - window.innerWidth) / 2);
+		var maxY = Math.max(0, (h * scale - window.innerHeight) / 2);
+		x = Math.min(maxX, Math.max(-maxX, x));
+		y = Math.min(maxY, Math.max(-maxY, y));
+	}
+
+	function applyTransform() {
+		if (scale === 1) {
+			x = 0;
+			y = 0;
+			img.style.transform = '';
+			img.style.cursor = isDesktop ? 'zoom-in' : 'zoom-out';
+			return;
+		}
+		clampPan();
+		img.style.transform = 'translate(' + x + 'px, ' + y + 'px) scale(' + scale + ')';
+		img.style.cursor = dragging ? 'grabbing' : 'grab';
+	}
+
+	function open(src) {
+		img.src = src;
+		scale = 1;
+		x = 0;
+		y = 0;
+		applyTransform();
+		lightbox.hidden = false;
+		lightbox.setAttribute('aria-hidden', 'false');
+		document.body.style.overflow = 'hidden';
+	}
+
+	function close() {
+		lightbox.hidden = true;
+		lightbox.setAttribute('aria-hidden', 'true');
+		img.src = '';
+		document.body.style.overflow = '';
+	}
+
+	document.querySelector('.masonry')?.addEventListener('click', function (e) {
+		var link = e.target.closest('.masonry-item');
+		if (!link) return;
+		e.preventDefault();
+		open(link.href);
+	});
+
+	backdrop.addEventListener('click', close);
+
+	img.addEventListener('click', function () {
+		if (pinching || moved) {
+			moved = false;
+			return;
+		}
+		if (isDesktop) {
+			scale = scale > 1 ? 1 : CLICK_ZOOM;
+			applyTransform();
+		} else {
+			close();
+		}
+		moved = false;
+	});
+
+	document.addEventListener('keydown', function (e) {
+		if (e.key === 'Escape' && !lightbox.hidden) close();
+	});
+
+	function pinchDist(touches) {
+		var dx = touches[0].clientX - touches[1].clientX;
+		var dy = touches[0].clientY - touches[1].clientY;
+		return Math.hypot(dx, dy);
+	}
+
+	img.addEventListener('touchstart', function (e) {
+		if (e.touches.length === 2) {
+			pinching = true;
+			lastDist = pinchDist(e.touches);
+			e.preventDefault();
+		} else if (e.touches.length === 1 && scale > 1) {
+			dragStartX = e.touches[0].clientX;
+			dragStartY = e.touches[0].clientY;
+			panStartX = x;
+			panStartY = y;
+			moved = false;
+		}
+	}, { passive: false });
+
+	img.addEventListener('touchmove', function (e) {
+		if (e.touches.length === 2) {
+			e.preventDefault();
+			var dist = pinchDist(e.touches);
+			scale = Math.min(4, Math.max(1, scale * (dist / lastDist)));
+			applyTransform();
+			lastDist = dist;
+		} else if (e.touches.length === 1 && scale > 1 && !pinching) {
+			e.preventDefault();
+			var tdx = e.touches[0].clientX - dragStartX;
+			var tdy = e.touches[0].clientY - dragStartY;
+			if (Math.abs(tdx) > 3 || Math.abs(tdy) > 3) moved = true;
+			x = panStartX + tdx;
+			y = panStartY + tdy;
+			applyTransform();
+		}
+	}, { passive: false });
+
+	img.addEventListener('touchend', function (e) {
+		if (e.touches.length < 2) lastDist = 0;
+		if (e.touches.length === 0 && pinching) {
+			setTimeout(function () { pinching = false; }, 300);
+		}
+	});
+
+	img.addEventListener('mousedown', function (e) {
+		if (scale <= 1) return;
+		dragging = true;
+		moved = false;
+		dragStartX = e.clientX;
+		dragStartY = e.clientY;
+		panStartX = x;
+		panStartY = y;
+		e.preventDefault();
+	});
+
+	document.addEventListener('mousemove', function (e) {
+		if (!dragging) return;
+		var dx = e.clientX - dragStartX;
+		var dy = e.clientY - dragStartY;
+		if (Math.abs(dx) > 3 || Math.abs(dy) > 3) moved = true;
+		x = panStartX + dx;
+		y = panStartY + dy;
+		applyTransform();
+	});
+
+	document.addEventListener('mouseup', function () {
+		if (!dragging) return;
+		dragging = false;
+		applyTransform();
+	});
+
+	lightbox.addEventListener('wheel', function (e) {
+		if (lightbox.hidden) return;
+		if (e.ctrlKey) {
+			e.preventDefault();
+			scale = Math.min(4, Math.max(1, scale * Math.exp(-e.deltaY * 0.01)));
+			applyTransform();
+			return;
+		}
+		if (scale > 1) {
+			e.preventDefault();
+			x -= e.deltaX;
+			y -= e.deltaY;
+			applyTransform();
+		}
+	}, { passive: false });
+
+	img.addEventListener('load', applyTransform);
+	window.addEventListener('resize', function () {
+		if (!lightbox.hidden) applyTransform();
+	});
+})();
+</script>
