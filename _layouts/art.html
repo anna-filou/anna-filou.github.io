@@ -6,7 +6,9 @@ layout: default
 
 <div id="art-lightbox" class="art-lightbox" hidden aria-hidden="true">
 	<div class="art-lightbox__backdrop"></div>
+	<button type="button" class="art-lightbox__nav art-lightbox__nav--prev" aria-label="Previous image" hidden></button>
 	<img class="art-lightbox__img" alt="">
+	<button type="button" class="art-lightbox__nav art-lightbox__nav--next" aria-label="Next image" hidden></button>
 </div>
 
 <style>
@@ -25,16 +27,34 @@ layout: default
 	position: absolute;
 	inset: 0;
 	background: rgba(0, 0, 0, 0.75);
-	cursor: zoom-out;
+	cursor: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='32' height='32' viewBox='0 0 32 32'%3E%3Cpath fill='none' stroke='%23fff' stroke-width='3' stroke-linecap='round' d='M8 8l16 16M24 8L8 24'/%3E%3C/svg%3E") 16 16, not-allowed;
+}
+.art-lightbox__nav {
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	width: 20%;
+	border: 0;
+	padding: 0;
+	background: transparent;
+	z-index: 3;
+}
+.art-lightbox__nav--prev {
+	left: 0;
+	cursor: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='32' height='32' viewBox='0 0 32 32'%3E%3Cpath fill='%23fff' stroke='%23000' stroke-width='1' d='M20 6L10 16l10 10'/%3E%3C/svg%3E") 16 16, w-resize;
+}
+.art-lightbox__nav--next {
+	right: 0;
+	cursor: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='32' height='32' viewBox='0 0 32 32'%3E%3Cpath fill='%23fff' stroke='%23000' stroke-width='1' d='M12 6l10 10-10 10'/%3E%3C/svg%3E") 16 16, e-resize;
 }
 .art-lightbox__img {
 	position: relative;
+	z-index: 2;
 	max-width: 90vw;
 	max-height: 90vh;
 	object-fit: contain;
 	touch-action: none;
 	transform-origin: center center;
-	cursor: zoom-out;
 	user-select: none;
 	-webkit-user-drag: none;
 }
@@ -45,6 +65,12 @@ layout: default
 	var lightbox = document.getElementById('art-lightbox');
 	var img = lightbox.querySelector('.art-lightbox__img');
 	var backdrop = lightbox.querySelector('.art-lightbox__backdrop');
+	var navPrev = lightbox.querySelector('.art-lightbox__nav--prev');
+	var navNext = lightbox.querySelector('.art-lightbox__nav--next');
+	var images = Array.from(document.querySelectorAll('.masonry-item')).map(function (link) {
+		return link.href;
+	});
+	var currentIndex = 0;
 	var scale = 1;
 	var x = 0;
 	var y = 0;
@@ -56,8 +82,10 @@ layout: default
 	var dragStartY = 0;
 	var panStartX = 0;
 	var panStartY = 0;
-	var isDesktop = window.matchMedia('(hover: hover) and (pointer: fine)').matches;
+	var canHover = window.matchMedia('(hover: hover) and (pointer: fine)').matches;
 	var CLICK_ZOOM = 2;
+	var swipeStartX = 0;
+	var swipeStartY = 0;
 
 	function clampPan() {
 		if (scale <= 1) {
@@ -79,8 +107,11 @@ layout: default
 		if (scale === 1) {
 			x = 0;
 			y = 0;
+			// iOS WebKit sometimes leaves horizontal streaks (duplicated bottom pixels) after
+			// pinch zoom-out. Known compositor bug with transform: scale() on images — not
+			// worth fixing here; low risk of breaking zoom/pan for a cosmetic artifact.
 			img.style.transform = '';
-			img.style.cursor = isDesktop ? 'zoom-in' : 'zoom-out';
+			img.style.cursor = canHover ? 'zoom-in' : '';
 			return;
 		}
 		clampPan();
@@ -89,7 +120,9 @@ layout: default
 	}
 
 	function open(src) {
-		img.src = src;
+		currentIndex = images.indexOf(src);
+		if (currentIndex === -1) currentIndex = 0;
+		img.src = images[currentIndex];
 		scale = 1;
 		x = 0;
 		y = 0;
@@ -97,6 +130,32 @@ layout: default
 		lightbox.hidden = false;
 		lightbox.setAttribute('aria-hidden', 'false');
 		document.body.style.overflow = 'hidden';
+		updateNav();
+	}
+
+	function openAt(index) {
+		if (!images.length) return;
+		currentIndex = (index + images.length) % images.length;
+		img.src = images[currentIndex];
+		scale = 1;
+		x = 0;
+		y = 0;
+		applyTransform();
+		updateNav();
+	}
+
+	function updateNav() {
+		var show = canHover && images.length > 1;
+		navPrev.hidden = !show;
+		navNext.hidden = !show;
+	}
+
+	function showPrev() {
+		openAt(currentIndex - 1);
+	}
+
+	function showNext() {
+		openAt(currentIndex + 1);
 	}
 
 	function close() {
@@ -115,12 +174,22 @@ layout: default
 
 	backdrop.addEventListener('click', close);
 
+	navPrev.addEventListener('click', function (e) {
+		e.stopPropagation();
+		showPrev();
+	});
+
+	navNext.addEventListener('click', function (e) {
+		e.stopPropagation();
+		showNext();
+	});
+
 	img.addEventListener('click', function () {
 		if (pinching || moved) {
 			moved = false;
 			return;
 		}
-		if (isDesktop) {
+		if (canHover) {
 			scale = scale > 1 ? 1 : CLICK_ZOOM;
 			applyTransform();
 		} else {
@@ -130,7 +199,19 @@ layout: default
 	});
 
 	document.addEventListener('keydown', function (e) {
-		if (e.key === 'Escape' && !lightbox.hidden) close();
+		if (lightbox.hidden) return;
+		if (e.key === 'Escape') {
+			close();
+			return;
+		}
+		if (images.length <= 1) return;
+		if (e.key === 'ArrowLeft') {
+			e.preventDefault();
+			showPrev();
+		} else if (e.key === 'ArrowRight') {
+			e.preventDefault();
+			showNext();
+		}
 	});
 
 	function pinchDist(touches) {
@@ -144,6 +225,10 @@ layout: default
 			pinching = true;
 			lastDist = pinchDist(e.touches);
 			e.preventDefault();
+		} else if (e.touches.length === 1 && scale === 1 && !canHover) {
+			swipeStartX = e.touches[0].clientX;
+			swipeStartY = e.touches[0].clientY;
+			moved = false;
 		} else if (e.touches.length === 1 && scale > 1) {
 			dragStartX = e.touches[0].clientX;
 			dragStartY = e.touches[0].clientY;
@@ -168,6 +253,11 @@ layout: default
 			x = panStartX + tdx;
 			y = panStartY + tdy;
 			applyTransform();
+		} else if (e.touches.length === 1 && scale === 1 && !canHover && !pinching) {
+			var sdx = e.touches[0].clientX - swipeStartX;
+			var sdy = e.touches[0].clientY - swipeStartY;
+			if (Math.abs(sdx) > 3 || Math.abs(sdy) > 3) moved = true;
+			if (Math.abs(sdx) > Math.abs(sdy)) e.preventDefault();
 		}
 	}, { passive: false });
 
@@ -175,6 +265,16 @@ layout: default
 		if (e.touches.length < 2) lastDist = 0;
 		if (e.touches.length === 0 && pinching) {
 			setTimeout(function () { pinching = false; }, 300);
+		}
+		if (!canHover && scale === 1 && !pinching && e.changedTouches.length === 1) {
+			var touch = e.changedTouches[0];
+			var dx = touch.clientX - swipeStartX;
+			var dy = touch.clientY - swipeStartY;
+			if (Math.abs(dx) > 50 && Math.abs(dx) > Math.abs(dy)) {
+				if (dx > 0) showPrev();
+				else showNext();
+				moved = true;
+			}
 		}
 	});
 
