@@ -85,16 +85,26 @@ songs:
   cover: /assets/listening/saywecanfly-the-space-between-our-eyes.webp
   snippet: /assets/listening/snippet-27.mp3
   link: https://open.spotify.com/track/64lDzdQjv7NWA7jlgHhTZ4
+- title: For My Lover
+  artist: Tracy Chapman
+  cover: /assets/listening/tracy-chapman-for-my-lover.webp
+  snippet: /assets/listening/snippet-63.mp3
+  link: https://open.spotify.com/track/17W8bZBSty1TJ4CRG4GGJK
 - title: In the Name of Love
   artist: "Martin Garrix & Bebe Rexha"
   cover: /assets/listening/in-the-name-of-love.webp
   snippet: /assets/listening/snippet-03.mp3
   link: https://open.spotify.com/track/23L5CiUhw2jV1OIMwthR3S
+- title: Clarity (Cover)
+  artist: "Sam Tsui & Kurt Hugo Schneider"
+  cover: /assets/listening/sam-tsui-clarity.webp
+  snippet: /assets/listening/snippet-61.mp3
+  link: https://open.spotify.com/track/1EwAkFA15j2gZYoVVw246F
 - title: Monster
-  artist: Jorge Rivera-Herrans
-  cover: /assets/listening/jorge-rivera-herrans-monster.webp
-  snippet: /assets/listening/snippet-05.mp3
-  link: https://open.spotify.com/artist/2kdmTOXncgNHSuYVMhdd5I
+  artist: Skillet
+  cover: /assets/listening/skillet-monster.webp
+  snippet: /assets/listening/snippet-53.mp3
+  link: https://open.spotify.com/track/2UREu1Y8CO4jXkbvqAtP7g
 # - title: King For a Day (ft. Kellin Quinn)
 #   artist: Pierce the Veil
 #   cover: /assets/listening/pierce-the-veil-king-for-a-day.webp
@@ -140,6 +150,11 @@ songs:
   cover: /assets/listening/don-mclean-american-pie.webp
   snippet: /assets/listening/snippet-24.mp3
   link: https://open.spotify.com/track/1fDsrQ23eTAVFElUMaf38X
+- title: Iris (Cover)
+  artist: Sleeping with Sirens
+  cover: /assets/listening/sleeping-with-sirens-iris.webp
+  snippet: /assets/listening/snippet-62.mp3
+  link: https://open.spotify.com/track/33uBUAE4YiWDW2ASZPl50R
 - title: Son of Man
   artist: Phil Collins
   cover: /assets/listening/phil-collins-son-of-man.webp
@@ -280,6 +295,11 @@ songs:
   cover: /assets/listening/tokio-hotel-strange.webp
   snippet: /assets/listening/snippet-55.mp3
   link: https://open.spotify.com/track/2FG4Qo6Qvm1ZMVvzYtDN0N
+- title: I'm Still Here (Jim's Theme)
+  artist: John Rzeznik
+  cover: /assets/listening/john-rzeznik-im-still-here.webp
+  snippet: /assets/listening/snippet-60.mp3
+  link: https://open.spotify.com/track/6BfOhpHADzrvKN2kMPTMPv
 - title: Habits (Stay High)
   artist: Tove Lo
   cover: /assets/listening/tove-lo-habits-stay-high.webp
@@ -300,6 +320,7 @@ songs:
   cover: /assets/listening/moulin-rouge-el-tango-de-roxanne.webp
   snippet: /assets/listening/snippet-59.mp3
   link: https://open.spotify.com/track/606WoZeEY2gs7wCne8VPUN
+
 ---
 
 <div class="container mt5 mb5 mt6-ns">
