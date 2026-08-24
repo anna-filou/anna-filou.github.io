@@ -140,7 +140,16 @@ layout: default
           </div>
         </div>
         <div class="overflow-hidden pv4">
-          <div class="carousel" style="--no-of-slides: {% assign images = site.data.websites | map: 'media' | where_exp: 'media', 'media contains ".jpg" or media contains ".jpeg" or media contains ".png" or media contains ".webp"' | slice: 0, 3 %}{{ images | size }}; --slide-width: 270px; --slide-width-small: 300px; --iteration-time: 20s;">
+          {% assign images_str = "" %}
+          {% for item in site.data.websites %}
+            {% if item.thumb %}
+              {% if images_str == "" %}{% assign images_str = item.thumb %}{% else %}{% assign images_str = images_str | append: "||" | append: item.thumb %}{% endif %}
+            {% elsif item.media contains ".jpg" or item.media contains ".jpeg" or item.media contains ".png" or item.media contains ".webp" %}
+              {% if images_str == "" %}{% assign images_str = item.media %}{% else %}{% assign images_str = images_str | append: "||" | append: item.media %}{% endif %}
+            {% endif %}
+          {% endfor %}
+          {% assign images = images_str | split: "||" | slice: 0, 3 %}
+          <div class="carousel" style="--no-of-slides: {{ images | size }}; --slide-width: 270px; --slide-width-small: 300px; --iteration-time: 20s;">
             <div class="carousel__wrapper">
               {% for image in images %}
                 <div class="carousel__slide">
@@ -178,7 +187,16 @@ layout: default
           </div>
         </div>
         <div class="overflow-hidden pv4">
-          <div class="carousel" style="--no-of-slides: {% assign images = site.data.experiments | where_exp: "item", 'item.media contains ".jpg" or item.media contains ".jpeg" or item.media contains ".png" or item.media contains ".webp"' | map: 'media' | slice: 0, 3 %}{{ images | size }}; --slide-width: 270px; --slide-width-small: 300px; --iteration-time: 20s;">
+          {% assign images_str = "" %}
+          {% for item in site.data.experiments %}
+            {% if item.thumb %}
+              {% if images_str == "" %}{% assign images_str = item.thumb %}{% else %}{% assign images_str = images_str | append: "||" | append: item.thumb %}{% endif %}
+            {% elsif item.media contains ".jpg" or item.media contains ".jpeg" or item.media contains ".png" or item.media contains ".webp" %}
+              {% if images_str == "" %}{% assign images_str = item.media %}{% else %}{% assign images_str = images_str | append: "||" | append: item.media %}{% endif %}
+            {% endif %}
+          {% endfor %}
+          {% assign images = images_str | split: "||" | slice: 0, 3 %}
+          <div class="carousel" style="--no-of-slides: {{ images | size }}; --slide-width: 270px; --slide-width-small: 300px; --iteration-time: 20s;">
             <div class="carousel__wrapper">
               {% for image in images %}
                 <div class="carousel__slide">

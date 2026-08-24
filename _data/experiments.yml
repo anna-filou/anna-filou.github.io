@@ -59,7 +59,7 @@
   link:
     title: Case study →
     url: /en/time-tracker-concept
-  media: "/assets/work-grid/hourly-4-3.webp"
+  media: "/assets/work-grid/hourly.webp"
   year: 2023
   tags:
   - name: For fun
@@ -72,7 +72,7 @@
   desc:
     en: "Personal project for an intelligent planner with minimalist aesthetics."
     el: ""
-  media: "/assets/work-grid/effortless-c3.webp"
+  media: "/assets/work-grid/effortless.webp"
   year: 2022
   tags:
   - name: For fun
@@ -89,7 +89,7 @@
   link:
     title: Case study →
     url: /en/monster
-  media: "/assets/work-grid/monster-764shots.jpg"
+  media: "/assets/work-grid/monster.jpg"
   year: 2020
   tags:
   - name: Assignment
@@ -129,7 +129,7 @@
   desc:
     en: Timeless logo design for online and physical store. Versatile enough to support pivots.
     el: 
-  media: "/assets/work-grid/platinum-window-mockup.jpg"
+  media: "/assets/work-grid/platinum.jpg"
   year: 2021
   tags:
   - name: Logo design

@@ -2,12 +2,13 @@
     en: Peter’s Portfolio
     el: 
   desc:
-    en: "Video game inspired portfolio website for hardware projects"
+    en: "Video game inspired portfolio website for hardware projects."
     el: ""
   link:
     title: Live ↗
     url: https://petros.contact/
-  media: "/assets/work-grid/petros-4x3-website.mp4"
+  media: "/assets/work-grid/petros.mp4"
+  thumb: "/assets/work-grid/petros-thumb.webp"
   year: 2026
   tags:
     - name: Design
@@ -24,6 +25,7 @@
     title: Live ↗
     url: https://www.sagarshiriskar.com/
   media: "/assets/work-grid/sagarshiriskar.mp4"
+  thumb: "/assets/work-grid/sagarshiriskar-thumb.webp"
   year: 2026
   tags:
     - name: Design
@@ -38,6 +40,7 @@
     title: Live ↗
     url: https://transfersifnos.gr/
   media: "/assets/work-grid/transfersifnos.mp4"
+  thumb: "/assets/work-grid/transfersifnos-thumb.webp"
   year: 2025
   tags:
     - name: Design
@@ -68,7 +71,7 @@
   # link:
   #   title: Live ↗
   #   url: https://cid-studies.com/
-  media: "/assets/work-grid/cid-website.webp"
+  media: "/assets/work-grid/cid.webp"
   year: 2024
   tags:
   - name: Design
@@ -83,7 +86,8 @@
   link:
     title: Live ↗
     url: https://q-pass.gr/
-  media: "/assets/work-grid/q-pass-website.mp4"
+  media: "/assets/work-grid/q-pass.mp4"
+  thumb: "/assets/work-grid/q-pass-thumb.webp"
   year: 2024
   tags:
   - name: Design
@@ -99,7 +103,7 @@
   link:
     title: Live ↗
     url: https://hairbox.netlify.app/
-  media: "/assets/work-grid/backyard-dribbble.jpg"
+  media: "/assets/work-grid/backyard.jpg"
   year: 2022
   tags:
   - name: Design
@@ -115,7 +119,7 @@
   link:
     title: Live ↗
     url: https://theeta.nl/
-  media: "/assets/work-grid/theeta-735shots_so.png"
+  media: "/assets/work-grid/theeta.png"
   year: 2022
   tags:
   - name: Design
@@ -133,7 +137,7 @@
   link:
     title: Live ↗
     url: https://www.dynamiki-sa.gr/
-  media: "/assets/work-grid/dynamiki-maneken-31DE058.jpg"
+  media: "/assets/work-grid/dynamiki.jpg"
   year: 2021
   tags:
   - name: Design
