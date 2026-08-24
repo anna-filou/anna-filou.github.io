@@ -2,11 +2,19 @@
 title: Now
 layout: now
 lang: en
-updated: April 12th, 2026
+updated: August 24th, 2026
 now: |
-    Just came back from a month-long trip in the USA. I visited many places (San Francisco, Yosemite, Iowa, Chicago, Washington, DC, and New York City) and am full of stories to tell.
 
-    A lot happened on the trip. Overall, it was an unforgettable experience and I’m glad I went on it. I was working with limited availability during the trip, and I’m finding it kind of hard settling back into a routine now that I’m back in Athens.
+    Feeling really inspired to work on side projects these days. Including:
 
-    I’m looking forward to continuing watching Inuyasha (which there was no time for during the trip), and to get back into lifting.
+    - [Peter’s website](https://petros.contact) — Personal website, based on the UI of NieR Automata. Really proud of how it came out! ![Peter’s website](/assets/work-grid/petros-project-page.png)
+
+    - [Hema](https://hema-period.netlify.app) — Period tracking PWA, Clue alternative. [Here’s the write-up](/en/i-made-my-own-period-app/). ![Hema period tracking app screens](/assets/hema/hema-screens.png)
+
+    I found a webcomic I've been **obsessed** with it for the past week: [The Prince of Southland (on Webtoons)](https://www.webtoons.com/en/romance/the-prince-of-southland/list?title_no=2522). Haven't had an obsession this strong since Arcane Season One. 😩 
+
+    I’m even drawing fanart:
+    
+    ![Fanart of The Prince of Southland](/assets/drawings/1-2026-08-prince-of-southland.png)
+
 ---
