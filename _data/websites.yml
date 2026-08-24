@@ -1,4 +1,34 @@
 - title:
+    en: Peter’s Portfolio
+    el: 
+  desc:
+    en: "Video game inspired portfolio website for hardware projects"
+    el: ""
+  link:
+    title: Live ↗
+    url: https://petros.contact/
+  media: "/assets/work-grid/petros-4x3-website.mp4"
+  year: 2026
+  tags:
+    - name: Design
+      color: pink
+    - name: Web development
+      color: blue
+- title:
+    en: Sagar Shiriskar
+    el: 
+  desc:
+    en: "Flexible, customizable photographer’s portfolio."
+    el: ""
+  link:
+    title: Live ↗
+    url: https://www.sagarshiriskar.com/
+  media: "/assets/work-grid/sagarshiriskar.mp4"
+  year: 2026
+  tags:
+    - name: Design
+      color: pink
+- title:
     en: Loukataris Transfers
     el: 
   desc:
@@ -7,12 +37,12 @@
   link:
     title: Live ↗
     url: https://transfersifnos.gr/
-  img: "/assets/work-grid/transfersifnos.gif"
+  media: "/assets/work-grid/transfersifnos.mp4"
   year: 2025
   tags:
-    - name: Client work
-      color: green
-    - name: Web design & development
+    - name: Design
+      color: pink
+    - name: Web development
       color: blue
 - title:
     en: Giotis Rentals
@@ -23,27 +53,27 @@
   link:
     title: Live ↗
     url: https://giotis-rentals.gr/
-  img: "/assets/work-grid/giotis-rentals.webp"
+  media: "/assets/work-grid/giotis-rentals.webp"
   year: 2025
   tags:
-    - name: Client work
-      color: green
-    - name: Web design & development
+    - name: Design
+      color: pink
+    - name: Web development
       color: blue
 - title:
     en: CID Website & Logo
   desc:
     en: "Corporate website and identity for wastewater treatment consulting company. Made with custom code and&nbsp;Jekyll."
     el: ""
-  link:
-    title: Live ↗
-    url: https://cid-studies.com/
-  img: "/assets/work-grid/cid-website.webp"
+  # link:
+  #   title: Live ↗
+  #   url: https://cid-studies.com/
+  media: "/assets/work-grid/cid-website.webp"
   year: 2024
   tags:
-  - name: Client work
-    color: green
-  - name: Web design & development
+  - name: Design
+    color: pink
+  - name: Web development
     color: blue
 - title:
     en: Q-Pass.gr
@@ -53,12 +83,12 @@
   link:
     title: Live ↗
     url: https://q-pass.gr/
-  img: "/assets/work-grid/q-pass-website.gif"
+  media: "/assets/work-grid/q-pass-website.mp4"
   year: 2024
   tags:
-  - name: Client work
-    color: green
-  - name: Web design & development
+  - name: Design
+    color: pink
+  - name: Web development
     color: blue
 - title:
     en: Backyard — Cozy Hair Salon
@@ -69,12 +99,12 @@
   link:
     title: Live ↗
     url: https://hairbox.netlify.app/
-  img: "/assets/work-grid/backyard-dribbble.jpg"
+  media: "/assets/work-grid/backyard-dribbble.jpg"
   year: 2022
   tags:
-  - name: Client work
-    color: green
-  - name: Web design & development
+  - name: Design
+    color: pink
+  - name: Web development
     color: blue
 - title:
     en: Theeta.nl
@@ -85,12 +115,12 @@
   link:
     title: Live ↗
     url: https://theeta.nl/
-  img: "/assets/work-grid/theeta-735shots_so.png"
+  media: "/assets/work-grid/theeta-735shots_so.png"
   year: 2022
   tags:
-  - name: Client work
-    color: green
-  - name: Web design & development
+  - name: Design
+    color: pink
+  - name: Web development
     color: blue
 - title:
     en: DYNAMIKI - Beverage Distribution Network
@@ -103,11 +133,11 @@
   link:
     title: Live ↗
     url: https://www.dynamiki-sa.gr/
-  img: "/assets/work-grid/dynamiki-maneken-31DE058.jpg"
+  media: "/assets/work-grid/dynamiki-maneken-31DE058.jpg"
   year: 2021
   tags:
-  - name: Web design
-    color: blue
+  - name: Design
+    color: pink
   - name: Agency work
     color: green
   - name: TSH

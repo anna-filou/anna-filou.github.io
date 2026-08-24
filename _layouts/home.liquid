@@ -140,7 +140,7 @@ layout: default
           </div>
         </div>
         <div class="overflow-hidden pv4">
-          <div class="carousel" style="--no-of-slides: {% assign images = site.data.websites | map: 'img' | where_exp: 'img', 'img contains ".jpg" or img contains ".jpeg" or img contains ".png" or img contains ".webp"' | slice: 0, 3 %}{{ images | size }}; --slide-width: 270px; --slide-width-small: 300px; --iteration-time: 20s;">
+          <div class="carousel" style="--no-of-slides: {% assign images = site.data.websites | map: 'media' | where_exp: 'media', 'media contains ".jpg" or media contains ".jpeg" or media contains ".png" or media contains ".webp"' | slice: 0, 3 %}{{ images | size }}; --slide-width: 270px; --slide-width-small: 300px; --iteration-time: 20s;">
             <div class="carousel__wrapper">
               {% for image in images %}
                 <div class="carousel__slide">
@@ -178,7 +178,7 @@ layout: default
           </div>
         </div>
         <div class="overflow-hidden pv4">
-          <div class="carousel" style="--no-of-slides: {% assign images = site.data.experiments | where_exp: "item", 'item.img contains ".jpg" or item.img contains ".jpeg" or item.img contains ".png" or item.img contains ".webp"' | map: 'img' | slice: 0, 3 %}{{ images | size }}; --slide-width: 270px; --slide-width-small: 300px; --iteration-time: 20s;">
+          <div class="carousel" style="--no-of-slides: {% assign images = site.data.experiments | where_exp: "item", 'item.media contains ".jpg" or item.media contains ".jpeg" or item.media contains ".png" or item.media contains ".webp"' | map: 'media' | slice: 0, 3 %}{{ images | size }}; --slide-width: 270px; --slide-width-small: 300px; --iteration-time: 20s;">
             <div class="carousel__wrapper">
               {% for image in images %}
                 <div class="carousel__slide">

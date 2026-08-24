@@ -7,7 +7,7 @@
 #   link:
 #     title: GitHub ↗
 #     url: https://github.com/anna-filou/bookmarks-tab?tab=readme-ov-file
-#   img: "/assets/gridmarks.webp"
+#   media: "/assets/gridmarks.webp"
 #   year: 2025
 #   tags:
 #   - name: For fun
@@ -23,7 +23,7 @@
   link:
     title: Read & Try →
     url: /en/building-today
-  img: "/assets/today-todo-4x3.webp"
+  media: "/assets/today-todo-4x3.webp"
   year: 2025
   tags:
   - name: For fun
@@ -41,7 +41,7 @@
   link:
     title: Use it ↗
     url: https://calorie-grid.netlify.app/
-  img: "/assets/calorie-grid-dribbble.webp"
+  media: "/assets/calorie-grid-dribbble.webp"
   year: 2025
   tags:
   - name: For fun
@@ -59,7 +59,7 @@
   link:
     title: Case study →
     url: /en/time-tracker-concept
-  img: "/assets/work-grid/hourly-4-3.webp"
+  media: "/assets/work-grid/hourly-4-3.webp"
   year: 2023
   tags:
   - name: For fun
@@ -72,7 +72,7 @@
   desc:
     en: "Personal project for an intelligent planner with minimalist aesthetics."
     el: ""
-  img: "/assets/work-grid/effortless-c3.webp"
+  media: "/assets/work-grid/effortless-c3.webp"
   year: 2022
   tags:
   - name: For fun
@@ -89,13 +89,13 @@
   link:
     title: Case study →
     url: /en/monster
-  img: "/assets/work-grid/monster-764shots.jpg"
+  media: "/assets/work-grid/monster-764shots.jpg"
   year: 2020
   tags:
   - name: Assignment
     color: green
-  - name: Web design
-    color: blue
+  - name: Design
+    color: pink
 - title:
     en: Werewolf Game Cards
     el: Καρτες παιχνιδιου «Παλερμο»
@@ -105,7 +105,7 @@
   link:
     title: Behance&nbsp;↗
     url: https://www.behance.net/gallery/110141811/Werewolf-Game-Cards
-  img: "/assets/work-grid/werewolf-cards.jpg"
+  media: "/assets/work-grid/werewolf-cards.jpg"
   year: 2019
   tags:
   - name: for fun
@@ -116,7 +116,7 @@
     en: MMBN Live Wallpaper
   desc:
     en: "I’m a huge fan of MegaMan Battle Network! I made this live wallpaper for my&nbsp;phone."
-  img: "/assets/drawings/megaman-launcher-mockup.gif"
+  media: "/assets/drawings/megaman-launcher-mockup.gif"
   year: 2019
   tags:
   - name: for fun
@@ -129,10 +129,8 @@
   desc:
     en: Timeless logo design for online and physical store. Versatile enough to support pivots.
     el: 
-  img: "/assets/work-grid/platinum-window-mockup.jpg"
+  media: "/assets/work-grid/platinum-window-mockup.jpg"
   year: 2021
   tags:
-  - name: Client work
-    color: green
   - name: Logo design
     color: blue
