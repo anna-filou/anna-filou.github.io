@@ -45,7 +45,7 @@ What’s the catch?
 
 ## Why I made it
 
-I’ve been using [Clue](https://helloclue.com/) for almost 10 years. When I first started, it was pretty good. What stood out at the timewas the neutral styling: red for blood, blue for ovulation, no flowers, stickers, or cutesy pink graphics. Every other period app looked too childish for my taste.
+I’ve been using [Clue](https://helloclue.com/) for almost 10 years. When I first started, it was pretty good. What stood out at the time was the neutral styling: red for blood, blue for ovulation, no flowers, stickers, or cutesy pink graphics. Every other period app looked too childish for my taste.
 
 ## The deterioration of Clue
 
