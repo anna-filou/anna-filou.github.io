@@ -1,148 +1,112 @@
-- title:
-    en: Peter’s Portfolio
-    el: 
-  desc:
-    en: "Video game inspired portfolio website for hardware projects."
-    el: ""
-  link:
-    title: Live ↗
-    url: https://petros.contact/
-  media: "/assets/work-grid/petros.mp4"
-  thumb: "/assets/work-grid/petros-thumb.webp"
-  year: 2026
-  tags:
-    - name: Design
-      color: pink
-    - name: Web development
-      color: blue
-- title:
-    en: Sagar Shiriskar
-    el: 
-  desc:
-    en: "Flexible, customizable photographer’s portfolio."
-    el: ""
-  link:
-    title: Live ↗
-    url: https://www.sagarshiriskar.com/
-  media: "/assets/work-grid/sagarshiriskar.mp4"
-  thumb: "/assets/work-grid/sagarshiriskar-thumb.webp"
-  year: 2026
-  tags:
-    - name: Design
-      color: pink
-- title:
-    en: Loukataris Transfers
-    el: 
-  desc:
-    en: "Playful transfer booking website for a local business in Sifnos."
-    el: ""
-  link:
-    title: Live ↗
-    url: https://transfersifnos.gr/
-  media: "/assets/work-grid/transfersifnos.mp4"
-  thumb: "/assets/work-grid/transfersifnos-thumb.webp"
-  year: 2025
-  tags:
-    - name: Design
-      color: pink
-    - name: Web development
-      color: blue
-- title:
-    en: Giotis Rentals
-    el: 
-  desc:
-    en: "Modern scooter rental site with transparent pricing and a booking form."
-    el: ""
-  link:
-    title: Live ↗
-    url: https://giotis-rentals.gr/
-  media: "/assets/work-grid/giotis-rentals.webp"
-  year: 2025
-  tags:
-    - name: Design
-      color: pink
-    - name: Web development
-      color: blue
-- title:
-    en: CID Website & Logo
-  desc:
-    en: "Corporate website and identity for wastewater treatment consulting company. Made with custom code and&nbsp;Jekyll."
-    el: ""
-  # link:
-  #   title: Live ↗
-  #   url: https://cid-studies.com/
-  media: "/assets/work-grid/cid.webp"
-  year: 2024
-  tags:
-  - name: Design
-    color: pink
-  - name: Web development
-    color: blue
-- title:
-    en: Q-Pass.gr
-  desc:
-    en: "Clean website promoting an upcoming mobile app to merchants, complete with a dashboard login page. Custom HTML & CSS handed over to the client to make it interactive."
-    el: ""
-  link:
-    title: Live ↗
-    url: https://q-pass.gr/
-  media: "/assets/work-grid/q-pass.mp4"
-  thumb: "/assets/work-grid/q-pass-thumb.webp"
-  year: 2024
-  tags:
-  - name: Design
-    color: pink
-  - name: Web development
-    color: blue
-- title:
-    en: Backyard — Cozy Hair Salon
-    el: 
-  desc:
-    en: "One-page website with a unique aesthetic. Made with custom code and&nbsp;Jekyll."
-    el: 
-  link:
-    title: Live ↗
-    url: https://hairbox.netlify.app/
-  media: "/assets/work-grid/backyard.jpg"
-  year: 2022
-  tags:
-  - name: Design
-    color: pink
-  - name: Web development
-    color: blue
-- title:
-    en: Theeta.nl
-    el: Theeta
-  desc:
-    en: "Trilingual corporate website. Made with custom code and&nbsp;Jekyll."
-    el: 
-  link:
-    title: Live ↗
-    url: https://theeta.nl/
-  media: "/assets/work-grid/theeta.png"
-  year: 2022
-  tags:
-  - name: Design
-    color: pink
-  - name: Web development
-    color: blue
-- title:
-    en: DYNAMIKI - Beverage Distribution Network
-    el: ΔΥΝΑΜΙΚΗ - Δικτυο διανομης ποτων
-  desc:
-    en: Design for Dynamiki’s website. Part of my work
-      at The&nbsp;Smiling&nbsp;Hippo.
-    el: Design για το [site της Δυναμικής](https://www.dynamiki-sa.gr/). Μέρος της
-      δουλειάς μου στην [TSH](https://www.thesmilinghippo.com/gr/en/projects/dynamic-sa/)
-  link:
-    title: Live ↗
-    url: https://www.dynamiki-sa.gr/
-  media: "/assets/work-grid/dynamiki.jpg"
-  year: 2021
-  tags:
-  - name: Design
-    color: pink
-  - name: Agency work
-    color: green
-  - name: TSH
-    color: blue
+desc: "Some of my favorite websites that I’ve designed and coded for&nbsp;clients."
+intro: "Some of my favorite websites that I’ve designed and/or coded for&nbsp;clients."
+items:
+  - title: "Peter’s Portfolio"
+    desc: "Video game inspired portfolio website for hardware projects."
+    link:
+      title: "Live ↗"
+      url: "https://petros.contact/"
+    media: "/assets/work-grid/petros.mp4"
+    thumb: "/assets/work-grid/petros-thumb.webp"
+    year: 2026
+    tags:
+      - name: "Design"
+        color: "pink"
+      - name: "Web development"
+        color: "blue"
+  - title: "Sagar Shiriskar"
+    desc: "Flexible, customizable photographer’s portfolio."
+    link:
+      title: "Live ↗"
+      url: "https://www.sagarshiriskar.com/"
+    media: "/assets/work-grid/sagarshiriskar.mp4"
+    thumb: "/assets/work-grid/sagarshiriskar-thumb.webp"
+    year: 2026
+    tags:
+      - name: "Design"
+        color: "pink"
+  - title: "Loukataris Transfers"
+    desc: "Playful transfer booking website for a local business in Sifnos."
+    link:
+      title: "Live ↗"
+      url: "https://transfersifnos.gr/"
+    media: "/assets/work-grid/transfersifnos.mp4"
+    thumb: "/assets/work-grid/transfersifnos-thumb.webp"
+    year: 2025
+    tags:
+      - name: "Design"
+        color: "pink"
+      - name: "Web development"
+        color: "blue"
+  - title: "Giotis Rentals"
+    desc: "Modern scooter rental site with transparent pricing and a booking form."
+    link:
+      title: "Live ↗"
+      url: "https://giotis-rentals.gr/"
+    media: "/assets/work-grid/giotis-rentals.webp"
+    year: 2025
+    tags:
+      - name: "Design"
+        color: "pink"
+      - name: "Web development"
+        color: "blue"
+  - title: "CID Website & Logo"
+    desc: "Corporate website and identity for wastewater treatment consulting company. Made with custom code and&nbsp;Jekyll."
+    media: "/assets/work-grid/cid.webp"
+    year: 2024
+    tags:
+      - name: "Design"
+        color: "pink"
+      - name: "Web development"
+        color: "blue"
+  - title: "Q-Pass.gr"
+    desc: "Clean website promoting an upcoming mobile app to merchants, complete with a dashboard login page. Custom HTML & CSS handed over to the client to make it interactive."
+    link:
+      title: "Live ↗"
+      url: "https://q-pass.gr/"
+    media: "/assets/work-grid/q-pass.mp4"
+    thumb: "/assets/work-grid/q-pass-thumb.webp"
+    year: 2024
+    tags:
+      - name: "Design"
+        color: "pink"
+      - name: "Web development"
+        color: "blue"
+  - title: "Backyard — Cozy Hair Salon"
+    desc: "One-page website with a unique aesthetic. Made with custom code and&nbsp;Jekyll."
+    link:
+      title: "Live ↗"
+      url: "https://hairbox.netlify.app/"
+    media: "/assets/work-grid/backyard.jpg"
+    year: 2022
+    tags:
+      - name: "Design"
+        color: "pink"
+      - name: "Web development"
+        color: "blue"
+  - title: "Theeta.nl"
+    desc: "Trilingual corporate website. Made with custom code and&nbsp;Jekyll."
+    link:
+      title: "Live ↗"
+      url: "https://theeta.nl/"
+    media: "/assets/work-grid/theeta.png"
+    year: 2022
+    tags:
+      - name: "Design"
+        color: "pink"
+      - name: "Web development"
+        color: "blue"
+  - title: "DYNAMIKI - Beverage Distribution Network"
+    desc: "Design for Dynamiki’s website. Part of my work at The&nbsp;Smiling&nbsp;Hippo."
+    link:
+      title: "Live ↗"
+      url: "https://www.dynamiki-sa.gr/"
+    media: "/assets/work-grid/dynamiki.jpg"
+    year: 2021
+    tags:
+      - name: "Design"
+        color: "pink"
+      - name: "Agency work"
+        color: "green"
+      - name: "TSH"
+        color: "blue"

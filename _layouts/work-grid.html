@@ -4,11 +4,14 @@ layout: default
 
 <div class="container mt5 mt6-ns flex flex-column items-start">
 	<h1 class="ttu mb3 mt0">{{ page.title }}</h1>
-	<a href="/{{ page.lang }}/#work" class="f5 br3 ph3 pv2 dib ba bw1 b--faint bg-faint nowrap link">← Back</a>
+	{% if site.data[page.data].intro %}
+		<div class="fw4 secondary mb3 measure-wide">{{ site.data[page.data].intro }}</div>
+	{% endif %}
+	<a href="/{{ page.lang }}/#work" class="f5 br3 ph3 pv2 dib ba bw1 b--faint bg-faint nowrap link">← More works</a>
 </div>
 
 <section class="container-lg-ns pa3 work-grid pt4 pt5-ns">
-	{% assign items = site.data[page.data] %}
+	{% assign items = site.data[page.data].items %}
 	{% for grid-item in items %}
 		{% if grid-item.link.url %}
 			<a
@@ -19,10 +22,10 @@ layout: default
 			<div class="flex flex-column justify-between pa3 bg-faint br3">
 		{% endif %}
 			<div class="flex items-center justify-between mb1">
-				<h3 class="f3 f4-ns ma0 ttn mr2">{{ grid-item.title[page.lang] }}</h3>
+				<h3 class="f3 f4-ns ma0 ttn mr2">{{ grid-item.title }}</h3>
 				<div class="nowrap">{{ grid-item.link.title }}</div>
 			</div>
-			<div class="f5 secondary fw4">{{ grid-item.desc[page.lang] }}</div>
+			<div class="f5 secondary fw4">{{ grid-item.desc }}</div>
 			<div class="db aspect-ratio aspect-ratio--4x3 mv3">
 				{% if grid-item.media contains '.mp4' or grid-item.media contains '.webm' %}
 					<video autoplay loop muted playsinline class="aspect-ratio--object br2 object-cover">

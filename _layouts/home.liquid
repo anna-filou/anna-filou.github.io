@@ -136,12 +136,12 @@ layout: default
         <div class="pa3 pa4-ns flex flex-column flex-shrink-1 bb bw1 b--faint"> 
           <h2 class="ttu mt0 mb2">Websites →</h2>
           <div class="fw4 secondary">
-            Some of my favorite websites that I’ve designed and coded for&nbsp;clients.
+            {{ site.data.websites.desc }}
           </div>
         </div>
         <div class="overflow-hidden pv4">
           {% assign images_str = "" %}
-          {% for item in site.data.websites %}
+          {% for item in site.data.websites.items %}
             {% if item.thumb %}
               {% if images_str == "" %}{% assign images_str = item.thumb %}{% else %}{% assign images_str = images_str | append: "||" | append: item.thumb %}{% endif %}
             {% elsif item.media contains ".jpg" or item.media contains ".jpeg" or item.media contains ".png" or item.media contains ".webp" %}
@@ -183,12 +183,12 @@ layout: default
         <div class="pa3 pa4-ns flex flex-column flex-shrink-1 bb bw1 b--faint"> 
           <h2 class="ttu mt0 mb2">Experiments →</h2>
           <div class="fw4 secondary">
-            Personal projects or concepts, as well as client work outside the&nbsp;usual.
+            {{ site.data.experiments.desc }}
           </div>
         </div>
         <div class="overflow-hidden pv4">
           {% assign images_str = "" %}
-          {% for item in site.data.experiments %}
+          {% for item in site.data.experiments.items %}
             {% if item.thumb %}
               {% if images_str == "" %}{% assign images_str = item.thumb %}{% else %}{% assign images_str = images_str | append: "||" | append: item.thumb %}{% endif %}
             {% elsif item.media contains ".jpg" or item.media contains ".jpeg" or item.media contains ".png" or item.media contains ".webp" %}
