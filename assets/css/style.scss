@@ -298,6 +298,11 @@ svg {
 
 /* Mobile navbar */
 
+/* Lift fixed bottom nav above the iOS home indicator / system pill */
+.new-nav.fixed {
+  padding-bottom: calc(0.5rem + env(safe-area-inset-bottom, 0px)); /* pa2 + safe area */
+}
+
 #open-menu {
   visibility: hidden;
   opacity: 0;
@@ -305,7 +310,7 @@ svg {
   transition: all 0.2s ease-in-out;
   overflow: hidden;
 
-  bottom: 60px;
+  bottom: calc(60px + env(safe-area-inset-bottom, 0px));
 
   border-radius: 1rem; // 16px
   padding: 0.5rem; // 8px
