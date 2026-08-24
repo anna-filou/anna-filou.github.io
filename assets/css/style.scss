@@ -16,7 +16,10 @@ $media-xs: 370px;
 $container: 1240px;
 $container-lg: 1440px;
 
-html { scroll-behavior: smooth; }
+html {
+  scroll-behavior: smooth;
+  overscroll-behavior-y: none;
+}
 
 /* COLORS */
 
