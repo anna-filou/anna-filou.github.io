@@ -70,6 +70,10 @@ ideas:
     emoji: "⏰"
     description: |
       Where you can create a multi step process with timed steps. E.g. "getting ready to go to the office" would have tasks like `make coffee - 8 min`, `drink coffee - 10 min`, `brush teeth - 3 min`, `get dressed - 6 min`, and so on. I know there are many apps "ADHD planner" apps that do this (in theory) but none of them work well IMO (too complex and/or inflexible).
+  - title: Unified notification inbox
+    emoji: "🔔"
+    description: |
+      An app where you see all of your notifications from all the services you're using together: Notion, GitHub, LinkedIn, etc. Hard to pull off because the service needs to make that info available via an API or something (Notion for example does not). Email has taken on this role of unified notification inbox but I don't want a permanent paper trail of all of my notifications, nor do I want them in the same place as my 1:1 correspondence.
 ---
 
 Do you wanna work on any of these? (Or something similar, or another thing you think I'd be into that's not listed here?) → [Contact me](/en/contact)!
