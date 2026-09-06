@@ -12,7 +12,7 @@ friends:
     url: https://petros.contact/
     icon: /assets/friends/petros.svg
     note:
-  - name: Vanessa Walitsch, Very Nice Studio
+  - name: Vanessa, Very Nice Studio
     url: https://www.verynice.studio/
     icon: /assets/friends/vanessa-walitsch.png
     note:
