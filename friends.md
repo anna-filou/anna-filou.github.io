@@ -20,7 +20,7 @@ friends:
     url: https://efy.ooo/
     icon: /assets/friends/dragos.png
     note:
-  - name: Luca Yesupatham Daniel
+  - name: Luca Yesupatham Daniel, Aguadulce
     url: https://aguadulcehq.com/
     icon: /assets/friends/luca-yesupatham-daniel.png
     note:
