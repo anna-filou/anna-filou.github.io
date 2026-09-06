@@ -1,0 +1,49 @@
+---
+layout: default
+---
+
+<div class="container relative flex flex-column flex-row-ns">
+    <div class="w-100 w-40-ns mv4 pr4-ns">
+        <div class="pv4 pt6-ns sticky-ns">
+            <h1 class="mt0-ns ph3 ph0-ns">{{ page.title }}</h1>
+            <dl class="w-100 fl f5 lh-title ph3 ph0-ns">
+                <dt class="secondary b mb1 o-90">What is this page?</dt>
+                <dd class="secondary ml0 o-90 lh-copy">
+                    {{ page.subtitle | markdownify }}
+                </dd>
+            </dl>
+        </div>
+    </div>
+    <div class="w-60-ns mt6-ns">
+        <ul class="list pl0 ma0">
+            {% for friend in page.friends %}
+            <li class="mb3">
+                <a href="{{ friend.url }}" class="link flex items-center gap3 bg-faint br4 pa3 grow-small" target="_blank" rel="noopener">
+                    {% if friend.icon %}
+                    <img
+                        src="{{ friend.icon }}"
+                        alt=""
+                        width="32"
+                        height="32"
+                        class="br2 db flex-none mt0"
+                        loading="lazy"
+                        decoding="async"
+                    >
+                    {% endif %}
+                    <div class="lh-title main">
+                        <div class="b">{{ friend.name }} ↗</div>
+                        {% if friend.note and friend.note != blank %}
+                        <div class="secondary mt1">{{ friend.note }}</div>
+                        {% endif %}
+                    </div>
+                </a>
+            </li>
+            {% endfor %}
+        </ul>
+        {% if content != blank %}
+        <div class="pt3">
+            {{ content }}
+        </div>
+        {% endif %}
+    </div>
+</div>

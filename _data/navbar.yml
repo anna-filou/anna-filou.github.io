@@ -42,3 +42,8 @@ secondary:
     url: now
     langs: 'no'
     image: /assets/menu-images/now.webp
+  - en: Friends
+    el:
+    url: friends
+    langs: 'no'
+    image: /assets/menu-images/friends.webp

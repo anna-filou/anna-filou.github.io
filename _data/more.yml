@@ -29,13 +29,18 @@
   img: "/assets/more-grid/reading.webp"
   url: reading
   langs: no
-- title: Listening
-  desc: Favorite song snippets
-  img: "/assets/more-grid/listening.webp"
-  url: listening
-  langs: no
 - title: Tools
   desc: Software I use and recommend
   img: "/assets/more-grid/tools.webp"
   url: uses
+  langs: no
+- title: Friends
+  desc: Links to their websites
+  img: "/assets/more-grid/friends.webp"
+  url: friends
+  langs: no
+- title: Listening
+  desc: Favorite song snippets
+  img: "/assets/more-grid/listening.webp"
+  url: listening
   langs: no
