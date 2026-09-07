@@ -1,0 +1,60 @@
+---
+title: 10 Years of Adulthood
+date: 2026-09-07T00:00:00.000+00:00
+categories:
+- en
+tags:
+- life
+layout: post
+banner: /assets/metadata/posts/reflecting-on-10-years-of-adulthood-og.png
+main-image:
+icon: /assets/blog/10-years-adulthood.png
+lang: en
+---
+
+It recently occurred to me that I'm 28, which means I've been an adult for exactly **10 years**. It feels like a good time to reflect.
+
+
+
+---
+
+
+
+When you’re in high school, ‘the adults’ love to tell you that these are the best years of your life. They say you’ll wish you could be 18 again; that being an adult sucks because you have a job and responsibilities.
+
+Maybe that was true for them. It sounds like life was more linear and less free back then.
+
+For me though, my 20s have been better than my teens in nearly every way. For example, today:
+
+- I look forward to work instead of dreading school. No contrived exercises, seemingly designed to bore me out of my mind, but real problems I can solve to grow and build a body of work I'm proud of.
+- I decide what I do with my day and how I live my life. Nobody dictates my schedule anymore. (Which I admit, can sometimes be a negative, but it’s mostly positive.)
+- I’m [stronger and healthier](/en/getting-fit) as a result of more knowledge around fitness and practicing strength training.
+- I'm treated and respected as a person. I don’t see this getting discussed enough: when you're a kid, most adults treat you more like a pet than a human. Your thoughts, ideas, and agency often get overlooked, if not trampled.
+
+Teenage years do have one thing going for them: they’re full of firsts, and you can’t have those twice! That makes them vivid in memory and easy to be nostalgic about (I reminisce a lot), even when that period of your life was worse by objective measures.
+
+
+
+---
+
+
+
+School wasn't for me. You're told what to do and how to do it, then judged on standardized tests you never wanted to take. Some people thrive in that system and that’s amazing, but I couldn't. I stopped caring about subjects like chemistry and spent class time drawing, which disappointed my teachers and quite a few other people. I spent all day on the computer, following my interests down rabbit holes. I didn't know what I wanted yet, but I knew what I **didn't** want, and that was enough to guide me.
+
+I should say I was also very lucky. I had my family's support then and still do, so I never had to worry about putting food on the table. That gave me far more room to maneuver than many: I could say no to things that weren't a good fit, trusting that something better would come along later.
+
+---
+
+**In my 20s so far I've had five jobs and changed careers twice.**
+
+My first career was operations management in intra-community imports and exports. (I wonder, does that sentence mean anything to anyone reading this?) I got good at it: built my own systems in no-code databases, became the person who could figure anything out, and set things up so everyone around me worked more efficiently. Within that little bubble, I was in demand. The problem was that I was bored and saw it as a dead end. Couldn’t imagine myself in that industry long term.
+
+I’ve always been into computers (my parents love to tell people I knew how to type before I knew the alphabet), so that ended up leading me to web design and development. It’s a long story and one day I’ll write a blog post about it. The short of it is that I found work at a web design agency but the pay wasn’t good, so I quickly left to do operations again. This time though I had my own website and took on design gigs on the side. That eventually landed me a role at a [Greek startup](/en/shopflix), and later led me to my current role at a [US startup](/en/jest), which allowed me to spend a full month traveling across the US—a literal dream trip!
+
+---
+
+I've made some good [friends](/friends) in my 20s (mostly online) who support me personally and professionally, and whom I can have long, interesting conversations with. I’m also still close with friends from elementary and middle school, even if I rarely see most of them.
+
+There's plenty of room to improve, plenty of surface to build on, and I'm optimistic. I still have moments where everything feels pointless, but then I look back at how far I've come and imagine how much further I can go. These are turbulent times, in tech and in the world at large, and the only thing to do is keep moving forward.
+
+**Here's to the next 10 years.**
