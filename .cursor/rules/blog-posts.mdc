@@ -1,0 +1,33 @@
+---
+description: Short blog post filenames; capture OG screenshot when a post is done
+globs: _posts/**/*.md
+alwaysApply: true
+---
+
+# Blog posts
+
+## Short filenames
+
+Use **super short** Jekyll slugs. Prefer 1–3 words, kebab-case. The date prefix stays.
+
+```
+# ❌ BAD
+_posts/2026-09-07-reflecting-on-10-years-of-adulthood.md
+
+# ✅ GOOD
+_posts/2026-09-07-10-years.md
+```
+
+Examples of good slugs: `10-years`, `getting-fit`, `carousels`, `manual`, `jest`.
+
+Match asset names to the slug when practical (`assets/blog/{slug}.*`, `assets/metadata/posts/{slug}-og.png`).
+
+## When the post is done → OG screenshot
+
+When the user says they're done with a post (or ready to publish / ship / finalize), **capture the OG image** without waiting to be asked:
+
+1. Confirm Jekyll is serving the post (`/{category}/{slug}.html`, usually `/en/{slug}.html`)
+2. Run: `node scripts/capture-og.mjs /en/{slug}.html posts/{slug}-og`
+3. Set front matter: `banner: /assets/metadata/posts/{slug}-og.png`
+
+Details and edge cases (case studies, batch scripts): see `.cursor/rules/open-graph-images.mdc`.
