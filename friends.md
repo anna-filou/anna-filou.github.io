@@ -2,6 +2,7 @@
 title: Friends
 layout: friends
 lang: en
+banner: /assets/metadata/friends-og.png
 subtitle: |
     This is a /friends page, inspired by [slashfriends.org](https://slashfriends.org).
     Essentially a list of my friends **who have websites**.

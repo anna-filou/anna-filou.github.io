@@ -11,6 +11,7 @@ const pages = [
   ['/reading', 'reading-og'],
   ['/uses', 'uses-og'],
   ['/listening', 'listening-og'],
+  ['/friends', 'friends-og'],
   ['/ideas', 'ideas-og'],
   ['/bookmarks', 'bookmarks-og'],
   ['/links', 'links-og'],
