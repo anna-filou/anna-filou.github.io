@@ -5,9 +5,7 @@ lang: en
 banner: /assets/metadata/friends-og.png
 subtitle: |
     This is a /friends page, inspired by [slashfriends.org](https://slashfriends.org).
-    Essentially a list of my friends **who have websites**.
-    
-    PS: Don't read into the sorting.
+    Essentially a list of my friends and friendly acquaintances **who have websites**.
 friends:
   - name: Petros
     url: https://petros.contact/
@@ -32,5 +30,9 @@ friends:
   - name: Constantinos Haritos, Database™
     url: https://the-database.co/
     icon: /assets/friends/constantinos-haritos.png
+    note:
+  - name: Steve Barker
+    url: https://www.thefuturesteve.com/
+    icon: /assets/friends/steve.png
     note:
 ---
