@@ -22,6 +22,10 @@
     let origin = 0;
     let pointerId = null;
     let last = 0;
+    let gliding = false;
+    let resumeAfterGlide = false;
+    let velocity = 0;
+    let samples = [];
 
     function measure() {
       const first = slides[0].getBoundingClientRect().left;
@@ -69,7 +73,17 @@
       if (!last) last = now;
       const dt = (now - last) / 1000;
       last = now;
-      if (!paused && !dragging && distance) {
+      if (gliding) {
+        offset = wrap(offset + velocity * dt);
+        velocity *= Math.exp(-dt / 0.18);
+        render();
+        if (Math.abs(velocity) < 8) {
+          gliding = false;
+          velocity = 0;
+          if (resumeAfterGlide || !carousel.matches(':hover')) paused = false;
+          resumeAfterGlide = false;
+        }
+      } else if (!paused && !dragging && distance) {
         offset = wrap(offset - (distance / duration) * dt);
         render();
       }
@@ -79,17 +93,25 @@
 
     carousel.addEventListener('pointerenter', function () {
       paused = true;
+      resumeAfterGlide = false;
     });
 
     carousel.addEventListener('pointerleave', function () {
       if (dragging) return;
+      if (gliding) {
+        resumeAfterGlide = true;
+        return;
+      }
       paused = false;
     });
 
     carousel.addEventListener('pointerdown', function (event) {
       if (event.button !== 0) return;
       dragging = true;
+      gliding = false;
+      velocity = 0;
       moved = false;
+      samples = [];
       pointerId = event.pointerId;
       startX = event.clientX;
       origin = offset;
@@ -103,9 +125,22 @@
       if (!dragging || event.pointerId !== pointerId) return;
       const dx = event.clientX - startX;
       if (Math.abs(dx) > 4) moved = true;
+      const now = performance.now();
+      samples.push({ x: event.clientX, t: now });
+      const cutoff = now - 80;
+      while (samples.length > 2 && samples[0].t < cutoff) samples.shift();
       offset = wrap(origin + dx);
       render();
     });
+
+    function releaseVelocity() {
+      if (samples.length < 2) return 0;
+      const first = samples[0];
+      const lastSample = samples[samples.length - 1];
+      const elapsed = (lastSample.t - first.t) / 1000;
+      if (elapsed <= 0) return 0;
+      return (lastSample.x - first.x) / elapsed;
+    }
 
     function endDrag(event) {
       if (!dragging || event.pointerId !== pointerId) return;
@@ -114,7 +149,17 @@
       document.documentElement.classList.remove('is-carousel-dragging');
       if (moved) suppressClick = true;
       const releasedOutside = event.pointerType === 'touch' || !carousel.matches(':hover');
-      if (releasedOutside) paused = false;
+      let speed = moved ? releaseVelocity() : 0;
+      speed = Math.max(-2400, Math.min(2400, speed));
+      if (Math.abs(speed) > 120) {
+        velocity = speed;
+        gliding = true;
+        paused = true;
+        resumeAfterGlide = releasedOutside;
+      } else if (releasedOutside) {
+        paused = false;
+      }
+      samples = [];
     }
 
     carousel.addEventListener('pointerup', endDrag);
