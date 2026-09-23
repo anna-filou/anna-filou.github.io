@@ -40,6 +40,25 @@
       width: calc(var(--slides-in-view-small) * var(--slide-width-small));
     }
   }
+
+  .carousel--draggable.is-ready {
+    cursor: grab;
+    touch-action: pan-y;
+  }
+
+  .carousel--draggable.is-ready .carousel__slide {
+    animation: none;
+  }
+
+  .carousel--draggable.is-dragging {
+    cursor: grabbing;
+    user-select: none;
+  }
+
+  html.is-carousel-dragging,
+  html.is-carousel-dragging * {
+    cursor: grabbing !important;
+  }
   
   .carousel__wrapper {
     display: flex;
