@@ -1174,17 +1174,16 @@ hr {
 
 .about-quote__text {
   flex: 1 1 12rem;
-  min-width: 12rem;
+  min-width: 280px;
 }
 
 .about-photos {
-  position: relative;
-  width: 16rem;
-  max-width: calc(100% + 2rem);
-  flex-shrink: 0;
-  margin-left: auto;
-  margin-right: -2rem;
-  margin-bottom: -2rem;
+  width: 12rem;
+  max-width: calc(100% + 1rem);
+
+  @media screen and (min-width: 50em) {
+    max-width: calc(100% + 2rem);
+  }
 }
 
 .about-photo {
@@ -1197,7 +1196,7 @@ hr {
   position: absolute;
   width: 38%;
   left: 18%;
-  top: 58%;
+  top: 66%;
   z-index: 1;
   transform: rotate(15deg);
 }
@@ -1300,12 +1299,34 @@ hr {
   transition: opacity 0.25s ease-out, transform 0.25s ease-out;
 }
 
+.about-peek__pic img {
+  display: block;
+  width: 100%;
+  height: auto;
+  animation: about-peek-bob 3.6s ease-in-out infinite;
+}
+
+@keyframes about-peek-bob {
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+
+  50% {
+    transform: translateY(-0.45rem);
+  }
+}
+
 @media (prefers-reduced-motion: reduce) {
   .about-peek__pic,
   .about-peek:hover .about-peek__pic,
   .about-peek:focus-within .about-peek__pic {
     transform: none;
     transition: none;
+  }
+
+  .about-peek__pic img {
+    animation: none;
   }
 }
 
