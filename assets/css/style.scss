@@ -1198,7 +1198,11 @@ hr {
   left: 18%;
   top: 66%;
   z-index: 1;
-  transform: rotate(15deg);
+  rotate: 15deg;
+}
+
+.about-photo--sticker.hover-rotate-right:hover {
+  rotate: 30deg;
 }
 
 .about-photo--sticker img {
