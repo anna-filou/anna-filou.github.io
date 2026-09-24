@@ -1,0 +1,48 @@
+---
+description: Implementing a pen.dev / Pencil frame or node ID into this Jekyll site. Snap to Tachyons and existing SCSS; flag mismatches before coding.
+alwaysApply: false
+---
+
+# Pen.dev → code
+
+When the user points at a Pencil node (e.g. `Node ID: Q5yruC`) to build or restyle a page:
+
+## Read, then stop
+
+1. Load the node via Pencil MCP first (`user-pen`, with `filePath` to `portfolio-pen/portfolio.pen`). If MCP is blocked or the result looks wrong, read the on-disk `.pen` (see `pencil-pen-dev-access`). This repo’s file is `portfolio-pen/portfolio.pen` (gitignored).
+2. Compare layout, type, color, radius, and copy to **current Tachyons classes, SCSS variables, and layouts**.
+3. **List mismatches and proposed snaps. Do not write code until the user confirms.**
+
+Typical mismatches: a size that isn’t `h1`–`h6`, `.hero-headline`, or `.f1`–`.f7`; a hex that isn’t a `$light-*` / `$dark-*` pair or an existing class (`.secondary`, `.tertiary`, `.bg-faint`); a radius that isn’t `.br0`–`.br4` or `.br-100`; a layout an existing layout or Tachyons flex/grid can’t express; a change to a shared layout (`default`, `container`, `measure`, `work-grid`, `case-study`, `home`) that would leak to other pages.
+
+## Snap to the site, don’t copy the file
+
+Pencil numbers are intent. This site has no `--text-*` / `--color-*` / `--radius-*` tokens.
+
+Markup is HTML or Markdown with a `layout:` in front matter. Styling is [Tachyons](assets/css/tachyons.scss) plus classes in `assets/css/style.scss`. Type defaults live in `_sass/typography.scss`. Body type is Space Grotesk at 18px.
+
+- Font size → an existing heading, `.hero-headline` (home hero only), or the nearest `.f1`–`.f7`. Headings are already uppercase; don’t add a one-off size.
+- Fill → the matching semantic class or SCSS variable. Body, headings, links, faint surfaces, and borders already have light and dark values (`$light-*` / `$dark-*`, switched with `prefers-color-scheme`). Don’t paste a Pencil hex when a variable or class is already that color. A new color needs both schemes.
+- Radius → nearest `.br0`–`.br4` (0, .125rem, .25rem, .5rem, 1rem) or `.br-100`. Sibling cards match each other. Tags stay pills (`.tag`).
+- Space → the Tachyons scale (`.pa3`, `.mt4`, `.gap3`, and the `-ns` / `-l` variants), not `26px`. `-ns` starts at 50em.
+- Width → `.container` (1240px) or `.container-lg` (1440px), or `.measure` for a text column.
+
+Wrong: `font-size: 104px; color: #d8dcff; border-radius: 20px;`
+Right: `h1` or `.f3`; `.secondary` or `.tertiary`; `.br3` or `.br4` next to the other card
+
+## Where code goes
+
+- Page chrome stays in `_layouts/default.html` (`navbar`, `footer`). Page content is `en/` (or `el/`) with a layout, or a data file under `_data/` when the page is a grid (`work-grid` reads `site.data[page.data]`).
+- Reuse what exists: `.secondary`, `.tertiary`, `.bg-faint`, `.b--faint`, `.link`, `.tag`, headings, `.container`. New classes are for **this page’s layout only** when Tachyons can’t do it, and they go in `assets/css/style.scss` (or the `_sass/` partial that already owns that feature).
+- Don’t restyle a shared layout or `_sass/typography.scss` to fit one frame. If the layout isn’t that shell, give the page its own layout.
+
+## Copy
+
+Matching the design means using the node’s `content` strings, not the old page copy. Bilingual strings on the home page go through `_data/home.yml` (`[page.lang]`), not hard-coded in both languages.
+
+## Don’t
+
+- Invent a type size, hex, or radius because the file said so
+- Add a class for something `.secondary`, `.f5`, or an `h1`–`h3` already does
+- Ship a light-mode-only color
+- Stall for the `.pen` to be open in Cursor when `portfolio-pen/portfolio.pen` is on disk

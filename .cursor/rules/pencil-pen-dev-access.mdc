@@ -1,0 +1,36 @@
+---
+description: How to read pen.dev / Pencil designs — MCP first, on-disk .pen as backup
+alwaysApply: true
+---
+
+# Pencil / pen.dev access
+
+Node IDs like `lGVRd` are **Pencil**, not Figma.
+
+## 1. MCP first
+
+Use Pencil MCP (`execute` / `get_app_state` / screenshots) before anything else.
+
+Try `user-pen` if it is available — it accepts a `filePath` to the `.pen` and works when the other server does not. `user-highagency.pencildev-extension-pencil` often errors with:
+
+> Failed to access file "…". A file needs to be open in the editor
+
+**Desktop app open is not enough** for that server — it wants a `.pen` active in the Cursor editor. Pass `filePath` and/or switch to `user-pen` rather than stalling.
+
+## 2. Backup (on-disk `.pen`)
+
+If MCP is blocked, returns nothing useful, or the canvas read looks wrong, parse the saved document. Do **not** wait for the file to be open in Cursor if it is already on disk.
+
+1. Find the active/recent doc:
+   - `~/.pencil/recent-documents.json` (if present), or
+   - `/Users/anna/Library/Application Support/Pen/recent-documents.json`
+2. Open the listed `file://…/*.pen` path (this repo’s copy is `portfolio-pen/portfolio.pen`, gitignored; others under `~/.pencil/documents/<uuid>/`).
+3. Parse as JSON and locate the node by `"id": "<nodeId>"`. Walk `children` for structure, text (`content`), layout, and fills.
+4. Optional: `~/.pencil/previews/<uuid>.png` for a coarse canvas screenshot; recent chats under `~/.pencil/sessions/` may already describe the same node.
+
+## Do / don’t
+
+- **Do** use MCP when it works (live canvas, screenshots, edits).
+- **Do** fall back to the on-disk `.pen` for read-only design→code when MCP fails or disagrees with what you see.
+- **Don’t** treat Pencil node IDs as Figma (`123:456`) or hunt Figma files first.
+- **Don’t** invent the layout from memory if the `.pen` is readable.
