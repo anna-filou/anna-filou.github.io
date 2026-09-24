@@ -38,7 +38,7 @@ Right: `h1` or `.f3`; `.secondary` or `.tertiary`; `.br3` or `.br4` next to the 
 
 ## Copy
 
-Matching the design means using the node’s `content` strings, not the old page copy. Bilingual strings on the home page go through `_data/home.yml` (`[page.lang]`), not hard-coded in both languages.
+Matching the design means using the node’s `content` strings, not the old page copy. Bilingual strings on the home page go through `_data/home.yml` (`[page.lang]`), not hard-coded in both languages. If there are typos or grammar errors, fix them and let the user know.
 
 ## Don’t
 

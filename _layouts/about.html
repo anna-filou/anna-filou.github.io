@@ -2,42 +2,76 @@
 layout: default
 ---
 
-<div class="container mt5-ns flex flex-column flex-row-reverse-ns">
-    <div class="mt4 pl4-ns flex flex-row items-start flex-wrap flex-column-ns gap3 relative">
-        <img src="/assets/about-me.webp" width="438" height="528" class="br4 w-50 w-80-ns h-auto min-h-150" alt="young person with beaming smile and long dark hair waving at the camera with both hands">
-        <div class="relative nl4 ml0-ns nt5-ns w-50 w-100-ns h-auto">
-            <img src="/assets/stickers-1.png" class="" alt="Handdrawn stickers: a burger, headphones, a rainbow, the MegaMan Battle Network emblem, a barbell, and a Pokeball">
-            <a href="https://www.16personalities.com/intp-personality" target="_blank" class="hover-rotate-right fit-content relative absolute bottom--2 left--2 top-0-ns left--2-ns top-2-l">
-                <img src="/assets/intp-sticker.webp" class="w4 rotate--15 shadow grow-large" alt="the words INTP Assertive inside a stamp-shaped sticker">
-            </a>
+<div class="container mt6-ns flex flex-column flex-row-ns">
+    <div class="w-100 w-two-thirds-ns pr0 pr5-ns">
+        <div class="about-quote flex flex-wrap items-center gap3 ba bw1 b--faint br4 pa4">
+            <p class="about-quote__text f4 b mt0 mb0">
+                I’m both cynical and optimistic.<br>
+                I love tech and hate what it’s doing to us.<br>
+                I crave spontaneity and control.
+            </p>
+            <div class="about-photos">
+                <img class="about-photo" src="/assets/about/photos.png" width="430" height="379" alt="Anna photographing a still lake, with a river and pink clouds beside her">
+                <a href="https://www.16personalities.com/intp-personality" target="_blank" rel="noopener" class="about-photo about-photo--sticker hover-rotate-right">
+                    <img src="/assets/intp-sticker.webp" width="92" height="63" alt="INTP Type A sticker">
+                </a>
+            </div>
         </div>
-        <div class="dn db-ns mb4 br3 pa2 bg-faint">
-            <a href="https://info.flagcounter.com/qz5V" target="_blank">
-                <img width="293" height="83" src="https://s01.flagcounter.com/count2/qz5V/bg_0E0A70/txt_FFFFFF/border_6D80FC/columns_3/maxflags_12/viewers_0/labels_1/pageviews_0/flags_0/percent_1/" alt="Flag Counter" border="0">
-            </a>
-            <div class="f6 secondary">Added 2025-03-04, covers <code>/about</code> page</div>
-        </div>
-        <!-- <video autoplay loop muted src="/assets/swan-bike.mp4" class="w-100 br3 dn db-ns"></video> -->
-        <!-- <img src="/assets/about-illustration-from-timeline.webp" alt="" class="br3 dn db-ns"> -->
-        <div>
-            {{page.sidebar | markdownify }}
-        </div>
-    </div>
-    
-    <div class="pr4-ns" style="min-width: 60%;">
-        <div class="measure-wide">
-            {{content}}
+
+        <div class="about-copy bg-faint br4 pa4 mt4">
+            <p class="mt0">I’m a digital designer.</p>
+            <p>I grew up online, in a bustling city, and in quiet villages where I spent part of my childhood summers. But mostly online.</p>
+            <p>I learned English because I desperately wanted to finish a video game and I couldn’t understand what the quest was asking me to do.</p>
+            <p>I made this website partly to help me find a good job, and partly to make <a href="/friends">friends</a>. (It’s helped with both.)</p>
+            <p>I’ve been dreaming of having what we now call “AI agents” since I was in kindergarten.</p>
+            <p>I read that you shouldn’t start so many sentences in a row with “I” and for years I tried so hard not to, but I don’t care anymore.</p>
+            <p>I want to do good in the world, and I don’t feel I have yet. But I’m trying. Day by day, little by little, I’m leaving a mark.</p>
+
+            <details class="about-more">
+                <summary class="b nowrap">
+                    <span class="about-more__more">[+] More</span>
+                    <span class="about-more__less">[-] Less</span>
+                </summary>
+                <div class="about-more__body">
+                    <p>I’m an ideas person. I love ideas: having them, discussing them, shaping them. The flipside of that is that, once I polish an idea in my head or on paper, I might lose interest in actually bringing it to life.</p>
+                    <p>I crave tattoos but don’t have any.</p>
+                    <p>I speak 4 languages (Greek, English, German and a bit of Japanese) and take almost too much pride in that.</p>
+                    <p>Some of my <a href="/listening">favorite songs</a> are in German and it pains me most of my friends cannot enjoy them.</p>
+                    <p>I’ve been collecting mp3s since I was 11 (or so). I have over 1700 saved to my home server now. I know the lyrics of most of them by heart. (The reason I’m so forgetful might be that my brain is full of lyrics.)</p>
+                    <p>I tend to prefer animated movies to live action. (ChatGPT says that means I “value wonder, visual artistry, and worlds that allow for escapism”.)</p>
+                    <p>I used to think ChatGPT would help me write better; now I’m sick of reading generated prose and spot it ten miles away.</p>
+                </div>
+            </details>
         </div>
     </div>
 
-    <!-- <video autoplay loop muted src="/assets/swan-bike.mp4" class="w-100 br3 db dn-ns"></video> -->
-    <div class="db dn-ns mt5 br3 pa3 bg-faint">
-        <a href="https://info.flagcounter.com/qz5V" target="_blank">
-            <img width="293" height="83" src="https://s01.flagcounter.com/count2/qz5V/bg_0E0A70/txt_FFFFFF/border_6D80FC/columns_3/maxflags_12/viewers_0/labels_1/pageviews_0/flags_0/percent_1/" alt="Flag Counter" border="0">
+    <div class="about-side w-100 w-third-ns mt4 mt0-ns flex flex-column">
+        <div class="flex flex-column gap3">
+            <a href="/en/10-years" class="flex items-center gap3 ba bw1 b--faint br3 pa3 no-underline">
+                <span class="f3" aria-hidden="true">📌</span>
+                <span>10 Years of Adulthood</span>
+            </a>
+            <a href="/en/manual" class="flex items-center gap3 ba bw1 b--faint br3 pa3 no-underline">
+                <span class="f3" aria-hidden="true">📒</span>
+                <span>Manual</span>
+            </a>
+            <a href="/ideas" class="flex items-center gap3 ba bw1 b--faint br3 pa3 no-underline">
+                <span class="f3" aria-hidden="true">💡</span>
+                <span>Ideas</span>
+            </a>
+            <a href="/bookmarks" class="flex items-center gap3 ba bw1 b--faint br3 pa3 no-underline">
+                <span class="f3" aria-hidden="true">🔖</span>
+                <span>Bookmarks</span>
+            </a>
+        </div>
+
+        <div class="about-bars dn db-ns flex-auto mt4" aria-hidden="true"></div>
+
+        <a href="https://about.jest.com" class="db bg-faint br3 pa3 mt4 color-inherit no-underline" target="_blank" rel="noopener">
+            Currently designing at
+            <img class="about-jest-mark" src="/assets/jest-wordmark.svg" width="79" height="32" alt="Jest"><span aria-hidden="true">↗</span>
         </a>
-        <div class="f6 secondary">Added 2025-03-04, covers <code>/about</code> page</div>
     </div>
-    
 </div>
 
 <hr>
