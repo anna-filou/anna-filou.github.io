@@ -1268,6 +1268,47 @@ hr {
   margin-top: 1rem;
 }
 
+.about-peek {
+  text-decoration: underline dotted;
+  text-decoration-thickness: 2px;
+  text-underline-offset: 0.2em;
+  cursor: pointer;
+  anchor-name: --peek;
+  anchor-scope: --peek;
+}
+
+.about-peek__pic {
+  position: fixed;
+  position-anchor: --peek;
+  position-area: top;
+  position-try: flip-block, flip-inline;
+  z-index: 5;
+  width: 15rem;
+  height: auto;
+  margin: 0.5rem;
+  opacity: 0;
+  pointer-events: none;
+  transform: translateY(0.75rem) scale(0.92);
+  transform-origin: center bottom;
+  transition: opacity 0.05s linear, transform 0.05s linear;
+}
+
+.about-peek:hover .about-peek__pic,
+.about-peek:focus-within .about-peek__pic {
+  opacity: 1;
+  transform: none;
+  transition: opacity 0.25s ease-out, transform 0.25s ease-out;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .about-peek__pic,
+  .about-peek:hover .about-peek__pic,
+  .about-peek:focus-within .about-peek__pic {
+    transform: none;
+    transition: none;
+  }
+}
+
 @media (prefers-color-scheme: dark) {
   .about-bars {
     background-color: $dark-faint;
