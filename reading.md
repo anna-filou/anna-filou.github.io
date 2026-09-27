@@ -11,7 +11,7 @@ books:
   read: '2026'
   pages: 416
   my-notes:   |-
-    Tyrannies are virtue-dominance games. Much of their daily play and conversation will focus on matters of obedience, belief and enemies. Is the game you’re playing coercing people, both inside and outside it, into conforming to its rules and symbols? Does it attempt to silence its ideological foes? Does it tell a simplistic story that explains the hierarchy, deifying their group whilst demonising a common enemy?
+    “Tyrannies are virtue-dominance games. Much of their daily play and conversation will focus on matters of obedience, belief and enemies. Is the game you’re playing coercing people, both inside and outside it, into conforming to its rules and symbols? Does it attempt to silence its ideological foes? Does it tell a simplistic story that explains the hierarchy, deifying their group whilst demonising a common enemy?”
 - title: "Made to Stick"
   cover: "/assets/books/made-to-stick.webp"
   author: Chip & Dan Heath
