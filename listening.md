@@ -101,10 +101,10 @@ songs:
   snippet: /assets/listening/snippet-61.mp3
   link: https://open.spotify.com/track/1EwAkFA15j2gZYoVVw246F
 - title: Monster
-  artist: Skillet
-  cover: /assets/listening/skillet-monster.webp
-  snippet: /assets/listening/snippet-53.mp3
-  link: https://open.spotify.com/track/2UREu1Y8CO4jXkbvqAtP7g
+  artist: Jorge Rivera-Herrans
+  cover: /assets/listening/jorge-rivera-herrans-monster.webp
+  snippet: /assets/listening/snippet-05.mp3
+  link: https://open.spotify.com/track/2uakf4oX6yCvlcHrCunap0
 # - title: King For a Day (ft. Kellin Quinn)
 #   artist: Pierce the Veil
 #   cover: /assets/listening/pierce-the-veil-king-for-a-day.webp
