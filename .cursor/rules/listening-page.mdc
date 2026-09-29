@@ -1,0 +1,56 @@
+---
+description: Listening page — add/reorder songs, snippets, covers, Spotify/YouTube links
+globs: listening.md,assets/listening/**/*,assets/js/listening.js,assets/css/style.scss
+alwaysApply: false
+---
+
+# Listening page
+
+Grid of favorite-song snippets at `/listening` (`listening.md`, `layout: default`). Playback is **cover-only** (title/artist are for `link:`). Shared player JS: `assets/js/listening.js`.
+
+## Song front matter
+
+Each entry under `songs:`:
+
+```yaml
+- title: Song Title
+  artist: Artist Name
+  cover: /assets/listening/{artist-slug}-{title-slug}.webp
+  snippet: /assets/listening/snippet-XX.mp3
+  link: https://open.spotify.com/track/...   # or YouTube URL
+```
+
+Quote `artist` / `title` in YAML when they contain `&`, `:`, or leading special chars.
+
+## Adding a song (“the usual thing”)
+
+The user usually provides a folder with **full tracks** + a `Trimmed/` subfolder of cut snippets (often from mp3cut.net).
+
+1. **Next snippet number** — highest `assets/listening/snippet-*.mp3`, then +1 (zero-pad to 2+ digits: `snippet-64.mp3`).
+2. **Cover** — from embedded art on the **full** file (`ffmpeg`/`ffprobe`). Resize ≤500×500, save WebP: `assets/listening/{slug}.webp`.
+3. **Snippet** — from the **trimmed** file → audio-only MP3 (strip metadata/cover):  
+   `ffmpeg -i trimmed.mp3 -map 0:a:0 -c:a libmp3lame -b:a 192k -map_metadata -1 assets/listening/snippet-XX.mp3`  
+   Filenames stay numeric only — **never** put artist/title in the snippet filename.
+4. **Front matter** — append (or insert where asked). Leave Downloads alone; don’t delete the user’s source files.
+5. **`link:`** — prefer Spotify track URL for the correct recording (version/cover/live). If not on Spotify, use YouTube (`youtube.com` / `youtu.be`). Page Liquid picks the icon from the URL. Verify IDs (oEmbed/search); don’t guess remakes or wrong artists.
+
+## Reordering
+
+Songs may share titles (e.g. two “Monster”s). **Never** key/rebuild by `title` alone.
+
+- Identify blocks by unique `snippet:` path (or `title` + `artist`).
+- Move whole YAML blocks as a list; insert after the target’s `snippet:`.
+
+```
+# ❌ BAD — dict keyed by title overwrites duplicates
+by_title[title] = block
+
+# ✅ GOOD — find by snippet, splice list
+move block where snippet == snippet-61 after block where snippet == snippet-03
+```
+
+## Don’t
+
+- Wire new UI unless asked; data + assets are enough for ingest.
+- Replace one song’s assets with another’s when titles match.
+- Commit unless the user asks.
