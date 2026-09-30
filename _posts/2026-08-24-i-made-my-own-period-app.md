@@ -6,6 +6,7 @@ categories:
 tags:
 - essay
 layout: post
+banner: /assets/metadata/posts/i-made-my-own-period-app-og.png
 main-image:
 icon: /assets/blog/period-app.png
 lang: en
