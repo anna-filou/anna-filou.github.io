@@ -83,6 +83,8 @@ But if you search for this word on Google in Greek (“ευνειροφρένι�
 
 ![Google search for the Greek spelling of euneirophrenia, with a notice that 0 results were displayed](/assets/blog/greek-words-google.jpg)
 
+I suppose after this post gets indexed, there’ll be a single result. 🤔
+
 ## The love types
 
 In the 20th century, writers like C.S. Lewis and John Alan Lee borrowed Greek and Latin words as the names for love styles they came up with. Years later, online listicles started presenting them as ancient Greek concepts, but they’re not.
