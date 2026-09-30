@@ -6,6 +6,7 @@ categories:
 tags:
 - essay
 layout: post
+banner: /assets/metadata/posts/greek-words-og.png
 main-image:
 icon: /assets/blog/greek-words.png
 lang: en
