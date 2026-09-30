@@ -1,6 +1,6 @@
 ---
 description: How to create and update per-page Open Graph images
-globs: _includes/head.html,scripts/capture*.mjs,assets/metadata/**/*
+globs: _includes/head.liquid,scripts/capture*.mjs,assets/metadata/**/*
 alwaysApply: false
 ---
 
@@ -13,7 +13,7 @@ alwaysApply: false
 | `banner` | On-page hero image (`_layouts/case-study.html` only) |
 | `og_image` | Social preview only — never rendered on the page |
 
-`_includes/head.html` resolves `og:image` / `twitter:image` in this order:
+`_includes/head.liquid` resolves `og:image` / `twitter:image` in this order:
 
 1. `page.og_image`
 2. `page.banner`
@@ -27,7 +27,7 @@ alwaysApply: false
 
 **Case studies** (`layout: case-study`):
 - Use `banner` (+ `banner-mobile`) for the on-page hero **and** for OG/social
-- Do **not** set `og_image` — `head.html` falls back to `banner` automatically
+- Do **not** set `og_image` — `head.liquid` falls back to `banner` automatically
 - Do not capture screenshot OG images for case studies
 
 ```

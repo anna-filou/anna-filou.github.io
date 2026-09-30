@@ -1,17 +1,33 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-    <title>{{ site.title }} | {{ page.title }}</title>
 
-    <meta content="{% if page.description %}{{page.description}}{%else%}{{site.description}}{% endif %}" name="description">
-    <meta content="{{ site.title }} | {{ page.title }}" property="og:title">
-    <meta content="{% if page.description %}{{page.description}}{%else%}{{site.description}}{% endif %}" property="og:description">
-    <meta content="{{ site.title }} | {{ page.title }}" property="twitter:title">
-    <meta content="{% if page.description %}{{page.description}}{%else%}{{site.description}}{% endif %}" property="twitter:description">
+    {% comment %} Default OG title {% endcomment %}
+    {% assign social_title = page.title | append: ' | ' | append: site.title %}
+
+    {% if page.description %}
+      {% assign social_description = page.description | strip %}
+      {% elsif page.collection == 'posts' %}
+        {% comment %} If post with no description, use page.content's first 160 characters. {% endcomment %}
+        {% assign post_text = page.content | strip_html | replace: '&amp;', '&' | replace: '&lt;', '<' | replace: '&gt;', '>' | replace: '&quot;', '"' | replace: '&#39;', "'" | normalize_whitespace | strip %}
+        {% assign social_description = post_text | truncate: 160, '…' %}
+      {% else %}
+        {% assign social_description = site.description %}
+    {% endif %}
+
+    <title>{{ social_title | escape }}</title>
+    <meta content="{{ social_description | escape }}" name="description">
+
+    <meta content="{{ social_title | escape }}" property="og:title">
+    <meta content="{{ social_description | escape }}" property="og:description">
+    <meta content="{{ social_title | escape }}" property="twitter:title">
+    <meta content="{{ social_description | escape }}" property="twitter:description">
+
     <meta property="og:type" content="website">
     <meta property="og:image" content="{% if page.og_image %}{{site.url}}{{page.og_image}}{% elsif page.banner %}{{site.url}}{{page.banner}}{%else%}{{site.url}}/assets/meta/an-og.jpg?v=3{% endif %}">
     <meta content="summary_large_image" name="twitter:card">
     <meta property="twitter:image" content="{% if page.og_image %}{{site.url}}{{page.og_image}}{% elsif page.banner %}{{site.url}}{{page.banner}}{%else%}{{site.url}}/assets/meta/an-og.jpg?v=3{% endif %}">
+    
     <link href="/assets/meta/an-favicon-32.png?v=2" rel="shortcut icon" type="image/x-icon">
     <link href="/assets/meta/an-favicon-256.png?v=2" rel="apple-touch-icon">
 

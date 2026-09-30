@@ -24,7 +24,7 @@ Match asset names to the slug when practical (`assets/blog/{slug}.*`, `assets/me
 
 ## When the post is done → OG screenshot
 
-When the user says they're done with a post (or ready to publish / ship / finalize), **capture the OG image** without waiting to be asked:
+When the user says they're done with a post (or ready to publish / ship / finalize), **or asks for a final spell check**, **capture the OG image** without waiting to be asked:
 
 1. Confirm Jekyll is serving the post (`/{category}/{slug}.html`, usually `/en/{slug}.html`)
 2. Run: `node scripts/capture-og.mjs /en/{slug}.html posts/{slug}-og`
