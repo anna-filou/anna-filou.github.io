@@ -21,7 +21,7 @@ In any case, I didn’t want to feel like I might have completely wasted my effo
 
 ## Context
 
-Eunoia.world is an online directory of “untranslatable words”, AKA words without a direct, single-word translation in most other languages (or that’s how I understood it).
+Eunoia.world is an online directory of “untranslatable words”, AKA words without a direct, single-word translation in most other languages.
 
 Anyone can “suggest” a word for the site’s owner to add to the list.
 
