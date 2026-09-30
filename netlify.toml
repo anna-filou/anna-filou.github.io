@@ -1,0 +1,6 @@
+# Redirects only. Build command and publish directory stay in the Netlify UI.
+
+[[redirects]]
+from = "/en/i-made-my-own-period-app"
+to = "/en/period-app/"
+status = 301

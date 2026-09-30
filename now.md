@@ -9,7 +9,7 @@ Feeling really inspired to work on side projects these days. Including:
 
 - [Peter’s website](https://petros.contact) — Portfolio website, based on the UI of NieR Automata. Really proud of how it came out! ![Peter’s website](/assets/work-grid/petros-project-page.png)
 
-- [Hema](https://hema-period.netlify.app) — Period tracking PWA, Clue alternative. [Here’s the write-up](/en/i-made-my-own-period-app/). ![Hema period tracking app screens](/assets/hema/hema-screens.png)
+- [Hema](https://hema-period.netlify.app) — Period tracking PWA, Clue alternative. [Here’s the write-up](/en/period-app/). ![Hema period tracking app screens](/assets/hema/hema-screens.png)
 
 ---
 
