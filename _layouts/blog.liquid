@@ -27,10 +27,14 @@ layout: default
               {%- endif -%}
               {%- assign date_format = "%-d %B %Y" -%}
 
+              {% assign page_lang = page.lang | default: "en" %}
               {% assign blog_posts = "" | split: "" %}
               {% for post in site.posts %}
+                {% assign post_lang = post.lang | default: "en" %}
                 {% unless post.tags contains "case study" %}
-                  {% assign blog_posts = blog_posts | push: post %}
+                  {% if post_lang == page_lang %}
+                    {% assign blog_posts = blog_posts | push: post %}
+                  {% endif %}
                 {% endunless %}
               {% endfor %}
 
