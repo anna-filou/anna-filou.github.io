@@ -3,15 +3,9 @@ availability:
   text: Fully booked right now
 hero:
   intro: 
-    tag:
-      en: Hi～ I’m Anna, a digital
-      el: Ειμαι η Αννα και κανω
-    big-text:
-      en: Product designer who writes code.
-      el: 
-    text:
-      en: I thoughtfully design digital interfaces for the web and mobile&nbsp;devices.
-      el:
+    tag: Hi～ I’m Anna, a digital
+    big-text: Product designer who writes code.
+    text: I thoughtfully design digital interfaces for the web and mobile&nbsp;devices.
 social_profiles:
   # - url: "https://read.cv/ann"
   #   title: "Read CV"

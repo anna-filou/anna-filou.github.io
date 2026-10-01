@@ -1,15 +1,12 @@
 ---
 title: "Solo subscription agencies"
 date: 2025-05-12T00:00:00.000+00:00
-categories:
-- en
 tags:
 - business
 layout: post
 banner: /assets/metadata/posts/solo-agencies-og.png
 main-image: 
 icon: /assets/blog/solo-agencies.webp
-lang: en
 ---
 
 Lately I’ve been seeing more and more solo designers offering design “subscriptions”: fixed monthly fee, one request at a time, cancel anytime. It’s basically a retainer plan, rebranded. 

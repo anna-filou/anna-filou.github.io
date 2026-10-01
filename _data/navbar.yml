@@ -1,49 +1,29 @@
 main: 
-  - en: Work
-    el:
+  - title: Work
     url: /
-    langs: 'yes'
-  - en: About
-    el:
+  - title: About
     url: about
-    langs: 'yes'
-  - en: Contact
-    el:
+  - title: Contact
     url: contact
-    langs: 'yes'
 secondary: 
-  - en: Posts
-    el: 
+  - title: Posts
     url: posts
-    langs: 'yes'
     image: /assets/menu-images/posts.webp
-  - en: Drawing
-    el: 
+  - title: Drawing
     url: art
-    langs: 'yes'
     image: /assets/menu-images/drawing.webp
-  - en: Reading
-    el: 
+  - title: Reading
     url: reading
-    langs: 'no'
     image: /assets/menu-images/reading.webp
-  - en: Listening
-    el: 
+  - title: Listening
     url: listening
-    langs: 'no'
     image: /assets/menu-images/listening.webp
-  - en: Tools
-    el: 
+  - title: Tools
     url: uses
-    langs: 'no'
     image: /assets/menu-images/tools.webp
-  - en: Now
-    el:
+  - title: Now
     url: now
-    langs: 'no'
     image: /assets/menu-images/now.webp
-  - en: Friends
-    el:
+  - title: Friends
     url: friends
-    langs: 'no'
     image: /assets/menu-images/friends.webp

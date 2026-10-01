@@ -1,15 +1,12 @@
 ---
 title: Improving the showcase of projects on my portfolio
 date: 2024-10-05T00:00:00.000+00:00
-categories:
-- en
 tags:
 - product design
 layout: post
 banner: /assets/metadata/posts/portfolio-project-showcase-og.png
 main-image: 
 icon: /assets/blog/portfolio-project-showcase.webp
-lang: en
 ---
 
 <div class="w-100 pa3 br3 bg-faint mv0">
@@ -75,4 +72,4 @@ This also seems like a good chance to try out A/B testing and compare the time v
 
 PS: [Here’s the previous version of the homepage](https://66ffd8b28cd2140008bd1125--annafilou.netlify.app/) with the grid layout. 
 
-[Let me know](/en/contact) what you&nbsp;think!
+[Let me know](/contact) what you&nbsp;think!

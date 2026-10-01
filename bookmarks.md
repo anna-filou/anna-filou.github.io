@@ -1,7 +1,6 @@
 ---
 title: Bookmarks
 layout: ideas
-lang: en
 banner: /assets/metadata/bookmarks-og.png
 subtitle: | 
     A curated collection of links to other web pages.

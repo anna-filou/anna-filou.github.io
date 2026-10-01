@@ -1,7 +1,6 @@
 ---
 title: Creative Services
 layout: default
-lang: en
 ref: collab
 banner: /assets/metadata/collab-og.png
 services:
@@ -58,7 +57,7 @@ faq:
     but I don't like working with Wix or similar platforms because of how restrictive they are.
 - q: Can you do [XYZ]?
   a: If you have something in mind and don’t see any examples of it on my site, but
-    want to work with me, [hit me up and ask](/en/contact). 
+    want to work with me, [hit me up and ask](/contact). 
     <br><br>
     I’m open to new challenges and am always learning new skills. If I can’t do it, I’ll let you know upfront. 
 ---
@@ -96,7 +95,7 @@ faq:
 
     <div class="flex flex-column flex-row-ns space-between nr3-ns nl3-ns mt">
         {% for service in page.services %}
-        <a class="main w-100 mw6 center w-third-ns mv2 mt3-ns mb0-ns link" href="/{{page.lang}}/{{service.url}}">
+        <a class="main w-100 mw6 center w-third-ns mv2 mt3-ns mb0-ns link" href="/{{service.url}}">
             <div class="bg-faint pa4 pa3-ns pa4-l smooth-shadow br3 mh3-ns grow">
                 <i class="{{service.icon}} f1"></i>
                 <h3 class="mt5">{{service.title}}</h3>

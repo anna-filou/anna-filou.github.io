@@ -5,7 +5,7 @@ items:
     desc: "A purposefully frictionful task management app. Didn’t finish a task? You get to see it tomorrow once, before it disappears without a trace."
     link:
       title: "Read & Try →"
-      url: "/en/building-today"
+      url: "/building-today"
     media: "/assets/today-todo-4x3.webp"
     year: 2025
     tags:
@@ -33,7 +33,7 @@ items:
     desc: "Concept interface for a Coda “app” I made for myself and use&nbsp;daily."
     link:
       title: "Case study →"
-      url: "/en/time-tracker-concept"
+      url: "/time-tracker-concept"
     media: "/assets/work-grid/hourly.webp"
     year: 2023
     tags:
@@ -54,7 +54,7 @@ items:
     desc: "Design challenge as part of my job interview at&nbsp;TSH."
     link:
       title: "Case study →"
-      url: "/en/monster"
+      url: "/monster"
     media: "/assets/work-grid/monster.jpg"
     year: 2020
     tags:

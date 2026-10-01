@@ -27,19 +27,15 @@ layout: default
               {%- endif -%}
               {%- assign date_format = "%-d %B %Y" -%}
 
-              {% comment %} {% assign en_posts = site.posts | where: "lang", page.lang %} {% endcomment %}
-
-              {% assign en_posts = "" | split: "" %}
+              {% assign blog_posts = "" | split: "" %}
               {% for post in site.posts %}
                 {% unless post.tags contains "case study" %}
-                  {% if post.lang == page.lang %}
-                    {% assign en_posts = en_posts | push: post %}
-                  {% endif %}
+                  {% assign blog_posts = blog_posts | push: post %}
                 {% endunless %}
               {% endfor %}
 
               {% assign years = "" | split: "" %}
-              {% for post in en_posts %}
+              {% for post in blog_posts %}
                 {% assign post_year = post.date | date: "%Y" %}
                 <!-- Debug: {{post.title}} -> {{post_year}} -->
                 {% unless years contains post_year %}
@@ -55,7 +51,7 @@ layout: default
                 </div>
 
                 <div class="flex flex-row flex-wrap nl3 nr3 ">
-                  {%- for post in en_posts -%}
+                  {%- for post in blog_posts -%}
                     {%- assign post_year = post.date | date: "%Y" -%}
                     {%- if post_year == year -%}
                       <a class="w-100 mh3 no-underline main bb b--faint pr4 pr0-ns" style="padding-top: 24px; padding-bottom: 24px;" href="{{ post.url | relative_url }}">

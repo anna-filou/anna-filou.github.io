@@ -1,6 +1,39 @@
 # Redirects only. Build command and publish directory stay in the Netlify UI.
 
+# Old slug for the period-app post. Must come before the /en/* rule.
 [[redirects]]
 from = "/en/i-made-my-own-period-app"
-to = "/en/period-app/"
+to = "/period-app/"
+status = 301
+
+[[redirects]]
+from = "/en/i-made-my-own-period-app/"
+to = "/period-app/"
+status = 301
+
+# Former Greek homepage. /el/mle is a real post and is not redirected.
+[[redirects]]
+from = "/el"
+to = "/"
+status = 301
+
+[[redirects]]
+from = "/el/"
+to = "/"
+status = 301
+
+# Every page that used to live under /en.
+[[redirects]]
+from = "/en/*"
+to = "/:splat"
+status = 301
+
+[[redirects]]
+from = "/en"
+to = "/"
+status = 301
+
+[[redirects]]
+from = "/en/"
+to = "/"
 status = 301

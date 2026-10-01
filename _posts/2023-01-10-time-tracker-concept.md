@@ -1,13 +1,10 @@
 ---
 title: Time Tracker Concept
 date: 2023-01-10T00:00:00.000+00:00
-categories:
-- en
 tags:
 - case study
 layout: case-study
 main-image: 
-lang: en
 type: mobile app design concept
 banner: "/assets/time-tracker-concept-banner-16-9.jpg"
 banner-mobile: "/assets/time-tracker-case-mobile.webp"

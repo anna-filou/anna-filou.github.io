@@ -1,15 +1,12 @@
 ---
 title: Responsive images without layout shift
 date: 2025-01-21T00:00:00.000+00:00
-categories:
-- en
 tags:
 - code
 layout: post
 banner: /assets/metadata/posts/width-height-og.png
 main-image: 
 icon: /assets/blog/width-height.webp
-lang: en
 ---
 
 <div>

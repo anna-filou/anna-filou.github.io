@@ -1,15 +1,12 @@
 ---
 title: "[VID ⏯︎ ] Menus that don't break without JS"
 date: 2025-01-23T00:00:00.000+00:00
-categories:
-- en
 tags:
 - code
 layout: post
 banner: /assets/metadata/posts/js-menu-fallback-og.png
 main-image: 
 icon: /assets/blog/js-menu-fallback.png
-lang: en
 ---
 
 <iframe src="https://share.descript.com/embed/xMBE7vCaaQF"  width="100%" height="360" frameborder="0" allowfullscreen></iframe>

@@ -1,15 +1,12 @@
 ---
 title: "How I generate color scales in CSS with OKLCH"
 date: 2025-05-13T00:00:00.000+00:00
-categories:
-- en
 tags:
 - code
 layout: post
 banner: /assets/metadata/posts/css-color-scales-og.png
 main-image: 
 icon: /assets/blog/css-color-scales.webp
-lang: en
 ---
 
 ![](/assets/anna-color-scale-css.webp)

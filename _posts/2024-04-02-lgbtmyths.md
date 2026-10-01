@@ -1,13 +1,10 @@
 ---
 title: 'Making a resource to fight misinformation'
 date: 2024-04-02T00:00:00.000+00:00
-categories:
-- en
 tags:
 - case study
 layout: case-study
 main-image: 
-lang: en
 type: Concept, Design, Web&nbsp;Development
 banner: /assets/lgbtmyths/lgbtmyths-hero.webp
 banner-mobile: /assets/lgbtmyths/lgbtmyths-hero-mobile.webp

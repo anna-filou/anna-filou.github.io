@@ -1,15 +1,12 @@
 ---
 title: I made my own period app
 date: 2026-08-24T00:00:00.000+00:00
-categories:
-- en
 tags:
 - essay
 layout: post
 banner: /assets/metadata/posts/i-made-my-own-period-app-og.png
 main-image:
 icon: /assets/blog/period-app.png
-lang: en
 ---
 
 ![Hema app icon on a phone home screen dock, between Phone and Safari](/assets/hema/hema-homescreen-icon.png)

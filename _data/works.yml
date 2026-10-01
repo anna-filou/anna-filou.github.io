@@ -2,7 +2,7 @@
   skills: Founding Designer • Product
   case_study:
     title: Details&nbsp;→
-    url: /en/jest
+    url: /jest
   live_site:
     title: Website&nbsp;↗
     url: https://about.jest.com/
@@ -12,7 +12,7 @@
   skills: Design System • UI • Product
   case_study:
     title: Case&nbsp;study&nbsp;→
-    url: /en/shopflix
+    url: /shopflix
   # live_site:
   #   title: Live&nbsp;↗
   #   url: https://shopflix.gr/
@@ -22,7 +22,7 @@
 #   skills: Design System • UI
 #   case_study:
 #     title: Case&nbsp;study&nbsp;→
-#     url: /en/database
+#     url: /database
 #   # live_site:
 #   #   title: Live&nbsp;↗
 #   #   url: https://database.co/
@@ -32,7 +32,7 @@
   skills: Concept • Design • Development
   case_study:
     title: Details&nbsp;→
-    url: /en/lgbtmyths
+    url: /lgbtmyths
   live_site:
     title: Live&nbsp;↗
     url: https://lgbtmyths.com
@@ -42,7 +42,7 @@
 #   skills: 0→1 • Design • Prototyping
 #   case_study:
 #     title: Case&nbsp;study&nbsp;→
-#     url: /en/airboxr
+#     url: /airboxr
 #   live_site:
 #     title: Live&nbsp;↗
 #     url: https://www.airboxr.com/interactive-demo
@@ -52,7 +52,7 @@
 #   skills: UX Design Refresh
 #   case_study:
 #     title: Case&nbsp;study&nbsp;→
-#     url: /en/newsroom
+#     url: /newsroom
 #   live_site:
 #     title: App&nbsp;Store&nbsp;↗
 #     url: https://apps.apple.com/us/app/the-newsroom/id1613913905
@@ -62,7 +62,7 @@
 #   skills: Concept • Design • Dev
 #   # case_study:
 #   #   title: Details&nbsp;→
-#   #   url: /en/calorie-grid
+#   #   url: /calorie-grid
 #   live_site:
 #     title: Live&nbsp;↗
 #     url: https://calorie-grid.netlify.app/

@@ -1,15 +1,12 @@
 ---
 title: "Why are pronouns gendered at all?"
 date: 2026-04-13T00:00:00.000+00:00
-categories:
-- en
 tags:
 - essay
 layout: post
 banner: /assets/metadata/posts/why-are-pronouns-gendered-at-all-og.png
 main-image:
 icon: /assets/blog/gendered-pronouns.webp
-lang: en
 ---
 
 Preferred pronouns are a hotly debated topic in the USA these days (at least judging by the amount of media coverage). It feels like everyone is arguing about which pronouns to use[^1], but nobody seems to be asking why pronouns are gendered in the first place.

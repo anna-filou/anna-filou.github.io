@@ -1,13 +1,10 @@
 ---
 title: 'Shaping a growing e-commerce platform'
 date: 2025-04-02T00:00:00.000+00:00
-categories:
-- en
 tags:
 - case study
 layout: case-study
 main-image: 
-lang: en
 type: UI, UX, Product
 banner: "/assets/shopflix/shopflix-case-hero.webp"
 banner-mobile: "/assets/shopflix/shopflix-case-hero-mobile.webp"

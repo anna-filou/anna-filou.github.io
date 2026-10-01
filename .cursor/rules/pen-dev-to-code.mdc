@@ -32,13 +32,13 @@ Right: `h1` or `.f3`; `.secondary` or `.tertiary`; `.br3` or `.br4` next to the 
 
 ## Where code goes
 
-- Page chrome stays in `_layouts/default.html` (`navbar`, `footer`). Page content is `en/` (or `el/`) with a layout, or a data file under `_data/` when the page is a grid (`work-grid` reads `site.data[page.data]`).
+- Page chrome stays in `_layouts/default.html` (`navbar`, `footer`). Page content is a root file with a layout, or a data file under `_data/` when the page is a grid (`work-grid` reads `site.data[page.data]`).
 - Reuse what exists: `.secondary`, `.tertiary`, `.bg-faint`, `.b--faint`, `.link`, `.tag`, headings, `.container`. New classes are for **this page’s layout only** when Tachyons can’t do it, and they go in `assets/css/style.scss` (or the `_sass/` partial that already owns that feature).
 - Don’t restyle a shared layout or `_sass/typography.scss` to fit one frame. If the layout isn’t that shell, give the page its own layout.
 
 ## Copy
 
-Matching the design means using the node’s `content` strings, not the old page copy. Bilingual strings on the home page go through `_data/home.yml` (`[page.lang]`), not hard-coded in both languages. If there are typos or grammar errors, fix them and let the user know.
+Matching the design means using the node’s `content` strings, not the old page copy. Home-page strings live in `_data/home.yml`. If there are typos or grammar errors, fix them and let the user know.
 
 ## Don’t
 

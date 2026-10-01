@@ -1,13 +1,10 @@
 ---
 title: Planner App Concept
 date: 2022-10-05 00:00:00 Z
-categories:
-- en
 tags:
 - case study
 layout: case-study
 main-image: 
-lang: en
 type: mobile app design concept
 banner: "/assets/effortless-c3.webp"
 intro: Design for parts of a planner app concept that automatically prioritizes your tasks.

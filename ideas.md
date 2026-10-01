@@ -1,7 +1,6 @@
 ---
 title: Ideas
 layout: ideas
-lang: en
 banner: /assets/metadata/ideas-og.png
 subtitle: |
     A list of rough (mostly software) ideas I'd like to work on, in no particular order. Do you have any similar ones? Let's&nbsp;collab!
@@ -15,7 +14,7 @@ ideas:
     description: Project manager. Imagine Trello, but clicking a card opens its own Kanban board.
   - title: Hourly time tracker
     emoji: "⏱️"
-    description: "[see my concept prototype](/en/time-tracker-concept)"
+    description: "[see my concept prototype](/time-tracker-concept)"
   - title: Weather app
     emoji: "👕"
     description: "Shows you the clothes you need to wear instead of temperature and weather icons. E.g. Real feel temperature > 25 °C (adjustable) → 🎽🩳. Rain → ☂️"
@@ -76,4 +75,4 @@ ideas:
       An app where you see all of your notifications from all the services you're using together: Notion, GitHub, LinkedIn, etc. Hard to pull off because the service needs to make that info available via an API or something (Notion for example does not). Email has taken on this role of unified notification inbox but I don't want a permanent paper trail of all of my notifications, nor do I want them in the same place as my 1:1 correspondence.
 ---
 
-Do you wanna work on any of these? (Or something similar, or another thing you think I'd be into that's not listed here?) → [Contact me](/en/contact)!
+Do you wanna work on any of these? (Or something similar, or another thing you think I'd be into that's not listed here?) → [Contact me](/contact)!

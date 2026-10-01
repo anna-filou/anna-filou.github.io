@@ -1,15 +1,12 @@
 ---
 title: Untranslatable Greek words
 date: 2026-09-30T00:00:00.000+00:00
-categories:
-- en
 tags:
 - essay
 layout: post
 banner: /assets/metadata/posts/greek-words-og.png
 main-image:
 icon: /assets/blog/greek-words.png
-lang: en
 ---
 
 I just spent 2 hours correcting a list of supposedly untranslatable Greek words on [eunoia.world](https://eunoia.world/?words%5Bword%5D=&words%5Blanguagetag%5D=Greek&words%5Btag%5D=).

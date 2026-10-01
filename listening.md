@@ -1,7 +1,6 @@
 ---
 title: Listening
 layout: default
-lang: en
 ref: listening
 banner: /assets/metadata/listening-og.png
 songs:

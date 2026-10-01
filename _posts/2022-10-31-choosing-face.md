@@ -1,15 +1,12 @@
 ---
 title: Choosing your “face”
 date: 2022-10-31 00:00:00 Z
-categories:
-- en
 tags:
 - philosophy
 layout: post
 banner: /assets/metadata/posts/choosing-face-og.png
 main-image: 
 icon: /assets/blog/choosing-face.webp
-lang: en
 ---
 
 <!-- <div>

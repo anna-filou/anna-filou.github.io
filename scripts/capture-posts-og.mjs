@@ -31,9 +31,11 @@ function parsePost(fileContents) {
   return { frontMatter: match[1], body: match[2] };
 }
 
-function getCategory(frontMatter) {
-  const match = frontMatter.match(/^categories:\s*\r?\n-\s*(\S+)/m);
-  return match?.[1] ?? 'en';
+function getPagePath(frontMatter, slug) {
+  const match = frontMatter.match(/^permalink:\s*(\S+)/m);
+  if (!match) return `/${slug}`;
+  const path = match[1].replace(/\/$/, '');
+  return path.startsWith('/') ? path : `/${path}`;
 }
 
 function getLayout(frontMatter) {
@@ -75,8 +77,7 @@ for (const file of files) {
     continue;
   }
 
-  const category = getCategory(parsed.frontMatter);
-  const pagePath = `/${category}/${slug}.html`;
+  const pagePath = getPagePath(parsed.frontMatter, slug);
   const outputName = `posts/${slug}-og`;
   const imagePath = `/assets/metadata/posts/${slug}-og.png`;
   const field = 'banner';

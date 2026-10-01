@@ -26,8 +26,8 @@ Match asset names to the slug when practical (`assets/blog/{slug}.*`, `assets/me
 
 When the user says they're done with a post (or ready to publish / ship / finalize), **or asks for a final spell check**, **capture the OG image** without waiting to be asked:
 
-1. Confirm Jekyll is serving the post (`/{category}/{slug}.html`, usually `/en/{slug}.html`)
-2. Run: `node scripts/capture-og.mjs /en/{slug}.html posts/{slug}-og`
+1. Confirm Jekyll is serving the post (`/{slug}.html`)
+2. Run: `node scripts/capture-og.mjs /{slug} posts/{slug}-og`
 3. Set front matter: `banner: /assets/metadata/posts/{slug}-og.png`
 
 Details and edge cases (case studies, batch scripts): see `.cursor/rules/open-graph-images.mdc`.

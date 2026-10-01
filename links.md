@@ -1,7 +1,6 @@
 ---
 title: Links
 layout: links
-lang: en
 ref: 'links'
 banner: /assets/metadata/links-og.png
 links:
@@ -11,7 +10,7 @@ links:
   icon: /assets/meta/an-favicon-256.png
 - title: About me
   description: 
-  url: 'https://annafilou.com/en/about/'
+  url: 'https://annafilou.com/about/'
   icon: 
   size: 
   pill: 

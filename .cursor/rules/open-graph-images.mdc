@@ -64,11 +64,11 @@ Override viewport with `OG_WIDTH`, `OG_HEIGHT`, `OG_BASE_URL`.
 2. Add `banner: /assets/metadata/page-og.png` (or `og_image`)
 3. Add to `scripts/capture-all-og.mjs` for batch regeneration
 
-Skip homepage (`/`, `/en/`, `/el/`) and `/now` (content changes often).
+Skip homepage (`/`) and `/now` (content changes often).
 
 ## New blog post
 
-After the post is reachable at `/{category}/{slug}.html`:
+After the post is reachable at `/{slug}`:
 
 - **Regular post:** `banner: /assets/metadata/posts/{slug}-og.png`
 - **Case study:** `banner` (+ `banner-mobile`) only — same image for hero and OG; skip screenshot capture

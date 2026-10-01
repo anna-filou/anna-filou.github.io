@@ -1,15 +1,12 @@
 ---
 title: "Why I built Today Todo"
 date: 2025-10-12T00:00:00.000+00:00
-categories:
-- en
 tags:
 - product
 layout: post
 banner: /assets/metadata/posts/building-today-og.png
 main-image: 
 icon: /assets/blog/building-today.webp
-lang: en
 ---
 
 ![3 mockups showing a minimal todo app in dark mode. The third screen is of interest: it shows a modal with the title “it’s a new day”, a list of todos, and a button that reads “Clear and Start Today”](/assets/today-todo-4x3.webp)

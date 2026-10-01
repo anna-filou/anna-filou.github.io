@@ -1,7 +1,6 @@
 ---
 title: Posts
 layout: blog
-lang: en
 ref: posts
 banner: /assets/metadata/posts-og.png
 ---

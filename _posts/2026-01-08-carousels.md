@@ -1,15 +1,12 @@
 ---
 title: "Smart Carousels with CSS"
 date: 2026-01-07T00:00:00.000+00:00
-categories:
-- en
 tags:
 - product
 layout: post
 banner: /assets/metadata/posts/carousels-og.png
 main-image: 
 icon: /assets/blog/carousel.webp
-lang: en
 ---
 
 You’ve undoubtedly seen many carousels on the web. You know how usually the content gets cut off?

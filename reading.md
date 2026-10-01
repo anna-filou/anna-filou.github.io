@@ -1,7 +1,6 @@
 ---
 title: My Bookshelf
 layout: reading
-lang: en
 ref: ''
 banner: /assets/metadata/reading-og.png
 books:

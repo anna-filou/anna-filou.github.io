@@ -1,13 +1,10 @@
 ---
 title: Humans are like cancer cells
 date: 2024-01-05 00:00:00 Z
-categories:
-- en
 tags:
 - philosophy
 layout: post
 main-image: 
-lang: en
 ---
 
 The other day I read an [article that compares capitalism to cancer](https://spencerrscott.substack.com/p/if-capitalism-is-a-cancer-what-are). Many have made the same analogy, but this one goes deeper. 

@@ -1,15 +1,12 @@
 ---
 title: The understated impact of getting fit
 date: 2024-11-01T00:00:00.000+00:00
-categories:
-- en
 tags:
 - life
 layout: post
 banner: /assets/metadata/posts/getting-fit-og.png
 main-image: 
 icon: /assets/blog/getting-fit.webp
-lang: en
 ---
 
 When reading about self-improvement, especially around working out, losing fat and/or building muscle, I’ve seen lots of advice that goes like this: “Even if you reach your goal, not much will change—you'll get used to it, and things will feel the same” and “You don’t like your body now, but even if you get fit, you still won’t. Your improved body will be your new baseline and you’ll always feel inadequate.”

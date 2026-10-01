@@ -1,15 +1,12 @@
 ---
 title: "How I build websites"
 date: 2026-01-05T00:00:00.000+00:00
-categories:
-- en
 tags:
 - product
 layout: post
 banner: /assets/metadata/posts/how-websites-og.png
 main-image: 
 icon: /assets/tools/jekyll.webp
-lang: en
 ---
 
 ![](/assets/how-websites/hero.webp)
