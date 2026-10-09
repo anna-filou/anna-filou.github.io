@@ -4,6 +4,12 @@ layout: reading
 ref: ''
 banner: /assets/metadata/reading-og.png
 books:
+- title: "Career Suicide"
+  cover: "/assets/books/career-suicide.webp"
+  author: Bill Kaulitz
+  read: now
+  pages: 384
+  my-notes: ''
 - title: "The Status Game"
   cover: "/assets/books/the-status-game.jpg"
   author: Will Storr
