@@ -255,7 +255,7 @@ songs:
   snippet: /assets/listening/snippet-46.mp3
   link: https://open.spotify.com/track/3xXBsjrbG1xQIm1xv1cKOt
 - title: more than life
-  artist: "Machine Gun Kelly, Glaive"
+  artist: "mgk, glaive"
   cover: /assets/listening/machine-gun-kelly-glaive-more-than-life-ft-glaive.webp
   snippet: /assets/listening/snippet-47.mp3
   link: https://open.spotify.com/track/3kB1DY1ou9dg5DfPcNuJbT
