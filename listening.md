@@ -19,6 +19,11 @@ songs:
   cover: /assets/listening/berq-rote-flaggen.webp
   snippet: /assets/listening/snippet-06.mp3
   link: https://open.spotify.com/track/7bkUa9kDFGxgCC7d36dzFI
+- title: Crash First
+  artist: "honestav & mgk"
+  cover: /assets/listening/honestav-crash-first.webp
+  snippet: /assets/listening/snippet-64.mp3
+  link: https://open.spotify.com/track/5KoNZJsXDXoQrgCMoHY6FO
 - title: 2 Heads
   artist: Coleman Hell
   cover: /assets/listening/coleman-hell-2-heads.webp
