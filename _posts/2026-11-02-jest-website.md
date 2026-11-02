@@ -31,6 +31,11 @@ I pushed to focus on the story instead of listing features. People have short at
 5. **Where to go next,** including the blog.
 
 <figure>
+  <video autoplay loop muted playsinline src="/assets/jest-website/story-scroll.mp4" class="w-100 br4"></video>
+  <figcaption>The scrolling section: the text scrolls and the image changes with it.</figcaption>
+</figure>
+
+<figure>
   <img src="/assets/jest-website/homepage-hero.webp" alt="The Jest website hero: 'The texting-powered app store' on a purple background with 3D speech bubbles and a phone showing a Jest notification." loading="lazy">
   <figcaption>The hero. It's the first thing the story says.</figcaption>
 </figure>
@@ -92,4 +97,12 @@ I didn't like that, so I changed how I worked with it. I started asking for spec
 
 Is that necessarily good? Maybe. It really gets you unstuck when you're in a rut and ask for a crazy idea. It doesn't matter if the idea comes from a template. It's still different from what you had.
 
-<!-- TODO: add pen.dev canvas screenshots here -->
+<figure>
+  <img src="/assets/jest-website/pen-canvas.webp" alt="The pen.dev canvas for the Jest corporate site, zoomed out to 2%, covering hundreds of report page variations grouped as Report bento, Report page and Report colors." loading="lazy">
+  <figcaption>My pen.dev canvas, zoomed out. This is just the report page.</figcaption>
+</figure>
+
+<figure>
+  <img src="/assets/jest-website/report-explorations.webp" alt="Two versions of the State of Jest report page: a bright purple one with a green accent, and a darker one with neon standouts." loading="lazy">
+  <figcaption>Two directions for the report page. The right one, dark with neon standouts, is the one that shipped.</figcaption>
+</figure>
