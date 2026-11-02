@@ -89,9 +89,10 @@ This decoupling can go even further, as many SSGs let you choose which templatin
 The part inside the brackets is Liquid, and the rest is HTML. Assuming I'm using Jekyll to build the website, for the above to work, there needs to be a file called `links.yml` inside a folder named `_data` inside the parent folder that includes all the website's files (`site`). Inside that `links.yml` I need to have 
 
 ```yml
-search:
-  title: Google
-  url: https://google.com
+links:
+  - search
+    title: Google
+    url: https://google.com
 ```
 
 Then Jekyll will know to replace the Liquid snippets above and produce:
