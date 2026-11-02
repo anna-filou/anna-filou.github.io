@@ -12,6 +12,23 @@ div.highlight, .language-plaintext {
   border-radius: 8px;
 }
 
+// Code blocks: keep line breaks/indentation exactly as written and scroll
+// sideways instead of re-wrapping (inline `code` keeps wrapping via .code, code above).
+div.highlight {
+  overflow-x: auto;
+}
+
+div.highlight pre, div.highlight code {
+  text-wrap: nowrap;        // article.scss sets `text-wrap: balance` on all code, which turns <pre> into pre-wrap
+  white-space: pre;
+  overflow-wrap: normal;
+  tab-size: 2;
+}
+
+div.highlight pre {
+  margin: 1em 0;
+}
+
 @media (max-width: $media-small) {
   div.highlight {
     font-size: .9rem;
