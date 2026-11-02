@@ -44,7 +44,7 @@ layout: default
 			<div class="flex justify-between">
 				<div>
 					{% for tag in grid-item.tags %}
-						<div class="tracked tag tag-{{ tag.color }} mb1 mr1">{{ tag.name }}</div>
+						<div class="tracked pill pill-{{ tag.color }} mb1 mr1">{{ tag.name }}</div>
 					{% endfor %}
 				</div>
 				{% if grid-item.year %}

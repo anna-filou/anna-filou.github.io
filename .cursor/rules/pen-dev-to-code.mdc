@@ -23,7 +23,7 @@ Markup is HTML or Markdown with a `layout:` in front matter. Styling is [Tachyon
 
 - Font size → an existing heading, `.hero-headline` (home hero only), or the nearest `.f1`–`.f7`. Headings are already uppercase; don’t add a one-off size.
 - Fill → the matching semantic class or SCSS variable. Body, headings, links, faint surfaces, and borders already have light and dark values (`$light-*` / `$dark-*`, switched with `prefers-color-scheme`). Don’t paste a Pencil hex when a variable or class is already that color. A new color needs both schemes.
-- Radius → nearest `.br0`–`.br4` (0, .125rem, .25rem, .5rem, 1rem) or `.br-100`. Sibling cards match each other. Tags stay pills (`.tag`).
+- Radius → nearest `.br0`–`.br4` (0, .125rem, .25rem, .5rem, 1rem) or `.br-100`. Sibling cards match each other. Tags stay pills (`.pill`).
 - Space → the Tachyons scale (`.pa3`, `.mt4`, `.gap3`, and the `-ns` / `-l` variants), not `26px`. `-ns` starts at 50em.
 - Width → `.container` (1240px) or `.container-lg` (1440px), or `.measure` for a text column.
 
@@ -33,7 +33,7 @@ Right: `h1` or `.f3`; `.secondary` or `.tertiary`; `.br3` or `.br4` next to the 
 ## Where code goes
 
 - Page chrome stays in `_layouts/default.html` (`navbar`, `footer`). Page content is a root file with a layout, or a data file under `_data/` when the page is a grid (`work-grid` reads `site.data[page.data]`).
-- Reuse what exists: `.secondary`, `.tertiary`, `.bg-faint`, `.b--faint`, `.link`, `.tag`, headings, `.container`. New classes are for **this page’s layout only** when Tachyons can’t do it, and they go in `assets/css/style.scss` (or the `_sass/` partial that already owns that feature).
+- Reuse what exists: `.secondary`, `.tertiary`, `.bg-faint`, `.b--faint`, `.link`, `.pill`, headings, `.container`. New classes are for **this page’s layout only** when Tachyons can’t do it, and they go in `assets/css/style.scss` (or the `_sass/` partial that already owns that feature).
 - Don’t restyle a shared layout or `_sass/typography.scss` to fit one frame. If the layout isn’t that shell, give the page its own layout.
 
 ## Copy

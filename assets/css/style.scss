@@ -710,7 +710,7 @@ hr {
 
 .lh0 { line-height: 0; }
 
-.tag {
+.pill {
   padding: 6px 12px;
   border-radius: 100px;
   display: inline-block;
@@ -720,7 +720,7 @@ hr {
   text-transform: uppercase;
 }
 
-.tag.tag-blue {
+.pill.pill-blue {
   @media (prefers-color-scheme: light) {
     background: #83cfff60;
     color: #003D63;
@@ -731,7 +731,7 @@ hr {
   }
 }
 
-.tag.tag-green {
+.pill.pill-green {
   @media (prefers-color-scheme: light) {
     background: #0ae45333;
     color: #003712;
@@ -742,7 +742,7 @@ hr {
   }
 }
 
-.tag.tag-yellow {
+.pill.pill-yellow {
   @media (prefers-color-scheme: light) {
     background: #ffdd89c9;
     color: #5c4200;
@@ -753,7 +753,7 @@ hr {
   }
 }
 
-.tag.tag-pink {
+.pill.pill-pink {
   @media (prefers-color-scheme: light) {
     background: #ffaffb69;
     color: #760070
