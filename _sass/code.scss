@@ -58,12 +58,12 @@ div.highlight, .language-plaintext {
 
 @media (prefers-color-scheme: dark) {
   div.highlight, .language-plaintext {
-    border: 2px solid #1a3b68;
-    background-color: #00144a;
+    border: 2px solid #2b2f36;
+    background-color: #0e1013;
   }
 }
 
-.highlight .hll { background-color: #00144a }
+.highlight .hll { background-color: #0e1013 }
 // .highlight { background: #00144a; color: #f8f8f2 }
 .highlight .c { color: #4e73ab } /* Comment */
 .highlight .err { color: #960050; background-color: #1e0010 } /* Error */
@@ -133,3 +133,23 @@ div.highlight, .language-plaintext {
 .highlight .vi { color: #f8f8f2 } /* Name.Variable.Instance */
 .highlight .vm { color: #f8f8f2 } /* Name.Variable.Magic */
 .highlight .il { color: #ae81ff } /* Literal.Number.Integer.Long */
+// Light mode: the Monokai token colors above are meant for dark backgrounds
+// (e.g. #f8f8f2 names and #e6db74 strings vanish on light grey), so remap them.
+@media (prefers-color-scheme: light) {
+  .highlight .hll { background-color: #e2e2e2 }
+  .highlight .n, .highlight .p, .highlight .nb, .highlight .ni, .highlight .nl,
+  .highlight .nn, .highlight .py, .highlight .nv, .highlight .w, .highlight .bp,
+  .highlight .vc, .highlight .vg, .highlight .vi, .highlight .vm { color: #24292f }
+  .highlight .c, .highlight .ch, .highlight .cm, .highlight .cp, .highlight .cpf,
+  .highlight .c1, .highlight .cs, .highlight .gu { color: #5a6b85 }
+  .highlight .k, .highlight .kc, .highlight .kd, .highlight .kp, .highlight .kr,
+  .highlight .kt, .highlight .no { color: #0b7285 }
+  .highlight .l, .highlight .m, .highlight .mb, .highlight .mf, .highlight .mh,
+  .highlight .mi, .highlight .mo, .highlight .il, .highlight .se { color: #6f42c1 }
+  .highlight .o, .highlight .ow, .highlight .nt, .highlight .kn, .highlight .gd { color: #cf1a58 }
+  .highlight .na, .highlight .nc, .highlight .nd, .highlight .ne, .highlight .nf,
+  .highlight .nx, .highlight .fm, .highlight .gi { color: #4d7a10 }
+  .highlight .ld, .highlight .s, .highlight .sa, .highlight .sb, .highlight .sc,
+  .highlight .dl, .highlight .sd, .highlight .s2, .highlight .sh, .highlight .si,
+  .highlight .sx, .highlight .sr, .highlight .s1, .highlight .ss { color: #8a5a00 }
+}
