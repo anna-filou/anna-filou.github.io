@@ -14,7 +14,7 @@ type: Web Design, Storytelling
   <figcaption>The <a href="https://about.jest.com/">Jest corporate website</a>, scrolled from top to bottom.</figcaption>
 </figure>
 
-The [Jest corporate website](https://about.jest.com/) is a project in itself, separate from [my product design work at Jest](/2026/02/26/jest/). Its job is to tell developers and investors what Jest is about, and to present us as a playful tech company that is serious about what it does.
+The [Jest corporate website](https://about.jest.com/) is a project in itself, separate from [my product design work at Jest](/jest/). Its job is to tell developers and investors what Jest is about, and to present us as a playful tech company that is serious about what it does.
 
 That second part set the bar for the visuals. The quality of the graphic design had to be at least on par with other tech companies in playful sectors. I believe we got there.
 
