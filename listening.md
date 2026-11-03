@@ -10,7 +10,7 @@ songs:
   snippet: /assets/listening/snippet-01.mp3
   link: https://open.spotify.com/track/0uOgY7Q90XkqibGImcnAER
 - title: Doomed 
-  artist: MAPHRA (BMTH COVER)
+  artist: Maphra (BMTH cover)
   cover: /assets/listening/maphra-doomed.webp
   snippet: /assets/listening/snippet-02.mp3
   link: https://open.spotify.com/track/6uG3lOMamTpecbrxkihC1j
@@ -330,8 +330,7 @@ songs:
 <div class="container mt5 mb5 mt6-ns">
     <h1 class="f1">{{ page.title }}</h1>
     <div class="">
-        <p>Snippets from some of my favorite songs in semi-random order. <strong>Click one to play!</strong></p>
-        <p>These songs don’t simply <b>sound</b> great to me, they make me <b>feel</b> something.</p>
+        <p>Snippets from some of my favorite songs. <strong>Click one to play!</strong></p>
     </div>
 </div>
 
