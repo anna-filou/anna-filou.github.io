@@ -8,6 +8,16 @@
     url: https://about.jest.com/
   img: /assets/work-new/jest.webp
   year: Now
+- title: about.jest.com
+  skills: Web Design • Storytelling
+  case_study:
+    title: Details&nbsp;→
+    url: /jest-website
+  live_site:
+    title: Live&nbsp;↗
+    url: https://about.jest.com/
+  img: /assets/work-new/jest-website.webp
+  year: 2026
 - title: SHOPFLIX.gr
   skills: Design System • UI • Product
   case_study:
@@ -18,6 +28,16 @@
   #   url: https://shopflix.gr/
   img: /assets/work-new/shopflix.webp
   year: 2023—2025
+- title: Today Todo
+  skills: App Design • Development
+  case_study:
+    title: Details&nbsp;→
+    url: /building-today
+  live_site:
+    title: Live&nbsp;↗
+    url: https://today.annafilou.com/
+  img: /assets/work-new/today.webp
+  year: 2025
 # - title: Database™
 #   skills: Design System • UI
 #   case_study:
