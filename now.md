@@ -1,21 +1,19 @@
 ---
 title: Now
 layout: now
-updated: August 24th, 2026
+updated: November 3rd, 2026
 ---
 
-Feeling really inspired to work on side projects these days. Including:
-
-- [Peter’s website](https://petros.contact) — Portfolio website, based on the UI of NieR Automata. Really proud of how it came out! ![Peter’s website](/assets/work-grid/petros-project-page.png)
-
-- [Hema](https://hema-period.netlify.app) — Period tracking PWA, Clue alternative. [Here’s the write-up](/period-app/). ![Hema period tracking app screens](/assets/hema/hema-screens.png)
-
----
-
-I found a webcomic I've been **obsessed** with for the past week: [The Prince of Southland (on Webtoons)](https://www.webtoons.com/en/romance/the-prince-of-southland/list?title_no=2522). Haven't had an obsession this strong since Arcane Season One. 😩 
-
-If you are at all into comics, give it a go! It's in the romance category since there is a central romance driving the plot forward, but there is **a lot of plot**; so much mystery, intrigue, and action. It's really fucking good! 
-
-I’m even drawing fanart—and that means something! 😂
-
-![Fanart of The Prince of Southland](/assets/drawings/1-2026-08-prince-of-southland.png)
+- Currently chilling in a quiet town in Sifnos, in a house by the beach.
+- I’m absolutely obsessed with this song: [Crash First](https://www.youtube.com/watch?v=TABcblk9w8M)
+  - Must have listened to it at least 30 times within a couple of days. I’m dangerously close to getting sick of it.
+- Been really into starting side projects these days.
+  - I made a custom Android launcher for my grandma, to fix all of her pain points:
+    - Missing calls and messages because she can’t see the tiny notifications
+    - Accidentally moving and removing icons from the home screen
+    - Not being able to figure out how to turn the sound or data connection back on
+    - … and more
+  - A one-word-at-a-time speed reading app that displays images in addition to text, and where the controls remain always within reach.
+  - A vibe-coded digital version of the Love Letter card game.
+    - I burned out getting the logic right and now I don’t feel like doing the visuals. Maybe another time.
+  - I feel there’s more, but I can’t list any more off the top of my head.
