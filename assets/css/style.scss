@@ -904,6 +904,13 @@ hr {
     ".";
 }
 
+/* 18rem floor: 3 cols in the container, 2 until a col would be narrower, then 1. */
+.project-grid {
+  grid-template-rows: none;
+  grid-template-areas: none;
+  grid-template-columns: repeat(auto-fill, minmax(min(100%, 16rem), 1fr));
+}
+
 
 /* Tachyons -NS */
 @media screen and (min-width: 50em) { 
@@ -938,12 +945,6 @@ hr {
       ". .";
   }
 
-  .project-grid { 
-    grid-template-columns: 1fr 1fr;
-    grid-template-areas:
-      ". .";
-  }
-
   .pa35-m {
     padding: 1.5rem;
   }
@@ -954,12 +955,6 @@ hr {
 
   .pa35-l {
     padding: 1.5rem;
-  }
-
-  .project-grid { 
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-areas:
-      ". . .";
   }
 }
 
