@@ -20,7 +20,11 @@
         -moz-box-sizing: border-box;
         -webkit-box-sizing: border-box;
   }
-  .masonry-item img{max-width:100%;}
+  .masonry-item img {
+      max-width: 100%;
+      // Scale the intrinsic height with the column width.
+      height: auto;
+  }
   
   @media only screen and (max-width: 550px) {
       .masonry {
