@@ -19,8 +19,8 @@ layout: default
 </div>
 
 <div class="vw-100">
-    <img src="{{page.banner}}" alt="" class="w-100 dn db-ns">
-    <img src="{{page.banner-mobile}}" alt="" class="w-100 db dn-ns">
+    <img src="{{page.banner}}" alt="" class="w-100 dn db-ns h-auto">
+    <img src="{{page.banner-mobile}}" alt="" class="w-100 db dn-ns h-auto">
 </div>
 
 <!-- GENERATED SECTIONS -->
@@ -43,22 +43,22 @@ layout: default
             <div class="cf">
                 <div class="w-50-ns fl mb3 mb0-ns">
                     {% if section.image-1 contains '.mp4' %}
-                        <video autoplay loop muted class="w-100 br4">
+                        <video autoplay loop muted class="w-100 br4 h-auto">
                             <source src="{{section.image-1}}" type="video/mp4">
                             Your browser does not support the video tag.
                         </video>
                     {% else %}
-                        <img src="{{section.image-1}}" class="br4" alt="" loading="lazy" decoding="async">
+                        <img src="{{section.image-1}}" class="br4 h-auto" alt="" loading="lazy" decoding="async">
                     {% endif %}
                 </div>
                 <div class="w-50-ns fl">
                     {% if section.image-2 contains '.mp4' %}
-                        <video autoplay loop muted class="w-100 br4">
+                        <video autoplay loop muted class="w-100 br4 h-auto">
                             <source src="{{section.image-2}}" type="video/mp4">
                             Your browser does not support the video tag.
                         </video>
                     {% else %}
-                        <img src="{{section.image-2}}" class="br4" alt="" loading="lazy" decoding="async">
+                        <img src="{{section.image-2}}" class="br4 h-auto" alt="" loading="lazy" decoding="async">
                     {% endif %}
                 </div>
             </div>
@@ -66,12 +66,12 @@ layout: default
         
             <div class="mb3 mb0-ns">
                 {% if section.image-1 contains '.mp4' %}
-                    <video autoplay loop muted class="w-100 br4">
+                    <video autoplay loop muted class="w-100 br4 h-auto">
                         <source src="{{section.image-1}}" type="video/mp4">
                         Your browser does not support the video tag.
                     </video>
                 {% else %}
-                    <img src="{{section.image-1}}" class="br4" alt="" loading="lazy" decoding="async">
+                    <img src="{{section.image-1}}" class="br4 h-auto" alt="" loading="lazy" decoding="async">
                 {% endif %}
             </div>
 
