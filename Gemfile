@@ -31,3 +31,7 @@ gem "logger"
 
 gem "webrick"
 # gem "did_you_mean"
+# Build-time media dimensions (no external image/video tools required).
+gem "fastimage", "~> 2.4"
+gem "format_parser", "~> 2.0"
+gem "nokogiri", "~> 1.18"
