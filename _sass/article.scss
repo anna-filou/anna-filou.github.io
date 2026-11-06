@@ -9,6 +9,13 @@ article {
   line-height: 1.5;
 }
 
+// Intrinsic dimensions reserve space before media loads; keep it responsive.
+article img,
+article video {
+  max-width: 100%;
+  height: auto;
+}
+
 article p {
   margin: 1.2em;
 }
