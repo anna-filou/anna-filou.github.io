@@ -62,8 +62,8 @@ items:
   - title: "Q-Pass.gr"
     desc: "Clean website promoting an upcoming mobile app to merchants, complete with a dashboard login page. Custom HTML & CSS handed over to the client to make it interactive."
     link:
-      title: "Live ↗"
-      url: "https://q-pass.gr/"
+      title: "Archived ↗"
+      url: "https://q-pass-temporary.netlify.app/"
     media: "/assets/work-grid/q-pass.mp4"
     thumb: "/assets/work-grid/q-pass-thumb.webp"
     year: 2024
