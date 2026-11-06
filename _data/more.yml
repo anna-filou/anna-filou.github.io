@@ -5,7 +5,7 @@
   ref: 'index'
 - title: About me
   desc: Personality & Experience
-  img: "/assets/more-grid/about.webp"
+  img: "/assets/more-grid/about-selfie.png"
   url: about
 - title: Posts
   desc: Thoughts I’ve shared
