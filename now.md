@@ -16,4 +16,5 @@ updated: November 3rd, 2026
   - A one-word-at-a-time speed reading app that displays images in addition to text, and where the controls remain always within reach.
   - A vibe-coded digital version of the Love Letter card game.
     - I burned out getting the logic right and now I don’t feel like doing the visuals. Maybe another time.
+  - [Meadow](https://annafilou.com/meadow-app/), an Android app inspired by Limit that blocks distracting apps, and turns a meadow clear or foggy to match your mind.
   - I feel there’s more, but I can’t list any more off the top of my head.
