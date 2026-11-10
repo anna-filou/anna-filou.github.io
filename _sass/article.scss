@@ -149,3 +149,16 @@ code {
   }
 
 }
+
+// Let a gallery extend past the reading column without changing the post layout.
+article:has(.wide-gallery) {
+  overflow: visible;
+}
+
+.wide-gallery {
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+  width: calc(100vw - 64px);
+  max-width: 1376px;
+}

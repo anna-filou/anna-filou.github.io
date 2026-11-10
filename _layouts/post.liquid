@@ -20,6 +20,10 @@ layout: default
   </main>
 </article>
 
+{% if page.lightbox %}
+  {% include art-lightbox.html %}
+{% endif %}
+
 <hr>
 
 <div id="more-articles" class="mt5 pa3 flex flex-column items-center">
