@@ -18,6 +18,13 @@
     url: https://about.jest.com/
   img: /assets/work-new/jest-website.webp
   year: 2026
+- title: Meadow
+  skills: Android App Design
+  case_study:
+    title: Details&nbsp;→
+    url: /limit-app
+  img: /assets/work-new/limit.webp
+  year: Now
 - title: SHOPFLIX.gr
   skills: Design System • UI • Product
   case_study:
