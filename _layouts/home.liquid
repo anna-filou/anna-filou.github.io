@@ -87,18 +87,27 @@ layout: default
     <div class="bw1 bt b--faint w-100 mh3"></div>
   </div>  
 
+  {% comment %} Tile video: the inline aspect-ratio is deliberate. media_dimensions.rb adds the file's own ratio to videos unless one is already inline, and the stylesheet can't override it. {% endcomment %}
   <div class="project-grid ">
     {% for project in site.data.works %}
       <div class="bg-faint mb3 overflow-hidden br4">
           {% if project.case_study %}
             <div class="overflow-hidden bb bw1 b--faint">
               <a href="{{ project.case_study.url }}" class="project-image db grow" aria-label="{{ project.title }} Case Study">
+                {% if project.video %}
+                <video src="{{ project.video }}" poster="{{ project.img }}" class="db project-video" width="371" height="431" style="aspect-ratio: 371 / 431;" autoplay loop muted playsinline preload="metadata" aria-hidden="true"></video>
+                {% else %}
                 <img src="{{ project.img }}" class="db" alt="" width="371" height="431" loading="lazy" decoding="async">
+                {% endif %}
               </a>
             </div>
           {% else %}
           <div class="project-image db bb bw1 b--faint">
-            <img src="{{ project.img }}" class="db" alt="" width="371" height="431" loading="lazy" decoding="async">
+            {% if project.video %}
+                <video src="{{ project.video }}" poster="{{ project.img }}" class="db project-video" width="371" height="431" style="aspect-ratio: 371 / 431;" autoplay loop muted playsinline preload="metadata" aria-hidden="true"></video>
+                {% else %}
+                <img src="{{ project.img }}" class="db" alt="" width="371" height="431" loading="lazy" decoding="async">
+                {% endif %}
           </div>
             
           {% endif %}
