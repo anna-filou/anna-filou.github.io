@@ -11,6 +11,17 @@ from = "/en/i-made-my-own-period-app/"
 to = "/period-app/"
 status = 301
 
+# Meadow moved from /meadow-app to /meadow.
+[[redirects]]
+from = "/meadow-app"
+to = "/meadow/"
+status = 301
+
+[[redirects]]
+from = "/meadow-app/"
+to = "/meadow/"
+status = 301
+
 # Former Greek homepage. /el/mle is a real post and is not redirected.
 [[redirects]]
 from = "/el"

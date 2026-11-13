@@ -2,7 +2,7 @@
 layout: post
 title: 'Meadow'
 description: 'An Android app inspired by Limit that blocks distracting apps, and turns a meadow clear or foggy to match your mind.'
-permalink: /meadow-app/
+permalink: /meadow/
 sitemap: false
 lightbox: true
 date: 2026-11-10
@@ -12,7 +12,7 @@ date: 2026-11-10
 
 [Limit](https://freedom.to/limitapp) is a free iOS app from the makers of Freedom, which I also use. I emailed the developers and they have no immediate plans for an Android version, so I made my own take on it.
 
-![Meadow in its day theme: blocking on and blocking paused.](/assets/meadow-app/hero.webp)
+<video src="/assets/meadow-app/hero.mp4" width="1200" height="740" autoplay loop muted playsinline aria-label="Meadow in its day theme: blocking on and blocking paused."></video>
 
 ## The idea
 
