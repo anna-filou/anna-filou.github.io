@@ -10,7 +10,7 @@ links:
   icon: /assets/meta/an-favicon-256.png
 - title: About me
   description: 
-  url: 'https://annafilou.com/about/'
+  url: '/about/'
   icon: 
   size: 
   pill: 
